@@ -1,0 +1,19 @@
+{
+  "res": {
+    "input_path": "/workspace/math_work/original/067.png",
+    "page_index": null,
+    "boxes": [
+      {
+        "cls_id": 1,
+        "label": "image",
+        "score": 0.5001528263092041,
+        "coordinate": [
+          107.0640640258789,
+          843.5730590820312,
+          891.4634399414062,
+          1383.138916015625
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:textbook-wiki:schema:1.0",
+  "title": "Textbook Wiki export with explicitly unreviewed semantic candidates",
+  "type": "object",
+  "required": ["schema_version", "book_id", "source_filename", "language", "source_pdf", "corrected_pdf", "coordinate_system", "provenance", "pages", "assets"],
+  "properties": {
+    "schema_version": {"const": "textbook-wiki/1.0"},
+    "book_id": {"type": "string"},
+    "source_filename": {"type": "string"},
+    "language": {"const": "kk-Cyrl"},
+    "source_pdf": {"$ref": "#/$defs/pdf"},
+    "corrected_pdf": {"$ref": "#/$defs/pdf"},
+    "coordinate_system": {"type": "object"},
+    "provenance": {"type": "object"},
+    "title_candidates": {"type": "array"},
+    "lesson_candidates": {"type": "array"},
+    "pages": {"type": "array", "items": {"$ref": "#/$defs/page"}},
+    "assets": {"type": "array", "items": {"type": "object", "required": ["id", "path", "kind"], "properties": {"id": {"type": "string"}, "path": {"type": "string"}, "kind": {"type": "string"}}}}
+  },
+  "$defs": {
+    "bbox": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"type": "number"}},
+    "pdf": {"type": "object", "required": ["path", "sha256", "page_count"], "properties": {"path": {"type": "string"}, "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "page_count": {"type": "integer", "minimum": 1}}},
+    "line": {
+      "type": "object",
+      "required": ["id", "source_line_id", "text", "bbox", "bbox_pdf_pt", "raw_text", "ocr_confidence", "active"],
+      "properties": {
+        "id": {"type": "string"}, "source_line_id": {"type": "string"},
+        "text": {"type": "string"}, "bbox": {"$ref": "#/$defs/bbox"},
+        "bbox_pdf_pt": {"$ref": "#/$defs/bbox"},
+        "raw_text": {"type": ["string", "null"]},
+        "ocr_confidence": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "active": {"type": "boolean"}
+      }
+    },
+    "question": {
+      "type": "object", "required": ["id", "printed_number", "marker_line_id", "line_ids", "review_status", "answer"],
+      "properties": {"id": {"type": "string"}, "printed_number": {"type": "string"}, "marker_line_id": {"type": "string"}, "line_ids": {"type": "array", "items": {"type": "string"}}, "review_status": {"type": "string"}, "answer": {"type": "null"}}
+    },
+    "page": {
+      "type": "object",
+      "required": ["id", "pdf_page_index", "pdf_page_number", "image", "image_width", "image_height", "lines", "reading_order_candidate", "paragraph_candidates", "question_candidates", "layout_regions", "form_fields", "proofreading_notes"],
+      "properties": {
+        "id": {"type": "string"}, "pdf_page_index": {"type": "integer", "minimum": 0},
+        "pdf_page_number": {"type": "integer", "minimum": 1},
+        "printed_page_label": {"type": ["string", "null"]},
+        "image": {"type": "string"}, "image_width": {"type": "integer", "minimum": 1},
+        "image_height": {"type": "integer", "minimum": 1},
+        "lines": {"type": "array", "items": {"$ref": "#/$defs/line"}},
+        "reading_order_candidate": {"type": "array", "items": {"type": "string"}},
+        "paragraph_candidates": {"type": "array"},
+        "question_candidates": {"type": "array", "items": {"$ref": "#/$defs/question"}},
+        "layout_regions": {"type": "array"}, "form_fields": {"type": "array"},
+        "proofreading_notes": {"type": ["array", "string", "object", "null"]}
+      }
+    }
+  }
+}

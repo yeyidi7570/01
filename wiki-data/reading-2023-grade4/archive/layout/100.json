@@ -1,0 +1,19 @@
+{
+  "res": {
+    "input_path": "/workspace/ocr_work/original/100.png",
+    "page_index": null,
+    "boxes": [
+      {
+        "cls_id": 1,
+        "label": "image",
+        "score": 0.6955580115318298,
+        "coordinate": [
+          12.204419136047363,
+          0,
+          895.3690795898438,
+          1444.7513427734375
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "textbook-catalog/1.0",
+  "books": [
+    {
+      "book_id": "reading-2023-grade4",
+      "source_filename": "阅读技能训练册2023_哈语教材（4）_Өлке.pdf",
+      "pages": 100,
+      "wiki_json": "reading-2023-grade4/wiki.json",
+      "raw_json": "reading-2023-grade4/raw.json",
+      "final_json": "reading-2023-grade4/final.json",
+      "source_pdf_sha256": "ed24edfa912506cbde1b6c7b109fbf3fc1d74e347ae2a0d79b975dc350f2c07f",
+      "page_count": 100,
+      "total_final_lines": 2532,
+      "active_final_lines": 2529,
+      "question_candidates": 94,
+      "assets": 10,
+      "all_final_lines_exported": true
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "source_filename": "数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП.pdf",
+      "pages": 152,
+      "wiki_json": "math-2023-grade4-part1/wiki.json",
+      "raw_json": "math-2023-grade4-part1/raw.json",
+      "final_json": "math-2023-grade4-part1/final.json",
+      "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+      "page_count": 152,
+      "total_final_lines": 7657,
+      "active_final_lines": 6704,
+      "question_candidates": 446,
+      "assets": 538,
+      "all_final_lines_exported": true
+    }
+  ]
+}
