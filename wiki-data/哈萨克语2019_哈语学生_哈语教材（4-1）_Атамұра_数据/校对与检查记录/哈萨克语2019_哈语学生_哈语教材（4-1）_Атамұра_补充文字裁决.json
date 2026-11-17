@@ -1,0 +1,288 @@
+[
+  {
+    "page": 13,
+    "side": "b",
+    "addition_index": 0,
+    "text": "КІТАПХАНА",
+    "bbox": [
+      283,
+      208,
+      334,
+      224
+    ],
+    "decision": "covered_by_round1_or_unreadable"
+  },
+  {
+    "page": 19,
+    "side": "a",
+    "addition_index": 0,
+    "text": "↑ ↑ ↑ ↑",
+    "bbox": [
+      603,
+      467,
+      700,
+      492
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 19,
+    "side": "a",
+    "addition_index": 1,
+    "text": "Т ы д у д і ғ а ң а ш а н и у ж п а е а с р",
+    "bbox": [
+      473,
+      888,
+      854,
+      1264
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 19,
+    "side": "b",
+    "addition_index": 0,
+    "text": "т ы д у д і ғ а ң а ш а н и у ж п а е а с р",
+    "bbox": [
+      474,
+      883,
+      853,
+      1264
+    ],
+    "decision": "covered_by_round1_or_unreadable"
+  },
+  {
+    "page": 26,
+    "side": "a",
+    "addition_index": 0,
+    "text": "−",
+    "bbox": [
+      450,
+      415,
+      465,
+      435
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 26,
+    "side": "a",
+    "addition_index": 1,
+    "text": "’’",
+    "bbox": [
+      262,
+      375,
+      290,
+      397
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 26,
+    "side": "a",
+    "addition_index": 2,
+    "text": "’’",
+    "bbox": [
+      644,
+      375,
+      672,
+      397
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 26,
+    "side": "a",
+    "addition_index": 3,
+    "text": "’’",
+    "bbox": [
+      736,
+      375,
+      765,
+      397
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 26,
+    "side": "a",
+    "addition_index": 4,
+    "text": "’",
+    "bbox": [
+      802,
+      375,
+      817,
+      397
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 26,
+    "side": "b",
+    "addition_index": 0,
+    "text": "-",
+    "bbox": [
+      451,
+      417,
+      466,
+      432
+    ],
+    "decision": "covered_by_round1_or_unreadable"
+  },
+  {
+    "page": 26,
+    "side": "b",
+    "addition_index": 1,
+    "text": ",,",
+    "bbox": [
+      260,
+      376,
+      290,
+      401
+    ],
+    "decision": "covered_by_round1_or_unreadable"
+  },
+  {
+    "page": 26,
+    "side": "b",
+    "addition_index": 2,
+    "text": ",,",
+    "bbox": [
+      644,
+      376,
+      674,
+      400
+    ],
+    "decision": "covered_by_round1_or_unreadable"
+  },
+  {
+    "page": 26,
+    "side": "b",
+    "addition_index": 3,
+    "text": ",,",
+    "bbox": [
+      736,
+      376,
+      764,
+      400
+    ],
+    "decision": "covered_by_round1_or_unreadable"
+  },
+  {
+    "page": 26,
+    "side": "b",
+    "addition_index": 4,
+    "text": ",",
+    "bbox": [
+      802,
+      376,
+      820,
+      400
+    ],
+    "decision": "covered_by_round1_or_unreadable"
+  },
+  {
+    "page": 71,
+    "side": "a",
+    "addition_index": 0,
+    "text": "ДӘСТҮРЛІ 1000 КҮЙІ",
+    "bbox": [
+      400,
+      650,
+      550,
+      674
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 73,
+    "side": "b",
+    "addition_index": 1,
+    "text": "’",
+    "bbox": [
+      241,
+      561,
+      260,
+      590
+    ],
+    "decision": "covered_by_round1_or_unreadable"
+  },
+  {
+    "page": 76,
+    "side": "b",
+    "addition_index": 1,
+    "text": ".",
+    "bbox": [
+      914,
+      346,
+      924,
+      362
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 102,
+    "side": "b",
+    "addition_index": 0,
+    "text": "ыстық",
+    "bbox": [
+      693,
+      324,
+      766,
+      363
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 102,
+    "side": "b",
+    "addition_index": 1,
+    "text": "суық",
+    "bbox": [
+      693,
+      349,
+      752,
+      389
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 132,
+    "side": "a",
+    "addition_index": 0,
+    "text": "Ж",
+    "bbox": [
+      437,
+      1025,
+      473,
+      1058
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 132,
+    "side": "a",
+    "addition_index": 1,
+    "text": "О",
+    "bbox": [
+      498,
+      1025,
+      523,
+      1059
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 132,
+    "side": "a",
+    "addition_index": 2,
+    "text": "Б",
+    "bbox": [
+      548,
+      1025,
+      576,
+      1059
+    ],
+    "decision": "retain_round1"
+  }
+]
