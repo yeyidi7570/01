@@ -68,6 +68,23 @@
       "all_final_lines_exported": true,
       "directory": "哈萨克语2019_哈语学生_哈语教材（4-2）_Атамұра_数据",
       "original_basename": "哈萨克语2019_哈语学生_哈语教材（4-2）_Атамұра"
+    },
+    {
+      "book_id": "russian-2023-ru-student-grade4-part1-almatykitap",
+      "source_filename": "俄语2023_俄语学生_俄语教材（4-1）_АЛМАТЫКIТАП.pdf",
+      "pages": 112,
+      "wiki_json": "俄语2023_俄语学生_俄语教材（4-1）_АЛМАТЫКIТАП_数据/俄语2023_俄语学生_俄语教材（4-1）_АЛМАТЫКIТАП_Wiki.json",
+      "raw_json": "俄语2023_俄语学生_俄语教材（4-1）_АЛМАТЫКIТАП_数据/俄语2023_俄语学生_俄语教材（4-1）_АЛМАТЫКIТАП_原始OCR.json",
+      "final_json": "俄语2023_俄语学生_俄语教材（4-1）_АЛМАТЫКIТАП_数据/俄语2023_俄语学生_俄语教材（4-1）_АЛМАТЫКIТАП_最终校对.json",
+      "source_pdf_sha256": "7697944b31e0a083f4b79ba9bc84c4b95ad127a53584c0e51083c98c2eac31ff",
+      "page_count": 112,
+      "total_final_lines": 7543,
+      "active_final_lines": 6641,
+      "question_candidates": 297,
+      "assets": 537,
+      "all_final_lines_exported": true,
+      "directory": "俄语2023_俄语学生_俄语教材（4-1）_АЛМАТЫКIТАП_数据",
+      "original_basename": "俄语2023_俄语学生_俄语教材（4-1）_АЛМАТЫКIТАП"
     }
   ]
 }

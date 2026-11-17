@@ -52,6 +52,19 @@
       },
       "source_bbox_outside_image": [],
       "semantic_structure": "automatic_candidates_not_manually_reviewed"
+    },
+    {
+      "book_id": "russian-2023-ru-student-grade4-part1-almatykitap",
+      "status": "passed",
+      "checks": {
+        "unchanged_archive_files": 560,
+        "unchanged_source_page_images": 112,
+        "exact_final_lines": 7543,
+        "readable_asset_images": 537,
+        "verified_pdfs": 2
+      },
+      "source_bbox_outside_image": [],
+      "semantic_structure": "automatic_candidates_not_manually_reviewed"
     }
   ],
   "scope": "JSON Schema, exact final text, byte-identical retained archives and page PNGs, unique IDs, line references, paragraph coverage, readable image resources, PDF hashes and page counts. Not a semantic proofreading assessment."

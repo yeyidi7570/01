@@ -1,0 +1,902 @@
+{
+  "page_count": 112,
+  "max_single_image_fraction_on_rebuilt_scan_pages": 0.38039617188377356,
+  "original_native_page_backgrounds": [
+    {
+      "page": 1,
+      "maximum_image_fraction": 0,
+      "original_native_text_preserved": true
+    },
+    {
+      "page": 3,
+      "maximum_image_fraction": 0.9996869513952087,
+      "original_native_text_preserved": true
+    },
+    {
+      "page": 110,
+      "maximum_image_fraction": 0,
+      "original_native_text_preserved": true
+    },
+    {
+      "page": 111,
+      "maximum_image_fraction": 0,
+      "original_native_text_preserved": true
+    },
+    {
+      "page": 112,
+      "maximum_image_fraction": 0,
+      "original_native_text_preserved": true
+    }
+  ],
+  "minimum_visible_text_characters": 490,
+  "specials": {
+    "Ё": 1,
+    "ё": 467,
+    "Ъ": 1,
+    "ъ": 39,
+    "Ь": 19,
+    "ь": 2199,
+    "́": 1029,
+    "¹": 39,
+    "²": 44,
+    "³": 1,
+    "ᶜ": 91,
+    "Ә": 2,
+    "Ғ": 0,
+    "Қ": 3,
+    "Ң": 0,
+    "Ө": 0,
+    "Ұ": 0,
+    "Ү": 0,
+    "Һ": 0,
+    "І": 8,
+    "ә": 3,
+    "ғ": 9,
+    "қ": 25,
+    "ң": 5,
+    "ө": 3,
+    "ұ": 4,
+    "ү": 6,
+    "һ": 0,
+    "і": 22
+  },
+  "missing_character_counts": [],
+  "search_failures": [],
+  "accented_word_search_samples": [
+    {
+      "page": 4,
+      "word": "хозя́ин",
+      "found": true
+    },
+    {
+      "page": 4,
+      "word": "челове́к",
+      "found": true
+    },
+    {
+      "page": 5,
+      "word": "Казахста́н",
+      "found": true
+    },
+    {
+      "page": 5,
+      "word": "Ро́дина",
+      "found": true
+    },
+    {
+      "page": 8,
+      "word": "на́ция",
+      "found": true
+    },
+    {
+      "page": 8,
+      "word": "согла́сие",
+      "found": true
+    },
+    {
+      "page": 9,
+      "word": "колоко́льчик",
+      "found": true
+    },
+    {
+      "page": 12,
+      "word": "ау́л",
+      "found": true
+    },
+    {
+      "page": 12,
+      "word": "оча́г",
+      "found": true
+    },
+    {
+      "page": 15,
+      "word": "ва́ленки",
+      "found": true
+    },
+    {
+      "page": 15,
+      "word": "лопа́та",
+      "found": true
+    },
+    {
+      "page": 15,
+      "word": "рома́шка",
+      "found": true
+    },
+    {
+      "page": 15,
+      "word": "Анагра́мма",
+      "found": true
+    },
+    {
+      "page": 15,
+      "word": "ри́н",
+      "found": true
+    },
+    {
+      "page": 15,
+      "word": "си́н",
+      "found": true
+    },
+    {
+      "page": 19,
+      "word": "запева́ть",
+      "found": true
+    },
+    {
+      "page": 19,
+      "word": "пе́ть",
+      "found": true
+    },
+    {
+      "page": 19,
+      "word": "ковы́ль",
+      "found": true
+    },
+    {
+      "page": 19,
+      "word": "саксау́л",
+      "found": true
+    },
+    {
+      "page": 19,
+      "word": "карага́ч",
+      "found": true
+    },
+    {
+      "page": 19,
+      "word": "сайга́к",
+      "found": true
+    },
+    {
+      "page": 20,
+      "word": "ено́т",
+      "found": true
+    },
+    {
+      "page": 23,
+      "word": "ваго́н",
+      "found": true
+    },
+    {
+      "page": 23,
+      "word": "конве́рт",
+      "found": true
+    },
+    {
+      "page": 24,
+      "word": "обезья́на",
+      "found": true
+    },
+    {
+      "page": 25,
+      "word": "виногра́д",
+      "found": true
+    },
+    {
+      "page": 25,
+      "word": "абрико́с",
+      "found": true
+    },
+    {
+      "page": 26,
+      "word": "пиала́",
+      "found": true
+    },
+    {
+      "page": 26,
+      "word": "бауырса́к",
+      "found": true
+    },
+    {
+      "page": 26,
+      "word": "дастарха́н",
+      "found": true
+    },
+    {
+      "page": 38,
+      "word": "хло́пок",
+      "found": true
+    },
+    {
+      "page": 41,
+      "word": "родни́к",
+      "found": true
+    },
+    {
+      "page": 41,
+      "word": "мо́лния",
+      "found": true
+    },
+    {
+      "page": 48,
+      "word": "бога́тство",
+      "found": true
+    },
+    {
+      "page": 49,
+      "word": "колыбе́ль",
+      "found": true
+    },
+    {
+      "page": 49,
+      "word": "воро́та",
+      "found": true
+    },
+    {
+      "page": 51,
+      "word": "кани́кулы",
+      "found": true
+    },
+    {
+      "page": 51,
+      "word": "аккура́тность",
+      "found": true
+    },
+    {
+      "page": 52,
+      "word": "ка́мень",
+      "found": true
+    },
+    {
+      "page": 54,
+      "word": "Оте́чество",
+      "found": true
+    },
+    {
+      "page": 56,
+      "word": "патрио́т",
+      "found": true
+    },
+    {
+      "page": 56,
+      "word": "тради́ция",
+      "found": true
+    },
+    {
+      "page": 58,
+      "word": "оро́гой",
+      "found": true
+    },
+    {
+      "page": 62,
+      "word": "балко́н",
+      "found": true
+    },
+    {
+      "page": 62,
+      "word": "боло́то",
+      "found": true
+    },
+    {
+      "page": 64,
+      "word": "сторожа́",
+      "found": true
+    },
+    {
+      "page": 65,
+      "word": "щаве́ль",
+      "found": true
+    },
+    {
+      "page": 67,
+      "word": "ве́ль",
+      "found": true
+    },
+    {
+      "page": 67,
+      "word": "Одна́жды",
+      "found": true
+    },
+    {
+      "page": 67,
+      "word": "впереди́",
+      "found": true
+    },
+    {
+      "page": 67,
+      "word": "схвати́ть",
+      "found": true
+    },
+    {
+      "page": 67,
+      "word": "отогна́л",
+      "found": true
+    },
+    {
+      "page": 72,
+      "word": "ста́рость",
+      "found": true
+    },
+    {
+      "page": 72,
+      "word": "дикта́нт",
+      "found": true
+    },
+    {
+      "page": 76,
+      "word": "бо́льшее",
+      "found": true
+    },
+    {
+      "page": 80,
+      "word": "Ю́р",
+      "found": true
+    },
+    {
+      "page": 80,
+      "word": "зе́й",
+      "found": true
+    },
+    {
+      "page": 81,
+      "word": "перепи́ска",
+      "found": true
+    },
+    {
+      "page": 81,
+      "word": "перепи́ской",
+      "found": true
+    },
+    {
+      "page": 81,
+      "word": "перепи́ску",
+      "found": true
+    },
+    {
+      "page": 81,
+      "word": "пе́репись",
+      "found": true
+    },
+    {
+      "page": 81,
+      "word": "по́дпись",
+      "found": true
+    },
+    {
+      "page": 81,
+      "word": "писа́ть",
+      "found": true
+    },
+    {
+      "page": 85,
+      "word": "карава́н",
+      "found": true
+    },
+    {
+      "page": 85,
+      "word": "гео́лог",
+      "found": true
+    },
+    {
+      "page": 85,
+      "word": "карти́на",
+      "found": true
+    },
+    {
+      "page": 85,
+      "word": "абрико́с",
+      "found": true
+    },
+    {
+      "page": 85,
+      "word": "го́род",
+      "found": true
+    },
+    {
+      "page": 85,
+      "word": "кварти́ра",
+      "found": true
+    },
+    {
+      "page": 86,
+      "word": "метро́",
+      "found": true
+    },
+    {
+      "page": 86,
+      "word": "три́ста",
+      "found": true
+    },
+    {
+      "page": 86,
+      "word": "просто́р",
+      "found": true
+    },
+    {
+      "page": 86,
+      "word": "мечта́ть",
+      "found": true
+    },
+    {
+      "page": 86,
+      "word": "профе́ссия",
+      "found": true
+    },
+    {
+      "page": 86,
+      "word": "тролле́йбус",
+      "found": true
+    },
+    {
+      "page": 87,
+      "word": "взгля́нешь",
+      "found": true
+    },
+    {
+      "page": 87,
+      "word": "взгля́нет",
+      "found": true
+    },
+    {
+      "page": 87,
+      "word": "а́вгустовский",
+      "found": true
+    },
+    {
+      "page": 87,
+      "word": "августо́вский",
+      "found": true
+    },
+    {
+      "page": 87,
+      "word": "взята́",
+      "found": true
+    },
+    {
+      "page": 87,
+      "word": "взяла́",
+      "found": true
+    },
+    {
+      "page": 88,
+      "word": "дире́ктор",
+      "found": true
+    },
+    {
+      "page": 88,
+      "word": "зе́бры",
+      "found": true
+    },
+    {
+      "page": 88,
+      "word": "директора́",
+      "found": true
+    },
+    {
+      "page": 88,
+      "word": "добы́ча",
+      "found": true
+    },
+    {
+      "page": 88,
+      "word": "земля́",
+      "found": true
+    },
+    {
+      "page": 88,
+      "word": "зе́млю",
+      "found": true
+    },
+    {
+      "page": 89,
+      "word": "крыжо́вник",
+      "found": true
+    },
+    {
+      "page": 89,
+      "word": "мусоропрово́д",
+      "found": true
+    },
+    {
+      "page": 89,
+      "word": "кру́жится",
+      "found": true
+    },
+    {
+      "page": 89,
+      "word": "мя́гкий",
+      "found": true
+    },
+    {
+      "page": 89,
+      "word": "мя́гче",
+      "found": true
+    },
+    {
+      "page": 89,
+      "word": "кумы́с",
+      "found": true
+    },
+    {
+      "page": 90,
+      "word": "портфе́ль",
+      "found": true
+    },
+    {
+      "page": 90,
+      "word": "о́кна",
+      "found": true
+    },
+    {
+      "page": 90,
+      "word": "око́н",
+      "found": true
+    },
+    {
+      "page": 90,
+      "word": "ола́дья",
+      "found": true
+    },
+    {
+      "page": 90,
+      "word": "права́",
+      "found": true
+    },
+    {
+      "page": 90,
+      "word": "пра́вы",
+      "found": true
+    },
+    {
+      "page": 91,
+      "word": "табуре́т",
+      "found": true
+    },
+    {
+      "page": 91,
+      "word": "ца́пля",
+      "found": true
+    },
+    {
+      "page": 91,
+      "word": "ца́пли",
+      "found": true
+    },
+    {
+      "page": 91,
+      "word": "ца́пель",
+      "found": true
+    },
+    {
+      "page": 91,
+      "word": "цеме́нт",
+      "found": true
+    },
+    {
+      "page": 91,
+      "word": "танцо́вщица",
+      "found": true
+    },
+    {
+      "page": 92,
+      "word": "блесте́ть",
+      "found": true
+    },
+    {
+      "page": 92,
+      "word": "блестя́щий",
+      "found": true
+    },
+    {
+      "page": 92,
+      "word": "блесну́ть",
+      "found": true
+    },
+    {
+      "page": 92,
+      "word": "заблесте́ть",
+      "found": true
+    },
+    {
+      "page": 92,
+      "word": "больно́й",
+      "found": true
+    },
+    {
+      "page": 92,
+      "word": "больни́чный",
+      "found": true
+    },
+    {
+      "page": 93,
+      "word": "Икра́",
+      "found": true
+    },
+    {
+      "page": 93,
+      "word": "и́кра",
+      "found": true
+    },
+    {
+      "page": 95,
+      "word": "Агроно́м",
+      "found": true
+    },
+    {
+      "page": 95,
+      "word": "Алаша́",
+      "found": true
+    },
+    {
+      "page": 95,
+      "word": "Апа́",
+      "found": true
+    },
+    {
+      "page": 95,
+      "word": "Архео́лог",
+      "found": true
+    },
+    {
+      "page": 95,
+      "word": "Архи́в",
+      "found": true
+    },
+    {
+      "page": 95,
+      "word": "Асфа́льт",
+      "found": true
+    },
+    {
+      "page": 96,
+      "word": "Бу́бен",
+      "found": true
+    },
+    {
+      "page": 96,
+      "word": "Бурли́вый",
+      "found": true
+    },
+    {
+      "page": 96,
+      "word": "Буто́н",
+      "found": true
+    },
+    {
+      "page": 96,
+      "word": "Верста́",
+      "found": true
+    },
+    {
+      "page": 96,
+      "word": "Ветерина́р",
+      "found": true
+    },
+    {
+      "page": 96,
+      "word": "Вселе́нная",
+      "found": true
+    },
+    {
+      "page": 97,
+      "word": "Дангыра́",
+      "found": true
+    },
+    {
+      "page": 97,
+      "word": "Дастарха́н",
+      "found": true
+    },
+    {
+      "page": 97,
+      "word": "Дегеле́н",
+      "found": true
+    },
+    {
+      "page": 97,
+      "word": "Декора́ция",
+      "found": true
+    },
+    {
+      "page": 97,
+      "word": "Джиги́т",
+      "found": true
+    },
+    {
+      "page": 97,
+      "word": "Диза́йнер",
+      "found": true
+    },
+    {
+      "page": 98,
+      "word": "Золото́й",
+      "found": true
+    },
+    {
+      "page": 98,
+      "word": "челове́к",
+      "found": true
+    },
+    {
+      "page": 98,
+      "word": "Зы́бкий",
+      "found": true
+    },
+    {
+      "page": 98,
+      "word": "Иваси́",
+      "found": true
+    },
+    {
+      "page": 98,
+      "word": "Изда́тельство",
+      "found": true
+    },
+    {
+      "page": 98,
+      "word": "Инстру́кция",
+      "found": true
+    },
+    {
+      "page": 99,
+      "word": "Корреспонде́нт",
+      "found": true
+    },
+    {
+      "page": 99,
+      "word": "Космодро́м",
+      "found": true
+    },
+    {
+      "page": 99,
+      "word": "Ко́смос",
+      "found": true
+    },
+    {
+      "page": 99,
+      "word": "Коче́вник",
+      "found": true
+    },
+    {
+      "page": 99,
+      "word": "Кро́тость",
+      "found": true
+    },
+    {
+      "page": 99,
+      "word": "Кру́жево",
+      "found": true
+    },
+    {
+      "page": 100,
+      "word": "Машинострое́ние",
+      "found": true
+    },
+    {
+      "page": 100,
+      "word": "Ме́льница",
+      "found": true
+    },
+    {
+      "page": 100,
+      "word": "Мета́фора",
+      "found": true
+    },
+    {
+      "page": 100,
+      "word": "Методи́ст",
+      "found": true
+    },
+    {
+      "page": 100,
+      "word": "Миниатю́ра",
+      "found": true
+    },
+    {
+      "page": 100,
+      "word": "Миниатю́рный",
+      "found": true
+    },
+    {
+      "page": 101,
+      "word": "Ора́тор",
+      "found": true
+    },
+    {
+      "page": 101,
+      "word": "Оча́г",
+      "found": true
+    },
+    {
+      "page": 101,
+      "word": "Патрио́т",
+      "found": true
+    },
+    {
+      "page": 101,
+      "word": "Переле́сок",
+      "found": true
+    },
+    {
+      "page": 101,
+      "word": "Печа́тник",
+      "found": true
+    },
+    {
+      "page": 101,
+      "word": "Печни́к",
+      "found": true
+    },
+    {
+      "page": 102,
+      "word": "Солонча́к",
+      "found": true
+    },
+    {
+      "page": 102,
+      "word": "Статья́",
+      "found": true
+    },
+    {
+      "page": 102,
+      "word": "Степня́к",
+      "found": true
+    },
+    {
+      "page": 102,
+      "word": "Сыбызгы́",
+      "found": true
+    },
+    {
+      "page": 102,
+      "word": "Сырдарья́",
+      "found": true
+    },
+    {
+      "page": 102,
+      "word": "Сырма́к",
+      "found": true
+    },
+    {
+      "page": 103,
+      "word": "Фа́уна",
+      "found": true
+    },
+    {
+      "page": 103,
+      "word": "Фло́ра",
+      "found": true
+    },
+    {
+      "page": 103,
+      "word": "Хло́пок",
+      "found": true
+    },
+    {
+      "page": 103,
+      "word": "Шаныра́к",
+      "found": true
+    },
+    {
+      "page": 103,
+      "word": "Шапа́н",
+      "found": true
+    },
+    {
+      "page": 103,
+      "word": "Ша́хта",
+      "found": true
+    }
+  ]
+}

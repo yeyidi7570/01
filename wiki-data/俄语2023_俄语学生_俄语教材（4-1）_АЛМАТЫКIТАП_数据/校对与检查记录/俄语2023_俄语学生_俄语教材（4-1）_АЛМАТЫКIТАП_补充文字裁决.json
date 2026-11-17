@@ -1,0 +1,119 @@
+[
+  {
+    "page": 11,
+    "side": "a",
+    "addition_index": 1,
+    "text": "– ...,",
+    "bbox": [
+      435,
+      720,
+      483,
+      746
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 11,
+    "side": "b",
+    "addition_index": 1,
+    "text": "–",
+    "bbox": [
+      701,
+      655,
+      718,
+      673
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 15,
+    "side": "a",
+    "addition_index": 1,
+    "text": "–",
+    "bbox": [
+      459,
+      652,
+      482,
+      669
+    ],
+    "decision": "covered_by_source_positioned_round1"
+  },
+  {
+    "page": 15,
+    "side": "b",
+    "addition_index": 1,
+    "text": "– ...,",
+    "bbox": [
+      458,
+      651,
+      520,
+      676
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 18,
+    "side": "a",
+    "addition_index": 0,
+    "text": "–",
+    "bbox": [
+      877,
+      499,
+      895,
+      515
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 72,
+    "side": "a",
+    "addition_index": 0,
+    "text": "– А",
+    "bbox": [
+      157,
+      858,
+      209,
+      888
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 81,
+    "side": "a",
+    "addition_index": 0,
+    "text": "□",
+    "bbox": [
+      567,
+      316,
+      600,
+      347
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 86,
+    "side": "b",
+    "addition_index": 0,
+    "text": "пассажи́р",
+    "bbox": [
+      118,
+      934,
+      278,
+      967
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 89,
+    "side": "b",
+    "addition_index": 0,
+    "text": "мандари́ны, мандари́нов",
+    "bbox": [
+      77,
+      780,
+      409,
+      808
+    ],
+    "decision": "add_from_round2"
+  }
+]

@@ -8,7 +8,7 @@
     "schema_version": {"const": "textbook-wiki/1.0"},
     "book_id": {"type": "string"},
     "source_filename": {"type": "string"},
-    "language": {"const": "kk-Cyrl"},
+    "language": {"type": "string", "enum": ["kk-Cyrl", "ru-Cyrl"]},
     "source_pdf": {"$ref": "#/$defs/pdf"},
     "corrected_pdf": {"$ref": "#/$defs/pdf"},
     "coordinate_system": {"type": "object"},
