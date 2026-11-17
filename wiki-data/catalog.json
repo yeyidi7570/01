@@ -5,31 +5,35 @@
       "book_id": "reading-2023-grade4",
       "source_filename": "阅读技能训练册2023_哈语教材（4）_Өлке.pdf",
       "pages": 100,
-      "wiki_json": "reading-2023-grade4/wiki.json",
-      "raw_json": "reading-2023-grade4/raw.json",
-      "final_json": "reading-2023-grade4/final.json",
+      "wiki_json": "阅读技能训练册2023_哈语教材（4）_Өлке_数据/阅读技能训练册2023_哈语教材（4）_Өлке_Wiki.json",
+      "raw_json": "阅读技能训练册2023_哈语教材（4）_Өлке_数据/阅读技能训练册2023_哈语教材（4）_Өлке_原始OCR.json",
+      "final_json": "阅读技能训练册2023_哈语教材（4）_Өлке_数据/阅读技能训练册2023_哈语教材（4）_Өлке_最终校对.json",
       "source_pdf_sha256": "ed24edfa912506cbde1b6c7b109fbf3fc1d74e347ae2a0d79b975dc350f2c07f",
       "page_count": 100,
       "total_final_lines": 2532,
       "active_final_lines": 2529,
       "question_candidates": 94,
       "assets": 10,
-      "all_final_lines_exported": true
+      "all_final_lines_exported": true,
+      "directory": "阅读技能训练册2023_哈语教材（4）_Өлке_数据",
+      "original_basename": "阅读技能训练册2023_哈语教材（4）_Өлке"
     },
     {
       "book_id": "math-2023-grade4-part1",
       "source_filename": "数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП.pdf",
       "pages": 152,
-      "wiki_json": "math-2023-grade4-part1/wiki.json",
-      "raw_json": "math-2023-grade4-part1/raw.json",
-      "final_json": "math-2023-grade4-part1/final.json",
+      "wiki_json": "数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_Wiki.json",
+      "raw_json": "数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_原始OCR.json",
+      "final_json": "数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_最终校对.json",
       "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
       "page_count": 152,
       "total_final_lines": 7657,
       "active_final_lines": 6704,
       "question_candidates": 446,
       "assets": 538,
-      "all_final_lines_exported": true
+      "all_final_lines_exported": true,
+      "directory": "数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据",
+      "original_basename": "数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП"
     }
   ]
 }
