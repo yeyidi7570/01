@@ -1,0 +1,19 @@
+{
+  "res": {
+    "input_path": "/workspace/kazakh2019p2_work/original/140.png",
+    "page_index": null,
+    "boxes": [
+      {
+        "cls_id": 5,
+        "label": "content",
+        "score": 0.7888389825820923,
+        "coordinate": [
+          184.6278076171875,
+          186.43980407714844,
+          880.49853515625,
+          1229.7515869140625
+        ]
+      }
+    ]
+  }
+}

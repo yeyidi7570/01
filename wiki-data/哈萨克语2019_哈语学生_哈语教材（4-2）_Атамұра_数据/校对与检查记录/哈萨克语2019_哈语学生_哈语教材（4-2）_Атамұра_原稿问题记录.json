@@ -1,0 +1,6 @@
+{
+  "source_pdf_page": 143,
+  "issue": "embedded_JPEG_truncated",
+  "evidence": "Pillow reports image file is truncated (98 bytes not processed); original page render contains a grey block in its lower part.",
+  "recovery": "No text synthesized for the obscured area. Visible source content and grey block retained."
+}

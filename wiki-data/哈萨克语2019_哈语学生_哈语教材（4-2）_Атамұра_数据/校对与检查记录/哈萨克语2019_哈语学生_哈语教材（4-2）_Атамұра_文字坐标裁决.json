@@ -1,0 +1,17 @@
+[
+  {
+    "page": 41,
+    "id": "15",
+    "decision": "Split two stacked printed crossword letters р and б into separate physical cells; no text added."
+  },
+  {
+    "page": 62,
+    "id": "22",
+    "decision": "Split three vertically stacked row labels into their individual row bounds."
+  },
+  {
+    "page": 79,
+    "id": "28",
+    "decision": "Separate left and right table cells; preserve original incorrect matching exercise."
+  }
+]
