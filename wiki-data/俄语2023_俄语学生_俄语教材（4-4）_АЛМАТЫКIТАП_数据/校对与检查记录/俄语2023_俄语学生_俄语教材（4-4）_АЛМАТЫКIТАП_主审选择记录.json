@@ -1,0 +1,192 @@
+{
+  "choose_b": [
+    1,
+    2,
+    3,
+    4,
+    15,
+    16,
+    19,
+    20,
+    21,
+    26,
+    32,
+    33,
+    34,
+    84,
+    88,
+    101
+  ],
+  "accept_b_additions": [
+    0,
+    30,
+    32,
+    60,
+    66
+  ],
+  "reject_a_additions": [
+    [
+      36,
+      2
+    ],
+    [
+      71,
+      1
+    ]
+  ],
+  "text_overrides": [
+    {
+      "page": 20,
+      "id": "36",
+      "text": "В"
+    },
+    {
+      "page": 42,
+      "id": "37",
+      "text": "коче́вник"
+    }
+  ],
+  "geometry_overrides": [
+    {
+      "page": 7,
+      "id": "86",
+      "bbox": [
+        250,
+        666,
+        464,
+        694
+      ]
+    },
+    {
+      "page": 7,
+      "id": "91",
+      "bbox": [
+        327,
+        700,
+        446,
+        725
+      ]
+    },
+    {
+      "page": 7,
+      "id": "95",
+      "bbox": [
+        219,
+        731,
+        474,
+        759
+      ]
+    },
+    {
+      "page": 7,
+      "id": "99",
+      "bbox": [
+        290,
+        763,
+        442,
+        792
+      ]
+    },
+    {
+      "page": 7,
+      "id": "104",
+      "bbox": [
+        229,
+        797,
+        375,
+        822
+      ]
+    },
+    {
+      "page": 20,
+      "id": "22",
+      "bbox": [
+        249,
+        269,
+        376,
+        300
+      ]
+    },
+    {
+      "page": 14,
+      "id": "50",
+      "bbox": [
+        281,
+        825,
+        354,
+        849
+      ]
+    },
+    {
+      "page": 14,
+      "id": "54",
+      "bbox": [
+        254,
+        854,
+        310,
+        879
+      ]
+    },
+    {
+      "page": 35,
+      "id": "15",
+      "bbox": [
+        473,
+        512,
+        635,
+        539
+      ]
+    },
+    {
+      "page": 74,
+      "id": "45",
+      "bbox": [
+        789,
+        920,
+        917,
+        945
+      ]
+    },
+    {
+      "page": 97,
+      "id": "73",
+      "bbox": [
+        600,
+        556,
+        749,
+        577
+      ]
+    },
+    {
+      "page": 97,
+      "id": "158",
+      "bbox": [
+        600,
+        1013,
+        718,
+        1034
+      ]
+    }
+  ],
+  "manual_additions": [
+    {
+      "page": 97,
+      "text": "–",
+      "bbox": [
+        573,
+        629,
+        585,
+        647
+      ]
+    }
+  ],
+  "reviewed_content_cases": 46,
+  "reviewed_additions": 70,
+  "source_limits": [
+    {
+      "page": 29,
+      "detail": "Tiny upper name labels on space suits cannot be transcribed with certainty; retain image without guessing Cyrillic/Kazakh spelling."
+    }
+  ],
+  "policy": "Compare independent proofreading rounds against original scans; retain printed mistakes, blanks and source segmentation. Uncertain illustration labels retained as images without invented transcription."
+}

@@ -1,0 +1,912 @@
+[
+  {
+    "page": 6,
+    "side": "b",
+    "addition_index": 0,
+    "text": "6",
+    "bbox": [
+      134,
+      1308,
+      157,
+      1336
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 7,
+    "side": "b",
+    "addition_index": 0,
+    "text": "– ... .",
+    "bbox": [
+      406,
+      666,
+      464,
+      691
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 7,
+    "side": "b",
+    "addition_index": 1,
+    "text": "– ... .",
+    "bbox": [
+      389,
+      700,
+      446,
+      724
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 7,
+    "side": "b",
+    "addition_index": 2,
+    "text": "– ... .",
+    "bbox": [
+      417,
+      733,
+      474,
+      758
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 7,
+    "side": "b",
+    "addition_index": 3,
+    "text": "– ... .",
+    "bbox": [
+      384,
+      765,
+      442,
+      789
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 7,
+    "side": "b",
+    "addition_index": 4,
+    "text": "– ... .",
+    "bbox": [
+      317,
+      798,
+      375,
+      821
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 14,
+    "side": "b",
+    "addition_index": 0,
+    "text": "...,",
+    "bbox": [
+      322,
+      827,
+      351,
+      849
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 14,
+    "side": "b",
+    "addition_index": 1,
+    "text": "...",
+    "bbox": [
+      282,
+      858,
+      307,
+      878
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 15,
+    "side": "a",
+    "addition_index": 0,
+    "text": "5",
+    "bbox": [
+      204,
+      537,
+      222,
+      559
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 15,
+    "side": "a",
+    "addition_index": 1,
+    "text": "4",
+    "bbox": [
+      398,
+      804,
+      416,
+      825
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 15,
+    "side": "a",
+    "addition_index": 2,
+    "text": "3",
+    "bbox": [
+      622,
+      955,
+      640,
+      976
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 15,
+    "side": "a",
+    "addition_index": 3,
+    "text": "2",
+    "bbox": [
+      781,
+      949,
+      799,
+      971
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 15,
+    "side": "b",
+    "addition_index": 0,
+    "text": "⑤",
+    "bbox": [
+      198,
+      533,
+      227,
+      563
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 15,
+    "side": "b",
+    "addition_index": 1,
+    "text": "④",
+    "bbox": [
+      392,
+      799,
+      422,
+      828
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 15,
+    "side": "b",
+    "addition_index": 2,
+    "text": "③",
+    "bbox": [
+      615,
+      950,
+      645,
+      980
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 15,
+    "side": "b",
+    "addition_index": 3,
+    "text": "②",
+    "bbox": [
+      776,
+      945,
+      804,
+      975
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 20,
+    "side": "a",
+    "addition_index": 0,
+    "text": ".",
+    "bbox": [
+      851,
+      652,
+      859,
+      666
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 20,
+    "side": "b",
+    "addition_index": 0,
+    "text": "–",
+    "bbox": [
+      356,
+      277,
+      374,
+      299
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 22,
+    "side": "a",
+    "addition_index": 1,
+    "text": ".",
+    "bbox": [
+      741,
+      860,
+      751,
+      876
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 24,
+    "side": "a",
+    "addition_index": 0,
+    "text": ".",
+    "bbox": [
+      531,
+      201,
+      539,
+      214
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 24,
+    "side": "a",
+    "addition_index": 1,
+    "text": ".",
+    "bbox": [
+      805,
+      876,
+      815,
+      888
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 25,
+    "side": "a",
+    "addition_index": 2,
+    "text": ".",
+    "bbox": [
+      412,
+      1115,
+      419,
+      1131
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 25,
+    "side": "a",
+    "addition_index": 3,
+    "text": ".",
+    "bbox": [
+      429,
+      1146,
+      437,
+      1164
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 25,
+    "side": "a",
+    "addition_index": 4,
+    "text": ".",
+    "bbox": [
+      790,
+      1116,
+      798,
+      1131
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 25,
+    "side": "a",
+    "addition_index": 5,
+    "text": ".",
+    "bbox": [
+      825,
+      1156,
+      835,
+      1174
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 29,
+    "side": "a",
+    "addition_index": 1,
+    "text": ",",
+    "bbox": [
+      473,
+      405,
+      480,
+      419
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 29,
+    "side": "a",
+    "addition_index": 2,
+    "text": ",",
+    "bbox": [
+      554,
+      405,
+      561,
+      419
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 29,
+    "side": "a",
+    "addition_index": 3,
+    "text": ".",
+    "bbox": [
+      633,
+      406,
+      640,
+      419
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 29,
+    "side": "a",
+    "addition_index": 4,
+    "text": ".",
+    "bbox": [
+      824,
+      506,
+      832,
+      520
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 29,
+    "side": "b",
+    "addition_index": 1,
+    "text": "Т. МУСАБАЕВ",
+    "bbox": [
+      428,
+      989,
+      479,
+      1001
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 29,
+    "side": "b",
+    "addition_index": 2,
+    "text": "T. MUSABAEV",
+    "bbox": [
+      427,
+      1000,
+      479,
+      1012
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 29,
+    "side": "b",
+    "addition_index": 3,
+    "text": "А. АИМБЕТОВ",
+    "bbox": [
+      790,
+      989,
+      833,
+      1002
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 29,
+    "side": "b",
+    "addition_index": 4,
+    "text": "A. AIMBETOV",
+    "bbox": [
+      790,
+      1000,
+      834,
+      1011
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 30,
+    "side": "a",
+    "addition_index": 0,
+    "text": ",",
+    "bbox": [
+      476,
+      425,
+      484,
+      438
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 30,
+    "side": "a",
+    "addition_index": 1,
+    "text": ",",
+    "bbox": [
+      547,
+      425,
+      555,
+      438
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 30,
+    "side": "a",
+    "addition_index": 2,
+    "text": ".",
+    "bbox": [
+      617,
+      424,
+      625,
+      437
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 30,
+    "side": "a",
+    "addition_index": 3,
+    "text": ",",
+    "bbox": [
+      575,
+      503,
+      584,
+      515
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 30,
+    "side": "a",
+    "addition_index": 4,
+    "text": ",",
+    "bbox": [
+      641,
+      503,
+      650,
+      515
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 30,
+    "side": "a",
+    "addition_index": 5,
+    "text": ".",
+    "bbox": [
+      711,
+      503,
+      720,
+      515
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 30,
+    "side": "a",
+    "addition_index": 6,
+    "text": ",",
+    "bbox": [
+      466,
+      589,
+      475,
+      602
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 30,
+    "side": "a",
+    "addition_index": 7,
+    "text": ",",
+    "bbox": [
+      538,
+      589,
+      546,
+      602
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 30,
+    "side": "a",
+    "addition_index": 8,
+    "text": ",",
+    "bbox": [
+      452,
+      695,
+      461,
+      707
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 30,
+    "side": "a",
+    "addition_index": 9,
+    "text": ",",
+    "bbox": [
+      522,
+      695,
+      531,
+      707
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 30,
+    "side": "a",
+    "addition_index": 10,
+    "text": ".",
+    "bbox": [
+      591,
+      694,
+      600,
+      707
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 30,
+    "side": "a",
+    "addition_index": 11,
+    "text": ",",
+    "bbox": [
+      493,
+      789,
+      502,
+      802
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 30,
+    "side": "a",
+    "addition_index": 12,
+    "text": ",",
+    "bbox": [
+      565,
+      789,
+      574,
+      802
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 30,
+    "side": "a",
+    "addition_index": 13,
+    "text": ",",
+    "bbox": [
+      633,
+      789,
+      642,
+      802
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 30,
+    "side": "a",
+    "addition_index": 14,
+    "text": ".",
+    "bbox": [
+      704,
+      789,
+      713,
+      802
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 31,
+    "side": "a",
+    "addition_index": 4,
+    "text": ",",
+    "bbox": [
+      224,
+      813,
+      234,
+      832
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 31,
+    "side": "a",
+    "addition_index": 5,
+    "text": ",",
+    "bbox": [
+      311,
+      813,
+      321,
+      832
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 31,
+    "side": "a",
+    "addition_index": 6,
+    "text": ",",
+    "bbox": [
+      262,
+      889,
+      272,
+      908
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 31,
+    "side": "a",
+    "addition_index": 7,
+    "text": ",",
+    "bbox": [
+      371,
+      889,
+      381,
+      908
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 31,
+    "side": "a",
+    "addition_index": 8,
+    "text": ",",
+    "bbox": [
+      219,
+      1023,
+      229,
+      1042
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 31,
+    "side": "a",
+    "addition_index": 9,
+    "text": ",",
+    "bbox": [
+      218,
+      1089,
+      228,
+      1108
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 32,
+    "side": "a",
+    "addition_index": 1,
+    "text": ",",
+    "bbox": [
+      252,
+      315,
+      262,
+      337
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 32,
+    "side": "a",
+    "addition_index": 2,
+    "text": ".",
+    "bbox": [
+      366,
+      318,
+      375,
+      337
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 35,
+    "side": "a",
+    "addition_index": 2,
+    "text": ",",
+    "bbox": [
+      641,
+      789,
+      650,
+      816
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 35,
+    "side": "a",
+    "addition_index": 3,
+    "text": ",",
+    "bbox": [
+      820,
+      789,
+      830,
+      816
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 35,
+    "side": "b",
+    "addition_index": 0,
+    "text": "–",
+    "bbox": [
+      616,
+      519,
+      632,
+      536
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 36,
+    "side": "a",
+    "addition_index": 2,
+    "text": "ЛЮБИТЕЛЬСКИЙ",
+    "bbox": [
+      665,
+      749,
+      739,
+      765
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 36,
+    "side": "b",
+    "addition_index": 2,
+    "text": "ЛЮБИТЕЛЬСКИЙ",
+    "bbox": [
+      665,
+      734,
+      734,
+      748
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 53,
+    "side": "a",
+    "addition_index": 0,
+    "text": "– ... .",
+    "bbox": [
+      762,
+      404,
+      820,
+      428
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 53,
+    "side": "a",
+    "addition_index": 1,
+    "text": "... .",
+    "bbox": [
+      711,
+      440,
+      746,
+      458
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 71,
+    "side": "a",
+    "addition_index": 1,
+    "text": "〈",
+    "bbox": [
+      146,
+      564,
+      168,
+      596
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 72,
+    "side": "a",
+    "addition_index": 0,
+    "text": "□",
+    "bbox": [
+      609,
+      318,
+      637,
+      345
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 74,
+    "side": "b",
+    "addition_index": 1,
+    "text": "–",
+    "bbox": [
+      898,
+      927,
+      914,
+      939
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 82,
+    "side": "b",
+    "addition_index": 0,
+    "text": "Г",
+    "bbox": [
+      527,
+      609,
+      550,
+      636
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 97,
+    "side": "b",
+    "addition_index": 0,
+    "text": "–",
+    "bbox": [
+      604,
+      558,
+      617,
+      576
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 97,
+    "side": "b",
+    "addition_index": 1,
+    "text": "–",
+    "bbox": [
+      586,
+      629,
+      600,
+      647
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 97,
+    "side": "b",
+    "addition_index": 2,
+    "text": "–",
+    "bbox": [
+      602,
+      1016,
+      616,
+      1035
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  }
+]

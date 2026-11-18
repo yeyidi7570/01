@@ -1,0 +1,64 @@
+{
+  "question_candidates": 220,
+  "empty_questions": [],
+  "missing_prompt_fragments": [],
+  "table_candidates": [
+    {
+      "page": 10,
+      "id": "russian-2023-ru-student-grade4-part4-almatykitap:p010:table003",
+      "rows": 4,
+      "columns": 4,
+      "unassigned_spanning_lines": 0
+    },
+    {
+      "page": 13,
+      "id": "russian-2023-ru-student-grade4-part4-almatykitap:p013:table006",
+      "rows": 3,
+      "columns": 3,
+      "unassigned_spanning_lines": 0
+    },
+    {
+      "page": 21,
+      "id": "russian-2023-ru-student-grade4-part4-almatykitap:p021:table011",
+      "rows": 11,
+      "columns": 19,
+      "unassigned_spanning_lines": 1
+    },
+    {
+      "page": 25,
+      "id": "russian-2023-ru-student-grade4-part4-almatykitap:p025:table004",
+      "rows": 8,
+      "columns": 3,
+      "unassigned_spanning_lines": 0
+    },
+    {
+      "page": 57,
+      "id": "russian-2023-ru-student-grade4-part4-almatykitap:p057:table006",
+      "rows": 8,
+      "columns": 3,
+      "unassigned_spanning_lines": 0
+    },
+    {
+      "page": 62,
+      "id": "russian-2023-ru-student-grade4-part4-almatykitap:p062:table013",
+      "rows": 3,
+      "columns": 4,
+      "unassigned_spanning_lines": 0
+    },
+    {
+      "page": 65,
+      "id": "russian-2023-ru-student-grade4-part4-almatykitap:p065:table007",
+      "rows": 2,
+      "columns": 9,
+      "unassigned_spanning_lines": 0
+    },
+    {
+      "page": 81,
+      "id": "russian-2023-ru-student-grade4-part4-almatykitap:p081:table001",
+      "rows": 16,
+      "columns": 3,
+      "unassigned_spanning_lines": 13
+    }
+  ],
+  "semantic_status": "automatic_candidates; OCR text independently proofread, semantic cell/question grouping requires review"
+}
