@@ -1,0 +1,4864 @@
+[
+  {
+    "page": 5,
+    "id": "11",
+    "before": [
+      175,
+      359,
+      323,
+      387
+    ],
+    "after": [
+      175,
+      359,
+      316.5,
+      387
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 5,
+    "id": "12",
+    "before": [
+      310,
+      359,
+      836,
+      389
+    ],
+    "after": [
+      316.5,
+      359,
+      836,
+      389
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 10,
+    "id": "16",
+    "before": [
+      624,
+      686,
+      659,
+      705
+    ],
+    "after": [
+      624,
+      686,
+      657.5,
+      705
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 10,
+    "id": "17",
+    "before": [
+      656,
+      680,
+      707,
+      711
+    ],
+    "after": [
+      657.5,
+      680,
+      707,
+      711
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 13,
+    "id": "29",
+    "before": [
+      229,
+      813,
+      349,
+      841
+    ],
+    "after": [
+      229,
+      813,
+      347.5,
+      841
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 13,
+    "id": "30",
+    "before": [
+      346,
+      813,
+      500,
+      841
+    ],
+    "after": [
+      347.5,
+      813,
+      500,
+      841
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 14,
+    "id": "13",
+    "before": [
+      157,
+      558,
+      603,
+      589
+    ],
+    "after": [
+      157,
+      558,
+      595.5,
+      589
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 14,
+    "id": "14",
+    "before": [
+      588,
+      560,
+      670,
+      590
+    ],
+    "after": [
+      595.5,
+      560,
+      670,
+      590
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 15,
+    "id": "10",
+    "before": [
+      434,
+      428,
+      497,
+      457
+    ],
+    "after": [
+      434,
+      428,
+      493.0,
+      457
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 15,
+    "id": "11",
+    "before": [
+      489,
+      433,
+      540,
+      456
+    ],
+    "after": [
+      493.0,
+      433,
+      540,
+      456
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 17,
+    "id": "22",
+    "before": [
+      486,
+      762,
+      667,
+      790
+    ],
+    "after": [
+      486,
+      762,
+      661.5,
+      790
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 17,
+    "id": "23",
+    "before": [
+      656,
+      761,
+      817,
+      789
+    ],
+    "after": [
+      661.5,
+      761,
+      817,
+      789
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 24,
+    "id": "5",
+    "before": [
+      169,
+      67,
+      300,
+      96
+    ],
+    "after": [
+      169,
+      67,
+      293.0,
+      96
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 24,
+    "id": "6",
+    "before": [
+      286,
+      68,
+      552,
+      96
+    ],
+    "after": [
+      293.0,
+      68,
+      552,
+      96
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 25,
+    "id": "3",
+    "before": [
+      126,
+      187,
+      314,
+      220
+    ],
+    "after": [
+      126,
+      187,
+      313.5,
+      220
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 25,
+    "id": "4",
+    "before": [
+      313,
+      193,
+      358,
+      216
+    ],
+    "after": [
+      313.5,
+      193,
+      358,
+      216
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 25,
+    "id": "6",
+    "before": [
+      127,
+      217,
+      357,
+      247
+    ],
+    "after": [
+      127,
+      217,
+      354.0,
+      247
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 25,
+    "id": "7",
+    "before": [
+      351,
+      218,
+      440,
+      246
+    ],
+    "after": [
+      354.0,
+      218,
+      440,
+      246
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 25,
+    "id": "7",
+    "before": [
+      354.0,
+      218,
+      440,
+      246
+    ],
+    "after": [
+      354.0,
+      218,
+      432.5,
+      246
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 25,
+    "id": "8",
+    "before": [
+      425,
+      217,
+      834,
+      247
+    ],
+    "after": [
+      432.5,
+      217,
+      834,
+      247
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 25,
+    "id": "9",
+    "before": [
+      126,
+      250,
+      495,
+      274
+    ],
+    "after": [
+      126,
+      250,
+      490.5,
+      274
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 25,
+    "id": "10",
+    "before": [
+      486,
+      250,
+      692,
+      274
+    ],
+    "after": [
+      490.5,
+      250,
+      692,
+      274
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 25,
+    "id": "35",
+    "before": [
+      130,
+      1067,
+      206,
+      1089
+    ],
+    "after": [
+      130,
+      1067,
+      202.5,
+      1089
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 25,
+    "id": "36",
+    "before": [
+      199,
+      1065,
+      391,
+      1092
+    ],
+    "after": [
+      202.5,
+      1065,
+      391,
+      1092
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 29,
+    "id": "35",
+    "before": [
+      173,
+      1009,
+      578,
+      1043
+    ],
+    "after": [
+      173,
+      1009,
+      575.5,
+      1043
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 29,
+    "id": "36",
+    "before": [
+      573,
+      1013,
+      837,
+      1040
+    ],
+    "after": [
+      575.5,
+      1013,
+      837,
+      1040
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 29,
+    "id": "37",
+    "before": [
+      175,
+      1040,
+      341,
+      1069
+    ],
+    "after": [
+      175,
+      1040,
+      336.5,
+      1069
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 29,
+    "id": "38",
+    "before": [
+      332,
+      1042,
+      473,
+      1067
+    ],
+    "after": [
+      336.5,
+      1042,
+      473,
+      1067
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 29,
+    "id": "38",
+    "before": [
+      336.5,
+      1042,
+      473,
+      1067
+    ],
+    "after": [
+      336.5,
+      1042,
+      470.5,
+      1067
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 29,
+    "id": "39",
+    "before": [
+      468,
+      1043,
+      569,
+      1068
+    ],
+    "after": [
+      470.5,
+      1043,
+      569,
+      1068
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 29,
+    "id": "40",
+    "before": [
+      570,
+      1041,
+      715,
+      1069
+    ],
+    "after": [
+      570,
+      1041,
+      711.0,
+      1069
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 29,
+    "id": "41",
+    "before": [
+      707,
+      1042,
+      835,
+      1070
+    ],
+    "after": [
+      711.0,
+      1042,
+      835,
+      1070
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 30,
+    "id": "39",
+    "before": [
+      156,
+      1192,
+      238,
+      1218
+    ],
+    "after": [
+      156,
+      1192,
+      235.5,
+      1218
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 30,
+    "id": "40",
+    "before": [
+      233,
+      1193,
+      299,
+      1219
+    ],
+    "after": [
+      235.5,
+      1193,
+      299,
+      1219
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 30,
+    "id": "40",
+    "before": [
+      235.5,
+      1193,
+      299,
+      1219
+    ],
+    "after": [
+      235.5,
+      1193,
+      296.0,
+      1219
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 30,
+    "id": "41",
+    "before": [
+      293,
+      1190,
+      680,
+      1221
+    ],
+    "after": [
+      296.0,
+      1190,
+      680,
+      1221
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 30,
+    "id": "41",
+    "before": [
+      296.0,
+      1190,
+      680,
+      1221
+    ],
+    "after": [
+      296.0,
+      1190,
+      675.5,
+      1221
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 30,
+    "id": "42",
+    "before": [
+      671,
+      1193,
+      762,
+      1218
+    ],
+    "after": [
+      675.5,
+      1193,
+      762,
+      1218
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 30,
+    "id": "42",
+    "before": [
+      675.5,
+      1193,
+      762,
+      1218
+    ],
+    "after": [
+      675.5,
+      1193,
+      758.5,
+      1218
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 30,
+    "id": "43",
+    "before": [
+      755,
+      1188,
+      792,
+      1224
+    ],
+    "after": [
+      758.5,
+      1188,
+      792,
+      1224
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 32,
+    "id": "29",
+    "before": [
+      169,
+      993,
+      369,
+      1023
+    ],
+    "after": [
+      169,
+      993,
+      362.5,
+      1023
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 32,
+    "id": "30",
+    "before": [
+      356,
+      997,
+      880,
+      1021
+    ],
+    "after": [
+      362.5,
+      997,
+      880,
+      1021
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 33,
+    "id": "24",
+    "before": [
+      132,
+      1172,
+      154,
+      1196
+    ],
+    "after": [
+      132,
+      1172,
+      154,
+      1217
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 33,
+    "id": "25",
+    "before": [
+      147,
+      1170,
+      655,
+      1209
+    ],
+    "after": [
+      155,
+      1174,
+      655,
+      1208
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 35,
+    "id": "28",
+    "before": [
+      584,
+      1096,
+      603,
+      1116
+    ],
+    "after": [
+      579,
+      1096,
+      610,
+      1141
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 35,
+    "id": "28",
+    "before": [
+      579,
+      1096,
+      610,
+      1141
+    ],
+    "after": [
+      579,
+      1096,
+      609.5,
+      1141
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 35,
+    "id": "29",
+    "before": [
+      609,
+      1095,
+      699,
+      1128
+    ],
+    "after": [
+      609.5,
+      1095,
+      699,
+      1128
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 35,
+    "id": "27",
+    "before": [
+      129,
+      1097,
+      583,
+      1129
+    ],
+    "after": [
+      129,
+      1097,
+      581.0,
+      1129
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 35,
+    "id": "28",
+    "before": [
+      579,
+      1096,
+      609.5,
+      1141
+    ],
+    "after": [
+      581.0,
+      1096,
+      609.5,
+      1141
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 37,
+    "id": "15",
+    "before": [
+      128,
+      721,
+      685,
+      753
+    ],
+    "after": [
+      128,
+      721,
+      683.5,
+      753
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 37,
+    "id": "16",
+    "before": [
+      682,
+      720,
+      705,
+      765
+    ],
+    "after": [
+      683.5,
+      720,
+      705,
+      765
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 37,
+    "id": "16",
+    "before": [
+      683.5,
+      720,
+      705,
+      765
+    ],
+    "after": [
+      683.5,
+      720,
+      704.5,
+      765
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 37,
+    "id": "17",
+    "before": [
+      704,
+      719,
+      833,
+      752
+    ],
+    "after": [
+      704.5,
+      719,
+      833,
+      752
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 39,
+    "id": "41",
+    "before": [
+      169,
+      1109,
+      202,
+      1139
+    ],
+    "after": [
+      164,
+      1106,
+      317,
+      1163
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 39,
+    "id": "44",
+    "before": [
+      545,
+      1106,
+      580,
+      1163
+    ],
+    "after": [
+      545,
+      1106,
+      708,
+      1163
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 39,
+    "id": "53",
+    "before": [
+      166,
+      1177,
+      206,
+      1227
+    ],
+    "after": [
+      164,
+      1174,
+      343,
+      1234
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 39,
+    "id": "55",
+    "before": [
+      546,
+      1175,
+      589,
+      1207
+    ],
+    "after": [
+      545,
+      1173,
+      756,
+      1228
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 39,
+    "id": "64",
+    "before": [
+      167,
+      1242,
+      203,
+      1271
+    ],
+    "after": [
+      164,
+      1241,
+      376,
+      1295
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 39,
+    "id": "67",
+    "before": [
+      550,
+      1242,
+      588,
+      1270
+    ],
+    "after": [
+      546,
+      1239,
+      757,
+      1295
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 39,
+    "id": "41",
+    "before": [
+      164,
+      1106,
+      317,
+      1163
+    ],
+    "after": [
+      169.0,
+      1109.0,
+      202.0,
+      1139.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 39,
+    "id": "44",
+    "before": [
+      545,
+      1106,
+      708,
+      1163
+    ],
+    "after": [
+      545.0,
+      1106.0,
+      580.0,
+      1163.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 39,
+    "id": "53",
+    "before": [
+      164,
+      1174,
+      343,
+      1234
+    ],
+    "after": [
+      166.0,
+      1177.0,
+      206.0,
+      1227.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 39,
+    "id": "55",
+    "before": [
+      545,
+      1173,
+      756,
+      1228
+    ],
+    "after": [
+      546.0,
+      1175.0,
+      589.0,
+      1207.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 39,
+    "id": "64",
+    "before": [
+      164,
+      1241,
+      376,
+      1295
+    ],
+    "after": [
+      167.0,
+      1242.0,
+      203.0,
+      1271.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 39,
+    "id": "67",
+    "before": [
+      546,
+      1239,
+      757,
+      1295
+    ],
+    "after": [
+      550.0,
+      1242.0,
+      588.0,
+      1270.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "4",
+    "before": [
+      164,
+      268,
+      194,
+      295
+    ],
+    "after": [
+      158,
+      264,
+      378,
+      321
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "8",
+    "before": [
+      549,
+      267,
+      584,
+      292
+    ],
+    "after": [
+      540,
+      264,
+      800,
+      321
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "25",
+    "before": [
+      166,
+      335,
+      183,
+      359
+    ],
+    "after": [
+      157,
+      331,
+      375,
+      387
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "29",
+    "before": [
+      547,
+      334,
+      568,
+      360
+    ],
+    "after": [
+      540,
+      331,
+      751,
+      387
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "56",
+    "before": [
+      168,
+      730,
+      191,
+      755
+    ],
+    "after": [
+      160,
+      725,
+      318,
+      783
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "59",
+    "before": [
+      548,
+      728,
+      581,
+      759
+    ],
+    "after": [
+      540,
+      725,
+      739,
+      783
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "72",
+    "before": [
+      166,
+      794,
+      197,
+      820
+    ],
+    "after": [
+      160,
+      788,
+      354,
+      844
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "75",
+    "before": [
+      551,
+      792,
+      589,
+      839
+    ],
+    "after": [
+      540,
+      788,
+      735,
+      844
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "83",
+    "before": [
+      166,
+      847,
+      196,
+      875
+    ],
+    "after": [
+      160,
+      844,
+      417,
+      906
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "88",
+    "before": [
+      546,
+      846,
+      583,
+      880
+    ],
+    "after": [
+      540,
+      844,
+      742,
+      914
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "48",
+    "before": [
+      548,
+      451,
+      566,
+      472
+    ],
+    "after": [
+      541,
+      448,
+      576,
+      499
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "104",
+    "before": [
+      776,
+      1147,
+      794,
+      1165
+    ],
+    "after": [
+      768,
+      1146,
+      801,
+      1190
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "4",
+    "before": [
+      158,
+      264,
+      378,
+      321
+    ],
+    "after": [
+      164.0,
+      268.0,
+      194.0,
+      295.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "8",
+    "before": [
+      540,
+      264,
+      800,
+      321
+    ],
+    "after": [
+      549.0,
+      267.0,
+      584.0,
+      292.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "25",
+    "before": [
+      157,
+      331,
+      375,
+      387
+    ],
+    "after": [
+      166.0,
+      335.0,
+      183.0,
+      359.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "29",
+    "before": [
+      540,
+      331,
+      751,
+      387
+    ],
+    "after": [
+      547.0,
+      334.0,
+      568.0,
+      360.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "45",
+    "before": [
+      441,
+      444,
+      477,
+      494
+    ],
+    "after": [
+      441.0,
+      444.0,
+      477.0,
+      494.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "56",
+    "before": [
+      160,
+      725,
+      318,
+      783
+    ],
+    "after": [
+      168.0,
+      730.0,
+      191.0,
+      755.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "59",
+    "before": [
+      540,
+      725,
+      739,
+      783
+    ],
+    "after": [
+      548.0,
+      728.0,
+      581.0,
+      759.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "72",
+    "before": [
+      160,
+      788,
+      354,
+      844
+    ],
+    "after": [
+      166.0,
+      794.0,
+      197.0,
+      820.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "75",
+    "before": [
+      540,
+      788,
+      735,
+      844
+    ],
+    "after": [
+      551.0,
+      792.0,
+      589.0,
+      839.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "83",
+    "before": [
+      160,
+      844,
+      417,
+      906
+    ],
+    "after": [
+      166.0,
+      847.0,
+      196.0,
+      875.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "88",
+    "before": [
+      540,
+      844,
+      742,
+      914
+    ],
+    "after": [
+      546.0,
+      846.0,
+      583.0,
+      880.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "104",
+    "before": [
+      768,
+      1146,
+      801,
+      1190
+    ],
+    "after": [
+      776.0,
+      1147.0,
+      794.0,
+      1165.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 40,
+    "id": "46",
+    "before": [
+      204,
+      460,
+      447,
+      491
+    ],
+    "after": [
+      204,
+      460,
+      444.0,
+      491
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 40,
+    "id": "45",
+    "before": [
+      441.0,
+      444.0,
+      477.0,
+      494.0
+    ],
+    "after": [
+      444.0,
+      444.0,
+      477.0,
+      494.0
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 41,
+    "id": "3",
+    "before": [
+      139,
+      270,
+      160,
+      295
+    ],
+    "after": [
+      136,
+      267,
+      345,
+      316
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 41,
+    "id": "4",
+    "before": [
+      516,
+      267,
+      539,
+      316
+    ],
+    "after": [
+      516,
+      267,
+      641,
+      318
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 41,
+    "id": "10",
+    "before": [
+      140,
+      322,
+      161,
+      375
+    ],
+    "after": [
+      140,
+      322,
+      309,
+      375
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 41,
+    "id": "12",
+    "before": [
+      542,
+      330,
+      698,
+      367
+    ],
+    "after": [
+      520,
+      322,
+      698,
+      375
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 41,
+    "id": "13",
+    "before": [
+      141,
+      376,
+      160,
+      425
+    ],
+    "after": [
+      140,
+      376,
+      314,
+      425
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 41,
+    "id": "15",
+    "before": [
+      526,
+      383,
+      538,
+      402
+    ],
+    "after": [
+      523,
+      376,
+      659,
+      425
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 41,
+    "id": "18",
+    "before": [
+      140,
+      430,
+      162,
+      479
+    ],
+    "after": [
+      140,
+      430,
+      279,
+      479
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 41,
+    "id": "20",
+    "before": [
+      523,
+      432,
+      545,
+      480
+    ],
+    "after": [
+      523,
+      432,
+      676,
+      480
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 41,
+    "id": "3",
+    "before": [
+      136,
+      267,
+      345,
+      316
+    ],
+    "after": [
+      139.0,
+      270.0,
+      160.0,
+      295.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 41,
+    "id": "4",
+    "before": [
+      516,
+      267,
+      641,
+      318
+    ],
+    "after": [
+      516.0,
+      267.0,
+      539.0,
+      316.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 41,
+    "id": "10",
+    "before": [
+      140,
+      322,
+      309,
+      375
+    ],
+    "after": [
+      140.0,
+      322.0,
+      161.0,
+      375.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 41,
+    "id": "12",
+    "before": [
+      520,
+      322,
+      698,
+      375
+    ],
+    "after": [
+      542.0,
+      330.0,
+      698.0,
+      367.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 41,
+    "id": "13",
+    "before": [
+      140,
+      376,
+      314,
+      425
+    ],
+    "after": [
+      141.0,
+      376.0,
+      160.0,
+      425.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 41,
+    "id": "15",
+    "before": [
+      523,
+      376,
+      659,
+      425
+    ],
+    "after": [
+      526.0,
+      383.0,
+      538.0,
+      402.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 41,
+    "id": "18",
+    "before": [
+      140,
+      430,
+      279,
+      479
+    ],
+    "after": [
+      140.0,
+      430.0,
+      162.0,
+      479.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 41,
+    "id": "20",
+    "before": [
+      523,
+      432,
+      676,
+      480
+    ],
+    "after": [
+      523.0,
+      432.0,
+      545.0,
+      480.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 42,
+    "id": "29",
+    "before": [
+      164,
+      1170,
+      201,
+      1223
+    ],
+    "after": [
+      160,
+      1165,
+      345,
+      1226
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 42,
+    "id": "32",
+    "before": [
+      454,
+      1168,
+      492,
+      1226
+    ],
+    "after": [
+      450,
+      1165,
+      633,
+      1226
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 42,
+    "id": "41",
+    "before": [
+      169,
+      1229,
+      204,
+      1259
+    ],
+    "after": [
+      160,
+      1227,
+      366,
+      1285
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 42,
+    "id": "44",
+    "before": [
+      455,
+      1229,
+      478,
+      1279
+    ],
+    "after": [
+      450,
+      1227,
+      590,
+      1284
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 42,
+    "id": "29",
+    "before": [
+      160,
+      1165,
+      345,
+      1226
+    ],
+    "after": [
+      164.0,
+      1170.0,
+      201.0,
+      1223.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 42,
+    "id": "32",
+    "before": [
+      450,
+      1165,
+      633,
+      1226
+    ],
+    "after": [
+      454.0,
+      1168.0,
+      492.0,
+      1226.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 42,
+    "id": "41",
+    "before": [
+      160,
+      1227,
+      366,
+      1285
+    ],
+    "after": [
+      169.0,
+      1229.0,
+      204.0,
+      1259.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 42,
+    "id": "44",
+    "before": [
+      450,
+      1227,
+      590,
+      1284
+    ],
+    "after": [
+      455.0,
+      1229.0,
+      478.0,
+      1279.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 43,
+    "id": "33",
+    "before": [
+      135,
+      1157,
+      157,
+      1206
+    ],
+    "after": [
+      130,
+      1150,
+      214,
+      1210
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 43,
+    "id": "32",
+    "before": [
+      312,
+      1142,
+      415,
+      1215
+    ],
+    "after": [
+      312,
+      1142,
+      415,
+      1215
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 43,
+    "id": "36",
+    "before": [
+      705,
+      1152,
+      741,
+      1207
+    ],
+    "after": [
+      700,
+      1148,
+      804,
+      1213
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 43,
+    "id": "39",
+    "before": [
+      135,
+      1217,
+      157,
+      1271
+    ],
+    "after": [
+      130,
+      1217,
+      214,
+      1275
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 43,
+    "id": "41",
+    "before": [
+      315,
+      1211,
+      418,
+      1280
+    ],
+    "after": [
+      315,
+      1211,
+      418,
+      1280
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 43,
+    "id": "42",
+    "before": [
+      518,
+      1219,
+      541,
+      1269
+    ],
+    "after": [
+      515,
+      1215,
+      598,
+      1275
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 43,
+    "id": "44",
+    "before": [
+      716,
+      1220,
+      737,
+      1248
+    ],
+    "after": [
+      700,
+      1217,
+      814,
+      1275
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 43,
+    "id": "33",
+    "before": [
+      130,
+      1150,
+      214,
+      1210
+    ],
+    "after": [
+      135.0,
+      1157.0,
+      157.0,
+      1206.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 43,
+    "id": "32",
+    "before": [
+      312,
+      1142,
+      415,
+      1215
+    ],
+    "after": [
+      312.0,
+      1142.0,
+      415.0,
+      1215.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 43,
+    "id": "36",
+    "before": [
+      700,
+      1148,
+      804,
+      1213
+    ],
+    "after": [
+      705.0,
+      1152.0,
+      741.0,
+      1207.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 43,
+    "id": "39",
+    "before": [
+      130,
+      1217,
+      214,
+      1275
+    ],
+    "after": [
+      135.0,
+      1217.0,
+      157.0,
+      1271.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 43,
+    "id": "41",
+    "before": [
+      315,
+      1211,
+      418,
+      1280
+    ],
+    "after": [
+      315.0,
+      1211.0,
+      418.0,
+      1280.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 43,
+    "id": "42",
+    "before": [
+      515,
+      1215,
+      598,
+      1275
+    ],
+    "after": [
+      518.0,
+      1219.0,
+      541.0,
+      1269.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 43,
+    "id": "44",
+    "before": [
+      700,
+      1217,
+      814,
+      1275
+    ],
+    "after": [
+      716.0,
+      1220.0,
+      737.0,
+      1248.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 44,
+    "id": "4",
+    "before": [
+      161,
+      277,
+      192,
+      303
+    ],
+    "after": [
+      155,
+      272,
+      305,
+      330
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 44,
+    "id": "8",
+    "before": [
+      422,
+      277,
+      445,
+      303
+    ],
+    "after": [
+      410,
+      272,
+      568,
+      330
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 44,
+    "id": "13",
+    "before": [
+      678,
+      277,
+      712,
+      303
+    ],
+    "after": [
+      672,
+      272,
+      825,
+      330
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 44,
+    "id": "28",
+    "before": [
+      163,
+      344,
+      192,
+      371
+    ],
+    "after": [
+      155,
+      337,
+      307,
+      396
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 44,
+    "id": "31",
+    "before": [
+      417,
+      342,
+      451,
+      373
+    ],
+    "after": [
+      410,
+      337,
+      568,
+      396
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 44,
+    "id": "34",
+    "before": [
+      682,
+      341,
+      722,
+      371
+    ],
+    "after": [
+      668,
+      337,
+      875,
+      398
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 44,
+    "id": "51",
+    "before": [
+      168,
+      575,
+      202,
+      600
+    ],
+    "after": [
+      160,
+      568,
+      480,
+      628
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 44,
+    "id": "59",
+    "before": [
+      550,
+      576,
+      569,
+      600
+    ],
+    "after": [
+      538,
+      568,
+      811,
+      628
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 44,
+    "id": "4",
+    "before": [
+      155,
+      272,
+      305,
+      330
+    ],
+    "after": [
+      161.0,
+      277.0,
+      192.0,
+      303.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 44,
+    "id": "8",
+    "before": [
+      410,
+      272,
+      568,
+      330
+    ],
+    "after": [
+      422.0,
+      277.0,
+      445.0,
+      303.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 44,
+    "id": "13",
+    "before": [
+      672,
+      272,
+      825,
+      330
+    ],
+    "after": [
+      678.0,
+      277.0,
+      712.0,
+      303.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 44,
+    "id": "28",
+    "before": [
+      155,
+      337,
+      307,
+      396
+    ],
+    "after": [
+      163.0,
+      344.0,
+      192.0,
+      371.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 44,
+    "id": "31",
+    "before": [
+      410,
+      337,
+      568,
+      396
+    ],
+    "after": [
+      417.0,
+      342.0,
+      451.0,
+      373.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 44,
+    "id": "34",
+    "before": [
+      668,
+      337,
+      875,
+      398
+    ],
+    "after": [
+      682.0,
+      341.0,
+      722.0,
+      371.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 44,
+    "id": "51",
+    "before": [
+      160,
+      568,
+      480,
+      628
+    ],
+    "after": [
+      168.0,
+      575.0,
+      202.0,
+      600.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 44,
+    "id": "59",
+    "before": [
+      538,
+      568,
+      811,
+      628
+    ],
+    "after": [
+      550.0,
+      576.0,
+      569.0,
+      600.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 45,
+    "id": "29",
+    "before": [
+      217,
+      1168,
+      247,
+      1195
+    ],
+    "after": [
+      212,
+      1165,
+      500,
+      1218
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 45,
+    "id": "41",
+    "before": [
+      220,
+      1223,
+      240,
+      1250
+    ],
+    "after": [
+      212,
+      1219,
+      491,
+      1273
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 45,
+    "id": "29",
+    "before": [
+      212,
+      1165,
+      500,
+      1218
+    ],
+    "after": [
+      217.0,
+      1168.0,
+      247.0,
+      1195.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 45,
+    "id": "41",
+    "before": [
+      212,
+      1219,
+      491,
+      1273
+    ],
+    "after": [
+      220.0,
+      1223.0,
+      240.0,
+      1250.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 47,
+    "id": "4",
+    "before": [
+      179,
+      271,
+      201,
+      320
+    ],
+    "after": [
+      176,
+      266,
+      352,
+      324
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 47,
+    "id": "9",
+    "before": [
+      563,
+      271,
+      585,
+      320
+    ],
+    "after": [
+      558,
+      266,
+      740,
+      324
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 47,
+    "id": "20",
+    "before": [
+      185,
+      337,
+      203,
+      360
+    ],
+    "after": [
+      174,
+      331,
+      380,
+      390
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 47,
+    "id": "26",
+    "before": [
+      566,
+      335,
+      587,
+      362
+    ],
+    "after": [
+      558,
+      331,
+      761,
+      390
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 47,
+    "id": "4",
+    "before": [
+      176,
+      266,
+      352,
+      324
+    ],
+    "after": [
+      179.0,
+      271.0,
+      201.0,
+      320.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 47,
+    "id": "9",
+    "before": [
+      558,
+      266,
+      740,
+      324
+    ],
+    "after": [
+      563.0,
+      271.0,
+      585.0,
+      320.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 47,
+    "id": "20",
+    "before": [
+      174,
+      331,
+      380,
+      390
+    ],
+    "after": [
+      185.0,
+      337.0,
+      203.0,
+      360.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 47,
+    "id": "26",
+    "before": [
+      558,
+      331,
+      761,
+      390
+    ],
+    "after": [
+      566.0,
+      335.0,
+      587.0,
+      362.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 48,
+    "id": "10",
+    "before": [
+      213,
+      468,
+      258,
+      499
+    ],
+    "after": [
+      208,
+      464,
+      422,
+      523
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 48,
+    "id": "13",
+    "before": [
+      596,
+      467,
+      631,
+      525
+    ],
+    "after": [
+      591,
+      464,
+      766,
+      526
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 48,
+    "id": "22",
+    "before": [
+      213,
+      526,
+      256,
+      579
+    ],
+    "after": [
+      208,
+      523,
+      386,
+      581
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 48,
+    "id": "25",
+    "before": [
+      596,
+      523,
+      641,
+      555
+    ],
+    "after": [
+      590,
+      522,
+      795,
+      581
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 48,
+    "id": "36",
+    "before": [
+      212,
+      583,
+      252,
+      638
+    ],
+    "after": [
+      208,
+      581,
+      389,
+      641
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 48,
+    "id": "38",
+    "before": [
+      593,
+      574,
+      654,
+      641
+    ],
+    "after": [
+      590,
+      575,
+      803,
+      644
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 48,
+    "id": "10",
+    "before": [
+      208,
+      464,
+      422,
+      523
+    ],
+    "after": [
+      213.0,
+      468.0,
+      258.0,
+      499.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 48,
+    "id": "13",
+    "before": [
+      591,
+      464,
+      766,
+      526
+    ],
+    "after": [
+      596.0,
+      467.0,
+      631.0,
+      525.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 48,
+    "id": "22",
+    "before": [
+      208,
+      523,
+      386,
+      581
+    ],
+    "after": [
+      213.0,
+      526.0,
+      256.0,
+      579.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 48,
+    "id": "25",
+    "before": [
+      590,
+      522,
+      795,
+      581
+    ],
+    "after": [
+      596.0,
+      523.0,
+      641.0,
+      555.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 48,
+    "id": "36",
+    "before": [
+      208,
+      581,
+      389,
+      641
+    ],
+    "after": [
+      212.0,
+      583.0,
+      252.0,
+      638.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 48,
+    "id": "38",
+    "before": [
+      590,
+      575,
+      803,
+      644
+    ],
+    "after": [
+      593.0,
+      574.0,
+      654.0,
+      641.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 50,
+    "id": "23",
+    "before": [
+      205,
+      1147,
+      227,
+      1173
+    ],
+    "after": [
+      205.0,
+      1147.0,
+      227.0,
+      1173.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 50,
+    "id": "26",
+    "before": [
+      529,
+      1138,
+      825,
+      1201
+    ],
+    "after": [
+      529.0,
+      1138.0,
+      825.0,
+      1201.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 50,
+    "id": "14",
+    "before": [
+      200,
+      587,
+      753,
+      624
+    ],
+    "after": [
+      200,
+      587,
+      748.5,
+      624
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 50,
+    "id": "15",
+    "before": [
+      744,
+      590,
+      864,
+      621
+    ],
+    "after": [
+      748.5,
+      590,
+      864,
+      621
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 51,
+    "id": "6",
+    "before": [
+      173,
+      579,
+      308,
+      614
+    ],
+    "after": [
+      173,
+      579,
+      301.0,
+      614
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 51,
+    "id": "7",
+    "before": [
+      294,
+      584,
+      461,
+      610
+    ],
+    "after": [
+      301.0,
+      584,
+      461,
+      610
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 51,
+    "id": "7",
+    "before": [
+      301.0,
+      584,
+      461,
+      610
+    ],
+    "after": [
+      301.0,
+      584,
+      458.0,
+      610
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 51,
+    "id": "8",
+    "before": [
+      455,
+      586,
+      587,
+      610
+    ],
+    "after": [
+      458.0,
+      586,
+      587,
+      610
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 52,
+    "id": "4",
+    "before": [
+      161,
+      420,
+      608,
+      450
+    ],
+    "after": [
+      161,
+      420,
+      604.5,
+      450
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 52,
+    "id": "5",
+    "before": [
+      601,
+      424,
+      856,
+      448
+    ],
+    "after": [
+      604.5,
+      424,
+      856,
+      448
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 52,
+    "id": "10",
+    "before": [
+      624,
+      529,
+      773,
+      553
+    ],
+    "after": [
+      624,
+      529,
+      768.0,
+      553
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 52,
+    "id": "11",
+    "before": [
+      763,
+      527,
+      855,
+      552
+    ],
+    "after": [
+      768.0,
+      527,
+      855,
+      552
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 52,
+    "id": "12",
+    "before": [
+      160,
+      555,
+      359,
+      582
+    ],
+    "after": [
+      160,
+      555,
+      353.5,
+      582
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 52,
+    "id": "13",
+    "before": [
+      348,
+      553,
+      858,
+      584
+    ],
+    "after": [
+      353.5,
+      553,
+      858,
+      584
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 55,
+    "id": "10",
+    "before": [
+      145,
+      409,
+      738,
+      437
+    ],
+    "after": [
+      145,
+      409,
+      731.5,
+      437
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 55,
+    "id": "11",
+    "before": [
+      725,
+      408,
+      783,
+      440
+    ],
+    "after": [
+      731.5,
+      408,
+      783,
+      440
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 56,
+    "id": "14",
+    "before": [
+      243,
+      579,
+      264,
+      606
+    ],
+    "after": [
+      243.0,
+      579.0,
+      264.0,
+      606.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 56,
+    "id": "18",
+    "before": [
+      530,
+      572,
+      571,
+      630
+    ],
+    "after": [
+      530.0,
+      572.0,
+      571.0,
+      630.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 60,
+    "id": "14",
+    "before": [
+      157,
+      785,
+      279,
+      814
+    ],
+    "after": [
+      157,
+      785,
+      276.0,
+      814
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 60,
+    "id": "15",
+    "before": [
+      273,
+      782,
+      791,
+      815
+    ],
+    "after": [
+      276.0,
+      782,
+      791,
+      815
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 60,
+    "id": "15",
+    "before": [
+      276.0,
+      782,
+      791,
+      815
+    ],
+    "after": [
+      276.0,
+      782,
+      788.5,
+      815
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 60,
+    "id": "16",
+    "before": [
+      786,
+      787,
+      860,
+      812
+    ],
+    "after": [
+      788.5,
+      787,
+      860,
+      812
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 67,
+    "id": "38",
+    "before": [
+      391,
+      712,
+      457,
+      747
+    ],
+    "after": [
+      391,
+      712,
+      455.0,
+      747
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 67,
+    "id": "39",
+    "before": [
+      453,
+      708,
+      542,
+      751
+    ],
+    "after": [
+      455.0,
+      708,
+      542,
+      751
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 67,
+    "id": "46",
+    "before": [
+      397,
+      756,
+      461,
+      795
+    ],
+    "after": [
+      397,
+      756,
+      460.0,
+      795
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 67,
+    "id": "52",
+    "before": [
+      459,
+      757,
+      536,
+      799
+    ],
+    "after": [
+      460.0,
+      757,
+      536,
+      799
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 67,
+    "id": "66",
+    "before": [
+      89,
+      850,
+      131,
+      883
+    ],
+    "after": [
+      89,
+      850,
+      127.0,
+      883
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 67,
+    "id": "67",
+    "before": [
+      123,
+      852,
+      201,
+      885
+    ],
+    "after": [
+      127.0,
+      852,
+      201,
+      885
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 67,
+    "id": "69",
+    "before": [
+      377,
+      853,
+      457,
+      885
+    ],
+    "after": [
+      377,
+      853,
+      448.0,
+      885
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 67,
+    "id": "70",
+    "before": [
+      439,
+      850,
+      540,
+      889
+    ],
+    "after": [
+      448.0,
+      850,
+      540,
+      889
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 67,
+    "id": "68",
+    "before": [
+      208,
+      853,
+      393,
+      884
+    ],
+    "after": [
+      208,
+      853,
+      385.0,
+      884
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 67,
+    "id": "69",
+    "before": [
+      377,
+      853,
+      448.0,
+      885
+    ],
+    "after": [
+      385.0,
+      853,
+      448.0,
+      885
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 67,
+    "id": "a2",
+    "before": [
+      323,
+      857,
+      386,
+      880
+    ],
+    "after": [
+      323,
+      857,
+      385.5,
+      880
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 67,
+    "id": "69",
+    "before": [
+      385.0,
+      853,
+      448.0,
+      885
+    ],
+    "after": [
+      385.5,
+      853,
+      448.0,
+      885
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 69,
+    "id": "11",
+    "before": [
+      158,
+      252,
+      343,
+      273
+    ],
+    "after": [
+      158,
+      252,
+      337.0,
+      273
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 69,
+    "id": "12",
+    "before": [
+      331,
+      247,
+      678,
+      276
+    ],
+    "after": [
+      337.0,
+      247,
+      678,
+      276
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 74,
+    "id": "28",
+    "before": [
+      209,
+      909,
+      246,
+      941
+    ],
+    "after": [
+      236.0,
+      906.0,
+      294.0,
+      944.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 75,
+    "id": "12",
+    "before": [
+      466,
+      488,
+      711,
+      525
+    ],
+    "after": [
+      466.0,
+      488.0,
+      711.0,
+      525.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 78,
+    "id": "5",
+    "before": [
+      157,
+      293,
+      209,
+      323
+    ],
+    "after": [
+      157.0,
+      293.0,
+      861.0,
+      324.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 78,
+    "id": "10",
+    "before": [
+      159,
+      357,
+      199,
+      381
+    ],
+    "after": [
+      159.0,
+      355.0,
+      862.0,
+      384.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 78,
+    "id": "13",
+    "before": [
+      155,
+      420,
+      601,
+      451
+    ],
+    "after": [
+      155.0,
+      420.0,
+      859.0,
+      451.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 79,
+    "id": "24",
+    "before": [
+      128,
+      1170,
+      231,
+      1205
+    ],
+    "after": [
+      128.0,
+      1166.0,
+      594.0,
+      1214.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 80,
+    "id": "27",
+    "before": [
+      158,
+      719,
+      356,
+      746
+    ],
+    "after": [
+      158,
+      719,
+      355.5,
+      746
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 80,
+    "id": "28",
+    "before": [
+      355,
+      721,
+      859,
+      744
+    ],
+    "after": [
+      355.5,
+      721,
+      859,
+      744
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 82,
+    "id": "18",
+    "before": [
+      158,
+      984,
+      198,
+      1007
+    ],
+    "after": [
+      158.0,
+      982.0,
+      859.0,
+      1007.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 83,
+    "id": "14",
+    "before": [
+      131,
+      489,
+      406,
+      522
+    ],
+    "after": [
+      131.0,
+      485.0,
+      833.0,
+      533.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 83,
+    "id": "48",
+    "before": [
+      186,
+      1225,
+      218,
+      1274
+    ],
+    "after": [
+      186.0,
+      1225.0,
+      359.0,
+      1274.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 83,
+    "id": "48",
+    "before": [
+      186.0,
+      1225.0,
+      359.0,
+      1274.0
+    ],
+    "after": [
+      186.0,
+      1225.0,
+      218.0,
+      1274.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 83,
+    "id": "49",
+    "before": [
+      689,
+      1222,
+      734,
+      1273
+    ],
+    "after": [
+      570.0,
+      1222.0,
+      739.0,
+      1274.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 83,
+    "id": "49",
+    "before": [
+      570.0,
+      1222.0,
+      739.0,
+      1274.0
+    ],
+    "after": [
+      689.0,
+      1222.0,
+      734.0,
+      1273.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 85,
+    "id": "4",
+    "before": [
+      129,
+      272,
+      807,
+      305
+    ],
+    "after": [
+      129.0,
+      272.0,
+      829.0,
+      305.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 86,
+    "id": "11",
+    "before": [
+      201,
+      554,
+      594,
+      593
+    ],
+    "after": [
+      201.0,
+      554.0,
+      864.0,
+      593.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 86,
+    "id": "15",
+    "before": [
+      202,
+      587,
+      674,
+      619
+    ],
+    "after": [
+      202.0,
+      587.0,
+      865.0,
+      619.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 87,
+    "id": "1",
+    "before": [
+      175,
+      187,
+      267,
+      215
+    ],
+    "after": [
+      175.0,
+      187.0,
+      837.0,
+      218.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 91,
+    "id": "7",
+    "before": [
+      176,
+      564,
+      452,
+      588
+    ],
+    "after": [
+      176.0,
+      563.0,
+      833.0,
+      590.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 91,
+    "id": "9",
+    "before": [
+      174,
+      594,
+      377,
+      618
+    ],
+    "after": [
+      174.0,
+      589.0,
+      835.0,
+      621.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 93,
+    "id": "18",
+    "before": [
+      233,
+      581,
+      854,
+      605
+    ],
+    "after": [
+      212.0,
+      581.0,
+      854.0,
+      605.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 94,
+    "id": "6",
+    "before": [
+      158,
+      220,
+      354,
+      244
+    ],
+    "after": [
+      158.0,
+      219.0,
+      563.0,
+      246.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 94,
+    "id": "15",
+    "before": [
+      154,
+      248,
+      460,
+      273
+    ],
+    "after": [
+      154.0,
+      247.0,
+      561.0,
+      273.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 94,
+    "id": "76",
+    "before": [
+      644,
+      951,
+      819,
+      979
+    ],
+    "after": [
+      644.0,
+      951.0,
+      876.0,
+      979.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 94,
+    "id": "80",
+    "before": [
+      643,
+      978,
+      799,
+      1006
+    ],
+    "after": [
+      643.0,
+      978.0,
+      872.0,
+      1006.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 95,
+    "id": "42",
+    "before": [
+      620,
+      1018,
+      643,
+      1100
+    ],
+    "after": [
+      620.0,
+      1018.0,
+      657.0,
+      1100.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 106,
+    "id": "29",
+    "before": [
+      160,
+      1190,
+      184,
+      1213
+    ],
+    "after": [
+      160,
+      1190,
+      182.0,
+      1213
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 106,
+    "id": "30",
+    "before": [
+      180,
+      1185,
+      371,
+      1217
+    ],
+    "after": [
+      182.0,
+      1185,
+      371,
+      1217
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 107,
+    "id": "23",
+    "before": [
+      584,
+      632,
+      605,
+      778
+    ],
+    "after": [
+      584,
+      632,
+      604.0,
+      778
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 107,
+    "id": "20",
+    "before": [
+      603,
+      580,
+      637,
+      847
+    ],
+    "after": [
+      604.0,
+      580,
+      637,
+      847
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 107,
+    "id": "a4",
+    "before": [
+      584,
+      636,
+      605,
+      780
+    ],
+    "after": [
+      584,
+      636,
+      604.5,
+      780
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 107,
+    "id": "20",
+    "before": [
+      604.0,
+      580,
+      637,
+      847
+    ],
+    "after": [
+      604.5,
+      580,
+      637,
+      847
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 107,
+    "id": "53",
+    "before": [
+      95,
+      1249,
+      309,
+      1277
+    ],
+    "after": [
+      95,
+      1249,
+      302.5,
+      1277
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 107,
+    "id": "54",
+    "before": [
+      296,
+      1250,
+      412,
+      1278
+    ],
+    "after": [
+      302.5,
+      1250,
+      412,
+      1278
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 107,
+    "id": "54",
+    "before": [
+      302.5,
+      1250,
+      412,
+      1278
+    ],
+    "after": [
+      302.5,
+      1250,
+      411.0,
+      1278
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 107,
+    "id": "55",
+    "before": [
+      410,
+      1248,
+      517,
+      1279
+    ],
+    "after": [
+      411.0,
+      1248,
+      517,
+      1279
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 113,
+    "id": "7",
+    "before": [
+      520,
+      308,
+      550,
+      347
+    ],
+    "after": [
+      520.0,
+      308.0,
+      550.0,
+      347.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 113,
+    "id": "6",
+    "before": [
+      492,
+      312,
+      526,
+      343
+    ],
+    "after": [
+      492,
+      312,
+      523.0,
+      343
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 113,
+    "id": "7",
+    "before": [
+      520.0,
+      308.0,
+      550.0,
+      347.0
+    ],
+    "after": [
+      523.0,
+      308.0,
+      550.0,
+      347.0
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 116,
+    "id": "9",
+    "before": [
+      159,
+      830,
+      197,
+      854
+    ],
+    "after": [
+      159,
+      830,
+      194.5,
+      854
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 116,
+    "id": "10",
+    "before": [
+      192,
+      828,
+      802,
+      856
+    ],
+    "after": [
+      194.5,
+      828,
+      802,
+      856
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 117,
+    "id": "4",
+    "before": [
+      166,
+      271,
+      198,
+      297
+    ],
+    "after": [
+      166.0,
+      270.0,
+      416.0,
+      322.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 117,
+    "id": "8",
+    "before": [
+      553,
+      268,
+      586,
+      298
+    ],
+    "after": [
+      552.0,
+      268.0,
+      749.0,
+      326.0
+    ],
+    "reason": "selected_proofreading_geometry_note_owned_by_this_page"
+  },
+  {
+    "page": 117,
+    "id": "35",
+    "before": [
+      289,
+      898,
+      532,
+      929
+    ],
+    "after": [
+      289,
+      898,
+      529.0,
+      929
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 117,
+    "id": "36",
+    "before": [
+      526,
+      900,
+      656,
+      928
+    ],
+    "after": [
+      529.0,
+      900,
+      656,
+      928
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 123,
+    "id": "3",
+    "before": [
+      130,
+      272,
+      338,
+      303
+    ],
+    "after": [
+      130,
+      272,
+      334.5,
+      303
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 123,
+    "id": "4",
+    "before": [
+      331,
+      274,
+      833,
+      302
+    ],
+    "after": [
+      334.5,
+      274,
+      833,
+      302
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 123,
+    "id": "5",
+    "before": [
+      131,
+      307,
+      169,
+      331
+    ],
+    "after": [
+      131,
+      307,
+      167.0,
+      331
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 123,
+    "id": "6",
+    "before": [
+      165,
+      302,
+      248,
+      333
+    ],
+    "after": [
+      167.0,
+      302,
+      248,
+      333
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 123,
+    "id": "9",
+    "before": [
+      382,
+      305,
+      511,
+      329
+    ],
+    "after": [
+      382,
+      305,
+      510.5,
+      329
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 123,
+    "id": "10",
+    "before": [
+      510,
+      306,
+      743,
+      330
+    ],
+    "after": [
+      510.5,
+      306,
+      743,
+      330
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 123,
+    "id": "12",
+    "before": [
+      129,
+      332,
+      188,
+      361
+    ],
+    "after": [
+      129,
+      332,
+      181.5,
+      361
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 123,
+    "id": "13",
+    "before": [
+      175,
+      332,
+      269,
+      361
+    ],
+    "after": [
+      181.5,
+      332,
+      269,
+      361
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 123,
+    "id": "13",
+    "before": [
+      181.5,
+      332,
+      269,
+      361
+    ],
+    "after": [
+      181.5,
+      332,
+      268.0,
+      361
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 123,
+    "id": "14",
+    "before": [
+      267,
+      333,
+      339,
+      360
+    ],
+    "after": [
+      268.0,
+      333,
+      339,
+      360
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 123,
+    "id": "14",
+    "before": [
+      268.0,
+      333,
+      339,
+      360
+    ],
+    "after": [
+      268.0,
+      333,
+      337.0,
+      360
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 123,
+    "id": "15",
+    "before": [
+      335,
+      333,
+      832,
+      361
+    ],
+    "after": [
+      337.0,
+      333,
+      832,
+      361
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 123,
+    "id": "16",
+    "before": [
+      129,
+      362,
+      268,
+      394
+    ],
+    "after": [
+      129,
+      362,
+      264.5,
+      394
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 123,
+    "id": "17",
+    "before": [
+      261,
+      360,
+      836,
+      394
+    ],
+    "after": [
+      264.5,
+      360,
+      836,
+      394
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 123,
+    "id": "27",
+    "before": [
+      185,
+      754,
+      405,
+      785
+    ],
+    "after": [
+      185,
+      754,
+      401.5,
+      785
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 123,
+    "id": "28",
+    "before": [
+      398,
+      757,
+      433,
+      783
+    ],
+    "after": [
+      401.5,
+      757,
+      433,
+      783
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 135,
+    "id": "2",
+    "before": [
+      275,
+      235,
+      515,
+      256
+    ],
+    "after": [
+      275,
+      235,
+      510.5,
+      256
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 135,
+    "id": "3",
+    "before": [
+      506,
+      230,
+      640,
+      258
+    ],
+    "after": [
+      510.5,
+      230,
+      640,
+      258
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 135,
+    "id": "4",
+    "before": [
+      647,
+      234,
+      764,
+      258
+    ],
+    "after": [
+      647,
+      234,
+      758.0,
+      258
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 135,
+    "id": "5",
+    "before": [
+      752,
+      236,
+      836,
+      257
+    ],
+    "after": [
+      758.0,
+      236,
+      836,
+      257
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 137,
+    "id": "a2",
+    "before": [
+      363,
+      288,
+      444,
+      320
+    ],
+    "after": [
+      363,
+      288,
+      442.5,
+      320
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 137,
+    "id": "5",
+    "before": [
+      441,
+      288,
+      488,
+      316
+    ],
+    "after": [
+      442.5,
+      288,
+      488,
+      316
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 139,
+    "id": "8",
+    "before": [
+      305,
+      390,
+      405,
+      416
+    ],
+    "after": [
+      305,
+      390,
+      401.0,
+      416
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 139,
+    "id": "9",
+    "before": [
+      397,
+      391,
+      833,
+      414
+    ],
+    "after": [
+      401.0,
+      391,
+      833,
+      414
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 140,
+    "id": "27",
+    "before": [
+      152,
+      848,
+      499,
+      878
+    ],
+    "after": [
+      152,
+      848,
+      494.0,
+      878
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 140,
+    "id": "28",
+    "before": [
+      489,
+      854,
+      650,
+      875
+    ],
+    "after": [
+      494.0,
+      854,
+      650,
+      875
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 140,
+    "id": "29",
+    "before": [
+      650,
+      848,
+      802,
+      878
+    ],
+    "after": [
+      650,
+      848,
+      800.5,
+      878
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 140,
+    "id": "30",
+    "before": [
+      799,
+      853,
+      865,
+      875
+    ],
+    "after": [
+      800.5,
+      853,
+      865,
+      875
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 140,
+    "id": "31",
+    "before": [
+      151,
+      879,
+      667,
+      907
+    ],
+    "after": [
+      151,
+      879,
+      660.0,
+      907
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 140,
+    "id": "32",
+    "before": [
+      653,
+      879,
+      867,
+      910
+    ],
+    "after": [
+      660.0,
+      879,
+      867,
+      910
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 140,
+    "id": "40",
+    "before": [
+      158,
+      1223,
+      237,
+      1248
+    ],
+    "after": [
+      158,
+      1223,
+      235.0,
+      1248
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 140,
+    "id": "41",
+    "before": [
+      233,
+      1222,
+      628,
+      1251
+    ],
+    "after": [
+      235.0,
+      1222,
+      628,
+      1251
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 140,
+    "id": "41",
+    "before": [
+      235.0,
+      1222,
+      628,
+      1251
+    ],
+    "after": [
+      235.0,
+      1222,
+      626.0,
+      1251
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 140,
+    "id": "42",
+    "before": [
+      624,
+      1225,
+      726,
+      1250
+    ],
+    "after": [
+      626.0,
+      1225,
+      726,
+      1250
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 140,
+    "id": "42",
+    "before": [
+      626.0,
+      1225,
+      726,
+      1250
+    ],
+    "after": [
+      626.0,
+      1225,
+      721.0,
+      1250
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 140,
+    "id": "43",
+    "before": [
+      716,
+      1224,
+      861,
+      1252
+    ],
+    "after": [
+      721.0,
+      1224,
+      861,
+      1252
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  }
+]

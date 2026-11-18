@@ -1,0 +1,15 @@
+{
+  "rounds": [
+    {
+      "round": "round1",
+      "pages": 144,
+      "raw_ids_and_addition_coordinates_valid": true
+    },
+    {
+      "round": "round2",
+      "pages": 144,
+      "raw_ids_and_addition_coordinates_valid": true
+    }
+  ],
+  "independence": "12 distinct proofreading agents in fresh contexts; round 2 received original scans and original OCR only."
+}
