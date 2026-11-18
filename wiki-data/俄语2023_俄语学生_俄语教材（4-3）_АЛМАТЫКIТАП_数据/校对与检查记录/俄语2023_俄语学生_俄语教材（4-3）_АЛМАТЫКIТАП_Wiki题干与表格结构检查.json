@@ -1,0 +1,78 @@
+{
+  "question_candidates": 239,
+  "empty_questions": [],
+  "missing_prompt_fragments": [],
+  "table_candidates": [
+    {
+      "page": 15,
+      "id": "russian-2023-ru-student-grade4-part3-almatykitap:p015:table009",
+      "rows": 2,
+      "columns": 3,
+      "unassigned_spanning_lines": 0
+    },
+    {
+      "page": 20,
+      "id": "russian-2023-ru-student-grade4-part3-almatykitap:p020:table007",
+      "rows": 8,
+      "columns": 5,
+      "unassigned_spanning_lines": 2
+    },
+    {
+      "page": 23,
+      "id": "russian-2023-ru-student-grade4-part3-almatykitap:p023:table010",
+      "rows": 6,
+      "columns": 5,
+      "unassigned_spanning_lines": 0
+    },
+    {
+      "page": 26,
+      "id": "russian-2023-ru-student-grade4-part3-almatykitap:p026:table009",
+      "rows": 5,
+      "columns": 3,
+      "unassigned_spanning_lines": 0
+    },
+    {
+      "page": 36,
+      "id": "russian-2023-ru-student-grade4-part3-almatykitap:p036:table007",
+      "rows": 7,
+      "columns": 4,
+      "unassigned_spanning_lines": 0
+    },
+    {
+      "page": 37,
+      "id": "russian-2023-ru-student-grade4-part3-almatykitap:p037:table005",
+      "rows": 5,
+      "columns": 21,
+      "unassigned_spanning_lines": 8
+    },
+    {
+      "page": 54,
+      "id": "russian-2023-ru-student-grade4-part3-almatykitap:p054:table007",
+      "rows": 5,
+      "columns": 5,
+      "unassigned_spanning_lines": 3
+    },
+    {
+      "page": 64,
+      "id": "russian-2023-ru-student-grade4-part3-almatykitap:p064:table011",
+      "rows": 2,
+      "columns": 3,
+      "unassigned_spanning_lines": 0
+    },
+    {
+      "page": 65,
+      "id": "russian-2023-ru-student-grade4-part3-almatykitap:p065:table007",
+      "rows": 6,
+      "columns": 3,
+      "unassigned_spanning_lines": 0
+    },
+    {
+      "page": 65,
+      "id": "russian-2023-ru-student-grade4-part3-almatykitap:p065:table008",
+      "rows": 4,
+      "columns": 3,
+      "unassigned_spanning_lines": 0
+    }
+  ],
+  "semantic_status": "automatic_candidates; OCR text independently proofread, semantic cell/question grouping requires review"
+}

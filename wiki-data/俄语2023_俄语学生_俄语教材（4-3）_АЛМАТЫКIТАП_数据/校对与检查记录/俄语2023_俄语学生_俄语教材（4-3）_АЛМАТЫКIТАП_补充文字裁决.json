@@ -1,0 +1,171 @@
+[
+  {
+    "page": 7,
+    "side": "b",
+    "addition_index": 0,
+    "text": "11 – одиннадцать, 12, 13, 14, 15, 16, 17, 18, 19.",
+    "bbox": [
+      117,
+      499,
+      715,
+      530
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 13,
+    "side": "a",
+    "addition_index": 0,
+    "text": "...",
+    "bbox": [
+      637,
+      443,
+      664,
+      465
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 13,
+    "side": "a",
+    "addition_index": 1,
+    "text": "...",
+    "bbox": [
+      291,
+      508,
+      317,
+      530
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 46,
+    "side": "a",
+    "addition_index": 0,
+    "text": "... .",
+    "bbox": [
+      282,
+      575,
+      320,
+      603
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 63,
+    "side": "b",
+    "addition_index": 0,
+    "text": "2",
+    "bbox": [
+      685,
+      329,
+      713,
+      363
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 63,
+    "side": "b",
+    "addition_index": 1,
+    "text": "1",
+    "bbox": [
+      755,
+      301,
+      782,
+      352
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 65,
+    "side": "a",
+    "addition_index": 0,
+    "text": "– ... .",
+    "bbox": [
+      535,
+      1253,
+      589,
+      1288
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 66,
+    "side": "a",
+    "addition_index": 0,
+    "text": "– ...,",
+    "bbox": [
+      299,
+      827,
+      354,
+      860
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 66,
+    "side": "a",
+    "addition_index": 1,
+    "text": "–",
+    "bbox": [
+      483,
+      424,
+      505,
+      453
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 82,
+    "side": "a",
+    "addition_index": 0,
+    "text": "слове.",
+    "bbox": [
+      719,
+      366,
+      810,
+      398
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 88,
+    "side": "a",
+    "addition_index": 0,
+    "text": "1.",
+    "bbox": [
+      156,
+      977,
+      187,
+      1009
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 95,
+    "side": "b",
+    "addition_index": 0,
+    "text": "мандари́ны, мандари́нов",
+    "bbox": [
+      78,
+      776,
+      404,
+      807
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 96,
+    "side": "a",
+    "addition_index": 0,
+    "text": "С",
+    "bbox": [
+      527,
+      635,
+      548,
+      659
+    ],
+    "decision": "retain_round1"
+  }
+]
