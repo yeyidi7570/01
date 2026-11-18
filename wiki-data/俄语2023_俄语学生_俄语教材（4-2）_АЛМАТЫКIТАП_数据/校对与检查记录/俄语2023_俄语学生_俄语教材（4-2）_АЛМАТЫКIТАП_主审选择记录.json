@@ -1,0 +1,42 @@
+{
+  "choose_b": [
+    11,
+    54,
+    316,
+    748,
+    764,
+    900,
+    969,
+    970,
+    971,
+    972,
+    1619,
+    1621
+  ],
+  "accept_b_additions": [
+    0,
+    24,
+    25
+  ],
+  "reject_a_additions": [],
+  "content_cases_reviewed": 85,
+  "content_default": "round1 after direct source review",
+  "segmentation_default": "round1; differences with identical text or characters are grouping/ordering changes; reconstructed page review also checks geometry",
+  "native_pages": "Original verified native text objects supersede OCR fragment differences on pages 1,3,110,111,112",
+  "text_overrides": [
+    {
+      "page": 21,
+      "id": "48",
+      "text": "дома,",
+      "reason": "Printed comma directly visible after boxed ending."
+    },
+    {
+      "page": 37,
+      "id": "85",
+      "text": "в",
+      "reason": "Source is lowercase Cyrillic preposition, not Latin capital B."
+    }
+  ],
+  "all_addition_differences_reviewed": 27,
+  "unreadable_material": "Very small photograph/coin/jersey details remain original graphic fragments; no text invented."
+}

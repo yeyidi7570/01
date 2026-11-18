@@ -1,0 +1,19 @@
+{
+  "res": {
+    "input_path": "/workspace/russian2023p2_work/original/111.png",
+    "page_index": null,
+    "boxes": [
+      {
+        "cls_id": 5,
+        "label": "content",
+        "score": 0.8239738941192627,
+        "coordinate": [
+          71.52201080322266,
+          101.19598388671875,
+          872.3345336914062,
+          1210.958740234375
+        ]
+      }
+    ]
+  }
+}
