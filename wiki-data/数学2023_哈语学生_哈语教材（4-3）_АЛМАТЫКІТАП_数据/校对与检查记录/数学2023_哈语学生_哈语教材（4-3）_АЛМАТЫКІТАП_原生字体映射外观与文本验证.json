@@ -1,0 +1,22 @@
+{
+  "pages": [
+    158,
+    160
+  ],
+  "render_pixels_before_after_identical": true,
+  "extracted_text_changes_only": [
+    {
+      "page": 158,
+      "before": "U+008F",
+      "after": "space",
+      "occurrences": 2
+    },
+    {
+      "page": 160,
+      "before": "U+001A",
+      "after": "қ",
+      "occurrences": 2
+    }
+  ],
+  "other_extracted_characters_unchanged": true
+}

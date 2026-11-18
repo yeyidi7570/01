@@ -1,0 +1,71 @@
+{
+  "question_candidates": 423,
+  "empty_questions": [],
+  "missing_prompt_fragments": [],
+  "table_candidates": [
+    {
+      "page": 6,
+      "id": "math-2023-grade4-part3:p006:table004",
+      "rows": 4,
+      "columns": 6,
+      "unassigned_spanning_lines": 4
+    },
+    {
+      "page": 8,
+      "id": "math-2023-grade4-part3:p008:table004",
+      "rows": 4,
+      "columns": 10,
+      "unassigned_spanning_lines": 0
+    },
+    {
+      "page": 9,
+      "id": "math-2023-grade4-part3:p009:table002",
+      "rows": 4,
+      "columns": 2,
+      "unassigned_spanning_lines": 0
+    },
+    {
+      "page": 23,
+      "id": "math-2023-grade4-part3:p023:table004",
+      "rows": 4,
+      "columns": 4,
+      "unassigned_spanning_lines": 4
+    },
+    {
+      "page": 27,
+      "id": "math-2023-grade4-part3:p027:table001",
+      "rows": 8,
+      "columns": 13,
+      "unassigned_spanning_lines": 0
+    },
+    {
+      "page": 98,
+      "id": "math-2023-grade4-part3:p098:table003",
+      "rows": 5,
+      "columns": 8,
+      "unassigned_spanning_lines": 1
+    },
+    {
+      "page": 128,
+      "id": "math-2023-grade4-part3:p128:table003",
+      "rows": 6,
+      "columns": 6,
+      "unassigned_spanning_lines": 0
+    },
+    {
+      "page": 131,
+      "id": "math-2023-grade4-part3:p131:table003",
+      "rows": 8,
+      "columns": 8,
+      "unassigned_spanning_lines": 0
+    },
+    {
+      "page": 146,
+      "id": "math-2023-grade4-part3:p146:table002",
+      "rows": 8,
+      "columns": 8,
+      "unassigned_spanning_lines": 0
+    }
+  ],
+  "semantic_status": "automatic_candidates; OCR text independently proofread, semantic cell/question grouping requires review"
+}

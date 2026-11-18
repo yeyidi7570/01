@@ -1,0 +1,23 @@
+[
+  {
+    "page": 158,
+    "id": "n4",
+    "before": "'Мысалы, \\x8f5\\x8f'",
+    "after": "Мысалы,  5 ",
+    "reason": "Correct original native font character mapping; preserve visible source glyphs."
+  },
+  {
+    "page": 160,
+    "id": "n73",
+    "before": "'Астана \\x1aаласы: Иманов көшесі, 10, тел.: (7172) 53 70 84, 27 29 54;'",
+    "after": "Астана қаласы: Иманов көшесі, 10, тел.: (7172) 53 70 84, 27 29 54;",
+    "reason": "Correct original native font character mapping; preserve visible source glyphs."
+  },
+  {
+    "page": 160,
+    "id": "n75",
+    "before": "'Алматы \\x1aаласы: Абай даңғылы, 35/37, тел.: (727) 267 13 95, 267 14 86;'",
+    "after": "Алматы қаласы: Абай даңғылы, 35/37, тел.: (727) 267 13 95, 267 14 86;",
+    "reason": "Correct original native font character mapping; preserve visible source glyphs."
+  }
+]

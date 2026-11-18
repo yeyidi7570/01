@@ -1,0 +1,29 @@
+{
+  "source_images_decoded": 637,
+  "damaged_images": [],
+  "unreadable_details": [
+    {
+      "page": 42,
+      "detail": "Tiny graph symbol and lower packaging print were reviewed; only directly legible text was retained."
+    },
+    {
+      "page": 52,
+      "detail": "Relief numerals on three small coin illustrations are unclear."
+    },
+    {
+      "page": 99,
+      "detail": "Tiny white inscription on weight illustration is unclear; tentative 3/4 was removed."
+    },
+    {
+      "page": 146,
+      "detail": "Blurry bus front route display is not reliably readable."
+    }
+  ],
+  "main_resolved_after_enlargement": [
+    {
+      "page": 153,
+      "detail": "Tilted mascot caption read after enlarged rotation; source words retained."
+    }
+  ],
+  "policy": "Uncertain detail is preserved visually, with no invented textual replacement."
+}

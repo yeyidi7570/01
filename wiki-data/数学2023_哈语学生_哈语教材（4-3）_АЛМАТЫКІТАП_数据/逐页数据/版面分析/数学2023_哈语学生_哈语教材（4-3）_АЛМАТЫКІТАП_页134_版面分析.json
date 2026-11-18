@@ -1,0 +1,19 @@
+{
+  "res": {
+    "input_path": "/workspace/math2023p3_work/original/134.png",
+    "page_index": null,
+    "boxes": [
+      {
+        "cls_id": 20,
+        "label": "header_image",
+        "score": 0.6752787828445435,
+        "coordinate": [
+          58.66788864135742,
+          48.02229690551758,
+          143.16334533691406,
+          144.5618896484375
+        ]
+      }
+    ]
+  }
+}
