@@ -1,0 +1,168 @@
+{
+  "choose_b": [
+    0,
+    223,
+    278,
+    285,
+    286,
+    287,
+    290,
+    297,
+    298,
+    299,
+    300,
+    310,
+    311,
+    313,
+    314,
+    315,
+    316,
+    317,
+    320,
+    321,
+    340,
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    349
+  ],
+  "accept_b_additions": [
+    5,
+    55,
+    98,
+    99,
+    104,
+    105,
+    106,
+    110,
+    111,
+    112
+  ],
+  "reject_a_additions": [
+    [
+      1,
+      0
+    ],
+    [
+      101,
+      5
+    ],
+    [
+      101,
+      6
+    ],
+    [
+      66,
+      2
+    ],
+    [
+      66,
+      3
+    ],
+    [
+      66,
+      5
+    ],
+    [
+      66,
+      6
+    ],
+    [
+      66,
+      8
+    ],
+    [
+      66,
+      9
+    ],
+    [
+      81,
+      1
+    ]
+  ],
+  "text_overrides": [
+    {
+      "page": 106,
+      "id": "41",
+      "text": "М"
+    },
+    {
+      "page": 138,
+      "id": "15",
+      "text": "Е"
+    },
+    {
+      "page": 124,
+      "id": "32",
+      "text": "АТА"
+    },
+    {
+      "page": 127,
+      "id": "20",
+      "text": ""
+    },
+    {
+      "page": 127,
+      "id": "16",
+      "text": ""
+    }
+  ],
+  "geometry_overrides": [
+    {
+      "page": 125,
+      "id": "11",
+      "bbox": [
+        907,
+        125,
+        968,
+        207
+      ]
+    },
+    {
+      "page": 95,
+      "id": "31",
+      "bbox": [
+        610,
+        508,
+        660,
+        538
+      ]
+    },
+    {
+      "page": 95,
+      "id": "32",
+      "bbox": [
+        662,
+        507,
+        824,
+        538
+      ]
+    }
+  ],
+  "source_graphic_ids": [
+    {
+      "page": 125,
+      "id": "11"
+    },
+    {
+      "page": 111,
+      "id": "5"
+    }
+  ],
+  "reviewed_content_cases": 116,
+  "reviewed_additions": 125,
+  "source_limits": [
+    {
+      "page": 1,
+      "detail": "Tiny tilted book-cover label on illustration retained as image; part number differs between reviewers and is not inferred."
+    },
+    {
+      "page": 66,
+      "detail": "Country/republic header in tiny ticket logo not transcribed where individual letters/case cannot be confirmed; retained as image."
+    }
+  ],
+  "policy": "Main original-scan adjudication; preserve printed wording and blanks; prefer Latin mathematical variables and Cyrillic Kazakh cipher letters; retain source graphic annotations."
+}

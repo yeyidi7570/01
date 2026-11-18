@@ -1,0 +1,104 @@
+[
+  {
+    "page": 86,
+    "id": "5",
+    "before": "v₁ + v₂ = v_{бірл.}",
+    "after": "v₁ + v₂ = vбірл.",
+    "reason": "Remove nonprinted TeX braces; original subscript appearance retained graphically with Unicode."
+  },
+  {
+    "page": 86,
+    "id": "9",
+    "before": "t = A : v_{бірл.}",
+    "after": "t = A : vбірл.",
+    "reason": "Remove nonprinted TeX braces; original subscript appearance retained graphically with Unicode."
+  },
+  {
+    "page": 86,
+    "id": "12",
+    "before": "A = v_{бірл.} · t",
+    "after": "A = vбірл. · t",
+    "reason": "Remove nonprinted TeX braces; original subscript appearance retained graphically with Unicode."
+  },
+  {
+    "page": 127,
+    "id": "a12",
+    "before": "АЙТ",
+    "after": "АТА",
+    "reason": "Directly inspected book mascot caption."
+  },
+  {
+    "page": 7,
+    "id": "a4",
+    "reason": "B addition duplicates final raw65 containing both adjacent expressions; retain one Unicode transcription."
+  },
+  {
+    "page": 40,
+    "id": "10",
+    "repair": "Remove duplicate transcription already covered by a3, verified directly against scan."
+  },
+  {
+    "page": 75,
+    "ids": [
+      "21",
+      "20",
+      "22",
+      "26",
+      "29",
+      "23",
+      "24",
+      "25",
+      "27",
+      "28",
+      "30",
+      "31",
+      "32",
+      "34",
+      "35",
+      "33",
+      "38",
+      "36",
+      "37",
+      "40",
+      "39",
+      "43",
+      "41",
+      "42",
+      "44",
+      "45",
+      "46",
+      "49",
+      "50",
+      "47",
+      "48",
+      "51",
+      "53",
+      "52",
+      "54",
+      "55",
+      "57",
+      "56",
+      "a1",
+      "a2",
+      "a3",
+      "a4",
+      "a5",
+      "a6",
+      "a7",
+      "a8",
+      "a9",
+      "a10",
+      "a11",
+      "a12"
+    ],
+    "repair": "Preserve original handwritten multiplication examples as source fragments with corrected searchable Unicode; remove oversized replacement numerals."
+  },
+  {
+    "page": 111,
+    "ids": [
+      "1",
+      "26"
+    ],
+    "repair": "Preserve formula subscript and small white header as original source fragments with searchable Unicode."
+  }
+]

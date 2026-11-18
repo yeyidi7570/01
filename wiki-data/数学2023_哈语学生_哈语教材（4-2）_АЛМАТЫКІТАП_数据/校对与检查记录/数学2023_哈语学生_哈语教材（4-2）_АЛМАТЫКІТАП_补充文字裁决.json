@@ -1,0 +1,1627 @@
+[
+  {
+    "page": 1,
+    "side": "a",
+    "addition_index": 0,
+    "text": "1-бөлім",
+    "bbox": [
+      600,
+      1043,
+      642,
+      1078
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 1,
+    "side": "b",
+    "addition_index": 0,
+    "text": "4-бөлім",
+    "bbox": [
+      601,
+      1042,
+      644,
+      1070
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 3,
+    "side": "a",
+    "addition_index": 0,
+    "text": "АК",
+    "bbox": [
+      469,
+      941,
+      513,
+      982
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 5,
+    "side": "a",
+    "addition_index": 5,
+    "text": "АК",
+    "bbox": [
+      393,
+      757,
+      422,
+      782
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 7,
+    "side": "a",
+    "addition_index": 3,
+    "text": "АК",
+    "bbox": [
+      799,
+      66,
+      829,
+      93
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 7,
+    "side": "b",
+    "addition_index": 3,
+    "text": "75 · 2 · 200",
+    "bbox": [
+      572,
+      1251,
+      697,
+      1280
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 11,
+    "side": "a",
+    "addition_index": 1,
+    "text": "АК",
+    "bbox": [
+      857,
+      144,
+      885,
+      169
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 12,
+    "side": "a",
+    "addition_index": 1,
+    "text": "3А",
+    "bbox": [
+      142,
+      996,
+      182,
+      1027
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 12,
+    "side": "b",
+    "addition_index": 1,
+    "text": "3а",
+    "bbox": [
+      141,
+      991,
+      185,
+      1026
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 13,
+    "side": "b",
+    "addition_index": 0,
+    "text": ": 2 000",
+    "bbox": [
+      640,
+      294,
+      719,
+      324
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 14,
+    "side": "a",
+    "addition_index": 4,
+    "text": "АК",
+    "bbox": [
+      702,
+      1064,
+      737,
+      1090
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 15,
+    "side": "a",
+    "addition_index": 1,
+    "text": "АК",
+    "bbox": [
+      698,
+      132,
+      742,
+      174
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 17,
+    "side": "a",
+    "addition_index": 1,
+    "text": "□",
+    "bbox": [
+      407,
+      281,
+      435,
+      309
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 17,
+    "side": "a",
+    "addition_index": 2,
+    "text": "□",
+    "bbox": [
+      278,
+      346,
+      306,
+      373
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 18,
+    "side": "a",
+    "addition_index": 0,
+    "text": "АК",
+    "bbox": [
+      841,
+      110,
+      874,
+      136
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 21,
+    "side": "a",
+    "addition_index": 1,
+    "text": "АК",
+    "bbox": [
+      811,
+      130,
+      848,
+      160
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 22,
+    "side": "a",
+    "addition_index": 3,
+    "text": "5",
+    "bbox": [
+      361,
+      819,
+      379,
+      843
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 22,
+    "side": "a",
+    "addition_index": 6,
+    "text": "·",
+    "bbox": [
+      816,
+      1215,
+      825,
+      1230
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 26,
+    "side": "a",
+    "addition_index": 10,
+    "text": "2",
+    "bbox": [
+      265,
+      337,
+      291,
+      368
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 30,
+    "side": "a",
+    "addition_index": 11,
+    "text": "·",
+    "bbox": [
+      348,
+      600,
+      358,
+      609
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 30,
+    "side": "a",
+    "addition_index": 12,
+    "text": "· · ·",
+    "bbox": [
+      660,
+      600,
+      724,
+      609
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 30,
+    "side": "a",
+    "addition_index": 13,
+    "text": ":",
+    "bbox": [
+      307,
+      841,
+      315,
+      859
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 34,
+    "side": "a",
+    "addition_index": 15,
+    "text": "·",
+    "bbox": [
+      277,
+      501,
+      288,
+      512
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 34,
+    "side": "a",
+    "addition_index": 16,
+    "text": "·",
+    "bbox": [
+      481,
+      501,
+      491,
+      511
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 36,
+    "side": "a",
+    "addition_index": 6,
+    "text": "· ·",
+    "bbox": [
+      804,
+      987,
+      850,
+      998
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 39,
+    "side": "a",
+    "addition_index": 4,
+    "text": "93860",
+    "bbox": [
+      518,
+      853,
+      655,
+      885
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 39,
+    "side": "a",
+    "addition_index": 7,
+    "text": "260",
+    "bbox": [
+      576,
+      971,
+      659,
+      1002
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 39,
+    "side": "a",
+    "addition_index": 8,
+    "text": "260",
+    "bbox": [
+      576,
+      1001,
+      659,
+      1030
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 39,
+    "side": "a",
+    "addition_index": 9,
+    "text": "0",
+    "bbox": [
+      635,
+      1030,
+      660,
+      1060
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 39,
+    "side": "a",
+    "addition_index": 16,
+    "text": "· · ·",
+    "bbox": [
+      674,
+      912,
+      765,
+      924
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 39,
+    "side": "a",
+    "addition_index": 17,
+    "text": "· · ·",
+    "bbox": [
+      315,
+      912,
+      391,
+      924
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 40,
+    "side": "a",
+    "addition_index": 2,
+    "text": "21",
+    "bbox": [
+      383,
+      323,
+      434,
+      354
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 40,
+    "side": "a",
+    "addition_index": 3,
+    "text": "39080",
+    "bbox": [
+      383,
+      354,
+      524,
+      385
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 40,
+    "side": "a",
+    "addition_index": 4,
+    "text": "39080",
+    "bbox": [
+      677,
+      354,
+      820,
+      385
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 40,
+    "side": "a",
+    "addition_index": 6,
+    "text": "189",
+    "bbox": [
+      206,
+      413,
+      290,
+      442
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 40,
+    "side": "a",
+    "addition_index": 13,
+    "text": "· · · · ·",
+    "bbox": [
+      388,
+      385,
+      516,
+      398
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 40,
+    "side": "b",
+    "addition_index": 1,
+    "text": "2",
+    "bbox": [
+      381,
+      326,
+      407,
+      355
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 42,
+    "side": "a",
+    "addition_index": 5,
+    "text": "198",
+    "bbox": [
+      305,
+      1048,
+      386,
+      1081
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 42,
+    "side": "a",
+    "addition_index": 11,
+    "text": "· · ·",
+    "bbox": [
+      310,
+      1077,
+      380,
+      1089
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 42,
+    "side": "a",
+    "addition_index": 12,
+    "text": "Ы. АЛТЫНСАРИН",
+    "bbox": [
+      797,
+      635,
+      880,
+      677
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 42,
+    "side": "b",
+    "addition_index": 4,
+    "text": "8",
+    "bbox": [
+      362,
+      1047,
+      384,
+      1078
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 42,
+    "side": "b",
+    "addition_index": 10,
+    "text": "Ы.АЛТЫНСАРИН",
+    "bbox": [
+      790,
+      648,
+      880,
+      696
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 43,
+    "side": "a",
+    "addition_index": 3,
+    "text": "□",
+    "bbox": [
+      137,
+      806,
+      160,
+      830
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 44,
+    "side": "a",
+    "addition_index": 1,
+    "text": "•",
+    "bbox": [
+      208,
+      321,
+      218,
+      334
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 44,
+    "side": "a",
+    "addition_index": 3,
+    "text": "□",
+    "bbox": [
+      155,
+      711,
+      179,
+      735
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 45,
+    "side": "a",
+    "addition_index": 5,
+    "text": "230",
+    "bbox": [
+      193,
+      1200,
+      274,
+      1230
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 45,
+    "side": "a",
+    "addition_index": 11,
+    "text": "· ·",
+    "bbox": [
+      319,
+      1171,
+      352,
+      1183
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 45,
+    "side": "a",
+    "addition_index": 12,
+    "text": "· ·",
+    "bbox": [
+      697,
+      1171,
+      737,
+      1183
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 48,
+    "side": "a",
+    "addition_index": 0,
+    "text": "Жазбаша көбейту алгоритмі",
+    "bbox": [
+      758,
+      115,
+      871,
+      224
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 48,
+    "side": "a",
+    "addition_index": 8,
+    "text": "1",
+    "bbox": [
+      258,
+      986,
+      279,
+      1015
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 48,
+    "side": "a",
+    "addition_index": 9,
+    "text": "1",
+    "bbox": [
+      649,
+      986,
+      668,
+      1015
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 48,
+    "side": "a",
+    "addition_index": 10,
+    "text": "728",
+    "bbox": [
+      644,
+      1013,
+      731,
+      1044
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 48,
+    "side": "b",
+    "addition_index": 0,
+    "text": "Жазбаша",
+    "bbox": [
+      735,
+      121,
+      838,
+      214
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 48,
+    "side": "b",
+    "addition_index": 1,
+    "text": "көбейту",
+    "bbox": [
+      762,
+      140,
+      857,
+      214
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 48,
+    "side": "b",
+    "addition_index": 2,
+    "text": "алгоритмі",
+    "bbox": [
+      787,
+      147,
+      869,
+      226
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 49,
+    "side": "b",
+    "addition_index": 8,
+    "text": "·",
+    "bbox": [
+      501,
+      976,
+      509,
+      991
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 53,
+    "side": "a",
+    "addition_index": 1,
+    "text": "17",
+    "bbox": [
+      465,
+      351,
+      513,
+      385
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 53,
+    "side": "a",
+    "addition_index": 2,
+    "text": "2",
+    "bbox": [
+      434,
+      384,
+      456,
+      413
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 53,
+    "side": "a",
+    "addition_index": 3,
+    "text": "×",
+    "bbox": [
+      386,
+      375,
+      401,
+      393
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 54,
+    "side": "b",
+    "addition_index": 2,
+    "text": "4 т 590 кг : 15 кг + 3 т 660 кг : 12 кг",
+    "bbox": [
+      426,
+      692,
+      814,
+      719
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 56,
+    "side": "a",
+    "addition_index": 6,
+    "text": "−",
+    "bbox": [
+      635,
+      951,
+      655,
+      964
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 56,
+    "side": "b",
+    "addition_index": 6,
+    "text": "−",
+    "bbox": [
+      608,
+      945,
+      628,
+      965
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 59,
+    "side": "b",
+    "addition_index": 7,
+    "text": "·",
+    "bbox": [
+      800,
+      675,
+      811,
+      684
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 62,
+    "side": "a",
+    "addition_index": 6,
+    "text": "11",
+    "bbox": [
+      188,
+      923,
+      235,
+      953
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 62,
+    "side": "a",
+    "addition_index": 7,
+    "text": "1710",
+    "bbox": [
+      247,
+      952,
+      350,
+      984
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 62,
+    "side": "a",
+    "addition_index": 8,
+    "text": "1",
+    "bbox": [
+      293,
+      983,
+      320,
+      1010
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 62,
+    "side": "b",
+    "addition_index": 7,
+    "text": "1710",
+    "bbox": [
+      231,
+      981,
+      348,
+      1010
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 62,
+    "side": "b",
+    "addition_index": 12,
+    "text": "·",
+    "bbox": [
+      360,
+      953,
+      373,
+      963
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 62,
+    "side": "b",
+    "addition_index": 13,
+    "text": "·",
+    "bbox": [
+      390,
+      953,
+      403,
+      963
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 62,
+    "side": "b",
+    "addition_index": 14,
+    "text": "·",
+    "bbox": [
+      420,
+      953,
+      433,
+      963
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 62,
+    "side": "b",
+    "addition_index": 15,
+    "text": "·",
+    "bbox": [
+      776,
+      953,
+      786,
+      963
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 62,
+    "side": "b",
+    "addition_index": 16,
+    "text": "·",
+    "bbox": [
+      806,
+      953,
+      816,
+      963
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 62,
+    "side": "b",
+    "addition_index": 17,
+    "text": "·",
+    "bbox": [
+      836,
+      953,
+      846,
+      963
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 65,
+    "side": "a",
+    "addition_index": 1,
+    "text": "есептеу",
+    "bbox": [
+      772,
+      143,
+      841,
+      198
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 65,
+    "side": "a",
+    "addition_index": 5,
+    "text": "1",
+    "bbox": [
+      587,
+      805,
+      612,
+      833
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 65,
+    "side": "a",
+    "addition_index": 8,
+    "text": "−",
+    "bbox": [
+      641,
+      903,
+      661,
+      916
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 65,
+    "side": "a",
+    "addition_index": 11,
+    "text": "0",
+    "bbox": [
+      820,
+      1081,
+      847,
+      1115
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 65,
+    "side": "b",
+    "addition_index": 3,
+    "text": "есептеулер",
+    "bbox": [
+      774,
+      140,
+      846,
+      211
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 65,
+    "side": "b",
+    "addition_index": 8,
+    "text": "−",
+    "bbox": [
+      641,
+      877,
+      660,
+      893
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 65,
+    "side": "b",
+    "addition_index": 11,
+    "text": "·",
+    "bbox": [
+      752,
+      860,
+      761,
+      870
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 65,
+    "side": "b",
+    "addition_index": 12,
+    "text": "·",
+    "bbox": [
+      777,
+      860,
+      786,
+      870
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 65,
+    "side": "b",
+    "addition_index": 13,
+    "text": "·",
+    "bbox": [
+      803,
+      860,
+      812,
+      870
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 65,
+    "side": "b",
+    "addition_index": 14,
+    "text": "·",
+    "bbox": [
+      829,
+      860,
+      838,
+      870
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 65,
+    "side": "b",
+    "addition_index": 15,
+    "text": "·",
+    "bbox": [
+      752,
+      1108,
+      761,
+      1118
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 65,
+    "side": "b",
+    "addition_index": 16,
+    "text": "·",
+    "bbox": [
+      777,
+      1108,
+      786,
+      1118
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 65,
+    "side": "b",
+    "addition_index": 17,
+    "text": "·",
+    "bbox": [
+      803,
+      1108,
+      812,
+      1118
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 65,
+    "side": "b",
+    "addition_index": 18,
+    "text": "·",
+    "bbox": [
+      829,
+      1108,
+      838,
+      1118
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 66,
+    "side": "a",
+    "addition_index": 2,
+    "text": "ҚАЗАҚСТАН",
+    "bbox": [
+      192,
+      1199,
+      244,
+      1206
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 66,
+    "side": "a",
+    "addition_index": 3,
+    "text": "РЕСПУБЛИКАСЫ",
+    "bbox": [
+      187,
+      1206,
+      250,
+      1213
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 66,
+    "side": "a",
+    "addition_index": 5,
+    "text": "ҚАЗАҚСТАН",
+    "bbox": [
+      452,
+      1199,
+      504,
+      1206
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 66,
+    "side": "a",
+    "addition_index": 6,
+    "text": "РЕСПУБЛИКАСЫ",
+    "bbox": [
+      447,
+      1206,
+      511,
+      1213
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 66,
+    "side": "a",
+    "addition_index": 8,
+    "text": "ҚАЗАҚСТАН",
+    "bbox": [
+      723,
+      1199,
+      775,
+      1206
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 66,
+    "side": "a",
+    "addition_index": 9,
+    "text": "РЕСПУБЛИКАСЫ",
+    "bbox": [
+      718,
+      1206,
+      782,
+      1213
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 68,
+    "side": "a",
+    "addition_index": 1,
+    "text": "б)",
+    "bbox": [
+      166,
+      488,
+      190,
+      516
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 70,
+    "side": "a",
+    "addition_index": 4,
+    "text": "□",
+    "bbox": [
+      263,
+      879,
+      287,
+      905
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 70,
+    "side": "a",
+    "addition_index": 5,
+    "text": "□",
+    "bbox": [
+      299,
+      912,
+      324,
+      939
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 70,
+    "side": "a",
+    "addition_index": 6,
+    "text": "□",
+    "bbox": [
+      642,
+      879,
+      666,
+      905
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 81,
+    "side": "a",
+    "addition_index": 1,
+    "text": "2а",
+    "bbox": [
+      113,
+      1001,
+      152,
+      1037
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 81,
+    "side": "b",
+    "addition_index": 1,
+    "text": "2А",
+    "bbox": [
+      115,
+      1003,
+      153,
+      1038
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 92,
+    "side": "b",
+    "addition_index": 1,
+    "text": "4",
+    "bbox": [
+      149,
+      589,
+      176,
+      625
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 95,
+    "side": "b",
+    "addition_index": 1,
+    "text": "·",
+    "bbox": [
+      662,
+      519,
+      669,
+      530
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 101,
+    "side": "a",
+    "addition_index": 5,
+    "text": "ҚЫТЫРЛАҚ",
+    "bbox": [
+      362,
+      516,
+      403,
+      527
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 101,
+    "side": "a",
+    "addition_index": 6,
+    "text": "КАРТОП",
+    "bbox": [
+      373,
+      527,
+      404,
+      535
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 101,
+    "side": "b",
+    "addition_index": 4,
+    "text": "КАРТОП",
+    "bbox": [
+      378,
+      357,
+      417,
+      369
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 101,
+    "side": "b",
+    "addition_index": 7,
+    "text": "ҚЫТЫРЛАҚ",
+    "bbox": [
+      365,
+      508,
+      402,
+      518
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 101,
+    "side": "b",
+    "addition_index": 8,
+    "text": "КАРТОП",
+    "bbox": [
+      370,
+      519,
+      398,
+      528
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 101,
+    "side": "b",
+    "addition_index": 9,
+    "text": "ШАЙ",
+    "bbox": [
+      683,
+      528,
+      715,
+      544
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 127,
+    "side": "a",
+    "addition_index": 11,
+    "text": "НЕГЕ",
+    "bbox": [
+      863,
+      1188,
+      895,
+      1201
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 127,
+    "side": "a",
+    "addition_index": 12,
+    "text": "АЙТ",
+    "bbox": [
+      869,
+      1200,
+      890,
+      1212
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 127,
+    "side": "a",
+    "addition_index": 13,
+    "text": "ТҮСІНДІР",
+    "bbox": [
+      855,
+      1211,
+      903,
+      1224
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 127,
+    "side": "b",
+    "addition_index": 6,
+    "text": "140",
+    "bbox": [
+      771,
+      547,
+      790,
+      562
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 127,
+    "side": "b",
+    "addition_index": 7,
+    "text": "160",
+    "bbox": [
+      791,
+      551,
+      812,
+      567
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 127,
+    "side": "b",
+    "addition_index": 11,
+    "text": "160",
+    "bbox": [
+      806,
+      629,
+      828,
+      643
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 127,
+    "side": "b",
+    "addition_index": 15,
+    "text": "НЕГЕ",
+    "bbox": [
+      857,
+      1198,
+      884,
+      1209
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 127,
+    "side": "b",
+    "addition_index": 16,
+    "text": "АЛҒА",
+    "bbox": [
+      861,
+      1211,
+      882,
+      1221
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 127,
+    "side": "b",
+    "addition_index": 17,
+    "text": "ТҮСІНДІР",
+    "bbox": [
+      855,
+      1224,
+      898,
+      1236
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 141,
+    "side": "a",
+    "addition_index": 1,
+    "text": "ә) 9 000 =",
+    "bbox": [
+      124,
+      959,
+      236,
+      987
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 141,
+    "side": "a",
+    "addition_index": 2,
+    "text": "□",
+    "bbox": [
+      246,
+      958,
+      270,
+      987
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 141,
+    "side": "b",
+    "addition_index": 1,
+    "text": "ә) 9 000 = □",
+    "bbox": [
+      124,
+      960,
+      271,
+      986
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 144,
+    "side": "b",
+    "addition_index": 1,
+    "text": "1",
+    "bbox": [
+      272,
+      458,
+      279,
+      468
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 144,
+    "side": "b",
+    "addition_index": 2,
+    "text": "16",
+    "bbox": [
+      283,
+      468,
+      294,
+      479
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 144,
+    "side": "b",
+    "addition_index": 3,
+    "text": ". Есептік баспа табағы 6,73.",
+    "bbox": [
+      294,
+      459,
+      498,
+      476
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 144,
+    "side": "b",
+    "addition_index": 4,
+    "text": "1",
+    "bbox": [
+      643,
+      458,
+      650,
+      468
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 144,
+    "side": "b",
+    "addition_index": 5,
+    "text": "16",
+    "bbox": [
+      655,
+      468,
+      666,
+      479
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 144,
+    "side": "b",
+    "addition_index": 6,
+    "text": ". Уч.-изд. л. 6,73.",
+    "bbox": [
+      666,
+      459,
+      787,
+      476
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  }
+]

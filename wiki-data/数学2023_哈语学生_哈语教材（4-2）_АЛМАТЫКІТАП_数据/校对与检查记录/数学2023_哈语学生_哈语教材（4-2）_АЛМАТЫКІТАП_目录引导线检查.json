@@ -1,0 +1,762 @@
+[
+  {
+    "page": 143,
+    "diff_indices": [
+      362
+    ],
+    "ids": [
+      "2",
+      "add_round2_0",
+      "add_round1_0"
+    ],
+    "a": "Құрметті оқушы! 3",
+    "b": "Құрметті оқушы!.. 3",
+    "bbox": [
+      85,
+      199,
+      882,
+      221
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 239,
+    "a_only": {},
+    "b_only": {
+      ".": 2
+    },
+    "case_index": 89
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      363
+    ],
+    "ids": [
+      "6",
+      "7",
+      "8",
+      "add_round2_2",
+      "add_round1_2"
+    ],
+    "a": "41. Санды көбейтіндіге көбейту және бөлу 7",
+    "b": "41. Санды көбейтіндіге көбейту және бөлу. 7",
+    "bbox": [
+      81,
+      295,
+      882,
+      319
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 240,
+    "a_only": {},
+    "b_only": {
+      ".": 1
+    },
+    "case_index": 90
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      364
+    ],
+    "ids": [
+      "9",
+      "10",
+      "add_round2_3",
+      "add_round1_3"
+    ],
+    "a": "42. Нөлдермен аяқталатын сандарды ауызша көбейту және бөлу тәсілдері 11",
+    "b": "42. Нөлдермен аяқталатын сандарды ауызша көбейту және бөлу тәсілдері . 11",
+    "bbox": [
+      81,
+      317,
+      881,
+      343
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 241,
+    "a_only": {},
+    "b_only": {
+      ".": 1
+    },
+    "case_index": 91
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      365
+    ],
+    "ids": [
+      "11",
+      "12",
+      "add_round1_4",
+      "add_round2_4"
+    ],
+    "a": "43. Нөлдермен аяқталатын көптаңбалы сандарды жазбаша көбейту 15",
+    "b": "43. Нөлдермен аяқталатын көптаңбалы сандарды жазбаша көбейту ... 15",
+    "bbox": [
+      80,
+      340,
+      881,
+      366
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 242,
+    "a_only": {},
+    "b_only": {
+      ".": 3
+    },
+    "case_index": 92
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      366
+    ],
+    "ids": [
+      "14",
+      "15",
+      "add_round1_7",
+      "add_round2_7"
+    ],
+    "a": "45. Пысықтау 21",
+    "b": "45. Пысықтау…. 21",
+    "bbox": [
+      80,
+      387,
+      881,
+      412
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 243,
+    "a_only": {},
+    "b_only": {
+      ".": 1,
+      "…": 1
+    },
+    "case_index": 93
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      367
+    ],
+    "ids": [
+      "23",
+      "24",
+      "26",
+      "add_round2_8",
+      "add_round1_8"
+    ],
+    "a": "48. Көптаңбалы сандарды екі таңбалы санға қалдықпен жазбаша бөлу 33",
+    "b": "48. Көптаңбалы сандарды екі таңбалы санға қалдықпен жазбаша бөлу .…. 33",
+    "bbox": [
+      80,
+      456,
+      881,
+      480
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 244,
+    "a_only": {},
+    "b_only": {
+      ".": 2,
+      "…": 1
+    },
+    "case_index": 94
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      368
+    ],
+    "ids": [
+      "35",
+      "36",
+      "add_round1_12",
+      "add_round2_12"
+    ],
+    "a": "52. Көптаңбалы сандарды жазбаша бөлу 45",
+    "b": "52. Көптаңбалы сандарды жазбаша бөлу .. 45",
+    "bbox": [
+      80,
+      570,
+      881,
+      597
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 245,
+    "a_only": {},
+    "b_only": {
+      ".": 2
+    },
+    "case_index": 95
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      369
+    ],
+    "ids": [
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "a": "53. Үш таңбалы сандарға көбейту алгоритмі 48",
+    "b": "53. Үш таңбалы сандарға көбейту алгоритмі.. 48",
+    "bbox": [
+      80,
+      592,
+      884,
+      618
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 246,
+    "a_only": {},
+    "b_only": {
+      ".": 2
+    },
+    "case_index": 96
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      370
+    ],
+    "ids": [
+      "41",
+      "42",
+      "43",
+      "add_round2_13",
+      "add_round1_13"
+    ],
+    "a": "54. Үш таңбалы сандарға көбейту алгоритмі 52",
+    "b": "54. Үш таңбалы сандарға көбейту алгоритмі... 52",
+    "bbox": [
+      80,
+      616,
+      881,
+      642
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 247,
+    "a_only": {},
+    "b_only": {
+      ".": 3
+    },
+    "case_index": 97
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      371
+    ],
+    "ids": [
+      "50",
+      "51",
+      "52",
+      "53"
+    ],
+    "a": "57. Үш таңбалы сандарға бөлу алгоритмі 62",
+    "b": "57. Үш таңбалы сандарға бөлу алгоритмі . 62",
+    "bbox": [
+      80,
+      684,
+      884,
+      712
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 248,
+    "a_only": {},
+    "b_only": {
+      ".": 1
+    },
+    "case_index": 98
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      372
+    ],
+    "ids": [
+      "57",
+      "58",
+      "59",
+      "60"
+    ],
+    "a": "60. Өткенді қорытындылау 72",
+    "b": "60. Өткенді қорытындылау . 72",
+    "bbox": [
+      81,
+      754,
+      883,
+      783
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 249,
+    "a_only": {},
+    "b_only": {
+      ".": 1
+    },
+    "case_index": 99
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      373
+    ],
+    "ids": [
+      "61",
+      "62",
+      "add_round1_18",
+      "add_round2_18"
+    ],
+    "a": "61. Өзіңді тексер 74",
+    "b": "61. Өзіңді тексер . 74",
+    "bbox": [
+      82,
+      777,
+      881,
+      805
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 250,
+    "a_only": {},
+    "b_only": {
+      ".": 1
+    },
+    "case_index": 100
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      374
+    ],
+    "ids": [
+      "65",
+      "add_round1_19",
+      "add_round2_19"
+    ],
+    "a": "62. Өнімділік 77",
+    "b": "62.  Өнімділік.… 77",
+    "bbox": [
+      81,
+      862,
+      881,
+      886
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 251,
+    "a_only": {},
+    "b_only": {
+      ".": 1,
+      "…": 1
+    },
+    "case_index": 101
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      375
+    ],
+    "ids": [
+      "66",
+      "67",
+      "68",
+      "69"
+    ],
+    "a": "63. Өнімділік 81",
+    "b": "63. Өнімділік... 81",
+    "bbox": [
+      81,
+      883,
+      883,
+      910
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 252,
+    "a_only": {},
+    "b_only": {
+      ".": 3
+    },
+    "case_index": 102
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      376
+    ],
+    "ids": [
+      "70",
+      "71",
+      "72",
+      "add_round2_20",
+      "add_round1_20"
+    ],
+    "a": "64. Өнімділік. Бірлескен жұмыс 85",
+    "b": "64. Өнімділік. Бірлескен жұмыс.. 85",
+    "bbox": [
+      81,
+      908,
+      881,
+      933
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 253,
+    "a_only": {},
+    "b_only": {
+      ".": 2
+    },
+    "case_index": 103
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      377
+    ],
+    "ids": [
+      "73",
+      "74",
+      "75",
+      "76"
+    ],
+    "a": "65. Бірлескен жұмыс 88",
+    "b": "65. Бірлескен жұмыс. 88",
+    "bbox": [
+      81,
+      930,
+      884,
+      956
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 254,
+    "a_only": {},
+    "b_only": {
+      ".": 1
+    },
+    "case_index": 104
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      378
+    ],
+    "ids": [
+      "77",
+      "78",
+      "add_round2_21",
+      "add_round1_21"
+    ],
+    "a": "66. Пропорционал бөлуге берілген есептер 91",
+    "b": "66. Пропорционал бөлуге берілген есептер . 91",
+    "bbox": [
+      81,
+      954,
+      881,
+      979
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 255,
+    "a_only": {},
+    "b_only": {
+      ".": 1
+    },
+    "case_index": 105
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      379
+    ],
+    "ids": [
+      "79",
+      "80",
+      "81",
+      "84"
+    ],
+    "a": "67. Пропорционал бөлуге берілген есептер 94",
+    "b": "67. Пропорционал бөлуге берілген есептер . 94",
+    "bbox": [
+      81,
+      977,
+      884,
+      1002
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 256,
+    "a_only": {},
+    "b_only": {
+      ".": 1
+    },
+    "case_index": 106
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      380
+    ],
+    "ids": [
+      "82",
+      "83",
+      "85",
+      "add_round1_22",
+      "add_round2_22"
+    ],
+    "a": "68. Екі айырма бойынша белгісізді табуға берілген есептер 98",
+    "b": "68. Екі айырма бойынша белгісізді табуға берілген есептер ….. 98",
+    "bbox": [
+      81,
+      1000,
+      881,
+      1025
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 257,
+    "a_only": {},
+    "b_only": {
+      ".": 2,
+      "…": 1
+    },
+    "case_index": 107
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      381
+    ],
+    "ids": [
+      "87",
+      "88",
+      "89",
+      "90"
+    ],
+    "a": "70. Екі айырма бойынша белгісізді табуға берілген есептер 106",
+    "b": "70. Екі айырма бойынша белгісізді табуға берілген есептер ... 106",
+    "bbox": [
+      80,
+      1044,
+      884,
+      1072
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 258,
+    "a_only": {},
+    "b_only": {
+      ".": 3
+    },
+    "case_index": 108
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      382
+    ],
+    "ids": [
+      "93",
+      "91",
+      "92",
+      "94"
+    ],
+    "a": "71. Қарама-қарсы бағыттағы қозғалысқа берілген есептер 110",
+    "b": "71. Қарама-қарсы бағыттағы қозғалысқа берілген есептер.. 110",
+    "bbox": [
+      80,
+      1065,
+      884,
+      1095
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 259,
+    "a_only": {},
+    "b_only": {
+      ".": 2
+    },
+    "case_index": 109
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      383
+    ],
+    "ids": [
+      "99",
+      "100",
+      "102",
+      "add_round1_25",
+      "add_round2_25"
+    ],
+    "a": "73. Кездесу қозғалысына берілген есептер 118",
+    "b": "73. Кездесу қозғалысына берілген есептер . 118",
+    "bbox": [
+      81,
+      1115,
+      881,
+      1140
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 260,
+    "a_only": {},
+    "b_only": {
+      ".": 1
+    },
+    "case_index": 110
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      384
+    ],
+    "ids": [
+      "104",
+      "101",
+      "103",
+      "105"
+    ],
+    "a": "74. Қарама-қарсы бағыттағы қозғалысқа берілген есептер 121",
+    "b": "74. Қарама-қарсы бағыттағы қозғалысқа берілген есептер. 121",
+    "bbox": [
+      81,
+      1136,
+      884,
+      1163
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 261,
+    "a_only": {},
+    "b_only": {
+      ".": 1
+    },
+    "case_index": 111
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      385
+    ],
+    "ids": [
+      "106",
+      "107",
+      "add_round1_26",
+      "add_round2_26"
+    ],
+    "a": "75. Қарама-қарсы бағыттағы қозғалысқа берілген есептер 125",
+    "b": "75. Қарама-қарсы бағыттағы қозғалысқа берілген есептер . 125",
+    "bbox": [
+      81,
+      1161,
+      881,
+      1186
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 262,
+    "a_only": {},
+    "b_only": {
+      ".": 1
+    },
+    "case_index": 112
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      386
+    ],
+    "ids": [
+      "112",
+      "113",
+      "115"
+    ],
+    "a": "78. Өзіңді тексер 136",
+    "b": "78. Өзіңді тексер . 136",
+    "bbox": [
+      81,
+      1230,
+      883,
+      1255
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 263,
+    "a_only": {},
+    "b_only": {
+      ".": 1
+    },
+    "case_index": 113
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      387
+    ],
+    "ids": [
+      "116",
+      "117"
+    ],
+    "a": "79-80. Қорытындылау 138",
+    "b": "79-80. Қорытындылау. 138",
+    "bbox": [
+      80,
+      1252,
+      883,
+      1280
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 264,
+    "a_only": {},
+    "b_only": {
+      ".": 1
+    },
+    "case_index": 114
+  },
+  {
+    "page": 143,
+    "diff_indices": [
+      388
+    ],
+    "ids": [
+      "118",
+      "119"
+    ],
+    "a": "Түсіндірме сөздік 142",
+    "b": "Түсіндірме сөздік.… 142",
+    "bbox": [
+      82,
+      1285,
+      884,
+      1312
+    ],
+    "segmentation_only": false,
+    "same_characters": false,
+    "group_index": 265,
+    "a_only": {},
+    "b_only": {
+      ".": 1,
+      "…": 1
+    },
+    "case_index": 115
+  }
+]
