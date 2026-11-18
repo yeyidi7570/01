@@ -1,0 +1,86 @@
+{
+  "page_count": 152,
+  "max_single_image_fraction_on_rebuilt_scan_pages": 0.5266842062252726,
+  "original_native_page_backgrounds": [
+    {
+      "page": 2,
+      "maximum_image_fraction": 0,
+      "original_native_text_preserved": true
+    },
+    {
+      "page": 3,
+      "maximum_image_fraction": 0.3935244990146542,
+      "original_native_text_preserved": true
+    },
+    {
+      "page": 146,
+      "maximum_image_fraction": 0,
+      "original_native_text_preserved": true
+    },
+    {
+      "page": 147,
+      "maximum_image_fraction": 0,
+      "original_native_text_preserved": true
+    },
+    {
+      "page": 148,
+      "maximum_image_fraction": 0,
+      "original_native_text_preserved": true
+    },
+    {
+      "page": 149,
+      "maximum_image_fraction": 0,
+      "original_native_text_preserved": true
+    },
+    {
+      "page": 150,
+      "maximum_image_fraction": 0,
+      "original_native_text_preserved": true
+    },
+    {
+      "page": 151,
+      "maximum_image_fraction": 0,
+      "original_native_text_preserved": true
+    },
+    {
+      "page": 152,
+      "maximum_image_fraction": 0,
+      "original_native_text_preserved": true
+    }
+  ],
+  "minimum_visible_text_characters": 189,
+  "specials": {
+    "Ё": 6,
+    "ё": 213,
+    "Ъ": 30,
+    "ъ": 101,
+    "Ь": 79,
+    "ь": 1647,
+    "́": 0,
+    "¹": 2,
+    "²": 169,
+    "³": 167,
+    "ᶜ": 0,
+    "Ә": 3,
+    "Ғ": 0,
+    "Қ": 3,
+    "Ң": 0,
+    "Ө": 0,
+    "Ұ": 0,
+    "Ү": 0,
+    "Һ": 0,
+    "І": 11,
+    "ә": 1,
+    "ғ": 9,
+    "қ": 20,
+    "ң": 6,
+    "ө": 4,
+    "ұ": 1,
+    "ү": 2,
+    "һ": 0,
+    "і": 17
+  },
+  "missing_character_counts": [],
+  "search_failures": [],
+  "accented_word_search_samples": []
+}

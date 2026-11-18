@@ -1,0 +1,10 @@
+{
+  "pages_per_round": {
+    "round1": 152,
+    "round2": 152
+  },
+  "invalid_ids": [],
+  "bbox_issues": [],
+  "context_independence": "Two rounds used twelve fresh agents; round2 received only original source PNGs and uncorrected OCR.",
+  "document_language": "ru-Cyrl"
+}

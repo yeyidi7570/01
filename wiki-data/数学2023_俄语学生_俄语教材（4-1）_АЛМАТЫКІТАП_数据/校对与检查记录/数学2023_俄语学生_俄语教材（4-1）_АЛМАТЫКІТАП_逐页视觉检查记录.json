@@ -1,0 +1,42 @@
+{
+  "pages": 152,
+  "all_original_and_rebuilt_pages_directly_compared": true,
+  "comparison_sheets": 16,
+  "repaired_pages": [
+    6,
+    9,
+    14,
+    18,
+    27,
+    29,
+    31,
+    49,
+    58,
+    67,
+    68,
+    73,
+    77,
+    78,
+    82,
+    91,
+    106,
+    108,
+    110,
+    112,
+    125,
+    126,
+    127,
+    131,
+    135,
+    140,
+    141,
+    142
+  ],
+  "repair_comparison_sheets": 7,
+  "repairs": "Original handwritten arithmetic and complex illustrations retained locally; table type sizes matched source glyph heights; all repaired pages compared directly.",
+  "source_printed_anomalies_preserved": true,
+  "limitations": [
+    "近似字体与部分图解局部图像保留；细小插图文字受原图清晰度限制。"
+  ],
+  "pdf_sha256": "cb3a1f7e0ee07ac130576347173b9460540fc315bfab14d901bd085732f0b2fc"
+}

@@ -1,0 +1,27 @@
+{
+  "unresolved_source_limitations": [
+    {
+      "page": 26,
+      "kind": "very_small_incidental_calculator_labels",
+      "handling": "Only discernible labels transcribed; original calculator illustrations retained."
+    }
+  ],
+  "source_printed_forms_preserved": [
+    {
+      "page": 121,
+      "text": "167 58",
+      "note": "Original missing-digit-looking printed operand preserved without mathematical correction."
+    },
+    {
+      "page": 131,
+      "text": "96 мм",
+      "note": "Original absent exponent preserved."
+    },
+    {
+      "page": 141,
+      "text": "90 см",
+      "note": "Original absent exponent preserved."
+    }
+  ],
+  "native_encoding_repairs": "Thin-space extraction repaired with identical rendered pixels."
+}

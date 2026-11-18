@@ -1,0 +1,19 @@
+{
+  "res": {
+    "input_path": "/workspace/mathru2023p1_work/original/087.png",
+    "page_index": null,
+    "boxes": [
+      {
+        "cls_id": 2,
+        "label": "text",
+        "score": 0.7401973009109497,
+        "coordinate": [
+          128.0448760986328,
+          1039.86181640625,
+          835.324462890625,
+          1153.008544921875
+        ]
+      }
+    ]
+  }
+}
