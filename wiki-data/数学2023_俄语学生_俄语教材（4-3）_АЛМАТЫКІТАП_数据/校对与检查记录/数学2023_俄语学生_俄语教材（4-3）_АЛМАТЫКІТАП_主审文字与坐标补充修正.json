@@ -1,0 +1,112 @@
+[
+  {
+    "page": 1,
+    "id": "9",
+    "before": "ПАСЫ",
+    "after": "",
+    "reason": "Main original enlarged-source adjudication"
+  },
+  {
+    "page": 1,
+    "id": "16",
+    "before": "АЛМА",
+    "after": "",
+    "reason": "Main original enlarged-source adjudication"
+  },
+  {
+    "page": 4,
+    "id": "a2",
+    "before": "S",
+    "after": "",
+    "reason": "Duplicate source glyphs already included once in overlapping selected text",
+    "covered_by": "17"
+  },
+  {
+    "page": 24,
+    "id": "a4",
+    "before": "B",
+    "after": "",
+    "reason": "Duplicate source glyphs already included once in overlapping selected text",
+    "covered_by": "23"
+  },
+  {
+    "page": 96,
+    "id": "33",
+    "before": "2/4",
+    "after": "",
+    "reason": "Duplicate source glyphs already included once in overlapping selected text",
+    "covered_by": "39"
+  },
+  {
+    "page": 96,
+    "id": "32",
+    "before": "1/4",
+    "after": "",
+    "reason": "Duplicate source glyphs already included once in overlapping selected text",
+    "covered_by": "39"
+  },
+  {
+    "page": 108,
+    "id": "a2",
+    "before": "?",
+    "after": "",
+    "reason": "Duplicate source glyphs already included once in overlapping selected text",
+    "covered_by": "9"
+  },
+  {
+    "page": 111,
+    "id": "a2",
+    "before": "5 6/9 = 5 +     7 1/4 3/2 =     41 5/1 =     87 7/9 =",
+    "after": "5 6/9 = 5 +     7 13/42 =     41 5/11 =     87 7/9 =",
+    "reason": "Main original enlarged-source adjudication"
+  },
+  {
+    "page": 121,
+    "id": "a6",
+    "before": "ИЗА (индекс загрязнения атмосферы)\n16 14 12 10 8 6 4 2 0\nАлматы Шымкент Темиртау Караганда Актобе Тараз Риддер Усть-Каменогорск пос. Глубокое Жезказган Петропавловск Костанай Кызылорда Актау Семей Астана Павлодар Атырау Балкаш Талдыкорган Кокшетау Экибастуз",
+    "after": "ИЗА Индекс загрязнения атмосферы\n16 14 12 10 8 6 4 2 0\nАлматы Шымкент Темиртау Караганда Актобе Тараз Риддер Усть-Каменогорск пос. Глубокое Жезказган Петропавловск Костанай Кызылорда Актау Семей Астана Павлодар Атырау Балкаш Талдыкорган Кокшетау Экибастуз",
+    "reason": "Main original enlarged-source adjudication"
+  },
+  {
+    "page": 124,
+    "id": "a2",
+    "before": "ТГ",
+    "after": "",
+    "reason": "Duplicate source glyphs already included once in overlapping selected text",
+    "covered_by": "12"
+  },
+  {
+    "page": 85,
+    "id": "1",
+    "before": [
+      3,
+      95,
+      8,
+      101
+    ],
+    "after": [
+      121,
+      184,
+      148,
+      221
+    ],
+    "reason": "Direct enlarged source badge geometry review"
+  },
+  {
+    "page": 136,
+    "id": "41",
+    "before": [
+      157,
+      1053,
+      169,
+      1072
+    ],
+    "after": [
+      151,
+      1044,
+      178,
+      1082
+    ],
+    "reason": "Direct enlarged source badge geometry review"
+  }
+]

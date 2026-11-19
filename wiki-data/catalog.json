@@ -229,6 +229,24 @@
       "table_candidates": 16,
       "directory": "数学2023_俄语学生_俄语教材（4-2）_АЛМАТЫКІТАП_数据",
       "original_basename": "数学2023_俄语学生_俄语教材（4-2）_АЛМАТЫКІТАП"
+    },
+    {
+      "book_id": "math-2023-ru-grade4-part3",
+      "source_filename": "数学2023_俄语学生_俄语教材（4-3）_АЛМАТЫКІТАП.pdf",
+      "pages": 160,
+      "wiki_json": "数学2023_俄语学生_俄语教材（4-3）_АЛМАТЫКІТАП_数据/数学2023_俄语学生_俄语教材（4-3）_АЛМАТЫКІТАП_Wiki.json",
+      "raw_json": "数学2023_俄语学生_俄语教材（4-3）_АЛМАТЫКІТАП_数据/数学2023_俄语学生_俄语教材（4-3）_АЛМАТЫКІТАП_原始OCR.json",
+      "final_json": "数学2023_俄语学生_俄语教材（4-3）_АЛМАТЫКІТАП_数据/数学2023_俄语学生_俄语教材（4-3）_АЛМАТЫКІТАП_最终校对.json",
+      "source_pdf_sha256": "d082c8f9e9b864e29ce0eea6b25bc2e6f5f07e3badb85235ba490b5704d0e486",
+      "page_count": 160,
+      "total_final_lines": 8408,
+      "active_final_lines": 6477,
+      "question_candidates": 466,
+      "assets": 1234,
+      "all_final_lines_exported": true,
+      "table_candidates": 37,
+      "directory": "数学2023_俄语学生_俄语教材（4-3）_АЛМАТЫКІТАП_数据",
+      "original_basename": "数学2023_俄语学生_俄语教材（4-3）_АЛМАТЫКІТАП"
     }
   ]
 }

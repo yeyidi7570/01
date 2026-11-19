@@ -1,0 +1,903 @@
+{
+  "page": 159,
+  "source_rows_directly_reviewed": 56,
+  "titles_and_page_numbers": [
+    {
+      "id": "toc0",
+      "text": "Как пользоваться учебником? 2",
+      "bbox": [
+        85,
+        197,
+        880,
+        221
+      ],
+      "toc": {
+        "label": "Как пользоваться учебником?",
+        "page_number": "2",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc1",
+      "text": "Дорогой друг! 3",
+      "bbox": [
+        85,
+        215,
+        880,
+        239
+      ],
+      "toc": {
+        "label": "Дорогой друг!",
+        "page_number": "3",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc2",
+      "text": "Раздел 3А • Решение задач на движение, урожайность.",
+      "bbox": [
+        85,
+        251,
+        880,
+        275
+      ],
+      "toc": {
+        "label": "Раздел 3А • Решение задач на движение, урожайность.",
+        "page_number": "",
+        "header": true
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc3",
+      "text": "Сквозная тема: «Природные явления» 4",
+      "bbox": [
+        85,
+        269,
+        880,
+        293
+      ],
+      "toc": {
+        "label": "Сквозная тема: «Природные явления»",
+        "page_number": "4",
+        "header": true
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc4",
+      "text": "81. Решение задач на зависимость между величинами. Круговая диаграмма 5",
+      "bbox": [
+        85,
+        297,
+        880,
+        321
+      ],
+      "toc": {
+        "label": "81. Решение задач на зависимость между величинами. Круговая диаграмма",
+        "page_number": "5",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc5",
+      "text": "82. Урожайность 9",
+      "bbox": [
+        85,
+        315,
+        880,
+        339
+      ],
+      "toc": {
+        "label": "82. Урожайность",
+        "page_number": "9",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc6",
+      "text": "83. Урожайность 12",
+      "bbox": [
+        85,
+        333,
+        880,
+        357
+      ],
+      "toc": {
+        "label": "83. Урожайность",
+        "page_number": "12",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc7",
+      "text": "84. Графики 15",
+      "bbox": [
+        85,
+        351,
+        880,
+        375
+      ],
+      "toc": {
+        "label": "84. Графики",
+        "page_number": "15",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc8",
+      "text": "85. Решение задач 19",
+      "bbox": [
+        85,
+        369,
+        880,
+        393
+      ],
+      "toc": {
+        "label": "85. Решение задач",
+        "page_number": "19",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc9",
+      "text": "86. Движение вдогонку 22",
+      "bbox": [
+        85,
+        387,
+        880,
+        411
+      ],
+      "toc": {
+        "label": "86. Движение вдогонку",
+        "page_number": "22",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc10",
+      "text": "87. Движение вдогонку 25",
+      "bbox": [
+        85,
+        405,
+        880,
+        429
+      ],
+      "toc": {
+        "label": "87. Движение вдогонку",
+        "page_number": "25",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc11",
+      "text": "88. Решение задач на движение вдогонку. Графики движения 29",
+      "bbox": [
+        85,
+        423,
+        880,
+        447
+      ],
+      "toc": {
+        "label": "88. Решение задач на движение вдогонку. Графики движения",
+        "page_number": "29",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc12",
+      "text": "89. Движение с отставанием 32",
+      "bbox": [
+        85,
+        441,
+        880,
+        465
+      ],
+      "toc": {
+        "label": "89. Движение с отставанием",
+        "page_number": "32",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc13",
+      "text": "90. Движение с отставанием 35",
+      "bbox": [
+        85,
+        459,
+        880,
+        483
+      ],
+      "toc": {
+        "label": "90. Движение с отставанием",
+        "page_number": "35",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc14",
+      "text": "91. Движение вдогонку и с отставанием 39",
+      "bbox": [
+        85,
+        477,
+        880,
+        501
+      ],
+      "toc": {
+        "label": "91. Движение вдогонку и с отставанием",
+        "page_number": "39",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc15",
+      "text": "92. Сравнение задач на движение вдогонку и с отставанием 43",
+      "bbox": [
+        85,
+        495,
+        880,
+        519
+      ],
+      "toc": {
+        "label": "92. Сравнение задач на движение вдогонку и с отставанием",
+        "page_number": "43",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc16",
+      "text": "93. Высказывания с математическим содержанием. Истинность и ложность 46",
+      "bbox": [
+        85,
+        513,
+        880,
+        537
+      ],
+      "toc": {
+        "label": "93. Высказывания с математическим содержанием. Истинность и ложность",
+        "page_number": "46",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc17",
+      "text": "94. Высказывания. Истинность и ложность 49",
+      "bbox": [
+        85,
+        531,
+        880,
+        555
+      ],
+      "toc": {
+        "label": "94. Высказывания. Истинность и ложность",
+        "page_number": "49",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc18",
+      "text": "95. Обобщение. Высказывания 53",
+      "bbox": [
+        85,
+        549,
+        880,
+        573
+      ],
+      "toc": {
+        "label": "95. Обобщение. Высказывания",
+        "page_number": "53",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc19",
+      "text": "96. Логические задачи 56",
+      "bbox": [
+        85,
+        567,
+        880,
+        591
+      ],
+      "toc": {
+        "label": "96. Логические задачи",
+        "page_number": "56",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc20",
+      "text": "97. Логические задачи 59",
+      "bbox": [
+        85,
+        585,
+        880,
+        609
+      ],
+      "toc": {
+        "label": "97. Логические задачи",
+        "page_number": "59",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc21",
+      "text": "98. Логические задачи 63",
+      "bbox": [
+        85,
+        603,
+        880,
+        627
+      ],
+      "toc": {
+        "label": "98. Логические задачи",
+        "page_number": "63",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc22",
+      "text": "99. Логические задачи 66",
+      "bbox": [
+        85,
+        621,
+        880,
+        645
+      ],
+      "toc": {
+        "label": "99. Логические задачи",
+        "page_number": "66",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc23",
+      "text": "100. Комбинаторные задачи, решаемые методом перебора 69",
+      "bbox": [
+        85,
+        639,
+        880,
+        663
+      ],
+      "toc": {
+        "label": "100. Комбинаторные задачи, решаемые методом перебора",
+        "page_number": "69",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc24",
+      "text": "101. Комбинаторные задачи, решаемые методом перебора 72",
+      "bbox": [
+        85,
+        657,
+        880,
+        681
+      ],
+      "toc": {
+        "label": "101. Комбинаторные задачи, решаемые методом перебора",
+        "page_number": "72",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc25",
+      "text": "102. Комбинаторные задачи, решаемые методом перебора 75",
+      "bbox": [
+        85,
+        675,
+        880,
+        699
+      ],
+      "toc": {
+        "label": "102. Комбинаторные задачи, решаемые методом перебора",
+        "page_number": "75",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc26",
+      "text": "103. Обобщение 78",
+      "bbox": [
+        85,
+        693,
+        880,
+        717
+      ],
+      "toc": {
+        "label": "103. Обобщение",
+        "page_number": "78",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc27",
+      "text": "104. Обобщение 81",
+      "bbox": [
+        85,
+        711,
+        880,
+        735
+      ],
+      "toc": {
+        "label": "104. Обобщение",
+        "page_number": "81",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc28",
+      "text": "105. Проверь себя 84",
+      "bbox": [
+        85,
+        729,
+        880,
+        753
+      ],
+      "toc": {
+        "label": "105. Проверь себя",
+        "page_number": "84",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc29",
+      "text": "Раздел 3В • Дроби и проценты. Задачи. Сквозная тема: «Охрана окружающей среды» 86",
+      "bbox": [
+        85,
+        767,
+        880,
+        791
+      ],
+      "toc": {
+        "label": "Раздел 3В • Дроби и проценты. Задачи. Сквозная тема: «Охрана окружающей среды»",
+        "page_number": "86",
+        "header": true
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc30",
+      "text": "106. Проценты 87",
+      "bbox": [
+        85,
+        795,
+        880,
+        819
+      ],
+      "toc": {
+        "label": "106. Проценты",
+        "page_number": "87",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc31",
+      "text": "107. Проценты 90",
+      "bbox": [
+        85,
+        813,
+        880,
+        837
+      ],
+      "toc": {
+        "label": "107. Проценты",
+        "page_number": "90",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc32",
+      "text": "108. Проценты. Закрепление 93",
+      "bbox": [
+        85,
+        831,
+        880,
+        855
+      ],
+      "toc": {
+        "label": "108. Проценты. Закрепление",
+        "page_number": "93",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc33",
+      "text": "109. Дроби. Сравнение дробей 96",
+      "bbox": [
+        85,
+        849,
+        880,
+        873
+      ],
+      "toc": {
+        "label": "109. Дроби. Сравнение дробей",
+        "page_number": "96",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc34",
+      "text": "110. Сложение и вычитание дробей 100",
+      "bbox": [
+        85,
+        867,
+        880,
+        891
+      ],
+      "toc": {
+        "label": "110. Сложение и вычитание дробей",
+        "page_number": "100",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc35",
+      "text": "111. Сложение и вычитание дробей 103",
+      "bbox": [
+        85,
+        885,
+        880,
+        909
+      ],
+      "toc": {
+        "label": "111. Сложение и вычитание дробей",
+        "page_number": "103",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc36",
+      "text": "112. Правильные и неправильные дроби 106",
+      "bbox": [
+        85,
+        903,
+        880,
+        927
+      ],
+      "toc": {
+        "label": "112. Правильные и неправильные дроби",
+        "page_number": "106",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc37",
+      "text": "113. Дроби. Смешанные числа 110",
+      "bbox": [
+        85,
+        921,
+        880,
+        945
+      ],
+      "toc": {
+        "label": "113. Дроби. Смешанные числа",
+        "page_number": "110",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc38",
+      "text": "114. Дроби. Закрепление 113",
+      "bbox": [
+        85,
+        939,
+        880,
+        963
+      ],
+      "toc": {
+        "label": "114. Дроби. Закрепление",
+        "page_number": "113",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc39",
+      "text": "115. Задачи на нахождение части от целого 116",
+      "bbox": [
+        85,
+        957,
+        880,
+        981
+      ],
+      "toc": {
+        "label": "115. Задачи на нахождение части от целого",
+        "page_number": "116",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc40",
+      "text": "116. Задачи на нахождение целого по его части 119",
+      "bbox": [
+        85,
+        975,
+        880,
+        999
+      ],
+      "toc": {
+        "label": "116. Задачи на нахождение целого по его части",
+        "page_number": "119",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc41",
+      "text": "117. Составление и решение задач 122",
+      "bbox": [
+        85,
+        993,
+        880,
+        1017
+      ],
+      "toc": {
+        "label": "117. Составление и решение задач",
+        "page_number": "122",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc42",
+      "text": "118. Закрепление. Решение задач 125",
+      "bbox": [
+        85,
+        1011,
+        880,
+        1035
+      ],
+      "toc": {
+        "label": "118. Закрепление. Решение задач",
+        "page_number": "125",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc43",
+      "text": "119. Обобщение 128",
+      "bbox": [
+        85,
+        1029,
+        880,
+        1053
+      ],
+      "toc": {
+        "label": "119. Обобщение",
+        "page_number": "128",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc44",
+      "text": "120. Обобщение 131",
+      "bbox": [
+        85,
+        1047,
+        880,
+        1071
+      ],
+      "toc": {
+        "label": "120. Обобщение",
+        "page_number": "131",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc45",
+      "text": "121. Проверь себя 134",
+      "bbox": [
+        85,
+        1065,
+        880,
+        1089
+      ],
+      "toc": {
+        "label": "121. Проверь себя",
+        "page_number": "134",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc46",
+      "text": "122. Обобщение 136",
+      "bbox": [
+        85,
+        1083,
+        880,
+        1107
+      ],
+      "toc": {
+        "label": "122. Обобщение",
+        "page_number": "136",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc47",
+      "text": "Раздел 3С • Окружность, круг. Сквозная тема: «Охрана окружающей среды» 138",
+      "bbox": [
+        85,
+        1120,
+        880,
+        1144
+      ],
+      "toc": {
+        "label": "Раздел 3С • Окружность, круг. Сквозная тема: «Охрана окружающей среды»",
+        "page_number": "138",
+        "header": true
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc48",
+      "text": "123. Окружность и круг 139",
+      "bbox": [
+        85,
+        1151,
+        880,
+        1175
+      ],
+      "toc": {
+        "label": "123. Окружность и круг",
+        "page_number": "139",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc49",
+      "text": "124. Окружность и круг 143",
+      "bbox": [
+        85,
+        1169,
+        880,
+        1193
+      ],
+      "toc": {
+        "label": "124. Окружность и круг",
+        "page_number": "143",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc50",
+      "text": "125. Окружность и круг 146",
+      "bbox": [
+        85,
+        1187,
+        880,
+        1211
+      ],
+      "toc": {
+        "label": "125. Окружность и круг",
+        "page_number": "146",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc51",
+      "text": "126. Обобщение 149",
+      "bbox": [
+        85,
+        1205,
+        880,
+        1229
+      ],
+      "toc": {
+        "label": "126. Обобщение",
+        "page_number": "149",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc52",
+      "text": "127. Проверь себя 152",
+      "bbox": [
+        85,
+        1223,
+        880,
+        1247
+      ],
+      "toc": {
+        "label": "127. Проверь себя",
+        "page_number": "152",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc53",
+      "text": "128–129. Обобщение 154",
+      "bbox": [
+        85,
+        1241,
+        880,
+        1265
+      ],
+      "toc": {
+        "label": "128–129. Обобщение",
+        "page_number": "154",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc54",
+      "text": "130. Обобщение 156",
+      "bbox": [
+        85,
+        1259,
+        880,
+        1283
+      ],
+      "toc": {
+        "label": "130. Обобщение",
+        "page_number": "156",
+        "header": false
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc55",
+      "text": "Глоссарий 158",
+      "bbox": [
+        85,
+        1293,
+        880,
+        1317
+      ],
+      "toc": {
+        "label": "Глоссарий",
+        "page_number": "158",
+        "header": false
+      },
+      "main_source_review": true
+    }
+  ],
+  "dot_leaders": "rebuilt as vector rules; OCR punctuation counts are not literal punctuation"
+}

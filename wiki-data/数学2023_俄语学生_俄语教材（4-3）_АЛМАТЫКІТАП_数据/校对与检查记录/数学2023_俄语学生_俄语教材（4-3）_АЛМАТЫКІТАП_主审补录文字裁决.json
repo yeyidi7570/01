@@ -1,0 +1,2693 @@
+{
+  "0": {
+    "retain": true,
+    "page": 2,
+    "side": "a",
+    "text": "№",
+    "bbox": [
+      125,
+      225,
+      157,
+      247
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "1": {
+    "retain": true,
+    "page": 4,
+    "side": "a",
+    "text": "V",
+    "bbox": [
+      464,
+      1216,
+      507,
+      1278
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "2": {
+    "retain": true,
+    "page": 4,
+    "side": "a",
+    "text": "t",
+    "bbox": [
+      652,
+      1174,
+      687,
+      1229
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "3": {
+    "retain": false,
+    "page": 4,
+    "side": "b",
+    "text": "v",
+    "bbox": [
+      464,
+      1221,
+      502,
+      1270
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "4": {
+    "retain": false,
+    "page": 4,
+    "side": "b",
+    "text": "t",
+    "bbox": [
+      624,
+      1179,
+      659,
+      1235
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "5": {
+    "retain": true,
+    "page": 6,
+    "side": "a",
+    "text": "С",
+    "bbox": [
+      250,
+      269,
+      266,
+      288
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "6": {
+    "retain": true,
+    "page": 6,
+    "side": "a",
+    "text": "Мобщ",
+    "bbox": [
+      702,
+      268,
+      747,
+      295
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "7": {
+    "retain": true,
+    "page": 6,
+    "side": "a",
+    "text": ":",
+    "bbox": [
+      242,
+      291,
+      248,
+      306
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "8": {
+    "retain": true,
+    "page": 6,
+    "side": "a",
+    "text": ":",
+    "bbox": [
+      268,
+      291,
+      274,
+      306
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "9": {
+    "retain": true,
+    "page": 6,
+    "side": "a",
+    "text": "·",
+    "bbox": [
+      255,
+      317,
+      261,
+      324
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "10": {
+    "retain": true,
+    "page": 6,
+    "side": "a",
+    "text": ":",
+    "bbox": [
+      461,
+      291,
+      467,
+      306
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "11": {
+    "retain": true,
+    "page": 6,
+    "side": "a",
+    "text": ":",
+    "bbox": [
+      487,
+      291,
+      493,
+      306
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "12": {
+    "retain": true,
+    "page": 6,
+    "side": "a",
+    "text": "·",
+    "bbox": [
+      474,
+      317,
+      480,
+      324
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "13": {
+    "retain": true,
+    "page": 6,
+    "side": "a",
+    "text": ":",
+    "bbox": [
+      707,
+      291,
+      713,
+      306
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "14": {
+    "retain": true,
+    "page": 6,
+    "side": "a",
+    "text": ":",
+    "bbox": [
+      733,
+      291,
+      739,
+      306
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "15": {
+    "retain": true,
+    "page": 6,
+    "side": "a",
+    "text": "·",
+    "bbox": [
+      720,
+      317,
+      726,
+      324
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "16": {
+    "retain": true,
+    "page": 6,
+    "side": "a",
+    "text": ":",
+    "bbox": [
+      242,
+      547,
+      248,
+      562
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "17": {
+    "retain": true,
+    "page": 6,
+    "side": "a",
+    "text": ":",
+    "bbox": [
+      268,
+      547,
+      274,
+      562
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "18": {
+    "retain": true,
+    "page": 6,
+    "side": "a",
+    "text": "·",
+    "bbox": [
+      255,
+      573,
+      261,
+      580
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "19": {
+    "retain": true,
+    "page": 6,
+    "side": "a",
+    "text": ":",
+    "bbox": [
+      461,
+      547,
+      467,
+      562
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "20": {
+    "retain": true,
+    "page": 6,
+    "side": "a",
+    "text": ":",
+    "bbox": [
+      487,
+      547,
+      493,
+      562
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "21": {
+    "retain": true,
+    "page": 6,
+    "side": "a",
+    "text": "·",
+    "bbox": [
+      474,
+      573,
+      480,
+      580
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "22": {
+    "retain": true,
+    "page": 6,
+    "side": "a",
+    "text": ":",
+    "bbox": [
+      707,
+      547,
+      713,
+      562
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "23": {
+    "retain": true,
+    "page": 6,
+    "side": "a",
+    "text": ":",
+    "bbox": [
+      733,
+      547,
+      739,
+      562
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "24": {
+    "retain": true,
+    "page": 6,
+    "side": "a",
+    "text": "·",
+    "bbox": [
+      720,
+      573,
+      726,
+      580
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "25": {
+    "retain": false,
+    "page": 6,
+    "side": "b",
+    "text": "C",
+    "bbox": [
+      249,
+      269,
+      268,
+      287
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "26": {
+    "retain": false,
+    "page": 6,
+    "side": "b",
+    "text": "М_общ",
+    "bbox": [
+      705,
+      269,
+      745,
+      293
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "27": {
+    "retain": true,
+    "page": 9,
+    "side": "a",
+    "text": ":",
+    "bbox": [
+      776,
+      826,
+      782,
+      840
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "28": {
+    "retain": true,
+    "page": 9,
+    "side": "a",
+    "text": ":",
+    "bbox": [
+      803,
+      826,
+      809,
+      840
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "29": {
+    "retain": true,
+    "page": 9,
+    "side": "a",
+    "text": "·",
+    "bbox": [
+      789,
+      850,
+      796,
+      858
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "30": {
+    "retain": true,
+    "page": 9,
+    "side": "b",
+    "text": "АК",
+    "bbox": [
+      664,
+      86,
+      695,
+      111
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "31": {
+    "retain": true,
+    "page": 10,
+    "side": "a",
+    "text": ":",
+    "bbox": [
+      201,
+      1104,
+      207,
+      1117
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "32": {
+    "retain": true,
+    "page": 10,
+    "side": "a",
+    "text": ":",
+    "bbox": [
+      229,
+      1104,
+      235,
+      1117
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "33": {
+    "retain": true,
+    "page": 10,
+    "side": "a",
+    "text": "·",
+    "bbox": [
+      216,
+      1127,
+      222,
+      1134
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "34": {
+    "retain": true,
+    "page": 11,
+    "side": "a",
+    "text": "5 кг/м² = □ кг/сотки",
+    "bbox": [
+      590,
+      376,
+      828,
+      405
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "35": {
+    "retain": true,
+    "page": 11,
+    "side": "b",
+    "text": "АК",
+    "bbox": [
+      821,
+      1134,
+      845,
+      1148
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "36": {
+    "retain": true,
+    "page": 12,
+    "side": "b",
+    "text": "АК",
+    "bbox": [
+      702,
+      82,
+      732,
+      113
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "37": {
+    "retain": true,
+    "page": 17,
+    "side": "a",
+    "text": "23832",
+    "bbox": [
+      553,
+      986,
+      591,
+      1046
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "38": {
+    "retain": false,
+    "page": 17,
+    "side": "b",
+    "text": "23 832",
+    "bbox": [
+      558,
+      994,
+      587,
+      1045
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "39": {
+    "retain": true,
+    "page": 19,
+    "side": "b",
+    "text": "АК",
+    "bbox": [
+      795,
+      66,
+      834,
+      96
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "40": {
+    "retain": true,
+    "page": 21,
+    "side": "b",
+    "text": "АК",
+    "bbox": [
+      671,
+      1188,
+      685,
+      1199
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "41": {
+    "retain": true,
+    "page": 22,
+    "side": "a",
+    "text": "2 мин",
+    "bbox": [
+      628,
+      1182,
+      700,
+      1211
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "42": {
+    "retain": true,
+    "page": 22,
+    "side": "b",
+    "text": "АК",
+    "bbox": [
+      817,
+      106,
+      841,
+      141
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "43": {
+    "retain": true,
+    "page": 24,
+    "side": "b",
+    "text": "АК",
+    "bbox": [
+      614,
+      1237,
+      633,
+      1255
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "44": {
+    "retain": true,
+    "page": 25,
+    "side": "b",
+    "text": "АК",
+    "bbox": [
+      790,
+      88,
+      818,
+      110
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "45": {
+    "retain": true,
+    "page": 29,
+    "side": "a",
+    "text": "v₁   v₂",
+    "bbox": [
+      165,
+      856,
+      272,
+      896
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "46": {
+    "retain": false,
+    "page": 29,
+    "side": "b",
+    "text": "v₁",
+    "bbox": [
+      167,
+      861,
+      194,
+      894
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "47": {
+    "retain": false,
+    "page": 29,
+    "side": "b",
+    "text": "v₂",
+    "bbox": [
+      241,
+      861,
+      267,
+      894
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "48": {
+    "retain": true,
+    "page": 33,
+    "side": "b",
+    "text": "5",
+    "bbox": [
+      120,
+      1179,
+      146,
+      1216
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "49": {
+    "retain": true,
+    "page": 42,
+    "side": "a",
+    "text": "Физика",
+    "bbox": [
+      460,
+      708,
+      514,
+      737
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "50": {
+    "retain": false,
+    "page": 42,
+    "side": "b",
+    "text": "Спички",
+    "bbox": [
+      462,
+      709,
+      505,
+      737
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "51": {
+    "retain": true,
+    "page": 43,
+    "side": "a",
+    "text": "v₁   v₂",
+    "bbox": [
+      627,
+      558,
+      746,
+      596
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "52": {
+    "retain": true,
+    "page": 43,
+    "side": "a",
+    "text": "v₁   v₂",
+    "bbox": [
+      611,
+      699,
+      771,
+      739
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "53": {
+    "retain": false,
+    "page": 43,
+    "side": "b",
+    "text": "v₁",
+    "bbox": [
+      630,
+      558,
+      655,
+      589
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "54": {
+    "retain": false,
+    "page": 43,
+    "side": "b",
+    "text": "v₂",
+    "bbox": [
+      716,
+      558,
+      741,
+      589
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "55": {
+    "retain": false,
+    "page": 43,
+    "side": "b",
+    "text": "v₁",
+    "bbox": [
+      615,
+      704,
+      640,
+      732
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "56": {
+    "retain": false,
+    "page": 43,
+    "side": "b",
+    "text": "v₂",
+    "bbox": [
+      736,
+      704,
+      764,
+      733
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "57": {
+    "retain": true,
+    "page": 52,
+    "side": "a",
+    "text": "10",
+    "bbox": [
+      598,
+      684,
+      634,
+      721
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "58": {
+    "retain": true,
+    "page": 52,
+    "side": "a",
+    "text": "20",
+    "bbox": [
+      642,
+      677,
+      682,
+      711
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "59": {
+    "retain": true,
+    "page": 52,
+    "side": "a",
+    "text": "5",
+    "bbox": [
+      685,
+      687,
+      715,
+      718
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "60": {
+    "retain": true,
+    "page": 52,
+    "side": "a",
+    "text": "50",
+    "bbox": [
+      567,
+      718,
+      615,
+      765
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "61": {
+    "retain": true,
+    "page": 52,
+    "side": "a",
+    "text": "10",
+    "bbox": [
+      649,
+      717,
+      691,
+      755
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "62": {
+    "retain": true,
+    "page": 52,
+    "side": "a",
+    "text": "5",
+    "bbox": [
+      785,
+      731,
+      810,
+      757
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "63": {
+    "retain": true,
+    "page": 52,
+    "side": "a",
+    "text": "5",
+    "bbox": [
+      839,
+      741,
+      865,
+      771
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "64": {
+    "retain": true,
+    "page": 52,
+    "side": "a",
+    "text": "10",
+    "bbox": [
+      807,
+      750,
+      833,
+      778
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "65": {
+    "retain": true,
+    "page": 52,
+    "side": "a",
+    "text": "50",
+    "bbox": [
+      744,
+      755,
+      788,
+      802
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "66": {
+    "retain": true,
+    "page": 52,
+    "side": "a",
+    "text": "50",
+    "bbox": [
+      839,
+      773,
+      883,
+      820
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "67": {
+    "retain": true,
+    "page": 55,
+    "side": "b",
+    "text": "•",
+    "bbox": [
+      110,
+      1170,
+      125,
+      1183
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "68": {
+    "retain": true,
+    "page": 55,
+    "side": "b",
+    "text": "•",
+    "bbox": [
+      110,
+      1202,
+      125,
+      1216
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "69": {
+    "retain": true,
+    "page": 72,
+    "side": "a",
+    "text": "1 1 1",
+    "bbox": [
+      428,
+      608,
+      485,
+      672
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "70": {
+    "retain": true,
+    "page": 72,
+    "side": "a",
+    "text": "2 2 2",
+    "bbox": [
+      483,
+      604,
+      545,
+      673
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "71": {
+    "retain": true,
+    "page": 72,
+    "side": "a",
+    "text": "3 3 3",
+    "bbox": [
+      543,
+      612,
+      594,
+      674
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "72": {
+    "retain": true,
+    "page": 72,
+    "side": "a",
+    "text": "4 4 4",
+    "bbox": [
+      590,
+      606,
+      650,
+      674
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "73": {
+    "retain": true,
+    "page": 72,
+    "side": "a",
+    "text": "6 6 6",
+    "bbox": [
+      663,
+      606,
+      720,
+      671
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "74": {
+    "retain": true,
+    "page": 72,
+    "side": "a",
+    "text": "7 7 7",
+    "bbox": [
+      714,
+      607,
+      770,
+      672
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "75": {
+    "retain": true,
+    "page": 72,
+    "side": "a",
+    "text": "8 8 8",
+    "bbox": [
+      762,
+      603,
+      823,
+      673
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "76": {
+    "retain": true,
+    "page": 72,
+    "side": "a",
+    "text": "9 9 9",
+    "bbox": [
+      812,
+      607,
+      875,
+      674
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "77": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "1",
+    "bbox": [
+      432,
+      625,
+      453,
+      647
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "78": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "1",
+    "bbox": [
+      460,
+      621,
+      478,
+      642
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "79": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "1",
+    "bbox": [
+      450,
+      649,
+      472,
+      666
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "80": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "2",
+    "bbox": [
+      491,
+      609,
+      518,
+      628
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "81": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "2",
+    "bbox": [
+      488,
+      635,
+      511,
+      658
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "82": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "2",
+    "bbox": [
+      520,
+      621,
+      536,
+      649
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "83": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "3",
+    "bbox": [
+      552,
+      617,
+      578,
+      632
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "84": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "3",
+    "bbox": [
+      547,
+      643,
+      564,
+      663
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "85": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "3",
+    "bbox": [
+      573,
+      631,
+      590,
+      659
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "86": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "4",
+    "bbox": [
+      605,
+      615,
+      632,
+      633
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "87": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "4",
+    "bbox": [
+      591,
+      633,
+      608,
+      655
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "88": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "4",
+    "bbox": [
+      610,
+      646,
+      639,
+      663
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "89": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "6",
+    "bbox": [
+      680,
+      611,
+      706,
+      627
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "90": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "6",
+    "bbox": [
+      677,
+      633,
+      695,
+      659
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "91": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "6",
+    "bbox": [
+      700,
+      627,
+      716,
+      651
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "92": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "7",
+    "bbox": [
+      729,
+      615,
+      754,
+      629
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "93": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "7",
+    "bbox": [
+      727,
+      637,
+      748,
+      662
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "94": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "7",
+    "bbox": [
+      755,
+      625,
+      769,
+      651
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "95": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "8",
+    "bbox": [
+      790,
+      608,
+      813,
+      625
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "96": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "8",
+    "bbox": [
+      771,
+      625,
+      789,
+      650
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "97": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "8",
+    "bbox": [
+      790,
+      640,
+      813,
+      658
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "98": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "9",
+    "bbox": [
+      835,
+      623,
+      851,
+      645
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "99": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "9",
+    "bbox": [
+      852,
+      618,
+      870,
+      645
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "100": {
+    "retain": false,
+    "page": 72,
+    "side": "b",
+    "text": "9",
+    "bbox": [
+      831,
+      643,
+      857,
+      663
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "101": {
+    "retain": true,
+    "page": 73,
+    "side": "b",
+    "text": "•",
+    "bbox": [
+      130,
+      819,
+      144,
+      831
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "102": {
+    "retain": true,
+    "page": 73,
+    "side": "b",
+    "text": "•",
+    "bbox": [
+      130,
+      848,
+      144,
+      862
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "103": {
+    "retain": true,
+    "page": 82,
+    "side": "b",
+    "text": "×",
+    "bbox": [
+      260,
+      1165,
+      273,
+      1185
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "104": {
+    "retain": true,
+    "page": 82,
+    "side": "b",
+    "text": "+",
+    "bbox": [
+      211,
+      1224,
+      226,
+      1246
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "105": {
+    "retain": false,
+    "page": 83,
+    "side": "b",
+    "text": "ПРИДУМАЙ",
+    "bbox": [
+      756,
+      1163,
+      826,
+      1178
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "106": {
+    "retain": true,
+    "page": 83,
+    "side": "b",
+    "text": "6 6 6",
+    "bbox": [
+      417,
+      1208,
+      502,
+      1290
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "107": {
+    "retain": true,
+    "page": 83,
+    "side": "b",
+    "text": "7 7 7",
+    "bbox": [
+      484,
+      1207,
+      563,
+      1298
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "108": {
+    "retain": true,
+    "page": 83,
+    "side": "b",
+    "text": "8 8 8",
+    "bbox": [
+      548,
+      1201,
+      635,
+      1287
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "109": {
+    "retain": true,
+    "page": 83,
+    "side": "b",
+    "text": "9 9 9",
+    "bbox": [
+      614,
+      1216,
+      703,
+      1293
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "110": {
+    "retain": true,
+    "page": 84,
+    "side": "b",
+    "text": "5 5 5",
+    "bbox": [
+      596,
+      332,
+      679,
+      413
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "111": {
+    "retain": true,
+    "page": 84,
+    "side": "b",
+    "text": "3 3 3",
+    "bbox": [
+      661,
+      330,
+      745,
+      415
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "112": {
+    "retain": true,
+    "page": 84,
+    "side": "b",
+    "text": "1 1 1",
+    "bbox": [
+      725,
+      328,
+      809,
+      415
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "113": {
+    "retain": true,
+    "page": 84,
+    "side": "b",
+    "text": "7 7 7",
+    "bbox": [
+      797,
+      329,
+      875,
+      415
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "114": {
+    "retain": true,
+    "page": 86,
+    "side": "b",
+    "text": "%",
+    "bbox": [
+      116,
+      1045,
+      505,
+      1320
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "115": {
+    "retain": true,
+    "page": 86,
+    "side": "b",
+    "text": "1/2",
+    "bbox": [
+      592,
+      925,
+      902,
+      1320
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "116": {
+    "retain": false,
+    "page": 93,
+    "side": "a",
+    "text": "ПРОЦЕНТЫ",
+    "bbox": [
+      723,
+      141,
+      774,
+      214
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "117": {
+    "retain": true,
+    "page": 93,
+    "side": "b",
+    "text": "ПРОЦЕНТ – %",
+    "bbox": [
+      725,
+      141,
+      778,
+      223
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "118": {
+    "retain": false,
+    "page": 96,
+    "side": "b",
+    "text": "СРАВНЕНИЕ ДРОБЕЙ",
+    "bbox": [
+      734,
+      148,
+      824,
+      240
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "119": {
+    "retain": false,
+    "page": 100,
+    "side": "b",
+    "text": "С ОДИНАКОВЫМИ ЗНАМЕНАТЕЛЯМИ",
+    "bbox": [
+      794,
+      147,
+      921,
+      185
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "120": {
+    "retain": true,
+    "page": 103,
+    "side": "a",
+    "text": "СЛОЖЕНИЕ И ВЫЧИТАНИЕ ДРОБЕЙ С ОДИНАКОВЫМИ ЗНАМЕНАТЕЛЯМИ",
+    "bbox": [
+      676,
+      119,
+      815,
+      192
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "121": {
+    "retain": false,
+    "page": 103,
+    "side": "b",
+    "text": "СЛОЖЕНИЕ И ВЫЧИТАНИЕ С ОДИНАКОВЫМИ ЗНАМЕНАТЕЛЯМИ",
+    "bbox": [
+      681,
+      117,
+      806,
+      184
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "122": {
+    "retain": true,
+    "page": 108,
+    "side": "b",
+    "text": "?",
+    "bbox": [
+      651,
+      472,
+      674,
+      497
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "123": {
+    "retain": true,
+    "page": 109,
+    "side": "a",
+    "text": "Количество посетителей",
+    "bbox": [
+      570,
+      594,
+      600,
+      701
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "124": {
+    "retain": true,
+    "page": 109,
+    "side": "a",
+    "text": "50 40 30 20 10 0",
+    "bbox": [
+      603,
+      566,
+      632,
+      726
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "125": {
+    "retain": false,
+    "page": 109,
+    "side": "b",
+    "text": "50",
+    "bbox": [
+      605,
+      566,
+      629,
+      587
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "126": {
+    "retain": false,
+    "page": 109,
+    "side": "b",
+    "text": "40",
+    "bbox": [
+      604,
+      594,
+      629,
+      615
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "127": {
+    "retain": false,
+    "page": 109,
+    "side": "b",
+    "text": "30",
+    "bbox": [
+      604,
+      623,
+      628,
+      644
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "128": {
+    "retain": false,
+    "page": 109,
+    "side": "b",
+    "text": "20",
+    "bbox": [
+      604,
+      650,
+      628,
+      672
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "129": {
+    "retain": false,
+    "page": 109,
+    "side": "b",
+    "text": "10",
+    "bbox": [
+      605,
+      680,
+      628,
+      700
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "130": {
+    "retain": false,
+    "page": 109,
+    "side": "b",
+    "text": "0",
+    "bbox": [
+      614,
+      708,
+      628,
+      728
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "131": {
+    "retain": true,
+    "page": 110,
+    "side": "a",
+    "text": "6/6 = 1, можно ли записать",
+    "bbox": [
+      265,
+      830,
+      600,
+      878
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "132": {
+    "retain": true,
+    "page": 110,
+    "side": "a",
+    "text": "1 + 5/6 = 1 5/6?",
+    "bbox": [
+      155,
+      876,
+      305,
+      920
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "133": {
+    "retain": true,
+    "page": 110,
+    "side": "a",
+    "text": "0 1/3 1 2 3 4",
+    "bbox": [
+      510,
+      970,
+      880,
+      1065
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "134": {
+    "retain": true,
+    "page": 110,
+    "side": "a",
+    "text": "что 5/3 = 3/3 + 2/3 = 1 + 2/3?",
+    "bbox": [
+      155,
+      1014,
+      435,
+      1065
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "135": {
+    "retain": false,
+    "page": 110,
+    "side": "b",
+    "text": "1",
+    "bbox": [
+      604,
+      978,
+      622,
+      1003
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "136": {
+    "retain": false,
+    "page": 110,
+    "side": "b",
+    "text": "?",
+    "bbox": [
+      416,
+      1023,
+      430,
+      1048
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "137": {
+    "retain": true,
+    "page": 111,
+    "side": "a",
+    "text": "5 6/9 = 5 +     7 1/4 3/2 =     41 5/1 =     87 7/9 =",
+    "bbox": [
+      145,
+      467,
+      830,
+      547
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "138": {
+    "retain": true,
+    "page": 111,
+    "side": "a",
+    "text": "5 + 2 3/8     10 4/3 − 7     4 1/6 + 10\n12 8/15 − 12     4 1/9 + 3 4/9     7 5/7 − 4 3/7",
+    "bbox": [
+      155,
+      864,
+      790,
+      975
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "139": {
+    "retain": true,
+    "page": 111,
+    "side": "a",
+    "text": "Отметь на луче числа 2/6, 4/6, 1 1/6, 1 3/6.",
+    "bbox": [
+      130,
+      1160,
+      552,
+      1206
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "140": {
+    "retain": false,
+    "page": 111,
+    "side": "b",
+    "text": "41 5/11 =",
+    "bbox": [
+      529,
+      470,
+      633,
+      535
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "141": {
+    "retain": true,
+    "page": 112,
+    "side": "a",
+    "text": "18/19 − 7/19 + 3/19     9/11 − 3/11 − 2/11     11/15 − (3/15 + 7/15)",
+    "bbox": [
+      185,
+      265,
+      845,
+      315
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "142": {
+    "retain": true,
+    "page": 112,
+    "side": "a",
+    "text": "3 4/5     8 7/10     25 15/17     4 11/14",
+    "bbox": [
+      209,
+      1160,
+      800,
+      1207
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "143": {
+    "retain": true,
+    "page": 112,
+    "side": "a",
+    "text": "4 + 3/17     18 + 27/100",
+    "bbox": [
+      210,
+      1237,
+      507,
+      1286
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "144": {
+    "retain": true,
+    "page": 113,
+    "side": "a",
+    "text": "2/15 * 4/15     1 * 5/16     2 3/9 * 3/9     8/9 * 8/20     3/7 * 3/4     2/7 * 6/7",
+    "bbox": [
+      125,
+      734,
+      825,
+      786
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "145": {
+    "retain": true,
+    "page": 113,
+    "side": "a",
+    "text": "21/30 + 3/30 − 8/30     21/65 − 16/65 + 13/65     17/19 − (5/19 + 2/19)\n61/200 − (35/200 − 19/200)     21/30 − (1/30 + 9/30)     3/10 + 5/10 − 7/10",
+    "bbox": [
+      120,
+      1171,
+      810,
+      1289
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "146": {
+    "retain": false,
+    "page": 113,
+    "side": "b",
+    "text": "21/65 − 16/65 + 13/65",
+    "bbox": [
+      412,
+      1175,
+      559,
+      1225
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "147": {
+    "retain": true,
+    "page": 114,
+    "side": "a",
+    "text": "4 + 3 3/9     19 3/7 − 17     14 1/8 + 14\n19 8/10 − 3     14 1/9 + 6 4/9     8 5/6 − 4 3/6",
+    "bbox": [
+      194,
+      694,
+      810,
+      795
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "148": {
+    "retain": true,
+    "page": 115,
+    "side": "a",
+    "text": "18/30 − x = 4/30 + 6/30     34/60 + 8/60 + y = 41/60 + 16/60\n(13/67 + 6/67) − x = 9/67     64/70 − (x + 26/70) = 5/70\n10/15 + (5/15 − x) = 14/15     x + 27/46 = 35/46 + 2/46",
+    "bbox": [
+      177,
+      1004,
+      750,
+      1180
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "149": {
+    "retain": true,
+    "page": 116,
+    "side": "a",
+    "text": "Е 54/65     О 15/65     Н 46/65     И 60/65     Е 62/65     Н 58/65     Л 32/65     З 25/65     Е 39/65     Е 29/65",
+    "bbox": [
+      132,
+      440,
+      884,
+      545
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "150": {
+    "retain": true,
+    "page": 117,
+    "side": "a",
+    "text": "x − 5/12 = 2/12     z − 7/19 = 11/19     15/16 − y = 3/16     7/25 + p = 18/25",
+    "bbox": [
+      130,
+      1238,
+      830,
+      1291
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "151": {
+    "retain": true,
+    "page": 121,
+    "side": "a",
+    "text": "8",
+    "bbox": [
+      119,
+      584,
+      146,
+      616
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "152": {
+    "retain": true,
+    "page": 121,
+    "side": "a",
+    "text": "ИЗА (индекс загрязнения атмосферы)\n16 14 12 10 8 6 4 2 0\nАлматы Шымкент Темиртау Караганда Актобе Тараз Риддер Усть-Каменогорск пос. Глубокое Жезказган Петропавловск Костанай Кызылорда Актау Семей Астана Павлодар Атырау Балкаш Талдыкорган Кокшетау Экибастуз",
+    "bbox": [
+      124,
+      309,
+      840,
+      518
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "153": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "14",
+    "bbox": [
+      166,
+      335,
+      191,
+      354
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "154": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "12",
+    "bbox": [
+      166,
+      358,
+      191,
+      377
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "155": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "10",
+    "bbox": [
+      166,
+      381,
+      191,
+      400
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "156": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "8",
+    "bbox": [
+      166,
+      404,
+      191,
+      423
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "157": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "6",
+    "bbox": [
+      166,
+      427,
+      191,
+      446
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "158": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "4",
+    "bbox": [
+      166,
+      450,
+      191,
+      469
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "159": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "2",
+    "bbox": [
+      166,
+      473,
+      191,
+      492
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "160": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "0",
+    "bbox": [
+      166,
+      496,
+      191,
+      515
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "161": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "Алматы",
+    "bbox": [
+      207,
+      365,
+      232,
+      505
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "162": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "Шымкент",
+    "bbox": [
+      235,
+      365,
+      260,
+      505
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "163": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "Темиртау",
+    "bbox": [
+      263,
+      365,
+      288,
+      505
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "164": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "Караганда",
+    "bbox": [
+      291,
+      365,
+      316,
+      505
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "165": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "Актобе",
+    "bbox": [
+      319,
+      365,
+      344,
+      505
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "166": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "Тараз",
+    "bbox": [
+      347,
+      365,
+      372,
+      505
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "167": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "Риддер",
+    "bbox": [
+      375,
+      365,
+      400,
+      505
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "168": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "Усть-Каменогорск",
+    "bbox": [
+      403,
+      365,
+      428,
+      505
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "169": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "пос. Глубокое",
+    "bbox": [
+      431,
+      365,
+      456,
+      505
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "170": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "Жезказган",
+    "bbox": [
+      459,
+      365,
+      484,
+      505
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "171": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "Петропавловск",
+    "bbox": [
+      487,
+      365,
+      512,
+      505
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "172": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "Костанай",
+    "bbox": [
+      515,
+      365,
+      540,
+      505
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "173": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "Кызылорда",
+    "bbox": [
+      543,
+      365,
+      568,
+      505
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "174": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "Актау",
+    "bbox": [
+      571,
+      365,
+      596,
+      505
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "175": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "Семей",
+    "bbox": [
+      599,
+      365,
+      624,
+      505
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "176": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "Астана",
+    "bbox": [
+      627,
+      365,
+      652,
+      505
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "177": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "Павлодар",
+    "bbox": [
+      655,
+      365,
+      680,
+      505
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "178": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "Атырау",
+    "bbox": [
+      683,
+      365,
+      708,
+      505
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "179": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "Балкаш",
+    "bbox": [
+      711,
+      365,
+      736,
+      505
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "180": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "Талдыкорган",
+    "bbox": [
+      739,
+      365,
+      764,
+      505
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "181": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "Кокшетау",
+    "bbox": [
+      767,
+      365,
+      792,
+      505
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "182": {
+    "retain": false,
+    "page": 121,
+    "side": "b",
+    "text": "Экибастуз",
+    "bbox": [
+      795,
+      365,
+      820,
+      505
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "183": {
+    "retain": true,
+    "page": 123,
+    "side": "a",
+    "text": "а) 1/5, 3/5, 4/5.     б) 3/7, 5/7, 6/7.",
+    "bbox": [
+      200,
+      637,
+      705,
+      684
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "184": {
+    "retain": true,
+    "page": 124,
+    "side": "a",
+    "text": "ТГ",
+    "bbox": [
+      785,
+      201,
+      815,
+      223
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "185": {
+    "retain": true,
+    "page": 124,
+    "side": "a",
+    "text": "ТГ",
+    "bbox": [
+      893,
+      201,
+      924,
+      223
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "186": {
+    "retain": true,
+    "page": 126,
+    "side": "a",
+    "text": "99/125 − (15/125 + 36/125 + 9/125)     47/99 + 25/99 − 60/99\n13/50 − (22/50 − 19/50)     362/700 + 102/700 − 400/700",
+    "bbox": [
+      230,
+      685,
+      750,
+      791
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "187": {
+    "retain": true,
+    "page": 128,
+    "side": "a",
+    "text": "Задания     Ответы     А     С     Р     Б\nВыполни сложение 14/25 + 7/25     5/25     14/25     7/25     21/25\nВыполни вычитание 9/4 − 6/4     3/4     15/4     6/4     1/4\nНайди правильную дробь со знаменателем 17.     17/17     45/17     14/17     76/17\nНайди смешанное число.     5     1 1/7     30/25     4/4",
+    "bbox": [
+      112,
+      389,
+      907,
+      715
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "188": {
+    "retain": true,
+    "page": 128,
+    "side": "a",
+    "text": "1/12 ч * 2/15 ч     7/8 сут. * 1/3 сут.     3/4 м * 1/2 дм\n2/5 ц * 1/50 т     9/10 кг * 2/5 кг     3/10 дм * 1/25 м",
+    "bbox": [
+      200,
+      1180,
+      820,
+      1290
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "189": {
+    "retain": true,
+    "page": 131,
+    "side": "a",
+    "text": "Задания     Ответы     А     К     Г     С     А     Й\nВыполни сложение 1/7 + 5/7     2/7     5/7     12/14     6/7     6/14     9/21\nВыполни вычитание 19/16 − 11/16     8/16     19/16     30/32     1/32     8/32     1/16\nНайди правильную дробь со знаменателем 27.     35/27     27/27     28/27     30/27     32/27     5/27\nНайди неправильную дробь со знаменателем 16.     5/16     1/16     17/16     7/16     10/16     9/16\nСреди 17 мешков 12 с картофелем. Какую часть всех мешков составляют мешки с картофелем?     5/7     17/17     12/12     1/12     12/17     1/17\nКакая из дробей равна 1?     5/7     17/17     2/12     1/12     12/17     1/17",
+    "bbox": [
+      86,
+      382,
+      879,
+      911
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "190": {
+    "retain": true,
+    "page": 132,
+    "side": "a",
+    "text": "2/7 + 4/7 − 5/7     5/12 + 3/12 + 3/12     3/16 + (13/16 − 3/16)",
+    "bbox": [
+      196,
+      616,
+      820,
+      665
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "191": {
+    "retain": true,
+    "page": 133,
+    "side": "a",
+    "text": "а) 1/8, 3/8, 6/8     б) 4/10, 3/10, 6/10",
+    "bbox": [
+      219,
+      703,
+      687,
+      751
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "192": {
+    "retain": true,
+    "page": 134,
+    "side": "a",
+    "text": "15/25 * 6/25     6/25 * 18/25     15/20 * 15/25     6/25 * 6/40",
+    "bbox": [
+      152,
+      768,
+      710,
+      820
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "193": {
+    "retain": true,
+    "page": 134,
+    "side": "a",
+    "text": "*Книга предоставлена исключительно в образовательных целях\nсогласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года № 217",
+    "bbox": [
+      0,
+      1367,
+      992,
+      1418
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "194": {
+    "retain": true,
+    "page": 140,
+    "side": "b",
+    "text": "O",
+    "bbox": [
+      464,
+      872,
+      485,
+      894
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "195": {
+    "retain": true,
+    "page": 144,
+    "side": "b",
+    "text": "C",
+    "bbox": [
+      518,
+      380,
+      542,
+      406
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "196": {
+    "retain": true,
+    "page": 148,
+    "side": "b",
+    "text": "9",
+    "bbox": [
+      148,
+      1143,
+      176,
+      1178
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "197": {
+    "retain": true,
+    "page": 149,
+    "side": "b",
+    "text": "O",
+    "bbox": [
+      710,
+      846,
+      739,
+      875
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "198": {
+    "retain": true,
+    "page": 149,
+    "side": "b",
+    "text": "O₁",
+    "bbox": [
+      772,
+      846,
+      806,
+      880
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "199": {
+    "retain": false,
+    "page": 153,
+    "side": "a",
+    "text": "Я знаю\nЯ понимаю\nЯ применяю\nЯ могу",
+    "bbox": [
+      426,
+      989,
+      544,
+      1147
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "200": {
+    "retain": true,
+    "page": 153,
+    "side": "b",
+    "text": "Я ЗНАЮ",
+    "bbox": [
+      451,
+      984,
+      530,
+      1099
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "201": {
+    "retain": true,
+    "page": 153,
+    "side": "b",
+    "text": "Я ПРИМЕНЯЮ",
+    "bbox": [
+      458,
+      1022,
+      537,
+      1144
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "202": {
+    "retain": true,
+    "page": 153,
+    "side": "b",
+    "text": "Я МОГУ",
+    "bbox": [
+      456,
+      1053,
+      506,
+      1154
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "203": {
+    "retain": true,
+    "page": 158,
+    "side": "a",
+    "text": "Процент от числа — 1/100 доля числа, принимаемого за целое, за единицу.",
+    "bbox": [
+      111,
+      1135,
+      813,
+      1170
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "204": {
+    "retain": false,
+    "page": 158,
+    "side": "b",
+    "text": "Процент числа — 1/100 доля числа, принимаемого за целое, за единицу.",
+    "bbox": [
+      111,
+      1134,
+      813,
+      1172
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "205": {
+    "retain": false,
+    "page": 159,
+    "side": "b",
+    "text": "Движение вдогонку и с отставанием",
+    "bbox": [
+      120,
+      478,
+      435,
+      499
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  },
+  "206": {
+    "retain": false,
+    "page": 159,
+    "side": "b",
+    "text": "Составление и решение задач",
+    "bbox": [
+      120,
+      997,
+      382,
+      1018
+    ],
+    "reason": "Main directly viewed original source crop; retain source content or reject duplicate/false reading after comparing selected raw text."
+  }
+}

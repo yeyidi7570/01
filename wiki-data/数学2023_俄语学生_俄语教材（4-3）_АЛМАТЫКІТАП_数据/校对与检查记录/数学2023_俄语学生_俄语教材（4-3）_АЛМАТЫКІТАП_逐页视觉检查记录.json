@@ -1,0 +1,75 @@
+{
+  "page_count": 160,
+  "original_contact_sheets_directly_viewed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "paired_original_rebuilt_contact_sheets_directly_viewed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "full_size_rebuild_checks": [
+    1,
+    2,
+    82,
+    85,
+    111,
+    131,
+    136,
+    159
+  ],
+  "source_detail_checks": {
+    "content_disagreements": 190,
+    "addition_cases": 207,
+    "geometry_regions": 279,
+    "geometry_sheets": 47,
+    "table_review_sheets": 9
+  },
+  "visible_repairs": [
+    "Source-matched table cell typography",
+    "Restored question markers and original marker positions",
+    "Preserved handwritten examples and source deliberate mistakes",
+    "Rebuilt TOC as text and vector leaders",
+    "Removed left-edge scan noise on page 85"
+  ],
+  "copy_repairs": "Normalized multiline illustration text in PDF extraction while preserving source line breaks in retained JSON.",
+  "lossless_optimization": {
+    "pages": 160,
+    "pixel_identical_to_visually_reviewed_renders": true
+  },
+  "pdf_sha256": "1d6e11dc3be236385e70c5a6482a843566e3fea5e69236c6f824fc595efafc01",
+  "pdf_bytes": 71288192,
+  "limitations": [
+    "Approximate embedded fonts on rebuilt pages",
+    "Small incidental illustration print limited by source resolution"
+  ],
+  "status": "passed"
+}

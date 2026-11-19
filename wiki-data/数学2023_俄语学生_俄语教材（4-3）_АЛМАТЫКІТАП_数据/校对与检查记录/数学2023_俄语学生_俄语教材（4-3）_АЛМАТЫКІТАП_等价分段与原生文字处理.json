@@ -1,0 +1,3670 @@
+[
+  {
+    "page": 2,
+    "id": "5",
+    "raw": "PO",
+    "a": "УРОК",
+    "b": "УРОК №",
+    "bbox": [
+      134,
+      215,
+      148,
+      222
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 2,
+    "id": "75",
+    "raw": "Алматы: АЛМАТЫКІТАП БАСПАСЫ, 2О23. - 160 с.,ил.",
+    "a": "Алматы: АЛМАТЫКІТАП БАСПАСЫ, 2023. – 160 с.,ил.",
+    "b": "Алматы: АЛМАТЫКІТАП БАСПАСЫ, 2023. – 160 с., ил.",
+    "bbox": [
+      159,
+      1136,
+      654,
+      1159
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 8,
+    "id": "7",
+    "raw": "1 111·50",
+    "a": "1 111 · 50",
+    "b": "1 111·50",
+    "bbox": [
+      411,
+      282,
+      520,
+      313
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 8,
+    "id": "8",
+    "raw": "12 300· 20",
+    "a": "12 300 · 20",
+    "b": "12 300· 20",
+    "bbox": [
+      668,
+      281,
+      800,
+      314
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 8,
+    "id": "11",
+    "raw": "3 210·300",
+    "a": "3 210 · 300",
+    "b": "3 210·300",
+    "bbox": [
+      671,
+      314,
+      799,
+      342
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 9,
+    "id": "13",
+    "raw": "9 063·5",
+    "a": "9 063 · 5",
+    "b": "9 063·5",
+    "bbox": [
+      365,
+      445,
+      469,
+      474
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 9,
+    "id": "33",
+    "raw": "S= M:m",
+    "a": "S = M : m",
+    "b": "S= M:m",
+    "bbox": [
+      330,
+      866,
+      442,
+      901
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 9,
+    "id": "55",
+    "raw": "1500 ц",
+    "a": "1 500 ц",
+    "b": "1500 ц",
+    "bbox": [
+      696,
+      1199,
+      789,
+      1234
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 10,
+    "id": "22",
+    "raw": "v = A:t",
+    "a": "v = A : t",
+    "b": "v = A:t",
+    "bbox": [
+      408,
+      1142,
+      496,
+      1171
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 11,
+    "id": "8",
+    "raw": "500 ц/га = □ кг/м²5 кг/м² = □кг/сотки",
+    "a": "500 ц/га = □ кг/м²",
+    "b": "500 ц/га = □ кг/м²    5 кг/м² = □ кг/сотки",
+    "bbox": [
+      347,
+      373,
+      830,
+      405
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 11,
+    "id": "7",
+    "raw": "50 т/га =□ ц/га",
+    "a": "50 т/га = □ ц/га",
+    "b": "50 т/га =□ ц/га",
+    "bbox": [
+      136,
+      375,
+      327,
+      403
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 11,
+    "id": "16",
+    "raw": "91 653:223",
+    "a": "91 653 : 223",
+    "b": "91 653:223",
+    "bbox": [
+      438,
+      608,
+      576,
+      636
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 12,
+    "id": "13",
+    "raw": "8 км 900 м,  8 т,  100 га, 5 ц 500 кг,  7 дм 5 см,6100 кг,  8 ч 26 мин.",
+    "a": "8 км 900 м, 8 т, 100 га, 5 ц 500 кг, 7 дм 5 см, 6100 кг, 8 ч 26 мин.",
+    "b": "8 км 900 м,  8 т,  100 га, 5 ц 500 кг,  7 дм 5 см,6100 кг,  8 ч 26 мин.",
+    "bbox": [
+      135,
+      466,
+      883,
+      499
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 13,
+    "id": "0",
+    "raw": "Все учебники Казахстана ищите на сайтах OKULYK.COM и OKULYK.КZ",
+    "a": "Все учебники Казахстана ищите на сайтах OKULYK.COM и OKULYK.KZ",
+    "b": "Все учебники Казахстана ищите на сайтах OKULYK.COM и OKULYK.КZ",
+    "bbox": [
+      0,
+      0,
+      986,
+      31
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 13,
+    "id": "30",
+    "raw": "4 · 129 –3 · 129",
+    "a": "4 · 129 – 3 · 129",
+    "b": "4 · 129 –3 · 129",
+    "bbox": [
+      386,
+      1259,
+      562,
+      1289
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 13,
+    "id": "31",
+    "raw": "9 · 21 –9 · 11",
+    "a": "9 · 21 – 9 · 11",
+    "b": "9 · 21 –9 · 11",
+    "bbox": [
+      653,
+      1260,
+      799,
+      1288
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 16,
+    "id": "18",
+    "raw": "1 2 3 4 t,ч",
+    "a": "1 2 3 4 t, ч",
+    "b": "1 2 3 4 t,ч",
+    "bbox": [
+      747,
+      439,
+      893,
+      460
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 17,
+    "id": "24",
+    "raw": "9",
+    "a": "33696",
+    "b": "33 696",
+    "bbox": [
+      197,
+      837,
+      244,
+      900
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 17,
+    "id": "25",
+    "raw": "D6ET",
+    "a": "13944",
+    "b": "13 944",
+    "bbox": [
+      577,
+      868,
+      630,
+      931
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 17,
+    "id": "26",
+    "raw": "12810",
+    "a": "12810",
+    "b": "12 810",
+    "bbox": [
+      237,
+      967,
+      297,
+      1008
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 21,
+    "id": "18",
+    "raw": "496·25 = (496: 4)· 100 = 12 400",
+    "a": "496 · 25 = (496 : 4) · 100 = 12 400",
+    "b": "496·25 = (496: 4)· 100 = 12 400",
+    "bbox": [
+      210,
+      487,
+      569,
+      512
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 21,
+    "id": "21",
+    "raw": "24·25",
+    "a": "24 · 25",
+    "b": "24·25",
+    "bbox": [
+      140,
+      616,
+      222,
+      650
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 21,
+    "id": "22",
+    "raw": "32·25",
+    "a": "32 · 25",
+    "b": "32·25",
+    "bbox": [
+      259,
+      616,
+      342,
+      649
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 21,
+    "id": "23",
+    "raw": "36·25",
+    "a": "36 · 25",
+    "b": "36·25",
+    "bbox": [
+      379,
+      615,
+      461,
+      648
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 21,
+    "id": "26",
+    "raw": "56·25",
+    "a": "56 · 25",
+    "b": "56·25",
+    "bbox": [
+      740,
+      616,
+      823,
+      649
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 22,
+    "id": "28",
+    "raw": "1мин2мин",
+    "a": "1 мин",
+    "b": "1 мин    2 мин",
+    "bbox": [
+      528,
+      1179,
+      707,
+      1213
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 23,
+    "id": "22",
+    "raw": "404· 25",
+    "a": "404 · 25",
+    "b": "404· 25",
+    "bbox": [
+      585,
+      601,
+      684,
+      633
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 42,
+    "id": "49",
+    "raw": "t=3мин",
+    "a": "t = 3 мин",
+    "b": "t=3мин",
+    "bbox": [
+      420,
+      1190,
+      513,
+      1220
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 47,
+    "id": "0",
+    "raw": "Все учебники І",
+    "a": "Все учебники Казахстана ищите на сайтах OKULYK.COM и OKULYK.KZ",
+    "b": "Все учебники",
+    "bbox": [
+      0,
+      0,
+      198,
+      33
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 47,
+    "id": "1",
+    "raw": "Казахстана ищите на сайтах",
+    "a": "",
+    "b": "Казахстана ищите на сайтах",
+    "bbox": [
+      188,
+      2,
+      596,
+      30
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 47,
+    "id": "2",
+    "raw": ": OKULYK.COM и OKULYK.KZ",
+    "a": "",
+    "b": "OKULYK.COM и OKULYK.KZ",
+    "bbox": [
+      585,
+      0,
+      986,
+      28
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 47,
+    "id": "11",
+    "raw": "В математике",
+    "a": "В математике верные высказывания называют истинными,",
+    "b": "В математике",
+    "bbox": [
+      127,
+      410,
+      301,
+      437
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 47,
+    "id": "12",
+    "raw": ": верные высказывания",
+    "a": "",
+    "b": "верные высказывания",
+    "bbox": [
+      292,
+      414,
+      569,
+      437
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 47,
+    "id": "13",
+    "raw": " называют",
+    "a": "",
+    "b": " называют",
+    "bbox": [
+      558,
+      415,
+      688,
+      435
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 47,
+    "id": "14",
+    "raw": "истинными,",
+    "a": "",
+    "b": "истинными,",
+    "bbox": [
+      693,
+      415,
+      835,
+      436
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 51,
+    "id": "48",
+    "raw": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019года № 217",
+    "a": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года № 217",
+    "b": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019года № 217",
+    "bbox": [
+      0,
+      1393,
+      989,
+      1418
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 55,
+    "id": "5",
+    "raw": "t=?ч",
+    "a": "t = ? ч",
+    "b": "t=?ч",
+    "bbox": [
+      649,
+      289,
+      729,
+      321
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 62,
+    "id": "3",
+    "raw": "13440:32:7+7·123",
+    "a": "13 440 : 32 : 7 + 7 · 123",
+    "b": "13440:32:7+7·123",
+    "bbox": [
+      159,
+      281,
+      407,
+      305
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 62,
+    "id": "25",
+    "raw": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года №217",
+    "a": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года № 217",
+    "b": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года №217",
+    "bbox": [
+      0,
+      1392,
+      988,
+      1418
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 64,
+    "id": "29",
+    "raw": "714792:55",
+    "a": "714 792 : 55",
+    "b": "714792:55",
+    "bbox": [
+      420,
+      1224,
+      560,
+      1259
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 64,
+    "id": "30",
+    "raw": "64879:51",
+    "a": "64 879 : 51",
+    "b": "64879:51",
+    "bbox": [
+      686,
+      1226,
+      815,
+      1258
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 64,
+    "id": "31",
+    "raw": "802154 :5",
+    "a": "802 154 : 5",
+    "b": "802154 :5",
+    "bbox": [
+      155,
+      1258,
+      284,
+      1289
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 67,
+    "id": "14",
+    "raw": "224448 : 56",
+    "a": "224 448 : 56",
+    "b": "224448 : 56",
+    "bbox": [
+      638,
+      469,
+      778,
+      500
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 67,
+    "id": "26",
+    "raw": "какая из этих ",
+    "a": "какая из этих фигур",
+    "b": "какая из этих ",
+    "bbox": [
+      129,
+      836,
+      289,
+      860
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 67,
+    "id": "27",
+    "raw": ": фигур",
+    "a": "",
+    "b": "фигур",
+    "bbox": [
+      276,
+      834,
+      357,
+      862
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 74,
+    "id": "30",
+    "raw": "3952:52",
+    "a": "3 952 : 52",
+    "b": "3952:52",
+    "bbox": [
+      703,
+      697,
+      818,
+      728
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 74,
+    "id": "53",
+    "raw": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года №217",
+    "a": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года № 217",
+    "b": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года №217",
+    "bbox": [
+      0,
+      1390,
+      988,
+      1418
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 79,
+    "id": "10",
+    "raw": "741255",
+    "a": "741 255",
+    "b": "741255",
+    "bbox": [
+      574,
+      475,
+      669,
+      508
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 79,
+    "id": "18",
+    "raw": "1725:69",
+    "a": "1 725 : 69",
+    "b": "1725:69",
+    "bbox": [
+      733,
+      515,
+      847,
+      546
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 79,
+    "id": "26",
+    "raw": "11856:26",
+    "a": "11 856 : 26",
+    "b": "11856:26",
+    "bbox": [
+      729,
+      613,
+      855,
+      645
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 80,
+    "id": "37",
+    "raw": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года №217",
+    "a": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года № 217",
+    "b": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года №217",
+    "bbox": [
+      0,
+      1390,
+      989,
+      1418
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 81,
+    "id": "28",
+    "raw": "Sо6u",
+    "a": "S_общ",
+    "b": "S_общ = ? км",
+    "bbox": [
+      424,
+      1013,
+      482,
+      1063
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 81,
+    "id": "29",
+    "raw": "У? км",
+    "a": "= ? км",
+    "b": "",
+    "bbox": [
+      471,
+      1017,
+      537,
+      1046
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 82,
+    "id": "28",
+    "raw": "",
+    "a": "",
+    "b": "27",
+    "bbox": [
+      272,
+      992,
+      313,
+      1033
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 82,
+    "id": "29",
+    "raw": "F",
+    "a": "27",
+    "b": "",
+    "bbox": [
+      305,
+      1003,
+      330,
+      1026
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 82,
+    "id": "40",
+    "raw": "524",
+    "a": "×524",
+    "b": "524",
+    "bbox": [
+      272,
+      1171,
+      364,
+      1204
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 82,
+    "id": "44",
+    "raw": "1538",
+    "a": "+1538",
+    "b": "1538",
+    "bbox": [
+      217,
+      1227,
+      338,
+      1262
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 87,
+    "id": "21",
+    "raw": "55:7",
+    "a": "55 : 7",
+    "b": "55:7",
+    "bbox": [
+      747,
+      532,
+      804,
+      562
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 91,
+    "id": "6",
+    "raw": "1",
+    "a": "1/10 от этих денег она тратит на ежемесячный",
+    "b": "1/10",
+    "bbox": [
+      134,
+      335,
+      151,
+      357
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 91,
+    "id": "8",
+    "raw": ", от этих денег она тратит на ежемесячный",
+    "a": "",
+    "b": "от этих денег она тратит на ежемесячный",
+    "bbox": [
+      155,
+      339,
+      641,
+      377
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 91,
+    "id": "9",
+    "raw": "журнал для девочек,",
+    "a": "журнал для девочек, 1/3 от этих денег на покупки",
+    "b": "журнал для девочек, 1/3",
+    "bbox": [
+      128,
+      384,
+      370,
+      411
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 91,
+    "id": "10",
+    "raw": "от этих денег на покупки",
+    "a": "",
+    "b": "от этих денег на покупки",
+    "bbox": [
+      394,
+      383,
+      685,
+      409
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 92,
+    "id": "26",
+    "raw": "|км/ч",
+    "a": "□ км/ч",
+    "b": "",
+    "bbox": [
+      822,
+      440,
+      883,
+      474
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 92,
+    "id": "25",
+    "raw": "□",
+    "a": "",
+    "b": "□ км/ч",
+    "bbox": [
+      800,
+      446,
+      833,
+      471
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 92,
+    "id": "60",
+    "raw": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года №217",
+    "a": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года №217",
+    "b": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года № 217",
+    "bbox": [
+      0,
+      1391,
+      986,
+      1418
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 96,
+    "id": "34",
+    "raw": "1|4",
+    "a": "",
+    "b": "3/4",
+    "bbox": [
+      616,
+      1079,
+      646,
+      1134
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 96,
+    "id": "37",
+    "raw": "24",
+    "a": "3/4",
+    "b": "",
+    "bbox": [
+      652,
+      1079,
+      682,
+      1135
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 97,
+    "id": "2",
+    "raw": "Запиши дроби,",
+    "a": "Запиши дроби, обозначающие",
+    "b": "Запиши дроби,",
+    "bbox": [
+      174,
+      188,
+      369,
+      217
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 97,
+    "id": "3",
+    "raw": " обозначающие",
+    "a": "",
+    "b": " обозначающие",
+    "bbox": [
+      368,
+      186,
+      559,
+      217
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 97,
+    "id": "50",
+    "raw": "4|5",
+    "a": "",
+    "b": "2/5, 4/5.",
+    "bbox": [
+      258,
+      1124,
+      285,
+      1170
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 97,
+    "id": "54",
+    "raw": "на луче",
+    "a": "на луче 2/5, 4/5. Сравни дроби.",
+    "b": "на луче",
+    "bbox": [
+      128,
+      1132,
+      222,
+      1165
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 97,
+    "id": "55",
+    "raw": "Сравни дроби.",
+    "a": "",
+    "b": "Сравни дроби.",
+    "bbox": [
+      289,
+      1131,
+      464,
+      1162
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 98,
+    "id": "6",
+    "raw": "13 000mm3 = □ cm3",
+    "a": "13 000мм³ = □ см³",
+    "b": "13 000 мм³ = □ см³",
+    "bbox": [
+      168,
+      309,
+      394,
+      347
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 99,
+    "id": "6",
+    "raw": "m|4",
+    "a": "3/4 такого же сыра и гиря массой в 3/4 килограмма. Сколько весит",
+    "b": "3/4",
+    "bbox": [
+      135,
+      301,
+      157,
+      349
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 99,
+    "id": "8",
+    "raw": "34",
+    "a": "",
+    "b": "3/4",
+    "bbox": [
+      505,
+      303,
+      527,
+      350
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 99,
+    "id": "7",
+    "raw": "такого же сыра и гиря массой в",
+    "a": "",
+    "b": "такого же сыра и гиря массой в",
+    "bbox": [
+      160,
+      310,
+      506,
+      340
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 99,
+    "id": "9",
+    "raw": "килограмма. Сколько весит",
+    "a": "",
+    "b": "килограмма. Сколько весит",
+    "bbox": [
+      530,
+      312,
+      833,
+      339
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 100,
+    "id": "21",
+    "raw": "До обеда засадили",
+    "a": "",
+    "b": "До обеда засадили 4/12 частей участка,",
+    "bbox": [
+      158,
+      758,
+      403,
+      788
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 100,
+    "id": "18",
+    "raw": "4",
+    "a": "До обеда засадили 4/12 частей участка,",
+    "b": "",
+    "bbox": [
+      408,
+      753,
+      427,
+      772
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 101,
+    "id": "51",
+    "raw": "8",
+    "a": "8/20 частей, после обеда – 9/20 частей газона. Сколько частей",
+    "b": "8/20",
+    "bbox": [
+      134,
+      696,
+      156,
+      721
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 101,
+    "id": "52",
+    "raw": "9",
+    "a": "",
+    "b": "9/20",
+    "bbox": [
+      444,
+      696,
+      464,
+      719
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 101,
+    "id": "53",
+    "raw": "частей, после обеда",
+    "a": "",
+    "b": "частей, после обеда –",
+    "bbox": [
+      168,
+      703,
+      417,
+      737
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 101,
+    "id": "55",
+    "raw": "частей газона. Сколько частей",
+    "a": "",
+    "b": "частей газона. Сколько частей",
+    "bbox": [
+      476,
+      705,
+      831,
+      734
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 101,
+    "id": "57",
+    "raw": "170 25",
+    "a": "",
+    "b": "16/25",
+    "bbox": [
+      610,
+      775,
+      646,
+      832
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 101,
+    "id": "58",
+    "raw": "6) За первую неделю отремонтировали",
+    "a": "б) За первую неделю отремонтировали 16/25 частей дороги.",
+    "b": "б) За первую неделю отремонтировали",
+    "bbox": [
+      130,
+      789,
+      612,
+      818
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 101,
+    "id": "59",
+    "raw": "частей дороги.",
+    "a": "",
+    "b": "частей дороги.",
+    "bbox": [
+      645,
+      790,
+      832,
+      818
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 101,
+    "id": "80",
+    "raw": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019года № 217",
+    "a": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019года № 217",
+    "b": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года № 217",
+    "bbox": [
+      0,
+      1393,
+      989,
+      1418
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 102,
+    "id": "72",
+    "raw": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года №217",
+    "a": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года №217",
+    "b": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года № 217",
+    "bbox": [
+      0,
+      1390,
+      987,
+      1418
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 104,
+    "id": "32",
+    "raw": "6) В рыбоводческом хозяйстве 128 рыб.",
+    "a": "б) В рыбоводческом хозяйстве 128 рыб. 1/8 этих рыб состав-",
+    "b": "б) В рыбоводческом хозяйстве 128 рыб.",
+    "bbox": [
+      157,
+      791,
+      629,
+      824
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 104,
+    "id": "33",
+    "raw": "1|8",
+    "a": "",
+    "b": "1/8",
+    "bbox": [
+      635,
+      791,
+      659,
+      833
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 104,
+    "id": "34",
+    "raw": "этих рыб состав-",
+    "a": "",
+    "b": "этих рыб состав-",
+    "bbox": [
+      650,
+      792,
+      861,
+      823
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 106,
+    "id": "43",
+    "raw": "Назови",
+    "a": "Назови их. Начерти отрезок,",
+    "b": "Назови",
+    "bbox": [
+      158,
+      1227,
+      254,
+      1254
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 106,
+    "id": "44",
+    "raw": "их.",
+    "a": "",
+    "b": "их.",
+    "bbox": [
+      260,
+      1233,
+      301,
+      1252
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 106,
+    "id": "45",
+    "raw": "Начерти отрезок,",
+    "a": "",
+    "b": "Начерти отрезок,",
+    "bbox": [
+      313,
+      1230,
+      536,
+      1255
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 107,
+    "id": "12",
+    "raw": "одинаковы, равна",
+    "a": "единице. 6/6 = 1     6 : 6 = 1",
+    "b": "",
+    "bbox": [
+      617,
+      505,
+      834,
+      529
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 107,
+    "id": "14",
+    "raw": "6",
+    "a": "",
+    "b": "6/6 = 1",
+    "bbox": [
+      245,
+      535,
+      264,
+      559
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 107,
+    "id": "13",
+    "raw": "единице.",
+    "a": "",
+    "b": "единице.",
+    "bbox": [
+      126,
+      542,
+      239,
+      574
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 107,
+    "id": "16",
+    "raw": "6 : 6 = 1",
+    "a": "",
+    "b": "6 : 6 = 1",
+    "bbox": [
+      347,
+      542,
+      440,
+      570
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 107,
+    "id": "19",
+    "raw": "числитель которой меньше знаменателя,",
+    "a": "правильной дробью. Правильная дробь всегда меньше еди-",
+    "b": "",
+    "bbox": [
+      210,
+      592,
+      700,
+      619
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 107,
+    "id": "20",
+    "raw": "называется",
+    "a": "ницы. 1/6 < 1; 3/6 < 1.",
+    "b": "правильной дробью. Правильная дробь всегда меньше еди-",
+    "bbox": [
+      694,
+      596,
+      834,
+      617
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 107,
+    "id": "27",
+    "raw": "16",
+    "a": "",
+    "b": "1/6 < 1; 3/6 < 1.",
+    "bbox": [
+      206,
+      659,
+      224,
+      706
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 107,
+    "id": "26",
+    "raw": "ницы.",
+    "a": "",
+    "b": "ницы.",
+    "bbox": [
+      126,
+      664,
+      202,
+      697
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 107,
+    "id": "33",
+    "raw": "числитель",
+    "a": "ему, называется неправильной дробью. Неправильная дробь",
+    "b": "",
+    "bbox": [
+      215,
+      712,
+      343,
+      739
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 107,
+    "id": "34",
+    "raw": "которой",
+    "a": "всегда больше или равна единице.",
+    "b": "",
+    "bbox": [
+      343,
+      712,
+      451,
+      739
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 107,
+    "id": "40",
+    "raw": "называется і",
+    "a": "",
+    "b": "ему, называется неправильной дробью. Неправильная дробь",
+    "bbox": [
+      179,
+      742,
+      325,
+      769
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 107,
+    "id": "43",
+    "raw": "всегда",
+    "a": "",
+    "b": "всегда больше или равна единице.",
+    "bbox": [
+      128,
+      770,
+      211,
+      796
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 107,
+    "id": "60",
+    "raw": "2|",
+    "a": "8/4, 12/4.",
+    "b": "2/4, 3/4, 4/4,",
+    "bbox": [
+      719,
+      1004,
+      737,
+      1031
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 107,
+    "id": "59",
+    "raw": " Начерти числовой луч. Отметь на нём дроби",
+    "a": "а) Начерти числовой луч. Отметь на нём дроби 2/4, 3/4, 4/4,",
+    "b": "а) Начерти числовой луч. Отметь на нём дроби",
+    "bbox": [
+      153,
+      1009,
+      710,
+      1039
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 107,
+    "id": "68",
+    "raw": "812",
+    "a": "",
+    "b": "8/4, 12/4.",
+    "bbox": [
+      131,
+      1050,
+      211,
+      1088
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 108,
+    "id": "18",
+    "raw": "1|5",
+    "a": "",
+    "b": "1/5",
+    "bbox": [
+      581,
+      994,
+      602,
+      1043
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 108,
+    "id": "19",
+    "raw": "если длина рамки 25 см, а ширина –",
+    "a": "если длина рамки 25 см, а ширина – 1/5 длины?",
+    "b": "если длина рамки 25 см, а ширина –",
+    "bbox": [
+      156,
+      1003,
+      580,
+      1035
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 108,
+    "id": "20",
+    "raw": "длины?",
+    "a": "",
+    "b": "длины?",
+    "bbox": [
+      602,
+      1001,
+      696,
+      1037
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 108,
+    "id": "23",
+    "raw": "1|8",
+    "a": "",
+    "b": "1/8",
+    "bbox": [
+      550,
+      1082,
+      568,
+      1126
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 108,
+    "id": "24",
+    "raw": "длины. Какой длины дол-",
+    "a": "",
+    "b": "длины. Какой длины дол-",
+    "bbox": [
+      567,
+      1085,
+      860,
+      1124
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 108,
+    "id": "22",
+    "raw": "сада – 80 м, а ширина составляет",
+    "a": "сада – 80 м, а ширина составляет 1/8 длины. Какой длины дол-",
+    "b": "сада – 80 м, а ширина составляет",
+    "bbox": [
+      158,
+      1090,
+      546,
+      1120
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 108,
+    "id": "27",
+    "raw": "14",
+    "a": "",
+    "b": "1/4",
+    "bbox": [
+      470,
+      1161,
+      492,
+      1206
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 108,
+    "id": "26",
+    "raw": "в) От проволоки отрезали",
+    "a": "в) От проволоки отрезали 1/4 часть – 16 м. Чему равна длина",
+    "b": "в) От проволоки отрезали",
+    "bbox": [
+      156,
+      1168,
+      468,
+      1201
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 108,
+    "id": "28",
+    "raw": "часть – 16 м. Чему равна длина",
+    "a": "",
+    "b": "часть – 16 м. Чему равна длина",
+    "bbox": [
+      492,
+      1170,
+      861,
+      1199
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 108,
+    "id": "31",
+    "raw": "116",
+    "a": "",
+    "b": "1/6",
+    "bbox": [
+      501,
+      1238,
+      526,
+      1289
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 108,
+    "id": "30",
+    "raw": "г) Сколько месяцев содержит",
+    "a": "г) Сколько месяцев содержит 1/6 года?",
+    "b": "г) Сколько месяцев содержит",
+    "bbox": [
+      156,
+      1247,
+      499,
+      1280
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 108,
+    "id": "32",
+    "raw": "года?",
+    "a": "",
+    "b": "года?",
+    "bbox": [
+      523,
+      1243,
+      600,
+      1284
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 110,
+    "id": "25",
+    "raw": "616",
+    "a": "",
+    "b": "6/6",
+    "bbox": [
+      269,
+      825,
+      293,
+      876
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 110,
+    "id": "26",
+    "raw": "= 1, можно ли записать",
+    "a": "",
+    "b": "= 1, можно ли записать",
+    "bbox": [
+      294,
+      833,
+      562,
+      865
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 110,
+    "id": "27",
+    "raw": "56",
+    "a": "",
+    "b": "5/6",
+    "bbox": [
+      200,
+      868,
+      221,
+      921
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 110,
+    "id": "28",
+    "raw": "51",
+    "a": "",
+    "b": "= 1 5/6?",
+    "bbox": [
+      262,
+      869,
+      283,
+      903
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 110,
+    "id": "30",
+    "raw": "^",
+    "a": "",
+    "b": "?",
+    "bbox": [
+      750,
+      878,
+      765,
+      901
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 110,
+    "id": "29",
+    "raw": "1+",
+    "a": "",
+    "b": "1+",
+    "bbox": [
+      155,
+      879,
+      200,
+      909
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 110,
+    "id": "51",
+    "raw": "Например: 2 +",
+    "a": "",
+    "b": "Например: 2 + 1/3 = 2 1/3",
+    "bbox": [
+      158,
+      1182,
+      336,
+      1214
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 111,
+    "id": "29",
+    "raw": "4",
+    "a": "",
+    "b": "2/6, 4/6, 1 1/6, 1 3/6.",
+    "bbox": [
+      422,
+      1159,
+      443,
+      1184
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 111,
+    "id": "28",
+    "raw": "Отметь на луче числа",
+    "a": "",
+    "b": "Отметь на луче числа",
+    "bbox": [
+      132,
+      1166,
+      383,
+      1197
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 112,
+    "id": "6",
+    "raw": "$15 -\\5 +1$",
+    "a": "",
+    "b": "11/15 − (3/15 + 7/15)",
+    "bbox": [
+      675,
+      256,
+      839,
+      319
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 112,
+    "id": "3",
+    "raw": "18",
+    "a": "",
+    "b": "18/19 − 7/19 + 3/19",
+    "bbox": [
+      192,
+      264,
+      227,
+      293
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 112,
+    "id": "7",
+    "raw": "9",
+    "a": "",
+    "b": "9/11 − 3/11 − 2/11",
+    "bbox": [
+      444,
+      268,
+      463,
+      289
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 112,
+    "id": "48",
+    "raw": "414",
+    "a": "",
+    "b": "4 11/14",
+    "bbox": [
+      732,
+      1148,
+      801,
+      1216
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 112,
+    "id": "42",
+    "raw": "3",
+    "a": "",
+    "b": "3 4/5",
+    "bbox": [
+      213,
+      1160,
+      242,
+      1195
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 112,
+    "id": "44",
+    "raw": "8",
+    "a": "",
+    "b": "8 7/10",
+    "bbox": [
+      382,
+      1163,
+      403,
+      1193
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 112,
+    "id": "46",
+    "raw": "25",
+    "a": "",
+    "b": "25 15/17",
+    "bbox": [
+      554,
+      1159,
+      592,
+      1197
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 112,
+    "id": "52",
+    "raw": "4+",
+    "a": "",
+    "b": "4 + 3/17",
+    "bbox": [
+      211,
+      1240,
+      260,
+      1276
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 112,
+    "id": "53",
+    "raw": "18+",
+    "a": "",
+    "b": "18 + 27/100",
+    "bbox": [
+      406,
+      1240,
+      465,
+      1274
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 112,
+    "id": "61",
+    "raw": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года №217",
+    "a": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года № 217",
+    "b": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года №217",
+    "bbox": [
+      0,
+      1391,
+      987,
+      1418
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 113,
+    "id": "20",
+    "raw": "2",
+    "a": "",
+    "b": "2/15 * 4/15",
+    "bbox": [
+      127,
+      735,
+      150,
+      761
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 113,
+    "id": "25",
+    "raw": "м|9",
+    "a": "",
+    "b": "2 3/9 * 3/9",
+    "bbox": [
+      376,
+      732,
+      402,
+      784
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 113,
+    "id": "27",
+    "raw": "80",
+    "a": "",
+    "b": "8/9 * 8/20",
+    "bbox": [
+      505,
+      733,
+      528,
+      783
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 113,
+    "id": "29",
+    "raw": "мп",
+    "a": "",
+    "b": "3/7 * 3/4",
+    "bbox": [
+      629,
+      734,
+      652,
+      782
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 113,
+    "id": "31",
+    "raw": "N|7",
+    "a": "",
+    "b": "2/7 * 6/7",
+    "bbox": [
+      749,
+      736,
+      773,
+      778
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 113,
+    "id": "22",
+    "raw": "1 * ",
+    "a": "",
+    "b": "1 * 5/16",
+    "bbox": [
+      247,
+      739,
+      296,
+      775
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 113,
+    "id": "39",
+    "raw": "/",
+    "a": "",
+    "b": "3",
+    "bbox": [
+      131,
+      865,
+      136,
+      871
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 114,
+    "id": "60",
+    "raw": "месяц\" v vII",
+    "a": "месяц I II V VII IX X XII",
+    "b": "месяц I II V VII",
+    "bbox": [
+      134,
+      1244,
+      271,
+      1264
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 114,
+    "id": "62",
+    "raw": "IXX XII",
+    "a": "",
+    "b": "IX X XII",
+    "bbox": [
+      261,
+      1244,
+      335,
+      1264
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 117,
+    "id": "40",
+    "raw": "15",
+    "a": "",
+    "b": "15/16 − y = 3/16",
+    "bbox": [
+      499,
+      1234,
+      538,
+      1268
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 117,
+    "id": "42",
+    "raw": "$2}$",
+    "a": "",
+    "b": "7/25 + p = 18/25",
+    "bbox": [
+      688,
+      1231,
+      728,
+      1290
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 117,
+    "id": "36",
+    "raw": "5",
+    "a": "",
+    "b": "x − 5/12 = 2/12",
+    "bbox": [
+      179,
+      1236,
+      205,
+      1264
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 117,
+    "id": "38",
+    "raw": "7",
+    "a": "",
+    "b": "z − 7/19 = 11/19",
+    "bbox": [
+      360,
+      1237,
+      384,
+      1262
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 118,
+    "id": "64",
+    "raw": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года №217",
+    "a": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года № 217",
+    "b": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года №217",
+    "bbox": [
+      0,
+      1391,
+      987,
+      1418
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 120,
+    "id": "12",
+    "raw": "1114",
+    "a": "",
+    "b": "0 1/4 1 2 3 4",
+    "bbox": [
+      454,
+      549,
+      477,
+      601
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 120,
+    "id": "17",
+    "raw": "$\\$",
+    "a": "",
+    "b": "1/4; 1 3/4; 2 1/4; 3 3/4.",
+    "bbox": [
+      279,
+      657,
+      320,
+      711
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 120,
+    "id": "26",
+    "raw": "$5\\$",
+    "a": "",
+    "b": "7/9, 4/7, 2/7, 4/9, 5/9, 3/7, 3/6, 5/6, 1/7, 1/6",
+    "bbox": [
+      403,
+      903,
+      435,
+      949
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 121,
+    "id": "0",
+    "raw": "Все учебники Казахстана ищите на сайтах OKULYK.COM и OKULYK.КZ",
+    "a": "Все учебники Казахстана ищите на сайтах OKULYK.COM и OKULYK.KZ",
+    "b": "Все учебники Казахстана ищите на сайтах OKULYK.COM и OKULYK.КZ",
+    "bbox": [
+      0,
+      0,
+      989,
+      31
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 123,
+    "id": "13",
+    "raw": "□тенге",
+    "a": "□ тенге",
+    "b": "□тенге",
+    "bbox": [
+      746,
+      339,
+      826,
+      365
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 123,
+    "id": "20",
+    "raw": "3",
+    "a": "",
+    "b": "1/5, 3/5, 4/5.",
+    "bbox": [
+      281,
+      634,
+      305,
+      662
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 123,
+    "id": "27",
+    "raw": "6",
+    "a": "",
+    "b": "б) 3/7, 5/7, 6/7.",
+    "bbox": [
+      665,
+      635,
+      691,
+      661
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 123,
+    "id": "23",
+    "raw": "а)",
+    "a": "",
+    "b": "а)",
+    "bbox": [
+      205,
+      646,
+      228,
+      670
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 124,
+    "id": "47",
+    "raw": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года №217",
+    "a": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года № 217",
+    "b": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года №217",
+    "bbox": [
+      0,
+      1390,
+      987,
+      1418
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 125,
+    "id": "27",
+    "raw": "7",
+    "a": "",
+    "b": "7/8 т; 4/25 т; 3/10 т; 9/40 т; 6/8 т; 1/10 т; 17/125 т.",
+    "bbox": [
+      203,
+      1241,
+      225,
+      1266
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 129,
+    "id": "33",
+    "raw": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019года № 217",
+    "a": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года № 217",
+    "b": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019года № 217",
+    "bbox": [
+      0,
+      1393,
+      988,
+      1418
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 130,
+    "id": "38",
+    "raw": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года №217",
+    "a": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года № 217",
+    "b": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года №217",
+    "bbox": [
+      0,
+      1390,
+      987,
+      1418
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 131,
+    "id": "81",
+    "raw": "2$",
+    "a": "",
+    "b": "2/25 м; 1/10 дм; 3/20 м; 7/10 м; 1/4 м; 2/5 дм",
+    "bbox": [
+      160,
+      1111,
+      200,
+      1168
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 132,
+    "id": "5",
+    "raw": "1",
+    "a": "",
+    "b": "1 2/5.",
+    "bbox": [
+      184,
+      312,
+      207,
+      345
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 132,
+    "id": "9",
+    "raw": "5 9",
+    "a": "",
+    "b": "5/12, 9/12, 1 2/12.",
+    "bbox": [
+      187,
+      390,
+      265,
+      423
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 132,
+    "id": "16",
+    "raw": "2|2",
+    "a": "",
+    "b": "2/7 + 4/7 − 5/7",
+    "bbox": [
+      197,
+      617,
+      221,
+      657
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 132,
+    "id": "18",
+    "raw": "5",
+    "a": "",
+    "b": "5/12 + 3/12 + 3/12",
+    "bbox": [
+      428,
+      615,
+      449,
+      641
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 132,
+    "id": "22",
+    "raw": "13",
+    "a": "",
+    "b": "3/16 + (13/16 − 3/16)",
+    "bbox": [
+      724,
+      617,
+      757,
+      643
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 133,
+    "id": "24",
+    "raw": "3",
+    "a": "",
+    "b": "1/8, 3/8, 6/8",
+    "bbox": [
+      291,
+      701,
+      312,
+      727
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 133,
+    "id": "28",
+    "raw": "4",
+    "a": "",
+    "b": "4/10, 3/10, 6/10",
+    "bbox": [
+      572,
+      703,
+      596,
+      726
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 133,
+    "id": "25",
+    "raw": "a)",
+    "a": "",
+    "b": "а)",
+    "bbox": [
+      220,
+      711,
+      245,
+      735
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 133,
+    "id": "27",
+    "raw": "6)",
+    "a": "",
+    "b": "б)",
+    "bbox": [
+      542,
+      711,
+      564,
+      734
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 134,
+    "id": "0",
+    "raw": "Все учебники Казахстана ищите на сайтах OKULYK.COM и OKULYK.КZ",
+    "a": "Все учебники Казахстана ищите на сайтах OKULYK.COM и OKULYK.KZ",
+    "b": "Все учебники Казахстана ищите на сайтах OKULYK.COM и OKULYK.КZ",
+    "bbox": [
+      0,
+      0,
+      988,
+      31
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 134,
+    "id": "15",
+    "raw": "15",
+    "a": "",
+    "b": "15/25 * 6/25",
+    "bbox": [
+      155,
+      768,
+      185,
+      797
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 134,
+    "id": "17",
+    "raw": "6",
+    "a": "",
+    "b": "6/25 * 18/25",
+    "bbox": [
+      315,
+      769,
+      336,
+      796
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 134,
+    "id": "19",
+    "raw": "15",
+    "a": "",
+    "b": "15/20 * 15/25",
+    "bbox": [
+      470,
+      767,
+      502,
+      799
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 134,
+    "id": "21",
+    "raw": "6",
+    "a": "",
+    "b": "6/25 * 6/40",
+    "bbox": [
+      631,
+      768,
+      653,
+      796
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 134,
+    "id": "38",
+    "raw": "130",
+    "a": "",
+    "b": "130/670 − 60/670 − x = 50/670",
+    "bbox": [
+      385,
+      1102,
+      430,
+      1132
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 134,
+    "id": "46",
+    "raw": "оазовательных целях",
+    "a": "",
+    "b": "*Книга предоставлена исключительно в образовательных целях",
+    "bbox": [
+      605,
+      1375,
+      816,
+      1389
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 134,
+    "id": "47",
+    "raw": "согласно [",
+    "a": "",
+    "b": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года № 217",
+    "bbox": [
+      2,
+      1398,
+      99,
+      1415
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 135,
+    "id": "0",
+    "raw": "Все учебники Казахстана ищите на сайтах OKULYK.COМ и OKULYK.KZ",
+    "a": "Все учебники Казахстана ищите на сайтах OKULYK.COM и OKULYK.KZ",
+    "b": "Все учебники Казахстана ищите на сайтах OKULYK.COМ и OKULYK.KZ",
+    "bbox": [
+      1,
+      1,
+      987,
+      30
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 135,
+    "id": "26",
+    "raw": "ас",
+    "a": "",
+    "b": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года № 217",
+    "bbox": [
+      39,
+      1403,
+      62,
+      1410
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 138,
+    "id": "3",
+    "raw": "СквоЗнаЯ тема: «ОХРАНА ОКРУЖАЮЩЕЙ",
+    "a": "Сквозная тема: «ОХРАНА ОКРУЖАЮЩЕЙ СРЕДЫ»",
+    "b": "Сквозная тема: «ОХРАНА ОКРУЖАЮЩЕЙ",
+    "bbox": [
+      154,
+      290,
+      742,
+      320
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 138,
+    "id": "4",
+    "raw": "СРЕДЫ»",
+    "a": "",
+    "b": "СРЕДЫ»",
+    "bbox": [
+      742,
+      292,
+      864,
+      317
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 140,
+    "id": "16",
+    "raw": ".",
+    "a": "O",
+    "b": "",
+    "bbox": [
+      465,
+      890,
+      484,
+      908
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "31",
+    "raw": "24",
+    "a": "",
+    "b": "22/64",
+    "bbox": [
+      800,
+      808,
+      840,
+      863
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "32",
+    "raw": "$1{$",
+    "a": "",
+    "b": "19/32",
+    "bbox": [
+      855,
+      805,
+      898,
+      864
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "24",
+    "raw": "2",
+    "a": "",
+    "b": "2/32 + 19/32",
+    "bbox": [
+      391,
+      812,
+      408,
+      837
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "26",
+    "raw": "2\\",
+    "a": "",
+    "b": "21/64",
+    "bbox": [
+      518,
+      809,
+      554,
+      862
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "27",
+    "raw": "20 2",
+    "a": "",
+    "b": "10/32",
+    "bbox": [
+      575,
+      809,
+      611,
+      863
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "28",
+    "raw": "12$",
+    "a": "",
+    "b": "19/32",
+    "bbox": [
+      632,
+      809,
+      668,
+      862
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "29",
+    "raw": "12",
+    "a": "",
+    "b": "17/32",
+    "bbox": [
+      689,
+      810,
+      724,
+      866
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "30",
+    "raw": "22",
+    "a": "",
+    "b": "21/32",
+    "bbox": [
+      746,
+      809,
+      780,
+      867
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "38",
+    "raw": "21",
+    "a": "",
+    "b": "2/17",
+    "bbox": [
+      574,
+      853,
+      608,
+      928
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "39",
+    "raw": "01",
+    "a": "",
+    "b": "10/17",
+    "bbox": [
+      688,
+      852,
+      725,
+      937
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "40",
+    "raw": "87",
+    "a": "",
+    "b": "18/17",
+    "bbox": [
+      747,
+      853,
+      781,
+      931
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "42",
+    "raw": "214",
+    "a": "",
+    "b": "27/34",
+    "bbox": [
+      517,
+      871,
+      553,
+      926
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "44",
+    "raw": "47",
+    "a": "",
+    "b": "4/17",
+    "bbox": [
+      804,
+      870,
+      838,
+      928
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "45",
+    "raw": "017",
+    "a": "",
+    "b": "10/17",
+    "bbox": [
+      860,
+      870,
+      896,
+      928
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "43",
+    "raw": "24",
+    "a": "",
+    "b": "2/4",
+    "bbox": [
+      634,
+      872,
+      665,
+      930
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "47",
+    "raw": "6",
+    "a": "",
+    "b": "6/17 − 4/17",
+    "bbox": [
+      391,
+      883,
+      407,
+      904
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "51",
+    "raw": "21",
+    "a": "",
+    "b": "24/16",
+    "bbox": [
+      687,
+      934,
+      725,
+      997
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "52",
+    "raw": "71",
+    "a": "",
+    "b": "37/16",
+    "bbox": [
+      747,
+      928,
+      780,
+      996
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "54",
+    "raw": "516",
+    "a": "",
+    "b": "5/16",
+    "bbox": [
+      517,
+      940,
+      553,
+      994
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "55",
+    "raw": "1916",
+    "a": "",
+    "b": "16/16",
+    "bbox": [
+      575,
+      939,
+      611,
+      995
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "56",
+    "raw": "7 18",
+    "a": "",
+    "b": "16/18",
+    "bbox": [
+      631,
+      938,
+      667,
+      995
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "57",
+    "raw": "216",
+    "a": "",
+    "b": "22/16",
+    "bbox": [
+      803,
+      939,
+      839,
+      995
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "58",
+    "raw": "916",
+    "a": "",
+    "b": "19/16",
+    "bbox": [
+      858,
+      936,
+      898,
+      996
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "61",
+    "raw": "$\\{}$",
+    "a": "",
+    "b": "2/12",
+    "bbox": [
+      517,
+      1009,
+      554,
+      1062
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "62",
+    "raw": "55",
+    "a": "",
+    "b": "5/15",
+    "bbox": [
+      574,
+      1008,
+      612,
+      1066
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "63",
+    "raw": "42",
+    "a": "",
+    "b": "14/12",
+    "bbox": [
+      632,
+      1009,
+      668,
+      1065
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "64",
+    "raw": "1/2",
+    "a": "",
+    "b": "1/12",
+    "bbox": [
+      688,
+      1008,
+      724,
+      1067
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "65",
+    "raw": "27",
+    "a": "",
+    "b": "12/7",
+    "bbox": [
+      746,
+      1006,
+      781,
+      1065
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "66",
+    "raw": "1$",
+    "a": "",
+    "b": "11/12",
+    "bbox": [
+      802,
+      1007,
+      842,
+      1064
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "67",
+    "raw": "$1}$",
+    "a": "",
+    "b": "1/112",
+    "bbox": [
+      854,
+      1006,
+      901,
+      1066
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "74",
+    "raw": "12",
+    "a": "",
+    "b": "1/12",
+    "bbox": [
+      689,
+      1081,
+      724,
+      1142
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "71",
+    "raw": "$3\\r}$",
+    "a": "",
+    "b": "3 2/12",
+    "bbox": [
+      511,
+      1084,
+      560,
+      1139
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "72",
+    "raw": "452",
+    "a": "",
+    "b": "15/12",
+    "bbox": [
+      575,
+      1084,
+      611,
+      1139
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "73",
+    "raw": "22",
+    "a": "",
+    "b": "21/12",
+    "bbox": [
+      632,
+      1084,
+      667,
+      1140
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "75",
+    "raw": "21",
+    "a": "",
+    "b": "12/7",
+    "bbox": [
+      742,
+      1085,
+      784,
+      1144
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "76",
+    "raw": "$1\\f{}$",
+    "a": "",
+    "b": "12/7",
+    "bbox": [
+      801,
+      1088,
+      842,
+      1142
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "77",
+    "raw": "22",
+    "a": "",
+    "b": "12/12",
+    "bbox": [
+      859,
+      1088,
+      897,
+      1145
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "79",
+    "raw": "15",
+    "a": "",
+    "b": "13/5",
+    "bbox": [
+      686,
+      1133,
+      726,
+      1220
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "84",
+    "raw": "24",
+    "a": "",
+    "b": "24/6",
+    "bbox": [
+      566,
+      1155,
+      618,
+      1221
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "80",
+    "raw": "$\\f}$",
+    "a": "",
+    "b": "1 3/6",
+    "bbox": [
+      625,
+      1155,
+      673,
+      1215
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "81",
+    "raw": "25",
+    "a": "",
+    "b": "2/5",
+    "bbox": [
+      749,
+      1154,
+      779,
+      1214
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "83",
+    "raw": "46",
+    "a": "",
+    "b": "4/6",
+    "bbox": [
+      522,
+      1164,
+      550,
+      1213
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "85",
+    "raw": "55",
+    "a": "",
+    "b": "5/5",
+    "bbox": [
+      806,
+      1159,
+      836,
+      1214
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "86",
+    "raw": "15",
+    "a": "",
+    "b": "1/5",
+    "bbox": [
+      865,
+      1160,
+      892,
+      1215
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "97",
+    "raw": "1",
+    "a": "",
+    "b": "12/7",
+    "bbox": [
+      785,
+      1227,
+      855,
+      1298
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "90",
+    "raw": "15{}$",
+    "a": "",
+    "b": "15/12",
+    "bbox": [
+      573,
+      1237,
+      613,
+      1292
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "91",
+    "raw": "$1}$",
+    "a": "",
+    "b": "1/12",
+    "bbox": [
+      631,
+      1239,
+      668,
+      1290
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "92",
+    "raw": "$22{$",
+    "a": "",
+    "b": "22/12",
+    "bbox": [
+      688,
+      1239,
+      725,
+      1289
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "93",
+    "raw": "$12{}$",
+    "a": "",
+    "b": "12/7",
+    "bbox": [
+      746,
+      1241,
+      781,
+      1285
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "94",
+    "raw": "$3\\}$",
+    "a": "",
+    "b": "3 2/12",
+    "bbox": [
+      848,
+      1236,
+      902,
+      1292
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 146,
+    "id": "96",
+    "raw": "4",
+    "a": "",
+    "b": "4",
+    "bbox": [
+      523,
+      1250,
+      549,
+      1279
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 147,
+    "id": "10",
+    "raw": "45 847+ 9 857",
+    "a": "45 847+ 9 857",
+    "b": "45 847 + 9 857",
+    "bbox": [
+      658,
+      695,
+      826,
+      722
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 149,
+    "id": "28",
+    "raw": "MA",
+    "a": "O O₁",
+    "b": "",
+    "bbox": [
+      168,
+      862,
+      333,
+      1028
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 151,
+    "id": "15",
+    "raw": "523· 241 * 522 · 241",
+    "a": "523· 241 * 522 · 241",
+    "b": "523 · 241 * 522 · 241",
+    "bbox": [
+      166,
+      836,
+      391,
+      868
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 151,
+    "id": "16",
+    "raw": "245: 5*255 : 3",
+    "a": "245: 5*255 : 3",
+    "b": "245 : 5 * 255 : 3",
+    "bbox": [
+      511,
+      839,
+      685,
+      867
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 151,
+    "id": "17",
+    "raw": "892·6·2 *892 · 12",
+    "a": "892·6·2 *892 · 12",
+    "b": "892 · 6 · 2 * 892 · 12",
+    "bbox": [
+      167,
+      872,
+      386,
+      899
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 152,
+    "id": "0",
+    "raw": "Все учебники Казахстана ищите на сайтах",
+    "a": "Все учебники Казахстана ищите на сайтах OKULYK.COM и OKULYK.KZ",
+    "b": "Все учебники Казахстана ищите на сайтах",
+    "bbox": [
+      0,
+      1,
+      595,
+      31
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 152,
+    "id": "1",
+    "raw": "OKULYK.COM и OKULYK.KZ",
+    "a": "",
+    "b": "OKULYK.COM и OKULYK.KZ",
+    "bbox": [
+      587,
+      1,
+      987,
+      27
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 154,
+    "id": "16",
+    "raw": "",
+    "a": "3/4",
+    "b": "",
+    "bbox": [
+      799,
+      664,
+      886,
+      692
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 154,
+    "id": "17",
+    "raw": "4м, а ширина – 4 метра. Най-",
+    "a": "м, а ширина – 1/4 метра. Най-",
+    "b": "3/4 м, а ширина – 1/4 метра. Най-",
+    "bbox": [
+      156,
+      680,
+      524,
+      725
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 156,
+    "id": "11",
+    "raw": "Узнай, сколько нужно",
+    "a": "Узнай, сколько",
+    "b": "Узнай, сколько нужно",
+    "bbox": [
+      156,
+      402,
+      430,
+      431
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 156,
+    "id": "14",
+    "raw": "заплатить",
+    "a": "нужно заплатить",
+    "b": "заплатить",
+    "bbox": [
+      425,
+      406,
+      551,
+      430
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 156,
+    "id": "30",
+    "raw": "3ч",
+    "a": "3ч",
+    "b": "3 ч",
+    "bbox": [
+      315,
+      730,
+      360,
+      762
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 156,
+    "id": "57",
+    "raw": "171 600: 528",
+    "a": "171 600: 528",
+    "b": "171 600 : 528",
+    "bbox": [
+      453,
+      1189,
+      604,
+      1218
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 156,
+    "id": "64",
+    "raw": "147 700· 109",
+    "a": "147 700· 109",
+    "b": "147 700 · 109",
+    "bbox": [
+      691,
+      1254,
+      842,
+      1281
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 158,
+    "id": "7",
+    "raw": "одинаково удалены от её центра О.",
+    "a": "одинаково удалены от её центра O.",
+    "b": "одинаково удалены от её центра О.",
+    "bbox": [
+      110,
+      321,
+      451,
+      346
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 158,
+    "id": "34",
+    "raw": "Округление —",
+    "a": "Округление — приближённое представление числа путём уменьшения количества",
+    "b": "Округление —",
+    "bbox": [
+      113,
+      971,
+      249,
+      991
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 158,
+    "id": "35",
+    "raw": "приближённое представление числа путём уменьшения количества",
+    "a": "",
+    "b": "приближённое представление числа путём уменьшения количества",
+    "bbox": [
+      249,
+      972,
+      898,
+      992
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 159,
+    "id": "46",
+    "raw": "91.",
+    "a": "91. Движение вдогонку и с отставанием",
+    "b": "91.",
+    "bbox": [
+      79,
+      474,
+      112,
+      502
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 159,
+    "id": "99",
+    "raw": "109.Дроби. Сравнение дробей",
+    "a": "109. Дроби. Сравнение дробей",
+    "b": "109.Дроби. Сравнение дробей",
+    "bbox": [
+      79,
+      848,
+      352,
+      876
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 159,
+    "id": "118",
+    "raw": "117.",
+    "a": "117. Составление и решение задач",
+    "b": "117.",
+    "bbox": [
+      83,
+      996,
+      124,
+      1015
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 160,
+    "id": "23",
+    "raw": "Пішімі 70х100 1/,6. Есептік баспа табағы 7,47.",
+    "a": "Пішімі 70х100 1/16. Есептік баспа табағы 7,47.",
+    "b": "Пішімі 70x100 1/16. Есептік баспа табағы 7,47.",
+    "bbox": [
+      163,
+      472,
+      497,
+      494
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 160,
+    "id": "24",
+    "raw": "Формат 70х100 1/,. Уч.-изд. л. 7,47.",
+    "a": "Формат 70х100 1/16. Уч.-изд. л. 7,47.",
+    "b": "Формат 70x100 1/16. Уч.-изд. л. 7,47.",
+    "bbox": [
+      521,
+      471,
+      784,
+      494
+    ],
+    "reason": "Verified original native PDF text authority"
+  }
+]

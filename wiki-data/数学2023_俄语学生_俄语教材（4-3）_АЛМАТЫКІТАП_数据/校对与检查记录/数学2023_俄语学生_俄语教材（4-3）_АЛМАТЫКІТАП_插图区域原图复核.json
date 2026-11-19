@@ -1,0 +1,5379 @@
+{
+  "original_contact_sheets_directly_viewed": 16,
+  "candidate_crop_sheets_directly_viewed": 47,
+  "regions": [
+    {
+      "index": 0,
+      "page": 2,
+      "bbox": [
+        111,
+        188,
+        910,
+        801
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 1,
+      "page": 6,
+      "bbox": [
+        211,
+        230,
+        770,
+        345
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 2,
+      "page": 6,
+      "bbox": [
+        211,
+        485,
+        770,
+        600
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 3,
+      "page": 6,
+      "bbox": [
+        113,
+        888,
+        907,
+        1070
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 4,
+      "page": 7,
+      "bbox": [
+        679,
+        266,
+        823,
+        587
+      ],
+      "decision": "source_graphic",
+      "updated_regions": [
+        [
+          660,
+          260,
+          845,
+          595
+        ]
+      ]
+    },
+    {
+      "index": 5,
+      "page": 7,
+      "bbox": [
+        681,
+        781,
+        855,
+        956
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 6,
+      "page": 8,
+      "bbox": [
+        113,
+        552,
+        907,
+        730
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 7,
+      "page": 9,
+      "bbox": [
+        745,
+        764,
+        839,
+        878
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 8,
+      "page": 9,
+      "bbox": [
+        85,
+        1035,
+        878,
+        1304
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 9,
+      "page": 10,
+      "bbox": [
+        114,
+        1040,
+        907,
+        1305
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 10,
+      "page": 12,
+      "bbox": [
+        114,
+        637,
+        906,
+        819
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 11,
+      "page": 14,
+      "bbox": [
+        113,
+        525,
+        709,
+        604
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 12,
+      "page": 14,
+      "bbox": [
+        733,
+        436,
+        892,
+        599
+      ],
+      "decision": "source_graphic",
+      "updated_regions": [
+        [
+          748,
+          436,
+          902,
+          605
+        ]
+      ]
+    },
+    {
+      "index": 13,
+      "page": 14,
+      "bbox": [
+        157,
+        773,
+        866,
+        912
+      ],
+      "decision": "body_text_or_vector_shapes_or_partial_illustration; use original vector recovery and automatic complete image regions",
+      "updated_regions": null
+    },
+    {
+      "index": 14,
+      "page": 16,
+      "bbox": [
+        680,
+        280,
+        895,
+        462
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 15,
+      "page": 16,
+      "bbox": [
+        149,
+        648,
+        857,
+        1074
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 16,
+      "page": 16,
+      "bbox": [
+        113,
+        1231,
+        905,
+        1305
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 17,
+      "page": 17,
+      "bbox": [
+        85,
+        402,
+        879,
+        644
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 18,
+      "page": 17,
+      "bbox": [
+        615,
+        1111,
+        860,
+        1299
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 19,
+      "page": 19,
+      "bbox": [
+        85,
+        426,
+        878,
+        573
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 20,
+      "page": 20,
+      "bbox": [
+        298,
+        385,
+        730,
+        479
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 21,
+      "page": 20,
+      "bbox": [
+        158,
+        702,
+        445,
+        764
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 22,
+      "page": 20,
+      "bbox": [
+        533,
+        702,
+        818,
+        764
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 23,
+      "page": 20,
+      "bbox": [
+        157,
+        775,
+        457,
+        1014
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 24,
+      "page": 20,
+      "bbox": [
+        531,
+        775,
+        841,
+        1014
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 25,
+      "page": 21,
+      "bbox": [
+        85,
+        264,
+        394,
+        409
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 26,
+      "page": 21,
+      "bbox": [
+        425,
+        274,
+        850,
+        405
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 27,
+      "page": 22,
+      "bbox": [
+        151,
+        975,
+        855,
+        1137
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 28,
+      "page": 22,
+      "bbox": [
+        113,
+        1177,
+        906,
+        1295
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 29,
+      "page": 23,
+      "bbox": [
+        306,
+        393,
+        802,
+        480
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 30,
+      "page": 23,
+      "bbox": [
+        86,
+        728,
+        877,
+        871
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 31,
+      "page": 23,
+      "bbox": [
+        86,
+        979,
+        878,
+        1140
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 32,
+      "page": 24,
+      "bbox": [
+        582,
+        976,
+        873,
+        1021
+      ],
+      "decision": "body_text_or_vector_shapes_or_partial_illustration; use original vector recovery and automatic complete image regions",
+      "updated_regions": null
+    },
+    {
+      "index": 33,
+      "page": 25,
+      "bbox": [
+        236,
+        936,
+        727,
+        1046
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 34,
+      "page": 26,
+      "bbox": [
+        264,
+        457,
+        756,
+        561
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 35,
+      "page": 26,
+      "bbox": [
+        264,
+        742,
+        756,
+        848
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 36,
+      "page": 27,
+      "bbox": [
+        86,
+        549,
+        878,
+        835
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 37,
+      "page": 27,
+      "bbox": [
+        109,
+        953,
+        861,
+        1295
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 38,
+      "page": 28,
+      "bbox": [
+        210,
+        259,
+        810,
+        372
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 39,
+      "page": 28,
+      "bbox": [
+        158,
+        1110,
+        742,
+        1220
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 40,
+      "page": 28,
+      "bbox": [
+        745,
+        1070,
+        951,
+        1334
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 41,
+      "page": 29,
+      "bbox": [
+        89,
+        592,
+        877,
+        664
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 42,
+      "page": 29,
+      "bbox": [
+        101,
+        848,
+        853,
+        945
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 43,
+      "page": 29,
+      "bbox": [
+        548,
+        1150,
+        859,
+        1263
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 44,
+      "page": 29,
+      "bbox": [
+        578,
+        1,
+        952,
+        325
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 45,
+      "page": 30,
+      "bbox": [
+        210,
+        411,
+        832,
+        509
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 46,
+      "page": 30,
+      "bbox": [
+        480,
+        852,
+        889,
+        999
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 47,
+      "page": 31,
+      "bbox": [
+        616,
+        279,
+        859,
+        448
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 48,
+      "page": 31,
+      "bbox": [
+        785,
+        1064,
+        958,
+        1295
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 49,
+      "page": 32,
+      "bbox": [
+        233,
+        1014,
+        788,
+        1124
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 50,
+      "page": 32,
+      "bbox": [
+        606,
+        51,
+        874,
+        394
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 51,
+      "page": 33,
+      "bbox": [
+        89,
+        392,
+        878,
+        465
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 52,
+      "page": 33,
+      "bbox": [
+        169,
+        484,
+        802,
+        620
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 53,
+      "page": 33,
+      "bbox": [
+        450,
+        1173,
+        819,
+        1283
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 54,
+      "page": 34,
+      "bbox": [
+        345,
+        384,
+        870,
+        500
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 55,
+      "page": 34,
+      "bbox": [
+        168,
+        1180,
+        675,
+        1291
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 56,
+      "page": 34,
+      "bbox": [
+        763,
+        1125,
+        920,
+        1303
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 57,
+      "page": 35,
+      "bbox": [
+        125,
+        768,
+        827,
+        910
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 58,
+      "page": 35,
+      "bbox": [
+        682,
+        3,
+        869,
+        388
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 59,
+      "page": 36,
+      "bbox": [
+        237,
+        420,
+        807,
+        598
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 60,
+      "page": 36,
+      "bbox": [
+        223,
+        924,
+        803,
+        1058
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 61,
+      "page": 37,
+      "bbox": [
+        379,
+        948,
+        819,
+        1287
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 62,
+      "page": 38,
+      "bbox": [
+        159,
+        1068,
+        863,
+        1185
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 63,
+      "page": 38,
+      "bbox": [
+        573,
+        1206,
+        911,
+        1361
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 64,
+      "page": 39,
+      "bbox": [
+        88,
+        718,
+        878,
+        824
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 65,
+      "page": 39,
+      "bbox": [
+        226,
+        1126,
+        711,
+        1290
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 66,
+      "page": 39,
+      "bbox": [
+        597,
+        79,
+        932,
+        341
+      ],
+      "decision": "body_text_or_vector_shapes_or_partial_illustration; use original vector recovery and automatic complete image regions",
+      "updated_regions": null
+    },
+    {
+      "index": 67,
+      "page": 40,
+      "bbox": [
+        111,
+        449,
+        908,
+        584
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 68,
+      "page": 40,
+      "bbox": [
+        148,
+        593,
+        885,
+        675
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 69,
+      "page": 40,
+      "bbox": [
+        161,
+        990,
+        855,
+        1259
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 70,
+      "page": 41,
+      "bbox": [
+        119,
+        777,
+        839,
+        900
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 71,
+      "page": 41,
+      "bbox": [
+        167,
+        1137,
+        812,
+        1248
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 72,
+      "page": 42,
+      "bbox": [
+        694,
+        277,
+        899,
+        549
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 73,
+      "page": 42,
+      "bbox": [
+        127,
+        641,
+        894,
+        819
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 74,
+      "page": 42,
+      "bbox": [
+        211,
+        1191,
+        610,
+        1319
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 75,
+      "page": 42,
+      "bbox": [
+        705,
+        1106,
+        893,
+        1359
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 76,
+      "page": 43,
+      "bbox": [
+        168,
+        545,
+        808,
+        787
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 77,
+      "page": 43,
+      "bbox": [
+        124,
+        975,
+        429,
+        1121
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 78,
+      "page": 43,
+      "bbox": [
+        510,
+        975,
+        830,
+        1111
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 79,
+      "page": 43,
+      "bbox": [
+        127,
+        1130,
+        430,
+        1266
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 80,
+      "page": 43,
+      "bbox": [
+        508,
+        1130,
+        827,
+        1266
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 81,
+      "page": 43,
+      "bbox": [
+        622,
+        55,
+        880,
+        374
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 82,
+      "page": 44,
+      "bbox": [
+        429,
+        351,
+        891,
+        505
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 83,
+      "page": 44,
+      "bbox": [
+        191,
+        808,
+        838,
+        892
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 84,
+      "page": 45,
+      "bbox": [
+        628,
+        280,
+        854,
+        398
+      ],
+      "decision": "body_text_or_vector_shapes_or_partial_illustration; use original vector recovery and automatic complete image regions",
+      "updated_regions": null
+    },
+    {
+      "index": 85,
+      "page": 45,
+      "bbox": [
+        310,
+        630,
+        842,
+        739
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 86,
+      "page": 45,
+      "bbox": [
+        675,
+        1172,
+        919,
+        1289
+      ],
+      "decision": "body_text_or_vector_shapes_or_partial_illustration; use original vector recovery and automatic complete image regions",
+      "updated_regions": null
+    },
+    {
+      "index": 87,
+      "page": 46,
+      "bbox": [
+        128,
+        538,
+        892,
+        790
+      ],
+      "decision": "source_graphic",
+      "updated_regions": [
+        [
+          128,
+          538,
+          892,
+          713
+        ]
+      ]
+    },
+    {
+      "index": 88,
+      "page": 46,
+      "bbox": [
+        715,
+        52,
+        958,
+        369
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 89,
+      "page": 48,
+      "bbox": [
+        690,
+        1032,
+        934,
+        1354
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 90,
+      "page": 49,
+      "bbox": [
+        104,
+        489,
+        858,
+        852
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 91,
+      "page": 49,
+      "bbox": [
+        691,
+        50,
+        936,
+        369
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 92,
+      "page": 51,
+      "bbox": [
+        508,
+        288,
+        859,
+        386
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 93,
+      "page": 51,
+      "bbox": [
+        508,
+        581,
+        859,
+        688
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 94,
+      "page": 52,
+      "bbox": [
+        555,
+        648,
+        902,
+        870
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 95,
+      "page": 52,
+      "bbox": [
+        790,
+        1149,
+        937,
+        1353
+      ],
+      "decision": "body_text_or_vector_shapes_or_partial_illustration; use original vector recovery and automatic complete image regions",
+      "updated_regions": null
+    },
+    {
+      "index": 96,
+      "page": 53,
+      "bbox": [
+        100,
+        473,
+        859,
+        686
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 97,
+      "page": 53,
+      "bbox": [
+        119,
+        813,
+        853,
+        965
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 98,
+      "page": 53,
+      "bbox": [
+        110,
+        1066,
+        468,
+        1256
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 99,
+      "page": 53,
+      "bbox": [
+        521,
+        1074,
+        838,
+        1245
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 100,
+      "page": 53,
+      "bbox": [
+        675,
+        16,
+        912,
+        344
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 101,
+      "page": 54,
+      "bbox": [
+        502,
+        812,
+        887,
+        1268
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 102,
+      "page": 55,
+      "bbox": [
+        170,
+        274,
+        793,
+        410
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 103,
+      "page": 55,
+      "bbox": [
+        108,
+        849,
+        862,
+        980
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 104,
+      "page": 55,
+      "bbox": [
+        530,
+        1072,
+        749,
+        1286
+      ],
+      "decision": "body_text_or_vector_shapes_or_partial_illustration; use original vector recovery and automatic complete image regions",
+      "updated_regions": null
+    },
+    {
+      "index": 105,
+      "page": 56,
+      "bbox": [
+        353,
+        1000,
+        839,
+        1129
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 106,
+      "page": 57,
+      "bbox": [
+        186,
+        484,
+        833,
+        807
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 107,
+      "page": 57,
+      "bbox": [
+        85,
+        934,
+        863,
+        1082
+      ],
+      "decision": "source_graphic",
+      "updated_regions": [
+        [
+          685,
+          934,
+          863,
+          1082
+        ]
+      ]
+    },
+    {
+      "index": 108,
+      "page": 58,
+      "bbox": [
+        561,
+        345,
+        903,
+        511
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 109,
+      "page": 58,
+      "bbox": [
+        578,
+        1008,
+        708,
+        1271
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 110,
+      "page": 59,
+      "bbox": [
+        648,
+        1064,
+        814,
+        1274
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 111,
+      "page": 60,
+      "bbox": [
+        298,
+        278,
+        666,
+        450
+      ],
+      "decision": "body_text_or_vector_shapes_or_partial_illustration; use original vector recovery and automatic complete image regions",
+      "updated_regions": null
+    },
+    {
+      "index": 112,
+      "page": 60,
+      "bbox": [
+        151,
+        714,
+        856,
+        1012
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 113,
+      "page": 60,
+      "bbox": [
+        112,
+        1149,
+        904,
+        1308
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 114,
+      "page": 61,
+      "bbox": [
+        243,
+        264,
+        692,
+        434
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 115,
+      "page": 61,
+      "bbox": [
+        290,
+        419,
+        611,
+        654
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 116,
+      "page": 62,
+      "bbox": [
+        195,
+        571,
+        814,
+        741
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 117,
+      "page": 62,
+      "bbox": [
+        137,
+        917,
+        884,
+        1183
+      ],
+      "decision": "body_text_or_vector_shapes_or_partial_illustration; use original vector recovery and automatic complete image regions",
+      "updated_regions": null
+    },
+    {
+      "index": 118,
+      "page": 63,
+      "bbox": [
+        145,
+        486,
+        835,
+        669
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 119,
+      "page": 63,
+      "bbox": [
+        127,
+        731,
+        513,
+        797
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 120,
+      "page": 63,
+      "bbox": [
+        159,
+        1121,
+        814,
+        1278
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 121,
+      "page": 64,
+      "bbox": [
+        682,
+        282,
+        821,
+        424
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 122,
+      "page": 64,
+      "bbox": [
+        544,
+        440,
+        865,
+        538
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 123,
+      "page": 64,
+      "bbox": [
+        569,
+        941,
+        887,
+        1072
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 124,
+      "page": 65,
+      "bbox": [
+        676,
+        275,
+        850,
+        446
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 125,
+      "page": 65,
+      "bbox": [
+        108,
+        939,
+        878,
+        1206
+      ],
+      "decision": "source_graphic",
+      "updated_regions": [
+        [
+          108,
+          939,
+          575,
+          1206
+        ]
+      ]
+    },
+    {
+      "index": 126,
+      "page": 66,
+      "bbox": [
+        572,
+        701,
+        884,
+        951
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 127,
+      "page": 66,
+      "bbox": [
+        646,
+        1081,
+        870,
+        1292
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 128,
+      "page": 67,
+      "bbox": [
+        649,
+        182,
+        856,
+        311
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 129,
+      "page": 67,
+      "bbox": [
+        494,
+        635,
+        861,
+        788
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 130,
+      "page": 67,
+      "bbox": [
+        412,
+        825,
+        857,
+        941
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 131,
+      "page": 67,
+      "bbox": [
+        153,
+        1134,
+        435,
+        1271
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 132,
+      "page": 68,
+      "bbox": [
+        627,
+        282,
+        879,
+        441
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 133,
+      "page": 68,
+      "bbox": [
+        234,
+        628,
+        797,
+        789
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 134,
+      "page": 68,
+      "bbox": [
+        144,
+        987,
+        769,
+        1221
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 135,
+      "page": 69,
+      "bbox": [
+        213,
+        468,
+        751,
+        699
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 136,
+      "page": 70,
+      "bbox": [
+        252,
+        641,
+        774,
+        874
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 137,
+      "page": 71,
+      "bbox": [
+        85,
+        255,
+        880,
+        400
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 138,
+      "page": 72,
+      "bbox": [
+        428,
+        603,
+        882,
+        677
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 139,
+      "page": 73,
+      "bbox": [
+        263,
+        875,
+        710,
+        1302
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 140,
+      "page": 74,
+      "bbox": [
+        419,
+        350,
+        892,
+        566
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 141,
+      "page": 75,
+      "bbox": [
+        182,
+        519,
+        803,
+        664
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 142,
+      "page": 76,
+      "bbox": [
+        263,
+        580,
+        760,
+        778
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 143,
+      "page": 77,
+      "bbox": [
+        687,
+        289,
+        842,
+        468
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 144,
+      "page": 77,
+      "bbox": [
+        440,
+        1061,
+        866,
+        1179
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 145,
+      "page": 78,
+      "bbox": [
+        159,
+        575,
+        862,
+        834
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 146,
+      "page": 79,
+      "bbox": [
+        85,
+        471,
+        880,
+        655
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 147,
+      "page": 79,
+      "bbox": [
+        539,
+        774,
+        880,
+        937
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 148,
+      "page": 79,
+      "bbox": [
+        141,
+        1115,
+        840,
+        1300
+      ],
+      "decision": "source_graphic",
+      "updated_regions": [
+        [
+          141,
+          1160,
+          840,
+          1300
+        ],
+        [
+          730,
+          1115,
+          840,
+          1160
+        ]
+      ]
+    },
+    {
+      "index": 149,
+      "page": 80,
+      "bbox": [
+        282,
+        468,
+        793,
+        737
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 150,
+      "page": 81,
+      "bbox": [
+        247,
+        916,
+        723,
+        1048
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 151,
+      "page": 82,
+      "bbox": [
+        267,
+        395,
+        776,
+        511
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 152,
+      "page": 82,
+      "bbox": [
+        489,
+        546,
+        901,
+        707
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 153,
+      "page": 82,
+      "bbox": [
+        183,
+        970,
+        835,
+        1291
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 154,
+      "page": 83,
+      "bbox": [
+        599,
+        186,
+        839,
+        341
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 155,
+      "page": 83,
+      "bbox": [
+        415,
+        1200,
+        704,
+        1295
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 156,
+      "page": 84,
+      "bbox": [
+        588,
+        323,
+        884,
+        418
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 157,
+      "page": 84,
+      "bbox": [
+        272,
+        1033,
+        754,
+        1290
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 158,
+      "page": 85,
+      "bbox": [
+        128,
+        851,
+        649,
+        1247
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 159,
+      "page": 86,
+      "bbox": [
+        89,
+        771,
+        945,
+        1310
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 160,
+      "page": 87,
+      "bbox": [
+        195,
+        1108,
+        782,
+        1205
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 161,
+      "page": 88,
+      "bbox": [
+        387,
+        528,
+        637,
+        579
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 162,
+      "page": 88,
+      "bbox": [
+        145,
+        776,
+        879,
+        1018
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 163,
+      "page": 88,
+      "bbox": [
+        525,
+        1078,
+        895,
+        1305
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 164,
+      "page": 89,
+      "bbox": [
+        694,
+        480,
+        862,
+        649
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 165,
+      "page": 90,
+      "bbox": [
+        676,
+        305,
+        866,
+        393
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 166,
+      "page": 90,
+      "bbox": [
+        113,
+        1162,
+        907,
+        1304
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 167,
+      "page": 91,
+      "bbox": [
+        86,
+        1126,
+        880,
+        1306
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 168,
+      "page": 92,
+      "bbox": [
+        113,
+        265,
+        554,
+        551
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 169,
+      "page": 92,
+      "bbox": [
+        563,
+        284,
+        898,
+        406
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 170,
+      "page": 92,
+      "bbox": [
+        563,
+        430,
+        899,
+        539
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 171,
+      "page": 92,
+      "bbox": [
+        113,
+        1178,
+        591,
+        1306
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 172,
+      "page": 93,
+      "bbox": [
+        111,
+        458,
+        853,
+        955
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 173,
+      "page": 93,
+      "bbox": [
+        86,
+        1108,
+        881,
+        1306
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 174,
+      "page": 94,
+      "bbox": [
+        226,
+        404,
+        786,
+        587
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 175,
+      "page": 94,
+      "bbox": [
+        161,
+        870,
+        849,
+        980
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 176,
+      "page": 95,
+      "bbox": [
+        86,
+        1120,
+        751,
+        1304
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 177,
+      "page": 96,
+      "bbox": [
+        137,
+        577,
+        877,
+        774
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 178,
+      "page": 96,
+      "bbox": [
+        587,
+        929,
+        827,
+        1003
+      ],
+      "decision": "body_text_or_vector_shapes_or_partial_illustration; use original vector recovery and automatic complete image regions",
+      "updated_regions": null
+    },
+    {
+      "index": 179,
+      "page": 96,
+      "bbox": [
+        584,
+        1057,
+        845,
+        1134
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 180,
+      "page": 97,
+      "bbox": [
+        587,
+        187,
+        873,
+        297
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 181,
+      "page": 97,
+      "bbox": [
+        466,
+        495,
+        850,
+        588
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 182,
+      "page": 97,
+      "bbox": [
+        516,
+        1098,
+        860,
+        1147
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 183,
+      "page": 98,
+      "bbox": [
+        113,
+        796,
+        909,
+        1001
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 184,
+      "page": 99,
+      "bbox": [
+        354,
+        529,
+        633,
+        692
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 185,
+      "page": 99,
+      "bbox": [
+        178,
+        1045,
+        619,
+        1275
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 186,
+      "page": 100,
+      "bbox": [
+        681,
+        736,
+        872,
+        988
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 187,
+      "page": 102,
+      "bbox": [
+        580,
+        635,
+        886,
+        870
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 188,
+      "page": 102,
+      "bbox": [
+        159,
+        779,
+        518,
+        855
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 189,
+      "page": 103,
+      "bbox": [
+        592,
+        465,
+        849,
+        642
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 190,
+      "page": 106,
+      "bbox": [
+        137,
+        745,
+        879,
+        989
+      ],
+      "decision": "source_graphic",
+      "updated_regions": [
+        [
+          130,
+          740,
+          915,
+          995
+        ]
+      ]
+    },
+    {
+      "index": 191,
+      "page": 106,
+      "bbox": [
+        579,
+        1168,
+        874,
+        1242
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 192,
+      "page": 107,
+      "bbox": [
+        565,
+        289,
+        862,
+        431
+      ],
+      "decision": "body_text_or_vector_shapes_or_partial_illustration; use original vector recovery and automatic complete image regions",
+      "updated_regions": null
+    },
+    {
+      "index": 193,
+      "page": 107,
+      "bbox": [
+        280,
+        1099,
+        748,
+        1166
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 194,
+      "page": 108,
+      "bbox": [
+        238,
+        341,
+        784,
+        640
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 195,
+      "page": 108,
+      "bbox": [
+        603,
+        699,
+        883,
+        832
+      ],
+      "decision": "body_text_or_vector_shapes_or_partial_illustration; use original vector recovery and automatic complete image regions",
+      "updated_regions": null
+    },
+    {
+      "index": 196,
+      "page": 109,
+      "bbox": [
+        570,
+        566,
+        860,
+        750
+      ],
+      "decision": "source_graphic",
+      "updated_regions": [
+        [
+          535,
+          560,
+          875,
+          755
+        ]
+      ]
+    },
+    {
+      "index": 197,
+      "page": 109,
+      "bbox": [
+        570,
+        989,
+        780,
+        1025
+      ],
+      "decision": "body_text_or_vector_shapes_or_partial_illustration; use original vector recovery and automatic complete image regions",
+      "updated_regions": null
+    },
+    {
+      "index": 198,
+      "page": 109,
+      "bbox": [
+        728,
+        1072,
+        917,
+        1310
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 199,
+      "page": 110,
+      "bbox": [
+        647,
+        791,
+        870,
+        907
+      ],
+      "decision": "body_text_or_vector_shapes_or_partial_illustration; use original vector recovery and automatic complete image regions",
+      "updated_regions": null
+    },
+    {
+      "index": 200,
+      "page": 110,
+      "bbox": [
+        521,
+        967,
+        879,
+        1064
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 201,
+      "page": 110,
+      "bbox": [
+        710,
+        42,
+        969,
+        415
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 202,
+      "page": 111,
+      "bbox": [
+        519,
+        268,
+        864,
+        377
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 203,
+      "page": 111,
+      "bbox": [
+        110,
+        446,
+        853,
+        568
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 204,
+      "page": 112,
+      "bbox": [
+        661,
+        1210,
+        941,
+        1356
+      ],
+      "decision": "body_text_or_vector_shapes_or_partial_illustration; use original vector recovery and automatic complete image regions",
+      "updated_regions": null
+    },
+    {
+      "index": 205,
+      "page": 113,
+      "bbox": [
+        118,
+        920,
+        847,
+        1040
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 206,
+      "page": 113,
+      "bbox": [
+        708,
+        43,
+        968,
+        389
+      ],
+      "decision": "body_text_or_vector_shapes_or_partial_illustration; use original vector recovery and automatic complete image regions",
+      "updated_regions": null
+    },
+    {
+      "index": 207,
+      "page": 114,
+      "bbox": [
+        135,
+        950,
+        872,
+        1295
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 208,
+      "page": 115,
+      "bbox": [
+        648,
+        281,
+        809,
+        442
+      ],
+      "decision": "body_text_or_vector_shapes_or_partial_illustration; use original vector recovery and automatic complete image regions",
+      "updated_regions": null
+    },
+    {
+      "index": 209,
+      "page": 115,
+      "bbox": [
+        86,
+        774,
+        877,
+        880
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 210,
+      "page": 116,
+      "bbox": [
+        130,
+        440,
+        884,
+        545
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 211,
+      "page": 116,
+      "bbox": [
+        747,
+        98,
+        915,
+        361
+      ],
+      "decision": "body_text_or_vector_shapes_or_partial_illustration; use original vector recovery and automatic complete image regions",
+      "updated_regions": null
+    },
+    {
+      "index": 212,
+      "page": 118,
+      "bbox": [
+        112,
+        865,
+        906,
+        945
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 213,
+      "page": 118,
+      "bbox": [
+        735,
+        1068,
+        915,
+        1300
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 214,
+      "page": 119,
+      "bbox": [
+        643,
+        80,
+        909,
+        392
+      ],
+      "decision": "body_text_or_vector_shapes_or_partial_illustration; use original vector recovery and automatic complete image regions",
+      "updated_regions": null
+    },
+    {
+      "index": 215,
+      "page": 120,
+      "bbox": [
+        432,
+        536,
+        866,
+        602
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 216,
+      "page": 120,
+      "bbox": [
+        169,
+        1136,
+        409,
+        1293
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 217,
+      "page": 120,
+      "bbox": [
+        620,
+        1136,
+        856,
+        1291
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 218,
+      "page": 121,
+      "bbox": [
+        124,
+        309,
+        840,
+        518
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 219,
+      "page": 121,
+      "bbox": [
+        159,
+        655,
+        290,
+        729
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 220,
+      "page": 121,
+      "bbox": [
+        413,
+        655,
+        541,
+        729
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 221,
+      "page": 121,
+      "bbox": [
+        660,
+        655,
+        790,
+        729
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 222,
+      "page": 121,
+      "bbox": [
+        767,
+        1081,
+        946,
+        1307
+      ],
+      "decision": "body_text_or_vector_shapes_or_partial_illustration; use original vector recovery and automatic complete image regions",
+      "updated_regions": null
+    },
+    {
+      "index": 223,
+      "page": 122,
+      "bbox": [
+        151,
+        492,
+        830,
+        729
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 224,
+      "page": 122,
+      "bbox": [
+        643,
+        36,
+        865,
+        344
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 225,
+      "page": 123,
+      "bbox": [
+        611,
+        182,
+        846,
+        324
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 226,
+      "page": 123,
+      "bbox": [
+        614,
+        331,
+        847,
+        468
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 227,
+      "page": 123,
+      "bbox": [
+        388,
+        818,
+        852,
+        955
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 228,
+      "page": 124,
+      "bbox": [
+        614,
+        141,
+        967,
+        272
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 229,
+      "page": 124,
+      "bbox": [
+        680,
+        1156,
+        945,
+        1291
+      ],
+      "decision": "body_text_or_vector_shapes_or_partial_illustration; use original vector recovery and automatic complete image regions",
+      "updated_regions": null
+    },
+    {
+      "index": 230,
+      "page": 125,
+      "bbox": [
+        568,
+        40,
+        840,
+        396
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 231,
+      "page": 126,
+      "bbox": [
+        230,
+        1180,
+        800,
+        1281
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 232,
+      "page": 127,
+      "bbox": [
+        105,
+        505,
+        305,
+        686
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 233,
+      "page": 127,
+      "bbox": [
+        347,
+        505,
+        587,
+        686
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 234,
+      "page": 127,
+      "bbox": [
+        625,
+        505,
+        853,
+        686
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 235,
+      "page": 127,
+      "bbox": [
+        530,
+        1101,
+        900,
+        1276
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 236,
+      "page": 128,
+      "bbox": [
+        112,
+        389,
+        907,
+        715
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 237,
+      "page": 128,
+      "bbox": [
+        643,
+        69,
+        861,
+        346
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 238,
+      "page": 130,
+      "bbox": [
+        755,
+        1065,
+        913,
+        1285
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 239,
+      "page": 131,
+      "bbox": [
+        86,
+        382,
+        879,
+        911
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 240,
+      "page": 131,
+      "bbox": [
+        643,
+        69,
+        861,
+        346
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 241,
+      "page": 133,
+      "bbox": [
+        584,
+        230,
+        858,
+        484
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 242,
+      "page": 133,
+      "bbox": [
+        706,
+        1043,
+        904,
+        1308
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 243,
+      "page": 134,
+      "bbox": [
+        795,
+        37,
+        992,
+        315
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 244,
+      "page": 135,
+      "bbox": [
+        354,
+        891,
+        616,
+        1332
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 245,
+      "page": 136,
+      "bbox": [
+        112,
+        575,
+        907,
+        704
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 246,
+      "page": 136,
+      "bbox": [
+        520,
+        837,
+        849,
+        985
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 247,
+      "page": 137,
+      "bbox": [
+        145,
+        528,
+        795,
+        580
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 248,
+      "page": 139,
+      "bbox": [
+        580,
+        425,
+        826,
+        708
+      ],
+      "decision": "source_graphic",
+      "updated_regions": [
+        [
+          570,
+          420,
+          895,
+          715
+        ]
+      ]
+    },
+    {
+      "index": 249,
+      "page": 139,
+      "bbox": [
+        468,
+        821,
+        838,
+        938
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 250,
+      "page": 140,
+      "bbox": [
+        598,
+        190,
+        874,
+        394
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 251,
+      "page": 140,
+      "bbox": [
+        148,
+        667,
+        865,
+        965
+      ],
+      "decision": "source_graphic",
+      "updated_regions": [
+        [
+          645,
+          667,
+          875,
+          970
+        ],
+        [
+          145,
+          738,
+          640,
+          970
+        ]
+      ]
+    },
+    {
+      "index": 252,
+      "page": 140,
+      "bbox": [
+        540,
+        1147,
+        890,
+        1281
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 253,
+      "page": 141,
+      "bbox": [
+        195,
+        852,
+        780,
+        1280
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 254,
+      "page": 142,
+      "bbox": [
+        424,
+        1044,
+        701,
+        1282
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 255,
+      "page": 143,
+      "bbox": [
+        359,
+        511,
+        875,
+        736
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 256,
+      "page": 143,
+      "bbox": [
+        86,
+        755,
+        879,
+        1023
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 257,
+      "page": 144,
+      "bbox": [
+        326,
+        268,
+        698,
+        489
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 258,
+      "page": 145,
+      "bbox": [
+        138,
+        955,
+        360,
+        1179
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 259,
+      "page": 145,
+      "bbox": [
+        489,
+        949,
+        812,
+        1193
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 260,
+      "page": 146,
+      "bbox": [
+        114,
+        715,
+        908,
+        1304
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    },
+    {
+      "index": 261,
+      "page": 147,
+      "bbox": [
+        171,
+        280,
+        792,
+        474
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 262,
+      "page": 147,
+      "bbox": [
+        218,
+        648,
+        458,
+        866
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 263,
+      "page": 147,
+      "bbox": [
+        162,
+        1057,
+        799,
+        1274
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 264,
+      "page": 148,
+      "bbox": [
+        540,
+        587,
+        857,
+        805
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 265,
+      "page": 148,
+      "bbox": [
+        631,
+        860,
+        855,
+        1061
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 266,
+      "page": 149,
+      "bbox": [
+        627,
+        378,
+        844,
+        612
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 267,
+      "page": 149,
+      "bbox": [
+        609,
+        744,
+        866,
+        950
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 268,
+      "page": 149,
+      "bbox": [
+        630,
+        1067,
+        843,
+        1285
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 269,
+      "page": 150,
+      "bbox": [
+        651,
+        1048,
+        865,
+        1261
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 270,
+      "page": 151,
+      "bbox": [
+        456,
+        191,
+        845,
+        377
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 271,
+      "page": 152,
+      "bbox": [
+        600,
+        905,
+        892,
+        1196
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 272,
+      "page": 153,
+      "bbox": [
+        574,
+        708,
+        762,
+        914
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 273,
+      "page": 154,
+      "bbox": [
+        172,
+        1180,
+        873,
+        1315
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 274,
+      "page": 155,
+      "bbox": [
+        145,
+        306,
+        824,
+        572
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 275,
+      "page": 155,
+      "bbox": [
+        660,
+        754,
+        859,
+        891
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 276,
+      "page": 156,
+      "bbox": [
+        139,
+        681,
+        857,
+        838
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 277,
+      "page": 157,
+      "bbox": [
+        601,
+        177,
+        835,
+        413
+      ],
+      "decision": "source_graphic",
+      "updated_regions": null
+    },
+    {
+      "index": 278,
+      "page": 160,
+      "bbox": [
+        140,
+        1107,
+        880,
+        1364
+      ],
+      "decision": "real_table_native_or_vector",
+      "updated_regions": null
+    }
+  ],
+  "native_pages": [
+    3,
+    158,
+    160
+  ],
+  "art_regions": {
+    "2": [
+      [
+        111,
+        188,
+        910,
+        801
+      ]
+    ],
+    "6": [
+      [
+        211,
+        230,
+        770,
+        345
+      ],
+      [
+        211,
+        485,
+        770,
+        600
+      ]
+    ],
+    "7": [
+      [
+        660,
+        260,
+        845,
+        595
+      ],
+      [
+        681,
+        781,
+        855,
+        956
+      ]
+    ],
+    "9": [
+      [
+        745,
+        764,
+        839,
+        878
+      ]
+    ],
+    "14": [
+      [
+        748,
+        436,
+        902,
+        605
+      ]
+    ],
+    "16": [
+      [
+        680,
+        280,
+        895,
+        462
+      ],
+      [
+        149,
+        648,
+        857,
+        1074
+      ]
+    ],
+    "17": [
+      [
+        615,
+        1111,
+        860,
+        1299
+      ]
+    ],
+    "20": [
+      [
+        298,
+        385,
+        730,
+        479
+      ],
+      [
+        157,
+        775,
+        457,
+        1014
+      ],
+      [
+        531,
+        775,
+        841,
+        1014
+      ]
+    ],
+    "21": [
+      [
+        425,
+        274,
+        850,
+        405
+      ]
+    ],
+    "22": [
+      [
+        151,
+        975,
+        855,
+        1137
+      ]
+    ],
+    "23": [
+      [
+        306,
+        393,
+        802,
+        480
+      ]
+    ],
+    "25": [
+      [
+        236,
+        936,
+        727,
+        1046
+      ]
+    ],
+    "26": [
+      [
+        264,
+        457,
+        756,
+        561
+      ],
+      [
+        264,
+        742,
+        756,
+        848
+      ]
+    ],
+    "27": [
+      [
+        109,
+        953,
+        861,
+        1295
+      ]
+    ],
+    "28": [
+      [
+        210,
+        259,
+        810,
+        372
+      ],
+      [
+        158,
+        1110,
+        742,
+        1220
+      ],
+      [
+        745,
+        1070,
+        951,
+        1334
+      ]
+    ],
+    "29": [
+      [
+        101,
+        848,
+        853,
+        945
+      ],
+      [
+        548,
+        1150,
+        859,
+        1263
+      ],
+      [
+        578,
+        40,
+        952,
+        325
+      ]
+    ],
+    "30": [
+      [
+        210,
+        411,
+        832,
+        509
+      ],
+      [
+        480,
+        852,
+        889,
+        999
+      ]
+    ],
+    "31": [
+      [
+        616,
+        279,
+        859,
+        448
+      ],
+      [
+        785,
+        1064,
+        958,
+        1295
+      ]
+    ],
+    "32": [
+      [
+        233,
+        1014,
+        788,
+        1124
+      ],
+      [
+        606,
+        51,
+        874,
+        394
+      ]
+    ],
+    "33": [
+      [
+        169,
+        484,
+        802,
+        620
+      ],
+      [
+        450,
+        1173,
+        819,
+        1283
+      ]
+    ],
+    "34": [
+      [
+        345,
+        384,
+        870,
+        500
+      ],
+      [
+        168,
+        1180,
+        675,
+        1291
+      ],
+      [
+        763,
+        1125,
+        920,
+        1303
+      ]
+    ],
+    "35": [
+      [
+        125,
+        768,
+        827,
+        910
+      ],
+      [
+        682,
+        40,
+        869,
+        388
+      ]
+    ],
+    "36": [
+      [
+        237,
+        420,
+        807,
+        598
+      ],
+      [
+        223,
+        924,
+        803,
+        1058
+      ]
+    ],
+    "37": [
+      [
+        379,
+        948,
+        819,
+        1287
+      ]
+    ],
+    "38": [
+      [
+        159,
+        1068,
+        863,
+        1185
+      ],
+      [
+        573,
+        1206,
+        911,
+        1361
+      ]
+    ],
+    "39": [
+      [
+        226,
+        1126,
+        711,
+        1290
+      ]
+    ],
+    "40": [
+      [
+        148,
+        593,
+        885,
+        675
+      ],
+      [
+        161,
+        990,
+        855,
+        1259
+      ]
+    ],
+    "41": [
+      [
+        119,
+        777,
+        839,
+        900
+      ],
+      [
+        167,
+        1137,
+        812,
+        1248
+      ]
+    ],
+    "42": [
+      [
+        694,
+        277,
+        899,
+        549
+      ],
+      [
+        127,
+        641,
+        894,
+        819
+      ],
+      [
+        211,
+        1191,
+        610,
+        1319
+      ],
+      [
+        705,
+        1106,
+        893,
+        1359
+      ]
+    ],
+    "43": [
+      [
+        168,
+        545,
+        808,
+        787
+      ],
+      [
+        124,
+        975,
+        429,
+        1121
+      ],
+      [
+        510,
+        975,
+        830,
+        1111
+      ],
+      [
+        127,
+        1130,
+        430,
+        1266
+      ],
+      [
+        508,
+        1130,
+        827,
+        1266
+      ],
+      [
+        622,
+        55,
+        880,
+        374
+      ]
+    ],
+    "44": [
+      [
+        429,
+        351,
+        891,
+        505
+      ],
+      [
+        191,
+        808,
+        838,
+        892
+      ]
+    ],
+    "45": [
+      [
+        310,
+        630,
+        842,
+        739
+      ]
+    ],
+    "46": [
+      [
+        128,
+        538,
+        892,
+        713
+      ],
+      [
+        715,
+        52,
+        958,
+        369
+      ]
+    ],
+    "48": [
+      [
+        690,
+        1032,
+        934,
+        1354
+      ]
+    ],
+    "49": [
+      [
+        104,
+        489,
+        858,
+        852
+      ],
+      [
+        691,
+        50,
+        936,
+        369
+      ]
+    ],
+    "51": [
+      [
+        508,
+        288,
+        859,
+        386
+      ],
+      [
+        508,
+        581,
+        859,
+        688
+      ]
+    ],
+    "52": [
+      [
+        555,
+        648,
+        902,
+        870
+      ]
+    ],
+    "53": [
+      [
+        100,
+        473,
+        859,
+        686
+      ],
+      [
+        119,
+        813,
+        853,
+        965
+      ],
+      [
+        110,
+        1066,
+        468,
+        1256
+      ],
+      [
+        521,
+        1074,
+        838,
+        1245
+      ],
+      [
+        675,
+        40,
+        912,
+        344
+      ]
+    ],
+    "54": [
+      [
+        502,
+        812,
+        887,
+        1268
+      ]
+    ],
+    "55": [
+      [
+        170,
+        274,
+        793,
+        410
+      ],
+      [
+        108,
+        849,
+        862,
+        980
+      ]
+    ],
+    "56": [
+      [
+        353,
+        1000,
+        839,
+        1129
+      ]
+    ],
+    "57": [
+      [
+        186,
+        484,
+        833,
+        807
+      ],
+      [
+        685,
+        934,
+        863,
+        1082
+      ]
+    ],
+    "58": [
+      [
+        561,
+        345,
+        903,
+        511
+      ],
+      [
+        578,
+        1008,
+        708,
+        1271
+      ]
+    ],
+    "59": [
+      [
+        648,
+        1064,
+        814,
+        1274
+      ]
+    ],
+    "60": [
+      [
+        151,
+        714,
+        856,
+        1012
+      ]
+    ],
+    "61": [
+      [
+        243,
+        264,
+        692,
+        434
+      ],
+      [
+        290,
+        419,
+        611,
+        654
+      ]
+    ],
+    "62": [
+      [
+        195,
+        571,
+        814,
+        741
+      ]
+    ],
+    "63": [
+      [
+        145,
+        486,
+        835,
+        669
+      ],
+      [
+        127,
+        731,
+        513,
+        797
+      ],
+      [
+        159,
+        1121,
+        814,
+        1278
+      ]
+    ],
+    "64": [
+      [
+        682,
+        282,
+        821,
+        424
+      ],
+      [
+        544,
+        440,
+        865,
+        538
+      ],
+      [
+        569,
+        941,
+        887,
+        1072
+      ]
+    ],
+    "65": [
+      [
+        676,
+        275,
+        850,
+        446
+      ],
+      [
+        108,
+        939,
+        575,
+        1206
+      ]
+    ],
+    "66": [
+      [
+        572,
+        701,
+        884,
+        951
+      ],
+      [
+        646,
+        1081,
+        870,
+        1292
+      ]
+    ],
+    "67": [
+      [
+        649,
+        182,
+        856,
+        311
+      ],
+      [
+        494,
+        635,
+        861,
+        788
+      ],
+      [
+        412,
+        825,
+        857,
+        941
+      ],
+      [
+        153,
+        1134,
+        435,
+        1271
+      ]
+    ],
+    "68": [
+      [
+        627,
+        282,
+        879,
+        441
+      ],
+      [
+        234,
+        628,
+        797,
+        789
+      ],
+      [
+        144,
+        987,
+        769,
+        1221
+      ]
+    ],
+    "69": [
+      [
+        213,
+        468,
+        751,
+        699
+      ]
+    ],
+    "70": [
+      [
+        252,
+        641,
+        774,
+        874
+      ]
+    ],
+    "72": [
+      [
+        428,
+        603,
+        882,
+        677
+      ]
+    ],
+    "73": [
+      [
+        263,
+        875,
+        710,
+        1302
+      ]
+    ],
+    "74": [
+      [
+        419,
+        350,
+        892,
+        566
+      ]
+    ],
+    "75": [
+      [
+        182,
+        519,
+        803,
+        664
+      ]
+    ],
+    "76": [
+      [
+        263,
+        580,
+        760,
+        778
+      ]
+    ],
+    "77": [
+      [
+        687,
+        289,
+        842,
+        468
+      ],
+      [
+        440,
+        1061,
+        866,
+        1179
+      ]
+    ],
+    "78": [
+      [
+        159,
+        575,
+        862,
+        834
+      ]
+    ],
+    "79": [
+      [
+        141,
+        1160,
+        840,
+        1300
+      ],
+      [
+        730,
+        1115,
+        840,
+        1160
+      ]
+    ],
+    "80": [
+      [
+        282,
+        468,
+        793,
+        737
+      ]
+    ],
+    "81": [
+      [
+        247,
+        916,
+        723,
+        1048
+      ]
+    ],
+    "82": [
+      [
+        267,
+        395,
+        776,
+        511
+      ],
+      [
+        489,
+        546,
+        901,
+        707
+      ],
+      [
+        183,
+        970,
+        835,
+        1291
+      ]
+    ],
+    "83": [
+      [
+        599,
+        186,
+        839,
+        341
+      ],
+      [
+        415,
+        1200,
+        704,
+        1295
+      ]
+    ],
+    "84": [
+      [
+        588,
+        323,
+        884,
+        418
+      ],
+      [
+        272,
+        1033,
+        754,
+        1290
+      ]
+    ],
+    "85": [
+      [
+        128,
+        851,
+        649,
+        1247
+      ]
+    ],
+    "86": [
+      [
+        89,
+        771,
+        945,
+        1310
+      ]
+    ],
+    "87": [
+      [
+        195,
+        1108,
+        782,
+        1205
+      ]
+    ],
+    "88": [
+      [
+        387,
+        528,
+        637,
+        579
+      ],
+      [
+        145,
+        776,
+        879,
+        1018
+      ],
+      [
+        525,
+        1078,
+        895,
+        1305
+      ]
+    ],
+    "89": [
+      [
+        694,
+        480,
+        862,
+        649
+      ]
+    ],
+    "90": [
+      [
+        676,
+        305,
+        866,
+        393
+      ]
+    ],
+    "92": [
+      [
+        563,
+        284,
+        898,
+        406
+      ],
+      [
+        563,
+        430,
+        899,
+        539
+      ]
+    ],
+    "93": [
+      [
+        111,
+        458,
+        853,
+        955
+      ]
+    ],
+    "94": [
+      [
+        226,
+        404,
+        786,
+        587
+      ],
+      [
+        161,
+        870,
+        849,
+        980
+      ]
+    ],
+    "96": [
+      [
+        137,
+        577,
+        877,
+        774
+      ],
+      [
+        584,
+        1057,
+        845,
+        1134
+      ]
+    ],
+    "97": [
+      [
+        587,
+        187,
+        873,
+        297
+      ],
+      [
+        466,
+        495,
+        850,
+        588
+      ],
+      [
+        516,
+        1098,
+        860,
+        1147
+      ]
+    ],
+    "99": [
+      [
+        354,
+        529,
+        633,
+        692
+      ],
+      [
+        178,
+        1045,
+        619,
+        1275
+      ]
+    ],
+    "100": [
+      [
+        681,
+        736,
+        872,
+        988
+      ]
+    ],
+    "102": [
+      [
+        580,
+        635,
+        886,
+        870
+      ]
+    ],
+    "103": [
+      [
+        592,
+        465,
+        849,
+        642
+      ]
+    ],
+    "106": [
+      [
+        130,
+        740,
+        915,
+        995
+      ],
+      [
+        579,
+        1168,
+        874,
+        1242
+      ]
+    ],
+    "107": [
+      [
+        280,
+        1099,
+        748,
+        1166
+      ]
+    ],
+    "108": [
+      [
+        238,
+        341,
+        784,
+        640
+      ]
+    ],
+    "109": [
+      [
+        535,
+        560,
+        875,
+        755
+      ],
+      [
+        728,
+        1072,
+        917,
+        1310
+      ]
+    ],
+    "110": [
+      [
+        521,
+        967,
+        879,
+        1064
+      ],
+      [
+        710,
+        42,
+        969,
+        415
+      ]
+    ],
+    "111": [
+      [
+        519,
+        268,
+        864,
+        377
+      ],
+      [
+        110,
+        446,
+        853,
+        568
+      ]
+    ],
+    "113": [
+      [
+        118,
+        920,
+        847,
+        1040
+      ]
+    ],
+    "114": [
+      [
+        135,
+        950,
+        872,
+        1295
+      ]
+    ],
+    "116": [
+      [
+        130,
+        440,
+        884,
+        545
+      ]
+    ],
+    "118": [
+      [
+        735,
+        1068,
+        915,
+        1300
+      ]
+    ],
+    "120": [
+      [
+        432,
+        536,
+        866,
+        602
+      ],
+      [
+        169,
+        1136,
+        409,
+        1293
+      ],
+      [
+        620,
+        1136,
+        856,
+        1291
+      ]
+    ],
+    "121": [
+      [
+        124,
+        309,
+        840,
+        518
+      ],
+      [
+        159,
+        655,
+        290,
+        729
+      ],
+      [
+        413,
+        655,
+        541,
+        729
+      ],
+      [
+        660,
+        655,
+        790,
+        729
+      ]
+    ],
+    "122": [
+      [
+        151,
+        492,
+        830,
+        729
+      ],
+      [
+        643,
+        40,
+        865,
+        344
+      ]
+    ],
+    "123": [
+      [
+        611,
+        182,
+        846,
+        324
+      ],
+      [
+        614,
+        331,
+        847,
+        468
+      ],
+      [
+        388,
+        818,
+        852,
+        955
+      ]
+    ],
+    "124": [
+      [
+        614,
+        141,
+        967,
+        272
+      ]
+    ],
+    "125": [
+      [
+        568,
+        40,
+        840,
+        396
+      ]
+    ],
+    "126": [
+      [
+        230,
+        1180,
+        800,
+        1281
+      ]
+    ],
+    "127": [
+      [
+        105,
+        505,
+        305,
+        686
+      ],
+      [
+        347,
+        505,
+        587,
+        686
+      ],
+      [
+        625,
+        505,
+        853,
+        686
+      ],
+      [
+        530,
+        1101,
+        900,
+        1276
+      ]
+    ],
+    "128": [
+      [
+        643,
+        69,
+        861,
+        346
+      ]
+    ],
+    "130": [
+      [
+        755,
+        1065,
+        913,
+        1285
+      ]
+    ],
+    "131": [
+      [
+        643,
+        69,
+        861,
+        346
+      ]
+    ],
+    "133": [
+      [
+        584,
+        230,
+        858,
+        484
+      ],
+      [
+        706,
+        1043,
+        904,
+        1308
+      ]
+    ],
+    "134": [
+      [
+        795,
+        40,
+        992,
+        315
+      ]
+    ],
+    "135": [
+      [
+        354,
+        891,
+        616,
+        1332
+      ]
+    ],
+    "136": [
+      [
+        520,
+        837,
+        849,
+        985
+      ]
+    ],
+    "137": [
+      [
+        145,
+        528,
+        795,
+        580
+      ]
+    ],
+    "139": [
+      [
+        570,
+        420,
+        895,
+        715
+      ],
+      [
+        468,
+        821,
+        838,
+        938
+      ]
+    ],
+    "140": [
+      [
+        598,
+        190,
+        874,
+        394
+      ],
+      [
+        645,
+        667,
+        875,
+        970
+      ],
+      [
+        145,
+        738,
+        640,
+        970
+      ],
+      [
+        540,
+        1147,
+        890,
+        1281
+      ]
+    ],
+    "141": [
+      [
+        195,
+        852,
+        780,
+        1280
+      ]
+    ],
+    "142": [
+      [
+        424,
+        1044,
+        701,
+        1282
+      ]
+    ],
+    "143": [
+      [
+        359,
+        511,
+        875,
+        736
+      ]
+    ],
+    "144": [
+      [
+        326,
+        268,
+        698,
+        489
+      ]
+    ],
+    "145": [
+      [
+        489,
+        949,
+        812,
+        1193
+      ]
+    ],
+    "147": [
+      [
+        171,
+        280,
+        792,
+        474
+      ],
+      [
+        218,
+        648,
+        458,
+        866
+      ],
+      [
+        162,
+        1057,
+        799,
+        1274
+      ]
+    ],
+    "148": [
+      [
+        540,
+        587,
+        857,
+        805
+      ],
+      [
+        631,
+        860,
+        855,
+        1061
+      ]
+    ],
+    "149": [
+      [
+        627,
+        378,
+        844,
+        612
+      ],
+      [
+        609,
+        744,
+        866,
+        950
+      ],
+      [
+        630,
+        1067,
+        843,
+        1285
+      ]
+    ],
+    "150": [
+      [
+        651,
+        1048,
+        865,
+        1261
+      ]
+    ],
+    "151": [
+      [
+        456,
+        191,
+        845,
+        377
+      ]
+    ],
+    "152": [
+      [
+        600,
+        905,
+        892,
+        1196
+      ]
+    ],
+    "153": [
+      [
+        574,
+        708,
+        762,
+        914
+      ]
+    ],
+    "154": [
+      [
+        172,
+        1180,
+        873,
+        1315
+      ]
+    ],
+    "155": [
+      [
+        145,
+        306,
+        824,
+        572
+      ],
+      [
+        660,
+        754,
+        859,
+        891
+      ]
+    ],
+    "156": [
+      [
+        139,
+        681,
+        857,
+        838
+      ]
+    ],
+    "157": [
+      [
+        601,
+        177,
+        835,
+        413
+      ]
+    ],
+    "1": [
+      [
+        295,
+        675,
+        670,
+        1165
+      ],
+      [
+        285,
+        1210,
+        690,
+        1295
+      ]
+    ],
+    "4": [
+      [
+        105,
+        900,
+        910,
+        1325
+      ]
+    ],
+    "138": [
+      [
+        105,
+        900,
+        910,
+        1325
+      ]
+    ]
+  },
+  "true_table_regions": {
+    "6": [
+      [
+        113,
+        888,
+        907,
+        1070
+      ]
+    ],
+    "8": [
+      [
+        113,
+        552,
+        907,
+        730
+      ]
+    ],
+    "9": [
+      [
+        85,
+        1035,
+        878,
+        1304
+      ]
+    ],
+    "10": [
+      [
+        114,
+        1040,
+        907,
+        1305
+      ]
+    ],
+    "12": [
+      [
+        114,
+        637,
+        906,
+        819
+      ]
+    ],
+    "14": [
+      [
+        113,
+        525,
+        709,
+        604
+      ]
+    ],
+    "16": [
+      [
+        113,
+        1231,
+        905,
+        1305
+      ]
+    ],
+    "17": [
+      [
+        85,
+        402,
+        879,
+        644
+      ]
+    ],
+    "19": [
+      [
+        85,
+        426,
+        878,
+        573
+      ]
+    ],
+    "20": [
+      [
+        158,
+        702,
+        445,
+        764
+      ],
+      [
+        533,
+        702,
+        818,
+        764
+      ]
+    ],
+    "21": [
+      [
+        85,
+        264,
+        394,
+        409
+      ]
+    ],
+    "22": [
+      [
+        113,
+        1177,
+        906,
+        1295
+      ]
+    ],
+    "23": [
+      [
+        86,
+        728,
+        877,
+        871
+      ],
+      [
+        86,
+        979,
+        878,
+        1140
+      ]
+    ],
+    "27": [
+      [
+        86,
+        549,
+        878,
+        835
+      ]
+    ],
+    "29": [
+      [
+        89,
+        592,
+        877,
+        664
+      ]
+    ],
+    "33": [
+      [
+        89,
+        392,
+        878,
+        465
+      ]
+    ],
+    "39": [
+      [
+        88,
+        718,
+        878,
+        824
+      ]
+    ],
+    "40": [
+      [
+        111,
+        449,
+        908,
+        584
+      ]
+    ],
+    "60": [
+      [
+        112,
+        1149,
+        904,
+        1308
+      ]
+    ],
+    "71": [
+      [
+        85,
+        255,
+        880,
+        400
+      ]
+    ],
+    "79": [
+      [
+        85,
+        471,
+        880,
+        655
+      ],
+      [
+        539,
+        774,
+        880,
+        937
+      ]
+    ],
+    "90": [
+      [
+        113,
+        1162,
+        907,
+        1304
+      ]
+    ],
+    "91": [
+      [
+        86,
+        1126,
+        880,
+        1306
+      ]
+    ],
+    "92": [
+      [
+        113,
+        265,
+        554,
+        551
+      ],
+      [
+        113,
+        1178,
+        591,
+        1306
+      ]
+    ],
+    "93": [
+      [
+        86,
+        1108,
+        881,
+        1306
+      ]
+    ],
+    "95": [
+      [
+        86,
+        1120,
+        751,
+        1304
+      ]
+    ],
+    "98": [
+      [
+        113,
+        796,
+        909,
+        1001
+      ]
+    ],
+    "102": [
+      [
+        159,
+        779,
+        518,
+        855
+      ]
+    ],
+    "115": [
+      [
+        86,
+        774,
+        877,
+        880
+      ]
+    ],
+    "118": [
+      [
+        112,
+        865,
+        906,
+        945
+      ]
+    ],
+    "128": [
+      [
+        112,
+        389,
+        907,
+        715
+      ]
+    ],
+    "131": [
+      [
+        86,
+        382,
+        879,
+        911
+      ]
+    ],
+    "136": [
+      [
+        112,
+        575,
+        907,
+        704
+      ]
+    ],
+    "143": [
+      [
+        86,
+        755,
+        879,
+        1023
+      ]
+    ],
+    "145": [
+      [
+        138,
+        955,
+        360,
+        1179
+      ]
+    ],
+    "146": [
+      [
+        114,
+        715,
+        908,
+        1304
+      ]
+    ],
+    "160": [
+      [
+        140,
+        1107,
+        880,
+        1364
+      ]
+    ],
+    "57": [
+      [
+        85,
+        934,
+        665,
+        1082
+      ]
+    ],
+    "65": [
+      [
+        580,
+        939,
+        878,
+        1206
+      ]
+    ]
+  }
+}
