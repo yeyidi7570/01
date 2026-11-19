@@ -1,0 +1,2017 @@
+[
+  {
+    "page": 1,
+    "side": "a",
+    "addition_index": 0,
+    "text": "ЧАСТЬ 2",
+    "bbox": [
+      607,
+      1041,
+      644,
+      1065
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 1,
+    "side": "a",
+    "addition_index": 1,
+    "text": "АК",
+    "bbox": [
+      298,
+      1220,
+      345,
+      1264
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 1,
+    "side": "b",
+    "addition_index": 0,
+    "text": "ЧАСТЬ 1",
+    "bbox": [
+      580,
+      1040,
+      646,
+      1067
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 3,
+    "side": "a",
+    "addition_index": 0,
+    "text": "АЛМАТЫКІТАП БАСПАСЫ",
+    "bbox": [
+      147,
+      350,
+      850,
+      1060
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 3,
+    "side": "a",
+    "addition_index": 1,
+    "text": "АК",
+    "bbox": [
+      456,
+      944,
+      499,
+      979
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 4,
+    "side": "a",
+    "addition_index": 4,
+    "text": "АЛМАТЫКІТАП БАСПАСЫ",
+    "bbox": [
+      141,
+      357,
+      852,
+      1050
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 4,
+    "side": "a",
+    "addition_index": 5,
+    "text": "АК",
+    "bbox": [
+      885,
+      245,
+      908,
+      269
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 4,
+    "side": "b",
+    "addition_index": 0,
+    "text": "№",
+    "bbox": [
+      506,
+      266,
+      549,
+      297
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 5,
+    "side": "a",
+    "addition_index": 6,
+    "text": "АК",
+    "bbox": [
+      396,
+      760,
+      420,
+      779
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 5,
+    "side": "a",
+    "addition_index": 7,
+    "text": "АЛМАТЫКІТАП БАСПАСЫ",
+    "bbox": [
+      151,
+      350,
+      848,
+      1057
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 7,
+    "side": "a",
+    "addition_index": 2,
+    "text": "АК",
+    "bbox": [
+      776,
+      110,
+      809,
+      144
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 7,
+    "side": "a",
+    "addition_index": 3,
+    "text": "АЛМАТЫКІТАП БАСПАСЫ",
+    "bbox": [
+      151,
+      355,
+      852,
+      1054
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 8,
+    "side": "a",
+    "addition_index": 1,
+    "text": "АЛМАТЫКІТАП БАСПАСЫ",
+    "bbox": [
+      151,
+      354,
+      853,
+      1056
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 9,
+    "side": "a",
+    "addition_index": 2,
+    "text": "АЛМАТЫКІТАП БАСПАСЫ",
+    "bbox": [
+      150,
+      351,
+      851,
+      1055
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 10,
+    "side": "a",
+    "addition_index": 4,
+    "text": "АК",
+    "bbox": [
+      769,
+      1067,
+      804,
+      1084
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 10,
+    "side": "a",
+    "addition_index": 5,
+    "text": "АЛМАТЫКІТАП БАСПАСЫ",
+    "bbox": [
+      150,
+      351,
+      853,
+      1056
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 11,
+    "side": "a",
+    "addition_index": 1,
+    "text": "АК",
+    "bbox": [
+      884,
+      135,
+      907,
+      157
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 11,
+    "side": "a",
+    "addition_index": 2,
+    "text": "АЛМАТЫКІТАП БАСПАСЫ",
+    "bbox": [
+      149,
+      351,
+      854,
+      1055
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 12,
+    "side": "a",
+    "addition_index": 2,
+    "text": "АЛМАТЫКІТАП БАСПАСЫ",
+    "bbox": [
+      147,
+      352,
+      855,
+      1055
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 13,
+    "side": "a",
+    "addition_index": 4,
+    "text": "АЛМАТЫКІТАП БАСПАСЫ",
+    "bbox": [
+      151,
+      354,
+      851,
+      1054
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 14,
+    "side": "a",
+    "addition_index": 4,
+    "text": "АК",
+    "bbox": [
+      739,
+      1079,
+      770,
+      1103
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 14,
+    "side": "a",
+    "addition_index": 5,
+    "text": "АЛМАТЫКІТАП БАСПАСЫ",
+    "bbox": [
+      151,
+      354,
+      851,
+      1054
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 15,
+    "side": "a",
+    "addition_index": 1,
+    "text": "АК",
+    "bbox": [
+      703,
+      152,
+      750,
+      198
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 15,
+    "side": "a",
+    "addition_index": 8,
+    "text": "АЛМАТЫКІТАП БАСПАСЫ",
+    "bbox": [
+      151,
+      352,
+      852,
+      1055
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 16,
+    "side": "a",
+    "addition_index": 3,
+    "text": "АЛМАТЫКІТАП БАСПАСЫ",
+    "bbox": [
+      151,
+      352,
+      852,
+      1055
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 17,
+    "side": "a",
+    "addition_index": 3,
+    "text": "АЛМАТЫКІТАП БАСПАСЫ",
+    "bbox": [
+      151,
+      352,
+      852,
+      1055
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 18,
+    "side": "a",
+    "addition_index": 1,
+    "text": "АК",
+    "bbox": [
+      843,
+      84,
+      879,
+      121
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 18,
+    "side": "a",
+    "addition_index": 3,
+    "text": "–",
+    "bbox": [
+      193,
+      957,
+      213,
+      971
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 18,
+    "side": "a",
+    "addition_index": 4,
+    "text": "–",
+    "bbox": [
+      249,
+      1024,
+      268,
+      1038
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 18,
+    "side": "a",
+    "addition_index": 5,
+    "text": "АЛМАТЫКІТАП БАСПАСЫ",
+    "bbox": [
+      151,
+      352,
+      852,
+      1055
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 18,
+    "side": "a",
+    "addition_index": 6,
+    "text": "· · ·",
+    "bbox": [
+      396,
+      1006,
+      461,
+      1022
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 19,
+    "side": "a",
+    "addition_index": 4,
+    "text": "АЛМАТЫКІТАП БАСПАСЫ",
+    "bbox": [
+      151,
+      352,
+      852,
+      1055
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 20,
+    "side": "a",
+    "addition_index": 5,
+    "text": "АК",
+    "bbox": [
+      870,
+      1074,
+      898,
+      1115
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 20,
+    "side": "a",
+    "addition_index": 6,
+    "text": "АЛМАТЫКІТАП БАСПАСЫ",
+    "bbox": [
+      151,
+      352,
+      852,
+      1055
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 21,
+    "side": "a",
+    "addition_index": 1,
+    "text": "АК",
+    "bbox": [
+      807,
+      103,
+      857,
+      144
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 21,
+    "side": "a",
+    "addition_index": 2,
+    "text": "АЛМАТЫКІТАП БАСПАСЫ",
+    "bbox": [
+      151,
+      352,
+      852,
+      1055
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 22,
+    "side": "a",
+    "addition_index": 7,
+    "text": "·",
+    "bbox": [
+      814,
+      1224,
+      825,
+      1236
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 22,
+    "side": "a",
+    "addition_index": 8,
+    "text": "АЛМАТЫКІТАП БАСПАСЫ",
+    "bbox": [
+      151,
+      352,
+      852,
+      1055
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 22,
+    "side": "b",
+    "addition_index": 8,
+    "text": "·",
+    "bbox": [
+      813,
+      1234,
+      824,
+      1248
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 23,
+    "side": "a",
+    "addition_index": 3,
+    "text": "АЛМАТЫКІТАП БАСПАСЫ",
+    "bbox": [
+      151,
+      352,
+      852,
+      1055
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 24,
+    "side": "a",
+    "addition_index": 1,
+    "text": "АЛМАТЫКІТАП БАСПАСЫ",
+    "bbox": [
+      151,
+      352,
+      852,
+      1055
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 36,
+    "side": "b",
+    "addition_index": 4,
+    "text": "11",
+    "bbox": [
+      694,
+      938,
+      743,
+      970
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 36,
+    "side": "b",
+    "addition_index": 5,
+    "text": "4 | 21",
+    "bbox": [
+      778,
+      938,
+      865,
+      970
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 36,
+    "side": "b",
+    "addition_index": 6,
+    "text": "1",
+    "bbox": [
+      695,
+      969,
+      715,
+      996
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 36,
+    "side": "b",
+    "addition_index": 7,
+    "text": "4",
+    "bbox": [
+      836,
+      968,
+      860,
+      998
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 39,
+    "side": "a",
+    "addition_index": 3,
+    "text": "8624 | 28",
+    "bbox": [
+      193,
+      850,
+      368,
+      888
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 39,
+    "side": "a",
+    "addition_index": 4,
+    "text": "84 | 308",
+    "bbox": [
+      193,
+      882,
+      400,
+      919
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 39,
+    "side": "a",
+    "addition_index": 6,
+    "text": "– 224",
+    "bbox": [
+      194,
+      915,
+      310,
+      949
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 39,
+    "side": "a",
+    "addition_index": 7,
+    "text": "224",
+    "bbox": [
+      221,
+      943,
+      310,
+      979
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 39,
+    "side": "a",
+    "addition_index": 9,
+    "text": "93860 | 52",
+    "bbox": [
+      514,
+      850,
+      727,
+      887
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 39,
+    "side": "a",
+    "addition_index": 10,
+    "text": "52 | 1805",
+    "bbox": [
+      514,
+      882,
+      780,
+      919
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 39,
+    "side": "a",
+    "addition_index": 12,
+    "text": "– 418",
+    "bbox": [
+      490,
+      915,
+      608,
+      949
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 39,
+    "side": "a",
+    "addition_index": 13,
+    "text": "416",
+    "bbox": [
+      514,
+      943,
+      608,
+      979
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 39,
+    "side": "a",
+    "addition_index": 14,
+    "text": "– 260",
+    "bbox": [
+      546,
+      975,
+      663,
+      1009
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 39,
+    "side": "b",
+    "addition_index": 4,
+    "text": "–",
+    "bbox": [
+      195,
+      930,
+      216,
+      952
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 39,
+    "side": "b",
+    "addition_index": 7,
+    "text": "–",
+    "bbox": [
+      489,
+      930,
+      510,
+      953
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 39,
+    "side": "b",
+    "addition_index": 8,
+    "text": "–",
+    "bbox": [
+      549,
+      989,
+      570,
+      1012
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 39,
+    "side": "b",
+    "addition_index": 9,
+    "text": "9",
+    "bbox": [
+      515,
+      852,
+      544,
+      886
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 42,
+    "side": "b",
+    "addition_index": 8,
+    "text": "2",
+    "bbox": [
+      177,
+      1095,
+      205,
+      1126
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 44,
+    "side": "b",
+    "addition_index": 4,
+    "text": "0 1 2",
+    "bbox": [
+      683,
+      766,
+      753,
+      791
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 45,
+    "side": "a",
+    "addition_index": 0,
+    "text": "письменных",
+    "bbox": [
+      750,
+      162,
+      876,
+      193
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 48,
+    "side": "a",
+    "addition_index": 0,
+    "text": "Алгоритм письменного умножения",
+    "bbox": [
+      738,
+      140,
+      824,
+      229
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 48,
+    "side": "b",
+    "addition_index": 0,
+    "text": "Алгоритм умножения",
+    "bbox": [
+      740,
+      136,
+      822,
+      225
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 48,
+    "side": "b",
+    "addition_index": 4,
+    "text": "1",
+    "bbox": [
+      378,
+      935,
+      398,
+      961
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 49,
+    "side": "b",
+    "addition_index": 8,
+    "text": "·",
+    "bbox": [
+      496,
+      961,
+      508,
+      982
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 53,
+    "side": "b",
+    "addition_index": 1,
+    "text": "×",
+    "bbox": [
+      385,
+      350,
+      399,
+      371
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 53,
+    "side": "b",
+    "addition_index": 8,
+    "text": "−",
+    "bbox": [
+      611,
+      1027,
+      630,
+      1043
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 55,
+    "side": "a",
+    "addition_index": 4,
+    "text": "ПОЧЕМУ",
+    "bbox": [
+      747,
+      1088,
+      808,
+      1180
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 55,
+    "side": "a",
+    "addition_index": 5,
+    "text": "НАЗОВИ",
+    "bbox": [
+      719,
+      1093,
+      790,
+      1194
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 55,
+    "side": "a",
+    "addition_index": 6,
+    "text": "ОБЪЯСНИ",
+    "bbox": [
+      698,
+      1115,
+      778,
+      1217
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 55,
+    "side": "b",
+    "addition_index": 4,
+    "text": "Алгоритм",
+    "bbox": [
+      766,
+      1094,
+      799,
+      1160
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 55,
+    "side": "b",
+    "addition_index": 5,
+    "text": "письменного",
+    "bbox": [
+      743,
+      1118,
+      784,
+      1203
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 55,
+    "side": "b",
+    "addition_index": 6,
+    "text": "деления",
+    "bbox": [
+      725,
+      1158,
+      765,
+      1217
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 59,
+    "side": "a",
+    "addition_index": 4,
+    "text": "?",
+    "bbox": [
+      781,
+      655,
+      808,
+      691
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 61,
+    "side": "a",
+    "addition_index": 6,
+    "text": "2349765",
+    "bbox": [
+      830,
+      228,
+      845,
+      264
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 62,
+    "side": "b",
+    "addition_index": 0,
+    "text": "Алгоритм",
+    "bbox": [
+      774,
+      175,
+      855,
+      206
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 62,
+    "side": "b",
+    "addition_index": 1,
+    "text": "письменного",
+    "bbox": [
+      768,
+      189,
+      862,
+      222
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 62,
+    "side": "b",
+    "addition_index": 2,
+    "text": "умножения",
+    "bbox": [
+      773,
+      208,
+      860,
+      237
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 62,
+    "side": "b",
+    "addition_index": 3,
+    "text": "и деления",
+    "bbox": [
+      786,
+      224,
+      863,
+      251
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 62,
+    "side": "b",
+    "addition_index": 7,
+    "text": "11",
+    "bbox": [
+      182,
+      891,
+      233,
+      926
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 62,
+    "side": "b",
+    "addition_index": 12,
+    "text": "1",
+    "bbox": [
+      771,
+      925,
+      794,
+      956
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 62,
+    "side": "b",
+    "addition_index": 13,
+    "text": "0",
+    "bbox": [
+      714,
+      1011,
+      737,
+      1041
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 62,
+    "side": "b",
+    "addition_index": 15,
+    "text": "1",
+    "bbox": [
+      184,
+      925,
+      209,
+      955
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 63,
+    "side": "a",
+    "addition_index": 4,
+    "text": ":",
+    "bbox": [
+      475,
+      1254,
+      491,
+      1279
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 65,
+    "side": "a",
+    "addition_index": 0,
+    "text": "Алгоритм письменных вычислений",
+    "bbox": [
+      758,
+      126,
+      852,
+      228
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 65,
+    "side": "b",
+    "addition_index": 0,
+    "text": "Алгоритм",
+    "bbox": [
+      782,
+      128,
+      845,
+      185
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 65,
+    "side": "b",
+    "addition_index": 1,
+    "text": "письменного",
+    "bbox": [
+      768,
+      142,
+      845,
+      200
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 65,
+    "side": "b",
+    "addition_index": 2,
+    "text": "деления",
+    "bbox": [
+      772,
+      161,
+      824,
+      205
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 65,
+    "side": "b",
+    "addition_index": 5,
+    "text": "1",
+    "bbox": [
+      577,
+      825,
+      596,
+      853
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 65,
+    "side": "b",
+    "addition_index": 8,
+    "text": "0",
+    "bbox": [
+      700,
+      930,
+      724,
+      957
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 66,
+    "side": "a",
+    "addition_index": 2,
+    "text": "НАЦИОНАЛЬНЫЙ",
+    "bbox": [
+      198,
+      1209,
+      252,
+      1219
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 66,
+    "side": "a",
+    "addition_index": 3,
+    "text": "РЕСПУБЛИКИ КАЗАХСТАН",
+    "bbox": [
+      199,
+      1229,
+      261,
+      1239
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 66,
+    "side": "a",
+    "addition_index": 5,
+    "text": "НАЦИОНАЛЬНЫЙ",
+    "bbox": [
+      458,
+      1209,
+      512,
+      1219
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 66,
+    "side": "a",
+    "addition_index": 6,
+    "text": "РЕСПУБЛИКИ КАЗАХСТАН",
+    "bbox": [
+      459,
+      1229,
+      521,
+      1239
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 66,
+    "side": "a",
+    "addition_index": 8,
+    "text": "НАЦИОНАЛЬНЫЙ",
+    "bbox": [
+      717,
+      1209,
+      771,
+      1219
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 66,
+    "side": "a",
+    "addition_index": 9,
+    "text": "РЕСПУБЛИКИ КАЗАХСТАН",
+    "bbox": [
+      718,
+      1229,
+      780,
+      1239
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 74,
+    "side": "b",
+    "addition_index": 2,
+    "text": "·",
+    "bbox": [
+      265,
+      733,
+      276,
+      749
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 78,
+    "side": "a",
+    "addition_index": 5,
+    "text": "12",
+    "bbox": [
+      317,
+      241,
+      336,
+      259
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 78,
+    "side": "a",
+    "addition_index": 6,
+    "text": "1",
+    "bbox": [
+      342,
+      245,
+      361,
+      263
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 78,
+    "side": "a",
+    "addition_index": 7,
+    "text": "2",
+    "bbox": [
+      355,
+      259,
+      374,
+      277
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 78,
+    "side": "a",
+    "addition_index": 8,
+    "text": "3",
+    "bbox": [
+      361,
+      276,
+      380,
+      294
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 78,
+    "side": "a",
+    "addition_index": 9,
+    "text": "4",
+    "bbox": [
+      351,
+      293,
+      370,
+      311
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 78,
+    "side": "a",
+    "addition_index": 10,
+    "text": "5",
+    "bbox": [
+      342,
+      308,
+      361,
+      326
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 78,
+    "side": "a",
+    "addition_index": 11,
+    "text": "6",
+    "bbox": [
+      321,
+      314,
+      340,
+      332
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 78,
+    "side": "a",
+    "addition_index": 12,
+    "text": "7",
+    "bbox": [
+      304,
+      308,
+      323,
+      326
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 78,
+    "side": "a",
+    "addition_index": 13,
+    "text": "8",
+    "bbox": [
+      291,
+      296,
+      310,
+      314
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 78,
+    "side": "a",
+    "addition_index": 14,
+    "text": "9",
+    "bbox": [
+      288,
+      277,
+      307,
+      295
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 78,
+    "side": "a",
+    "addition_index": 16,
+    "text": "11",
+    "bbox": [
+      303,
+      246,
+      322,
+      264
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 78,
+    "side": "a",
+    "addition_index": 17,
+    "text": "12",
+    "bbox": [
+      234,
+      452,
+      253,
+      470
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 78,
+    "side": "a",
+    "addition_index": 18,
+    "text": "1",
+    "bbox": [
+      259,
+      456,
+      278,
+      474
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 78,
+    "side": "a",
+    "addition_index": 19,
+    "text": "2",
+    "bbox": [
+      272,
+      470,
+      291,
+      488
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 78,
+    "side": "a",
+    "addition_index": 20,
+    "text": "3",
+    "bbox": [
+      278,
+      487,
+      297,
+      505
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 78,
+    "side": "a",
+    "addition_index": 21,
+    "text": "4",
+    "bbox": [
+      268,
+      504,
+      287,
+      522
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 78,
+    "side": "a",
+    "addition_index": 22,
+    "text": "5",
+    "bbox": [
+      259,
+      519,
+      278,
+      537
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 78,
+    "side": "a",
+    "addition_index": 23,
+    "text": "6",
+    "bbox": [
+      238,
+      525,
+      257,
+      543
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 78,
+    "side": "a",
+    "addition_index": 24,
+    "text": "7",
+    "bbox": [
+      221,
+      519,
+      240,
+      537
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 78,
+    "side": "a",
+    "addition_index": 28,
+    "text": "11",
+    "bbox": [
+      220,
+      457,
+      239,
+      475
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 78,
+    "side": "b",
+    "addition_index": 0,
+    "text": "11 12 1 2 3",
+    "bbox": [
+      303,
+      244,
+      369,
+      292
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 78,
+    "side": "b",
+    "addition_index": 1,
+    "text": "11 12 1",
+    "bbox": [
+      220,
+      455,
+      261,
+      481
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 78,
+    "side": "b",
+    "addition_index": 2,
+    "text": "v",
+    "bbox": [
+      172,
+      788,
+      186,
+      804
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 89,
+    "side": "b",
+    "addition_index": 4,
+    "text": "□",
+    "bbox": [
+      245,
+      1211,
+      265,
+      1233
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 93,
+    "side": "b",
+    "addition_index": 3,
+    "text": "□",
+    "bbox": [
+      270,
+      614,
+      290,
+      638
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 93,
+    "side": "b",
+    "addition_index": 4,
+    "text": "□",
+    "bbox": [
+      498,
+      614,
+      518,
+      638
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 93,
+    "side": "b",
+    "addition_index": 5,
+    "text": "□",
+    "bbox": [
+      731,
+      614,
+      751,
+      638
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 101,
+    "side": "a",
+    "addition_index": 3,
+    "text": "85тг",
+    "bbox": [
+      580,
+      485,
+      620,
+      509
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 101,
+    "side": "a",
+    "addition_index": 6,
+    "text": "КАРТОФЕЛЬНЫЕ ЧИПСЫ",
+    "bbox": [
+      362,
+      489,
+      408,
+      518
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 101,
+    "side": "b",
+    "addition_index": 3,
+    "text": "КАРТОФЕЛЬНЫЕ",
+    "bbox": [
+      364,
+      333,
+      426,
+      350
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 101,
+    "side": "b",
+    "addition_index": 4,
+    "text": "ЧИПСЫ",
+    "bbox": [
+      383,
+      347,
+      415,
+      361
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 101,
+    "side": "b",
+    "addition_index": 6,
+    "text": "КАРТОФЕЛЬНЫЕ",
+    "bbox": [
+      361,
+      490,
+      414,
+      505
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 101,
+    "side": "b",
+    "addition_index": 7,
+    "text": "ЧИПСЫ",
+    "bbox": [
+      378,
+      503,
+      404,
+      515
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 101,
+    "side": "b",
+    "addition_index": 8,
+    "text": "85 тг",
+    "bbox": [
+      581,
+      487,
+      615,
+      509
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 124,
+    "side": "b",
+    "addition_index": 4,
+    "text": "ПОЧЕМУ",
+    "bbox": [
+      838,
+      1164,
+      891,
+      1176
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 124,
+    "side": "b",
+    "addition_index": 5,
+    "text": "НАЗОВИ",
+    "bbox": [
+      841,
+      1177,
+      892,
+      1189
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 127,
+    "side": "b",
+    "addition_index": 4,
+    "text": "НАЗОВИ",
+    "bbox": [
+      798,
+      1172,
+      856,
+      1189
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 131,
+    "side": "b",
+    "addition_index": 3,
+    "text": "ПОДЕЛИСЬ",
+    "bbox": [
+      810,
+      1151,
+      890,
+      1168
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 131,
+    "side": "b",
+    "addition_index": 4,
+    "text": "ПРЕДЛОЖИ",
+    "bbox": [
+      806,
+      1168,
+      887,
+      1183
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 132,
+    "side": "a",
+    "addition_index": 0,
+    "text": "Разные\nспособы\nрешения\nзадач",
+    "bbox": [
+      740,
+      108,
+      826,
+      199
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 132,
+    "side": "b",
+    "addition_index": 0,
+    "text": "77",
+    "bbox": [
+      65,
+      88,
+      134,
+      134
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 132,
+    "side": "b",
+    "addition_index": 1,
+    "text": "Разные",
+    "bbox": [
+      771,
+      110,
+      822,
+      148
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 132,
+    "side": "b",
+    "addition_index": 2,
+    "text": "способы",
+    "bbox": [
+      757,
+      124,
+      813,
+      163
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 132,
+    "side": "b",
+    "addition_index": 3,
+    "text": "решения",
+    "bbox": [
+      750,
+      142,
+      807,
+      181
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 132,
+    "side": "b",
+    "addition_index": 4,
+    "text": "задач",
+    "bbox": [
+      759,
+      167,
+      803,
+      196
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 135,
+    "side": "a",
+    "addition_index": 2,
+    "text": "−",
+    "bbox": [
+      510,
+      607,
+      533,
+      637
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 135,
+    "side": "b",
+    "addition_index": 2,
+    "text": "–",
+    "bbox": [
+      513,
+      613,
+      535,
+      628
+    ],
+    "decision": "add_from_round2"
+  },
+  {
+    "page": 136,
+    "side": "a",
+    "addition_index": 9,
+    "text": "S",
+    "bbox": [
+      266,
+      413,
+      283,
+      437
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 141,
+    "side": "a",
+    "addition_index": 1,
+    "text": "б) 9 000 = □",
+    "bbox": [
+      124,
+      958,
+      276,
+      990
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 141,
+    "side": "b",
+    "addition_index": 1,
+    "text": "б) 9 000 = □ –",
+    "bbox": [
+      122,
+      957,
+      302,
+      989
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 143,
+    "side": "a",
+    "addition_index": 0,
+    "text": "Глоссарий .................................................................................................................................................................142",
+    "bbox": [
+      84,
+      1284,
+      881,
+      1312
+    ],
+    "decision": "retain_round1"
+  },
+  {
+    "page": 143,
+    "side": "b",
+    "addition_index": 0,
+    "text": "Письменное умножение многозначных чисел, оканчивающихся нолями … 15",
+    "bbox": [
+      120,
+      342,
+      881,
+      363
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 143,
+    "side": "b",
+    "addition_index": 1,
+    "text": "Письменное деление многозначных чисел на двузначное число с остатком … 33",
+    "bbox": [
+      120,
+      461,
+      881,
+      481
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 143,
+    "side": "b",
+    "addition_index": 2,
+    "text": "Алгоритм умножения на трёхзначное число … 52",
+    "bbox": [
+      120,
+      603,
+      881,
+      624
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 143,
+    "side": "b",
+    "addition_index": 3,
+    "text": "Алгоритм умножения и деления на трёхзначное число … 69",
+    "bbox": [
+      120,
+      720,
+      881,
+      741
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 143,
+    "side": "b",
+    "addition_index": 4,
+    "text": "Производительность. Совместная работа … 85",
+    "bbox": [
+      120,
+      899,
+      881,
+      920
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 143,
+    "side": "b",
+    "addition_index": 5,
+    "text": "Задачи на движение в противоположных направлениях … 128",
+    "bbox": [
+      120,
+      1181,
+      881,
+      1203
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  },
+  {
+    "page": 143,
+    "side": "b",
+    "addition_index": 6,
+    "text": "Глоссарий … 142",
+    "bbox": [
+      83,
+      1287,
+      881,
+      1310
+    ],
+    "decision": "covered_or_rejected_after_source_review"
+  }
+]

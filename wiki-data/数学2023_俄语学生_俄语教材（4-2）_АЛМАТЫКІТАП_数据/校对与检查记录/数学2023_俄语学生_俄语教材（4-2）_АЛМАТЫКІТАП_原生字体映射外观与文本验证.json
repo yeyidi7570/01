@@ -1,0 +1,59 @@
+[
+  {
+    "page": 2,
+    "same_pixels": true,
+    "only_source_thinspace_encoding_repaired": true,
+    "repairs": [
+      {
+        "font": "XYUMDO+MuseoSansCyrl-300",
+        "repairs": [
+          {
+            "byte": 142,
+            "glyph_name": "thinspace",
+            "unicode": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "same_pixels": true,
+    "only_source_thinspace_encoding_repaired": true,
+    "repairs": [
+      {
+        "font": "XYUMDO+MuseoSansCyrl-300",
+        "repairs": [
+          {
+            "byte": 142,
+            "glyph_name": "thinspace",
+            "unicode": " "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "page": 142,
+    "same_pixels": true,
+    "only_source_thinspace_encoding_repaired": true,
+    "repairs": []
+  },
+  {
+    "page": 144,
+    "same_pixels": true,
+    "only_source_thinspace_encoding_repaired": true,
+    "repairs": [
+      {
+        "font": "XYUMDO+MuseoSansCyrl-300",
+        "repairs": [
+          {
+            "byte": 142,
+            "glyph_name": "thinspace",
+            "unicode": " "
+          }
+        ]
+      }
+    ]
+  }
+]

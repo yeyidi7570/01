@@ -1,0 +1,77 @@
+{
+  "page_count": 144,
+  "max_single_image_fraction_on_rebuilt_scan_pages": 0.40657677043553053,
+  "original_native_page_backgrounds": [
+    {
+      "page": 2,
+      "maximum_image_fraction": 0,
+      "original_native_text_preserved": true
+    },
+    {
+      "page": 3,
+      "maximum_image_fraction": 0.4056389536532881,
+      "original_native_text_preserved": true
+    },
+    {
+      "page": 142,
+      "maximum_image_fraction": 0,
+      "original_native_text_preserved": true
+    },
+    {
+      "page": 144,
+      "maximum_image_fraction": 0,
+      "original_native_text_preserved": true
+    }
+  ],
+  "minimum_visible_text_characters": 191,
+  "specials": {
+    "Ё": 0,
+    "ё": 262,
+    "Ъ": 22,
+    "ъ": 69,
+    "Ь": 85,
+    "ь": 1858,
+    "́": 3,
+    "¹": 0,
+    "²": 41,
+    "³": 6,
+    "ᶜ": 0,
+    "Ә": 3,
+    "Ғ": 0,
+    "Қ": 3,
+    "Ң": 0,
+    "Ө": 0,
+    "Ұ": 0,
+    "Ү": 0,
+    "Һ": 0,
+    "І": 9,
+    "ә": 1,
+    "ғ": 9,
+    "қ": 20,
+    "ң": 6,
+    "ө": 4,
+    "ұ": 1,
+    "ү": 2,
+    "һ": 0,
+    "і": 18
+  },
+  "missing_character_counts": [],
+  "search_failures": [],
+  "accented_word_search_samples": [
+    {
+      "page": 126,
+      "word": "У́зел",
+      "found": true
+    },
+    {
+      "page": 126,
+      "word": "Морска́я",
+      "found": true
+    },
+    {
+      "page": 126,
+      "word": "ми́ля",
+      "found": true
+    }
+  ]
+}

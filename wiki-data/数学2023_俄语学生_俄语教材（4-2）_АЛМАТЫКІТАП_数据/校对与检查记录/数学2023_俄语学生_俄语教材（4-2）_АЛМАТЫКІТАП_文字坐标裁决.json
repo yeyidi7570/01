@@ -1,0 +1,3436 @@
+[
+  {
+    "page": 9,
+    "id": "19",
+    "before": [
+      129,
+      798,
+      372,
+      831
+    ],
+    "after": [
+      129,
+      798,
+      368.0,
+      831
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 9,
+    "id": "20",
+    "before": [
+      364,
+      800,
+      417,
+      827
+    ],
+    "after": [
+      368.0,
+      800,
+      417,
+      827
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 12,
+    "id": "7",
+    "before": [
+      156,
+      232,
+      503,
+      255
+    ],
+    "after": [
+      156,
+      232,
+      498.0,
+      255
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 12,
+    "id": "8",
+    "before": [
+      493,
+      233,
+      862,
+      253
+    ],
+    "after": [
+      498.0,
+      233,
+      862,
+      253
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 13,
+    "id": "25",
+    "before": [
+      129,
+      826,
+      332,
+      856
+    ],
+    "after": [
+      129,
+      826,
+      329.0,
+      856
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 13,
+    "id": "26",
+    "before": [
+      326,
+      826,
+      359,
+      854
+    ],
+    "after": [
+      329.0,
+      826,
+      359,
+      854
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 15,
+    "id": "11",
+    "before": [
+      175,
+      420,
+      291,
+      445
+    ],
+    "after": [
+      175,
+      420,
+      289.0,
+      445
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 15,
+    "id": "12",
+    "before": [
+      287,
+      420,
+      835,
+      447
+    ],
+    "after": [
+      289.0,
+      420,
+      835,
+      447
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 16,
+    "id": "26",
+    "before": [
+      192,
+      769,
+      361,
+      801
+    ],
+    "after": [
+      192,
+      769,
+      354.0,
+      801
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 16,
+    "id": "27",
+    "before": [
+      347,
+      772,
+      861,
+      800
+    ],
+    "after": [
+      354.0,
+      772,
+      861,
+      800
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 17,
+    "id": "6",
+    "before": [
+      160,
+      297,
+      472,
+      328
+    ],
+    "after": [
+      160,
+      297,
+      468.5,
+      328
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 17,
+    "id": "7",
+    "before": [
+      465,
+      299,
+      508,
+      326
+    ],
+    "after": [
+      468.5,
+      299,
+      508,
+      326
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 19,
+    "id": "17",
+    "before": [
+      135,
+      769,
+      457,
+      800
+    ],
+    "after": [
+      135,
+      769,
+      447.5,
+      800
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 19,
+    "id": "18",
+    "before": [
+      438,
+      767,
+      836,
+      800
+    ],
+    "after": [
+      447.5,
+      767,
+      836,
+      800
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 19,
+    "id": "19",
+    "before": [
+      133,
+      802,
+      788,
+      832
+    ],
+    "after": [
+      133,
+      802,
+      782.0,
+      832
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 19,
+    "id": "20",
+    "before": [
+      776,
+      804,
+      834,
+      830
+    ],
+    "after": [
+      782.0,
+      804,
+      834,
+      830
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 19,
+    "id": "28",
+    "before": [
+      129,
+      1153,
+      731,
+      1186
+    ],
+    "after": [
+      129,
+      1153,
+      728.0,
+      1186
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 19,
+    "id": "29",
+    "before": [
+      725,
+      1159,
+      831,
+      1184
+    ],
+    "after": [
+      728.0,
+      1159,
+      831,
+      1184
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 19,
+    "id": "30",
+    "before": [
+      128,
+      1187,
+      241,
+      1218
+    ],
+    "after": [
+      128,
+      1187,
+      238.5,
+      1218
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 19,
+    "id": "31",
+    "before": [
+      236,
+      1187,
+      744,
+      1219
+    ],
+    "after": [
+      238.5,
+      1187,
+      744,
+      1219
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 21,
+    "id": "14",
+    "before": [
+      276,
+      462,
+      412,
+      483
+    ],
+    "after": [
+      276,
+      462,
+      411.0,
+      483
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 21,
+    "id": "15",
+    "before": [
+      410,
+      464,
+      435,
+      480
+    ],
+    "after": [
+      411.0,
+      464,
+      435,
+      480
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 21,
+    "id": "17",
+    "before": [
+      176,
+      489,
+      292,
+      515
+    ],
+    "after": [
+      176,
+      489,
+      291.0,
+      515
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 21,
+    "id": "18",
+    "before": [
+      290,
+      487,
+      834,
+      518
+    ],
+    "after": [
+      291.0,
+      487,
+      834,
+      518
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 25,
+    "id": "12",
+    "before": [
+      129,
+      490,
+      566,
+      523
+    ],
+    "after": [
+      129,
+      490,
+      559.0,
+      523
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 25,
+    "id": "13",
+    "before": [
+      552,
+      494,
+      640,
+      522
+    ],
+    "after": [
+      559.0,
+      494,
+      640,
+      522
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 25,
+    "id": "17",
+    "before": [
+      130,
+      622,
+      232,
+      653
+    ],
+    "after": [
+      130,
+      622,
+      231.5,
+      653
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 25,
+    "id": "18",
+    "before": [
+      231,
+      622,
+      505,
+      650
+    ],
+    "after": [
+      231.5,
+      622,
+      505,
+      650
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 25,
+    "id": "18",
+    "before": [
+      231.5,
+      622,
+      505,
+      650
+    ],
+    "after": [
+      231.5,
+      622,
+      498.5,
+      650
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 25,
+    "id": "19",
+    "before": [
+      492,
+      623,
+      646,
+      650
+    ],
+    "after": [
+      498.5,
+      623,
+      646,
+      650
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 26,
+    "id": "15",
+    "before": [
+      373,
+      320,
+      566,
+      344
+    ],
+    "after": [
+      373,
+      320,
+      562.0,
+      344
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 26,
+    "id": "16",
+    "before": [
+      558,
+      316,
+      871,
+      347
+    ],
+    "after": [
+      562.0,
+      316,
+      871,
+      347
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 26,
+    "id": "23",
+    "before": [
+      371,
+      416,
+      753,
+      443
+    ],
+    "after": [
+      371,
+      416,
+      747.0,
+      443
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 26,
+    "id": "24",
+    "before": [
+      741,
+      418,
+      822,
+      439
+    ],
+    "after": [
+      747.0,
+      418,
+      822,
+      439
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 26,
+    "id": "24",
+    "before": [
+      747.0,
+      418,
+      822,
+      439
+    ],
+    "after": [
+      747.0,
+      418,
+      820.5,
+      439
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 26,
+    "id": "25",
+    "before": [
+      819,
+      417,
+      872,
+      439
+    ],
+    "after": [
+      820.5,
+      417,
+      872,
+      439
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 27,
+    "id": "27",
+    "before": [
+      175,
+      1133,
+      224,
+      1160
+    ],
+    "after": [
+      175,
+      1133,
+      219.0,
+      1160
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 27,
+    "id": "28",
+    "before": [
+      214,
+      1133,
+      336,
+      1161
+    ],
+    "after": [
+      219.0,
+      1133,
+      336,
+      1161
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 27,
+    "id": "28",
+    "before": [
+      219.0,
+      1133,
+      336,
+      1161
+    ],
+    "after": [
+      219.0,
+      1133,
+      331.5,
+      1161
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 27,
+    "id": "29",
+    "before": [
+      327,
+      1133,
+      442,
+      1161
+    ],
+    "after": [
+      331.5,
+      1133,
+      442,
+      1161
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 27,
+    "id": "29",
+    "before": [
+      331.5,
+      1133,
+      442,
+      1161
+    ],
+    "after": [
+      331.5,
+      1133,
+      435.5,
+      1161
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 27,
+    "id": "30",
+    "before": [
+      429,
+      1134,
+      575,
+      1158
+    ],
+    "after": [
+      435.5,
+      1134,
+      575,
+      1158
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 29,
+    "id": "32",
+    "before": [
+      343,
+      1044,
+      693,
+      1074
+    ],
+    "after": [
+      343,
+      1044,
+      686.5,
+      1074
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 29,
+    "id": "33",
+    "before": [
+      680,
+      1049,
+      760,
+      1071
+    ],
+    "after": [
+      686.5,
+      1049,
+      760,
+      1071
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 30,
+    "id": "32",
+    "before": [
+      160,
+      1130,
+      187,
+      1152
+    ],
+    "after": [
+      160,
+      1130,
+      185.0,
+      1152
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 30,
+    "id": "33",
+    "before": [
+      183,
+      1128,
+      862,
+      1155
+    ],
+    "after": [
+      185.0,
+      1128,
+      862,
+      1155
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 30,
+    "id": "34",
+    "before": [
+      157,
+      1159,
+      368,
+      1187
+    ],
+    "after": [
+      157,
+      1159,
+      367.0,
+      1187
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 30,
+    "id": "35",
+    "before": [
+      366,
+      1159,
+      439,
+      1185
+    ],
+    "after": [
+      367.0,
+      1159,
+      439,
+      1185
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 30,
+    "id": "35",
+    "before": [
+      367.0,
+      1159,
+      439,
+      1185
+    ],
+    "after": [
+      367.0,
+      1159,
+      438.5,
+      1185
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 30,
+    "id": "36",
+    "before": [
+      438,
+      1159,
+      507,
+      1187
+    ],
+    "after": [
+      438.5,
+      1159,
+      507,
+      1187
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 31,
+    "id": "6",
+    "before": [
+      405,
+      308,
+      428,
+      354
+    ],
+    "after": [
+      405,
+      308,
+      427.5,
+      354
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 31,
+    "id": "7",
+    "before": [
+      427,
+      309,
+      832,
+      341
+    ],
+    "after": [
+      427.5,
+      309,
+      832,
+      341
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 34,
+    "id": "24",
+    "before": [
+      592,
+      563,
+      705,
+      594
+    ],
+    "after": [
+      592,
+      563,
+      701.0,
+      594
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 34,
+    "id": "25",
+    "before": [
+      697,
+      566,
+      734,
+      591
+    ],
+    "after": [
+      701.0,
+      566,
+      734,
+      591
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 34,
+    "id": "25",
+    "before": [
+      701.0,
+      566,
+      734,
+      591
+    ],
+    "after": [
+      701.0,
+      566,
+      730.5,
+      591
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 34,
+    "id": "26",
+    "before": [
+      727,
+      566,
+      762,
+      590
+    ],
+    "after": [
+      730.5,
+      566,
+      762,
+      590
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 34,
+    "id": "26",
+    "before": [
+      730.5,
+      566,
+      762,
+      590
+    ],
+    "after": [
+      730.5,
+      566,
+      759.0,
+      590
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 34,
+    "id": "27",
+    "before": [
+      756,
+      564,
+      848,
+      593
+    ],
+    "after": [
+      759.0,
+      564,
+      848,
+      593
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 36,
+    "id": "38",
+    "before": [
+      751,
+      944,
+      780,
+      960
+    ],
+    "after": [
+      751,
+      944,
+      779.0,
+      960
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 36,
+    "id": "a8",
+    "before": [
+      778,
+      938,
+      865,
+      970
+    ],
+    "after": [
+      779.0,
+      938,
+      865,
+      970
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 36,
+    "id": "36",
+    "before": [
+      205,
+      950,
+      419,
+      974
+    ],
+    "after": [
+      205,
+      950,
+      414.0,
+      974
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 36,
+    "id": "37",
+    "before": [
+      409,
+      951,
+      517,
+      972
+    ],
+    "after": [
+      414.0,
+      951,
+      517,
+      972
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 44,
+    "id": "20",
+    "before": [
+      761,
+      764,
+      850,
+      786
+    ],
+    "after": [
+      761,
+      764,
+      845.5,
+      786
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 44,
+    "id": "21",
+    "before": [
+      841,
+      765,
+      888,
+      787
+    ],
+    "after": [
+      845.5,
+      765,
+      888,
+      787
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 49,
+    "id": "5",
+    "before": [
+      360,
+      217,
+      483,
+      247
+    ],
+    "after": [
+      360,
+      217,
+      479.5,
+      247
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 49,
+    "id": "6",
+    "before": [
+      476,
+      217,
+      858,
+      250
+    ],
+    "after": [
+      479.5,
+      217,
+      858,
+      250
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 49,
+    "id": "15",
+    "before": [
+      483,
+      314,
+      566,
+      335
+    ],
+    "after": [
+      483,
+      314,
+      561.0,
+      335
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 49,
+    "id": "16",
+    "before": [
+      556,
+      314,
+      630,
+      336
+    ],
+    "after": [
+      561.0,
+      314,
+      630,
+      336
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 49,
+    "id": "18",
+    "before": [
+      659,
+      313,
+      771,
+      337
+    ],
+    "after": [
+      659,
+      313,
+      770.5,
+      337
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 49,
+    "id": "19",
+    "before": [
+      770,
+      312,
+      859,
+      337
+    ],
+    "after": [
+      770.5,
+      312,
+      859,
+      337
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 49,
+    "id": "21",
+    "before": [
+      361,
+      342,
+      483,
+      367
+    ],
+    "after": [
+      361,
+      342,
+      481.0,
+      367
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 49,
+    "id": "22",
+    "before": [
+      479,
+      343,
+      651,
+      368
+    ],
+    "after": [
+      481.0,
+      343,
+      651,
+      368
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 49,
+    "id": "26",
+    "before": [
+      381,
+      403,
+      491,
+      427
+    ],
+    "after": [
+      381,
+      403,
+      489.0,
+      427
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 49,
+    "id": "27",
+    "before": [
+      487,
+      402,
+      844,
+      428
+    ],
+    "after": [
+      489.0,
+      402,
+      844,
+      428
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 53,
+    "id": "7",
+    "before": [
+      174,
+      221,
+      296,
+      245
+    ],
+    "after": [
+      174,
+      221,
+      292.0,
+      245
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 53,
+    "id": "8",
+    "before": [
+      288,
+      221,
+      836,
+      245
+    ],
+    "after": [
+      292.0,
+      221,
+      836,
+      245
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 53,
+    "id": "30",
+    "before": [
+      134,
+      494,
+      431,
+      521
+    ],
+    "after": [
+      134,
+      494,
+      425.0,
+      521
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 53,
+    "id": "31",
+    "before": [
+      419,
+      495,
+      511,
+      523
+    ],
+    "after": [
+      425.0,
+      495,
+      511,
+      523
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 53,
+    "id": "32",
+    "before": [
+      134,
+      526,
+      278,
+      553
+    ],
+    "after": [
+      134,
+      526,
+      277.5,
+      553
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 53,
+    "id": "33",
+    "before": [
+      277,
+      529,
+      394,
+      552
+    ],
+    "after": [
+      277.5,
+      529,
+      394,
+      552
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 53,
+    "id": "37",
+    "before": [
+      626,
+      526,
+      688,
+      556
+    ],
+    "after": [
+      626,
+      526,
+      683.0,
+      556
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 53,
+    "id": "38",
+    "before": [
+      678,
+      526,
+      829,
+      554
+    ],
+    "after": [
+      683.0,
+      526,
+      829,
+      554
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 53,
+    "id": "39",
+    "before": [
+      133,
+      559,
+      335,
+      585
+    ],
+    "after": [
+      133,
+      559,
+      330.0,
+      585
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 53,
+    "id": "40",
+    "before": [
+      325,
+      557,
+      512,
+      587
+    ],
+    "after": [
+      330.0,
+      557,
+      512,
+      587
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 53,
+    "id": "41",
+    "before": [
+      134,
+      590,
+      334,
+      617
+    ],
+    "after": [
+      134,
+      590,
+      331.0,
+      617
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 53,
+    "id": "42",
+    "before": [
+      328,
+      590,
+      829,
+      617
+    ],
+    "after": [
+      331.0,
+      590,
+      829,
+      617
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 54,
+    "id": "9",
+    "before": [
+      186,
+      727,
+      373,
+      751
+    ],
+    "after": [
+      186,
+      727,
+      366.0,
+      751
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 54,
+    "id": "10",
+    "before": [
+      359,
+      725,
+      786,
+      753
+    ],
+    "after": [
+      366.0,
+      725,
+      786,
+      753
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 59,
+    "id": "35",
+    "before": [
+      124,
+      740,
+      380,
+      771
+    ],
+    "after": [
+      124,
+      740,
+      376.5,
+      771
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 59,
+    "id": "36",
+    "before": [
+      373,
+      745,
+      416,
+      768
+    ],
+    "after": [
+      376.5,
+      745,
+      416,
+      768
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 59,
+    "id": "40",
+    "before": [
+      408,
+      740,
+      442,
+      773
+    ],
+    "after": [
+      408,
+      740,
+      438.5,
+      773
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 59,
+    "id": "37",
+    "before": [
+      435,
+      744,
+      522,
+      769
+    ],
+    "after": [
+      438.5,
+      744,
+      522,
+      769
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 60,
+    "id": "8",
+    "before": [
+      160,
+      491,
+      651,
+      521
+    ],
+    "after": [
+      160,
+      491,
+      648.5,
+      521
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 60,
+    "id": "9",
+    "before": [
+      646,
+      487,
+      863,
+      524
+    ],
+    "after": [
+      648.5,
+      487,
+      863,
+      524
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 68,
+    "id": "8",
+    "before": [
+      165,
+      459,
+      190,
+      480
+    ],
+    "after": [
+      165,
+      459,
+      188.0,
+      480
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 68,
+    "id": "9",
+    "before": [
+      186,
+      455,
+      862,
+      483
+    ],
+    "after": [
+      188.0,
+      455,
+      862,
+      483
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 77,
+    "id": "9",
+    "before": [
+      185,
+      229,
+      366,
+      263
+    ],
+    "after": [
+      185,
+      229,
+      365.0,
+      263
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 77,
+    "id": "10",
+    "before": [
+      364,
+      236,
+      549,
+      257
+    ],
+    "after": [
+      365.0,
+      236,
+      549,
+      257
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 83,
+    "id": "9",
+    "before": [
+      446,
+      414,
+      470,
+      460
+    ],
+    "after": [
+      446,
+      414,
+      469.5,
+      460
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 83,
+    "id": "10",
+    "before": [
+      469,
+      420,
+      628,
+      452
+    ],
+    "after": [
+      469.5,
+      420,
+      628,
+      452
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 83,
+    "id": "15",
+    "before": [
+      177,
+      499,
+      205,
+      521
+    ],
+    "after": [
+      177,
+      499,
+      202.0,
+      521
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 83,
+    "id": "16",
+    "before": [
+      199,
+      494,
+      424,
+      526
+    ],
+    "after": [
+      202.0,
+      494,
+      424,
+      526
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 83,
+    "id": "16",
+    "before": [
+      202.0,
+      494,
+      424,
+      526
+    ],
+    "after": [
+      202.0,
+      494,
+      419.0,
+      526
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 83,
+    "id": "17",
+    "before": [
+      414,
+      501,
+      833,
+      525
+    ],
+    "after": [
+      419.0,
+      501,
+      833,
+      525
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 86,
+    "id": "6",
+    "before": [
+      159,
+      256,
+      247,
+      286
+    ],
+    "after": [
+      159,
+      256,
+      242.0,
+      286
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 86,
+    "id": "7",
+    "before": [
+      237,
+      259,
+      864,
+      287
+    ],
+    "after": [
+      242.0,
+      259,
+      864,
+      287
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 86,
+    "id": "8",
+    "before": [
+      160,
+      293,
+      242,
+      321
+    ],
+    "after": [
+      160,
+      293,
+      241.0,
+      321
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 86,
+    "id": "9",
+    "before": [
+      240,
+      293,
+      308,
+      318
+    ],
+    "after": [
+      241.0,
+      293,
+      308,
+      318
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 86,
+    "id": "9",
+    "before": [
+      241.0,
+      293,
+      308,
+      318
+    ],
+    "after": [
+      241.0,
+      293,
+      307.0,
+      318
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 86,
+    "id": "10",
+    "before": [
+      306,
+      291,
+      864,
+      318
+    ],
+    "after": [
+      307.0,
+      291,
+      864,
+      318
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 91,
+    "id": "19",
+    "before": [
+      233,
+      590,
+      302,
+      619
+    ],
+    "after": [
+      233,
+      590,
+      299.5,
+      619
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 91,
+    "id": "20",
+    "before": [
+      297,
+      592,
+      408,
+      620
+    ],
+    "after": [
+      299.5,
+      592,
+      408,
+      620
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 91,
+    "id": "21",
+    "before": [
+      129,
+      621,
+      331,
+      653
+    ],
+    "after": [
+      129,
+      621,
+      325.0,
+      653
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 91,
+    "id": "22",
+    "before": [
+      319,
+      624,
+      407,
+      650
+    ],
+    "after": [
+      325.0,
+      624,
+      407,
+      650
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 91,
+    "id": "24",
+    "before": [
+      164,
+      656,
+      255,
+      681
+    ],
+    "after": [
+      164,
+      656,
+      252.5,
+      681
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 91,
+    "id": "25",
+    "before": [
+      250,
+      652,
+      407,
+      680
+    ],
+    "after": [
+      252.5,
+      652,
+      407,
+      680
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 91,
+    "id": "23",
+    "before": [
+      131,
+      658,
+      167,
+      678
+    ],
+    "after": [
+      131,
+      658,
+      165.5,
+      678
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 91,
+    "id": "24",
+    "before": [
+      164,
+      656,
+      252.5,
+      681
+    ],
+    "after": [
+      165.5,
+      656,
+      252.5,
+      681
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 91,
+    "id": "38",
+    "before": [
+      131,
+      1195,
+      680,
+      1225
+    ],
+    "after": [
+      131,
+      1195,
+      675.0,
+      1225
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 91,
+    "id": "39",
+    "before": [
+      670,
+      1194,
+      833,
+      1225
+    ],
+    "after": [
+      675.0,
+      1194,
+      833,
+      1225
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 95,
+    "id": "3",
+    "before": [
+      174,
+      187,
+      589,
+      218
+    ],
+    "after": [
+      174,
+      187,
+      584.0,
+      218
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 95,
+    "id": "4",
+    "before": [
+      579,
+      189,
+      837,
+      217
+    ],
+    "after": [
+      584.0,
+      189,
+      837,
+      217
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 95,
+    "id": "5",
+    "before": [
+      173,
+      216,
+      353,
+      248
+    ],
+    "after": [
+      173,
+      216,
+      344.5,
+      248
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 95,
+    "id": "6",
+    "before": [
+      336,
+      217,
+      836,
+      248
+    ],
+    "after": [
+      344.5,
+      217,
+      836,
+      248
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 95,
+    "id": "25",
+    "before": [
+      539,
+      524,
+      626,
+      549
+    ],
+    "after": [
+      539,
+      524,
+      624.5,
+      549
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 95,
+    "id": "26",
+    "before": [
+      623,
+      530,
+      638,
+      544
+    ],
+    "after": [
+      624.5,
+      530,
+      638,
+      544
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 95,
+    "id": "29",
+    "before": [
+      538,
+      555,
+      590,
+      582
+    ],
+    "after": [
+      538,
+      555,
+      587.5,
+      582
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 95,
+    "id": "30",
+    "before": [
+      585,
+      556,
+      750,
+      583
+    ],
+    "after": [
+      587.5,
+      556,
+      750,
+      583
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 95,
+    "id": "44",
+    "before": [
+      126,
+      1180,
+      575,
+      1211
+    ],
+    "after": [
+      126,
+      1180,
+      570.5,
+      1211
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 95,
+    "id": "45",
+    "before": [
+      566,
+      1180,
+      836,
+      1211
+    ],
+    "after": [
+      570.5,
+      1180,
+      836,
+      1211
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 95,
+    "id": "46",
+    "before": [
+      125,
+      1214,
+      576,
+      1242
+    ],
+    "after": [
+      125,
+      1214,
+      569.0,
+      1242
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 95,
+    "id": "47",
+    "before": [
+      562,
+      1215,
+      836,
+      1241
+    ],
+    "after": [
+      569.0,
+      1215,
+      836,
+      1241
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 100,
+    "id": "5",
+    "before": [
+      157,
+      301,
+      357,
+      331
+    ],
+    "after": [
+      157,
+      301,
+      350.5,
+      331
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 100,
+    "id": "6",
+    "before": [
+      344,
+      302,
+      720,
+      331
+    ],
+    "after": [
+      350.5,
+      302,
+      720,
+      331
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 100,
+    "id": "8",
+    "before": [
+      153,
+      328,
+      731,
+      368
+    ],
+    "after": [
+      153,
+      328,
+      724.0,
+      368
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 100,
+    "id": "9",
+    "before": [
+      717,
+      331,
+      862,
+      362
+    ],
+    "after": [
+      724.0,
+      331,
+      862,
+      362
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 100,
+    "id": "10",
+    "before": [
+      157,
+      365,
+      705,
+      396
+    ],
+    "after": [
+      157,
+      365,
+      703.5,
+      396
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 100,
+    "id": "11",
+    "before": [
+      702,
+      369,
+      835,
+      393
+    ],
+    "after": [
+      703.5,
+      369,
+      835,
+      393
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 100,
+    "id": "11",
+    "before": [
+      703.5,
+      369,
+      835,
+      393
+    ],
+    "after": [
+      703.5,
+      369,
+      832.0,
+      393
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 100,
+    "id": "12",
+    "before": [
+      829,
+      372,
+      860,
+      392
+    ],
+    "after": [
+      832.0,
+      372,
+      860,
+      392
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 101,
+    "id": "a7",
+    "before": [
+      364,
+      333,
+      426,
+      350
+    ],
+    "after": [
+      364,
+      333,
+      423.0,
+      350
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 101,
+    "id": "6",
+    "before": [
+      420,
+      310,
+      483,
+      365
+    ],
+    "after": [
+      423.0,
+      310,
+      483,
+      365
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 103,
+    "id": "34",
+    "before": [
+      126,
+      1189,
+      759,
+      1223
+    ],
+    "after": [
+      126,
+      1189,
+      753.5,
+      1223
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 103,
+    "id": "35",
+    "before": [
+      748,
+      1191,
+      834,
+      1220
+    ],
+    "after": [
+      753.5,
+      1191,
+      834,
+      1220
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 103,
+    "id": "36",
+    "before": [
+      130,
+      1225,
+      270,
+      1252
+    ],
+    "after": [
+      130,
+      1225,
+      268.5,
+      1252
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 103,
+    "id": "37",
+    "before": [
+      267,
+      1227,
+      363,
+      1252
+    ],
+    "after": [
+      268.5,
+      1227,
+      363,
+      1252
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 103,
+    "id": "37",
+    "before": [
+      268.5,
+      1227,
+      363,
+      1252
+    ],
+    "after": [
+      268.5,
+      1227,
+      360.5,
+      1252
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 103,
+    "id": "38",
+    "before": [
+      358,
+      1226,
+      658,
+      1253
+    ],
+    "after": [
+      360.5,
+      1226,
+      658,
+      1253
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 103,
+    "id": "38",
+    "before": [
+      360.5,
+      1226,
+      658,
+      1253
+    ],
+    "after": [
+      360.5,
+      1226,
+      655.5,
+      1253
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 103,
+    "id": "39",
+    "before": [
+      653,
+      1227,
+      757,
+      1251
+    ],
+    "after": [
+      655.5,
+      1227,
+      757,
+      1251
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 104,
+    "id": "33",
+    "before": [
+      459,
+      790,
+      545,
+      814
+    ],
+    "after": [
+      459,
+      790,
+      542.0,
+      814
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 104,
+    "id": "34",
+    "before": [
+      539,
+      790,
+      635,
+      814
+    ],
+    "after": [
+      542.0,
+      790,
+      635,
+      814
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 104,
+    "id": "37",
+    "before": [
+      460,
+      814,
+      549,
+      839
+    ],
+    "after": [
+      460,
+      814,
+      548.5,
+      839
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 104,
+    "id": "38",
+    "before": [
+      548,
+      815,
+      634,
+      840
+    ],
+    "after": [
+      548.5,
+      815,
+      634,
+      840
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "12",
+    "before": [
+      173,
+      509,
+      273,
+      545
+    ],
+    "after": [
+      173,
+      509,
+      266.5,
+      545
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "13",
+    "before": [
+      260,
+      514,
+      367,
+      539
+    ],
+    "after": [
+      266.5,
+      514,
+      367,
+      539
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "13",
+    "before": [
+      266.5,
+      514,
+      367,
+      539
+    ],
+    "after": [
+      266.5,
+      514,
+      363.0,
+      539
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "14",
+    "before": [
+      359,
+      516,
+      468,
+      540
+    ],
+    "after": [
+      363.0,
+      516,
+      468,
+      540
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "15",
+    "before": [
+      455,
+      515,
+      591,
+      539
+    ],
+    "after": [
+      455,
+      515,
+      584.0,
+      539
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "16",
+    "before": [
+      577,
+      511,
+      834,
+      542
+    ],
+    "after": [
+      584.0,
+      511,
+      834,
+      542
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "14",
+    "before": [
+      363.0,
+      516,
+      468,
+      540
+    ],
+    "after": [
+      363.0,
+      516,
+      461.5,
+      540
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "15",
+    "before": [
+      455,
+      515,
+      584.0,
+      539
+    ],
+    "after": [
+      461.5,
+      515,
+      584.0,
+      539
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "17",
+    "before": [
+      173,
+      539,
+      244,
+      572
+    ],
+    "after": [
+      173,
+      539,
+      237.5,
+      572
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "18",
+    "before": [
+      231,
+      545,
+      324,
+      569
+    ],
+    "after": [
+      237.5,
+      545,
+      324,
+      569
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "20",
+    "before": [
+      463,
+      544,
+      567,
+      568
+    ],
+    "after": [
+      463,
+      544,
+      564.5,
+      568
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "21",
+    "before": [
+      562,
+      541,
+      834,
+      571
+    ],
+    "after": [
+      564.5,
+      541,
+      834,
+      571
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "18",
+    "before": [
+      237.5,
+      545,
+      324,
+      569
+    ],
+    "after": [
+      237.5,
+      545,
+      322.0,
+      569
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "19",
+    "before": [
+      320,
+      544,
+      460,
+      568
+    ],
+    "after": [
+      322.0,
+      544,
+      460,
+      568
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "32",
+    "before": [
+      126,
+      982,
+      254,
+      1011
+    ],
+    "after": [
+      126,
+      982,
+      252.0,
+      1011
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "33",
+    "before": [
+      250,
+      984,
+      834,
+      1012
+    ],
+    "after": [
+      252.0,
+      984,
+      834,
+      1012
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "34",
+    "before": [
+      125,
+      1011,
+      261,
+      1043
+    ],
+    "after": [
+      125,
+      1011,
+      260.5,
+      1043
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "35",
+    "before": [
+      260,
+      1012,
+      385,
+      1040
+    ],
+    "after": [
+      260.5,
+      1012,
+      385,
+      1040
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "37",
+    "before": [
+      158,
+      1040,
+      262,
+      1069
+    ],
+    "after": [
+      158,
+      1040,
+      256.0,
+      1069
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "38",
+    "before": [
+      250,
+      1042,
+      367,
+      1073
+    ],
+    "after": [
+      256.0,
+      1042,
+      367,
+      1073
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "45",
+    "before": [
+      588,
+      1135,
+      725,
+      1159
+    ],
+    "after": [
+      588,
+      1135,
+      723.0,
+      1159
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "46",
+    "before": [
+      721,
+      1132,
+      840,
+      1159
+    ],
+    "after": [
+      723.0,
+      1132,
+      840,
+      1159
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "49",
+    "before": [
+      160,
+      1192,
+      328,
+      1223
+    ],
+    "after": [
+      160,
+      1192,
+      322.5,
+      1223
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "50",
+    "before": [
+      317,
+      1193,
+      762,
+      1221
+    ],
+    "after": [
+      322.5,
+      1193,
+      762,
+      1221
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "53",
+    "before": [
+      122,
+      1249,
+      161,
+      1282
+    ],
+    "after": [
+      122,
+      1249,
+      159.0,
+      1282
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 115,
+    "id": "54",
+    "before": [
+      157,
+      1253,
+      572,
+      1282
+    ],
+    "after": [
+      159.0,
+      1253,
+      572,
+      1282
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 118,
+    "id": "24",
+    "before": [
+      555,
+      816,
+      711,
+      837
+    ],
+    "after": [
+      555,
+      816,
+      706.5,
+      837
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 118,
+    "id": "25",
+    "before": [
+      702,
+      814,
+      840,
+      840
+    ],
+    "after": [
+      706.5,
+      814,
+      840,
+      840
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 125,
+    "id": "23",
+    "before": [
+      286,
+      748,
+      490,
+      772
+    ],
+    "after": [
+      286,
+      748,
+      483.5,
+      772
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 125,
+    "id": "24",
+    "before": [
+      477,
+      747,
+      842,
+      774
+    ],
+    "after": [
+      483.5,
+      747,
+      842,
+      774
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 130,
+    "id": "28",
+    "before": [
+      202,
+      667,
+      355,
+      694
+    ],
+    "after": [
+      202,
+      667,
+      349.0,
+      694
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 130,
+    "id": "29",
+    "before": [
+      343,
+      669,
+      486,
+      693
+    ],
+    "after": [
+      349.0,
+      669,
+      486,
+      693
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 130,
+    "id": "29",
+    "before": [
+      349.0,
+      669,
+      486,
+      693
+    ],
+    "after": [
+      349.0,
+      669,
+      483.0,
+      693
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 130,
+    "id": "30",
+    "before": [
+      480,
+      669,
+      563,
+      693
+    ],
+    "after": [
+      483.0,
+      669,
+      563,
+      693
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 130,
+    "id": "30",
+    "before": [
+      483.0,
+      669,
+      563,
+      693
+    ],
+    "after": [
+      483.0,
+      669,
+      562.5,
+      693
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 130,
+    "id": "31",
+    "before": [
+      562,
+      669,
+      695,
+      693
+    ],
+    "after": [
+      562.5,
+      669,
+      695,
+      693
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 136,
+    "id": "27",
+    "before": [
+      207,
+      720,
+      364,
+      748
+    ],
+    "after": [
+      207,
+      720,
+      363.0,
+      748
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 136,
+    "id": "28",
+    "before": [
+      362,
+      721,
+      578,
+      749
+    ],
+    "after": [
+      363.0,
+      721,
+      578,
+      749
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 136,
+    "id": "28",
+    "before": [
+      363.0,
+      721,
+      578,
+      749
+    ],
+    "after": [
+      363.0,
+      721,
+      576.5,
+      749
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 136,
+    "id": "29",
+    "before": [
+      575,
+      724,
+      669,
+      748
+    ],
+    "after": [
+      576.5,
+      724,
+      669,
+      748
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 136,
+    "id": "29",
+    "before": [
+      576.5,
+      724,
+      669,
+      748
+    ],
+    "after": [
+      576.5,
+      724,
+      666.5,
+      748
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 136,
+    "id": "30",
+    "before": [
+      664,
+      723,
+      856,
+      747
+    ],
+    "after": [
+      666.5,
+      723,
+      856,
+      747
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 137,
+    "id": "9",
+    "before": [
+      136,
+      386,
+      364,
+      410
+    ],
+    "after": [
+      136,
+      386,
+      363.0,
+      410
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 137,
+    "id": "10",
+    "before": [
+      362,
+      383,
+      825,
+      411
+    ],
+    "after": [
+      363.0,
+      383,
+      825,
+      411
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 139,
+    "id": "45",
+    "before": [
+      213,
+      1175,
+      283,
+      1200
+    ],
+    "after": [
+      213,
+      1175,
+      279.5,
+      1200
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 139,
+    "id": "46",
+    "before": [
+      276,
+      1173,
+      331,
+      1200
+    ],
+    "after": [
+      279.5,
+      1173,
+      331,
+      1200
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 141,
+    "id": "6",
+    "before": [
+      128,
+      300,
+      752,
+      329
+    ],
+    "after": [
+      128,
+      300,
+      748.0,
+      329
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  },
+  {
+    "page": 141,
+    "id": "7",
+    "before": [
+      744,
+      303,
+      833,
+      327
+    ],
+    "after": [
+      748.0,
+      303,
+      833,
+      327
+    ],
+    "reason": "clip_small_neighbor_overlap"
+  }
+]

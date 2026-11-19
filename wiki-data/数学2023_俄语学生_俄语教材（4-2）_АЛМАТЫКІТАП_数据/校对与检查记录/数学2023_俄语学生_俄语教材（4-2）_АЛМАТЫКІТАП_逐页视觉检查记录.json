@@ -1,0 +1,78 @@
+{
+  "page_count": 144,
+  "original_contact_sheets_directly_viewed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "paired_original_rebuilt_contact_sheets_directly_viewed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "full_size_rebuild_checks": [
+    1,
+    7,
+    22,
+    65,
+    78,
+    124,
+    127,
+    131,
+    132,
+    143,
+    58
+  ],
+  "patch_pages": [
+    58,
+    124,
+    127,
+    131,
+    132
+  ],
+  "source_detail_checks": "501 raw-line disagreements grouped into physical rows; 114 actual nonnative differences and 155 additions directly compared with original crops; native pages and margin marks handled separately. Source geometry, handwritten examples, real tables and all TOC rows independently reviewed.",
+  "visible_repairs": [
+    "Expanded numeric-expression source bounds",
+    "Fixed table cell centering and glyph size",
+    "Preserved complete handwritten grids and original deliberate mistakes",
+    "Restored source question markers",
+    "Rebuilt TOC leaders as vectors",
+    "Separated duplicated bullet positions"
+  ],
+  "copy_repairs": "Flattened multiline hidden illustration captions only in the PDF extraction layer; source line breaks remain in JSON and illustration appearance.",
+  "lossless_optimization": {
+    "pages": 144,
+    "pixel_identical_to_visually_reviewed_renders": true
+  },
+  "pdf_sha256": "939a40550fc0b1108e79621ce072a2e5ff8b025fd8a5fa6e9bd51e52479d2bd2",
+  "pdf_bytes": 62542400,
+  "limitations": [
+    "Approximate embedded fonts on rebuilt pages",
+    "Very small incidental illustration fine print limited by source resolution"
+  ],
+  "status": "passed"
+}
