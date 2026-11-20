@@ -1,0 +1,51 @@
+{
+  "pages": 144,
+  "original_and_rebuilt_contact_sheets_reviewed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "physical_text_difference_regions_directly_reviewed": 161,
+  "addition_difference_regions_directly_reviewed": 109,
+  "geometry_regions_directly_reviewed": 341,
+  "geometry_atlas_sheets": 57,
+  "actual_table_regions_directly_reviewed": 22,
+  "table_atlas_sheets": 4,
+  "toc_physical_rows_source_checked": 50,
+  "enlarged_rebuilt_page_probes": [
+    1,
+    2,
+    21,
+    94,
+    131,
+    143
+  ],
+  "post_patch_page_contact_checks": [
+    94,
+    95,
+    98,
+    104
+  ],
+  "all_pages_rendered": true,
+  "unresolved_visual_layout_defects": [],
+  "copy_validation_passed": true,
+  "optimization_pixel_identical": true,
+  "final_pdf_sha256": "b3b468faa4bd20bfbaeee4d89b6ab6400e434b5e5f3eae82cf2e3d6f0f136049",
+  "limitations": [
+    "Similar embedded fonts used where original fonts unavailable.",
+    "Illustration lettering retained as source crops with searchable transcription where legible; occluded or unreadable scale digits were not invented.",
+    "Wiki semantic grouping remains automatic candidates."
+  ]
+}

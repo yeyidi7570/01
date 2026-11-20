@@ -1,0 +1,45 @@
+{
+  "page": 131,
+  "original_label_id": "14",
+  "bbox": [
+    380,
+    445,
+    418,
+    479
+  ],
+  "white_cell_grids": [
+    [
+      [
+        170,
+        235,
+        300,
+        365,
+        430
+      ],
+      [
+        440,
+        483,
+        529,
+        572,
+        616
+      ]
+    ],
+    [
+      [
+        542,
+        607,
+        672,
+        736,
+        802
+      ],
+      [
+        440,
+        483,
+        529,
+        572,
+        616
+      ]
+    ]
+  ],
+  "reason": "Original OCR rectangle merged 73 and 74; separate source cells and preserve actual white grid rules."
+}

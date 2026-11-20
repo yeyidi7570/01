@@ -1,0 +1,452 @@
+[
+  {
+    "page": 20,
+    "id": "22",
+    "text": "(9 − 5) · 3",
+    "before": [
+      225,
+      714,
+      318,
+      755
+    ],
+    "after": [
+      225,
+      714,
+      372,
+      755
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 20,
+    "id": "23",
+    "text": "9 · 3 − 5 · 3",
+    "before": [
+      479,
+      716,
+      578,
+      756
+    ],
+    "after": [
+      479,
+      716,
+      605,
+      756
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 22,
+    "id": "20",
+    "text": "12x − 10y",
+    "before": [
+      581,
+      677,
+      697,
+      716
+    ],
+    "after": [
+      581,
+      677,
+      729,
+      716
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 23,
+    "id": "37",
+    "text": "276 · 775 : (30 026 – 29 796)",
+    "before": [
+      163,
+      1231,
+      474,
+      1261
+    ],
+    "after": [
+      163,
+      1231,
+      541,
+      1261
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 24,
+    "id": "16",
+    "text": "52a + 32a – 4",
+    "before": [
+      320,
+      524,
+      475,
+      552
+    ],
+    "after": [
+      320,
+      524,
+      514,
+      552
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 24,
+    "id": "17",
+    "text": "10а · 3",
+    "before": [
+      547,
+      524,
+      627,
+      553
+    ],
+    "after": [
+      547,
+      524,
+      653,
+      553
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 24,
+    "id": "18",
+    "text": "25a + 35a − 20a",
+    "before": [
+      143,
+      628,
+      322,
+      657
+    ],
+    "after": [
+      143,
+      628,
+      347,
+      657
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 24,
+    "id": "19",
+    "text": "10a − a + 7a",
+    "before": [
+      571,
+      627,
+      711,
+      658
+    ],
+    "after": [
+      571,
+      627,
+      748,
+      658
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 27,
+    "id": "17",
+    "text": "24 · 125",
+    "before": [
+      115,
+      627,
+      214,
+      662
+    ],
+    "after": [
+      115,
+      627,
+      243,
+      662
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 27,
+    "id": "19",
+    "text": "48 · 125",
+    "before": [
+      116,
+      659,
+      215,
+      694
+    ],
+    "after": [
+      116,
+      659,
+      244,
+      694
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 30,
+    "id": "12",
+    "text": "564b + (a",
+    "before": [
+      576,
+      464,
+      681,
+      492
+    ],
+    "after": [
+      576,
+      464,
+      711,
+      492
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 30,
+    "id": "34",
+    "text": "3 · (10 – 5)",
+    "before": [
+      230,
+      832,
+      310,
+      864
+    ],
+    "after": [
+      230,
+      832,
+      348,
+      864
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 31,
+    "id": "42",
+    "text": "30x – (5x + 4x)",
+    "before": [
+      430,
+      1253,
+      592,
+      1281
+    ],
+    "after": [
+      430,
+      1253,
+      633,
+      1281
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 35,
+    "id": "3",
+    "text": "+36",
+    "before": [
+      190,
+      273,
+      252,
+      311
+    ],
+    "after": [
+      190,
+      273,
+      262,
+      311
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 35,
+    "id": "7",
+    "text": "–36",
+    "before": [
+      196,
+      348,
+      250,
+      386
+    ],
+    "after": [
+      196,
+      348,
+      261,
+      386
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 41,
+    "id": "22",
+    "text": "–28",
+    "before": [
+      246,
+      633,
+      303,
+      674
+    ],
+    "after": [
+      246,
+      633,
+      315,
+      674
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 41,
+    "id": "23",
+    "text": ": 12",
+    "before": [
+      364,
+      633,
+      425,
+      677
+    ],
+    "after": [
+      364,
+      633,
+      441,
+      677
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 41,
+    "id": "24",
+    "text": "× 31",
+    "before": [
+      484,
+      634,
+      552,
+      674
+    ],
+    "after": [
+      484,
+      634,
+      564,
+      674
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 41,
+    "id": "28",
+    "text": ": 18",
+    "before": [
+      359,
+      727,
+      422,
+      769
+    ],
+    "after": [
+      359,
+      727,
+      437,
+      769
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 41,
+    "id": "29",
+    "text": "× 31",
+    "before": [
+      480,
+      729,
+      549,
+      768
+    ],
+    "after": [
+      480,
+      729,
+      560,
+      768
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 67,
+    "id": "66",
+    "text": "128 дм³\n90 м³\n? м³\n? дм³",
+    "before": [
+      204,
+      853,
+      540,
+      887
+    ],
+    "after": [
+      204,
+      853,
+      612,
+      887
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 104,
+    "id": "32",
+    "text": "a) ∠ ABC = 130°, ∠ COM = 76°, ∠ MAK = 100°, ∠ LOR = 145°",
+    "before": [
+      158,
+      1084,
+      815,
+      1116
+    ],
+    "after": [
+      158,
+      1084,
+      920,
+      1116
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 127,
+    "id": "35",
+    "text": "384 · 736 : (2 745 − 2 721) − (5 560 − 1 060) : 2",
+    "before": [
+      109,
+      1185,
+      609,
+      1213
+    ],
+    "after": [
+      109,
+      1185,
+      680,
+      1213
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 137,
+    "id": "8",
+    "text": "70 км/ч",
+    "before": [
+      536,
+      281,
+      636,
+      313
+    ],
+    "after": [
+      536,
+      281,
+      666,
+      313
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  },
+  {
+    "page": 139,
+    "id": "22",
+    "text": "90 км/ч",
+    "before": [
+      532,
+      1157,
+      631,
+      1186
+    ],
+    "after": [
+      532,
+      1157,
+      660,
+      1186
+    ],
+    "reason": "Extend corrected arithmetic line to all visible original dark glyphs, bounded before the next separate expression."
+  }
+]

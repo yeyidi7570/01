@@ -1,0 +1,857 @@
+{
+  "page": 143,
+  "source_rows_directly_reviewed": 50,
+  "titles_and_page_numbers": [
+    {
+      "id": "toc0",
+      "text": "Как пользоваться учебником? 2",
+      "bbox": [
+        85,
+        177,
+        880,
+        201
+      ],
+      "toc": {
+        "label": "Как пользоваться учебником?",
+        "page_number": "2",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc1",
+      "text": "Дорогой друг! 3",
+      "bbox": [
+        85,
+        198,
+        880,
+        222
+      ],
+      "toc": {
+        "label": "Дорогой друг!",
+        "page_number": "3",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc2",
+      "text": "Раздел 4А • Уравнения и неравенства, выражения",
+      "bbox": [
+        85,
+        232,
+        880,
+        256
+      ],
+      "toc": {
+        "label": "Раздел 4А • Уравнения и неравенства, выражения",
+        "page_number": "",
+        "header": true,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc3",
+      "text": "Сквозная тема: «Путешествие в космос» 4",
+      "bbox": [
+        85,
+        253,
+        880,
+        277
+      ],
+      "toc": {
+        "label": "Сквозная тема: «Путешествие в космос»",
+        "page_number": "4",
+        "header": true,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc4",
+      "text": "131. Двойные неравенства 5",
+      "bbox": [
+        85,
+        278,
+        880,
+        302
+      ],
+      "toc": {
+        "label": "131. Двойные неравенства",
+        "page_number": "5",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc5",
+      "text": "132. Решение двойных неравенств 9",
+      "bbox": [
+        85,
+        299,
+        880,
+        323
+      ],
+      "toc": {
+        "label": "132. Решение двойных неравенств",
+        "page_number": "9",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc6",
+      "text": "133. Двойные неравенства 13",
+      "bbox": [
+        85,
+        320,
+        880,
+        344
+      ],
+      "toc": {
+        "label": "133. Двойные неравенства",
+        "page_number": "13",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc7",
+      "text": "134. Уравнения 16",
+      "bbox": [
+        85,
+        341,
+        880,
+        365
+      ],
+      "toc": {
+        "label": "134. Уравнения",
+        "page_number": "16",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc8",
+      "text": "135. Числовые и буквенные выражения. Преобразование выражений 20",
+      "bbox": [
+        85,
+        362,
+        880,
+        386
+      ],
+      "toc": {
+        "label": "135. Числовые и буквенные выражения. Преобразование выражений",
+        "page_number": "20",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc9",
+      "text": "136. Уравнения. Решение уравнений путём преобразования 24",
+      "bbox": [
+        85,
+        383,
+        880,
+        407
+      ],
+      "toc": {
+        "label": "136. Уравнения. Решение уравнений путём преобразования",
+        "page_number": "24",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc10",
+      "text": "137. Числовые и буквенные выражения 28",
+      "bbox": [
+        85,
+        404,
+        880,
+        428
+      ],
+      "toc": {
+        "label": "137. Числовые и буквенные выражения",
+        "page_number": "28",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc11",
+      "text": "138. Составление выражений с переменными по задачам 32",
+      "bbox": [
+        85,
+        425,
+        880,
+        449
+      ],
+      "toc": {
+        "label": "138. Составление выражений с переменными по задачам",
+        "page_number": "32",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc12",
+      "text": "139. Числовые и буквенные выражения для решения задач 36",
+      "bbox": [
+        85,
+        446,
+        880,
+        470
+      ],
+      "toc": {
+        "label": "139. Числовые и буквенные выражения для решения задач",
+        "page_number": "36",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc13",
+      "text": "140. Сравнение выражений, содержащих обыкновенные дроби",
+      "bbox": [
+        85,
+        467,
+        880,
+        491
+      ],
+      "toc": {
+        "label": "140. Сравнение выражений, содержащих обыкновенные дроби",
+        "page_number": "",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc14",
+      "text": "с одинаковыми знаменателями 39",
+      "bbox": [
+        136,
+        488,
+        880,
+        512
+      ],
+      "toc": {
+        "label": "с одинаковыми знаменателями",
+        "page_number": "39",
+        "header": false,
+        "left": 136
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc15",
+      "text": "141. Сравнение выражений, содержащих обыкновенные дроби",
+      "bbox": [
+        85,
+        509,
+        880,
+        533
+      ],
+      "toc": {
+        "label": "141. Сравнение выражений, содержащих обыкновенные дроби",
+        "page_number": "",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc16",
+      "text": "с одинаковыми знаменателями 43",
+      "bbox": [
+        136,
+        530,
+        880,
+        554
+      ],
+      "toc": {
+        "label": "с одинаковыми знаменателями",
+        "page_number": "43",
+        "header": false,
+        "left": 136
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc17",
+      "text": "142. Обобщение 46",
+      "bbox": [
+        85,
+        551,
+        880,
+        575
+      ],
+      "toc": {
+        "label": "142. Обобщение",
+        "page_number": "46",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc18",
+      "text": "143. Проверь себя 50",
+      "bbox": [
+        85,
+        572,
+        880,
+        596
+      ],
+      "toc": {
+        "label": "143. Проверь себя",
+        "page_number": "50",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc19",
+      "text": "Раздел 4В • Задачи. Сквозная тема: «Путешествие в космос» 52",
+      "bbox": [
+        85,
+        616,
+        880,
+        640
+      ],
+      "toc": {
+        "label": "Раздел 4В • Задачи. Сквозная тема: «Путешествие в космос»",
+        "page_number": "52",
+        "header": true,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc20",
+      "text": "144. Рациональные способы вычислений и решения задач 53",
+      "bbox": [
+        85,
+        641,
+        880,
+        665
+      ],
+      "toc": {
+        "label": "144. Рациональные способы вычислений и решения задач",
+        "page_number": "53",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc21",
+      "text": "145. Рациональные способы вычислений и решения задач 57",
+      "bbox": [
+        85,
+        662,
+        880,
+        686
+      ],
+      "toc": {
+        "label": "145. Рациональные способы вычислений и решения задач",
+        "page_number": "57",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc22",
+      "text": "146. Решение задач 61",
+      "bbox": [
+        85,
+        683,
+        880,
+        707
+      ],
+      "toc": {
+        "label": "146. Решение задач",
+        "page_number": "61",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc23",
+      "text": "147. Решение задач на нахождение длины ребра и объёма прямоугольного",
+      "bbox": [
+        85,
+        704,
+        880,
+        728
+      ],
+      "toc": {
+        "label": "147. Решение задач на нахождение длины ребра и объёма прямоугольного",
+        "page_number": "",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc24",
+      "text": "параллелепипеда 65",
+      "bbox": [
+        136,
+        725,
+        880,
+        749
+      ],
+      "toc": {
+        "label": "параллелепипеда",
+        "page_number": "65",
+        "header": false,
+        "left": 136
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc25",
+      "text": "148. Решение задач на нахождение длины ребра и объёма прямоугольного",
+      "bbox": [
+        85,
+        746,
+        880,
+        770
+      ],
+      "toc": {
+        "label": "148. Решение задач на нахождение длины ребра и объёма прямоугольного",
+        "page_number": "",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc26",
+      "text": "параллелепипеда 69",
+      "bbox": [
+        136,
+        767,
+        880,
+        791
+      ],
+      "toc": {
+        "label": "параллелепипеда",
+        "page_number": "69",
+        "header": false,
+        "left": 136
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc27",
+      "text": "149. Составные задачи 73",
+      "bbox": [
+        85,
+        788,
+        880,
+        812
+      ],
+      "toc": {
+        "label": "149. Составные задачи",
+        "page_number": "73",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc28",
+      "text": "150. Составные задачи 77",
+      "bbox": [
+        85,
+        809,
+        880,
+        833
+      ],
+      "toc": {
+        "label": "150. Составные задачи",
+        "page_number": "77",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc29",
+      "text": "151. Составные задачи 80",
+      "bbox": [
+        85,
+        830,
+        880,
+        854
+      ],
+      "toc": {
+        "label": "151. Составные задачи",
+        "page_number": "80",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc30",
+      "text": "152. Составные задачи 83",
+      "bbox": [
+        85,
+        851,
+        880,
+        875
+      ],
+      "toc": {
+        "label": "152. Составные задачи",
+        "page_number": "83",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc31",
+      "text": "153. Проверь себя 86",
+      "bbox": [
+        85,
+        872,
+        880,
+        896
+      ],
+      "toc": {
+        "label": "153. Проверь себя",
+        "page_number": "86",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc32",
+      "text": "Раздел 4С • Треугольники. Симметрия. Сквозная тема: «Путешествие в будущее» 88",
+      "bbox": [
+        85,
+        917,
+        880,
+        941
+      ],
+      "toc": {
+        "label": "Раздел 4С • Треугольники. Симметрия. Сквозная тема: «Путешествие в будущее»",
+        "page_number": "88",
+        "header": true,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc33",
+      "text": "154. Треугольники 89",
+      "bbox": [
+        85,
+        951,
+        880,
+        975
+      ],
+      "toc": {
+        "label": "154. Треугольники",
+        "page_number": "89",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc34",
+      "text": "155. Измерение углов 93",
+      "bbox": [
+        85,
+        972,
+        880,
+        996
+      ],
+      "toc": {
+        "label": "155. Измерение углов",
+        "page_number": "93",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc35",
+      "text": "156. Построение углов 97",
+      "bbox": [
+        85,
+        993,
+        880,
+        1017
+      ],
+      "toc": {
+        "label": "156. Построение углов",
+        "page_number": "97",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc36",
+      "text": "157. Измерение и построение углов 101",
+      "bbox": [
+        85,
+        1014,
+        880,
+        1038
+      ],
+      "toc": {
+        "label": "157. Измерение и построение углов",
+        "page_number": "101",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc37",
+      "text": "158. Площадь комбинированных фигур 105",
+      "bbox": [
+        85,
+        1035,
+        880,
+        1059
+      ],
+      "toc": {
+        "label": "158. Площадь комбинированных фигур",
+        "page_number": "105",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc38",
+      "text": "159. Симметричные фигуры 108",
+      "bbox": [
+        85,
+        1056,
+        880,
+        1080
+      ],
+      "toc": {
+        "label": "159. Симметричные фигуры",
+        "page_number": "108",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc39",
+      "text": "160. Симметричные фигуры. Закрепление 112",
+      "bbox": [
+        85,
+        1077,
+        880,
+        1101
+      ],
+      "toc": {
+        "label": "160. Симметричные фигуры. Закрепление",
+        "page_number": "112",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc40",
+      "text": "161. Развёртки 115",
+      "bbox": [
+        85,
+        1098,
+        880,
+        1122
+      ],
+      "toc": {
+        "label": "161. Развёртки",
+        "page_number": "115",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc41",
+      "text": "162. Развёртки 119",
+      "bbox": [
+        85,
+        1119,
+        880,
+        1143
+      ],
+      "toc": {
+        "label": "162. Развёртки",
+        "page_number": "119",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc42",
+      "text": "163. Последовательности 122",
+      "bbox": [
+        85,
+        1140,
+        880,
+        1164
+      ],
+      "toc": {
+        "label": "163. Последовательности",
+        "page_number": "122",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc43",
+      "text": "164. Последовательности 125",
+      "bbox": [
+        85,
+        1161,
+        880,
+        1185
+      ],
+      "toc": {
+        "label": "164. Последовательности",
+        "page_number": "125",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc44",
+      "text": "165. Обобщение 128",
+      "bbox": [
+        85,
+        1182,
+        880,
+        1206
+      ],
+      "toc": {
+        "label": "165. Обобщение",
+        "page_number": "128",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc45",
+      "text": "166. Обобщение 131",
+      "bbox": [
+        85,
+        1203,
+        880,
+        1227
+      ],
+      "toc": {
+        "label": "166. Обобщение",
+        "page_number": "131",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc46",
+      "text": "167. Проверь себя 134",
+      "bbox": [
+        85,
+        1224,
+        880,
+        1248
+      ],
+      "toc": {
+        "label": "167. Проверь себя",
+        "page_number": "134",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc47",
+      "text": "168. Обобщение 136",
+      "bbox": [
+        85,
+        1245,
+        880,
+        1269
+      ],
+      "toc": {
+        "label": "168. Обобщение",
+        "page_number": "136",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc48",
+      "text": "169-170. Обобщение 139",
+      "bbox": [
+        85,
+        1266,
+        880,
+        1290
+      ],
+      "toc": {
+        "label": "169-170. Обобщение",
+        "page_number": "139",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    },
+    {
+      "id": "toc49",
+      "text": "Глоссарий 142",
+      "bbox": [
+        85,
+        1307,
+        880,
+        1331
+      ],
+      "toc": {
+        "label": "Глоссарий",
+        "page_number": "142",
+        "header": false,
+        "left": 85
+      },
+      "main_source_review": true
+    }
+  ],
+  "dot_leaders": "rebuilt as vector rules; OCR leader dots not literal punctuation"
+}

@@ -182,6 +182,19 @@
       },
       "source_bbox_outside_image": [],
       "semantic_structure": "automatic_candidates_not_manually_reviewed"
+    },
+    {
+      "book_id": "math-2023-ru-grade4-part4",
+      "status": "passed",
+      "checks": {
+        "unchanged_archive_files": 720,
+        "unchanged_source_page_images": 144,
+        "exact_final_lines": 6932,
+        "readable_asset_images": 904,
+        "verified_pdfs": 2
+      },
+      "source_bbox_outside_image": [],
+      "semantic_structure": "automatic_candidates_not_manually_reviewed"
     }
   ],
   "scope": "JSON Schema, exact final text, byte-identical retained archives and page PNGs, unique IDs, line references, paragraph coverage, readable image resources, PDF hashes and page counts. Not a semantic proofreading assessment."

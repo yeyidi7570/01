@@ -1,0 +1,56 @@
+{
+  "page_count": 144,
+  "max_single_image_fraction_on_rebuilt_scan_pages": 0.5245868635616417,
+  "original_native_page_backgrounds": [
+    {
+      "page": 3,
+      "maximum_image_fraction": 0.4056389536532881,
+      "original_native_text_preserved": true
+    },
+    {
+      "page": 142,
+      "maximum_image_fraction": 0,
+      "original_native_text_preserved": true
+    },
+    {
+      "page": 144,
+      "maximum_image_fraction": 0,
+      "original_native_text_preserved": true
+    }
+  ],
+  "minimum_visible_text_characters": 189,
+  "specials": {
+    "Ё": 5,
+    "ё": 215,
+    "Ъ": 18,
+    "ъ": 60,
+    "Ь": 106,
+    "ь": 1668,
+    "́": 0,
+    "¹": 0,
+    "²": 23,
+    "³": 26,
+    "ᶜ": 0,
+    "Ә": 3,
+    "Ғ": 1,
+    "Қ": 4,
+    "Ң": 0,
+    "Ө": 0,
+    "Ұ": 0,
+    "Ү": 0,
+    "Һ": 0,
+    "І": 7,
+    "ә": 3,
+    "ғ": 10,
+    "қ": 22,
+    "ң": 7,
+    "ө": 4,
+    "ұ": 1,
+    "ү": 4,
+    "һ": 0,
+    "і": 19
+  },
+  "missing_character_counts": [],
+  "search_failures": [],
+  "accented_word_search_samples": []
+}

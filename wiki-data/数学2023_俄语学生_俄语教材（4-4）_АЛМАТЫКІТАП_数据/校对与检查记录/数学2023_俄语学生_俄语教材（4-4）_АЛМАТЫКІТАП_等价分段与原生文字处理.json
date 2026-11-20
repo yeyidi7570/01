@@ -1,0 +1,1654 @@
+[
+  {
+    "page": 2,
+    "id": "5",
+    "raw": "PO",
+    "a": "УРОК",
+    "b": "УРОК №",
+    "bbox": [
+      134,
+      215,
+      148,
+      222
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 2,
+    "id": "82",
+    "raw": "© Акпаева А.Б., Лебедева Л.А., Мынжасарова М. Ж.,",
+    "a": "© Акпаева А. Б., Лебедева Л. А., Мынжасарова М. Ж.,",
+    "b": "© Акпаева А.Б., Лебедева Л.А., Мынжасарова М. Ж.,",
+    "bbox": [
+      520,
+      1251,
+      906,
+      1268
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 5,
+    "id": "39",
+    "raw": "(14 200+ 3 600) : 100",
+    "a": "(14 200 + 3 600) : 100",
+    "b": "(14 200+ 3 600) : 100",
+    "bbox": [
+      118,
+      850,
+      353,
+      880
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 9,
+    "id": "16",
+    "raw": "6) Какое из множеств { 0, 1, 2, 3}, { 0, 1, 2}, {1, 2, 3}, { 3, 4, 5, 6 ...},",
+    "a": "б) Какое из множеств { 0, 1, 2, 3 }, { 0, 1, 2 }, { 1, 2, 3 }, { 3, 4, 5, 6 ... },",
+    "b": "б) Какое из множеств { 0, 1, 2, 3}, { 0, 1, 2}, {1, 2, 3}, { 3, 4, 5, 6 ... },",
+    "bbox": [
+      131,
+      579,
+      835,
+      606
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 10,
+    "id": "20",
+    "raw": "(",
+    "a": "2",
+    "b": "0",
+    "bbox": [
+      266,
+      822,
+      277,
+      832
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 10,
+    "id": "21",
+    "raw": "2",
+    "a": "3",
+    "b": "2",
+    "bbox": [
+      318,
+      819,
+      329,
+      829
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 10,
+    "id": "22",
+    "raw": "Z",
+    "a": "4",
+    "b": "",
+    "bbox": [
+      370,
+      819,
+      381,
+      827
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 17,
+    "id": "23",
+    "raw": "y=5",
+    "a": "y=5",
+    "b": "y = 5",
+    "bbox": [
+      159,
+      687,
+      245,
+      733
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 22,
+    "id": "10",
+    "raw": "3x · 5 · 10 = (3 · 5 ·10)x =",
+    "a": "3x · 5 · 10 = (3 · 5 · 10) x =",
+    "b": "3x · 5 · 10 = (3 · 5 · 10)x =",
+    "bbox": [
+      158,
+      433,
+      430,
+      463
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 26,
+    "id": "11",
+    "raw": "x + 54-28 = 38",
+    "a": "x + 54 – 28 = 38",
+    "b": "x + 54–28 = 38",
+    "bbox": [
+      155,
+      502,
+      326,
+      530
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 26,
+    "id": "21",
+    "raw": "x = 38-26",
+    "a": "x = 38 – 26",
+    "b": "x = 38–26",
+    "bbox": [
+      152,
+      713,
+      275,
+      746
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 27,
+    "id": "37",
+    "raw": "500 + (x + 140) = 2056",
+    "a": "500 + (x + 140) = 2 056",
+    "b": "500 + (x + 140) = 2056",
+    "bbox": [
+      148,
+      1258,
+      393,
+      1285
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 38,
+    "id": "13",
+    "raw": "? 9 6",
+    "a": "?96",
+    "b": "? 9 6",
+    "bbox": [
+      282,
+      613,
+      348,
+      648
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 38,
+    "id": "18",
+    "raw": "+100 2",
+    "a": "+1002",
+    "b": "+100 2",
+    "bbox": [
+      679,
+      641,
+      779,
+      672
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 40,
+    "id": "39",
+    "raw": "1",
+    "a": "1/10",
+    "b": "Найди 1/3 и 1/10",
+    "bbox": [
+      333,
+      453,
+      347,
+      470
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 41,
+    "id": "10",
+    "raw": "14",
+    "a": "1/4",
+    "b": "1/4 сут. * 12 ч",
+    "bbox": [
+      566,
+      318,
+      590,
+      368
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 41,
+    "id": "9",
+    "raw": "1|2",
+    "a": "1/2",
+    "b": "1/2 ч * 35 мин",
+    "bbox": [
+      186,
+      320,
+      205,
+      367
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 41,
+    "id": "11",
+    "raw": "ч * 35 мин",
+    "a": "ч * 35 мин",
+    "b": "",
+    "bbox": [
+      205,
+      329,
+      331,
+      362
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 41,
+    "id": "12",
+    "raw": "сут. * 12 ч",
+    "a": "сут. * 12 ч",
+    "b": "",
+    "bbox": [
+      587,
+      327,
+      710,
+      366
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 41,
+    "id": "13",
+    "raw": "112",
+    "a": "1/2",
+    "b": "1/2 сут. * 12 ч",
+    "bbox": [
+      185,
+      374,
+      208,
+      422
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 41,
+    "id": "14",
+    "raw": "1|4",
+    "a": "1/4",
+    "b": "1/4 т * 250 кг",
+    "bbox": [
+      568,
+      373,
+      590,
+      423
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 41,
+    "id": "15",
+    "raw": "сут. * 12 ч",
+    "a": "сут. * 12 ч",
+    "b": "",
+    "bbox": [
+      204,
+      381,
+      326,
+      420
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 41,
+    "id": "16",
+    "raw": "т * 250 кг",
+    "a": "т * 250 кг",
+    "b": "",
+    "bbox": [
+      590,
+      384,
+      705,
+      416
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 41,
+    "id": "17",
+    "raw": "112",
+    "a": "1/2",
+    "b": "1/2 м * 60 см",
+    "bbox": [
+      184,
+      429,
+      210,
+      478
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 41,
+    "id": "18",
+    "raw": "1|5",
+    "a": "1/5",
+    "b": "1/5 км * 200 м",
+    "bbox": [
+      566,
+      426,
+      591,
+      479
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 41,
+    "id": "19",
+    "raw": " м * 60 см",
+    "a": "м * 60 см",
+    "b": "",
+    "bbox": [
+      201,
+      436,
+      325,
+      474
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 41,
+    "id": "23",
+    "raw": ":12",
+    "a": ": 12",
+    "b": ":12",
+    "bbox": [
+      364,
+      633,
+      425,
+      677
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 41,
+    "id": "29",
+    "raw": "×31",
+    "a": "× 31",
+    "b": "×31",
+    "bbox": [
+      480,
+      729,
+      549,
+      768
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 42,
+    "id": "7",
+    "raw": "←",
+    "a": "7 см",
+    "b": "",
+    "bbox": [
+      351,
+      316,
+      376,
+      398
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 42,
+    "id": "9",
+    "raw": "r",
+    "a": "3",
+    "b": "",
+    "bbox": [
+      519,
+      398,
+      525,
+      407
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 42,
+    "id": "10",
+    "raw": "",
+    "a": "8 см",
+    "b": "",
+    "bbox": [
+      470,
+      414,
+      503,
+      530
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 50,
+    "id": "13",
+    "raw": "1<x<5",
+    "a": "1<x<5",
+    "b": "1 < x < 5",
+    "bbox": [
+      559,
+      486,
+      658,
+      516
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 54,
+    "id": "20",
+    "raw": "50·43·20",
+    "a": "50·43·20",
+    "b": "50 · 43 · 20",
+    "bbox": [
+      186,
+      993,
+      312,
+      1021
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 54,
+    "id": "21",
+    "raw": "40·49 · 25",
+    "a": "40·49 · 25",
+    "b": "40 · 49 · 25",
+    "bbox": [
+      441,
+      993,
+      568,
+      1021
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 54,
+    "id": "22",
+    "raw": "80·63·125",
+    "a": "80·63·125",
+    "b": "80 · 63 · 125",
+    "bbox": [
+      697,
+      993,
+      833,
+      1020
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 54,
+    "id": "23",
+    "raw": "8·30·125",
+    "a": "8·30·125",
+    "b": "8 · 30 · 125",
+    "bbox": [
+      184,
+      1023,
+      311,
+      1054
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 54,
+    "id": "24",
+    "raw": "25·83·4",
+    "a": "25·83·4",
+    "b": "25 · 83 · 4",
+    "bbox": [
+      440,
+      1023,
+      556,
+      1054
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 56,
+    "id": "7",
+    "raw": "1) 369·52",
+    "a": "1) 369·52",
+    "b": "1) 369 · 52",
+    "bbox": [
+      565,
+      324,
+      685,
+      356
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 57,
+    "id": "25",
+    "raw": "210 :(3· 7)",
+    "a": "210 :(3· 7)",
+    "b": "210 : (3 · 7)",
+    "bbox": [
+      420,
+      608,
+      543,
+      640
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 57,
+    "id": "33",
+    "raw": "360:72",
+    "a": "360:72",
+    "b": "360 : 72",
+    "bbox": [
+      129,
+      749,
+      224,
+      781
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 57,
+    "id": "34",
+    "raw": "189:21",
+    "a": "189:21",
+    "b": "189 : 21",
+    "bbox": [
+      418,
+      751,
+      509,
+      781
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 57,
+    "id": "38",
+    "raw": "432:72",
+    "a": "432:72",
+    "b": "432 : 72",
+    "bbox": [
+      674,
+      779,
+      770,
+      814
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 57,
+    "id": "37",
+    "raw": "315:35",
+    "a": "315:35",
+    "b": "315 : 35",
+    "bbox": [
+      419,
+      784,
+      510,
+      813
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 63,
+    "id": "12",
+    "raw": "72·□= 1 944",
+    "a": "72·□= 1 944",
+    "b": "72 · □ = 1 944",
+    "bbox": [
+      152,
+      427,
+      314,
+      455
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 63,
+    "id": "25",
+    "raw": "4055",
+    "a": "405",
+    "b": "405\n305",
+    "bbox": [
+      670,
+      836,
+      741,
+      905
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 65,
+    "id": "30",
+    "raw": "1т",
+    "a": "1 т",
+    "b": "1т",
+    "bbox": [
+      777,
+      666,
+      820,
+      693
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 66,
+    "id": "22",
+    "raw": " ",
+    "a": " ",
+    "b": "5 см",
+    "bbox": [
+      228,
+      816,
+      259,
+      877
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 66,
+    "id": "23",
+    "raw": "",
+    "a": "",
+    "b": "2 см",
+    "bbox": [
+      604,
+      847,
+      638,
+      906
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 67,
+    "id": "13",
+    "raw": "",
+    "a": "",
+    "b": "4 см",
+    "bbox": [
+      733,
+      382,
+      758,
+      475
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 67,
+    "id": "51",
+    "raw": "?м",
+    "a": "?м",
+    "b": "? м",
+    "bbox": [
+      324,
+      758,
+      382,
+      795
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 68,
+    "id": "5",
+    "raw": "(48·34): 51",
+    "a": "(48·34): 51",
+    "b": "(48 · 34) : 51",
+    "bbox": [
+      192,
+      269,
+      328,
+      297
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 68,
+    "id": "6",
+    "raw": "125+ 957 + (1 075 : 43)",
+    "a": "125+ 957 + (1 075 : 43)",
+    "b": "125 + 957 + (1 075 : 43)",
+    "bbox": [
+      542,
+      269,
+      794,
+      296
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 68,
+    "id": "7",
+    "raw": "(54·38): 57",
+    "a": "(54·38): 57",
+    "b": "(54 · 38) : 57",
+    "bbox": [
+      193,
+      299,
+      329,
+      327
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 70,
+    "id": "25",
+    "raw": "156:26",
+    "a": "156:26",
+    "b": "156 : 26",
+    "bbox": [
+      606,
+      1113,
+      701,
+      1142
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 70,
+    "id": "32",
+    "raw": "11·265",
+    "a": "11·265",
+    "b": "11 · 265",
+    "bbox": [
+      608,
+      1154,
+      700,
+      1183
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 70,
+    "id": "37",
+    "raw": "282 ·156",
+    "a": "282 ·156",
+    "b": "282 · 156",
+    "bbox": [
+      324,
+      1230,
+      429,
+      1258
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 70,
+    "id": "42",
+    "raw": "136 576: 64",
+    "a": "136 576: 64",
+    "b": "136 576 : 64",
+    "bbox": [
+      306,
+      1269,
+      447,
+      1297
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 82,
+    "id": "14",
+    "raw": "Космическое",
+    "a": "Космическое",
+    "b": "Космическое агентство решило заняться «космическим",
+    "bbox": [
+      159,
+      851,
+      316,
+      877
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 82,
+    "id": "15",
+    "raw": "агентство",
+    "a": "агентство",
+    "b": "",
+    "bbox": [
+      329,
+      854,
+      452,
+      878
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 82,
+    "id": "16",
+    "raw": "решило",
+    "a": "решило",
+    "b": "",
+    "bbox": [
+      460,
+      854,
+      561,
+      878
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 82,
+    "id": "17",
+    "raw": "заняться",
+    "a": "заняться",
+    "b": "",
+    "bbox": [
+      570,
+      854,
+      678,
+      878
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 82,
+    "id": "18",
+    "raw": "«космическим",
+    "a": "«космическим",
+    "b": "",
+    "bbox": [
+      685,
+      852,
+      861,
+      878
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 85,
+    "id": "15",
+    "raw": "7056",
+    "a": "7056",
+    "b": "7 056",
+    "bbox": [
+      122,
+      622,
+      193,
+      661
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 90,
+    "id": "12",
+    "raw": "Vм",
+    "a": "V M",
+    "b": "V",
+    "bbox": [
+      557,
+      344,
+      614,
+      386
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 91,
+    "id": "19",
+    "raw": "N",
+    "a": "3.",
+    "b": "",
+    "bbox": [
+      198,
+      930,
+      205,
+      944
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 101,
+    "id": "8",
+    "raw": "ТРЕУОЛЬНИК",
+    "a": "ТРЕУГОЛЬНИК",
+    "b": "ПРЯМОУГОЛЬНЫЙ\nТРЕУГОЛЬНИК",
+    "bbox": [
+      692,
+      175,
+      781,
+      222
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 106,
+    "id": "14",
+    "raw": "2cm 2cm 1cm",
+    "a": "2см 2см 1см",
+    "b": "2 см 2 см 1 см",
+    "bbox": [
+      625,
+      475,
+      794,
+      513
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 108,
+    "id": "0",
+    "raw": "Все учебники I",
+    "a": "Все учебники Казахстана ищите на сайтах OKULYK.COM и OKULYK.KZ",
+    "b": "Все учебники",
+    "bbox": [
+      0,
+      1,
+      199,
+      32
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 108,
+    "id": "1",
+    "raw": "Казахстана ищите на сайтах OKULYK.COМ и OKULYK.KZ",
+    "a": "",
+    "b": "Казахстана ищите на сайтах OKULYK.COM и OKULYK.KZ",
+    "bbox": [
+      191,
+      2,
+      987,
+      29
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 108,
+    "id": "10",
+    "raw": "симметричные фигуры, .",
+    "a": "симметричные фигуры, дополнять",
+    "b": "симметричные фигуры,",
+    "bbox": [
+      158,
+      249,
+      442,
+      274
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 108,
+    "id": "11",
+    "raw": "дополнять",
+    "a": "",
+    "b": "дополнять",
+    "bbox": [
+      432,
+      252,
+      561,
+      272
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 108,
+    "id": "15",
+    "raw": "«Машина времени»  – роман ",
+    "a": "«Машина времени» – роман Герберта Уэллса, издан в 1895",
+    "b": "«Машина времени» – роман",
+    "bbox": [
+      157,
+      439,
+      509,
+      467
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 108,
+    "id": "16",
+    "raw": "Герберта Уэллса, издан в 1895",
+    "a": "",
+    "b": "Герберта Уэллса, издан в 1895",
+    "bbox": [
+      494,
+      438,
+      860,
+      467
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 113,
+    "id": "7",
+    "raw": "8",
+    "a": "",
+    "b": "2 см",
+    "bbox": [
+      519,
+      311,
+      548,
+      350
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 120,
+    "id": "8",
+    "raw": "",
+    "a": "6 см",
+    "b": "",
+    "bbox": [
+      547,
+      312,
+      577,
+      417
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 120,
+    "id": "10",
+    "raw": " ",
+    "a": "4 см",
+    "b": " ",
+    "bbox": [
+      182,
+      340,
+      204,
+      392
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 120,
+    "id": "11",
+    "raw": "",
+    "a": "4 см",
+    "b": "",
+    "bbox": [
+      687,
+      357,
+      708,
+      407
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 122,
+    "id": "15",
+    "raw": "29,28,26,23,...",
+    "a": "29,28,26,23,...",
+    "b": "29, 28, 26, 23, ...",
+    "bbox": [
+      370,
+      509,
+      674,
+      558
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 124,
+    "id": "9",
+    "raw": "20",
+    "a": "20/100",
+    "b": "",
+    "bbox": [
+      740,
+      276,
+      777,
+      306
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 124,
+    "id": "4",
+    "raw": "13",
+    "a": "13/60",
+    "b": "13/60 + 6/60 − x = 9/60",
+    "bbox": [
+      196,
+      279,
+      226,
+      307
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 124,
+    "id": "5",
+    "raw": "6",
+    "a": "6/60",
+    "b": "",
+    "bbox": [
+      251,
+      279,
+      276,
+      308
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 124,
+    "id": "6",
+    "raw": "9",
+    "a": "9/60",
+    "b": "",
+    "bbox": [
+      351,
+      278,
+      372,
+      304
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 124,
+    "id": "7",
+    "raw": "5",
+    "a": "5/100",
+    "b": "5/100 + 8/100 + x = 20/100",
+    "bbox": [
+      583,
+      277,
+      608,
+      306
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 124,
+    "id": "8",
+    "raw": "8",
+    "a": "8/100",
+    "b": "",
+    "bbox": [
+      651,
+      278,
+      672,
+      304
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 124,
+    "id": "11",
+    "raw": " X =",
+    "a": "− x =",
+    "b": "",
+    "bbox": [
+      295,
+      289,
+      342,
+      316
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 124,
+    "id": "14",
+    "raw": "+ X =",
+    "a": "+ x =",
+    "b": "",
+    "bbox": [
+      677,
+      290,
+      738,
+      316
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 124,
+    "id": "10",
+    "raw": "+",
+    "a": "+",
+    "b": "",
+    "bbox": [
+      228,
+      293,
+      245,
+      314
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 124,
+    "id": "13",
+    "raw": "+",
+    "a": "+",
+    "b": "",
+    "bbox": [
+      621,
+      296,
+      639,
+      315
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 128,
+    "id": "15",
+    "raw": "84",
+    "a": "P",
+    "b": "P□",
+    "bbox": [
+      382,
+      715,
+      434,
+      771
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 132,
+    "id": "15",
+    "raw": "1",
+    "a": "13°",
+    "b": "",
+    "bbox": [
+      195,
+      608,
+      236,
+      642
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 137,
+    "id": "10",
+    "raw": "2",
+    "a": "?",
+    "b": "t_встр. = ? ч",
+    "bbox": [
+      454,
+      289,
+      465,
+      299
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 137,
+    "id": "11",
+    "raw": "ч",
+    "a": "ч",
+    "b": "",
+    "bbox": [
+      463,
+      289,
+      483,
+      307
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 139,
+    "id": "32",
+    "raw": "1асно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года № 217",
+    "a": "асно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года № 217",
+    "b": "Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года № 217",
+    "bbox": [
+      36,
+      1395,
+      988,
+      1417
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 139,
+    "id": "31",
+    "raw": "согл",
+    "a": "согл",
+    "b": "согласно",
+    "bbox": [
+      4,
+      1400,
+      45,
+      1414
+    ],
+    "reason": "Same physical row characters, alternate row serialization; retain complete first-round row."
+  },
+  {
+    "page": 142,
+    "id": "2",
+    "raw": "Буквенные выражения – выражения, в которых, кроме чисел и знаков, есть буквы.",
+    "a": "Буквенные выражения — выражения, в которых, кроме чисел и знаков, есть буквы.",
+    "b": "Буквенные выражения – выражения, в которых, кроме чисел и знаков, есть буквы.",
+    "bbox": [
+      114,
+      183,
+      892,
+      203
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 142,
+    "id": "3",
+    "raw": "Двойное неравенство – два неравенства, записанные в одну строку. Решением",
+    "a": "Двойное неравенство — два неравенства, записанные в одну строку. Решением",
+    "b": "Двойное неравенство – два неравенства, записанные в одну строку. Решением",
+    "bbox": [
+      110,
+      213,
+      874,
+      239
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 142,
+    "id": "5",
+    "raw": "Натуральные числа – это числа, начиная с 1, получаемые при счёте предметов.",
+    "a": "Натуральные числа — это числа, начиная с 1, получаемые при счёте предметов.",
+    "b": "Натуральные числа – это числа, начиная с 1, получаемые при счёте предметов.",
+    "bbox": [
+      110,
+      271,
+      868,
+      296
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 142,
+    "id": "6",
+    "raw": "1, 2, 3, 4, 5... Наименьшее натуральное число – 1. Наибольшего натурального числа",
+    "a": "1, 2, 3, 4, 5… Наименьшее натуральное число — 1. Наибольшего натурального числа",
+    "b": "1, 2, 3, 4, 5... Наименьшее натуральное число – 1. Наибольшего натурального числа",
+    "bbox": [
+      110,
+      296,
+      896,
+      321
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 142,
+    "id": "11",
+    "raw": "5, 6, 7, 8, 9, 10, 11, 12... В натуральном ряду каждое число больше предыдущего на 1.",
+    "a": "5, 6, 7, 8, 9, 10, 11, 12… В натуральном ряду каждое число больше предыдущего на 1.",
+    "b": "5, 6, 7, 8, 9, 10, 11, 12... В натуральном ряду каждое число больше предыдущего на 1.",
+    "bbox": [
+      109,
+      403,
+      884,
+      428
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 142,
+    "id": "12",
+    "raw": "Неравенство – это два числа или математических выражения, соединённых одним",
+    "a": "Неравенство — это два числа или математических выражения, соединённых одним",
+    "b": "Неравенство – это два числа или математических выражения, соединённых одним",
+    "bbox": [
+      110,
+      436,
+      903,
+      461
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 142,
+    "id": "14",
+    "raw": "Остроугольный треугольник – треугольник, у которого все углы острые.",
+    "a": "Остроугольный треугольник — треугольник, у которого все углы острые.",
+    "b": "Остроугольный треугольник – треугольник, у которого все углы острые.",
+    "bbox": [
+      111,
+      493,
+      808,
+      520
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 142,
+    "id": "15",
+    "raw": "Ось симметрии – линия, которая делит предметы на равные части.",
+    "a": "Ось симметрии — линия, которая делит предметы на равные части.",
+    "b": "Ось симметрии – линия, которая делит предметы на равные части.",
+    "bbox": [
+      112,
+      529,
+      751,
+      551
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 142,
+    "id": "16",
+    "raw": "Переменная – это величина, которая может принимать различные значения",
+    "a": "Переменная — это величина, которая может принимать различные значения",
+    "b": "Переменная – это величина, которая может принимать различные значения",
+    "bbox": [
+      110,
+      560,
+      827,
+      586
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 142,
+    "id": "18",
+    "raw": "Перпендикулярные прямые – прямые, пересекающиеся под прямым углом.",
+    "a": "Перпендикулярные прямые — прямые, пересекающиеся под прямым углом.",
+    "b": "Перпендикулярные прямые – прямые, пересекающиеся под прямым углом.",
+    "bbox": [
+      111,
+      618,
+      839,
+      644
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 142,
+    "id": "19",
+    "raw": "Прямоугольный треугольник – треугольник, у которого один угол прямой.",
+    "a": "Прямоугольный треугольник — треугольник, у которого один угол прямой.",
+    "b": "Прямоугольный треугольник – треугольник, у которого один угол прямой.",
+    "bbox": [
+      112,
+      653,
+      829,
+      676
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 142,
+    "id": "22",
+    "raw": "Рациональный способ вычисления – способ, при котором удобно производить",
+    "a": "Рациональный способ вычисления — способ, при котором удобно производить",
+    "b": "Рациональный способ вычисления – способ, при котором удобно производить",
+    "bbox": [
+      112,
+      743,
+      880,
+      765
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 142,
+    "id": "25",
+    "raw": "Симметрия – одинаковое расположение частей фигур или предметов по противо-",
+    "a": "Симметрия — одинаковое расположение частей фигур или предметов по противо-",
+    "b": "Симметрия – одинаковое расположение частей фигур или предметов по противо-",
+    "bbox": [
+      111,
+      824,
+      903,
+      850
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 142,
+    "id": "27",
+    "raw": "Транспортир – инструмент для построения и измерения углов. Величину угла",
+    "a": "Транспортир — инструмент для построения и измерения углов. Величину угла",
+    "b": "Транспортир – инструмент для построения и измерения углов. Величину угла",
+    "bbox": [
+      111,
+      882,
+      856,
+      907
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 142,
+    "id": "29",
+    "raw": "Треугольник – многоугольник с тремя вершинами и тремя сторонами.",
+    "a": "Треугольник — многоугольник с тремя вершинами и тремя сторонами.",
+    "b": "Треугольник – многоугольник с тремя вершинами и тремя сторонами.",
+    "bbox": [
+      111,
+      940,
+      785,
+      965
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 142,
+    "id": "30",
+    "raw": "Тупоугольный треугольник – треугольник, у которого один угол тупой.",
+    "a": "Тупоугольный треугольник — треугольник, у которого один угол тупой.",
+    "b": "Тупоугольный треугольник – треугольник, у которого один угол тупой.",
+    "bbox": [
+      112,
+      974,
+      794,
+      998
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 142,
+    "id": "31",
+    "raw": "Угол– фигура, образованная двумя лучами (стороны угла), исходящими из одной",
+    "a": "Угол — фигура, образованная двумя лучами (стороны угла), исходящими из одной",
+    "b": "Угол – фигура, образованная двумя лучами (стороны угла), исходящими из одной",
+    "bbox": [
+      107,
+      1004,
+      883,
+      1034
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 142,
+    "id": "33",
+    "raw": "Усложнённое уравнение – уравнение, содержащее два и более арифметических",
+    "a": "Усложнённое уравнение — уравнение, содержащее два и более арифметических",
+    "b": "Усложнённое уравнение – уравнение, содержащее два и более арифметических",
+    "bbox": [
+      110,
+      1062,
+      886,
+      1088
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 142,
+    "id": "35",
+    "raw": "Упрощение выражений – преобразования, в результате которых получаются более",
+    "a": "Упрощение выражений — преобразования, в результате которых получаются более",
+    "b": "Упрощение выражений – преобразования, в результате которых получаются более",
+    "bbox": [
+      110,
+      1121,
+      905,
+      1146
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 142,
+    "id": "37",
+    "raw": "Числовой луч – луч, на котором точками обозначены натуральные числа. Рас-",
+    "a": "Числовой луч — луч, на котором точками обозначены натуральные числа. Рас-",
+    "b": "Числовой луч – луч, на котором точками обозначены натуральные числа. Рас-",
+    "bbox": [
+      110,
+      1179,
+      856,
+      1205
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 144,
+    "id": "22",
+    "raw": "Пішімі 70х100 1/,. Есептік баспа табағы 6,73.",
+    "a": "Пішімі 70х100 ¹/₁₆. Есептік баспа табағы 6,73.",
+    "b": "Пішімі 70x100 1/16. Есептік баспа табағы 6,73.",
+    "bbox": [
+      162,
+      469,
+      496,
+      489
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 144,
+    "id": "23",
+    "raw": "Формат 70х100 1/,6. Уч.-изд. л. 6,73.",
+    "a": "Формат 70х100 ¹/₁₆. Уч.-изд. л. 6,73.",
+    "b": "Формат 70x100 1/16. Уч.-изд. л. 6,73.",
+    "bbox": [
+      521,
+      468,
+      787,
+      491
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 144,
+    "id": "54",
+    "raw": "г.Астана: ул. Иманова, 10, тел.: (7172) 53 70 84, 27 29 54;",
+    "a": "г. Астана: ул. Иманова, 10, тел.: (7172) 53 70 84, 27 29 54;",
+    "b": "г.Астана: ул. Иманова, 10, тел.: (7172) 53 70 84, 27 29 54;",
+    "bbox": [
+      312,
+      881,
+      705,
+      898
+    ],
+    "reason": "Verified original native PDF text authority"
+  },
+  {
+    "page": 144,
+    "id": "70",
+    "raw": "Окулықтың жағдайы",
+    "a": "Окулықтың жағдайы",
+    "b": "Оқулықтың жағдайы",
+    "bbox": [
+      632,
+      1134,
+      796,
+      1152
+    ],
+    "reason": "Verified original native PDF text authority"
+  }
+]
