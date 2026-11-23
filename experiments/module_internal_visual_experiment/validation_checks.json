@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "executed_utc": "2026-11-23T07:55:00.885534+00:00",
+  "confirmed_pages": 11,
+  "fixed_modules": 27,
+  "fixed_fragments": 29,
+  "elements": 186,
+  "types": {
+    "uncertain": 5,
+    "module_number": 30,
+    "text": 60,
+    "table": 3,
+    "module_note": 2,
+    "example": 10,
+    "formula": 50,
+    "module_badge": 16,
+    "other": 3,
+    "informative_image": 7
+  },
+  "table_cell_counts": [
+    [
+      14,
+      57
+    ],
+    [
+      62,
+      10
+    ],
+    [
+      110,
+      12
+    ]
+  ],
+  "uncertain_elements": 5,
+  "uncovered_ocr_lines": 0,
+  "uncovered_ink_candidate_tiles": 0,
+  "original_module_bounds_unchanged": true,
+  "original_ocr_strings_unchanged": true,
+  "source_scan_bytes_verified": true,
+  "table_grid_no_overlap_or_holes": true,
+  "page_module_navigation_and_clicks_tested": true,
+  "table_cell_highlight_tested": true,
+  "nested_note_example_display_tested": true,
+  "uncertainty_dialog_tested": true,
+  "source_jsonl_unchanged": true,
+  "semantic_correctness_not_certified": true
+}
