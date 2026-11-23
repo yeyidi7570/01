@@ -1,0 +1,270 @@
+{
+  "generated_at_utc": "2026-11-23T04:34:03.767401+00:00",
+  "input_paths": [
+    "/workspace/github-delivery-01/experiments/ai_textbook_pilot/exercises.jsonl",
+    "/workspace/github-delivery-01/experiments/ai_textbook_pilot/labels.jsonl",
+    "/workspace/github-delivery-01/experiments/ai_textbook_pilot/manifest.json"
+  ],
+  "source_sha256": {
+    "exercises.jsonl": "3953ef5a698ec9575d7c2a1e9a3cf8e549f12e83c09e0c4d00c1edfae40807e5",
+    "labels.jsonl": "4b513ed35bd5cf5c92f595c8a6d616f233355446497729b73fb97e50f105134b",
+    "manifest.json": "e33744354fb473464998c45ba09b2fb0e280aaa9bdc6203bfbb88cdde8e1017d"
+  },
+  "input_unchanged": true,
+  "parent_rows": 27,
+  "excel_data_rows": 27,
+  "subquestion_nodes": 61,
+  "html_parent_cards": 27,
+  "all_text_saved_verbatim": true,
+  "manual_columns_initially_blank": true,
+  "dropdown_values": [
+    "通过",
+    "有问题",
+    "待确认"
+  ],
+  "source_images_copied": 72,
+  "statistics": {
+    "parent_count": 27,
+    "subquestion_node_count": 61,
+    "has_image": {
+      "unknown": 1,
+      "no": 18,
+      "yes": 8
+    },
+    "has_table_count": 3,
+    "cross_page_count": 2,
+    "structure_issue_count": 17,
+    "structure_issue_ids": [
+      "ex_0a6bd78f74025d82829d1ced9e1cb8cc",
+      "ex_dfebea8cdc715182964ab61681388dfd",
+      "ex_a6cb083ad8ae5ed884f32db5f6993898",
+      "ex_aa76a6d1f856588285f2ae08fa549eeb",
+      "ex_2b432dc1a5b65769b51a24b308a45758",
+      "ex_385f779a276d56b6be9ca85e90af6cc2",
+      "ex_9b8bf3a75e06521ab3a5fd734de8a917",
+      "ex_e890fcd7817159168b234fb74a24b3f1",
+      "ex_c137548803f25742b4b37db3aba31219",
+      "ex_9fcf4742cdc8588483ec841c1003748e",
+      "ex_294cb61e43cc563d86edc92ac7640989",
+      "ex_73a16f40c66d55dfad65314dc1aa1f66",
+      "ex_9c43ff9341ac5834ad4d9011de3727cc",
+      "ex_0d78170ca74c50e69859eb91e2b98c36",
+      "ex_dd42408c8ed35c7d8e993b542a4fd79a",
+      "ex_02381c54b1ae50639c901e39d7bba5a0",
+      "ex_f17b43ec27165e13b4091c609c82dc5d"
+    ],
+    "pages": {
+      "14": [
+        {
+          "id": "ex_0a6bd78f74025d82829d1ced9e1cb8cc",
+          "lesson": "3",
+          "exercise": "1",
+          "context_only": false
+        }
+      ],
+      "29": [
+        {
+          "id": "ex_eb94ac1c7b1a53d7a314b3ae569aa177",
+          "lesson": "7",
+          "exercise": "1",
+          "context_only": false
+        },
+        {
+          "id": "ex_dfebea8cdc715182964ab61681388dfd",
+          "lesson": "7",
+          "exercise": "2",
+          "context_only": false
+        }
+      ],
+      "30": [
+        {
+          "id": "ex_dfebea8cdc715182964ab61681388dfd",
+          "lesson": "7",
+          "exercise": "2",
+          "context_only": true
+        }
+      ],
+      "46": [
+        {
+          "id": "ex_6d040146e6d4512087e2d514fdb2a52a",
+          "lesson": "11",
+          "exercise": "4",
+          "context_only": false
+        },
+        {
+          "id": "ex_a6cb083ad8ae5ed884f32db5f6993898",
+          "lesson": "11",
+          "exercise": "5",
+          "context_only": false
+        },
+        {
+          "id": "ex_1d9074e645ee53b9b42a752a4452cf01",
+          "lesson": "11",
+          "exercise": "6",
+          "context_only": false
+        },
+        {
+          "id": "ex_aa76a6d1f856588285f2ae08fa549eeb",
+          "lesson": "11",
+          "exercise": "7",
+          "context_only": false
+        }
+      ],
+      "62": [
+        {
+          "id": "ex_0c3b55ad03685b51a54c2dcfd95c1486",
+          "lesson": "15",
+          "exercise": "7",
+          "context_only": false
+        },
+        {
+          "id": "ex_2b432dc1a5b65769b51a24b308a45758",
+          "lesson": "15",
+          "exercise": "8",
+          "context_only": false
+        },
+        {
+          "id": "ex_db243029a11c510f9a34c3b364716746",
+          "lesson": "15",
+          "exercise": "9",
+          "context_only": false
+        },
+        {
+          "id": "ex_385f779a276d56b6be9ca85e90af6cc2",
+          "lesson": "15",
+          "exercise": "10",
+          "context_only": false
+        }
+      ],
+      "73": [
+        {
+          "id": "ex_9b8bf3a75e06521ab3a5fd734de8a917",
+          "lesson": "19",
+          "exercise": "1",
+          "context_only": false
+        },
+        {
+          "id": "ex_e890fcd7817159168b234fb74a24b3f1",
+          "lesson": "19",
+          "exercise": "2",
+          "context_only": false
+        }
+      ],
+      "74": [
+        {
+          "id": "ex_e890fcd7817159168b234fb74a24b3f1",
+          "lesson": "19",
+          "exercise": "2",
+          "context_only": false
+        },
+        {
+          "id": "ex_041ba16afa4255479fcf0421dc06c796",
+          "lesson": "19",
+          "exercise": "3",
+          "context_only": false
+        }
+      ],
+      "87": [
+        {
+          "id": "ex_c137548803f25742b4b37db3aba31219",
+          "lesson": "22",
+          "exercise": "7",
+          "context_only": false
+        },
+        {
+          "id": "ex_9fcf4742cdc8588483ec841c1003748e",
+          "lesson": "22",
+          "exercise": "8",
+          "context_only": false
+        }
+      ],
+      "109": [
+        {
+          "id": "ex_294cb61e43cc563d86edc92ac7640989",
+          "lesson": "29",
+          "exercise": "3",
+          "context_only": false
+        },
+        {
+          "id": "ex_73a16f40c66d55dfad65314dc1aa1f66",
+          "lesson": "29",
+          "exercise": "4",
+          "context_only": false
+        },
+        {
+          "id": "ex_9c43ff9341ac5834ad4d9011de3727cc",
+          "lesson": "29",
+          "exercise": "5",
+          "context_only": false
+        }
+      ],
+      "110": [
+        {
+          "id": "ex_40751075f4095650acc2bee7103aa088",
+          "lesson": "29",
+          "exercise": "6",
+          "context_only": false
+        },
+        {
+          "id": "ex_3219decf6acb58bf8bbe27ce9112f818",
+          "lesson": "29",
+          "exercise": "7",
+          "context_only": false
+        },
+        {
+          "id": "ex_bb1078ce271a5ee38416a8a52b66d8b8",
+          "lesson": "29",
+          "exercise": "8",
+          "context_only": false
+        },
+        {
+          "id": "ex_915e5e349b205d08b024381ae3f34d27",
+          "lesson": "29",
+          "exercise": "9",
+          "context_only": false
+        },
+        {
+          "id": "ex_0d78170ca74c50e69859eb91e2b98c36",
+          "lesson": "29",
+          "exercise": "10",
+          "context_only": false
+        }
+      ],
+      "139": [
+        {
+          "id": "ex_dd42408c8ed35c7d8e993b542a4fd79a",
+          "lesson": "38",
+          "exercise": "7",
+          "context_only": false
+        },
+        {
+          "id": "ex_02381c54b1ae50639c901e39d7bba5a0",
+          "lesson": "38",
+          "exercise": "8",
+          "context_only": false
+        },
+        {
+          "id": "ex_f17b43ec27165e13b4091c609c82dc5d",
+          "lesson": "38",
+          "exercise": "9",
+          "context_only": false
+        }
+      ]
+    },
+    "formal_pages": [
+      14,
+      29,
+      46,
+      62,
+      73,
+      74,
+      87,
+      109,
+      110,
+      139
+    ],
+    "warning": "仅统计已有记录，不能证明原教材没有漏题；跨页父题在总数中只计一次，页表中可出现在多个页。",
+    "structure_issue_definition": "state=needs_review，或有reading_order_issues，或继承UNKNOWN；单独的历史接触限制不另计为题目结构疑点。"
+  },
+  "excel_display_limit": "Excel行高上限409.5磅，主表单元格保留全文并链接到逐行全文阅读表，HTML完整展开。"
+}
