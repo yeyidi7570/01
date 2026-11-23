@@ -1,0 +1,344 @@
+{
+  "status": "passed",
+  "executed_at_utc": "2026-11-23T03:58:59.455867+00:00",
+  "counts": {
+    "parent_exercises": 27,
+    "subquestion_nodes": 61,
+    "labels": 27,
+    "source_page_images": 11,
+    "crop_images": 61,
+    "all_images": 72,
+    "formal_sample_pages": 10,
+    "resolved_source_references": 746,
+    "validated_parent_text_permutations": 27,
+    "validated_material_instances": 34,
+    "validated_nested_children": 61
+  },
+  "checks": [
+    {
+      "check": "Strict JSONL parsing, duplicate-key rejection, Draft2020-12 schema for all rows, manifest and mapping",
+      "status": "passed"
+    },
+    {
+      "check": "Unique parent IDs, exact input parent count, and bijective labels",
+      "status": "passed"
+    },
+    {
+      "check": "All stable IDs recomputed from source anchors; lesson/exercise metadata renumbering has no effect",
+      "status": "passed"
+    },
+    {
+      "check": "Every source ID, source text and bbox traced to final OCR; original badges separate from body",
+      "status": "passed"
+    },
+    {
+      "check": "Readable text is an exact source-unit permutation: no omitted/rewritten/added body text",
+      "status": "passed"
+    },
+    {
+      "check": "All nested nodes, labels and inherited boundaries/material ownership preserved",
+      "status": "passed"
+    },
+    {
+      "check": "Cross-page parent continuations remain one record; only ten formal pages, page30 context-only",
+      "status": "passed"
+    },
+    {
+      "check": "All explicit and implicit relation targets resolve; one explicit cross-exercise reference preserved",
+      "status": "passed"
+    },
+    {
+      "check": "Every UNKNOWN and independence limitation preserved verbatim",
+      "status": "passed"
+    },
+    {
+      "check": "All image references exist; no orphan files; full sources byte-identical and crop pixels exact",
+      "status": "passed"
+    },
+    {
+      "check": "Pinned inputs, unchanged old experiment, script/config and generated-file hashes verified",
+      "status": "passed"
+    },
+    {
+      "check": "Objective label rows complete, null reasons explicit; no KLP/type/difficulty/purpose/solution annotations generated",
+      "status": "passed"
+    }
+  ],
+  "label_counts": {
+    "has_image": {
+      "none": 1,
+      "false": 18,
+      "true": 8
+    },
+    "has_table": {
+      "true": 3,
+      "false": 24
+    },
+    "has_formula": {
+      "false": 19,
+      "true": 8
+    },
+    "has_subquestions": {
+      "false": 13,
+      "true": 14
+    },
+    "is_cross_page": {
+      "false": 25,
+      "true": 2
+    },
+    "has_explicit_references": {
+      "false": 26,
+      "true": 1
+    }
+  },
+  "null_labels": [
+    {
+      "exercise_id": "ex_0a6bd78f74025d82829d1ced9e1cb8cc",
+      "field": "has_image",
+      "reason": "父题上沿与页首角色图存在少量重叠，装饰图归属未精确标注；主体表格不能单凭截图判为插图。"
+    }
+  ],
+  "reading_order_review": [
+    {
+      "id": "ex_0a6bd78f74025d82829d1ced9e1cb8cc",
+      "lesson": "3",
+      "exercise": "1",
+      "pages": [
+        14
+      ],
+      "issues": [
+        {
+          "code": "SPATIAL_MATERIAL_NOT_FULLY_LINEARIZED",
+          "description": "表格、图形、标签或竖式仅按既有块分组；行文字不等于可靠单元格、公式或几何转录，必须结合原图。"
+        }
+      ]
+    },
+    {
+      "id": "ex_dfebea8cdc715182964ab61681388dfd",
+      "lesson": "7",
+      "exercise": "2",
+      "pages": [
+        29,
+        30
+      ],
+      "issues": [
+        {
+          "code": "SPATIAL_MATERIAL_NOT_FULLY_LINEARIZED",
+          "description": "表格、图形、标签或竖式仅按既有块分组；行文字不等于可靠单元格、公式或几何转录，必须结合原图。"
+        },
+        {
+          "code": "CONTEXT_ONLY_CONTINUATION_SCOPE",
+          "description": "第30页仅是旧实验父题的上下文续接；其结构归属U01不在本次裁决。"
+        }
+      ]
+    },
+    {
+      "id": "ex_a6cb083ad8ae5ed884f32db5f6993898",
+      "lesson": "11",
+      "exercise": "5",
+      "pages": [
+        46
+      ],
+      "issues": [
+        {
+          "code": "SPATIAL_MATERIAL_NOT_FULLY_LINEARIZED",
+          "description": "表格、图形、标签或竖式仅按既有块分组；行文字不等于可靠单元格、公式或几何转录，必须结合原图。"
+        }
+      ]
+    },
+    {
+      "id": "ex_aa76a6d1f856588285f2ae08fa549eeb",
+      "lesson": "11",
+      "exercise": "7",
+      "pages": [
+        46
+      ],
+      "issues": [
+        {
+          "code": "SPATIAL_MATERIAL_NOT_FULLY_LINEARIZED",
+          "description": "表格、图形、标签或竖式仅按既有块分组；行文字不等于可靠单元格、公式或几何转录，必须结合原图。"
+        }
+      ]
+    },
+    {
+      "id": "ex_2b432dc1a5b65769b51a24b308a45758",
+      "lesson": "15",
+      "exercise": "8",
+      "pages": [
+        62
+      ],
+      "issues": [
+        {
+          "code": "SPATIAL_MATERIAL_NOT_FULLY_LINEARIZED",
+          "description": "表格、图形、标签或竖式仅按既有块分组；行文字不等于可靠单元格、公式或几何转录，必须结合原图。"
+        }
+      ]
+    },
+    {
+      "id": "ex_385f779a276d56b6be9ca85e90af6cc2",
+      "lesson": "15",
+      "exercise": "10",
+      "pages": [
+        62
+      ],
+      "issues": [
+        {
+          "code": "DECORATIVE_LETTERING_SEPARATE_FROM_PROSE",
+          "description": "沿用旧实验附属行标记，可读文本把装饰口号行集中至末尾，不改字或删除。"
+        }
+      ]
+    },
+    {
+      "id": "ex_9b8bf3a75e06521ab3a5fd734de8a917",
+      "lesson": "19",
+      "exercise": "1",
+      "pages": [
+        73
+      ],
+      "issues": [
+        {
+          "code": "SPATIAL_MATERIAL_NOT_FULLY_LINEARIZED",
+          "description": "表格、图形、标签或竖式仅按既有块分组；行文字不等于可靠单元格、公式或几何转录，必须结合原图。"
+        }
+      ]
+    },
+    {
+      "id": "ex_e890fcd7817159168b234fb74a24b3f1",
+      "lesson": "19",
+      "exercise": "2",
+      "pages": [
+        73,
+        74
+      ],
+      "issues": [
+        {
+          "code": "SPATIAL_MATERIAL_NOT_FULLY_LINEARIZED",
+          "description": "表格、图形、标签或竖式仅按既有块分组；行文字不等于可靠单元格、公式或几何转录，必须结合原图。"
+        }
+      ]
+    },
+    {
+      "id": "ex_c137548803f25742b4b37db3aba31219",
+      "lesson": "22",
+      "exercise": "7",
+      "pages": [
+        87
+      ],
+      "issues": [
+        {
+          "code": "SPATIAL_MATERIAL_NOT_FULLY_LINEARIZED",
+          "description": "表格、图形、标签或竖式仅按既有块分组；行文字不等于可靠单元格、公式或几何转录，必须结合原图。"
+        }
+      ]
+    },
+    {
+      "id": "ex_9fcf4742cdc8588483ec841c1003748e",
+      "lesson": "22",
+      "exercise": "8",
+      "pages": [
+        87
+      ],
+      "issues": [
+        {
+          "code": "SPATIAL_MATERIAL_NOT_FULLY_LINEARIZED",
+          "description": "表格、图形、标签或竖式仅按既有块分组；行文字不等于可靠单元格、公式或几何转录，必须结合原图。"
+        }
+      ]
+    },
+    {
+      "id": "ex_73a16f40c66d55dfad65314dc1aa1f66",
+      "lesson": "29",
+      "exercise": "4",
+      "pages": [
+        109
+      ],
+      "issues": [
+        {
+          "code": "SPATIAL_MATERIAL_NOT_FULLY_LINEARIZED",
+          "description": "表格、图形、标签或竖式仅按既有块分组；行文字不等于可靠单元格、公式或几何转录，必须结合原图。"
+        }
+      ]
+    },
+    {
+      "id": "ex_0d78170ca74c50e69859eb91e2b98c36",
+      "lesson": "29",
+      "exercise": "10",
+      "pages": [
+        110
+      ],
+      "issues": [
+        {
+          "code": "SPATIAL_MATERIAL_NOT_FULLY_LINEARIZED",
+          "description": "表格、图形、标签或竖式仅按既有块分组；行文字不等于可靠单元格、公式或几何转录，必须结合原图。"
+        },
+        {
+          "code": "DECORATIVE_LETTERING_SEPARATE_FROM_PROSE",
+          "description": "沿用旧实验附属行标记，可读文本把装饰口号行集中至末尾，不改字或删除。"
+        }
+      ]
+    },
+    {
+      "id": "ex_dd42408c8ed35c7d8e993b542a4fd79a",
+      "lesson": "38",
+      "exercise": "7",
+      "pages": [
+        139
+      ],
+      "issues": [
+        {
+          "code": "SPATIAL_MATERIAL_NOT_FULLY_LINEARIZED",
+          "description": "表格、图形、标签或竖式仅按既有块分组；行文字不等于可靠单元格、公式或几何转录，必须结合原图。"
+        }
+      ]
+    },
+    {
+      "id": "ex_02381c54b1ae50639c901e39d7bba5a0",
+      "lesson": "38",
+      "exercise": "8",
+      "pages": [
+        139
+      ],
+      "issues": [
+        {
+          "code": "SPATIAL_MATERIAL_NOT_FULLY_LINEARIZED",
+          "description": "表格、图形、标签或竖式仅按既有块分组；行文字不等于可靠单元格、公式或几何转录，必须结合原图。"
+        }
+      ]
+    },
+    {
+      "id": "ex_f17b43ec27165e13b4091c609c82dc5d",
+      "lesson": "38",
+      "exercise": "9",
+      "pages": [
+        139
+      ],
+      "issues": [
+        {
+          "code": "SPATIAL_MATERIAL_NOT_FULLY_LINEARIZED",
+          "description": "表格、图形、标签或竖式仅按既有块分组；行文字不等于可靠单元格、公式或几何转录，必须结合原图。"
+        },
+        {
+          "code": "DECORATIVE_LETTERING_SEPARATE_FROM_PROSE",
+          "description": "沿用旧实验附属行标记，可读文本把装饰口号行集中至末尾，不改字或删除。"
+        }
+      ]
+    }
+  ],
+  "image_dependent_parent_ids": [
+    "ex_0a6bd78f74025d82829d1ced9e1cb8cc",
+    "ex_dfebea8cdc715182964ab61681388dfd",
+    "ex_a6cb083ad8ae5ed884f32db5f6993898",
+    "ex_aa76a6d1f856588285f2ae08fa549eeb",
+    "ex_2b432dc1a5b65769b51a24b308a45758",
+    "ex_9b8bf3a75e06521ab3a5fd734de8a917",
+    "ex_e890fcd7817159168b234fb74a24b3f1",
+    "ex_c137548803f25742b4b37db3aba31219",
+    "ex_9fcf4742cdc8588483ec841c1003748e",
+    "ex_73a16f40c66d55dfad65314dc1aa1f66",
+    "ex_0d78170ca74c50e69859eb91e2b98c36",
+    "ex_dd42408c8ed35c7d8e993b542a4fd79a",
+    "ex_02381c54b1ae50639c901e39d7bba5a0",
+    "ex_f17b43ec27165e13b4091c609c82dc5d"
+  ],
+  "semantic_correctness_certified": false
+}

@@ -1,0 +1,2689 @@
+{
+  "schema_version": "ai-textbook/1.0",
+  "generated_at_utc": "2026-11-23T03:44:39.262795+00:00",
+  "books": [
+    {
+      "book_id": "math-2023-grade4-part1",
+      "name": "数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП",
+      "source_filename": "数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП.pdf",
+      "language": "kk-Cyrl",
+      "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be"
+    }
+  ],
+  "sources": [
+    {
+      "id": "math-2023-grade4-part1:readme",
+      "kind": "readme",
+      "path": "wiki-data/README.md",
+      "commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "sha256": "6ec593579c153614fe511c94021dde514c9767adc221e75efa5851b0b6a64296"
+    },
+    {
+      "id": "math-2023-grade4-part1:catalog",
+      "kind": "catalog",
+      "path": "wiki-data/catalog.json",
+      "commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "sha256": "ee9614fa814d8692c6c49f47e681322c92e274400dfe246ffb16dc3b2f6888f9"
+    },
+    {
+      "id": "math-2023-grade4-part1:final",
+      "kind": "final",
+      "path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_最终校对.json",
+      "commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "sha256": "31794572f278ac4e246059a5cac08c639273c2d34c14daa66d3cd70a506c9a8e"
+    },
+    {
+      "id": "math-2023-grade4-part1:layout",
+      "kind": "layout",
+      "path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_版面分析.json",
+      "commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "sha256": "4629eeecda260c777fbd1ad7ba85934a16e55fb12b2d1d50c3afb25c9ef0db35"
+    },
+    {
+      "id": "experiment:questions.json",
+      "kind": "experiment",
+      "path": "experiments/codex/2026-11-20_数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП/questions.json",
+      "commit": "6d67153ea65b105366c0ebf436ff76a3373a0650",
+      "sha256": "46389303a45ee0c2ae5c3102597646a7ab35c63a6cc4ae24383f699592fa3fbe"
+    },
+    {
+      "id": "experiment:review.md",
+      "kind": "experiment",
+      "path": "experiments/codex/2026-11-20_数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП/review.md",
+      "commit": "6d67153ea65b105366c0ebf436ff76a3373a0650",
+      "sha256": "0a6d27f4b6b49cdb61de0ef7c23df98f871984a717ea9919622002b51f1498f3"
+    },
+    {
+      "id": "experiment:uncertainties.md",
+      "kind": "experiment",
+      "path": "experiments/codex/2026-11-20_数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП/uncertainties.md",
+      "commit": "6d67153ea65b105366c0ebf436ff76a3373a0650",
+      "sha256": "43e72e5ddf33f9052ffbe380baa647211422125d71f9f9047258152858bd167f"
+    },
+    {
+      "id": "experiment:process.md",
+      "kind": "experiment",
+      "path": "experiments/codex/2026-11-20_数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП/process.md",
+      "commit": "6d67153ea65b105366c0ebf436ff76a3373a0650",
+      "sha256": "6d10dd7e84e6be58b0e3c62351583bfa80a7d17543e338d190ed113e6463e762"
+    }
+  ],
+  "experiment_input": {
+    "commit": "6d67153ea65b105366c0ebf436ff76a3373a0650",
+    "directory": "experiments/codex/2026-11-20_数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП",
+    "previous_version": "textbook-segmentation-experiment/1.0"
+  },
+  "sample_scope": {
+    "formal_pages": [
+      14,
+      29,
+      46,
+      62,
+      73,
+      74,
+      87,
+      109,
+      110,
+      139
+    ],
+    "context_content_pages": [
+      30
+    ],
+    "lesson_evidence_pages": [
+      86,
+      108,
+      138
+    ],
+    "book_id": "math-2023-grade4-part1"
+  },
+  "counts": {
+    "parent_exercises": 27,
+    "subquestion_nodes": 61,
+    "labels": 27,
+    "source_page_images": 11,
+    "crop_images": 61,
+    "all_images": 72,
+    "formal_sample_pages": 10
+  },
+  "assets": [
+    {
+      "id": "img_1789d913186d5d5aaca48eebed43f95a",
+      "path": "images/source/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页014_原图.png",
+      "role": "source_page",
+      "sha256": "3448e940f093c92540cff0084b2bd3a6e18efdfd0f465a98d5a7d48e1c61b6fb",
+      "pixel_sha256": "988f6b0e47a112f0002f258e9c2cb3dd28bd7f83973493381aa0b6b60f24470f",
+      "width": 993,
+      "height": 1418,
+      "pdf_page_number": 14,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页014_原图.png",
+      "source_image_sha256": "3448e940f093c92540cff0084b2bd3a6e18efdfd0f465a98d5a7d48e1c61b6fb",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        0,
+        0,
+        993,
+        1418
+      ],
+      "source_asset_id": null
+    },
+    {
+      "id": "img_492ca3277bb25ded907ef64742fb833b",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页014_492ca3277bb2_题图.png",
+      "role": "crop",
+      "sha256": "d111a3b08012e4f493791d249af05b4986c287b826e28eadcfdd822cfb19f0cf",
+      "pixel_sha256": "df531d71df35197c5d504d5a313b4a53ce00eeca3420cd484734b26afafdc000",
+      "width": 797,
+      "height": 432,
+      "pdf_page_number": 14,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页014_原图.png",
+      "source_image_sha256": "3448e940f093c92540cff0084b2bd3a6e18efdfd0f465a98d5a7d48e1c61b6fb",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        112,
+        531,
+        909,
+        963
+      ],
+      "source_asset_id": "img_1789d913186d5d5aaca48eebed43f95a"
+    },
+    {
+      "id": "img_bb0ba3fdac6657cdba458ff3814a711f",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页014_bb0ba3fdac66_题图.png",
+      "role": "crop",
+      "sha256": "e95aa8820f22b8e393917cc4e84ece16a7da6c1b36e13dfff2d103ebdaa7747a",
+      "pixel_sha256": "9c33367e0765c22248489b10fd8295e9b6692415e8c0204855adf1f80743197b",
+      "width": 772,
+      "height": 340,
+      "pdf_page_number": 14,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页014_原图.png",
+      "source_image_sha256": "3448e940f093c92540cff0084b2bd3a6e18efdfd0f465a98d5a7d48e1c61b6fb",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        138,
+        976,
+        910,
+        1316
+      ],
+      "source_asset_id": "img_1789d913186d5d5aaca48eebed43f95a"
+    },
+    {
+      "id": "img_161810d6407658509bfb00c6c55a57bd",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页014_161810d64076_题图.png",
+      "role": "crop",
+      "sha256": "db84728a9a3a0d7e6959df067d5049803094c993c49dce488523d82833be5652",
+      "pixel_sha256": "c5d9f742d0006d4e83ce49fa9ae385d877930f7404afa806d62866080956da7d",
+      "width": 798,
+      "height": 564,
+      "pdf_page_number": 14,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页014_原图.png",
+      "source_image_sha256": "3448e940f093c92540cff0084b2bd3a6e18efdfd0f465a98d5a7d48e1c61b6fb",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        112,
+        400,
+        910,
+        964
+      ],
+      "source_asset_id": "img_1789d913186d5d5aaca48eebed43f95a"
+    },
+    {
+      "id": "img_257f542496385772a503ca76a3bcfa73",
+      "path": "images/source/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页029_原图.png",
+      "role": "source_page",
+      "sha256": "c3b8ca396ea30b15c89e03aeca4d89ecbf4ae0b6a1a1b6b7cf6404d000ae7ada",
+      "pixel_sha256": "1ec77472ef272c029e6931f57f404a8b491a1819bcb4e73e22f87fd5979ede7e",
+      "width": 993,
+      "height": 1418,
+      "pdf_page_number": 29,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页029_原图.png",
+      "source_image_sha256": "c3b8ca396ea30b15c89e03aeca4d89ecbf4ae0b6a1a1b6b7cf6404d000ae7ada",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        0,
+        0,
+        993,
+        1418
+      ],
+      "source_asset_id": null
+    },
+    {
+      "id": "img_cb0b7a39c6d957639843e43ff27fcd4b",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页029_cb0b7a39c6d9_题图.png",
+      "role": "crop",
+      "sha256": "4bbcd53959cea2de6b812842daa9ae6cad5f457749bc5e40610aaefebaa0b521",
+      "pixel_sha256": "fc0b0d845dc214df4dd3cb906ac42f16cda31c2581c987a0b05ad98bc55b26e0",
+      "width": 798,
+      "height": 124,
+      "pdf_page_number": 29,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页029_原图.png",
+      "source_image_sha256": "c3b8ca396ea30b15c89e03aeca4d89ecbf4ae0b6a1a1b6b7cf6404d000ae7ada",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        84,
+        336,
+        882,
+        460
+      ],
+      "source_asset_id": "img_257f542496385772a503ca76a3bcfa73"
+    },
+    {
+      "id": "img_fb9e15c7d0a55dc4a84e7a9dd6e13599",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页029_fb9e15c7d0a5_题图.png",
+      "role": "crop",
+      "sha256": "12c551abf1bf64c37bf2c812ca3936fdbe9be5d7b77bb701f76943c821a00ca6",
+      "pixel_sha256": "26708523b5799146f13b7e481989af5144175cde6942a281cd74a8bdcbc6bd5a",
+      "width": 427,
+      "height": 313,
+      "pdf_page_number": 29,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页029_原图.png",
+      "source_image_sha256": "c3b8ca396ea30b15c89e03aeca4d89ecbf4ae0b6a1a1b6b7cf6404d000ae7ada",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        101,
+        934,
+        528,
+        1247
+      ],
+      "source_asset_id": "img_257f542496385772a503ca76a3bcfa73"
+    },
+    {
+      "id": "img_806ef108cdad52a58aa7820657f5efec",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页029_806ef108cdad_题图.png",
+      "role": "crop",
+      "sha256": "ca9e46e4fda4e6d5fe2a99b0dae20302a4de5517e104ba5277287008a16c4f19",
+      "pixel_sha256": "269f2cb45f96213b12e1586f088a921b09eebfa3c7c066aa572f3079495cd1fa",
+      "width": 797,
+      "height": 260,
+      "pdf_page_number": 29,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页029_原图.png",
+      "source_image_sha256": "c3b8ca396ea30b15c89e03aeca4d89ecbf4ae0b6a1a1b6b7cf6404d000ae7ada",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        85,
+        618,
+        882,
+        878
+      ],
+      "source_asset_id": "img_257f542496385772a503ca76a3bcfa73"
+    },
+    {
+      "id": "img_da36fc973631538ea5efa38a1d421f65",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页029_da36fc973631_题图.png",
+      "role": "crop",
+      "sha256": "1cde83385deaa3ca6800a889051a7dda2b076246135b3e4e3a3e5dacea7e7096",
+      "pixel_sha256": "b1129718c048658b13bbaa053524f457deda4d573af2d69673914add1648b575",
+      "width": 336,
+      "height": 377,
+      "pdf_page_number": 29,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页029_原图.png",
+      "source_image_sha256": "c3b8ca396ea30b15c89e03aeca4d89ecbf4ae0b6a1a1b6b7cf6404d000ae7ada",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        532,
+        883,
+        868,
+        1260
+      ],
+      "source_asset_id": "img_257f542496385772a503ca76a3bcfa73"
+    },
+    {
+      "id": "img_333d03a9eef25e808f48b239c3bd98ca",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页029_333d03a9eef2_题图.png",
+      "role": "crop",
+      "sha256": "875a147b407e23403d6af468a79fe725aaebdb6d971d04863c96f5fa8b9d5a1a",
+      "pixel_sha256": "17eb34e1516c8ebe59458b8e74fae3478ac4c62206a10fa54155b72fa6b54573",
+      "width": 798,
+      "height": 801,
+      "pdf_page_number": 29,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页029_原图.png",
+      "source_image_sha256": "c3b8ca396ea30b15c89e03aeca4d89ecbf4ae0b6a1a1b6b7cf6404d000ae7ada",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        84,
+        505,
+        882,
+        1306
+      ],
+      "source_asset_id": "img_257f542496385772a503ca76a3bcfa73"
+    },
+    {
+      "id": "img_78226b78873756afa20f5b371928604e",
+      "path": "images/source/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页030_原图.png",
+      "role": "source_page",
+      "sha256": "0cfcb354f3ff5f816aedeaaf484bbe143acea916139cad513f6ecfc52cedb639",
+      "pixel_sha256": "30f1de4c35872e747869fb5eb516faf6c37a6815827914b768735bfc3c33ad2a",
+      "width": 993,
+      "height": 1418,
+      "pdf_page_number": 30,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页030_原图.png",
+      "source_image_sha256": "0cfcb354f3ff5f816aedeaaf484bbe143acea916139cad513f6ecfc52cedb639",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        0,
+        0,
+        993,
+        1418
+      ],
+      "source_asset_id": null
+    },
+    {
+      "id": "img_2c728dc0f64059038809ab3a81bc3d43",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页030_2c728dc0f640_题图.png",
+      "role": "crop",
+      "sha256": "5d1f17e4f8ec43e55117c0c79952506eaa66daf71c8ddcbd89e1ad13a974e6fb",
+      "pixel_sha256": "e4206a5142769961236d279a5b9674e1fa07059db86fd19e1b4b13bf92281450",
+      "width": 798,
+      "height": 666,
+      "pdf_page_number": 30,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页030_原图.png",
+      "source_image_sha256": "0cfcb354f3ff5f816aedeaaf484bbe143acea916139cad513f6ecfc52cedb639",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        112,
+        170,
+        910,
+        836
+      ],
+      "source_asset_id": "img_78226b78873756afa20f5b371928604e"
+    },
+    {
+      "id": "img_fa883dd49b4c5577ab58377df09cc393",
+      "path": "images/source/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_原图.png",
+      "role": "source_page",
+      "sha256": "56bfb7d6cf1c5848820a177e320c8e1243d59df44716e30a173e7579af16ce4e",
+      "pixel_sha256": "d923c52c0f91c809fa19d34ecfbb97114859ab7b6886cd61e563c16ea510f022",
+      "width": 993,
+      "height": 1418,
+      "pdf_page_number": 46,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_原图.png",
+      "source_image_sha256": "56bfb7d6cf1c5848820a177e320c8e1243d59df44716e30a173e7579af16ce4e",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        0,
+        0,
+        993,
+        1418
+      ],
+      "source_asset_id": null
+    },
+    {
+      "id": "img_01eeeac3ba95540589635a42ecd93f10",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_01eeeac3ba95_题图.png",
+      "role": "crop",
+      "sha256": "5bd95f73bed03db9670cbb610e25ebf6992008e0e1035348636421c77a94ff01",
+      "pixel_sha256": "eeccc58247251583f5ef431669c97f6da062c41285321753424ea87d87e3fd74",
+      "width": 708,
+      "height": 106,
+      "pdf_page_number": 46,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_原图.png",
+      "source_image_sha256": "56bfb7d6cf1c5848820a177e320c8e1243d59df44716e30a173e7579af16ce4e",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        173,
+        266,
+        881,
+        372
+      ],
+      "source_asset_id": "img_fa883dd49b4c5577ab58377df09cc393"
+    },
+    {
+      "id": "img_ad0f46ae583456cdb31783f47c0efb0d",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_ad0f46ae5834_题图.png",
+      "role": "crop",
+      "sha256": "33adc902fbcdc044511c5498df1123aa2696c8389c1d221c0ada0cf398e6d447",
+      "pixel_sha256": "1ed3890fa3f3ffe29f5531da6ffda83f7d98dd43ebbbaf4d1faff17605416dc7",
+      "width": 798,
+      "height": 218,
+      "pdf_page_number": 46,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_原图.png",
+      "source_image_sha256": "56bfb7d6cf1c5848820a177e320c8e1243d59df44716e30a173e7579af16ce4e",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        112,
+        171,
+        910,
+        389
+      ],
+      "source_asset_id": "img_fa883dd49b4c5577ab58377df09cc393"
+    },
+    {
+      "id": "img_2ca2dcbf23fb5733989d41d0398850a0",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_2ca2dcbf23fb_题图.png",
+      "role": "crop",
+      "sha256": "67035e5bd201e7f2a28da3bd6dfaa9ed155dc4ce0325692c262f4e42e88903f6",
+      "pixel_sha256": "17423a96a2026e77f36570a7d85bcf9470fe2aa07d8f7c35d74b85952a8263d9",
+      "width": 714,
+      "height": 200,
+      "pdf_page_number": 46,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_原图.png",
+      "source_image_sha256": "56bfb7d6cf1c5848820a177e320c8e1243d59df44716e30a173e7579af16ce4e",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        152,
+        508,
+        866,
+        708
+      ],
+      "source_asset_id": "img_fa883dd49b4c5577ab58377df09cc393"
+    },
+    {
+      "id": "img_76f7a65c954759a1940e99983765704b",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_76f7a65c9547_题图.png",
+      "role": "crop",
+      "sha256": "06cf699680c69af62d5e8c4b35c5e1ba3b79f4aba1ef52734b06a526df6e8680",
+      "pixel_sha256": "287747b32e288137c19244674a5862b6522dd856a9fe1453f9f317b05599effc",
+      "width": 798,
+      "height": 306,
+      "pdf_page_number": 46,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_原图.png",
+      "source_image_sha256": "56bfb7d6cf1c5848820a177e320c8e1243d59df44716e30a173e7579af16ce4e",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        112,
+        414,
+        910,
+        720
+      ],
+      "source_asset_id": "img_fa883dd49b4c5577ab58377df09cc393"
+    },
+    {
+      "id": "img_96c1f8907057585b9d1009dbf38694b7",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_96c1f8907057_题图.png",
+      "role": "crop",
+      "sha256": "f80ff6c1b578a700b7b7edcb30824f1bfe2a675964c71787a968aa5e5c71690e",
+      "pixel_sha256": "2109219986a2d44a968f2b01c1bc6896bff62d410b1c6665eb4bd20f67dc75b8",
+      "width": 798,
+      "height": 345,
+      "pdf_page_number": 46,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_原图.png",
+      "source_image_sha256": "56bfb7d6cf1c5848820a177e320c8e1243d59df44716e30a173e7579af16ce4e",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        112,
+        750,
+        910,
+        1095
+      ],
+      "source_asset_id": "img_fa883dd49b4c5577ab58377df09cc393"
+    },
+    {
+      "id": "img_aa404208acf652238c2e2443cb1d855f",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_aa404208acf6_题图.png",
+      "role": "crop",
+      "sha256": "b605a953fcd1ab4a58cd39cbdf1b8bf47a33f4e33cc0451e3f2824d84a421cdd",
+      "pixel_sha256": "1a49e1ef09cece65da778e0b13241d2b4b35682f3e2ffc7527f0139fe75e9dbe",
+      "width": 694,
+      "height": 78,
+      "pdf_page_number": 46,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_原图.png",
+      "source_image_sha256": "56bfb7d6cf1c5848820a177e320c8e1243d59df44716e30a173e7579af16ce4e",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        149,
+        1214,
+        843,
+        1292
+      ],
+      "source_asset_id": "img_fa883dd49b4c5577ab58377df09cc393"
+    },
+    {
+      "id": "img_4c481dab9b1251b79aef02e536bc9007",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_4c481dab9b12_题图.png",
+      "role": "crop",
+      "sha256": "2f767792f6e6469baa67e56fc48ded05edee7f6588eee79cc1b45479ab5cd1ad",
+      "pixel_sha256": "90c0705986abb90eb193ec016d2e288144851fe548b6ff18c560ddb60d9d27fb",
+      "width": 798,
+      "height": 181,
+      "pdf_page_number": 46,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_原图.png",
+      "source_image_sha256": "56bfb7d6cf1c5848820a177e320c8e1243d59df44716e30a173e7579af16ce4e",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        112,
+        1127,
+        910,
+        1308
+      ],
+      "source_asset_id": "img_fa883dd49b4c5577ab58377df09cc393"
+    },
+    {
+      "id": "img_f40dd1a126645c81a3259c40b69bd41e",
+      "path": "images/source/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页062_原图.png",
+      "role": "source_page",
+      "sha256": "e6c19ed765c497cc525f8c97d35ac7f90d8658af4c2b5fc7311e9802f832af91",
+      "pixel_sha256": "ab918c777d8ff6931cfda06bff6cc5f4849f4858b37473b94feaf3fec0169112",
+      "width": 993,
+      "height": 1418,
+      "pdf_page_number": 62,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页062_原图.png",
+      "source_image_sha256": "e6c19ed765c497cc525f8c97d35ac7f90d8658af4c2b5fc7311e9802f832af91",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        0,
+        0,
+        993,
+        1418
+      ],
+      "source_asset_id": null
+    },
+    {
+      "id": "img_2fc099eec7fb55f385b17a78dd44e784",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页062_2fc099eec7fb_题图.png",
+      "role": "crop",
+      "sha256": "041ff43fe97531735b407ff3644ae6ec7eba44fa7d9c7cbf118e6b30d42aa7fd",
+      "pixel_sha256": "821a7036f7f3bc42cbe3d61b665831e1caffd106d359f062d42fbd4912aeeff3",
+      "width": 798,
+      "height": 241,
+      "pdf_page_number": 62,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页062_原图.png",
+      "source_image_sha256": "e6c19ed765c497cc525f8c97d35ac7f90d8658af4c2b5fc7311e9802f832af91",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        112,
+        154,
+        910,
+        395
+      ],
+      "source_asset_id": "img_f40dd1a126645c81a3259c40b69bd41e"
+    },
+    {
+      "id": "img_a4062275c8d25ae88e50a5d69193f11d",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页062_a4062275c8d2_题图.png",
+      "role": "crop",
+      "sha256": "9050e14f6da0fc7b32d6ad966fc76561d16437009c097f55fde5b6f0d7a21696",
+      "pixel_sha256": "ccc47b74a8a9c4e024dd602e16ce7525217b9e7428149e906febcff9b6127020",
+      "width": 795,
+      "height": 107,
+      "pdf_page_number": 62,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页062_原图.png",
+      "source_image_sha256": "e6c19ed765c497cc525f8c97d35ac7f90d8658af4c2b5fc7311e9802f832af91",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        113,
+        668,
+        908,
+        775
+      ],
+      "source_asset_id": "img_f40dd1a126645c81a3259c40b69bd41e"
+    },
+    {
+      "id": "img_2bea4f543a155f06a1b604f2b19b067f",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页062_2bea4f543a15_题图.png",
+      "role": "crop",
+      "sha256": "344503d74679b902c2fc2cf6340a0ae3470b3419f7da0936f0a858e46fa408e3",
+      "pixel_sha256": "28b364aa1bbe2f066eaa5304b6537da3279518c376855cd72a61af34733860dc",
+      "width": 798,
+      "height": 378,
+      "pdf_page_number": 62,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页062_原图.png",
+      "source_image_sha256": "e6c19ed765c497cc525f8c97d35ac7f90d8658af4c2b5fc7311e9802f832af91",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        112,
+        398,
+        910,
+        776
+      ],
+      "source_asset_id": "img_f40dd1a126645c81a3259c40b69bd41e"
+    },
+    {
+      "id": "img_7e66341c83f75a37b1f6383ad6003b09",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页062_7e66341c83f7_题图.png",
+      "role": "crop",
+      "sha256": "13a6f25018985d5b70b131690a1505c915a82cdc215f766f64a1c54d00269030",
+      "pixel_sha256": "fa4bf8c5ee93f12dec51bb1c472437fcc2fe82789563bb7cacf3ead3fa87044e",
+      "width": 798,
+      "height": 224,
+      "pdf_page_number": 62,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页062_原图.png",
+      "source_image_sha256": "e6c19ed765c497cc525f8c97d35ac7f90d8658af4c2b5fc7311e9802f832af91",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        112,
+        785,
+        910,
+        1009
+      ],
+      "source_asset_id": "img_f40dd1a126645c81a3259c40b69bd41e"
+    },
+    {
+      "id": "img_1edaa104b0f857f3b70361bce200c248",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页062_1edaa104b0f8_题图.png",
+      "role": "crop",
+      "sha256": "fccd622dc599f2c67f253d492414ca5fb03fe282985f0eb6301c16139268ede0",
+      "pixel_sha256": "032a342cf7f8ac4c38677943eb32ecc6e0fcd24edd1a17859a5147317400d815",
+      "width": 183,
+      "height": 248,
+      "pdf_page_number": 62,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页062_原图.png",
+      "source_image_sha256": "e6c19ed765c497cc525f8c97d35ac7f90d8658af4c2b5fc7311e9802f832af91",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        749,
+        1059,
+        932,
+        1307
+      ],
+      "source_asset_id": "img_f40dd1a126645c81a3259c40b69bd41e"
+    },
+    {
+      "id": "img_8c8abee7f680524dba61637abd4572d7",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页062_8c8abee7f680_题图.png",
+      "role": "crop",
+      "sha256": "fbd33ff8a3402200d95ba8ee15950ce867164eba1bcfeba34b9e1ae4954de065",
+      "pixel_sha256": "a5cd515d251a2ed3bb07108eb19fed6996822261658afa568dbc4659345acd3a",
+      "width": 824,
+      "height": 290,
+      "pdf_page_number": 62,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页062_原图.png",
+      "source_image_sha256": "e6c19ed765c497cc525f8c97d35ac7f90d8658af4c2b5fc7311e9802f832af91",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        112,
+        1019,
+        936,
+        1309
+      ],
+      "source_asset_id": "img_f40dd1a126645c81a3259c40b69bd41e"
+    },
+    {
+      "id": "img_5a6dfe9925615c27b66c7bc7a8299b5c",
+      "path": "images/source/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页073_原图.png",
+      "role": "source_page",
+      "sha256": "4575fd0348279ad540271baba147b022249531b634c3897ea273bcf63ed26d46",
+      "pixel_sha256": "69134e1826ccb1fe77fbae27d98813591e28d141c4accc9392c8c832fcbe0b1d",
+      "width": 993,
+      "height": 1418,
+      "pdf_page_number": 73,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页073_原图.png",
+      "source_image_sha256": "4575fd0348279ad540271baba147b022249531b634c3897ea273bcf63ed26d46",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        0,
+        0,
+        993,
+        1418
+      ],
+      "source_asset_id": null
+    },
+    {
+      "id": "img_af8de9c0336558e99fae8e77e29a49cc",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页073_af8de9c03365_题图.png",
+      "role": "crop",
+      "sha256": "fdb0b8ffde1078812aef48cc3efd69a45f14ed6c83f9b20d401733e6e1c7bed3",
+      "pixel_sha256": "34e8f9466465d183dbfe78bff4817965fab3310a15a27b7942b6d8e9d455b22d",
+      "width": 793,
+      "height": 347,
+      "pdf_page_number": 73,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页073_原图.png",
+      "source_image_sha256": "4575fd0348279ad540271baba147b022249531b634c3897ea273bcf63ed26d46",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        86,
+        447,
+        879,
+        794
+      ],
+      "source_asset_id": "img_5a6dfe9925615c27b66c7bc7a8299b5c"
+    },
+    {
+      "id": "img_c58e28887f1d52f8b8e5d77c794ca1f6",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页073_c58e28887f1d_题图.png",
+      "role": "crop",
+      "sha256": "57492419915ad3d71a63880c131ab7e616ba032cd6c98c2cf136b156a9140b33",
+      "pixel_sha256": "920baf1aedbde527da180a324367ac4279898cd2bd548452ccd931aa1b892d06",
+      "width": 798,
+      "height": 436,
+      "pdf_page_number": 73,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页073_原图.png",
+      "source_image_sha256": "4575fd0348279ad540271baba147b022249531b634c3897ea273bcf63ed26d46",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        84,
+        360,
+        882,
+        796
+      ],
+      "source_asset_id": "img_5a6dfe9925615c27b66c7bc7a8299b5c"
+    },
+    {
+      "id": "img_61dcab026d60518b9cff04b9ecddd2cd",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页073_61dcab026d60_题图.png",
+      "role": "crop",
+      "sha256": "03e26732688369d8e676ce249fd5cb03f2e00371ba3500d102608377bf64d6fb",
+      "pixel_sha256": "0e8a0ac08a75850960e0f8c3ed8cfb688350b59ddabe3d462717f615c11e1204",
+      "width": 205,
+      "height": 149,
+      "pdf_page_number": 73,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页073_原图.png",
+      "source_image_sha256": "4575fd0348279ad540271baba147b022249531b634c3897ea273bcf63ed26d46",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        146,
+        1068,
+        351,
+        1217
+      ],
+      "source_asset_id": "img_5a6dfe9925615c27b66c7bc7a8299b5c"
+    },
+    {
+      "id": "img_03715e683ecc5ddf8fa184fa174c042a",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页073_03715e683ecc_题图.png",
+      "role": "crop",
+      "sha256": "60750ec1347685a0dfc24198a74ecd31990c45ee5051c47bd34115200eddc660",
+      "pixel_sha256": "aa029581cc2c083216d6c90a8864d1ca589beea33bc94bc05c45423215f84a1e",
+      "width": 451,
+      "height": 270,
+      "pdf_page_number": 73,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页073_原图.png",
+      "source_image_sha256": "4575fd0348279ad540271baba147b022249531b634c3897ea273bcf63ed26d46",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        409,
+        1007,
+        860,
+        1277
+      ],
+      "source_asset_id": "img_5a6dfe9925615c27b66c7bc7a8299b5c"
+    },
+    {
+      "id": "img_3f594246c5c150ac8eefae42ff4a14fb",
+      "path": "images/source/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页074_原图.png",
+      "role": "source_page",
+      "sha256": "7dfa83b9437ced3edf34d7e0ea0d89d64f88111ffb27ebd276ab7d38b6a66bb0",
+      "pixel_sha256": "d7af601e70b6b448948d6c35e02aa422905b3f6463a080cb7f9f911b2331790c",
+      "width": 993,
+      "height": 1418,
+      "pdf_page_number": 74,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页074_原图.png",
+      "source_image_sha256": "7dfa83b9437ced3edf34d7e0ea0d89d64f88111ffb27ebd276ab7d38b6a66bb0",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        0,
+        0,
+        993,
+        1418
+      ],
+      "source_asset_id": null
+    },
+    {
+      "id": "img_4b0fe7c022da5a7da73635d53f60462d",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页074_4b0fe7c022da_题图.png",
+      "role": "crop",
+      "sha256": "7311794664a40e65dd265ae307c462fc6cca4035bba55382f56aa8036143a7e0",
+      "pixel_sha256": "c20dd4aa5a1d11e1f1309701e9216d7275b85c05edf9300234d6e6e88d361eb5",
+      "width": 343,
+      "height": 374,
+      "pdf_page_number": 74,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页074_原图.png",
+      "source_image_sha256": "7dfa83b9437ced3edf34d7e0ea0d89d64f88111ffb27ebd276ab7d38b6a66bb0",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        159,
+        504,
+        502,
+        878
+      ],
+      "source_asset_id": "img_3f594246c5c150ac8eefae42ff4a14fb"
+    },
+    {
+      "id": "img_9d921924226b5b24a341d074c083836d",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页074_9d921924226b_题图.png",
+      "role": "crop",
+      "sha256": "3f367067d2747cdde981999c53b9d8376363cc1219a4711da5fdf5c6c149e9c4",
+      "pixel_sha256": "e45f2f76e5397daa12c9f07cab72db87b81c11ba33e3cd5d41a2c8cd25ce1c65",
+      "width": 361,
+      "height": 411,
+      "pdf_page_number": 74,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页074_原图.png",
+      "source_image_sha256": "7dfa83b9437ced3edf34d7e0ea0d89d64f88111ffb27ebd276ab7d38b6a66bb0",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        527,
+        481,
+        888,
+        892
+      ],
+      "source_asset_id": "img_3f594246c5c150ac8eefae42ff4a14fb"
+    },
+    {
+      "id": "img_1b6ffabc820158ad9b9c297f139529bd",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页074_1b6ffabc8201_题图.png",
+      "role": "crop",
+      "sha256": "52e942bdc90b673ff109ad4e58863590701909ccf6ba0c334be6307330557c7c",
+      "pixel_sha256": "f8a95af244849548b4a2d4eca5b2f51c07462fa966063dc0f7b70bd48de2f0c2",
+      "width": 798,
+      "height": 159,
+      "pdf_page_number": 74,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页074_原图.png",
+      "source_image_sha256": "7dfa83b9437ced3edf34d7e0ea0d89d64f88111ffb27ebd276ab7d38b6a66bb0",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        112,
+        154,
+        910,
+        313
+      ],
+      "source_asset_id": "img_3f594246c5c150ac8eefae42ff4a14fb"
+    },
+    {
+      "id": "img_234d1b95c3585f03bfe1611e6d15b9a7",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页073_234d1b95c358_题图.png",
+      "role": "crop",
+      "sha256": "fae790bb382cbcf04b5de8e8dfbac40012e5ea7d66c5930d07bb2f5e64289e84",
+      "pixel_sha256": "ac4fa9d5afe707464c665ac80730d2c4cab55f1a7c352becb49fdffa6cab739b",
+      "width": 800,
+      "height": 464,
+      "pdf_page_number": 73,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页073_原图.png",
+      "source_image_sha256": "4575fd0348279ad540271baba147b022249531b634c3897ea273bcf63ed26d46",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        84,
+        838,
+        884,
+        1302
+      ],
+      "source_asset_id": "img_5a6dfe9925615c27b66c7bc7a8299b5c"
+    },
+    {
+      "id": "img_f6b3d7f6263c5890ad999ca72cde2ce2",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页074_f6b3d7f6263c_题图.png",
+      "role": "crop",
+      "sha256": "77cfbd3bfcb82334e03ead9f602e673a0f664417d9d1b3fc94827a6589667fc8",
+      "pixel_sha256": "4886faabaa7415891fb26925c3603b2a991dccf196efbd66e63695c589c7d076",
+      "width": 798,
+      "height": 581,
+      "pdf_page_number": 74,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页074_原图.png",
+      "source_image_sha256": "7dfa83b9437ced3edf34d7e0ea0d89d64f88111ffb27ebd276ab7d38b6a66bb0",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        112,
+        351,
+        910,
+        932
+      ],
+      "source_asset_id": "img_3f594246c5c150ac8eefae42ff4a14fb"
+    },
+    {
+      "id": "img_05b6ff9131585b4783821cac94ee0369",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页074_05b6ff913158_题图.png",
+      "role": "crop",
+      "sha256": "75518801fb9ae2201f8f73ba53a600482c0791c9757197d62634e89f4b191131",
+      "pixel_sha256": "31aac555f11d9728ac6d68d319219876cf3409a4c3f35427f57a32b83f50d1d3",
+      "width": 553,
+      "height": 198,
+      "pdf_page_number": 74,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页074_原图.png",
+      "source_image_sha256": "7dfa83b9437ced3edf34d7e0ea0d89d64f88111ffb27ebd276ab7d38b6a66bb0",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        213,
+        1082,
+        766,
+        1280
+      ],
+      "source_asset_id": "img_3f594246c5c150ac8eefae42ff4a14fb"
+    },
+    {
+      "id": "img_fd3ce3e3dfc350f3a4f364e15911fd89",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页074_fd3ce3e3dfc3_题图.png",
+      "role": "crop",
+      "sha256": "59d86cece0f0c6a8f3acb853f61c53464fa6c560a38055f1ec4be401b167baff",
+      "pixel_sha256": "dd342ae3b0b24ba987dce0f927ad9efeec7794efebc301737c2f664baeb3c89a",
+      "width": 798,
+      "height": 337,
+      "pdf_page_number": 74,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页074_原图.png",
+      "source_image_sha256": "7dfa83b9437ced3edf34d7e0ea0d89d64f88111ffb27ebd276ab7d38b6a66bb0",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        112,
+        971,
+        910,
+        1308
+      ],
+      "source_asset_id": "img_3f594246c5c150ac8eefae42ff4a14fb"
+    },
+    {
+      "id": "img_46ee37e11b4554e8aecb5523e020fb03",
+      "path": "images/source/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_原图.png",
+      "role": "source_page",
+      "sha256": "1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160",
+      "pixel_sha256": "e9056f21253848081541f068b5a000c263c6a148dc950604a5ad9316b6fd4b4e",
+      "width": 993,
+      "height": 1418,
+      "pdf_page_number": 87,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_原图.png",
+      "source_image_sha256": "1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        0,
+        0,
+        993,
+        1418
+      ],
+      "source_asset_id": null
+    },
+    {
+      "id": "img_436132925b295af0868ef784a7604ec1",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_436132925b29_题图.png",
+      "role": "crop",
+      "sha256": "9887d7629b17b88e8ffe6c7e0ed8190dafe1f4aec867acd8738c7acfc8f8346c",
+      "pixel_sha256": "e8dd4c1513aa893843fa8ae5fa1ea9ab45f9e067954c088b075fd82a8884de74",
+      "width": 423,
+      "height": 129,
+      "pdf_page_number": 87,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_原图.png",
+      "source_image_sha256": "1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        126,
+        407,
+        549,
+        536
+      ],
+      "source_asset_id": "img_46ee37e11b4554e8aecb5523e020fb03"
+    },
+    {
+      "id": "img_a4bc6d647e7b54f2a19d4c4cd22d6a49",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_a4bc6d647e7b_题图.png",
+      "role": "crop",
+      "sha256": "0a23001c66703eeb27a3acd19fdade0af721c9b15338de84af0fd1ea4380b260",
+      "pixel_sha256": "d7b4c8aa4c59bfc92473604b4abaaef0029d72ec97d2125a69b23fb869ca5b27",
+      "width": 321,
+      "height": 128,
+      "pdf_page_number": 87,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_原图.png",
+      "source_image_sha256": "1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        551,
+        407,
+        872,
+        535
+      ],
+      "source_asset_id": "img_46ee37e11b4554e8aecb5523e020fb03"
+    },
+    {
+      "id": "img_dd38348848b75d42b837b56b79538caa",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_dd38348848b7_题图.png",
+      "role": "crop",
+      "sha256": "46b08f2e51ad40ec754af8344d595560fea3afa108a489ea66fdb9bcdb5e253c",
+      "pixel_sha256": "9d9ff75257cbed269be6781401331bc45e774837e099ff15494f65e38fc23a97",
+      "width": 483,
+      "height": 130,
+      "pdf_page_number": 87,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_原图.png",
+      "source_image_sha256": "1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        129,
+        699,
+        612,
+        829
+      ],
+      "source_asset_id": "img_46ee37e11b4554e8aecb5523e020fb03"
+    },
+    {
+      "id": "img_cbc6c8115e455199ba794cbb0715f49a",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_cbc6c8115e45_题图.png",
+      "role": "crop",
+      "sha256": "85c922c1aee2538cf59dcc9aefb840b8d176b46d73071e7a19eeb0b4df97b926",
+      "pixel_sha256": "e1b363fe83acfb76e8743b5909fe972c69099f4032e724ebf0a73dbb41a7d7bc",
+      "width": 266,
+      "height": 114,
+      "pdf_page_number": 87,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_原图.png",
+      "source_image_sha256": "1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        611,
+        709,
+        877,
+        823
+      ],
+      "source_asset_id": "img_46ee37e11b4554e8aecb5523e020fb03"
+    },
+    {
+      "id": "img_254036e9f5de5490bf9d58f47a9efeb0",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_254036e9f5de_题图.png",
+      "role": "crop",
+      "sha256": "19c3fffa6d8cedf8baf73835f5c697fbbba51e8ff5876ef0a1e38dea2af1aa5d",
+      "pixel_sha256": "8f757b315ec5ead0e98ce05e7439ada070646e30b972ebb1dc1b5d526ce59bab",
+      "width": 798,
+      "height": 711,
+      "pdf_page_number": 87,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_原图.png",
+      "source_image_sha256": "1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        84,
+        157,
+        882,
+        868
+      ],
+      "source_asset_id": "img_46ee37e11b4554e8aecb5523e020fb03"
+    },
+    {
+      "id": "img_219843667dd55d03848bdd10c1658f17",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_219843667dd5_题图.png",
+      "role": "crop",
+      "sha256": "c2487cbd87473daffe0068367a3f6b934478aa49d10fe442cf4fd0d309ecdce6",
+      "pixel_sha256": "aa95a1b329526a7aed5c12b88c1f25ab1e5c996c563831f863e1197102f01b18",
+      "width": 433,
+      "height": 123,
+      "pdf_page_number": 87,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_原图.png",
+      "source_image_sha256": "1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        132,
+        1152,
+        565,
+        1275
+      ],
+      "source_asset_id": "img_46ee37e11b4554e8aecb5523e020fb03"
+    },
+    {
+      "id": "img_3b6678e802265b7abb365c23a2607c56",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_3b6678e80226_题图.png",
+      "role": "crop",
+      "sha256": "315bf739c95a1c269856be69b2952a48c9950780c8ead3de90f9841be6d147ef",
+      "pixel_sha256": "d171b662350c3f3e9eae1a854ecd5edcace368723e456e9309335ce80bffafb0",
+      "width": 294,
+      "height": 131,
+      "pdf_page_number": 87,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_原图.png",
+      "source_image_sha256": "1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        575,
+        1152,
+        869,
+        1283
+      ],
+      "source_asset_id": "img_46ee37e11b4554e8aecb5523e020fb03"
+    },
+    {
+      "id": "img_68df08cc30755de996d16f02d7639658",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_68df08cc3075_题图.png",
+      "role": "crop",
+      "sha256": "b56b6febec00bbd373a5d06c99106b1b44e0be5fafae314761cbeb0f6a473c06",
+      "pixel_sha256": "08fc7a1efedaf7eb5464cde3d777534e81a691ea4b66f74a099a7b68f05c99e7",
+      "width": 798,
+      "height": 419,
+      "pdf_page_number": 87,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_原图.png",
+      "source_image_sha256": "1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        84,
+        888,
+        882,
+        1307
+      ],
+      "source_asset_id": "img_46ee37e11b4554e8aecb5523e020fb03"
+    },
+    {
+      "id": "img_ccde08a8664955c288f1400ab137dad7",
+      "path": "images/source/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页109_原图.png",
+      "role": "source_page",
+      "sha256": "a13b2b9d60013a5a8ed63f842e61b32ed6fef6c3781c50784b13102c71bf1eca",
+      "pixel_sha256": "08342dacba89b96978167893feecf5b33897e5c22b3a812337827eb99bbe96ac",
+      "width": 993,
+      "height": 1418,
+      "pdf_page_number": 109,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页109_原图.png",
+      "source_image_sha256": "a13b2b9d60013a5a8ed63f842e61b32ed6fef6c3781c50784b13102c71bf1eca",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        0,
+        0,
+        993,
+        1418
+      ],
+      "source_asset_id": null
+    },
+    {
+      "id": "img_b3949fe126475e4f970f7f5de8e450d7",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页109_b3949fe12647_题图.png",
+      "role": "crop",
+      "sha256": "dbf989cc4701a7055b2af00af0a8b0b97c73e6368fe002c39e578ea1edcc6d23",
+      "pixel_sha256": "808c53dade3d3f5542730c66063e93c737eb090eaff0bb9438c70ddeed14aaef",
+      "width": 798,
+      "height": 340,
+      "pdf_page_number": 109,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页109_原图.png",
+      "source_image_sha256": "a13b2b9d60013a5a8ed63f842e61b32ed6fef6c3781c50784b13102c71bf1eca",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        84,
+        500,
+        882,
+        840
+      ],
+      "source_asset_id": "img_ccde08a8664955c288f1400ab137dad7"
+    },
+    {
+      "id": "img_c9eff2ae9b715caaa274a897cabc4120",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页109_c9eff2ae9b71_题图.png",
+      "role": "crop",
+      "sha256": "55e49f652b86298458328a4ab8176087b1f6bf72809778bc661450048afcfa2d",
+      "pixel_sha256": "0e7402eaa76038f4ece8053496875d2e5551b153746c892a579e2fa4428b436c",
+      "width": 798,
+      "height": 346,
+      "pdf_page_number": 109,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页109_原图.png",
+      "source_image_sha256": "a13b2b9d60013a5a8ed63f842e61b32ed6fef6c3781c50784b13102c71bf1eca",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        84,
+        154,
+        882,
+        500
+      ],
+      "source_asset_id": "img_ccde08a8664955c288f1400ab137dad7"
+    },
+    {
+      "id": "img_e3bb81af77f950c2b5294030f0d4723f",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页109_e3bb81af77f9_题图.png",
+      "role": "crop",
+      "sha256": "7aeac54312f806fbcffa2d38c03458494bd8e2a5a4965d081d088482a0521cb9",
+      "pixel_sha256": "7d5c2b876aa90eb540f9abbfce084a95e6a703e45609101f94b96427a15914ac",
+      "width": 663,
+      "height": 50,
+      "pdf_page_number": 109,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页109_原图.png",
+      "source_image_sha256": "a13b2b9d60013a5a8ed63f842e61b32ed6fef6c3781c50784b13102c71bf1eca",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        142,
+        970,
+        805,
+        1020
+      ],
+      "source_asset_id": "img_ccde08a8664955c288f1400ab137dad7"
+    },
+    {
+      "id": "img_2a7063224298575793f6dbf8514e43e3",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页109_2a7063224298_题图.png",
+      "role": "crop",
+      "sha256": "bf2d467ce8545b434fc754659544bc4906b97b308ef17339fa34c6e5a485c7d3",
+      "pixel_sha256": "0e553084241f037eea3346cac123df0455d905a2299af17c3e580b04d8d0269d",
+      "width": 798,
+      "height": 183,
+      "pdf_page_number": 109,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页109_原图.png",
+      "source_image_sha256": "a13b2b9d60013a5a8ed63f842e61b32ed6fef6c3781c50784b13102c71bf1eca",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        84,
+        853,
+        882,
+        1036
+      ],
+      "source_asset_id": "img_ccde08a8664955c288f1400ab137dad7"
+    },
+    {
+      "id": "img_951483840f305fe49dd7357a50fb61b7",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页109_951483840f30_题图.png",
+      "role": "crop",
+      "sha256": "a1132af321af91887371ede097ab029eb7e8aa5a171c665de49bd19e0c73be42",
+      "pixel_sha256": "3afbdb5638de38c240d4eb2d2dd23395b6313f75046ca992dd785a93006d88ea",
+      "width": 798,
+      "height": 264,
+      "pdf_page_number": 109,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页109_原图.png",
+      "source_image_sha256": "a13b2b9d60013a5a8ed63f842e61b32ed6fef6c3781c50784b13102c71bf1eca",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        84,
+        1045,
+        882,
+        1309
+      ],
+      "source_asset_id": "img_ccde08a8664955c288f1400ab137dad7"
+    },
+    {
+      "id": "img_ac15cb3fccf85dc7bed473011d290938",
+      "path": "images/source/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_原图.png",
+      "role": "source_page",
+      "sha256": "7965993926d22f163c4ece7f3837c63e9e398fa5950af7ee4cc093bb91dcb8ed",
+      "pixel_sha256": "6012352718572f3875ac4ae3160fcf301774ab1161984cd802d56bf8b88c9f8e",
+      "width": 993,
+      "height": 1418,
+      "pdf_page_number": 110,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_原图.png",
+      "source_image_sha256": "7965993926d22f163c4ece7f3837c63e9e398fa5950af7ee4cc093bb91dcb8ed",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        0,
+        0,
+        993,
+        1418
+      ],
+      "source_asset_id": null
+    },
+    {
+      "id": "img_fad2043af2515e2d8c4fb9c1fc6afd02",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_fad2043af251_题图.png",
+      "role": "crop",
+      "sha256": "8010134d8e33a4dd3700ac89a38985d2d751d8772b24d3ed87379450048d11d2",
+      "pixel_sha256": "ac93d1011bed1a8545843ff1f1a7e7af441a721038081d2f4e00918f44bcbe11",
+      "width": 700,
+      "height": 67,
+      "pdf_page_number": 110,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_原图.png",
+      "source_image_sha256": "7965993926d22f163c4ece7f3837c63e9e398fa5950af7ee4cc093bb91dcb8ed",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        145,
+        264,
+        845,
+        331
+      ],
+      "source_asset_id": "img_ac15cb3fccf85dc7bed473011d290938"
+    },
+    {
+      "id": "img_93f29a67c8c254dc9cc57adec519339a",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_93f29a67c8c2_题图.png",
+      "role": "crop",
+      "sha256": "c3e9f05203859bb0fa6f13341ca29108da7b81aca37f0442930986e8a6ffa407",
+      "pixel_sha256": "d635e4986cdcacabe3c0e7b04025f1c03bf6f053cecf6eb54431f6ac3e52f13c",
+      "width": 798,
+      "height": 168,
+      "pdf_page_number": 110,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_原图.png",
+      "source_image_sha256": "7965993926d22f163c4ece7f3837c63e9e398fa5950af7ee4cc093bb91dcb8ed",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        112,
+        172,
+        910,
+        340
+      ],
+      "source_asset_id": "img_ac15cb3fccf85dc7bed473011d290938"
+    },
+    {
+      "id": "img_7b0eb9e8cc1059048950a30b407d3756",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_7b0eb9e8cc10_题图.png",
+      "role": "crop",
+      "sha256": "50b9664b42bfb6ef2df7513bd42702d5f1ce399d8a9b2fded02b9508b269e184",
+      "pixel_sha256": "6ee84a69d00272a2b7d9718ebedc3942609ca6e47098279ab1104ea368a0a4da",
+      "width": 798,
+      "height": 211,
+      "pdf_page_number": 110,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_原图.png",
+      "source_image_sha256": "7965993926d22f163c4ece7f3837c63e9e398fa5950af7ee4cc093bb91dcb8ed",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        112,
+        354,
+        910,
+        565
+      ],
+      "source_asset_id": "img_ac15cb3fccf85dc7bed473011d290938"
+    },
+    {
+      "id": "img_8c7b59c7a23f5888a950700001940402",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_8c7b59c7a23f_题图.png",
+      "role": "crop",
+      "sha256": "61c05380019be96d69d7144346e8c720db551673d1571b5beb7e00c5367cd436",
+      "pixel_sha256": "c5272f65f427a0870bbc1a5d8fa9b32abe08fff2d38663509b458785bb1a85d6",
+      "width": 798,
+      "height": 210,
+      "pdf_page_number": 110,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_原图.png",
+      "source_image_sha256": "7965993926d22f163c4ece7f3837c63e9e398fa5950af7ee4cc093bb91dcb8ed",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        112,
+        570,
+        910,
+        780
+      ],
+      "source_asset_id": "img_ac15cb3fccf85dc7bed473011d290938"
+    },
+    {
+      "id": "img_58fdbc69188953eb963339beeef8806a",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_58fdbc691889_题图.png",
+      "role": "crop",
+      "sha256": "0160ae6d0e10400b7f9645c0fa116c3d630301a1479a85e3a149cc5e957bbaac",
+      "pixel_sha256": "7aaf8bcff509022e3c3917c9f2dc325b3a4cd3ef92a7c3a842f7557498a74e66",
+      "width": 798,
+      "height": 278,
+      "pdf_page_number": 110,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_原图.png",
+      "source_image_sha256": "7965993926d22f163c4ece7f3837c63e9e398fa5950af7ee4cc093bb91dcb8ed",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        112,
+        783,
+        910,
+        1061
+      ],
+      "source_asset_id": "img_ac15cb3fccf85dc7bed473011d290938"
+    },
+    {
+      "id": "img_37f29ff84d0f57c4bf3bfab9c49834c5",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_37f29ff84d0f_题图.png",
+      "role": "crop",
+      "sha256": "617441fa26c04965d9dff16adc7abafa69cf53f599af30990d65ea2a89e33b2c",
+      "pixel_sha256": "f13a82271a4b50564da1f239c71a8ec9fb9d81f6070b7d488afb0f16d581ce41",
+      "width": 656,
+      "height": 138,
+      "pdf_page_number": 110,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_原图.png",
+      "source_image_sha256": "7965993926d22f163c4ece7f3837c63e9e398fa5950af7ee4cc093bb91dcb8ed",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        113,
+        1175,
+        769,
+        1313
+      ],
+      "source_asset_id": "img_ac15cb3fccf85dc7bed473011d290938"
+    },
+    {
+      "id": "img_3838aae2b5e05f619c4613f8b5363725",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_3838aae2b5e0_题图.png",
+      "role": "crop",
+      "sha256": "4c7ba8e7de463464472be02b510aecf8cb5fb6bce55e349ff31cd3242ae73a8b",
+      "pixel_sha256": "305975be336fe8026c8faeb8c81f045ad6df3ab6553846f97c9cda43442bf497",
+      "width": 170,
+      "height": 240,
+      "pdf_page_number": 110,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_原图.png",
+      "source_image_sha256": "7965993926d22f163c4ece7f3837c63e9e398fa5950af7ee4cc093bb91dcb8ed",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        748,
+        1080,
+        918,
+        1320
+      ],
+      "source_asset_id": "img_ac15cb3fccf85dc7bed473011d290938"
+    },
+    {
+      "id": "img_eb64d432d0515a1db29496c770e4afed",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_eb64d432d051_题图.png",
+      "role": "crop",
+      "sha256": "4e6e10536b9c11ceab8fc7ecf1e3f5382cc22486191dad8e14e9ffb42297e284",
+      "pixel_sha256": "cab391220cec0d822011a30ed4423531b7373387ef1c2d78becb3fefaf407ac9",
+      "width": 809,
+      "height": 254,
+      "pdf_page_number": 110,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_原图.png",
+      "source_image_sha256": "7965993926d22f163c4ece7f3837c63e9e398fa5950af7ee4cc093bb91dcb8ed",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        112,
+        1067,
+        921,
+        1321
+      ],
+      "source_asset_id": "img_ac15cb3fccf85dc7bed473011d290938"
+    },
+    {
+      "id": "img_ad57d2dcb3f85ac88203e9e6a5049374",
+      "path": "images/source/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_原图.png",
+      "role": "source_page",
+      "sha256": "22495d76c9c6a41e17bc8ec24b7572c9b52df8b6013d42ca914c28590ee75ba5",
+      "pixel_sha256": "786d8bb42b3a369fa3bebe07ad8b26ecab30fc9f03daa717b336c47ff64fb63e",
+      "width": 993,
+      "height": 1418,
+      "pdf_page_number": 139,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_原图.png",
+      "source_image_sha256": "22495d76c9c6a41e17bc8ec24b7572c9b52df8b6013d42ca914c28590ee75ba5",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        0,
+        0,
+        993,
+        1418
+      ],
+      "source_asset_id": null
+    },
+    {
+      "id": "img_9e47f19d775b5a869bf5ca58c4bb30a4",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_9e47f19d775b_题图.png",
+      "role": "crop",
+      "sha256": "7b1bafba03774123b5b5e107309ef0934b7fa8613702339f3b21b5241d414eb7",
+      "pixel_sha256": "6480bf21a5cdf0d0972ca757905a081d81393ef6291687eb7561621aaa63377a",
+      "width": 261,
+      "height": 155,
+      "pdf_page_number": 139,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_原图.png",
+      "source_image_sha256": "22495d76c9c6a41e17bc8ec24b7572c9b52df8b6013d42ca914c28590ee75ba5",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        589,
+        312,
+        850,
+        467
+      ],
+      "source_asset_id": "img_ad57d2dcb3f85ac88203e9e6a5049374"
+    },
+    {
+      "id": "img_661035227d7d5c98bc1f10625797b3a4",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_661035227d7d_题图.png",
+      "role": "crop",
+      "sha256": "4f57b746e7b8da279f3a2fdd879479a926e675d431131374bb96a02171150ae8",
+      "pixel_sha256": "cd2b045b7e1673878032d403571a49feb71568ed2eee2ea0d432aa08ca1a391e",
+      "width": 798,
+      "height": 345,
+      "pdf_page_number": 139,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_原图.png",
+      "source_image_sha256": "22495d76c9c6a41e17bc8ec24b7572c9b52df8b6013d42ca914c28590ee75ba5",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        84,
+        170,
+        882,
+        515
+      ],
+      "source_asset_id": "img_ad57d2dcb3f85ac88203e9e6a5049374"
+    },
+    {
+      "id": "img_8bbf86e5427658a387912bf5baf475bb",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_8bbf86e54276_题图.png",
+      "role": "crop",
+      "sha256": "38977be2ab875dd1bb32e5d7c5d29d3c4d0ed07306db4b5b0f7d842ed1b4a3c8",
+      "pixel_sha256": "9d17f119a35030b3859b20db13870023565086cbd26b3b415025a312ec4f38df",
+      "width": 320,
+      "height": 198,
+      "pdf_page_number": 139,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_原图.png",
+      "source_image_sha256": "22495d76c9c6a41e17bc8ec24b7572c9b52df8b6013d42ca914c28590ee75ba5",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        550,
+        683,
+        870,
+        881
+      ],
+      "source_asset_id": "img_ad57d2dcb3f85ac88203e9e6a5049374"
+    },
+    {
+      "id": "img_8a71418eee805e158cc3647ea3d217c7",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_8a71418eee80_题图.png",
+      "role": "crop",
+      "sha256": "202b8c84e0312295d0f7eb67503b183add896603277f3ad2c77d7fec7ea18d0a",
+      "pixel_sha256": "2d69375487576d7f6e55b617dec1841a9ed1522f2afa978ec8e84ff337d83fb3",
+      "width": 798,
+      "height": 353,
+      "pdf_page_number": 139,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_原图.png",
+      "source_image_sha256": "22495d76c9c6a41e17bc8ec24b7572c9b52df8b6013d42ca914c28590ee75ba5",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        84,
+        559,
+        882,
+        912
+      ],
+      "source_asset_id": "img_ad57d2dcb3f85ac88203e9e6a5049374"
+    },
+    {
+      "id": "img_bc8d66e3c5555048914d3c24cb780636",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_bc8d66e3c555_题图.png",
+      "role": "crop",
+      "sha256": "6de627478a8dae06636d7e199b6d4cda97b535c6d220971fbdf8b2e494fc0741",
+      "pixel_sha256": "cb81662e6cf723d3443dbc0e6f2c2a64fa8c704965625d037a0b6fb009690718",
+      "width": 153,
+      "height": 152,
+      "pdf_page_number": 139,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_原图.png",
+      "source_image_sha256": "22495d76c9c6a41e17bc8ec24b7572c9b52df8b6013d42ca914c28590ee75ba5",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        518,
+        1088,
+        671,
+        1240
+      ],
+      "source_asset_id": "img_ad57d2dcb3f85ac88203e9e6a5049374"
+    },
+    {
+      "id": "img_884ee7b38f655d6eb6bb4b5e7c406df1",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_884ee7b38f65_题图.png",
+      "role": "crop",
+      "sha256": "d784434538d5e9da9e5f79cafcf1a3af009fe3c6474c0e5461f14eb72a42d36c",
+      "pixel_sha256": "7a7d13ffaa191ea94e55ddb04af76a48e9970202345cb7e7330760ac3e380c57",
+      "width": 213,
+      "height": 268,
+      "pdf_page_number": 139,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_原图.png",
+      "source_image_sha256": "22495d76c9c6a41e17bc8ec24b7572c9b52df8b6013d42ca914c28590ee75ba5",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        694,
+        1044,
+        907,
+        1312
+      ],
+      "source_asset_id": "img_ad57d2dcb3f85ac88203e9e6a5049374"
+    },
+    {
+      "id": "img_fe5ac9b2d2ed517fa3c0d5c482f5cc7b",
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_fe5ac9b2d2ed_题图.png",
+      "role": "crop",
+      "sha256": "1b487f61471e34febaeb8941d3a67a6b62d0bf614c0adf4d4b1173fb8106e133",
+      "pixel_sha256": "8f65688c6c31aa0bbd301f3f6b6d50f76b0090901309dcc4331d8471faae9dca",
+      "width": 826,
+      "height": 343,
+      "pdf_page_number": 139,
+      "source_image_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_原图.png",
+      "source_image_sha256": "22495d76c9c6a41e17bc8ec24b7572c9b52df8b6013d42ca914c28590ee75ba5",
+      "source_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+      "source_bbox": [
+        84,
+        965,
+        910,
+        1308
+      ],
+      "source_asset_id": "img_ad57d2dcb3f85ac88203e9e6a5049374"
+    }
+  ],
+  "lookup_index": [
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "11",
+      "exercise_number": "4",
+      "exercise_ids": [
+        "ex_6d040146e6d4512087e2d514fdb2a52a"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "11",
+      "exercise_number": "5",
+      "exercise_ids": [
+        "ex_a6cb083ad8ae5ed884f32db5f6993898"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "11",
+      "exercise_number": "6",
+      "exercise_ids": [
+        "ex_1d9074e645ee53b9b42a752a4452cf01"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "11",
+      "exercise_number": "7",
+      "exercise_ids": [
+        "ex_aa76a6d1f856588285f2ae08fa549eeb"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "15",
+      "exercise_number": "10",
+      "exercise_ids": [
+        "ex_385f779a276d56b6be9ca85e90af6cc2"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "15",
+      "exercise_number": "7",
+      "exercise_ids": [
+        "ex_0c3b55ad03685b51a54c2dcfd95c1486"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "15",
+      "exercise_number": "8",
+      "exercise_ids": [
+        "ex_2b432dc1a5b65769b51a24b308a45758"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "15",
+      "exercise_number": "9",
+      "exercise_ids": [
+        "ex_db243029a11c510f9a34c3b364716746"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "19",
+      "exercise_number": "1",
+      "exercise_ids": [
+        "ex_9b8bf3a75e06521ab3a5fd734de8a917"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "19",
+      "exercise_number": "2",
+      "exercise_ids": [
+        "ex_e890fcd7817159168b234fb74a24b3f1"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "19",
+      "exercise_number": "3",
+      "exercise_ids": [
+        "ex_041ba16afa4255479fcf0421dc06c796"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "22",
+      "exercise_number": "7",
+      "exercise_ids": [
+        "ex_c137548803f25742b4b37db3aba31219"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "22",
+      "exercise_number": "8",
+      "exercise_ids": [
+        "ex_9fcf4742cdc8588483ec841c1003748e"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "29",
+      "exercise_number": "10",
+      "exercise_ids": [
+        "ex_0d78170ca74c50e69859eb91e2b98c36"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "29",
+      "exercise_number": "3",
+      "exercise_ids": [
+        "ex_294cb61e43cc563d86edc92ac7640989"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "29",
+      "exercise_number": "4",
+      "exercise_ids": [
+        "ex_73a16f40c66d55dfad65314dc1aa1f66"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "29",
+      "exercise_number": "5",
+      "exercise_ids": [
+        "ex_9c43ff9341ac5834ad4d9011de3727cc"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "29",
+      "exercise_number": "6",
+      "exercise_ids": [
+        "ex_40751075f4095650acc2bee7103aa088"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "29",
+      "exercise_number": "7",
+      "exercise_ids": [
+        "ex_3219decf6acb58bf8bbe27ce9112f818"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "29",
+      "exercise_number": "8",
+      "exercise_ids": [
+        "ex_bb1078ce271a5ee38416a8a52b66d8b8"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "29",
+      "exercise_number": "9",
+      "exercise_ids": [
+        "ex_915e5e349b205d08b024381ae3f34d27"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "3",
+      "exercise_number": "1",
+      "exercise_ids": [
+        "ex_0a6bd78f74025d82829d1ced9e1cb8cc"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "38",
+      "exercise_number": "7",
+      "exercise_ids": [
+        "ex_dd42408c8ed35c7d8e993b542a4fd79a"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "38",
+      "exercise_number": "8",
+      "exercise_ids": [
+        "ex_02381c54b1ae50639c901e39d7bba5a0"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "38",
+      "exercise_number": "9",
+      "exercise_ids": [
+        "ex_f17b43ec27165e13b4091c609c82dc5d"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "7",
+      "exercise_number": "1",
+      "exercise_ids": [
+        "ex_eb94ac1c7b1a53d7a314b3ae569aa177"
+      ]
+    },
+    {
+      "book_id": "math-2023-grade4-part1",
+      "lesson_number": "7",
+      "exercise_number": "2",
+      "exercise_ids": [
+        "ex_dfebea8cdc715182964ab61681388dfd"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "lesson_id": "codex-exp:lesson:03",
+      "id_namespace": "experiment_local_not_existing_wiki_id",
+      "printed_lesson_number": 3,
+      "title_text": "Көптаңбалы сандар. Сандардың реті",
+      "source_header_text": "3\nКөптаңбалы сандар. Сандардың реті",
+      "source_line_ids": [
+        {
+          "pdf_page_number": 14,
+          "line_id": "1"
+        },
+        {
+          "pdf_page_number": 14,
+          "line_id": "2"
+        }
+      ],
+      "page_refs": [
+        14
+      ],
+      "image_refs": [
+        {
+          "image_ref_id": "codex-exp:lesson-header:03",
+          "pdf_page_number": 14,
+          "repository_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页014_原图.png",
+          "repository_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+          "source_image_sha256": "3448e940f093c92540cff0084b2bd3a6e18efdfd0f465a98d5a7d48e1c61b6fb",
+          "image_size": [
+            993,
+            1418
+          ],
+          "bbox": [
+            25,
+            43,
+            913,
+            148
+          ],
+          "coordinate_system": "source_png_pixels",
+          "role": "lesson_header",
+          "scope": "sample",
+          "url": "https://raw.githubusercontent.com/yeyidi7570/01/f18ea258951d865c12413455f3d6d8bd643cf077/wiki-data/%E6%95%B0%E5%AD%A62023_%E5%93%88%E8%AF%AD%E5%AD%A6%E7%94%9F_%E5%93%88%E8%AF%AD%E6%95%99%E6%9D%90%EF%BC%884-1%EF%BC%89_%D0%90%D0%9B%D0%9C%D0%90%D0%A2%D0%AB%D0%9A%D0%86%D0%A2%D0%90%D0%9F_%E6%95%B0%E6%8D%AE/%E6%9D%A5%E6%BA%90/%E9%A1%B5%E9%9D%A2%E5%8E%9F%E5%9B%BE/%E6%95%B0%E5%AD%A62023_%E5%93%88%E8%AF%AD%E5%AD%A6%E7%94%9F_%E5%93%88%E8%AF%AD%E6%95%99%E6%9D%90%EF%BC%884-1%EF%BC%89_%D0%90%D0%9B%D0%9C%D0%90%D0%A2%D0%AB%D0%9A%D0%86%D0%A2%D0%90%D0%9F_%E9%A1%B5014_%E5%8E%9F%E5%9B%BE.png"
+        }
+      ],
+      "status": "CONFIRMED_FROM_SOURCE_HEADER"
+    },
+    {
+      "lesson_id": "codex-exp:lesson:07",
+      "id_namespace": "experiment_local_not_existing_wiki_id",
+      "printed_lesson_number": 7,
+      "title_text": "Көптаңбалы сандарды жазбаша\nқосу және азайту",
+      "source_header_text": "7\nКөптаңбалы сандарды жазбаша\nқосу және азайту",
+      "source_line_ids": [
+        {
+          "pdf_page_number": 29,
+          "line_id": "a0"
+        },
+        {
+          "pdf_page_number": 29,
+          "line_id": "1"
+        },
+        {
+          "pdf_page_number": 29,
+          "line_id": "2"
+        }
+      ],
+      "page_refs": [
+        29
+      ],
+      "image_refs": [
+        {
+          "image_ref_id": "codex-exp:lesson-header:07",
+          "pdf_page_number": 29,
+          "repository_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页029_原图.png",
+          "repository_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+          "source_image_sha256": "c3b8ca396ea30b15c89e03aeca4d89ecbf4ae0b6a1a1b6b7cf6404d000ae7ada",
+          "image_size": [
+            993,
+            1418
+          ],
+          "bbox": [
+            25,
+            43,
+            913,
+            148
+          ],
+          "coordinate_system": "source_png_pixels",
+          "role": "lesson_header",
+          "scope": "sample",
+          "url": "https://raw.githubusercontent.com/yeyidi7570/01/f18ea258951d865c12413455f3d6d8bd643cf077/wiki-data/%E6%95%B0%E5%AD%A62023_%E5%93%88%E8%AF%AD%E5%AD%A6%E7%94%9F_%E5%93%88%E8%AF%AD%E6%95%99%E6%9D%90%EF%BC%884-1%EF%BC%89_%D0%90%D0%9B%D0%9C%D0%90%D0%A2%D0%AB%D0%9A%D0%86%D0%A2%D0%90%D0%9F_%E6%95%B0%E6%8D%AE/%E6%9D%A5%E6%BA%90/%E9%A1%B5%E9%9D%A2%E5%8E%9F%E5%9B%BE/%E6%95%B0%E5%AD%A62023_%E5%93%88%E8%AF%AD%E5%AD%A6%E7%94%9F_%E5%93%88%E8%AF%AD%E6%95%99%E6%9D%90%EF%BC%884-1%EF%BC%89_%D0%90%D0%9B%D0%9C%D0%90%D0%A2%D0%AB%D0%9A%D0%86%D0%A2%D0%90%D0%9F_%E9%A1%B5029_%E5%8E%9F%E5%9B%BE.png"
+        }
+      ],
+      "status": "CONFIRMED_FROM_SOURCE_HEADER"
+    },
+    {
+      "lesson_id": "codex-exp:lesson:11",
+      "id_namespace": "experiment_local_not_existing_wiki_id",
+      "printed_lesson_number": 11,
+      "title_text": "11-сабақ • Ар, гектар – ауданның өлшем бірліктері",
+      "source_header_text": "11-сабақ • Ар, гектар – ауданның өлшем бірліктері",
+      "source_line_ids": [
+        {
+          "pdf_page_number": 46,
+          "line_id": "1"
+        }
+      ],
+      "page_refs": [
+        46
+      ],
+      "image_refs": [
+        {
+          "image_ref_id": "codex-exp:lesson-header:11",
+          "pdf_page_number": 46,
+          "repository_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_原图.png",
+          "repository_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+          "source_image_sha256": "56bfb7d6cf1c5848820a177e320c8e1243d59df44716e30a173e7579af16ce4e",
+          "image_size": [
+            993,
+            1418
+          ],
+          "bbox": [
+            25,
+            43,
+            913,
+            148
+          ],
+          "coordinate_system": "source_png_pixels",
+          "role": "lesson_header",
+          "scope": "sample",
+          "url": "https://raw.githubusercontent.com/yeyidi7570/01/f18ea258951d865c12413455f3d6d8bd643cf077/wiki-data/%E6%95%B0%E5%AD%A62023_%E5%93%88%E8%AF%AD%E5%AD%A6%E7%94%9F_%E5%93%88%E8%AF%AD%E6%95%99%E6%9D%90%EF%BC%884-1%EF%BC%89_%D0%90%D0%9B%D0%9C%D0%90%D0%A2%D0%AB%D0%9A%D0%86%D0%A2%D0%90%D0%9F_%E6%95%B0%E6%8D%AE/%E6%9D%A5%E6%BA%90/%E9%A1%B5%E9%9D%A2%E5%8E%9F%E5%9B%BE/%E6%95%B0%E5%AD%A62023_%E5%93%88%E8%AF%AD%E5%AD%A6%E7%94%9F_%E5%93%88%E8%AF%AD%E6%95%99%E6%9D%90%EF%BC%884-1%EF%BC%89_%D0%90%D0%9B%D0%9C%D0%90%D0%A2%D0%AB%D0%9A%D0%86%D0%A2%D0%90%D0%9F_%E9%A1%B5046_%E5%8E%9F%E5%9B%BE.png"
+        }
+      ],
+      "status": "CONFIRMED_FROM_SOURCE_HEADER"
+    },
+    {
+      "lesson_id": "codex-exp:lesson:15",
+      "id_namespace": "experiment_local_not_existing_wiki_id",
+      "printed_lesson_number": 15,
+      "title_text": "15-сабақ • Рубль (₽). Валютамен орындалатын операциялар",
+      "source_header_text": "15-сабақ • Рубль (₽). Валютамен орындалатын операциялар",
+      "source_line_ids": [
+        {
+          "pdf_page_number": 62,
+          "line_id": "1"
+        }
+      ],
+      "page_refs": [
+        62
+      ],
+      "image_refs": [
+        {
+          "image_ref_id": "codex-exp:lesson-header:15",
+          "pdf_page_number": 62,
+          "repository_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页062_原图.png",
+          "repository_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+          "source_image_sha256": "e6c19ed765c497cc525f8c97d35ac7f90d8658af4c2b5fc7311e9802f832af91",
+          "image_size": [
+            993,
+            1418
+          ],
+          "bbox": [
+            25,
+            43,
+            913,
+            148
+          ],
+          "coordinate_system": "source_png_pixels",
+          "role": "lesson_header",
+          "scope": "sample",
+          "url": "https://raw.githubusercontent.com/yeyidi7570/01/f18ea258951d865c12413455f3d6d8bd643cf077/wiki-data/%E6%95%B0%E5%AD%A62023_%E5%93%88%E8%AF%AD%E5%AD%A6%E7%94%9F_%E5%93%88%E8%AF%AD%E6%95%99%E6%9D%90%EF%BC%884-1%EF%BC%89_%D0%90%D0%9B%D0%9C%D0%90%D0%A2%D0%AB%D0%9A%D0%86%D0%A2%D0%90%D0%9F_%E6%95%B0%E6%8D%AE/%E6%9D%A5%E6%BA%90/%E9%A1%B5%E9%9D%A2%E5%8E%9F%E5%9B%BE/%E6%95%B0%E5%AD%A62023_%E5%93%88%E8%AF%AD%E5%AD%A6%E7%94%9F_%E5%93%88%E8%AF%AD%E6%95%99%E6%9D%90%EF%BC%884-1%EF%BC%89_%D0%90%D0%9B%D0%9C%D0%90%D0%A2%D0%AB%D0%9A%D0%86%D0%A2%D0%90%D0%9F_%E9%A1%B5062_%E5%8E%9F%E5%9B%BE.png"
+        }
+      ],
+      "status": "CONFIRMED_FROM_SOURCE_HEADER"
+    },
+    {
+      "lesson_id": "codex-exp:lesson:19",
+      "id_namespace": "experiment_local_not_existing_wiki_id",
+      "printed_lesson_number": 19,
+      "title_text": "Көптаңбалы санды бір таңбалы\nсанға көбейту және бөлу",
+      "source_header_text": "19\nКөптаңбалы санды бір таңбалы\nсанға көбейту және бөлу",
+      "source_line_ids": [
+        {
+          "pdf_page_number": 73,
+          "line_id": "2"
+        },
+        {
+          "pdf_page_number": 73,
+          "line_id": "1"
+        },
+        {
+          "pdf_page_number": 73,
+          "line_id": "3"
+        }
+      ],
+      "page_refs": [
+        73
+      ],
+      "image_refs": [
+        {
+          "image_ref_id": "codex-exp:lesson-header:19",
+          "pdf_page_number": 73,
+          "repository_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页073_原图.png",
+          "repository_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+          "source_image_sha256": "4575fd0348279ad540271baba147b022249531b634c3897ea273bcf63ed26d46",
+          "image_size": [
+            993,
+            1418
+          ],
+          "bbox": [
+            25,
+            43,
+            913,
+            148
+          ],
+          "coordinate_system": "source_png_pixels",
+          "role": "lesson_header",
+          "scope": "sample",
+          "url": "https://raw.githubusercontent.com/yeyidi7570/01/f18ea258951d865c12413455f3d6d8bd643cf077/wiki-data/%E6%95%B0%E5%AD%A62023_%E5%93%88%E8%AF%AD%E5%AD%A6%E7%94%9F_%E5%93%88%E8%AF%AD%E6%95%99%E6%9D%90%EF%BC%884-1%EF%BC%89_%D0%90%D0%9B%D0%9C%D0%90%D0%A2%D0%AB%D0%9A%D0%86%D0%A2%D0%90%D0%9F_%E6%95%B0%E6%8D%AE/%E6%9D%A5%E6%BA%90/%E9%A1%B5%E9%9D%A2%E5%8E%9F%E5%9B%BE/%E6%95%B0%E5%AD%A62023_%E5%93%88%E8%AF%AD%E5%AD%A6%E7%94%9F_%E5%93%88%E8%AF%AD%E6%95%99%E6%9D%90%EF%BC%884-1%EF%BC%89_%D0%90%D0%9B%D0%9C%D0%90%D0%A2%D0%AB%D0%9A%D0%86%D0%A2%D0%90%D0%9F_%E9%A1%B5073_%E5%8E%9F%E5%9B%BE.png"
+        }
+      ],
+      "status": "CONFIRMED_FROM_SOURCE_HEADER"
+    },
+    {
+      "lesson_id": "codex-exp:lesson:22",
+      "id_namespace": "experiment_local_not_existing_wiki_id",
+      "printed_lesson_number": 22,
+      "title_text": "22-сабақ • 2-ге, 5-ке, 10-ға бөлінгіштік белгілері",
+      "source_header_text": "22-сабақ • 2-ге, 5-ке, 10-ға бөлінгіштік белгілері",
+      "source_line_ids": [
+        {
+          "pdf_page_number": 86,
+          "line_id": "1"
+        }
+      ],
+      "page_refs": [
+        86
+      ],
+      "image_refs": [
+        {
+          "image_ref_id": "codex-exp:lesson-header:22",
+          "pdf_page_number": 86,
+          "repository_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页086_原图.png",
+          "repository_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+          "source_image_sha256": "61c7c1caf5a1000b4c1d5614e582809f845fc29c122fa795b97be97ed462ce1b",
+          "image_size": [
+            993,
+            1418
+          ],
+          "bbox": [
+            25,
+            43,
+            913,
+            148
+          ],
+          "coordinate_system": "source_png_pixels",
+          "role": "lesson_header",
+          "scope": "context_only",
+          "url": "https://raw.githubusercontent.com/yeyidi7570/01/f18ea258951d865c12413455f3d6d8bd643cf077/wiki-data/%E6%95%B0%E5%AD%A62023_%E5%93%88%E8%AF%AD%E5%AD%A6%E7%94%9F_%E5%93%88%E8%AF%AD%E6%95%99%E6%9D%90%EF%BC%884-1%EF%BC%89_%D0%90%D0%9B%D0%9C%D0%90%D0%A2%D0%AB%D0%9A%D0%86%D0%A2%D0%90%D0%9F_%E6%95%B0%E6%8D%AE/%E6%9D%A5%E6%BA%90/%E9%A1%B5%E9%9D%A2%E5%8E%9F%E5%9B%BE/%E6%95%B0%E5%AD%A62023_%E5%93%88%E8%AF%AD%E5%AD%A6%E7%94%9F_%E5%93%88%E8%AF%AD%E6%95%99%E6%9D%90%EF%BC%884-1%EF%BC%89_%D0%90%D0%9B%D0%9C%D0%90%D0%A2%D0%AB%D0%9A%D0%86%D0%A2%D0%90%D0%9F_%E9%A1%B5086_%E5%8E%9F%E5%9B%BE.png"
+        }
+      ],
+      "status": "CONFIRMED_FROM_SOURCE_HEADER"
+    },
+    {
+      "lesson_id": "codex-exp:lesson:29",
+      "id_namespace": "experiment_local_not_existing_wiki_id",
+      "printed_lesson_number": 29,
+      "title_text": "Қозғалысқа берілген есептер",
+      "source_header_text": "29\nҚозғалысқа берілген есептер",
+      "source_line_ids": [
+        {
+          "pdf_page_number": 108,
+          "line_id": "1"
+        },
+        {
+          "pdf_page_number": 108,
+          "line_id": "2"
+        }
+      ],
+      "page_refs": [
+        108
+      ],
+      "image_refs": [
+        {
+          "image_ref_id": "codex-exp:lesson-header:29",
+          "pdf_page_number": 108,
+          "repository_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页108_原图.png",
+          "repository_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+          "source_image_sha256": "ae03220ad0b9bb80c466c731ae9ba16eafacf8cdda36a678e90b5e8a2455a73a",
+          "image_size": [
+            993,
+            1418
+          ],
+          "bbox": [
+            25,
+            43,
+            913,
+            148
+          ],
+          "coordinate_system": "source_png_pixels",
+          "role": "lesson_header",
+          "scope": "context_only",
+          "url": "https://raw.githubusercontent.com/yeyidi7570/01/f18ea258951d865c12413455f3d6d8bd643cf077/wiki-data/%E6%95%B0%E5%AD%A62023_%E5%93%88%E8%AF%AD%E5%AD%A6%E7%94%9F_%E5%93%88%E8%AF%AD%E6%95%99%E6%9D%90%EF%BC%884-1%EF%BC%89_%D0%90%D0%9B%D0%9C%D0%90%D0%A2%D0%AB%D0%9A%D0%86%D0%A2%D0%90%D0%9F_%E6%95%B0%E6%8D%AE/%E6%9D%A5%E6%BA%90/%E9%A1%B5%E9%9D%A2%E5%8E%9F%E5%9B%BE/%E6%95%B0%E5%AD%A62023_%E5%93%88%E8%AF%AD%E5%AD%A6%E7%94%9F_%E5%93%88%E8%AF%AD%E6%95%99%E6%9D%90%EF%BC%884-1%EF%BC%89_%D0%90%D0%9B%D0%9C%D0%90%D0%A2%D0%AB%D0%9A%D0%86%D0%A2%D0%90%D0%9F_%E9%A1%B5108_%E5%8E%9F%E5%9B%BE.png"
+        }
+      ],
+      "status": "CONFIRMED_FROM_SOURCE_HEADER"
+    },
+    {
+      "lesson_id": "codex-exp:lesson:38",
+      "id_namespace": "experiment_local_not_existing_wiki_id",
+      "printed_lesson_number": 38,
+      "title_text": "38-сабақ • Қорытындылау",
+      "source_header_text": "38-сабақ • Қорытындылау",
+      "source_line_ids": [
+        {
+          "pdf_page_number": 138,
+          "line_id": "1"
+        }
+      ],
+      "page_refs": [
+        138
+      ],
+      "image_refs": [
+        {
+          "image_ref_id": "codex-exp:lesson-header:38",
+          "pdf_page_number": 138,
+          "repository_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页138_原图.png",
+          "repository_commit": "f18ea258951d865c12413455f3d6d8bd643cf077",
+          "source_image_sha256": "a62e1730d4cac97a1e511a2858e4747e94dc1c14d0cec4c6bfddcd8034e529b5",
+          "image_size": [
+            993,
+            1418
+          ],
+          "bbox": [
+            25,
+            43,
+            913,
+            148
+          ],
+          "coordinate_system": "source_png_pixels",
+          "role": "lesson_header",
+          "scope": "context_only",
+          "url": "https://raw.githubusercontent.com/yeyidi7570/01/f18ea258951d865c12413455f3d6d8bd643cf077/wiki-data/%E6%95%B0%E5%AD%A62023_%E5%93%88%E8%AF%AD%E5%AD%A6%E7%94%9F_%E5%93%88%E8%AF%AD%E6%95%99%E6%9D%90%EF%BC%884-1%EF%BC%89_%D0%90%D0%9B%D0%9C%D0%90%D0%A2%D0%AB%D0%9A%D0%86%D0%A2%D0%90%D0%9F_%E6%95%B0%E6%8D%AE/%E6%9D%A5%E6%BA%90/%E9%A1%B5%E9%9D%A2%E5%8E%9F%E5%9B%BE/%E6%95%B0%E5%AD%A62023_%E5%93%88%E8%AF%AD%E5%AD%A6%E7%94%9F_%E5%93%88%E8%AF%AD%E6%95%99%E6%9D%90%EF%BC%884-1%EF%BC%89_%D0%90%D0%9B%D0%9C%D0%90%D0%A2%D0%AB%D0%9A%D0%86%D0%A2%D0%90%D0%9F_%E9%A1%B5138_%E5%8E%9F%E5%9B%BE.png"
+        }
+      ],
+      "status": "CONFIRMED_FROM_SOURCE_HEADER"
+    }
+  ],
+  "uncertainties": [
+    {
+      "uncertainty_id": "U01",
+      "status": "UNKNOWN",
+      "kind": "instructional_material_scope",
+      "experiment_question_id": "codex-exp:lesson07:exercise2",
+      "description": "UNKNOWN：第29–30页独立“ЕСІҢДЕ САҚТА!”框可同时视为课程讲解或第2题解释算法时的共用材料。本实验关联第2题但明确标为教学材料；不把框内1–7认作新题。第30页仅提供上下文，不计测试样本。",
+      "source_line_ids": [
+        {
+          "pdf_page_number": 29,
+          "line_id": "13"
+        },
+        {
+          "pdf_page_number": 29,
+          "line_id": "14"
+        },
+        {
+          "pdf_page_number": 29,
+          "line_id": "20"
+        },
+        {
+          "pdf_page_number": 29,
+          "line_id": "43"
+        }
+      ]
+    },
+    {
+      "uncertainty_id": "U02",
+      "status": "UNKNOWN",
+      "kind": "instructional_material_scope",
+      "experiment_question_id": "codex-exp:lesson03:exercise1",
+      "description": "UNKNOWN：14页底部黄色记忆框并不在第1题绿色外框内。本实验以课程讲解单独保存并关联第1题，不将其1、2、3误计为练习。课程材料是否应计入题目裁剪范围由第三方统一口径。",
+      "source_line_ids": [
+        {
+          "pdf_page_number": 14,
+          "line_id": "78"
+        },
+        {
+          "pdf_page_number": 14,
+          "line_id": "79"
+        },
+        {
+          "pdf_page_number": 14,
+          "line_id": "80"
+        },
+        {
+          "pdf_page_number": 14,
+          "line_id": "82"
+        }
+      ]
+    },
+    {
+      "uncertainty_id": "U03",
+      "status": "UNKNOWN",
+      "kind": "instructional_material_scope",
+      "experiment_question_id": "codex-exp:lesson19:exercise2",
+      "description": "UNKNOWN：74页顶部除法记忆框位于2ә之前，属于课程解释还是父题2的共用材料没有显式归属标记。本实验保存为课程背景并为父题2建立依赖，不重复分配文字行。",
+      "source_line_ids": [
+        {
+          "pdf_page_number": 74,
+          "line_id": "3"
+        },
+        {
+          "pdf_page_number": 74,
+          "line_id": "4"
+        },
+        {
+          "pdf_page_number": 74,
+          "line_id": "5"
+        },
+        {
+          "pdf_page_number": 74,
+          "line_id": "6"
+        },
+        {
+          "pdf_page_number": 74,
+          "line_id": "7"
+        },
+        {
+          "pdf_page_number": 74,
+          "line_id": "8"
+        },
+        {
+          "pdf_page_number": 74,
+          "line_id": "9"
+        },
+        {
+          "pdf_page_number": 74,
+          "line_id": "10"
+        },
+        {
+          "pdf_page_number": 74,
+          "line_id": "11"
+        },
+        {
+          "pdf_page_number": 74,
+          "line_id": "12"
+        },
+        {
+          "pdf_page_number": 74,
+          "line_id": "13"
+        }
+      ]
+    },
+    {
+      "uncertainty_id": "U04",
+      "status": "UNKNOWN",
+      "kind": "instructional_material_scope",
+      "experiment_question_id": "codex-exp:lesson29:exercise4",
+      "description": "UNKNOWN：109页黄色速度换算讲解框的教学作用明确，但未印题号。本实验保留为课程共用背景并关联3、4、5题；不会仅凭邻近位置把它硬归某一道题。",
+      "source_line_ids": [
+        {
+          "pdf_page_number": 109,
+          "line_id": "13"
+        },
+        {
+          "pdf_page_number": 109,
+          "line_id": "14"
+        },
+        {
+          "pdf_page_number": 109,
+          "line_id": "21"
+        }
+      ]
+    },
+    {
+      "uncertainty_id": "U05",
+      "status": "INDEPENDENCE_LIMITATION",
+      "kind": "historical_exposure",
+      "experiment_question_id": null,
+      "description": "全部10页：同一本书的历史OCR任务存在于本对话，不能证明完全没有既往接触；当前可见上下文没有这10页具体切割答案。本次没有读取旧Wiki结构候选或任何对方输出；全部样本标为NOT_PROVABLE fully blind，供第三方单独统计。",
+      "source_line_ids": []
+    }
+  ],
+  "input_unchanged": true,
+  "generation": {
+    "script": "scripts/build.py",
+    "validation_script": "scripts/validate.py",
+    "ordering_policy": "Lossless permutation of immutable final-OCR body units, using inherited grouping only; numbering separately stored; spatial transcription explicitly not verified.",
+    "id_policy": "UUIDv5(namespace, entity kind + book/source-version + physical source anchor). Printed lesson, exercise and child labels are excluded. Preserve this registry for migration across re-OCR/source changes.",
+    "label_policy": "题目自有页片段及同题续页；排除仅继承的课程公共讲解。题内装饰图计入has_image。",
+    "printed_examples_policy": "Preserve source-printed examples and algorithms; generate no answers or solutions."
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5239,
+      "sha256": "e8c6a9c913eb8f990ab9b94841cc7d7ea4db604cb5bdd8f402fbffb46d070d35"
+    },
+    {
+      "path": "conversion_config.json",
+      "bytes": 14311,
+      "sha256": "eb47085a8094ab50f0f3e9983c06e702f5cdb671c244f40912e94eb5a393b2f7"
+    },
+    {
+      "path": "exercises.jsonl",
+      "bytes": 407929,
+      "sha256": "3953ef5a698ec9575d7c2a1e9a3cf8e549f12e83c09e0c4d00c1edfae40807e5"
+    },
+    {
+      "path": "id_mapping.json",
+      "bytes": 75653,
+      "sha256": "0b0e96c891246274b3c62e7ba0bb13d04804cb61be6a349f42ceb245c54e36b3"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页014_161810d64076_题图.png",
+      "bytes": 309778,
+      "sha256": "db84728a9a3a0d7e6959df067d5049803094c993c49dce488523d82833be5652"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页014_492ca3277bb2_题图.png",
+      "bytes": 214894,
+      "sha256": "d111a3b08012e4f493791d249af05b4986c287b826e28eadcfdd822cfb19f0cf"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页014_bb0ba3fdac66_题图.png",
+      "bytes": 216455,
+      "sha256": "e95aa8820f22b8e393917cc4e84ece16a7da6c1b36e13dfff2d103ebdaa7747a"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页029_333d03a9eef2_题图.png",
+      "bytes": 474688,
+      "sha256": "875a147b407e23403d6af468a79fe725aaebdb6d971d04863c96f5fa8b9d5a1a"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页029_806ef108cdad_题图.png",
+      "bytes": 209662,
+      "sha256": "ca9e46e4fda4e6d5fe2a99b0dae20302a4de5517e104ba5277287008a16c4f19"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页029_cb0b7a39c6d9_题图.png",
+      "bytes": 76850,
+      "sha256": "4bbcd53959cea2de6b812842daa9ae6cad5f457749bc5e40610aaefebaa0b521"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页029_da36fc973631_题图.png",
+      "bytes": 75528,
+      "sha256": "1cde83385deaa3ca6800a889051a7dda2b076246135b3e4e3a3e5dacea7e7096"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页029_fb9e15c7d0a5_题图.png",
+      "bytes": 134769,
+      "sha256": "12c551abf1bf64c37bf2c812ca3936fdbe9be5d7b77bb701f76943c821a00ca6"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页030_2c728dc0f640_题图.png",
+      "bytes": 132480,
+      "sha256": "5d1f17e4f8ec43e55117c0c79952506eaa66daf71c8ddcbd89e1ad13a974e6fb"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_01eeeac3ba95_题图.png",
+      "bytes": 13492,
+      "sha256": "5bd95f73bed03db9670cbb610e25ebf6992008e0e1035348636421c77a94ff01"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_2ca2dcbf23fb_题图.png",
+      "bytes": 39583,
+      "sha256": "67035e5bd201e7f2a28da3bd6dfaa9ed155dc4ce0325692c262f4e42e88903f6"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_4c481dab9b12_题图.png",
+      "bytes": 15004,
+      "sha256": "2f767792f6e6469baa67e56fc48ded05edee7f6588eee79cc1b45479ab5cd1ad"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_76f7a65c9547_题图.png",
+      "bytes": 47399,
+      "sha256": "06cf699680c69af62d5e8c4b35c5e1ba3b79f4aba1ef52734b06a526df6e8680"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_96c1f8907057_题图.png",
+      "bytes": 71855,
+      "sha256": "f80ff6c1b578a700b7b7edcb30824f1bfe2a675964c71787a968aa5e5c71690e"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_aa404208acf6_题图.png",
+      "bytes": 6505,
+      "sha256": "b605a953fcd1ab4a58cd39cbdf1b8bf47a33f4e33cc0451e3f2824d84a421cdd"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_ad0f46ae5834_题图.png",
+      "bytes": 22635,
+      "sha256": "33adc902fbcdc044511c5498df1123aa2696c8389c1d221c0ada0cf398e6d447"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页062_1edaa104b0f8_题图.png",
+      "bytes": 50776,
+      "sha256": "fccd622dc599f2c67f253d492414ca5fb03fe282985f0eb6301c16139268ede0"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页062_2bea4f543a15_题图.png",
+      "bytes": 154785,
+      "sha256": "344503d74679b902c2fc2cf6340a0ae3470b3419f7da0936f0a858e46fa408e3"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页062_2fc099eec7fb_题图.png",
+      "bytes": 103495,
+      "sha256": "041ff43fe97531735b407ff3644ae6ec7eba44fa7d9c7cbf118e6b30d42aa7fd"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页062_7e66341c83f7_题图.png",
+      "bytes": 82621,
+      "sha256": "13a6f25018985d5b70b131690a1505c915a82cdc215f766f64a1c54d00269030"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页062_8c8abee7f680_题图.png",
+      "bytes": 182619,
+      "sha256": "fbd33ff8a3402200d95ba8ee15950ce867164eba1bcfeba34b9e1ae4954de065"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页062_a4062275c8d2_题图.png",
+      "bytes": 54675,
+      "sha256": "9050e14f6da0fc7b32d6ad966fc76561d16437009c097f55fde5b6f0d7a21696"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页073_03715e683ecc_题图.png",
+      "bytes": 101780,
+      "sha256": "60750ec1347685a0dfc24198a74ecd31990c45ee5051c47bd34115200eddc660"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页073_234d1b95c358_题图.png",
+      "bytes": 244638,
+      "sha256": "fae790bb382cbcf04b5de8e8dfbac40012e5ea7d66c5930d07bb2f5e64289e84"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页073_61dcab026d60_题图.png",
+      "bytes": 28273,
+      "sha256": "03e26732688369d8e676ce249fd5cb03f2e00371ba3500d102608377bf64d6fb"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页073_af8de9c03365_题图.png",
+      "bytes": 200346,
+      "sha256": "fdb0b8ffde1078812aef48cc3efd69a45f14ed6c83f9b20d401733e6e1c7bed3"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页073_c58e28887f1d_题图.png",
+      "bytes": 261478,
+      "sha256": "57492419915ad3d71a63880c131ab7e616ba032cd6c98c2cf136b156a9140b33"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页074_05b6ff913158_题图.png",
+      "bytes": 13380,
+      "sha256": "75518801fb9ae2201f8f73ba53a600482c0791c9757197d62634e89f4b191131"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页074_1b6ffabc8201_题图.png",
+      "bytes": 21430,
+      "sha256": "52e942bdc90b673ff109ad4e58863590701909ccf6ba0c334be6307330557c7c"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页074_4b0fe7c022da_题图.png",
+      "bytes": 25627,
+      "sha256": "7311794664a40e65dd265ae307c462fc6cca4035bba55382f56aa8036143a7e0"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页074_9d921924226b_题图.png",
+      "bytes": 38631,
+      "sha256": "3f367067d2747cdde981999c53b9d8376363cc1219a4711da5fdf5c6c149e9c4"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页074_f6b3d7f6263c_题图.png",
+      "bytes": 91003,
+      "sha256": "77cfbd3bfcb82334e03ead9f602e673a0f664417d9d1b3fc94827a6589667fc8"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页074_fd3ce3e3dfc3_题图.png",
+      "bytes": 28887,
+      "sha256": "59d86cece0f0c6a8f3acb853f61c53464fa6c560a38055f1ec4be401b167baff"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_219843667dd5_题图.png",
+      "bytes": 17490,
+      "sha256": "c2487cbd87473daffe0068367a3f6b934478aa49d10fe442cf4fd0d309ecdce6"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_254036e9f5de_题图.png",
+      "bytes": 304490,
+      "sha256": "19c3fffa6d8cedf8baf73835f5c697fbbba51e8ff5876ef0a1e38dea2af1aa5d"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_3b6678e80226_题图.png",
+      "bytes": 33755,
+      "sha256": "315bf739c95a1c269856be69b2952a48c9950780c8ead3de90f9841be6d147ef"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_436132925b29_题图.png",
+      "bytes": 26519,
+      "sha256": "9887d7629b17b88e8ffe6c7e0ed8190dafe1f4aec867acd8738c7acfc8f8346c"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_68df08cc3075_题图.png",
+      "bytes": 164514,
+      "sha256": "b56b6febec00bbd373a5d06c99106b1b44e0be5fafae314761cbeb0f6a473c06"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_a4bc6d647e7b_题图.png",
+      "bytes": 38139,
+      "sha256": "0a23001c66703eeb27a3acd19fdade0af721c9b15338de84af0fd1ea4380b260"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_cbc6c8115e45_题图.png",
+      "bytes": 32317,
+      "sha256": "85c922c1aee2538cf59dcc9aefb840b8d176b46d73071e7a19eeb0b4df97b926"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_dd38348848b7_题图.png",
+      "bytes": 31858,
+      "sha256": "46b08f2e51ad40ec754af8344d595560fea3afa108a489ea66fdb9bcdb5e253c"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页109_2a7063224298_题图.png",
+      "bytes": 25238,
+      "sha256": "bf2d467ce8545b434fc754659544bc4906b97b308ef17339fa34c6e5a485c7d3"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页109_951483840f30_题图.png",
+      "bytes": 36618,
+      "sha256": "a1132af321af91887371ede097ab029eb7e8aa5a171c665de49bd19e0c73be42"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页109_b3949fe12647_题图.png",
+      "bytes": 52265,
+      "sha256": "dbf989cc4701a7055b2af00af0a8b0b97c73e6368fe002c39e578ea1edcc6d23"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页109_c9eff2ae9b71_题图.png",
+      "bytes": 59434,
+      "sha256": "55e49f652b86298458328a4ab8176087b1f6bf72809778bc661450048afcfa2d"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页109_e3bb81af77f9_题图.png",
+      "bytes": 5931,
+      "sha256": "7aeac54312f806fbcffa2d38c03458494bd8e2a5a4965d081d088482a0521cb9"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_37f29ff84d0f_题图.png",
+      "bytes": 79720,
+      "sha256": "617441fa26c04965d9dff16adc7abafa69cf53f599af30990d65ea2a89e33b2c"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_3838aae2b5e0_题图.png",
+      "bytes": 59829,
+      "sha256": "4c7ba8e7de463464472be02b510aecf8cb5fb6bce55e349ff31cd3242ae73a8b"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_58fdbc691889_题图.png",
+      "bytes": 143784,
+      "sha256": "0160ae6d0e10400b7f9645c0fa116c3d630301a1479a85e3a149cc5e957bbaac"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_7b0eb9e8cc10_题图.png",
+      "bytes": 100896,
+      "sha256": "50b9664b42bfb6ef2df7513bd42702d5f1ce399d8a9b2fded02b9508b269e184"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_8c7b59c7a23f_题图.png",
+      "bytes": 106435,
+      "sha256": "61c05380019be96d69d7144346e8c720db551673d1571b5beb7e00c5367cd436"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_93f29a67c8c2_题图.png",
+      "bytes": 52925,
+      "sha256": "c3e9f05203859bb0fa6f13341ca29108da7b81aca37f0442930986e8a6ffa407"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_eb64d432d051_题图.png",
+      "bytes": 196539,
+      "sha256": "4e6e10536b9c11ceab8fc7ecf1e3f5382cc22486191dad8e14e9ffb42297e284"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_fad2043af251_题图.png",
+      "bytes": 31279,
+      "sha256": "8010134d8e33a4dd3700ac89a38985d2d751d8772b24d3ed87379450048d11d2"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_661035227d7d_题图.png",
+      "bytes": 106008,
+      "sha256": "4f57b746e7b8da279f3a2fdd879479a926e675d431131374bb96a02171150ae8"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_884ee7b38f65_题图.png",
+      "bytes": 59617,
+      "sha256": "d784434538d5e9da9e5f79cafcf1a3af009fe3c6474c0e5461f14eb72a42d36c"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_8a71418eee80_题图.png",
+      "bytes": 188353,
+      "sha256": "202b8c84e0312295d0f7eb67503b183add896603277f3ad2c77d7fec7ea18d0a"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_8bbf86e54276_题图.png",
+      "bytes": 58458,
+      "sha256": "38977be2ab875dd1bb32e5d7c5d29d3c4d0ed07306db4b5b0f7d842ed1b4a3c8"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_9e47f19d775b_题图.png",
+      "bytes": 10694,
+      "sha256": "7b1bafba03774123b5b5e107309ef0934b7fa8613702339f3b21b5241d414eb7"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_bc8d66e3c555_题图.png",
+      "bytes": 27540,
+      "sha256": "6de627478a8dae06636d7e199b6d4cda97b535c6d220971fbdf8b2e494fc0741"
+    },
+    {
+      "path": "images/crops/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_fe5ac9b2d2ed_题图.png",
+      "bytes": 172865,
+      "sha256": "1b487f61471e34febaeb8941d3a67a6b62d0bf614c0adf4d4b1173fb8106e133"
+    },
+    {
+      "path": "images/source/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页014_原图.png",
+      "bytes": 904694,
+      "sha256": "3448e940f093c92540cff0084b2bd3a6e18efdfd0f465a98d5a7d48e1c61b6fb"
+    },
+    {
+      "path": "images/source/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页029_原图.png",
+      "bytes": 866294,
+      "sha256": "c3b8ca396ea30b15c89e03aeca4d89ecbf4ae0b6a1a1b6b7cf6404d000ae7ada"
+    },
+    {
+      "path": "images/source/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页030_原图.png",
+      "bytes": 180302,
+      "sha256": "0cfcb354f3ff5f816aedeaaf484bbe143acea916139cad513f6ecfc52cedb639"
+    },
+    {
+      "path": "images/source/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页046_原图.png",
+      "bytes": 160340,
+      "sha256": "56bfb7d6cf1c5848820a177e320c8e1243d59df44716e30a173e7579af16ce4e"
+    },
+    {
+      "path": "images/source/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页062_原图.png",
+      "bytes": 577313,
+      "sha256": "e6c19ed765c497cc525f8c97d35ac7f90d8658af4c2b5fc7311e9802f832af91"
+    },
+    {
+      "path": "images/source/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页073_原图.png",
+      "bytes": 916297,
+      "sha256": "4575fd0348279ad540271baba147b022249531b634c3897ea273bcf63ed26d46"
+    },
+    {
+      "path": "images/source/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页074_原图.png",
+      "bytes": 151470,
+      "sha256": "7dfa83b9437ced3edf34d7e0ea0d89d64f88111ffb27ebd276ab7d38b6a66bb0"
+    },
+    {
+      "path": "images/source/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页087_原图.png",
+      "bytes": 529594,
+      "sha256": "1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160"
+    },
+    {
+      "path": "images/source/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页109_原图.png",
+      "bytes": 166475,
+      "sha256": "a13b2b9d60013a5a8ed63f842e61b32ed6fef6c3781c50784b13102c71bf1eca"
+    },
+    {
+      "path": "images/source/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页110_原图.png",
+      "bytes": 655839,
+      "sha256": "7965993926d22f163c4ece7f3837c63e9e398fa5950af7ee4cc093bb91dcb8ed"
+    },
+    {
+      "path": "images/source/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页139_原图.png",
+      "bytes": 566995,
+      "sha256": "22495d76c9c6a41e17bc8ec24b7572c9b52df8b6013d42ca914c28590ee75ba5"
+    },
+    {
+      "path": "labels.jsonl",
+      "bytes": 275743,
+      "sha256": "4b513ed35bd5cf5c92f595c8a6d616f233355446497729b73fb97e50f105134b"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 34,
+      "sha256": "b5a45e925102b9eebe41ec47ba0044950308f161425b138ec05f630df6371fa7"
+    },
+    {
+      "path": "schema.json",
+      "bytes": 52406,
+      "sha256": "acbd3676cad4a78e1a89ee240ba2fdc2cb4cb619dfde394add49aa27960d06e8"
+    },
+    {
+      "path": "scripts/build.py",
+      "bytes": 24972,
+      "sha256": "4fa0664b5c3454dcf5c32c5bcb1a45fd9c68e3bac99ce057a729ea44cfe66f97"
+    },
+    {
+      "path": "scripts/check_guards.py",
+      "bytes": 2089,
+      "sha256": "ca11db386c42bfd54af8f01e00b1827fc1152292350af9efec3cf5f9c996f11d"
+    },
+    {
+      "path": "scripts/initialize.py",
+      "bytes": 3607,
+      "sha256": "53ad9bb471c845b28549537edc050c9ecfaa35c738cc555d9bb51d7d65e3f92c"
+    },
+    {
+      "path": "scripts/query.py",
+      "bytes": 1549,
+      "sha256": "e735a0d56bda4909df8279fc72b1c8b3b51cdad146040f71f14badb0609db338"
+    },
+    {
+      "path": "scripts/reproducibility.py",
+      "bytes": 1598,
+      "sha256": "f86a6c421021b12660426ee7647324ab22c7e13b11a3ecbcc51055580d4ed777"
+    },
+    {
+      "path": "scripts/schema_definition.py",
+      "bytes": 18840,
+      "sha256": "1cd08349a297eb78b66b743cb3d673377a7fca34914d8807196b42f675ba328c"
+    },
+    {
+      "path": "scripts/validate.py",
+      "bytes": 19487,
+      "sha256": "189a838777ddeff4de24b7339c242c76bc203c560f23c67df123c655dd87e44f"
+    }
+  ]
+}

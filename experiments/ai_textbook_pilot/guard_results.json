@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "case": "readable_text_changed",
+      "rejected": true,
+      "validator_line": 55,
+      "reason": "Invariant violation"
+    },
+    {
+      "case": "dangling_exercise_reference",
+      "rejected": true,
+      "validator_line": 86,
+      "reason": "Invariant violation"
+    },
+    {
+      "case": "missing_image",
+      "rejected": true,
+      "validator_line": 96,
+      "reason": "Invariant violation"
+    },
+    {
+      "case": "lost_unknown",
+      "rejected": true,
+      "validator_line": 95,
+      "reason": "Invariant violation"
+    },
+    {
+      "case": "wrong_child_parent",
+      "rejected": true,
+      "validator_line": 62,
+      "reason": "Invariant violation"
+    },
+    {
+      "case": "wrong_source_bundle",
+      "rejected": true,
+      "validator_line": 103,
+      "reason": "Every line pointer must resolve in its declared source bundle"
+    }
+  ],
+  "original_outputs_modified": false
+}

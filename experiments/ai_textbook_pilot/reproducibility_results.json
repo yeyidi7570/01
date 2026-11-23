@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "method": "Two fresh builds and full validation in separate temporary directories; compare to each other and current pilot.",
+  "compared_files": 87,
+  "all_deterministic_bytes_equal": true,
+  "ids_stable": true,
+  "metadata_numbering_correction_test": "covered in validate.py source-anchor check",
+  "excluded_runtime_audit_files": [
+    "validation_report.md",
+    "validation_results.json",
+    "reproducibility_results.json",
+    "guard_results.json"
+  ]
+}

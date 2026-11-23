@@ -1,0 +1,1901 @@
+{
+  "schema_version": "ai-textbook/1.0",
+  "algorithm": "UUIDv5(namespace, entity kind + book/source-version + physical source anchor). Printed lesson, exercise and child labels are excluded. Preserve this registry for migration across re-OCR/source changes.",
+  "namespace_uuid": "d5eae730-2410-52a7-9760-e27308477ab9",
+  "input_commit": "6d67153ea65b105366c0ebf436ff76a3373a0650",
+  "parents": [
+    {
+      "legacy_id": "codex-exp:lesson03:exercise1",
+      "id": "ex_0a6bd78f74025d82829d1ced9e1cb8cc",
+      "identity_key": "{\"anchor\":{\"bbox\":[151,429,171,459],\"line_id\":\"13\",\"pdf_page_number\":14,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 14,
+        "line_id": "13",
+        "bbox": [
+          151,
+          429,
+          171,
+          459
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson07:exercise1",
+      "id": "ex_eb94ac1c7b1a53d7a314b3ae569aa177",
+      "identity_key": "{\"anchor\":{\"bbox\":[120,363,144,397],\"line_id\":\"a1\",\"pdf_page_number\":29,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 29,
+        "line_id": "a1",
+        "bbox": [
+          120,
+          363,
+          144,
+          397
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson07:exercise2",
+      "id": "ex_dfebea8cdc715182964ab61681388dfd",
+      "identity_key": "{\"anchor\":{\"bbox\":[119,535,146,566],\"line_id\":\"a2\",\"pdf_page_number\":29,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 29,
+        "line_id": "a2",
+        "bbox": [
+          119,
+          535,
+          146,
+          566
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise4",
+      "id": "ex_6d040146e6d4512087e2d514fdb2a52a",
+      "identity_key": "{\"anchor\":{\"bbox\":[148,198,171,225],\"line_id\":\"2\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "2",
+        "bbox": [
+          148,
+          198,
+          171,
+          225
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise5",
+      "id": "ex_a6cb083ad8ae5ed884f32db5f6993898",
+      "identity_key": "{\"anchor\":{\"bbox\":[147,437,175,475],\"line_id\":\"13\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "13",
+        "bbox": [
+          147,
+          437,
+          175,
+          475
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise6",
+      "id": "ex_1d9074e645ee53b9b42a752a4452cf01",
+      "identity_key": "{\"anchor\":{\"bbox\":[148,773,176,808],\"line_id\":\"a0\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "a0",
+        "bbox": [
+          148,
+          773,
+          176,
+          808
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise7",
+      "id": "ex_aa76a6d1f856588285f2ae08fa549eeb",
+      "identity_key": "{\"anchor\":{\"bbox\":[148,1153,176,1188],\"line_id\":\"a1\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "a1",
+        "bbox": [
+          148,
+          1153,
+          176,
+          1188
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson15:exercise7",
+      "id": "ex_0c3b55ad03685b51a54c2dcfd95c1486",
+      "identity_key": "{\"anchor\":{\"bbox\":[150,199,178,235],\"line_id\":\"a0\",\"pdf_page_number\":62,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 62,
+        "line_id": "a0",
+        "bbox": [
+          150,
+          199,
+          178,
+          235
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson15:exercise8",
+      "id": "ex_2b432dc1a5b65769b51a24b308a45758",
+      "identity_key": "{\"anchor\":{\"bbox\":[134,431,192,479],\"line_id\":\"9\",\"pdf_page_number\":62,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 62,
+        "line_id": "9",
+        "bbox": [
+          134,
+          431,
+          192,
+          479
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson15:exercise9",
+      "id": "ex_db243029a11c510f9a34c3b364716746",
+      "identity_key": "{\"anchor\":{\"bbox\":[149,830,177,866],\"line_id\":\"a1\",\"pdf_page_number\":62,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 62,
+        "line_id": "a1",
+        "bbox": [
+          149,
+          830,
+          177,
+          866
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson15:exercise10",
+      "id": "ex_385f779a276d56b6be9ca85e90af6cc2",
+      "identity_key": "{\"anchor\":{\"bbox\":[139,1053,184,1095],\"line_id\":\"33\",\"pdf_page_number\":62,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 62,
+        "line_id": "33",
+        "bbox": [
+          139,
+          1053,
+          184,
+          1095
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson19:exercise1",
+      "id": "ex_9b8bf3a75e06521ab3a5fd734de8a917",
+      "identity_key": "{\"anchor\":{\"bbox\":[119,385,147,423],\"line_id\":\"a0\",\"pdf_page_number\":73,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 73,
+        "line_id": "a0",
+        "bbox": [
+          119,
+          385,
+          147,
+          423
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson19:exercise2",
+      "id": "ex_e890fcd7817159168b234fb74a24b3f1",
+      "identity_key": "{\"anchor\":{\"bbox\":[129,892,151,910],\"line_id\":\"30\",\"pdf_page_number\":73,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 73,
+        "line_id": "30",
+        "bbox": [
+          129,
+          892,
+          151,
+          910
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson19:exercise3",
+      "id": "ex_041ba16afa4255479fcf0421dc06c796",
+      "identity_key": "{\"anchor\":{\"bbox\":[148,1010,177,1048],\"line_id\":\"a1\",\"pdf_page_number\":74,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 74,
+        "line_id": "a1",
+        "bbox": [
+          148,
+          1010,
+          177,
+          1048
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson22:exercise7",
+      "id": "ex_c137548803f25742b4b37db3aba31219",
+      "identity_key": "{\"anchor\":{\"bbox\":[112,196,158,235],\"line_id\":\"3\",\"pdf_page_number\":87,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 87,
+        "line_id": "3",
+        "bbox": [
+          112,
+          196,
+          158,
+          235
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson22:exercise8",
+      "id": "ex_9fcf4742cdc8588483ec841c1003748e",
+      "identity_key": "{\"anchor\":{\"bbox\":[123,918,144,945],\"line_id\":\"21\",\"pdf_page_number\":87,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 87,
+        "line_id": "21",
+        "bbox": [
+          123,
+          918,
+          144,
+          945
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise3",
+      "id": "ex_294cb61e43cc563d86edc92ac7640989",
+      "identity_key": "{\"anchor\":{\"bbox\":[120,199,145,234],\"line_id\":\"a0\",\"pdf_page_number\":109,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 109,
+        "line_id": "a0",
+        "bbox": [
+          120,
+          199,
+          145,
+          234
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise4",
+      "id": "ex_73a16f40c66d55dfad65314dc1aa1f66",
+      "identity_key": "{\"anchor\":{\"bbox\":[121,896,145,930],\"line_id\":\"a1\",\"pdf_page_number\":109,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 109,
+        "line_id": "a1",
+        "bbox": [
+          121,
+          896,
+          145,
+          930
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise5",
+      "id": "ex_9c43ff9341ac5834ad4d9011de3727cc",
+      "identity_key": "{\"anchor\":{\"bbox\":[121,1090,145,1122],\"line_id\":\"a2\",\"pdf_page_number\":109,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 109,
+        "line_id": "a2",
+        "bbox": [
+          121,
+          1090,
+          145,
+          1122
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise6",
+      "id": "ex_40751075f4095650acc2bee7103aa088",
+      "identity_key": "{\"anchor\":{\"bbox\":[149,205,175,236],\"line_id\":\"a0\",\"pdf_page_number\":110,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 110,
+        "line_id": "a0",
+        "bbox": [
+          149,
+          205,
+          175,
+          236
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise7",
+      "id": "ex_3219decf6acb58bf8bbe27ce9112f818",
+      "identity_key": "{\"anchor\":{\"bbox\":[150,383,175,415],\"line_id\":\"a1\",\"pdf_page_number\":110,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 110,
+        "line_id": "a1",
+        "bbox": [
+          150,
+          383,
+          175,
+          415
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise8",
+      "id": "ex_bb1078ce271a5ee38416a8a52b66d8b8",
+      "identity_key": "{\"anchor\":{\"bbox\":[149,612,175,646],\"line_id\":\"a2\",\"pdf_page_number\":110,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 110,
+        "line_id": "a2",
+        "bbox": [
+          149,
+          612,
+          175,
+          646
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise9",
+      "id": "ex_915e5e349b205d08b024381ae3f34d27",
+      "identity_key": "{\"anchor\":{\"bbox\":[149,827,175,860],\"line_id\":\"a3\",\"pdf_page_number\":110,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 110,
+        "line_id": "a3",
+        "bbox": [
+          149,
+          827,
+          175,
+          860
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise10",
+      "id": "ex_0d78170ca74c50e69859eb91e2b98c36",
+      "identity_key": "{\"anchor\":{\"bbox\":[137,1105,185,1144],\"line_id\":\"28\",\"pdf_page_number\":110,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 110,
+        "line_id": "28",
+        "bbox": [
+          137,
+          1105,
+          185,
+          1144
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson38:exercise7",
+      "id": "ex_dd42408c8ed35c7d8e993b542a4fd79a",
+      "identity_key": "{\"anchor\":{\"bbox\":[120,198,144,233],\"line_id\":\"a0\",\"pdf_page_number\":139,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 139,
+        "line_id": "a0",
+        "bbox": [
+          120,
+          198,
+          144,
+          233
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson38:exercise8",
+      "id": "ex_02381c54b1ae50639c901e39d7bba5a0",
+      "identity_key": "{\"anchor\":{\"bbox\":[120,604,145,637],\"line_id\":\"a1\",\"pdf_page_number\":139,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 139,
+        "line_id": "a1",
+        "bbox": [
+          120,
+          604,
+          145,
+          637
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson38:exercise9",
+      "id": "ex_f17b43ec27165e13b4091c609c82dc5d",
+      "identity_key": "{\"anchor\":{\"bbox\":[120,1006,145,1042],\"line_id\":\"a2\",\"pdf_page_number\":139,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 139,
+        "line_id": "a2",
+        "bbox": [
+          120,
+          1006,
+          145,
+          1042
+        ]
+      }
+    }
+  ],
+  "subquestions": [
+    {
+      "legacy_id": "codex-exp:lesson07:exercise2:part:1",
+      "id": "sub_5b247a073a015120b9589cd4c4fc76e3",
+      "identity_key": "{\"anchor\":{\"bbox\":[124,958,248,993],\"line_id\":\"22\",\"pdf_page_number\":29,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_dfebea8cdc715182964ab61681388dfd\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 29,
+        "line_id": "22",
+        "bbox": [
+          124,
+          958,
+          248,
+          993
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson07:exercise2:part:2",
+      "id": "sub_d6b4f464161258db8648f7a0c4cae8c7",
+      "identity_key": "{\"anchor\":{\"bbox\":[356,958,501,993],\"line_id\":\"23\",\"pdf_page_number\":29,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_dfebea8cdc715182964ab61681388dfd\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 29,
+        "line_id": "23",
+        "bbox": [
+          356,
+          958,
+          501,
+          993
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson07:exercise2:part:3",
+      "id": "sub_e6d2796513535deba14518819d745c2d",
+      "identity_key": "{\"anchor\":{\"bbox\":[135,1098,302,1133],\"line_id\":\"33\",\"pdf_page_number\":29,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_dfebea8cdc715182964ab61681388dfd\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 29,
+        "line_id": "33",
+        "bbox": [
+          135,
+          1098,
+          302,
+          1133
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson07:exercise2:part:4",
+      "id": "sub_4fbcb64ceb2852049f7ddec187859d86",
+      "identity_key": "{\"anchor\":{\"bbox\":[355,1093,503,1138],\"line_id\":\"34\",\"pdf_page_number\":29,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_dfebea8cdc715182964ab61681388dfd\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 29,
+        "line_id": "34",
+        "bbox": [
+          355,
+          1093,
+          503,
+          1138
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise4:part:1",
+      "id": "sub_df103cfef16055a3bd489f15d0c1bba7",
+      "identity_key": "{\"anchor\":{\"bbox\":[178,269,354,302],\"line_id\":\"4\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_6d040146e6d4512087e2d514fdb2a52a\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "4",
+        "bbox": [
+          178,
+          269,
+          354,
+          302
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise4:part:2",
+      "id": "sub_43aa8a1afb0e5c759b3f3316943c1f6f",
+      "identity_key": "{\"anchor\":{\"bbox\":[426,269,597,303],\"line_id\":\"5\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_6d040146e6d4512087e2d514fdb2a52a\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "5",
+        "bbox": [
+          426,
+          269,
+          597,
+          303
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise4:part:3",
+      "id": "sub_d8757ea9d5005f259f6747ff4021cddb",
+      "identity_key": "{\"anchor\":{\"bbox\":[663,272,804,300],\"line_id\":\"6\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_6d040146e6d4512087e2d514fdb2a52a\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "6",
+        "bbox": [
+          663,
+          272,
+          804,
+          300
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise4:part:4",
+      "id": "sub_9b44459b9d0a5064b6820d0b04ab981e",
+      "identity_key": "{\"anchor\":{\"bbox\":[180,303,364,334],\"line_id\":\"7\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_6d040146e6d4512087e2d514fdb2a52a\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "7",
+        "bbox": [
+          180,
+          303,
+          364,
+          334
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise4:part:5",
+      "id": "sub_c153254ad2c65d069802f3c792d8180a",
+      "identity_key": "{\"anchor\":{\"bbox\":[426,303,580,334],\"line_id\":\"8\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_6d040146e6d4512087e2d514fdb2a52a\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "8",
+        "bbox": [
+          426,
+          303,
+          580,
+          334
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise4:part:6",
+      "id": "sub_f89cd74ac7985470be2d49df287b1d02",
+      "identity_key": "{\"anchor\":{\"bbox\":[662,304,873,332],\"line_id\":\"9\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_6d040146e6d4512087e2d514fdb2a52a\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "9",
+        "bbox": [
+          662,
+          304,
+          873,
+          332
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise4:part:7",
+      "id": "sub_e3c858c06f275fd9822adc0a7edd0515",
+      "identity_key": "{\"anchor\":{\"bbox\":[181,337,360,366],\"line_id\":\"10\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_6d040146e6d4512087e2d514fdb2a52a\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "10",
+        "bbox": [
+          181,
+          337,
+          360,
+          366
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise4:part:8",
+      "id": "sub_95b089764be55e5591695ab21c95aea7",
+      "identity_key": "{\"anchor\":{\"bbox\":[426,334,559,366],\"line_id\":\"11\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_6d040146e6d4512087e2d514fdb2a52a\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "11",
+        "bbox": [
+          426,
+          334,
+          559,
+          366
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise4:part:9",
+      "id": "sub_3c06f054b94051eab76e8586291e204f",
+      "identity_key": "{\"anchor\":{\"bbox\":[662,334,801,366],\"line_id\":\"12\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_6d040146e6d4512087e2d514fdb2a52a\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "12",
+        "bbox": [
+          662,
+          334,
+          801,
+          366
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise5:part:a",
+      "id": "sub_c47a72d76f4158d59f9919b121ceb0be",
+      "identity_key": "{\"anchor\":{\"bbox\":[155,516,287,548],\"line_id\":\"15\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_a6cb083ad8ae5ed884f32db5f6993898\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "15",
+        "bbox": [
+          155,
+          516,
+          287,
+          548
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise5:part:a:part:1",
+      "id": "sub_b82c4a67cbbe5acfa7187b5eaac34deb",
+      "identity_key": "{\"anchor\":{\"bbox\":[155,516,287,548],\"line_id\":\"15\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"sub_c47a72d76f4158d59f9919b121ceb0be\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "15",
+        "bbox": [
+          155,
+          516,
+          287,
+          548
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise5:part:a:part:2",
+      "id": "sub_678007b4e8a05a92be162c5bff83226c",
+      "identity_key": "{\"anchor\":{\"bbox\":[435,517,550,548],\"line_id\":\"16\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"sub_c47a72d76f4158d59f9919b121ceb0be\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "16",
+        "bbox": [
+          435,
+          517,
+          550,
+          548
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise5:part:a:part:3",
+      "id": "sub_b7a05c0345de532d88299ece0cc131a3",
+      "identity_key": "{\"anchor\":{\"bbox\":[674,517,801,549],\"line_id\":\"17\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"sub_c47a72d76f4158d59f9919b121ceb0be\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "17",
+        "bbox": [
+          674,
+          517,
+          801,
+          549
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise5:part:ae",
+      "id": "sub_14649393f3c45fe6a421b401231522e1",
+      "identity_key": "{\"anchor\":{\"bbox\":[155,597,323,632],\"line_id\":\"19\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_a6cb083ad8ae5ed884f32db5f6993898\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "19",
+        "bbox": [
+          155,
+          597,
+          323,
+          632
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise5:part:ae:part:1",
+      "id": "sub_83eceb5dabc051ecb0e51e9d3f858b96",
+      "identity_key": "{\"anchor\":{\"bbox\":[155,597,323,632],\"line_id\":\"19\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"sub_14649393f3c45fe6a421b401231522e1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "19",
+        "bbox": [
+          155,
+          597,
+          323,
+          632
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise5:part:ae:part:2",
+      "id": "sub_a5beae3d0bd6531b96991036fedddd92",
+      "identity_key": "{\"anchor\":{\"bbox\":[436,598,570,629],\"line_id\":\"20\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"sub_14649393f3c45fe6a421b401231522e1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "20",
+        "bbox": [
+          436,
+          598,
+          570,
+          629
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise5:part:ae:part:3",
+      "id": "sub_a7b363c05bca53a5b6bab209327abca2",
+      "identity_key": "{\"anchor\":{\"bbox\":[673,596,851,630],\"line_id\":\"21\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"sub_14649393f3c45fe6a421b401231522e1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "21",
+        "bbox": [
+          673,
+          596,
+          851,
+          630
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise5:part:ae:part:4",
+      "id": "sub_ba0dd5b65c7154508c2944de254e9951",
+      "identity_key": "{\"anchor\":{\"bbox\":[182,630,296,662],\"line_id\":\"23\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"sub_14649393f3c45fe6a421b401231522e1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "23",
+        "bbox": [
+          182,
+          630,
+          296,
+          662
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise5:part:ae:part:5",
+      "id": "sub_1a8a0b8b0f1a5727a5aeabdd4c5ca15f",
+      "identity_key": "{\"anchor\":{\"bbox\":[434,629,571,661],\"line_id\":\"24\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"sub_14649393f3c45fe6a421b401231522e1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "24",
+        "bbox": [
+          434,
+          629,
+          571,
+          661
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise5:part:ae:part:6",
+      "id": "sub_b75a099805e059d395bc6462a6b06f80",
+      "identity_key": "{\"anchor\":{\"bbox\":[674,629,821,661],\"line_id\":\"25\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"sub_14649393f3c45fe6a421b401231522e1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "25",
+        "bbox": [
+          674,
+          629,
+          821,
+          661
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise6:part:a",
+      "id": "sub_8d973d4d7bb3565394a363ce953610f9",
+      "identity_key": "{\"anchor\":{\"bbox\":[155,852,864,885],\"line_id\":\"29\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_1d9074e645ee53b9b42a752a4452cf01\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "29",
+        "bbox": [
+          155,
+          852,
+          864,
+          885
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise6:part:ae",
+      "id": "sub_2dec77a3802353cba3f614749ae11beb",
+      "identity_key": "{\"anchor\":{\"bbox\":[154,985,860,1015],\"line_id\":\"34\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_1d9074e645ee53b9b42a752a4452cf01\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "34",
+        "bbox": [
+          154,
+          985,
+          860,
+          1015
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise7:part:1",
+      "id": "sub_d2c7bea8e7435c1cbd873d4062a0fa48",
+      "identity_key": "{\"anchor\":{\"bbox\":[156,1224,235,1253],\"line_id\":\"38\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_aa76a6d1f856588285f2ae08fa549eeb\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "38",
+        "bbox": [
+          156,
+          1224,
+          235,
+          1253
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise7:part:2",
+      "id": "sub_e2a52e6dc4ce5fe3bddfa6f44dd14e85",
+      "identity_key": "{\"anchor\":{\"bbox\":[549,1220,640,1254],\"line_id\":\"41\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_aa76a6d1f856588285f2ae08fa549eeb\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "41",
+        "bbox": [
+          549,
+          1220,
+          640,
+          1254
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise7:part:3",
+      "id": "sub_5ac8287268f55559b29bdb81291b2efd",
+      "identity_key": "{\"anchor\":{\"bbox\":[155,1254,383,1284],\"line_id\":\"43\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_aa76a6d1f856588285f2ae08fa549eeb\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "43",
+        "bbox": [
+          155,
+          1254,
+          383,
+          1284
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise7:part:4",
+      "id": "sub_04d3bd7be7a351729fef52bcf39480a5",
+      "identity_key": "{\"anchor\":{\"bbox\":[549,1253,650,1287],\"line_id\":\"45\",\"pdf_page_number\":46,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_aa76a6d1f856588285f2ae08fa549eeb\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 46,
+        "line_id": "45",
+        "bbox": [
+          549,
+          1253,
+          650,
+          1287
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson15:exercise8:part:a",
+      "id": "sub_1b7496956e1059f3b887e7b28a208b9f",
+      "identity_key": "{\"anchor\":{\"bbox\":[134,431,192,479],\"line_id\":\"9\",\"pdf_page_number\":62,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_2b432dc1a5b65769b51a24b308a45758\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 62,
+        "line_id": "9",
+        "bbox": [
+          134,
+          431,
+          192,
+          479
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson15:exercise8:part:ae",
+      "id": "sub_c17e6f404abf57d2ba02385d307611d3",
+      "identity_key": "{\"anchor\":{\"bbox\":[136,604,188,645],\"line_id\":\"13\",\"pdf_page_number\":62,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_2b432dc1a5b65769b51a24b308a45758\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 62,
+        "line_id": "13",
+        "bbox": [
+          136,
+          604,
+          188,
+          645
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson19:exercise2:part:a",
+      "id": "sub_f9f065e968d95ab68409d3160b513129",
+      "identity_key": "{\"anchor\":{\"bbox\":[405,843,560,864],\"line_id\":\"28\",\"pdf_page_number\":73,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_e890fcd7817159168b234fb74a24b3f1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 73,
+        "line_id": "28",
+        "bbox": [
+          405,
+          843,
+          560,
+          864
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson19:exercise2:part:ae",
+      "id": "sub_1405863183eb552db44cfcb001f6bcdd",
+      "identity_key": "{\"anchor\":{\"bbox\":[430,352,592,377],\"line_id\":\"14\",\"pdf_page_number\":74,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_e890fcd7817159168b234fb74a24b3f1\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 74,
+        "line_id": "14",
+        "bbox": [
+          430,
+          352,
+          592,
+          377
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson19:exercise3:part:1",
+      "id": "sub_b16f425a759453379ed267cbdfaca1f6",
+      "identity_key": "{\"anchor\":{\"bbox\":[230,1098,354,1129],\"line_id\":\"54\",\"pdf_page_number\":74,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_041ba16afa4255479fcf0421dc06c796\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 74,
+        "line_id": "54",
+        "bbox": [
+          230,
+          1098,
+          354,
+          1129
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson19:exercise3:part:2",
+      "id": "sub_465b318479875cc784a5190427053456",
+      "identity_key": "{\"anchor\":{\"bbox\":[614,1098,731,1129],\"line_id\":\"55\",\"pdf_page_number\":74,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_041ba16afa4255479fcf0421dc06c796\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 74,
+        "line_id": "55",
+        "bbox": [
+          614,
+          1098,
+          731,
+          1129
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson19:exercise3:part:3",
+      "id": "sub_29744c9b4187562a915b54c6a6c8f3db",
+      "identity_key": "{\"anchor\":{\"bbox\":[232,1147,355,1175],\"line_id\":\"56\",\"pdf_page_number\":74,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_041ba16afa4255479fcf0421dc06c796\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 74,
+        "line_id": "56",
+        "bbox": [
+          232,
+          1147,
+          355,
+          1175
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson19:exercise3:part:4",
+      "id": "sub_b00daf674242537d834caafbace680e1",
+      "identity_key": "{\"anchor\":{\"bbox\":[616,1147,730,1175],\"line_id\":\"57\",\"pdf_page_number\":74,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_041ba16afa4255479fcf0421dc06c796\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 74,
+        "line_id": "57",
+        "bbox": [
+          616,
+          1147,
+          730,
+          1175
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson19:exercise3:part:5",
+      "id": "sub_f2428576f6a75a159d7345db444a3574",
+      "identity_key": "{\"anchor\":{\"bbox\":[232,1193,359,1225],\"line_id\":\"58\",\"pdf_page_number\":74,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_041ba16afa4255479fcf0421dc06c796\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 74,
+        "line_id": "58",
+        "bbox": [
+          232,
+          1193,
+          359,
+          1225
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson19:exercise3:part:6",
+      "id": "sub_a49d3d0d65745e259690990174acc978",
+      "identity_key": "{\"anchor\":{\"bbox\":[616,1195,743,1224],\"line_id\":\"59\",\"pdf_page_number\":74,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_041ba16afa4255479fcf0421dc06c796\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 74,
+        "line_id": "59",
+        "bbox": [
+          616,
+          1195,
+          743,
+          1224
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson19:exercise3:part:7",
+      "id": "sub_3ca6419ced1955b7ab54ee1433ca98ad",
+      "identity_key": "{\"anchor\":{\"bbox\":[233,1245,354,1270],\"line_id\":\"60\",\"pdf_page_number\":74,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_041ba16afa4255479fcf0421dc06c796\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 74,
+        "line_id": "60",
+        "bbox": [
+          233,
+          1245,
+          354,
+          1270
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson19:exercise3:part:8",
+      "id": "sub_35c18603dd105dd89ee44b5123ff68b8",
+      "identity_key": "{\"anchor\":{\"bbox\":[616,1244,747,1271],\"line_id\":\"61\",\"pdf_page_number\":74,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_041ba16afa4255479fcf0421dc06c796\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 74,
+        "line_id": "61",
+        "bbox": [
+          616,
+          1244,
+          747,
+          1271
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson22:exercise7:part:a",
+      "id": "sub_f230aada9d04543c9cb0bedba6b39cd1",
+      "identity_key": "{\"anchor\":{\"bbox\":[362,158,600,179],\"line_id\":\"2\",\"pdf_page_number\":87,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_c137548803f25742b4b37db3aba31219\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 87,
+        "line_id": "2",
+        "bbox": [
+          362,
+          158,
+          600,
+          179
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson22:exercise7:part:ae",
+      "id": "sub_e5ae13fdd8085df19dc83ca1aa5acf9c",
+      "identity_key": "{\"anchor\":{\"bbox\":[361,574,602,599],\"line_id\":\"14\",\"pdf_page_number\":87,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_c137548803f25742b4b37db3aba31219\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 87,
+        "line_id": "14",
+        "bbox": [
+          361,
+          574,
+          602,
+          599
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise3:part:a",
+      "id": "sub_192c04146e0952308ec7b497dd9e5e7d",
+      "identity_key": "{\"anchor\":{\"bbox\":[135,276,856,303],\"line_id\":\"5\",\"pdf_page_number\":109,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_294cb61e43cc563d86edc92ac7640989\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 109,
+        "line_id": "5",
+        "bbox": [
+          135,
+          276,
+          856,
+          303
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise3:part:ae",
+      "id": "sub_01f596d5d6eb5ff181a5c14bb8292db6",
+      "identity_key": "{\"anchor\":{\"bbox\":[135,347,856,375],\"line_id\":\"7\",\"pdf_page_number\":109,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_294cb61e43cc563d86edc92ac7640989\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 109,
+        "line_id": "7",
+        "bbox": [
+          135,
+          347,
+          856,
+          375
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise3:part:b",
+      "id": "sub_f905f8acb9ab5c75a89fcf0cbe65804c",
+      "identity_key": "{\"anchor\":{\"bbox\":[137,422,161,443],\"line_id\":\"9\",\"pdf_page_number\":109,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_294cb61e43cc563d86edc92ac7640989\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 109,
+        "line_id": "9",
+        "bbox": [
+          137,
+          422,
+          161,
+          443
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise4:part:1",
+      "id": "sub_bda13686ab1b5fa589b1616a2fbedec0",
+      "identity_key": "{\"anchor\":{\"bbox\":[158,984,283,1012],\"line_id\":\"25\",\"pdf_page_number\":109,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_73a16f40c66d55dfad65314dc1aa1f66\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 109,
+        "line_id": "25",
+        "bbox": [
+          158,
+          984,
+          283,
+          1012
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise4:part:2",
+      "id": "sub_28dfdc8fb9bb510986d042ae71170a87",
+      "identity_key": "{\"anchor\":{\"bbox\":[554,984,692,1011],\"line_id\":\"27\",\"pdf_page_number\":109,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_73a16f40c66d55dfad65314dc1aa1f66\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 109,
+        "line_id": "27",
+        "bbox": [
+          554,
+          984,
+          692,
+          1011
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise5:part:a",
+      "id": "sub_19549c73b32853d084d5d04809d34771",
+      "identity_key": "{\"anchor\":{\"bbox\":[131,1157,832,1184],\"line_id\":\"31\",\"pdf_page_number\":109,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_9c43ff9341ac5834ad4d9011de3727cc\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 109,
+        "line_id": "31",
+        "bbox": [
+          131,
+          1157,
+          832,
+          1184
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise5:part:ae",
+      "id": "sub_3112103f4735550a8a30f68588d72b8e",
+      "identity_key": "{\"anchor\":{\"bbox\":[130,1228,832,1255],\"line_id\":\"33\",\"pdf_page_number\":109,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_9c43ff9341ac5834ad4d9011de3727cc\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 109,
+        "line_id": "33",
+        "bbox": [
+          130,
+          1228,
+          832,
+          1255
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise6:part:1",
+      "id": "sub_d6248b3c5b9950cfb4f4c78961bd795b",
+      "identity_key": "{\"anchor\":{\"bbox\":[149,267,270,298],\"line_id\":\"3\",\"pdf_page_number\":110,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_40751075f4095650acc2bee7103aa088\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 110,
+        "line_id": "3",
+        "bbox": [
+          149,
+          267,
+          270,
+          298
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise6:part:2",
+      "id": "sub_c6bc9110d01859d0824deb7a76b9a16a",
+      "identity_key": "{\"anchor\":{\"bbox\":[338,266,457,297],\"line_id\":\"4\",\"pdf_page_number\":110,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_40751075f4095650acc2bee7103aa088\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 110,
+        "line_id": "4",
+        "bbox": [
+          338,
+          266,
+          457,
+          297
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise6:part:3",
+      "id": "sub_2be77a91e71a50d8aa0d7dd90becfd0a",
+      "identity_key": "{\"anchor\":{\"bbox\":[526,266,645,297],\"line_id\":\"5\",\"pdf_page_number\":110,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_40751075f4095650acc2bee7103aa088\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 110,
+        "line_id": "5",
+        "bbox": [
+          526,
+          266,
+          645,
+          297
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise6:part:4",
+      "id": "sub_3b37c487d06e5cc9978f60cbdd7ce57b",
+      "identity_key": "{\"anchor\":{\"bbox\":[717,267,835,298],\"line_id\":\"6\",\"pdf_page_number\":110,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_40751075f4095650acc2bee7103aa088\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 110,
+        "line_id": "6",
+        "bbox": [
+          717,
+          267,
+          835,
+          298
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise6:part:5",
+      "id": "sub_3dd3594b4f2359b384e95f61603441b4",
+      "identity_key": "{\"anchor\":{\"bbox\":[149,295,268,326],\"line_id\":\"7\",\"pdf_page_number\":110,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_40751075f4095650acc2bee7103aa088\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 110,
+        "line_id": "7",
+        "bbox": [
+          149,
+          295,
+          268,
+          326
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise6:part:6",
+      "id": "sub_2dae883cbc9455c29d3737d988f4fd16",
+      "identity_key": "{\"anchor\":{\"bbox\":[338,294,461,329],\"line_id\":\"8\",\"pdf_page_number\":110,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_40751075f4095650acc2bee7103aa088\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 110,
+        "line_id": "8",
+        "bbox": [
+          338,
+          294,
+          461,
+          329
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise6:part:7",
+      "id": "sub_7347652ff05153d78bce18ac28641a78",
+      "identity_key": "{\"anchor\":{\"bbox\":[526,295,645,326],\"line_id\":\"9\",\"pdf_page_number\":110,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_40751075f4095650acc2bee7103aa088\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 110,
+        "line_id": "9",
+        "bbox": [
+          526,
+          295,
+          645,
+          326
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise6:part:8",
+      "id": "sub_2637deae129f5583a3aeddc618bc4184",
+      "identity_key": "{\"anchor\":{\"bbox\":[716,295,833,326],\"line_id\":\"10\",\"pdf_page_number\":110,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_40751075f4095650acc2bee7103aa088\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 110,
+        "line_id": "10",
+        "bbox": [
+          716,
+          295,
+          833,
+          326
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise10:part:row1",
+      "id": "sub_9b91dab7ca0e52278330adb938c583dc",
+      "identity_key": "{\"anchor\":{\"bbox\":[145,1237,264,1267],\"line_id\":\"39\",\"pdf_page_number\":110,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_0d78170ca74c50e69859eb91e2b98c36\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 110,
+        "line_id": "39",
+        "bbox": [
+          145,
+          1237,
+          264,
+          1267
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise10:part:row2",
+      "id": "sub_5c412273ba695cb696fec6dea4203d06",
+      "identity_key": "{\"anchor\":{\"bbox\":[124,1273,282,1304],\"line_id\":\"43\",\"pdf_page_number\":110,\"source_pdf_sha256\":\"24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be\"},\"parent_id\":\"ex_0d78170ca74c50e69859eb91e2b98c36\"}",
+      "anchor": {
+        "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be",
+        "pdf_page_number": 110,
+        "line_id": "43",
+        "bbox": [
+          124,
+          1273,
+          282,
+          1304
+        ]
+      }
+    }
+  ],
+  "materials": [
+    {
+      "legacy_id": "codex-exp:lesson03:exercise1:material:1",
+      "id": "mat_e76657be61895469ae91a9153cc4d5d3",
+      "identity_key": "{\"anchor\":{\"bbox\":[112,531,909,963],\"pdf_page_number\":14,\"source_image_sha256\":\"3448e940f093c92540cff0084b2bd3a6e18efdfd0f465a98d5a7d48e1c61b6fb\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "3448e940f093c92540cff0084b2bd3a6e18efdfd0f465a98d5a7d48e1c61b6fb",
+        "pdf_page_number": 14,
+        "bbox": [
+          112,
+          531,
+          909,
+          963
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson07:exercise2:material:1",
+      "id": "mat_022e511c27cf58359c5dd5ce64a3b291",
+      "identity_key": "{\"anchor\":{\"bbox\":[101,934,528,1247],\"pdf_page_number\":29,\"source_image_sha256\":\"c3b8ca396ea30b15c89e03aeca4d89ecbf4ae0b6a1a1b6b7cf6404d000ae7ada\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "c3b8ca396ea30b15c89e03aeca4d89ecbf4ae0b6a1a1b6b7cf6404d000ae7ada",
+        "pdf_page_number": 29,
+        "bbox": [
+          101,
+          934,
+          528,
+          1247
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson07:exercise2:material:2",
+      "id": "mat_bb038aeaad68502ead30dc8537a72cc6",
+      "identity_key": "{\"anchor\":{\"bbox\":[85,618,882,878],\"pdf_page_number\":29,\"source_image_sha256\":\"c3b8ca396ea30b15c89e03aeca4d89ecbf4ae0b6a1a1b6b7cf6404d000ae7ada\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "c3b8ca396ea30b15c89e03aeca4d89ecbf4ae0b6a1a1b6b7cf6404d000ae7ada",
+        "pdf_page_number": 29,
+        "bbox": [
+          85,
+          618,
+          882,
+          878
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson07:exercise2:material:3",
+      "id": "mat_7892e24142be5c0d9d74ea5fcfe7332e",
+      "identity_key": "{\"anchor\":{\"bbox\":[532,883,868,1260],\"pdf_page_number\":29,\"source_image_sha256\":\"c3b8ca396ea30b15c89e03aeca4d89ecbf4ae0b6a1a1b6b7cf6404d000ae7ada\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "c3b8ca396ea30b15c89e03aeca4d89ecbf4ae0b6a1a1b6b7cf6404d000ae7ada",
+        "pdf_page_number": 29,
+        "bbox": [
+          532,
+          883,
+          868,
+          1260
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise4:material:1",
+      "id": "mat_5c579c72a9df5f7392fd20c01680f4e6",
+      "identity_key": "{\"anchor\":{\"bbox\":[173,266,881,372],\"pdf_page_number\":46,\"source_image_sha256\":\"56bfb7d6cf1c5848820a177e320c8e1243d59df44716e30a173e7579af16ce4e\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "56bfb7d6cf1c5848820a177e320c8e1243d59df44716e30a173e7579af16ce4e",
+        "pdf_page_number": 46,
+        "bbox": [
+          173,
+          266,
+          881,
+          372
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise5:material:1",
+      "id": "mat_e2610357bc2c53f980ac1812612a779e",
+      "identity_key": "{\"anchor\":{\"bbox\":[152,508,866,708],\"pdf_page_number\":46,\"source_image_sha256\":\"56bfb7d6cf1c5848820a177e320c8e1243d59df44716e30a173e7579af16ce4e\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "56bfb7d6cf1c5848820a177e320c8e1243d59df44716e30a173e7579af16ce4e",
+        "pdf_page_number": 46,
+        "bbox": [
+          152,
+          508,
+          866,
+          708
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson11:exercise7:material:1",
+      "id": "mat_a4e78e68c21f5aab86722a4095fbee8a",
+      "identity_key": "{\"anchor\":{\"bbox\":[149,1214,843,1292],\"pdf_page_number\":46,\"source_image_sha256\":\"56bfb7d6cf1c5848820a177e320c8e1243d59df44716e30a173e7579af16ce4e\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "56bfb7d6cf1c5848820a177e320c8e1243d59df44716e30a173e7579af16ce4e",
+        "pdf_page_number": 46,
+        "bbox": [
+          149,
+          1214,
+          843,
+          1292
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson15:exercise8:material:1",
+      "id": "mat_056a4ffa06d0589e84a8a5bde51e2f7d",
+      "identity_key": "{\"anchor\":{\"bbox\":[113,668,908,775],\"pdf_page_number\":62,\"source_image_sha256\":\"e6c19ed765c497cc525f8c97d35ac7f90d8658af4c2b5fc7311e9802f832af91\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "e6c19ed765c497cc525f8c97d35ac7f90d8658af4c2b5fc7311e9802f832af91",
+        "pdf_page_number": 62,
+        "bbox": [
+          113,
+          668,
+          908,
+          775
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson15:exercise10:material:1",
+      "id": "mat_83dc9b2f46ce55629dc2c05b0554fa57",
+      "identity_key": "{\"anchor\":{\"bbox\":[749,1059,932,1307],\"pdf_page_number\":62,\"source_image_sha256\":\"e6c19ed765c497cc525f8c97d35ac7f90d8658af4c2b5fc7311e9802f832af91\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "e6c19ed765c497cc525f8c97d35ac7f90d8658af4c2b5fc7311e9802f832af91",
+        "pdf_page_number": 62,
+        "bbox": [
+          749,
+          1059,
+          932,
+          1307
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson19:exercise1:material:1",
+      "id": "mat_5ec6e96d0e235660beaaf77c3abf2464",
+      "identity_key": "{\"anchor\":{\"bbox\":[86,447,879,794],\"pdf_page_number\":73,\"source_image_sha256\":\"4575fd0348279ad540271baba147b022249531b634c3897ea273bcf63ed26d46\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "4575fd0348279ad540271baba147b022249531b634c3897ea273bcf63ed26d46",
+        "pdf_page_number": 73,
+        "bbox": [
+          86,
+          447,
+          879,
+          794
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson19:exercise2:material:1",
+      "id": "mat_a0e32d6e31ce55278f1ff585ca543abe",
+      "identity_key": "{\"anchor\":{\"bbox\":[146,1068,351,1217],\"pdf_page_number\":73,\"source_image_sha256\":\"4575fd0348279ad540271baba147b022249531b634c3897ea273bcf63ed26d46\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "4575fd0348279ad540271baba147b022249531b634c3897ea273bcf63ed26d46",
+        "pdf_page_number": 73,
+        "bbox": [
+          146,
+          1068,
+          351,
+          1217
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson19:exercise2:material:2",
+      "id": "mat_7d1d6821251b5f1c8212d7d68a38de07",
+      "identity_key": "{\"anchor\":{\"bbox\":[409,1007,860,1277],\"pdf_page_number\":73,\"source_image_sha256\":\"4575fd0348279ad540271baba147b022249531b634c3897ea273bcf63ed26d46\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "4575fd0348279ad540271baba147b022249531b634c3897ea273bcf63ed26d46",
+        "pdf_page_number": 73,
+        "bbox": [
+          409,
+          1007,
+          860,
+          1277
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson19:exercise2:material:3",
+      "id": "mat_5f99bf5bc67a5c5495ed9bb1797f5b8f",
+      "identity_key": "{\"anchor\":{\"bbox\":[159,504,502,878],\"pdf_page_number\":74,\"source_image_sha256\":\"7dfa83b9437ced3edf34d7e0ea0d89d64f88111ffb27ebd276ab7d38b6a66bb0\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "7dfa83b9437ced3edf34d7e0ea0d89d64f88111ffb27ebd276ab7d38b6a66bb0",
+        "pdf_page_number": 74,
+        "bbox": [
+          159,
+          504,
+          502,
+          878
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson19:exercise2:material:4",
+      "id": "mat_8466eb1e645e5b5dad295b36f43cc6de",
+      "identity_key": "{\"anchor\":{\"bbox\":[527,481,888,892],\"pdf_page_number\":74,\"source_image_sha256\":\"7dfa83b9437ced3edf34d7e0ea0d89d64f88111ffb27ebd276ab7d38b6a66bb0\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "7dfa83b9437ced3edf34d7e0ea0d89d64f88111ffb27ebd276ab7d38b6a66bb0",
+        "pdf_page_number": 74,
+        "bbox": [
+          527,
+          481,
+          888,
+          892
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson19:exercise3:material:1",
+      "id": "mat_b02c5a29acec5340a3b509a14c634833",
+      "identity_key": "{\"anchor\":{\"bbox\":[213,1082,766,1280],\"pdf_page_number\":74,\"source_image_sha256\":\"7dfa83b9437ced3edf34d7e0ea0d89d64f88111ffb27ebd276ab7d38b6a66bb0\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "7dfa83b9437ced3edf34d7e0ea0d89d64f88111ffb27ebd276ab7d38b6a66bb0",
+        "pdf_page_number": 74,
+        "bbox": [
+          213,
+          1082,
+          766,
+          1280
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson22:exercise7:material:1",
+      "id": "mat_1b9e1815225e544cb6975e5f2fcc70c3",
+      "identity_key": "{\"anchor\":{\"bbox\":[126,407,549,536],\"pdf_page_number\":87,\"source_image_sha256\":\"1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160",
+        "pdf_page_number": 87,
+        "bbox": [
+          126,
+          407,
+          549,
+          536
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson22:exercise7:material:2",
+      "id": "mat_15a23f156b1b5162bb535f9eb6b43784",
+      "identity_key": "{\"anchor\":{\"bbox\":[551,407,872,535],\"pdf_page_number\":87,\"source_image_sha256\":\"1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160",
+        "pdf_page_number": 87,
+        "bbox": [
+          551,
+          407,
+          872,
+          535
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson22:exercise7:material:3",
+      "id": "mat_84a9cb457d125cebb97463c539217e2c",
+      "identity_key": "{\"anchor\":{\"bbox\":[129,699,612,829],\"pdf_page_number\":87,\"source_image_sha256\":\"1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160",
+        "pdf_page_number": 87,
+        "bbox": [
+          129,
+          699,
+          612,
+          829
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson22:exercise7:material:4",
+      "id": "mat_d3d6f03b7a2a5243bb6b276c4ced873a",
+      "identity_key": "{\"anchor\":{\"bbox\":[611,709,877,823],\"pdf_page_number\":87,\"source_image_sha256\":\"1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160",
+        "pdf_page_number": 87,
+        "bbox": [
+          611,
+          709,
+          877,
+          823
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson22:exercise8:material:1",
+      "id": "mat_5e28ab43ce6754e09d32e51046d03bed",
+      "identity_key": "{\"anchor\":{\"bbox\":[132,1152,565,1275],\"pdf_page_number\":87,\"source_image_sha256\":\"1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160",
+        "pdf_page_number": 87,
+        "bbox": [
+          132,
+          1152,
+          565,
+          1275
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson22:exercise8:material:2",
+      "id": "mat_bb54f091cc3f548e98dbecb80822fa27",
+      "identity_key": "{\"anchor\":{\"bbox\":[575,1152,869,1283],\"pdf_page_number\":87,\"source_image_sha256\":\"1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "1dc2b5c19dd4204b795311edea33f0e05c3c6cedea1c9836e48d15517d794160",
+        "pdf_page_number": 87,
+        "bbox": [
+          575,
+          1152,
+          869,
+          1283
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise4:material:1",
+      "id": "mat_a2b1a46a886a53aead7a1618854c55c3",
+      "identity_key": "{\"anchor\":{\"bbox\":[142,970,805,1020],\"pdf_page_number\":109,\"source_image_sha256\":\"a13b2b9d60013a5a8ed63f842e61b32ed6fef6c3781c50784b13102c71bf1eca\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "a13b2b9d60013a5a8ed63f842e61b32ed6fef6c3781c50784b13102c71bf1eca",
+        "pdf_page_number": 109,
+        "bbox": [
+          142,
+          970,
+          805,
+          1020
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise6:material:1",
+      "id": "mat_ee69e7b9c6e35f6bbdd71f532f932082",
+      "identity_key": "{\"anchor\":{\"bbox\":[145,264,845,331],\"pdf_page_number\":110,\"source_image_sha256\":\"7965993926d22f163c4ece7f3837c63e9e398fa5950af7ee4cc093bb91dcb8ed\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "7965993926d22f163c4ece7f3837c63e9e398fa5950af7ee4cc093bb91dcb8ed",
+        "pdf_page_number": 110,
+        "bbox": [
+          145,
+          264,
+          845,
+          331
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise10:material:1",
+      "id": "mat_f58df8a6bf935e17bf56118814240fba",
+      "identity_key": "{\"anchor\":{\"bbox\":[113,1175,769,1313],\"pdf_page_number\":110,\"source_image_sha256\":\"7965993926d22f163c4ece7f3837c63e9e398fa5950af7ee4cc093bb91dcb8ed\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "7965993926d22f163c4ece7f3837c63e9e398fa5950af7ee4cc093bb91dcb8ed",
+        "pdf_page_number": 110,
+        "bbox": [
+          113,
+          1175,
+          769,
+          1313
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson29:exercise10:material:2",
+      "id": "mat_0861f6093317512299127b8334cd66e3",
+      "identity_key": "{\"anchor\":{\"bbox\":[748,1080,918,1320],\"pdf_page_number\":110,\"source_image_sha256\":\"7965993926d22f163c4ece7f3837c63e9e398fa5950af7ee4cc093bb91dcb8ed\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "7965993926d22f163c4ece7f3837c63e9e398fa5950af7ee4cc093bb91dcb8ed",
+        "pdf_page_number": 110,
+        "bbox": [
+          748,
+          1080,
+          918,
+          1320
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson38:exercise7:material:1",
+      "id": "mat_f9dd02119a8a57e38ff645f2477c1819",
+      "identity_key": "{\"anchor\":{\"bbox\":[589,312,850,467],\"pdf_page_number\":139,\"source_image_sha256\":\"22495d76c9c6a41e17bc8ec24b7572c9b52df8b6013d42ca914c28590ee75ba5\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "22495d76c9c6a41e17bc8ec24b7572c9b52df8b6013d42ca914c28590ee75ba5",
+        "pdf_page_number": 139,
+        "bbox": [
+          589,
+          312,
+          850,
+          467
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson38:exercise8:material:1",
+      "id": "mat_6976adc5cc98565cba9378aa4d7b5d5d",
+      "identity_key": "{\"anchor\":{\"bbox\":[550,683,870,881],\"pdf_page_number\":139,\"source_image_sha256\":\"22495d76c9c6a41e17bc8ec24b7572c9b52df8b6013d42ca914c28590ee75ba5\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "22495d76c9c6a41e17bc8ec24b7572c9b52df8b6013d42ca914c28590ee75ba5",
+        "pdf_page_number": 139,
+        "bbox": [
+          550,
+          683,
+          870,
+          881
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson38:exercise9:material:1",
+      "id": "mat_2c32f7267011578c8acc07ee310d4294",
+      "identity_key": "{\"anchor\":{\"bbox\":[518,1088,671,1240],\"pdf_page_number\":139,\"source_image_sha256\":\"22495d76c9c6a41e17bc8ec24b7572c9b52df8b6013d42ca914c28590ee75ba5\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "22495d76c9c6a41e17bc8ec24b7572c9b52df8b6013d42ca914c28590ee75ba5",
+        "pdf_page_number": 139,
+        "bbox": [
+          518,
+          1088,
+          671,
+          1240
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:lesson38:exercise9:material:2",
+      "id": "mat_f947644e8d5f57b7b42a8ddf427d2880",
+      "identity_key": "{\"anchor\":{\"bbox\":[694,1044,907,1312],\"pdf_page_number\":139,\"source_image_sha256\":\"22495d76c9c6a41e17bc8ec24b7572c9b52df8b6013d42ca914c28590ee75ba5\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "22495d76c9c6a41e17bc8ec24b7572c9b52df8b6013d42ca914c28590ee75ba5",
+        "pdf_page_number": 139,
+        "bbox": [
+          694,
+          1044,
+          907,
+          1312
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:context:p014-remember",
+      "id": "mat_d4a28ade1dd4551dba82784bbc3ec6ac",
+      "identity_key": "{\"anchor\":{\"bbox\":[138,976,910,1316],\"pdf_page_number\":14,\"source_image_sha256\":\"3448e940f093c92540cff0084b2bd3a6e18efdfd0f465a98d5a7d48e1c61b6fb\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "3448e940f093c92540cff0084b2bd3a6e18efdfd0f465a98d5a7d48e1c61b6fb",
+        "pdf_page_number": 14,
+        "bbox": [
+          138,
+          976,
+          910,
+          1316
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:context:p074-remember",
+      "id": "mat_e443784bc176504984b1fda7688ae0f5",
+      "identity_key": "{\"anchor\":{\"bbox\":[112,154,910,313],\"pdf_page_number\":74,\"source_image_sha256\":\"7dfa83b9437ced3edf34d7e0ea0d89d64f88111ffb27ebd276ab7d38b6a66bb0\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "7dfa83b9437ced3edf34d7e0ea0d89d64f88111ffb27ebd276ab7d38b6a66bb0",
+        "pdf_page_number": 74,
+        "bbox": [
+          112,
+          154,
+          910,
+          313
+        ]
+      }
+    },
+    {
+      "legacy_id": "codex-exp:context:p109-remember",
+      "id": "mat_6792774a64e55b86af24d2f8cff4007b",
+      "identity_key": "{\"anchor\":{\"bbox\":[84,500,882,840],\"pdf_page_number\":109,\"source_image_sha256\":\"a13b2b9d60013a5a8ed63f842e61b32ed6fef6c3781c50784b13102c71bf1eca\"},\"book_id\":\"math-2023-grade4-part1\"}",
+      "anchor": {
+        "source_image_sha256": "a13b2b9d60013a5a8ed63f842e61b32ed6fef6c3781c50784b13102c71bf1eca",
+        "pdf_page_number": 109,
+        "bbox": [
+          84,
+          500,
+          882,
+          840
+        ]
+      }
+    }
+  ],
+  "formal_wiki_module_ids_modified": false
+}

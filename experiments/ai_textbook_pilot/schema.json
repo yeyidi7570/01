@@ -1,0 +1,1772 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ai-textbook:schema:1.0",
+  "title": "AI textbook parent exercises and independent labels",
+  "description": "Validate one JSONL record; manifest and id mapping use their named $defs. No fixed book, page count, grade or subject assumptions.",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/exercise"
+    },
+    {
+      "$ref": "#/$defs/labels"
+    },
+    {
+      "$ref": "#/$defs/extension_labels"
+    }
+  ],
+  "$defs": {
+    "source_ref": {
+      "type": "object",
+      "description": "A source line is resolved by source_bundle_id, pdf_page_number and line_id.",
+      "properties": {
+        "source_bundle_id": {
+          "type": "string",
+          "description": "Final OCR source descriptor ID in manifest."
+        },
+        "pdf_page_number": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "One-based PDF page sequence."
+        },
+        "line_id": {
+          "type": "string",
+          "description": "Unmodified page-local OCR line ID."
+        }
+      },
+      "required": [
+        "source_bundle_id",
+        "pdf_page_number",
+        "line_id"
+      ],
+      "additionalProperties": false
+    },
+    "legacy_line_ref": {
+      "type": "object",
+      "description": "Unchanged line evidence in inherited uncertainty records.",
+      "properties": {
+        "pdf_page_number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "line_id": {
+          "type": "string",
+          "description": "Original experiment local line ID."
+        }
+      },
+      "required": [
+        "pdf_page_number",
+        "line_id"
+      ],
+      "additionalProperties": false
+    },
+    "uncertainty": {
+      "type": "object",
+      "description": "Inherited uncertainty retained verbatim.",
+      "properties": {
+        "uncertainty_id": {
+          "type": "string",
+          "description": "Original uncertainty identifier."
+        },
+        "status": {
+          "type": "string",
+          "description": "Original status, including UNKNOWN or INDEPENDENCE_LIMITATION."
+        },
+        "kind": {
+          "type": "string",
+          "description": "Original uncertainty category."
+        },
+        "experiment_question_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Unchanged legacy exercise ID; may be null for global issue."
+        },
+        "description": {
+          "type": "string",
+          "description": "Original unresolved description, not a new solution."
+        },
+        "source_line_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/legacy_line_ref"
+          },
+          "description": "Original issue evidence, interpreted under the record book."
+        }
+      },
+      "required": [
+        "uncertainty_id",
+        "status",
+        "kind",
+        "experiment_question_id",
+        "description",
+        "source_line_ids"
+      ],
+      "additionalProperties": false
+    },
+    "bbox_ref": {
+      "type": "object",
+      "description": "Existing region only; no new semantic segmentation.",
+      "properties": {
+        "pdf_page_number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "bbox": {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": 0
+          },
+          "minItems": 4,
+          "maxItems": 4,
+          "description": "[x0,y0,x1,y1] in original source PNG pixels, upper left origin; never PDF points."
+        },
+        "coordinate_system": {
+          "const": "source_png_pixels",
+          "description": "Original page image pixels."
+        },
+        "scope": {
+          "enum": [
+            "sample",
+            "context_only"
+          ],
+          "description": "Whether this region belongs to the formal pilot sample."
+        },
+        "origin_pointer": {
+          "type": "string",
+          "description": "Pointer to unchanged original experimental region."
+        }
+      },
+      "required": [
+        "pdf_page_number",
+        "bbox",
+        "coordinate_system",
+        "scope",
+        "origin_pointer"
+      ],
+      "additionalProperties": false
+    },
+    "image_ref": {
+      "type": "object",
+      "description": "References an existing PNG and its original source geometry.",
+      "properties": {
+        "asset_id": {
+          "type": "string",
+          "description": "Foreign key to manifest.assets."
+        },
+        "role": {
+          "type": "string",
+          "description": "Objective asset usage: source page, exercise fragment, material, decorative or subquestion source."
+        },
+        "pdf_page_number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "source_bbox": {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": 0
+          },
+          "minItems": 4,
+          "maxItems": 4,
+          "description": "[x0,y0,x1,y1] in original source PNG pixels, upper left origin; never PDF points."
+        }
+      },
+      "required": [
+        "asset_id",
+        "role",
+        "pdf_page_number",
+        "source_bbox"
+      ],
+      "additionalProperties": false
+    },
+    "unit": {
+      "type": "object",
+      "description": "Immutable atomic source text; ordering uses keys rather than rewritten prose.",
+      "properties": {
+        "key": {
+          "type": "string",
+          "description": "Record-local source-line token key."
+        },
+        "source_ref": {
+          "$ref": "#/$defs/source_ref"
+        },
+        "text": {
+          "type": "string",
+          "description": "Exact final OCR line string; no trimming or rewriting."
+        },
+        "bbox": {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": 0
+          },
+          "minItems": 4,
+          "maxItems": 4,
+          "description": "[x0,y0,x1,y1] in original source PNG pixels, upper left origin; never PDF points."
+        },
+        "scope": {
+          "enum": [
+            "sample",
+            "context_only"
+          ],
+          "description": "Source scope."
+        },
+        "role": {
+          "enum": [
+            "body",
+            "numbering"
+          ],
+          "description": "Numbering tokens are stored separately from body text."
+        }
+      },
+      "required": [
+        "key",
+        "source_ref",
+        "text",
+        "bbox",
+        "scope",
+        "role"
+      ],
+      "additionalProperties": false
+    },
+    "order": {
+      "type": "object",
+      "description": "Original and readable key sequences must be exact permutations after explicit numbering exclusion.",
+      "properties": {
+        "original_unit_keys": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "Opaque stable identifier, not a printed exercise number."
+          },
+          "description": "Identifier references."
+        },
+        "readable_unit_keys": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "Opaque stable identifier, not a printed exercise number."
+          },
+          "description": "Identifier references."
+        },
+        "numbering_unit_keys": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "Opaque stable identifier, not a printed exercise number."
+          },
+          "description": "Identifier references."
+        },
+        "method": {
+          "type": "string",
+          "description": "Reordering policy; readability is not semantic verification."
+        }
+      },
+      "required": [
+        "original_unit_keys",
+        "readable_unit_keys",
+        "numbering_unit_keys",
+        "method"
+      ],
+      "additionalProperties": false
+    },
+    "reference": {
+      "type": "object",
+      "description": "A relationship, never a new exercise boundary.",
+      "properties": {
+        "type": {
+          "enum": [
+            "exercise",
+            "subquestion",
+            "material",
+            "external"
+          ],
+          "description": "Relation target kind."
+        },
+        "target_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Stable internal target ID, null only if unresolved/external."
+        },
+        "resolution": {
+          "enum": [
+            "internal",
+            "external",
+            "unresolved"
+          ],
+          "description": "Internal targets must exist."
+        },
+        "explicit": {
+          "type": "boolean",
+          "description": "True only if the source explicitly names another exercise."
+        },
+        "source_line_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source_ref"
+          },
+          "description": "References to exact authoritative source lines; no newly recognized text."
+        },
+        "legacy_evidence": {
+          "type": "object",
+          "description": "Original relation fields retained for audit; not generated teaching content.",
+          "additionalProperties": true
+        }
+      },
+      "required": [
+        "type",
+        "target_id",
+        "resolution",
+        "explicit",
+        "source_line_ids",
+        "legacy_evidence"
+      ],
+      "additionalProperties": false
+    },
+    "issue": {
+      "type": "object",
+      "description": "Format/representation issue; does not silently revise source structure.",
+      "properties": {
+        "code": {
+          "type": "string",
+          "description": "Conversion review flag code."
+        },
+        "description": {
+          "type": "string",
+          "description": "Concrete unresolved ordering or representation limit."
+        }
+      },
+      "required": [
+        "code",
+        "description"
+      ],
+      "additionalProperties": false
+    },
+    "structure": {
+      "type": "object",
+      "description": "Separate inherited AI structure from authoritative OCR text.",
+      "properties": {
+        "state": {
+          "enum": [
+            "preserved_not_semantically_verified",
+            "needs_review"
+          ],
+          "description": "Passing mechanical validation never implies semantic correctness."
+        },
+        "reading_order": {
+          "enum": [
+            "line_sequence_preserved",
+            "block_grouped_needs_visual_review"
+          ],
+          "description": "Image-dependent layouts are not falsely presented as reliable formulas."
+        },
+        "reading_order_issues": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/issue"
+          },
+          "description": "Unresolved text-order or image-linearization issues."
+        },
+        "inherited_uncertainties": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/uncertainty"
+          },
+          "description": "All relevant original UNKNOWN and global limitations."
+        }
+      },
+      "required": [
+        "state",
+        "reading_order",
+        "reading_order_issues",
+        "inherited_uncertainties"
+      ],
+      "additionalProperties": false
+    },
+    "material": {
+      "type": "object",
+      "description": "Printed material is preserved; no new answers, solution steps or inferred missing values.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Stable source-region material ID."
+        },
+        "legacy_id": {
+          "type": "string",
+          "description": "Original material/context block ID."
+        },
+        "kind": {
+          "type": "string",
+          "description": "Inherited material kind; not a newly generated exercise-type tag."
+        },
+        "scope": {
+          "enum": [
+            "exercise_owned",
+            "lesson_context"
+          ],
+          "description": "Lesson context is kept separate from owned exercise text."
+        },
+        "owner_subquestion_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Stable nested owner if explicitly present in experiment."
+        },
+        "original_text": {
+          "type": "string",
+          "description": "Exact source line join for this material."
+        },
+        "readable_text": {
+          "type": "string",
+          "description": "Unmodified lines in recorded material order; not generated LaTeX."
+        },
+        "source_line_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source_ref"
+          },
+          "description": "References to exact authoritative source lines; no newly recognized text."
+        },
+        "bbox_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/bbox_ref"
+          },
+          "description": "Existing source bounds."
+        },
+        "image_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/image_ref"
+          },
+          "description": "Image descriptors; all assets resolve through manifest."
+        },
+        "transcription_status": {
+          "enum": [
+            "image_required",
+            "text_with_source_geometry"
+          ],
+          "description": "image_required means cells, formula logic or geometry are not reliably transcribed."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Inherited material notes."
+        },
+        "uncertainty_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "Original uncertainty ID."
+          },
+          "description": "Associated original issues."
+        }
+      },
+      "required": [
+        "id",
+        "legacy_id",
+        "kind",
+        "scope",
+        "owner_subquestion_id",
+        "original_text",
+        "readable_text",
+        "source_line_ids",
+        "bbox_refs",
+        "image_refs",
+        "transcription_status",
+        "notes",
+        "uncertainty_ids"
+      ],
+      "additionalProperties": false
+    },
+    "subquestion": {
+      "type": "object",
+      "description": "Nested part; never emitted as an independent parent JSONL record.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Stable nested ID, independent of printed labels."
+        },
+        "parent_exercise_id": {
+          "type": "string",
+          "description": "Existing parent exercise ID."
+        },
+        "parent_node_id": {
+          "type": "string",
+          "description": "Immediate stable parent exercise/subquestion ID."
+        },
+        "original_label": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Printed letter/number unchanged, or null for unnumbered item."
+        },
+        "inherited_kind": {
+          "type": "string",
+          "description": "Original structural grouping, not semantic exercise-type classification."
+        },
+        "original_text": {
+          "type": "string",
+          "description": "Exact original body-line join, excluding standalone badge tokens only."
+        },
+        "readable_text": {
+          "type": "string",
+          "description": "Permutation of the same unchanged body-line units."
+        },
+        "source_line_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source_ref"
+          },
+          "description": "References to exact authoritative source lines; no newly recognized text."
+        },
+        "original_unit_keys": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "Opaque stable identifier, not a printed exercise number."
+          },
+          "description": "Identifier references."
+        },
+        "readable_unit_keys": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "Opaque stable identifier, not a printed exercise number."
+          },
+          "description": "Identifier references."
+        },
+        "bbox_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/bbox_ref"
+          },
+          "description": "Unmodified existing subquestion bounds."
+        },
+        "image_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/image_ref"
+          },
+          "description": "Image descriptors; all assets resolve through manifest."
+        },
+        "subquestions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/subquestion"
+          },
+          "description": "Recursive children remain in the same parent record."
+        },
+        "shared_material_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "Opaque stable identifier, not a printed exercise number."
+          },
+          "description": "Identifier references."
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/reference"
+          },
+          "description": "Inherited nested relation evidence."
+        }
+      },
+      "required": [
+        "id",
+        "parent_exercise_id",
+        "parent_node_id",
+        "original_label",
+        "inherited_kind",
+        "original_text",
+        "readable_text",
+        "source_line_ids",
+        "original_unit_keys",
+        "readable_unit_keys",
+        "bbox_refs",
+        "image_refs",
+        "subquestions",
+        "shared_material_ids",
+        "references"
+      ],
+      "additionalProperties": false
+    },
+    "fragment": {
+      "type": "object",
+      "description": "Context can complete a parent without enlarging the formal sample.",
+      "properties": {
+        "pdf_page_number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "scope": {
+          "enum": [
+            "context_only"
+          ],
+          "description": "Only an already recorded outside-sample continuation."
+        },
+        "original_text": {
+          "type": "string",
+          "description": "Exact contextual continuation text."
+        },
+        "readable_text": {
+          "type": "string",
+          "description": "Source-line-only reordering of continuation text."
+        },
+        "source_line_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source_ref"
+          },
+          "description": "References to exact authoritative source lines; no newly recognized text."
+        },
+        "bbox_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/bbox_ref"
+          },
+          "description": "Original continuation bounds."
+        },
+        "image_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/image_ref"
+          },
+          "description": "Image descriptors; all assets resolve through manifest."
+        }
+      },
+      "required": [
+        "pdf_page_number",
+        "scope",
+        "original_text",
+        "readable_text",
+        "source_line_ids",
+        "bbox_refs",
+        "image_refs"
+      ],
+      "additionalProperties": false
+    },
+    "exercise": {
+      "type": "object",
+      "description": "One complete parent per JSONL line; no labels/KLP/solutions mixed into exercise data.",
+      "properties": {
+        "record_type": {
+          "const": "exercise"
+        },
+        "schema_version": {
+          "const": "ai-textbook/1.0"
+        },
+        "id": {
+          "type": "string",
+          "description": "Opaque UUID-derived stable ID; no lesson or printed number is used in identity."
+        },
+        "book_id": {
+          "type": "string",
+          "description": "Foreign key to manifest.books; supports multiple books."
+        },
+        "lesson_number": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Printed lesson metadata. May change without changing id."
+        },
+        "exercise_number": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Printed parent exercise number, metadata only."
+        },
+        "page_refs": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "description": "One-based PDF page numbers, not printed page labels."
+        },
+        "page_scopes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "description": "Scope for each associated page.",
+            "properties": {
+              "pdf_page_number": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "scope": {
+                "enum": [
+                  "sample",
+                  "context_only"
+                ],
+                "description": "Formal sample membership."
+              }
+            },
+            "required": [
+              "pdf_page_number",
+              "scope"
+            ],
+            "additionalProperties": false
+          },
+          "description": "All pages belonging to the parent, including context-only continuation."
+        },
+        "original_text": {
+          "type": "string",
+          "description": "Exact final OCR body lines in original experimental order, excluding standalone printed badges; full raw experimental string remains in provenance."
+        },
+        "readable_text": {
+          "type": "string",
+          "description": "Same immutable body units grouped by inherited parts/materials; no added words or answers."
+        },
+        "text_units": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/unit"
+          },
+          "description": "Exact source body and separate numbering units for lossless audit."
+        },
+        "text_order": {
+          "$ref": "#/$defs/order"
+        },
+        "numbering_evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "description": "Standalone badge removed only from body text.",
+            "properties": {
+              "source_ref": {
+                "$ref": "#/$defs/source_ref"
+              },
+              "text": {
+                "type": "string",
+                "description": "Exact printed badge."
+              },
+              "bbox": {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "minItems": 4,
+                "maxItems": 4,
+                "description": "[x0,y0,x1,y1] in original source PNG pixels, upper left origin; never PDF points."
+              }
+            },
+            "required": [
+              "source_ref",
+              "text",
+              "bbox"
+            ],
+            "additionalProperties": false
+          },
+          "description": "Numbers are metadata, not erroneously interleaved prose."
+        },
+        "subquestions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/subquestion"
+          },
+          "description": "All nested parts belonging to this parent."
+        },
+        "shared_materials": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/material"
+          },
+          "description": "Owned materials and explicitly linked lesson-level context."
+        },
+        "image_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/image_ref"
+          },
+          "description": "Image descriptors; all assets resolve through manifest."
+        },
+        "source_line_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source_ref"
+          },
+          "description": "References to exact authoritative source lines; no newly recognized text."
+        },
+        "bbox_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/bbox_ref"
+          },
+          "description": "All original parent and continuation bounds."
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/reference"
+          },
+          "description": "Internal or explicitly external relations."
+        },
+        "context_fragments": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fragment"
+          },
+          "description": "Outside-sample continuation stays under this same parent."
+        },
+        "structure_status": {
+          "$ref": "#/$defs/structure"
+        },
+        "provenance": {
+          "type": "object",
+          "description": "Distinguish original text, transformed order and inherited AI structure.",
+          "properties": {
+            "input_commit": {
+              "type": "string",
+              "description": "Pinned experimental commit."
+            },
+            "legacy_question_id": {
+              "type": "string",
+              "description": "Original experimental question ID."
+            },
+            "verbatim_experiment_text": {
+              "type": "string",
+              "description": "Unchanged raw legacy text, including source badges; audit only, not retrieval body."
+            },
+            "legacy_context_dependencies": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": true
+              },
+              "description": "Original context dependency records retained as audit evidence."
+            },
+            "structure_origin": {
+              "const": "inherited_experiment_not_resplit"
+            }
+          },
+          "required": [
+            "input_commit",
+            "legacy_question_id",
+            "verbatim_experiment_text",
+            "legacy_context_dependencies",
+            "structure_origin"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "record_type",
+        "schema_version",
+        "id",
+        "book_id",
+        "lesson_number",
+        "exercise_number",
+        "page_refs",
+        "page_scopes",
+        "original_text",
+        "readable_text",
+        "text_units",
+        "text_order",
+        "numbering_evidence",
+        "subquestions",
+        "shared_materials",
+        "image_refs",
+        "source_line_ids",
+        "bbox_refs",
+        "references",
+        "context_fragments",
+        "structure_status",
+        "provenance"
+      ],
+      "additionalProperties": false
+    },
+    "label_evidence": {
+      "type": "object",
+      "description": "Do not infer objective truth solely from OCR confidence or screenshot existence.",
+      "properties": {
+        "method": {
+          "enum": [
+            "manual_visual_review",
+            "computed_from_structure"
+          ],
+          "description": "Observable evidence only."
+        },
+        "status": {
+          "enum": [
+            "observed",
+            "unknown"
+          ],
+          "description": "Null label requires unknown plus a concrete reason."
+        },
+        "reason": {
+          "type": "string",
+          "description": "Definition and evidence for this label."
+        },
+        "page_refs": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "description": "One-based PDF page numbers, not printed page labels."
+        },
+        "source_line_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source_ref"
+          },
+          "description": "References to exact authoritative source lines; no newly recognized text."
+        },
+        "material_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "Opaque stable identifier, not a printed exercise number."
+          },
+          "description": "Identifier references."
+        },
+        "asset_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "Opaque stable identifier, not a printed exercise number."
+          },
+          "description": "Identifier references."
+        }
+      },
+      "required": [
+        "method",
+        "status",
+        "reason",
+        "page_refs",
+        "source_line_ids",
+        "material_ids",
+        "asset_ids"
+      ],
+      "additionalProperties": false
+    },
+    "extension": {
+      "type": "object",
+      "description": "Future labels can be added separately without modifying parent identity.",
+      "properties": {
+        "namespace": {
+          "type": "string",
+          "description": "Future independent annotation namespace, e.g. klp or exercise_type."
+        },
+        "name": {
+          "type": "string",
+          "description": "Annotation key."
+        },
+        "value": {
+          "description": "Any JSON value; its vocabulary belongs to the future namespace, not this pilot."
+        },
+        "producer": {
+          "type": "string",
+          "description": "Agent/version generating the separate annotation."
+        },
+        "evidence": {
+          "type": "string",
+          "description": "Rationale or evidence URI."
+        }
+      },
+      "required": [
+        "namespace",
+        "name",
+        "value",
+        "producer",
+        "evidence"
+      ],
+      "additionalProperties": false
+    },
+    "labels": {
+      "type": "object",
+      "description": "One objective-label record per parent, never mixed with textual exercise content.",
+      "properties": {
+        "record_type": {
+          "const": "objective_labels"
+        },
+        "schema_version": {
+          "const": "ai-textbook/1.0"
+        },
+        "exercise_id": {
+          "type": "string",
+          "description": "Foreign key to exercise.id."
+        },
+        "has_image": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "Actual source illustrations, diagrams or in-region decorations only; excludes the screenshot asset itself, pure data tables, math grid paper and answer boxes. Excludes merely inherited lesson background."
+        },
+        "has_table": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "Real source data table, not graph paper or a geometric diagram."
+        },
+        "has_formula": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "Printed operation/equality/conversion/vertical calculation; isolated quantities, units and variable table headings do not count."
+        },
+        "has_subquestions": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "Whether the inherited parent contains child nodes."
+        },
+        "is_cross_page": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "Owned parent fragments span multiple PDF pages, including context-only continuation."
+        },
+        "has_explicit_references": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "Source explicitly refers to another numbered exercise; implicit sibling analogy does not count."
+        },
+        "scope": {
+          "type": "string",
+          "description": "Objective label scope."
+        },
+        "evidence": {
+          "type": "object",
+          "description": "Exactly one evidence entry per objective field.",
+          "properties": {
+            "has_image": {
+              "$ref": "#/$defs/label_evidence"
+            },
+            "has_table": {
+              "$ref": "#/$defs/label_evidence"
+            },
+            "has_formula": {
+              "$ref": "#/$defs/label_evidence"
+            },
+            "has_subquestions": {
+              "$ref": "#/$defs/label_evidence"
+            },
+            "is_cross_page": {
+              "$ref": "#/$defs/label_evidence"
+            },
+            "has_explicit_references": {
+              "$ref": "#/$defs/label_evidence"
+            }
+          },
+          "required": [
+            "has_image",
+            "has_table",
+            "has_formula",
+            "has_subquestions",
+            "is_cross_page",
+            "has_explicit_references"
+          ],
+          "additionalProperties": false
+        },
+        "extensions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/extension"
+          },
+          "description": "Empty in this pilot; no KLP, subjective difficulty, teaching purpose or semantic exercise-type labels generated."
+        }
+      },
+      "required": [
+        "record_type",
+        "schema_version",
+        "exercise_id",
+        "has_image",
+        "has_table",
+        "has_formula",
+        "has_subquestions",
+        "is_cross_page",
+        "has_explicit_references",
+        "scope",
+        "evidence",
+        "extensions"
+      ],
+      "additionalProperties": false
+    },
+    "extension_labels": {
+      "type": "object",
+      "description": "Future annotation file format; not generated in this pilot.",
+      "properties": {
+        "record_type": {
+          "const": "extension_labels"
+        },
+        "schema_version": {
+          "const": "ai-textbook/1.0"
+        },
+        "exercise_id": {
+          "type": "string",
+          "description": "Stable exercise ID."
+        },
+        "labels": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/extension"
+          },
+          "description": "Independent future producer annotations."
+        }
+      },
+      "required": [
+        "record_type",
+        "schema_version",
+        "exercise_id",
+        "labels"
+      ],
+      "additionalProperties": false
+    },
+    "asset": {
+      "type": "object",
+      "description": "Every saved PNG is registered and referenced; crops never lose the original page.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Stable asset ID."
+        },
+        "path": {
+          "type": "string",
+          "description": "Path relative to pilot directory."
+        },
+        "role": {
+          "enum": [
+            "source_page",
+            "crop"
+          ],
+          "description": "Source versus derived crop."
+        },
+        "sha256": {
+          "type": "string",
+          "description": "File SHA-256."
+        },
+        "pixel_sha256": {
+          "type": "string",
+          "description": "RGB pixel bytes hash for verification independent of PNG encoder."
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "pdf_page_number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "source_image_path": {
+          "type": "string",
+          "description": "Repository-relative actual original filename."
+        },
+        "source_image_sha256": {
+          "type": "string",
+          "description": "Original full PNG hash."
+        },
+        "source_commit": {
+          "type": "string",
+          "description": "Pinned source data commit."
+        },
+        "source_bbox": {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": 0
+          },
+          "minItems": 4,
+          "maxItems": 4,
+          "description": "[x0,y0,x1,y1] in original source PNG pixels, upper left origin; never PDF points."
+        },
+        "source_asset_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Full-page local asset ID for crop; null for full source."
+        }
+      },
+      "required": [
+        "id",
+        "path",
+        "role",
+        "sha256",
+        "pixel_sha256",
+        "width",
+        "height",
+        "pdf_page_number",
+        "source_image_path",
+        "source_image_sha256",
+        "source_commit",
+        "source_bbox",
+        "source_asset_id"
+      ],
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "description": "A fixed input byte stream.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Source descriptor ID."
+        },
+        "kind": {
+          "type": "string",
+          "description": "Input kind."
+        },
+        "path": {
+          "type": "string",
+          "description": "Repository-relative input path."
+        },
+        "commit": {
+          "type": "string",
+          "description": "Pinned version."
+        },
+        "sha256": {
+          "type": "string",
+          "description": "Exact input SHA-256."
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "path",
+        "commit",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "book": {
+      "type": "object",
+      "description": "Reusable book registry entry, not hardcoded to this pilot.",
+      "properties": {
+        "book_id": {
+          "type": "string",
+          "description": "Book registry ID."
+        },
+        "name": {
+          "type": "string",
+          "description": "Full original book name."
+        },
+        "source_filename": {
+          "type": "string",
+          "description": "Original PDF filename."
+        },
+        "language": {
+          "type": "string",
+          "description": "BCP47 language/script tag."
+        },
+        "source_pdf_sha256": {
+          "type": "string",
+          "description": "Original source PDF identity."
+        }
+      },
+      "required": [
+        "book_id",
+        "name",
+        "source_filename",
+        "language",
+        "source_pdf_sha256"
+      ],
+      "additionalProperties": false
+    },
+    "mapping_entry": {
+      "type": "object",
+      "description": "Deterministic legacy-to-stable bridge; never a formal Wiki module mapping.",
+      "properties": {
+        "legacy_id": {
+          "type": "string",
+          "description": "Legacy experimental ID."
+        },
+        "id": {
+          "type": "string",
+          "description": "New stable ID."
+        },
+        "identity_key": {
+          "type": "string",
+          "description": "Source anchor serialization; excludes printed lesson/exercise metadata."
+        },
+        "anchor": {
+          "type": "object",
+          "description": "Exact source anchor, not a mutable human label.",
+          "additionalProperties": true
+        }
+      },
+      "required": [
+        "legacy_id",
+        "id",
+        "identity_key",
+        "anchor"
+      ],
+      "additionalProperties": false
+    },
+    "id_mapping": {
+      "type": "object",
+      "description": "Stable across identical input reruns; metadata-only numbering corrections do not affect identity.",
+      "properties": {
+        "schema_version": {
+          "const": "ai-textbook/1.0"
+        },
+        "algorithm": {
+          "type": "string",
+          "description": "UUID namespace and immutable source anchor policy."
+        },
+        "namespace_uuid": {
+          "type": "string",
+          "description": "Fixed UUID namespace."
+        },
+        "input_commit": {
+          "type": "string",
+          "description": "Original experiment version."
+        },
+        "parents": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/mapping_entry"
+          },
+          "description": "One per source parent."
+        },
+        "subquestions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/mapping_entry"
+          },
+          "description": "One per recursive source child."
+        },
+        "materials": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/mapping_entry"
+          },
+          "description": "Owned materials and linked lesson materials."
+        },
+        "formal_wiki_module_ids_modified": {
+          "const": false
+        }
+      },
+      "required": [
+        "schema_version",
+        "algorithm",
+        "namespace_uuid",
+        "input_commit",
+        "parents",
+        "subquestions",
+        "materials",
+        "formal_wiki_module_ids_modified"
+      ],
+      "additionalProperties": false
+    },
+    "legacy_image": {
+      "type": "object",
+      "description": "Unmodified original image evidence, including lesson headers outside formal sample.",
+      "properties": {
+        "image_ref_id": {
+          "type": "string",
+          "description": "Original experiment image-region label."
+        },
+        "pdf_page_number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "repository_path": {
+          "type": "string",
+          "description": "Actual source filename in repository."
+        },
+        "repository_commit": {
+          "type": "string",
+          "description": "Fixed source commit."
+        },
+        "source_image_sha256": {
+          "type": "string",
+          "description": "Source PNG SHA-256."
+        },
+        "image_size": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "Original width and height in pixels."
+        },
+        "bbox": {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": 0
+          },
+          "minItems": 4,
+          "maxItems": 4,
+          "description": "[x0,y0,x1,y1] in original source PNG pixels, upper left origin; never PDF points."
+        },
+        "coordinate_system": {
+          "const": "source_png_pixels"
+        },
+        "role": {
+          "type": "string",
+          "description": "Original image-region role."
+        },
+        "scope": {
+          "enum": [
+            "sample",
+            "context_only"
+          ],
+          "description": "Source evidence scope."
+        },
+        "url": {
+          "type": "string",
+          "description": "Pinned original image URL."
+        }
+      },
+      "required": [
+        "image_ref_id",
+        "pdf_page_number",
+        "repository_path",
+        "repository_commit",
+        "source_image_sha256",
+        "image_size",
+        "bbox",
+        "coordinate_system",
+        "role",
+        "scope",
+        "url"
+      ],
+      "additionalProperties": false
+    },
+    "lesson": {
+      "type": "object",
+      "description": "Existing course evidence, not newly segmented chapters.",
+      "properties": {
+        "lesson_id": {
+          "type": "string",
+          "description": "Original experiment-local lesson label, not a formal Wiki ID."
+        },
+        "id_namespace": {
+          "type": "string",
+          "description": "Namespace disclosure from original experiment."
+        },
+        "printed_lesson_number": {
+          "type": [
+            "integer",
+            "string",
+            "null"
+          ],
+          "description": "Original printed lesson metadata."
+        },
+        "title_text": {
+          "type": "string",
+          "description": "Original title line join."
+        },
+        "source_header_text": {
+          "type": "string",
+          "description": "Original header evidence, unmodified."
+        },
+        "source_line_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/legacy_line_ref"
+          },
+          "description": "Original header line references under this manifest book."
+        },
+        "page_refs": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "description": "One-based PDF page numbers, not printed page labels."
+        },
+        "image_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/legacy_image"
+          },
+          "description": "Source header regions; not new formal sample pages."
+        },
+        "status": {
+          "type": "string",
+          "description": "Inherited header verification status."
+        }
+      },
+      "required": [
+        "lesson_id",
+        "id_namespace",
+        "printed_lesson_number",
+        "title_text",
+        "source_header_text",
+        "source_line_ids",
+        "page_refs",
+        "image_refs",
+        "status"
+      ],
+      "additionalProperties": false
+    },
+    "manifest": {
+      "type": "object",
+      "description": "Dataset/version metadata; contains no assumed global uniqueness of printed numbers.",
+      "properties": {
+        "schema_version": {
+          "const": "ai-textbook/1.0"
+        },
+        "generated_at_utc": {
+          "type": "string",
+          "description": "Fixed generation timestamp from saved config; reruns preserve deterministic data."
+        },
+        "books": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/book"
+          },
+          "description": "Multiple textbooks supported."
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source"
+          },
+          "description": "Immutable input descriptors."
+        },
+        "experiment_input": {
+          "type": "object",
+          "description": "Input experimental version.",
+          "properties": {
+            "commit": {
+              "type": "string",
+              "description": "Pinned experimental commit."
+            },
+            "directory": {
+              "type": "string",
+              "description": "Original experiment path."
+            },
+            "previous_version": {
+              "type": "string",
+              "description": "Original experimental schema version."
+            }
+          },
+          "required": [
+            "commit",
+            "directory",
+            "previous_version"
+          ],
+          "additionalProperties": false
+        },
+        "sample_scope": {
+          "type": "object",
+          "description": "Only ten formal pages; adjacent contexts are not new formal samples.",
+          "properties": {
+            "formal_pages": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "description": "One-based PDF page numbers, not printed page labels."
+            },
+            "context_content_pages": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "description": "One-based PDF page numbers, not printed page labels."
+            },
+            "lesson_evidence_pages": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "description": "One-based PDF page numbers, not printed page labels."
+            },
+            "book_id": {
+              "type": "string",
+              "description": "Book owning this pilot scope."
+            }
+          },
+          "required": [
+            "formal_pages",
+            "context_content_pages",
+            "lesson_evidence_pages",
+            "book_id"
+          ],
+          "additionalProperties": false
+        },
+        "counts": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "description": "Observed record and asset counts, not a schema restriction."
+        },
+        "assets": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/asset"
+          },
+          "description": "Complete one-to-one saved image file registry."
+        },
+        "lookup_index": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "description": "Number lookup may return multiple stable IDs.",
+            "properties": {
+              "book_id": {
+                "type": "string",
+                "description": "Book."
+              },
+              "lesson_number": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Lesson metadata."
+              },
+              "exercise_number": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Printed number."
+              },
+              "exercise_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": "Opaque stable identifier, not a printed exercise number."
+                },
+                "description": "Identifier references."
+              }
+            },
+            "required": [
+              "book_id",
+              "lesson_number",
+              "exercise_number",
+              "exercise_ids"
+            ],
+            "additionalProperties": false
+          },
+          "description": "Metadata retrieval index; never identity."
+        },
+        "lessons": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/lesson"
+          },
+          "description": "Original lesson header evidence, not new lesson segmentation."
+        },
+        "uncertainties": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/uncertainty"
+          },
+          "description": "All original unresolved and independence issues."
+        },
+        "input_unchanged": {
+          "const": true
+        },
+        "generation": {
+          "type": "object",
+          "description": "How derived artifacts were produced.",
+          "properties": {
+            "script": {
+              "type": "string",
+              "description": "Repeatable conversion entry point."
+            },
+            "validation_script": {
+              "type": "string",
+              "description": "Actual validation entry point."
+            },
+            "ordering_policy": {
+              "type": "string",
+              "description": "Lossless source unit grouping policy."
+            },
+            "id_policy": {
+              "type": "string",
+              "description": "Source-based identity rule."
+            },
+            "label_policy": {
+              "type": "string",
+              "description": "Objective label scope."
+            },
+            "printed_examples_policy": {
+              "type": "string",
+              "description": "Original printed examples retained; no new answers generated."
+            }
+          },
+          "required": [
+            "script",
+            "validation_script",
+            "ordering_policy",
+            "id_policy",
+            "label_policy",
+            "printed_examples_policy"
+          ],
+          "additionalProperties": false
+        },
+        "files": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "description": "Artifact checksum.",
+            "properties": {
+              "path": {
+                "type": "string",
+                "description": "Relative generated path."
+              },
+              "bytes": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "sha256": {
+                "type": "string",
+                "description": "File checksum."
+              }
+            },
+            "required": [
+              "path",
+              "bytes",
+              "sha256"
+            ],
+            "additionalProperties": false
+          },
+          "description": "Excludes manifest self-reference and mutable validation audit reports."
+        }
+      },
+      "required": [
+        "schema_version",
+        "generated_at_utc",
+        "books",
+        "sources",
+        "experiment_input",
+        "sample_scope",
+        "counts",
+        "assets",
+        "lookup_index",
+        "lessons",
+        "uncertainties",
+        "input_unchanged",
+        "generation",
+        "files"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

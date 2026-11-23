@@ -1,0 +1,255 @@
+{
+  "schema_version": "ai-textbook/1.0",
+  "generated_at_utc": "2026-11-23T03:44:39.262795+00:00",
+  "id_namespace_uuid": "d5eae730-2410-52a7-9760-e27308477ab9",
+  "experiment_commit": "6d67153ea65b105366c0ebf436ff76a3373a0650",
+  "experiment_directory": "experiments/codex/2026-11-20_数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП",
+  "experiment_file_hashes": {
+    "questions.json": "46389303a45ee0c2ae5c3102597646a7ab35c63a6cc4ae24383f699592fa3fbe",
+    "review.md": "0a6d27f4b6b49cdb61de0ef7c23df98f871984a717ea9919622002b51f1498f3",
+    "uncertainties.md": "43e72e5ddf33f9052ffbe380baa647211422125d71f9f9047258152858bd167f",
+    "process.md": "6d10dd7e84e6be58b0e3c62351583bfa80a7d17543e338d190ed113e6463e762"
+  },
+  "sample_pages": [
+    14,
+    29,
+    46,
+    62,
+    73,
+    74,
+    87,
+    109,
+    110,
+    139
+  ],
+  "context_content_pages": [
+    30
+  ],
+  "book": {
+    "book_id": "math-2023-grade4-part1",
+    "name": "数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП",
+    "source_filename": "数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП.pdf",
+    "language": "kk-Cyrl",
+    "source_pdf_sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be"
+  },
+  "objective_review": {
+    "codex-exp:lesson03:exercise1": {
+      "has_image": null,
+      "has_table": true,
+      "has_formula": false,
+      "has_image_reason": "父题上沿与页首角色图存在少量重叠，装饰图归属未精确标注；主体表格不能单凭截图判为插图。",
+      "has_table_reason": "原有真实数据表格。",
+      "has_formula_reason": "无原印运算式；单独数量、单位、变量表头或“请写算式”的指令不按已印公式统计。"
+    },
+    "codex-exp:lesson07:exercise1": {
+      "has_image": false,
+      "has_table": false,
+      "has_formula": false,
+      "has_image_reason": "原题区域无独立插图或几何示意；纯表格、竖式方格和答题框不按插图统计。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "无原印运算式；单独数量、单位、变量表头或“请写算式”的指令不按已印公式统计。"
+    },
+    "codex-exp:lesson07:exercise2": {
+      "has_image": false,
+      "has_table": false,
+      "has_formula": true,
+      "has_image_reason": "原题区域无独立插图或几何示意；纯表格、竖式方格和答题框不按插图统计。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "原印算式、等式、换算式或竖式。"
+    },
+    "codex-exp:lesson11:exercise4": {
+      "has_image": false,
+      "has_table": false,
+      "has_formula": true,
+      "has_image_reason": "原题区域无独立插图或几何示意；纯表格、竖式方格和答题框不按插图统计。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "原印算式、等式、换算式或竖式。"
+    },
+    "codex-exp:lesson11:exercise5": {
+      "has_image": false,
+      "has_table": false,
+      "has_formula": true,
+      "has_image_reason": "原题区域无独立插图或几何示意；纯表格、竖式方格和答题框不按插图统计。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "原印算式、等式、换算式或竖式。"
+    },
+    "codex-exp:lesson11:exercise6": {
+      "has_image": false,
+      "has_table": false,
+      "has_formula": false,
+      "has_image_reason": "原题区域无独立插图或几何示意；纯表格、竖式方格和答题框不按插图统计。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "无原印运算式；单独数量、单位、变量表头或“请写算式”的指令不按已印公式统计。"
+    },
+    "codex-exp:lesson11:exercise7": {
+      "has_image": false,
+      "has_table": false,
+      "has_formula": true,
+      "has_image_reason": "原题区域无独立插图或几何示意；纯表格、竖式方格和答题框不按插图统计。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "原印算式、等式、换算式或竖式。"
+    },
+    "codex-exp:lesson15:exercise7": {
+      "has_image": false,
+      "has_table": false,
+      "has_formula": false,
+      "has_image_reason": "原题区域无独立插图或几何示意；纯表格、竖式方格和答题框不按插图统计。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "无原印运算式；单独数量、单位、变量表头或“请写算式”的指令不按已印公式统计。"
+    },
+    "codex-exp:lesson15:exercise8": {
+      "has_image": false,
+      "has_table": true,
+      "has_formula": false,
+      "has_image_reason": "原题区域无独立插图或几何示意；纯表格、竖式方格和答题框不按插图统计。",
+      "has_table_reason": "原有真实数据表格。",
+      "has_formula_reason": "无原印运算式；单独数量、单位、变量表头或“请写算式”的指令不按已印公式统计。"
+    },
+    "codex-exp:lesson15:exercise9": {
+      "has_image": false,
+      "has_table": false,
+      "has_formula": false,
+      "has_image_reason": "原题区域无独立插图或几何示意；纯表格、竖式方格和答题框不按插图统计。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "无原印运算式；单独数量、单位、变量表头或“请写算式”的指令不按已印公式统计。"
+    },
+    "codex-exp:lesson15:exercise10": {
+      "has_image": true,
+      "has_table": false,
+      "has_formula": false,
+      "has_image_reason": "原题区域存在插图、几何／线段示意或装饰角色；不把截图自身计作插图。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "无原印运算式；单独数量、单位、变量表头或“请写算式”的指令不按已印公式统计。"
+    },
+    "codex-exp:lesson19:exercise1": {
+      "has_image": true,
+      "has_table": false,
+      "has_formula": false,
+      "has_image_reason": "原题区域存在插图、几何／线段示意或装饰角色；不把截图自身计作插图。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "无原印运算式；单独数量、单位、变量表头或“请写算式”的指令不按已印公式统计。"
+    },
+    "codex-exp:lesson19:exercise2": {
+      "has_image": false,
+      "has_table": false,
+      "has_formula": true,
+      "has_image_reason": "原题区域无独立插图或几何示意；纯表格、竖式方格和答题框不按插图统计。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "原印算式、等式、换算式或竖式。"
+    },
+    "codex-exp:lesson19:exercise3": {
+      "has_image": false,
+      "has_table": false,
+      "has_formula": true,
+      "has_image_reason": "原题区域无独立插图或几何示意；纯表格、竖式方格和答题框不按插图统计。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "原印算式、等式、换算式或竖式。"
+    },
+    "codex-exp:lesson22:exercise7": {
+      "has_image": true,
+      "has_table": false,
+      "has_formula": false,
+      "has_image_reason": "原题区域存在插图、几何／线段示意或装饰角色；不把截图自身计作插图。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "无原印运算式；单独数量、单位、变量表头或“请写算式”的指令不按已印公式统计。"
+    },
+    "codex-exp:lesson22:exercise8": {
+      "has_image": true,
+      "has_table": false,
+      "has_formula": false,
+      "has_image_reason": "原题区域存在插图、几何／线段示意或装饰角色；不把截图自身计作插图。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "无原印运算式；单独数量、单位、变量表头或“请写算式”的指令不按已印公式统计。"
+    },
+    "codex-exp:lesson29:exercise3": {
+      "has_image": false,
+      "has_table": false,
+      "has_formula": false,
+      "has_image_reason": "原题区域无独立插图或几何示意；纯表格、竖式方格和答题框不按插图统计。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "无原印运算式；单独数量、单位、变量表头或“请写算式”的指令不按已印公式统计。"
+    },
+    "codex-exp:lesson29:exercise4": {
+      "has_image": false,
+      "has_table": false,
+      "has_formula": true,
+      "has_image_reason": "原题区域无独立插图或几何示意；纯表格、竖式方格和答题框不按插图统计。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "原印算式、等式、换算式或竖式。"
+    },
+    "codex-exp:lesson29:exercise5": {
+      "has_image": false,
+      "has_table": false,
+      "has_formula": false,
+      "has_image_reason": "原题区域无独立插图或几何示意；纯表格、竖式方格和答题框不按插图统计。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "无原印运算式；单独数量、单位、变量表头或“请写算式”的指令不按已印公式统计。"
+    },
+    "codex-exp:lesson29:exercise6": {
+      "has_image": false,
+      "has_table": false,
+      "has_formula": true,
+      "has_image_reason": "原题区域无独立插图或几何示意；纯表格、竖式方格和答题框不按插图统计。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "原印算式、等式、换算式或竖式。"
+    },
+    "codex-exp:lesson29:exercise7": {
+      "has_image": false,
+      "has_table": false,
+      "has_formula": false,
+      "has_image_reason": "原题区域无独立插图或几何示意；纯表格、竖式方格和答题框不按插图统计。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "无原印运算式；单独数量、单位、变量表头或“请写算式”的指令不按已印公式统计。"
+    },
+    "codex-exp:lesson29:exercise8": {
+      "has_image": false,
+      "has_table": false,
+      "has_formula": false,
+      "has_image_reason": "原题区域无独立插图或几何示意；纯表格、竖式方格和答题框不按插图统计。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "无原印运算式；单独数量、单位、变量表头或“请写算式”的指令不按已印公式统计。"
+    },
+    "codex-exp:lesson29:exercise9": {
+      "has_image": false,
+      "has_table": false,
+      "has_formula": false,
+      "has_image_reason": "原题区域无独立插图或几何示意；纯表格、竖式方格和答题框不按插图统计。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "无原印运算式；单独数量、单位、变量表头或“请写算式”的指令不按已印公式统计。"
+    },
+    "codex-exp:lesson29:exercise10": {
+      "has_image": true,
+      "has_table": true,
+      "has_formula": false,
+      "has_image_reason": "原题区域存在插图、几何／线段示意或装饰角色；不把截图自身计作插图。",
+      "has_table_reason": "原有真实数据表格。",
+      "has_formula_reason": "无原印运算式；单独数量、单位、变量表头或“请写算式”的指令不按已印公式统计。"
+    },
+    "codex-exp:lesson38:exercise7": {
+      "has_image": true,
+      "has_table": false,
+      "has_formula": false,
+      "has_image_reason": "原题区域存在插图、几何／线段示意或装饰角色；不把截图自身计作插图。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "无原印运算式；单独数量、单位、变量表头或“请写算式”的指令不按已印公式统计。"
+    },
+    "codex-exp:lesson38:exercise8": {
+      "has_image": true,
+      "has_table": false,
+      "has_formula": false,
+      "has_image_reason": "原题区域存在插图、几何／线段示意或装饰角色；不把截图自身计作插图。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "无原印运算式；单独数量、单位、变量表头或“请写算式”的指令不按已印公式统计。"
+    },
+    "codex-exp:lesson38:exercise9": {
+      "has_image": true,
+      "has_table": false,
+      "has_formula": false,
+      "has_image_reason": "原题区域存在插图、几何／线段示意或装饰角色；不把截图自身计作插图。",
+      "has_table_reason": "未见数据表格；竖式格纸和示意图不按表格统计。",
+      "has_formula_reason": "无原印运算式；单独数量、单位、变量表头或“请写算式”的指令不按已印公式统计。"
+    }
+  },
+  "objective_review_method": "人工参考10张原始测试页及既有区域记录，只判可见属性，不新增切割或解答。",
+  "label_scope": "题目自有页片段及同题续页；排除仅继承的课程公共讲解。题内装饰图计入has_image。"
+}
