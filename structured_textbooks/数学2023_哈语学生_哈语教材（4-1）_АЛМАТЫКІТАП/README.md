@@ -24,7 +24,8 @@
 | [lesson_003](01_segmentation/lesson_003/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_004](01_segmentation/lesson_004/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_005](01_segmentation/lesson_005/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
-| lesson_006–lesson_040 | 本项目尚未归档 | 未开始 | 未开始 | 未开始 | 未完成 |
+| [lesson_006](01_segmentation/lesson_006/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
+| lesson_007–lesson_040 | 本项目尚未归档 | 未开始 | 未开始 | 未开始 | 未完成 |
 
 第 1 课 `3-сыныпта өткенді қайталау` 覆盖 PDF 第 7–10 页，对应印刷第 7–10 页。第 2 课从第 11 页开始，标题相同。教材按课号区分两课。
 
@@ -46,11 +47,15 @@
 
 [结构化 JSON](01_segmentation/lesson_005/content.json)、[中文连续审核](01_segmentation/lesson_005/review_zh.html)、[哈语连续审核](01_segmentation/lesson_005/review_kk.html)。双语离线交互和审核记录交叉导入已核验。
 
+第 6 课 `Көптаңбалы сандармен арифметикалық амалдар орындау`，PDF 和印刷页 26–28。共 9 个 Module、2 条独立教学说明、2 张表、2 张信息图及 31 条校对建议。保留第 6 题表格的斜线表头及旁边计算器图，保留第 8 题竖式的西里尔字母和数位。
+
+[结构化 JSON](01_segmentation/lesson_006/content.json)、[中文连续审核](01_segmentation/lesson_006/review_zh.html)、[哈语连续审核](01_segmentation/lesson_006/review_kk.html)。双语离线交互和审核记录交叉导入已核验。
+
 [项目总览](../README.md) 说明六个阶段的文件用途。[工具目录](tools/README.md) 保存两种界面的生成代码与来源清单。其余阶段随实际审核、校正和标注推进时归档。
 
 ## 课程起页
 
-教材目录位于原始 PDF 第 149–150 页，列出 40 课。下表记录目录起页，印刷页码与本 PDF 的一基页序一致。切割边界已核对第 1–5 课。
+教材目录位于原始 PDF 第 149–150 页，列出 40 课。下表记录目录起页，印刷页码与本 PDF 的一基页序一致。切割边界已核对第 1–6 课。
 
 | Lesson | 印刷及 PDF 起页 |
 | --- | ---: |
