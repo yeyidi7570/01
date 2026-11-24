@@ -40,7 +40,8 @@
 | [lesson_019](01_segmentation/lesson_019/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_020](01_segmentation/lesson_020/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_021](01_segmentation/lesson_021/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
-| lesson_022–lesson_040 | 本项目尚未归档 | 未开始 | 未开始 | 未开始 | 未完成 |
+| [lesson_022](01_segmentation/lesson_022/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
+| lesson_023–lesson_040 | 本项目尚未归档 | 未开始 | 未开始 | 未开始 | 未完成 |
 
 第 1 课 `3-сыныпта өткенді қайталау` 覆盖 PDF 第 7–10 页，对应印刷第 7–10 页。第 2 课从第 11 页开始，标题相同。教材按课号区分两课。
 
@@ -126,11 +127,15 @@
 
 [结构化 JSON](01_segmentation/lesson_021/content.json)、[中文连续审核](01_segmentation/lesson_021/review_zh.html)、[哈语连续审核](01_segmentation/lesson_021/review_kk.html)。双语离线交互和审核记录交叉导入已核验。
 
+第 22 课 `2-ге, 5-ке, 10-ға бөлінгіштік белгілері`，PDF 和印刷页 85–88。共 10 个 Module、0 条独立教学说明、0 张表、11 张信息图及 40 条校对建议。保留第 85 页数字卡重复项，第 87 页内外括号、等份线段和空格；第 86 页导游座位原文附待核提示。
+
+[结构化 JSON](01_segmentation/lesson_022/content.json)、[中文连续审核](01_segmentation/lesson_022/review_zh.html)、[哈语连续审核](01_segmentation/lesson_022/review_kk.html)。双语离线交互和审核记录交叉导入已核验。
+
 [项目总览](../README.md) 说明六个阶段的文件用途。[工具目录](tools/README.md) 保存两种界面的生成代码与来源清单。其余阶段随实际审核、校正和标注推进时归档。
 
 ## 课程起页
 
-教材目录位于原始 PDF 第 149–150 页，列出 40 课。下表记录目录起页，印刷页码与本 PDF 的一基页序一致。切割边界已核对第 1–21 课。
+教材目录位于原始 PDF 第 149–150 页，列出 40 课。下表记录目录起页，印刷页码与本 PDF 的一基页序一致。切割边界已核对第 1–22 课。
 
 | Lesson | 印刷及 PDF 起页 |
 | --- | ---: |
