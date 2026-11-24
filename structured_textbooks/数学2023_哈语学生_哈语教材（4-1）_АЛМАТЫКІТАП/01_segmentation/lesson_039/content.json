@@ -1,0 +1,5369 @@
+{
+  "schema_version": "textbook-lesson/4.0",
+  "data_version": "v4.1",
+  "review_status": "pending_review",
+  "coordinate_system": {
+    "origin": "top-left",
+    "unit": "source_scan_pixel",
+    "bbox_format": "[x0,y0,x1,y1]",
+    "page_number_base": 1
+  },
+  "book": {
+    "id": "math-2023-grade4-part1",
+    "title_kk": "Математика",
+    "grade": 4,
+    "part": 1,
+    "year": 2023,
+    "language": "kk-Cyrl",
+    "publisher_kk": "АЛМАТЫКІТАП БАСПАСЫ",
+    "authors_kk": [
+      "Ә. Б. Ақпаева",
+      "Л. А. Лебедева",
+      "М. Ж. Мыңжасарова",
+      "Т. В. Лихобабенко"
+    ]
+  },
+  "source": {
+    "repository": "yeyidi7570/01",
+    "revision": "d5630b799983fcf1d6fe5a545c5fb7a1fd5f6391",
+    "original_pdf": {
+      "path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП.pdf",
+      "sha256": "24a4966685e77cd74728876c85c72d3cb367164457e228c9e3aad63130b349be"
+    },
+    "corrected_pdf": {
+      "path": "数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_OCR.pdf",
+      "sha256": "9275fa6e221cc9fbfd7c5ef4a3fd3e172b8ad92bb35ce29f0d7221721e2a4529"
+    },
+    "wiki_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_Wiki.json",
+    "visual_reference": "experiments/module_internal_visual_experiment/",
+    "content_authority": "original_scan",
+    "transcription_method": "scan_checked_with_existing_ocr_as_evidence"
+  },
+  "schema_rules": {
+    "instructional_note_badges": [
+      "ЕСІҢДЕ САҚТА!",
+      "ОСЫЛАЙ ТАЛДА!",
+      "КАЛЬКУЛЯТОР"
+    ],
+    "teaching_link_types": [
+      "supports",
+      "uses_as_material"
+    ],
+    "inherited_badge": {
+      "text_kk": "ӨЗІҢДІ ТЕКСЕР",
+      "origin": "lesson_inherited",
+      "applies_only_to_explicit_self_check_lesson": true
+    }
+  },
+  "lesson": {
+    "id": "math-2023-grade4-part1:lesson-039",
+    "parent_id": "math-2023-grade4-part1",
+    "number": 39,
+    "title_kk": "Өзіңді тексер",
+    "context_kk": "",
+    "review_status": "pending_review",
+    "pdf_page_range": [
+      140,
+      141
+    ],
+    "printed_page_range": [
+      "140",
+      "141"
+    ],
+    "boundary_evidence": {
+      "contents": {
+        "pdf_page": 150,
+        "printed_page": "150",
+        "lesson_start": 140,
+        "next_lesson_start": 142
+      },
+      "start_page": {
+        "pdf_page": 140,
+        "printed_page": "140",
+        "number": 39,
+        "title_kk": "Өзіңді тексер"
+      },
+      "next_lesson": {
+        "pdf_page": 142,
+        "printed_page": "142",
+        "number": 40,
+        "title_kk": "Қорытындылау"
+      }
+    },
+    "units": [
+      {
+        "id": "math-2023-grade4-part1:lesson-039:header",
+        "type": "other",
+        "parent_id": "math-2023-grade4-part1:lesson-039",
+        "review_status": "pending_review",
+        "page_refs": [
+          {
+            "pdf_page": 140,
+            "printed_page": "140",
+            "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+            "bbox": [
+              54,
+              54,
+              357,
+              149
+            ]
+          }
+        ],
+        "role": "lesson_header",
+        "elements": [
+          {
+            "id": "math-2023-grade4-part1:lesson-039:header:number",
+            "type": "other",
+            "parent_id": "math-2023-grade4-part1:lesson-039:header",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 140,
+                "printed_page": "140",
+                "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                "bbox": [
+                  55,
+                  55,
+                  150,
+                  149
+                ]
+              }
+            ],
+            "role": "lesson_number",
+            "text_kk": "39\nСАБАҚ",
+            "ocr_evidence": [
+              {
+                "line_id": "1",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l1",
+                "raw": "39",
+                "existing_corrected": "39"
+              },
+              {
+                "line_id": "6",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l6",
+                "raw": "САБAК",
+                "existing_corrected": "САБАҚ"
+              }
+            ],
+            "crop_asset_id": "math-2023-grade4-part1:lesson-039:header:number:crop"
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-039:header:title",
+            "type": "text",
+            "parent_id": "math-2023-grade4-part1:lesson-039:header",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 140,
+                "printed_page": "140",
+                "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                "bbox": [
+                  158,
+                  83,
+                  352,
+                  122
+                ]
+              }
+            ],
+            "role": "lesson_title",
+            "text_kk": "Өзіңді тексер",
+            "ocr_evidence": [
+              {
+                "line_id": "4",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l4",
+                "raw": "Өзіңді тексер",
+                "existing_corrected": "Өзіңді тексер"
+              }
+            ]
+          }
+        ],
+        "content_order": [
+          "math-2023-grade4-part1:lesson-039:header:number",
+          "math-2023-grade4-part1:lesson-039:header:title"
+        ]
+      },
+      {
+        "id": "math-2023-grade4-part1:lesson-039:goal",
+        "type": "other",
+        "parent_id": "math-2023-grade4-part1:lesson-039",
+        "review_status": "pending_review",
+        "page_refs": [
+          {
+            "pdf_page": 140,
+            "printed_page": "140",
+            "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+            "bbox": [
+              431,
+              58,
+              776,
+              144
+            ]
+          }
+        ],
+        "role": "lesson_objective",
+        "elements": [
+          {
+            "id": "math-2023-grade4-part1:lesson-039:goal:body",
+            "type": "text",
+            "parent_id": "math-2023-grade4-part1:lesson-039:goal",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 140,
+                "printed_page": "140",
+                "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                "bbox": [
+                  471,
+                  64,
+                  704,
+                  129
+                ]
+              }
+            ],
+            "text_kk": "Нені үйренгеніңді білесің",
+            "ocr_evidence": [
+              {
+                "line_id": "2",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l2",
+                "raw": "Нені үйренгеніңді",
+                "existing_corrected": "Нені үйренгеніңді"
+              },
+              {
+                "line_id": "5",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l5",
+                "raw": "білесің",
+                "existing_corrected": "білесің"
+              }
+            ]
+          }
+        ],
+        "content_order": [
+          "math-2023-grade4-part1:lesson-039:goal:body"
+        ]
+      },
+      {
+        "id": "math-2023-grade4-part1:lesson-039:m01",
+        "type": "module",
+        "parent_id": "math-2023-grade4-part1:lesson-039",
+        "review_status": "pending_review",
+        "page_refs": [
+          {
+            "pdf_page": 140,
+            "printed_page": "140",
+            "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+            "bbox": [
+              112,
+              197,
+              909,
+              726
+            ]
+          }
+        ],
+        "module_number": 1,
+        "elements": [
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m01:number",
+            "type": "module_number",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m01",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 140,
+                "printed_page": "140",
+                "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                "bbox": [
+                  150,
+                  226,
+                  175,
+                  260
+                ]
+              }
+            ],
+            "text_kk": "1",
+            "ocr_evidence": [
+              {
+                "line_id": "a0",
+                "wiki_line_id": "math-2023-grade4-part1:p140:la0",
+                "raw": "",
+                "existing_corrected": "1"
+              }
+            ],
+            "crop_asset_id": "math-2023-grade4-part1:lesson-039:m01:number:crop"
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m01:badge",
+            "type": "module_badge",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m01",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 140,
+                "printed_page": "140",
+                "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                "bbox": [
+                  160,
+                  87,
+                  352,
+                  122
+                ]
+              }
+            ],
+            "badge_origin": "lesson_inherited",
+            "scope_ids": [
+              "math-2023-grade4-part1:lesson-039:m01"
+            ],
+            "source_object_id": "math-2023-grade4-part1:lesson-039:header:title",
+            "text_kk": "ӨЗІҢДІ ТЕКСЕР",
+            "ocr_evidence": [
+              {
+                "line_id": "4",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l4",
+                "raw": "Өзіңді тексер",
+                "existing_corrected": "Өзіңді тексер"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m01:criterion",
+            "type": "text",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m01",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 140,
+                "printed_page": "140",
+                "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                "bbox": [
+                  201,
+                  223,
+                  700,
+                  308
+                ]
+              }
+            ],
+            "text_kk": "Тікбұрышты параллелепипедтің көлемін табу формуласын қалай құрастыруға және пайдалануға болатынын білемін.",
+            "ocr_evidence": [
+              {
+                "line_id": "7",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l7",
+                "raw": "Тікбұрышты параллелепипедтің көлемін",
+                "existing_corrected": "Тікбұрышты параллелепипедтің көлемін"
+              },
+              {
+                "line_id": "8",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l8",
+                "raw": "табу формуласын қалай құрастыруға және",
+                "existing_corrected": "табу формуласын қалай құрастыруға және"
+              },
+              {
+                "line_id": "9",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l9",
+                "raw": "пайдалануға болатынын білемін.",
+                "existing_corrected": "пайдалануға болатынын білемін."
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m01:prompt",
+            "type": "text",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m01",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 140,
+                "printed_page": "140",
+                "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                "bbox": [
+                  157,
+                  352,
+                  862,
+                  449
+                ]
+              }
+            ],
+            "text_kk": "Тікбұрышты параллелепипедтің өлшемдерінің әріптік белгіленуін жаз. Көлемді табуға арналған формуланы жаз. Фигураның көлемін есепте.",
+            "ocr_evidence": [
+              {
+                "line_id": "10",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l10",
+                "raw": "Тікбұрышты параллелепипедтің өлшемдерінің әріптік бел-",
+                "existing_corrected": "Тікбұрышты параллелепипедтің өлшемдерінің әріптік бел-"
+              },
+              {
+                "line_id": "11",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l11",
+                "raw": "гіленуін  жаз. Көлемді  табуғаарналған  формуланы  жаз.",
+                "existing_corrected": "гіленуін жаз. Көлемді табуға арналған формуланы жаз."
+              },
+              {
+                "line_id": "12",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l12",
+                "raw": "Фигураның көлемін есепте.",
+                "existing_corrected": "Фигураның көлемін есепте."
+              }
+            ],
+            "ocr_suggestion_ids": [
+              "math-2023-grade4-part1:lesson-039:m01:prompt:suggestion-1",
+              "math-2023-grade4-part1:lesson-039:m01:prompt:suggestion-2"
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m01:blank-dimensions",
+            "type": "table",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m01",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 140,
+                "printed_page": "140",
+                "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                "bbox": [
+                  169,
+                  468,
+                  453,
+                  686
+                ]
+              }
+            ],
+            "row_count": 4,
+            "column_count": 2,
+            "header_rows": [],
+            "cells": [
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m01:blank-dimensions:r1c1",
+                "row": 0,
+                "column": 0,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": true,
+                "text_kk": "a",
+                "page_refs": [
+                  {
+                    "pdf_page": 140,
+                    "printed_page": "140",
+                    "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                    "bbox": [
+                      169,
+                      468,
+                      240,
+                      522
+                    ]
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "13",
+                    "wiki_line_id": "math-2023-grade4-part1:p140:l13",
+                    "raw": "а",
+                    "existing_corrected": "a"
+                  }
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m01:blank-dimensions:r1c2",
+                "row": 0,
+                "column": 1,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": false,
+                "text_kk": "",
+                "page_refs": [
+                  {
+                    "pdf_page": 140,
+                    "printed_page": "140",
+                    "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                    "bbox": [
+                      240,
+                      468,
+                      453,
+                      522
+                    ]
+                  }
+                ],
+                "ocr_evidence": []
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m01:blank-dimensions:r2c1",
+                "row": 1,
+                "column": 0,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": true,
+                "text_kk": "b",
+                "page_refs": [
+                  {
+                    "pdf_page": 140,
+                    "printed_page": "140",
+                    "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                    "bbox": [
+                      169,
+                      522,
+                      240,
+                      577
+                    ]
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "15",
+                    "wiki_line_id": "math-2023-grade4-part1:p140:l15",
+                    "raw": "b",
+                    "existing_corrected": "b"
+                  }
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m01:blank-dimensions:r2c2",
+                "row": 1,
+                "column": 1,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": false,
+                "text_kk": "",
+                "page_refs": [
+                  {
+                    "pdf_page": 140,
+                    "printed_page": "140",
+                    "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                    "bbox": [
+                      240,
+                      522,
+                      453,
+                      577
+                    ]
+                  }
+                ],
+                "ocr_evidence": []
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m01:blank-dimensions:r3c1",
+                "row": 2,
+                "column": 0,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": true,
+                "text_kk": "c",
+                "page_refs": [
+                  {
+                    "pdf_page": 140,
+                    "printed_page": "140",
+                    "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                    "bbox": [
+                      169,
+                      577,
+                      240,
+                      631
+                    ]
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "18",
+                    "wiki_line_id": "math-2023-grade4-part1:p140:l18",
+                    "raw": "с",
+                    "existing_corrected": "c"
+                  }
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m01:blank-dimensions:r3c2",
+                "row": 2,
+                "column": 1,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": false,
+                "text_kk": "",
+                "page_refs": [
+                  {
+                    "pdf_page": 140,
+                    "printed_page": "140",
+                    "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                    "bbox": [
+                      240,
+                      577,
+                      453,
+                      631
+                    ]
+                  }
+                ],
+                "ocr_evidence": []
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m01:blank-dimensions:r4c1",
+                "row": 3,
+                "column": 0,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": true,
+                "text_kk": "V",
+                "page_refs": [
+                  {
+                    "pdf_page": 140,
+                    "printed_page": "140",
+                    "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                    "bbox": [
+                      169,
+                      631,
+                      240,
+                      686
+                    ]
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "20",
+                    "wiki_line_id": "math-2023-grade4-part1:p140:l20",
+                    "raw": "V",
+                    "existing_corrected": "V"
+                  }
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m01:blank-dimensions:r4c2",
+                "row": 3,
+                "column": 1,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": false,
+                "text_kk": "",
+                "page_refs": [
+                  {
+                    "pdf_page": 140,
+                    "printed_page": "140",
+                    "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                    "bbox": [
+                      240,
+                      631,
+                      453,
+                      686
+                    ]
+                  }
+                ],
+                "ocr_evidence": []
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "13",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l13",
+                "raw": "а",
+                "existing_corrected": "a"
+              },
+              {
+                "line_id": "15",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l15",
+                "raw": "b",
+                "existing_corrected": "b"
+              },
+              {
+                "line_id": "18",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l18",
+                "raw": "с",
+                "existing_corrected": "c"
+              },
+              {
+                "line_id": "20",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l20",
+                "raw": "V",
+                "existing_corrected": "V"
+              }
+            ],
+            "crop_asset_id": "math-2023-grade4-part1:lesson-039:m01:blank-dimensions:crop",
+            "ocr_suggestion_ids": [
+              "math-2023-grade4-part1:lesson-039:m01:blank-dimensions:suggestion-1"
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m01:blue-prism",
+            "type": "informative_image",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m01",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 140,
+                "printed_page": "140",
+                "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                "bbox": [
+                  495,
+                  483,
+                  875,
+                  687
+                ]
+              }
+            ],
+            "structured_description": {
+              "description_kk": "Көк дененің ұзын төменгі қыры 12 см, сол жақтағы тік қыры 5 см, жоғарғы қиғаш қысқа қыры 6 см.",
+              "dimensions_cm": {
+                "long": 12,
+                "vertical": 5,
+                "depth": 6
+              }
+            },
+            "ocr_evidence": [
+              {
+                "line_id": "14",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l14",
+                "raw": "6 см",
+                "existing_corrected": "6 см"
+              },
+              {
+                "line_id": "16",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l16",
+                "raw": " ",
+                "existing_corrected": "5 см"
+              },
+              {
+                "line_id": "19",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l19",
+                "raw": "12CM",
+                "existing_corrected": "12 см"
+              }
+            ],
+            "crop_asset_id": "math-2023-grade4-part1:lesson-039:m01:blue-prism:crop",
+            "ocr_suggestion_ids": [
+              "math-2023-grade4-part1:lesson-039:m01:blue-prism:suggestion-1"
+            ]
+          }
+        ],
+        "content_order": [
+          "math-2023-grade4-part1:lesson-039:m01:number",
+          "math-2023-grade4-part1:lesson-039:m01:badge",
+          "math-2023-grade4-part1:lesson-039:m01:criterion",
+          "math-2023-grade4-part1:lesson-039:m01:prompt",
+          "math-2023-grade4-part1:lesson-039:m01:blank-dimensions",
+          "math-2023-grade4-part1:lesson-039:m01:blue-prism"
+        ]
+      },
+      {
+        "id": "math-2023-grade4-part1:lesson-039:m02",
+        "type": "module",
+        "parent_id": "math-2023-grade4-part1:lesson-039",
+        "review_status": "pending_review",
+        "page_refs": [
+          {
+            "pdf_page": 140,
+            "printed_page": "140",
+            "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+            "bbox": [
+              112,
+              749,
+              909,
+              1307
+            ]
+          }
+        ],
+        "module_number": 2,
+        "elements": [
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m02:number",
+            "type": "module_number",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m02",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 140,
+                "printed_page": "140",
+                "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                "bbox": [
+                  150,
+                  780,
+                  175,
+                  814
+                ]
+              }
+            ],
+            "text_kk": "2",
+            "ocr_evidence": [
+              {
+                "line_id": "a1",
+                "wiki_line_id": "math-2023-grade4-part1:p140:la1",
+                "raw": "",
+                "existing_corrected": "2"
+              }
+            ],
+            "crop_asset_id": "math-2023-grade4-part1:lesson-039:m02:number:crop"
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m02:badge",
+            "type": "module_badge",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m02",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 140,
+                "printed_page": "140",
+                "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                "bbox": [
+                  160,
+                  87,
+                  352,
+                  122
+                ]
+              }
+            ],
+            "badge_origin": "lesson_inherited",
+            "scope_ids": [
+              "math-2023-grade4-part1:lesson-039:m02"
+            ],
+            "source_object_id": "math-2023-grade4-part1:lesson-039:header:title",
+            "text_kk": "ӨЗІҢДІ ТЕКСЕР",
+            "ocr_evidence": [
+              {
+                "line_id": "4",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l4",
+                "raw": "Өзіңді тексер",
+                "existing_corrected": "Өзіңді тексер"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m02:criterion",
+            "type": "text",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m02",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 140,
+                "printed_page": "140",
+                "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                "bbox": [
+                  201,
+                  767,
+                  864,
+                  855
+                ]
+              }
+            ],
+            "text_kk": "Есеп шығарған кезде шамалардың ұзындығы, ені, биіктігі және көлемі арасындағы тәуелділік туралы білімімді қолданамын.",
+            "ocr_evidence": [
+              {
+                "line_id": "21",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l21",
+                "raw": "Есеп шығарған кезде шамалардың ұзындығы,  ені, биік-",
+                "existing_corrected": "Есеп шығарған кезде шамалардың ұзындығы,  ені, биік-"
+              },
+              {
+                "line_id": "22",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l22",
+                "raw": "тігі және көлемі арасындағы тәуелділік туралы білімімді",
+                "existing_corrected": "тігі және көлемі арасындағы тәуелділік туралы білімімді"
+              },
+              {
+                "line_id": "23",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l23",
+                "raw": "қолданамын.",
+                "existing_corrected": "қолданамын."
+              }
+            ],
+            "ocr_suggestion_ids": [
+              "math-2023-grade4-part1:lesson-039:m02:criterion:suggestion-1"
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m02:story",
+            "type": "text",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m02",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 140,
+                "printed_page": "140",
+                "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                "bbox": [
+                  159,
+                  885,
+                  791,
+                  945
+                ]
+              }
+            ],
+            "text_kk": "Қораптың көлемі 270 дм³-ге тең. Қораптың ұзындығы — 10 дм, ені 9 дм екендігі белгілі. Биіктігі нешеге тең?",
+            "ocr_evidence": [
+              {
+                "line_id": "24",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l24",
+                "raw": "Қораптың көлемі 270 дм³-ге тең. Қораптың ұзындығы —",
+                "existing_corrected": "Қораптың көлемі 270 дм³-ге тең. Қораптың ұзындығы —"
+              },
+              {
+                "line_id": "25",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l25",
+                "raw": "10 дм, ені 9 дм екендігі белгілі. Биіктігі нешеге тең?",
+                "existing_corrected": "10 дм, ені 9 дм екендігі белгілі. Биіктігі нешеге тең?"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m02:green-prism",
+            "type": "informative_image",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m02",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 140,
+                "printed_page": "140",
+                "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                "bbox": [
+                  250,
+                  999,
+                  752,
+                  1277
+                ]
+              }
+            ],
+            "structured_description": {
+              "description_kk": "Жасыл тікбұрышты параллелепипед, беттерінде өлшемдер басылмаған.",
+              "printed_dimensions": []
+            },
+            "crop_asset_id": "math-2023-grade4-part1:lesson-039:m02:green-prism:crop"
+          }
+        ],
+        "content_order": [
+          "math-2023-grade4-part1:lesson-039:m02:number",
+          "math-2023-grade4-part1:lesson-039:m02:badge",
+          "math-2023-grade4-part1:lesson-039:m02:criterion",
+          "math-2023-grade4-part1:lesson-039:m02:story",
+          "math-2023-grade4-part1:lesson-039:m02:green-prism"
+        ]
+      },
+      {
+        "id": "math-2023-grade4-part1:lesson-039:m03",
+        "type": "module",
+        "parent_id": "math-2023-grade4-part1:lesson-039",
+        "review_status": "pending_review",
+        "page_refs": [
+          {
+            "pdf_page": 141,
+            "printed_page": "141",
+            "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+            "bbox": [
+              84,
+              197,
+              880,
+              526
+            ]
+          }
+        ],
+        "module_number": 3,
+        "elements": [
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m03:number",
+            "type": "module_number",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m03",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 141,
+                "printed_page": "141",
+                "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                "bbox": [
+                  121,
+                  228,
+                  145,
+                  263
+                ]
+              }
+            ],
+            "text_kk": "3",
+            "ocr_evidence": [
+              {
+                "line_id": "a0",
+                "wiki_line_id": "math-2023-grade4-part1:p141:la0",
+                "raw": "",
+                "existing_corrected": "3"
+              }
+            ],
+            "crop_asset_id": "math-2023-grade4-part1:lesson-039:m03:number:crop"
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m03:badge",
+            "type": "module_badge",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m03",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 140,
+                "printed_page": "140",
+                "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                "bbox": [
+                  160,
+                  87,
+                  352,
+                  122
+                ]
+              }
+            ],
+            "badge_origin": "lesson_inherited",
+            "scope_ids": [
+              "math-2023-grade4-part1:lesson-039:m03"
+            ],
+            "source_object_id": "math-2023-grade4-part1:lesson-039:header:title",
+            "text_kk": "ӨЗІҢДІ ТЕКСЕР",
+            "ocr_evidence": [
+              {
+                "line_id": "4",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l4",
+                "raw": "Өзіңді тексер",
+                "existing_corrected": "Өзіңді тексер"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m03:criterion",
+            "type": "text",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m03",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 141,
+                "printed_page": "141",
+                "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                "bbox": [
+                  173,
+                  222,
+                  836,
+                  281
+                ]
+              }
+            ],
+            "text_kk": "Құрама фигуралардың ауданын қалай табуға болатынына талдау жасай аламын.",
+            "ocr_evidence": [
+              {
+                "line_id": "1",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l1",
+                "raw": "Құрама фигуралардың ауданын қалай табуға болатынына",
+                "existing_corrected": "Құрама фигуралардың ауданын қалай табуға болатынына"
+              },
+              {
+                "line_id": "2",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l2",
+                "raw": "талдау жасай аламын.",
+                "existing_corrected": "талдау жасай аламын."
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m03:prompt",
+            "type": "text",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m03",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 141,
+                "printed_page": "141",
+                "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                "bbox": [
+                  129,
+                  384,
+                  453,
+                  444
+                ]
+              }
+            ],
+            "text_kk": "Фигураның ауданын әртүрлі тәсілмен есепте.",
+            "ocr_evidence": [
+              {
+                "line_id": "5",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l5",
+                "raw": "Фигураның ауданын әртүрлі",
+                "existing_corrected": "Фигураның ауданын әртүрлі"
+              },
+              {
+                "line_id": "6",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l6",
+                "raw": "тәсілмен есепте.",
+                "existing_corrected": "тәсілмен есепте."
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m03:step-outline",
+            "type": "informative_image",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m03",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 141,
+                "printed_page": "141",
+                "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                "bbox": [
+                  534,
+                  311,
+                  854,
+                  514
+                ]
+              }
+            ],
+            "structured_description": {
+              "description_kk": "Саты тәрізді контурдың үстіңгі қыры 8 м, қысқа тік сатысы 2 м, сыртқы оң тік қыры 3 м, толық табаны 10 м.",
+              "lengths_m": {
+                "top": 8,
+                "vertical_step": 2,
+                "outer_right_vertical": 3,
+                "bottom_full": 10
+              }
+            },
+            "ocr_evidence": [
+              {
+                "line_id": "3",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l3",
+                "raw": "8м",
+                "existing_corrected": "8 м"
+              },
+              {
+                "line_id": "4",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l4",
+                "raw": "W2",
+                "existing_corrected": "2 м"
+              },
+              {
+                "line_id": "7",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l7",
+                "raw": "WΣ",
+                "existing_corrected": "3 м"
+              },
+              {
+                "line_id": "8",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l8",
+                "raw": "10 M",
+                "existing_corrected": "10 м"
+              }
+            ],
+            "crop_asset_id": "math-2023-grade4-part1:lesson-039:m03:step-outline:crop",
+            "ocr_suggestion_ids": [
+              "math-2023-grade4-part1:lesson-039:m03:step-outline:suggestion-1"
+            ]
+          }
+        ],
+        "content_order": [
+          "math-2023-grade4-part1:lesson-039:m03:number",
+          "math-2023-grade4-part1:lesson-039:m03:badge",
+          "math-2023-grade4-part1:lesson-039:m03:criterion",
+          "math-2023-grade4-part1:lesson-039:m03:prompt",
+          "math-2023-grade4-part1:lesson-039:m03:step-outline"
+        ]
+      },
+      {
+        "id": "math-2023-grade4-part1:lesson-039:m04",
+        "type": "module",
+        "parent_id": "math-2023-grade4-part1:lesson-039",
+        "review_status": "pending_review",
+        "page_refs": [
+          {
+            "pdf_page": 141,
+            "printed_page": "141",
+            "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+            "bbox": [
+              84,
+              551,
+              880,
+              881
+            ]
+          }
+        ],
+        "module_number": 4,
+        "elements": [
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m04:number",
+            "type": "module_number",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m04",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 141,
+                "printed_page": "141",
+                "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                "bbox": [
+                  120,
+                  582,
+                  146,
+                  612
+                ]
+              }
+            ],
+            "text_kk": "4",
+            "ocr_evidence": [
+              {
+                "line_id": "10",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l10",
+                "raw": "4",
+                "existing_corrected": "4"
+              }
+            ],
+            "crop_asset_id": "math-2023-grade4-part1:lesson-039:m04:number:crop"
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m04:badge",
+            "type": "module_badge",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m04",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 140,
+                "printed_page": "140",
+                "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                "bbox": [
+                  160,
+                  87,
+                  352,
+                  122
+                ]
+              }
+            ],
+            "badge_origin": "lesson_inherited",
+            "scope_ids": [
+              "math-2023-grade4-part1:lesson-039:m04"
+            ],
+            "source_object_id": "math-2023-grade4-part1:lesson-039:header:title",
+            "text_kk": "ӨЗІҢДІ ТЕКСЕР",
+            "ocr_evidence": [
+              {
+                "line_id": "4",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l4",
+                "raw": "Өзіңді тексер",
+                "existing_corrected": "Өзіңді тексер"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m04:criterion",
+            "type": "text",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m04",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 141,
+                "printed_page": "141",
+                "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                "bbox": [
+                  182,
+                  570,
+                  646,
+                  600
+                ]
+              }
+            ],
+            "text_kk": "Көлемді табуға есеп құрастыра аламын.",
+            "ocr_evidence": [
+              {
+                "line_id": "9",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l9",
+                "raw": "Көлемді табуға есеп құрастыра аламын.",
+                "existing_corrected": "Көлемді табуға есеп құрастыра аламын."
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m04:prompt",
+            "type": "text",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m04",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 141,
+                "printed_page": "141",
+                "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                "bbox": [
+                  133,
+                  717,
+                  419,
+                  817
+                ]
+              }
+            ],
+            "text_kk": "Көлемді табуға арналған есептер құрастыр және шығар.",
+            "ocr_evidence": [
+              {
+                "line_id": "11",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l11",
+                "raw": "Көлемді табуға арналған",
+                "existing_corrected": "Көлемді табуға арналған"
+              },
+              {
+                "line_id": "16",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l16",
+                "raw": "есептер құрастыр және",
+                "existing_corrected": "есептер құрастыр және"
+              },
+              {
+                "line_id": "18",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l18",
+                "raw": "шығар.",
+                "existing_corrected": "шығар."
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m04:volume-example-grid",
+            "type": "table",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m04",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 141,
+                "printed_page": "141",
+                "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                "bbox": [
+                  496,
+                  716,
+                  838,
+                  796
+                ]
+              }
+            ],
+            "row_count": 2,
+            "column_count": 4,
+            "header_rows": [
+              0
+            ],
+            "cells": [
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m04:volume-example-grid:r1c1",
+                "row": 0,
+                "column": 0,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": true,
+                "text_kk": "a",
+                "page_refs": [
+                  {
+                    "pdf_page": 141,
+                    "printed_page": "141",
+                    "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                    "bbox": [
+                      496,
+                      716,
+                      582,
+                      757
+                    ]
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "12",
+                    "wiki_line_id": "math-2023-grade4-part1:p141:l12",
+                    "raw": "а",
+                    "existing_corrected": "a"
+                  }
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m04:volume-example-grid:r1c2",
+                "row": 0,
+                "column": 1,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": true,
+                "text_kk": "b",
+                "page_refs": [
+                  {
+                    "pdf_page": 141,
+                    "printed_page": "141",
+                    "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                    "bbox": [
+                      582,
+                      716,
+                      668,
+                      757
+                    ]
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "13",
+                    "wiki_line_id": "math-2023-grade4-part1:p141:l13",
+                    "raw": "ь",
+                    "existing_corrected": "b"
+                  }
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m04:volume-example-grid:r1c3",
+                "row": 0,
+                "column": 2,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": true,
+                "text_kk": "c",
+                "page_refs": [
+                  {
+                    "pdf_page": 141,
+                    "printed_page": "141",
+                    "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                    "bbox": [
+                      668,
+                      716,
+                      752,
+                      757
+                    ]
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "14",
+                    "wiki_line_id": "math-2023-grade4-part1:p141:l14",
+                    "raw": "с",
+                    "existing_corrected": "c"
+                  }
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m04:volume-example-grid:r1c4",
+                "row": 0,
+                "column": 3,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": true,
+                "text_kk": "V",
+                "page_refs": [
+                  {
+                    "pdf_page": 141,
+                    "printed_page": "141",
+                    "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                    "bbox": [
+                      752,
+                      716,
+                      838,
+                      757
+                    ]
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "15",
+                    "wiki_line_id": "math-2023-grade4-part1:p141:l15",
+                    "raw": "V",
+                    "existing_corrected": "V"
+                  }
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m04:volume-example-grid:r2c1",
+                "row": 1,
+                "column": 0,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": false,
+                "text_kk": "",
+                "page_refs": [
+                  {
+                    "pdf_page": 141,
+                    "printed_page": "141",
+                    "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                    "bbox": [
+                      496,
+                      757,
+                      582,
+                      796
+                    ]
+                  }
+                ],
+                "ocr_evidence": []
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m04:volume-example-grid:r2c2",
+                "row": 1,
+                "column": 1,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": false,
+                "text_kk": "",
+                "page_refs": [
+                  {
+                    "pdf_page": 141,
+                    "printed_page": "141",
+                    "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                    "bbox": [
+                      582,
+                      757,
+                      668,
+                      796
+                    ]
+                  }
+                ],
+                "ocr_evidence": []
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m04:volume-example-grid:r2c3",
+                "row": 1,
+                "column": 2,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": false,
+                "text_kk": "",
+                "page_refs": [
+                  {
+                    "pdf_page": 141,
+                    "printed_page": "141",
+                    "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                    "bbox": [
+                      668,
+                      757,
+                      752,
+                      796
+                    ]
+                  }
+                ],
+                "ocr_evidence": []
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m04:volume-example-grid:r2c4",
+                "row": 1,
+                "column": 3,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": false,
+                "text_kk": "?",
+                "page_refs": [
+                  {
+                    "pdf_page": 141,
+                    "printed_page": "141",
+                    "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                    "bbox": [
+                      752,
+                      757,
+                      838,
+                      796
+                    ]
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "17",
+                    "wiki_line_id": "math-2023-grade4-part1:p141:l17",
+                    "raw": "?",
+                    "existing_corrected": "?"
+                  }
+                ]
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "12",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l12",
+                "raw": "а",
+                "existing_corrected": "a"
+              },
+              {
+                "line_id": "13",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l13",
+                "raw": "ь",
+                "existing_corrected": "b"
+              },
+              {
+                "line_id": "14",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l14",
+                "raw": "с",
+                "existing_corrected": "c"
+              },
+              {
+                "line_id": "15",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l15",
+                "raw": "V",
+                "existing_corrected": "V"
+              },
+              {
+                "line_id": "17",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l17",
+                "raw": "?",
+                "existing_corrected": "?"
+              }
+            ],
+            "crop_asset_id": "math-2023-grade4-part1:lesson-039:m04:volume-example-grid:crop",
+            "ocr_suggestion_ids": [
+              "math-2023-grade4-part1:lesson-039:m04:volume-example-grid:suggestion-1"
+            ]
+          }
+        ],
+        "content_order": [
+          "math-2023-grade4-part1:lesson-039:m04:number",
+          "math-2023-grade4-part1:lesson-039:m04:badge",
+          "math-2023-grade4-part1:lesson-039:m04:criterion",
+          "math-2023-grade4-part1:lesson-039:m04:prompt",
+          "math-2023-grade4-part1:lesson-039:m04:volume-example-grid"
+        ]
+      },
+      {
+        "id": "math-2023-grade4-part1:lesson-039:m05",
+        "type": "module",
+        "parent_id": "math-2023-grade4-part1:lesson-039",
+        "review_status": "pending_review",
+        "page_refs": [
+          {
+            "pdf_page": 141,
+            "printed_page": "141",
+            "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+            "bbox": [
+              84,
+              907,
+              654,
+              1308
+            ]
+          }
+        ],
+        "module_number": 5,
+        "elements": [
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m05:number",
+            "type": "module_number",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m05",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 141,
+                "printed_page": "141",
+                "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                "bbox": [
+                  120,
+                  933,
+                  145,
+                  970
+                ]
+              }
+            ],
+            "text_kk": "5",
+            "ocr_evidence": [
+              {
+                "line_id": "19",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l19",
+                "raw": "5",
+                "existing_corrected": "5"
+              }
+            ],
+            "crop_asset_id": "math-2023-grade4-part1:lesson-039:m05:number:crop"
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m05:badge",
+            "type": "module_badge",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m05",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 140,
+                "printed_page": "140",
+                "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+                "bbox": [
+                  160,
+                  87,
+                  352,
+                  122
+                ]
+              }
+            ],
+            "badge_origin": "lesson_inherited",
+            "scope_ids": [
+              "math-2023-grade4-part1:lesson-039:m05"
+            ],
+            "source_object_id": "math-2023-grade4-part1:lesson-039:header:title",
+            "text_kk": "ӨЗІҢДІ ТЕКСЕР",
+            "ocr_evidence": [
+              {
+                "line_id": "4",
+                "wiki_line_id": "math-2023-grade4-part1:p140:l4",
+                "raw": "Өзіңді тексер",
+                "existing_corrected": "Өзіңді тексер"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m05:criterion",
+            "type": "text",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m05",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 141,
+                "printed_page": "141",
+                "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                "bbox": [
+                  174,
+                  931,
+                  607,
+                  989
+                ]
+              }
+            ],
+            "text_kk": "Есептердің шығарылуының дұрыстығын тексере аламын.",
+            "ocr_evidence": [
+              {
+                "line_id": "20",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l20",
+                "raw": "Есептердің  шығарылуының  дұрыс-",
+                "existing_corrected": "Есептердің  шығарылуының  дұрыс-"
+              },
+              {
+                "line_id": "22",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l22",
+                "raw": "тығын тексере аламын.",
+                "existing_corrected": "тығын тексере аламын."
+              }
+            ],
+            "ocr_suggestion_ids": [
+              "math-2023-grade4-part1:lesson-039:m05:criterion:suggestion-1"
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m05:prompt",
+            "type": "text",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m05",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 141,
+                "printed_page": "141",
+                "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                "bbox": [
+                  129,
+                  1030,
+                  556,
+                  1096
+                ]
+              }
+            ],
+            "text_kk": "Тексер, кесте дұрыс толтырылған ба? Қатесін түзе.",
+            "ocr_evidence": [
+              {
+                "line_id": "23",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l23",
+                "raw": "Тексер, кесте дұрыс толтырылған ба?",
+                "existing_corrected": "Тексер, кесте дұрыс толтырылған ба?"
+              },
+              {
+                "line_id": "25",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l25",
+                "raw": "Қатесін түзе.",
+                "existing_corrected": "Қатесін түзе."
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-039:m05:check-volume-grid",
+            "type": "table",
+            "parent_id": "math-2023-grade4-part1:lesson-039:m05",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 141,
+                "printed_page": "141",
+                "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                "bbox": [
+                  141,
+                  1120,
+                  595,
+                  1280
+                ]
+              }
+            ],
+            "row_count": 4,
+            "column_count": 3,
+            "header_rows": [],
+            "cells": [
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m05:check-volume-grid:r1c1",
+                "row": 0,
+                "column": 0,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": true,
+                "text_kk": "a",
+                "page_refs": [
+                  {
+                    "pdf_page": 141,
+                    "printed_page": "141",
+                    "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                    "bbox": [
+                      141,
+                      1120,
+                      220,
+                      1160
+                    ]
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "26",
+                    "wiki_line_id": "math-2023-grade4-part1:p141:l26",
+                    "raw": "а",
+                    "existing_corrected": "a"
+                  }
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m05:check-volume-grid:r1c2",
+                "row": 0,
+                "column": 1,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": false,
+                "text_kk": "9 см",
+                "page_refs": [
+                  {
+                    "pdf_page": 141,
+                    "printed_page": "141",
+                    "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                    "bbox": [
+                      220,
+                      1120,
+                      407,
+                      1160
+                    ]
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "27",
+                    "wiki_line_id": "math-2023-grade4-part1:p141:l27",
+                    "raw": "9 см",
+                    "existing_corrected": "9 см"
+                  }
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m05:check-volume-grid:r1c3",
+                "row": 0,
+                "column": 2,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": false,
+                "text_kk": "10 м",
+                "page_refs": [
+                  {
+                    "pdf_page": 141,
+                    "printed_page": "141",
+                    "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                    "bbox": [
+                      407,
+                      1120,
+                      595,
+                      1160
+                    ]
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "28",
+                    "wiki_line_id": "math-2023-grade4-part1:p141:l28",
+                    "raw": "10M",
+                    "existing_corrected": "10 м"
+                  }
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m05:check-volume-grid:r2c1",
+                "row": 1,
+                "column": 0,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": true,
+                "text_kk": "b",
+                "page_refs": [
+                  {
+                    "pdf_page": 141,
+                    "printed_page": "141",
+                    "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                    "bbox": [
+                      141,
+                      1160,
+                      220,
+                      1200
+                    ]
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "29",
+                    "wiki_line_id": "math-2023-grade4-part1:p141:l29",
+                    "raw": "b",
+                    "existing_corrected": "b"
+                  }
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m05:check-volume-grid:r2c2",
+                "row": 1,
+                "column": 1,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": false,
+                "text_kk": "5 см",
+                "page_refs": [
+                  {
+                    "pdf_page": 141,
+                    "printed_page": "141",
+                    "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                    "bbox": [
+                      220,
+                      1160,
+                      407,
+                      1200
+                    ]
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "30",
+                    "wiki_line_id": "math-2023-grade4-part1:p141:l30",
+                    "raw": "5 CM",
+                    "existing_corrected": "5 см"
+                  }
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m05:check-volume-grid:r2c3",
+                "row": 1,
+                "column": 2,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": false,
+                "text_kk": "5 м",
+                "page_refs": [
+                  {
+                    "pdf_page": 141,
+                    "printed_page": "141",
+                    "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                    "bbox": [
+                      407,
+                      1160,
+                      595,
+                      1200
+                    ]
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "31",
+                    "wiki_line_id": "math-2023-grade4-part1:p141:l31",
+                    "raw": "5M",
+                    "existing_corrected": "5 м"
+                  }
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m05:check-volume-grid:r3c1",
+                "row": 2,
+                "column": 0,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": true,
+                "text_kk": "c",
+                "page_refs": [
+                  {
+                    "pdf_page": 141,
+                    "printed_page": "141",
+                    "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                    "bbox": [
+                      141,
+                      1200,
+                      220,
+                      1240
+                    ]
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "33",
+                    "wiki_line_id": "math-2023-grade4-part1:p141:l33",
+                    "raw": "с",
+                    "existing_corrected": "c"
+                  }
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m05:check-volume-grid:r3c2",
+                "row": 2,
+                "column": 1,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": false,
+                "text_kk": "2 см",
+                "page_refs": [
+                  {
+                    "pdf_page": 141,
+                    "printed_page": "141",
+                    "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                    "bbox": [
+                      220,
+                      1200,
+                      407,
+                      1240
+                    ]
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "32",
+                    "wiki_line_id": "math-2023-grade4-part1:p141:l32",
+                    "raw": "2CM",
+                    "existing_corrected": "2 см"
+                  }
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m05:check-volume-grid:r3c3",
+                "row": 2,
+                "column": 2,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": false,
+                "text_kk": "4 м",
+                "page_refs": [
+                  {
+                    "pdf_page": 141,
+                    "printed_page": "141",
+                    "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                    "bbox": [
+                      407,
+                      1200,
+                      595,
+                      1240
+                    ]
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "34",
+                    "wiki_line_id": "math-2023-grade4-part1:p141:l34",
+                    "raw": "4 м",
+                    "existing_corrected": "4 м"
+                  }
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m05:check-volume-grid:r4c1",
+                "row": 3,
+                "column": 0,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": true,
+                "text_kk": "V",
+                "page_refs": [
+                  {
+                    "pdf_page": 141,
+                    "printed_page": "141",
+                    "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                    "bbox": [
+                      141,
+                      1240,
+                      220,
+                      1280
+                    ]
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "35",
+                    "wiki_line_id": "math-2023-grade4-part1:p141:l35",
+                    "raw": "V",
+                    "existing_corrected": "V"
+                  }
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m05:check-volume-grid:r4c2",
+                "row": 3,
+                "column": 1,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": false,
+                "text_kk": "90 см",
+                "page_refs": [
+                  {
+                    "pdf_page": 141,
+                    "printed_page": "141",
+                    "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                    "bbox": [
+                      220,
+                      1240,
+                      407,
+                      1280
+                    ]
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "36",
+                    "wiki_line_id": "math-2023-grade4-part1:p141:l36",
+                    "raw": "90 см",
+                    "existing_corrected": "90 см"
+                  }
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part1:lesson-039:m05:check-volume-grid:r4c3",
+                "row": 3,
+                "column": 2,
+                "rowspan": 1,
+                "colspan": 1,
+                "header": false,
+                "text_kk": "20 м³",
+                "page_refs": [
+                  {
+                    "pdf_page": 141,
+                    "printed_page": "141",
+                    "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+                    "bbox": [
+                      407,
+                      1240,
+                      595,
+                      1280
+                    ]
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "37",
+                    "wiki_line_id": "math-2023-grade4-part1:p141:l37",
+                    "raw": "20 m3",
+                    "existing_corrected": "20 м³"
+                  }
+                ]
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "26",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l26",
+                "raw": "а",
+                "existing_corrected": "a"
+              },
+              {
+                "line_id": "27",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l27",
+                "raw": "9 см",
+                "existing_corrected": "9 см"
+              },
+              {
+                "line_id": "28",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l28",
+                "raw": "10M",
+                "existing_corrected": "10 м"
+              },
+              {
+                "line_id": "29",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l29",
+                "raw": "b",
+                "existing_corrected": "b"
+              },
+              {
+                "line_id": "30",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l30",
+                "raw": "5 CM",
+                "existing_corrected": "5 см"
+              },
+              {
+                "line_id": "31",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l31",
+                "raw": "5M",
+                "existing_corrected": "5 м"
+              },
+              {
+                "line_id": "33",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l33",
+                "raw": "с",
+                "existing_corrected": "c"
+              },
+              {
+                "line_id": "32",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l32",
+                "raw": "2CM",
+                "existing_corrected": "2 см"
+              },
+              {
+                "line_id": "34",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l34",
+                "raw": "4 м",
+                "existing_corrected": "4 м"
+              },
+              {
+                "line_id": "35",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l35",
+                "raw": "V",
+                "existing_corrected": "V"
+              },
+              {
+                "line_id": "36",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l36",
+                "raw": "90 см",
+                "existing_corrected": "90 см"
+              },
+              {
+                "line_id": "37",
+                "wiki_line_id": "math-2023-grade4-part1:p141:l37",
+                "raw": "20 m3",
+                "existing_corrected": "20 м³"
+              }
+            ],
+            "crop_asset_id": "math-2023-grade4-part1:lesson-039:m05:check-volume-grid:crop",
+            "ocr_suggestion_ids": [
+              "math-2023-grade4-part1:lesson-039:m05:check-volume-grid:suggestion-1"
+            ],
+            "review_flags": [
+              {
+                "code": "printed_values_to_check",
+                "description_kk": "Баспа кестесіндегі «90 см» және «20 м³» оқушы тексеретін мәндер ретінде сақталған."
+              }
+            ]
+          }
+        ],
+        "content_order": [
+          "math-2023-grade4-part1:lesson-039:m05:number",
+          "math-2023-grade4-part1:lesson-039:m05:badge",
+          "math-2023-grade4-part1:lesson-039:m05:criterion",
+          "math-2023-grade4-part1:lesson-039:m05:prompt",
+          "math-2023-grade4-part1:lesson-039:m05:check-volume-grid"
+        ]
+      },
+      {
+        "id": "math-2023-grade4-part1:lesson-039:closing-caption",
+        "type": "other",
+        "parent_id": "math-2023-grade4-part1:lesson-039",
+        "review_status": "pending_review",
+        "page_refs": [
+          {
+            "pdf_page": 141,
+            "printed_page": "141",
+            "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+            "bbox": [
+              716,
+              964,
+              881,
+              1082
+            ]
+          }
+        ],
+        "role": "illustration_caption",
+        "text_kk": "МЕН БІЛЕМІН\nМЕН ҚОЛДАНАМЫН\nМЕНІҢ ҚОЛЫМНАН КЕЛЕДІ",
+        "ocr_evidence": [
+          {
+            "line_id": "21",
+            "wiki_line_id": "math-2023-grade4-part1:p141:l21",
+            "raw": "МЕН БІЛЕМІН",
+            "existing_corrected": "МЕН БІЛЕМІН"
+          },
+          {
+            "line_id": "a1",
+            "wiki_line_id": "math-2023-grade4-part1:p141:la1",
+            "raw": "",
+            "existing_corrected": "МЕН ҚОЛДАНАМЫН"
+          },
+          {
+            "line_id": "a2",
+            "wiki_line_id": "math-2023-grade4-part1:p141:la2",
+            "raw": "",
+            "existing_corrected": "МЕНІҢ ҚОЛЫМНАН"
+          },
+          {
+            "line_id": "24",
+            "wiki_line_id": "math-2023-grade4-part1:p141:l24",
+            "raw": "КЕЛЕДИ",
+            "existing_corrected": "КЕЛЕДІ"
+          }
+        ],
+        "crop_asset_id": "math-2023-grade4-part1:lesson-039:closing-caption:crop"
+      }
+    ],
+    "teaching_links": [],
+    "self_check": true,
+    "content_order": [
+      "math-2023-grade4-part1:lesson-039:header",
+      "math-2023-grade4-part1:lesson-039:goal",
+      "math-2023-grade4-part1:lesson-039:m01",
+      "math-2023-grade4-part1:lesson-039:m02",
+      "math-2023-grade4-part1:lesson-039:m03",
+      "math-2023-grade4-part1:lesson-039:m04",
+      "math-2023-grade4-part1:lesson-039:m05",
+      "math-2023-grade4-part1:lesson-039:closing-caption"
+    ]
+  },
+  "pages": [
+    {
+      "id": "math-2023-grade4-part1:p140",
+      "pdf_page": 140,
+      "printed_page": "140",
+      "width": 993,
+      "height": 1418,
+      "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+      "scan_sha256": "01988487a7c4cf76fcc25967591d744c488af413a5586b8a5076ed6836b18493",
+      "scan_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页140_原图.png",
+      "raw_ocr_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/逐页数据/原始OCR/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页140_原始OCR.json",
+      "corrected_ocr_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/逐页数据/最终校对/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页140_最终校对.json",
+      "layout_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/逐页数据/版面分析/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页140_版面分析.json",
+      "raw_ocr_lines": [
+        {
+          "id": "0",
+          "text": "Все учебники Казахстана ищите на сайтах OKULYK.COM и OKULYK.KZ",
+          "bbox": [
+            0,
+            0,
+            986,
+            29
+          ],
+          "poly": [
+            [
+              0,
+              1
+            ],
+            [
+              986,
+              0
+            ],
+            [
+              986,
+              28
+            ],
+            [
+              0,
+              29
+            ]
+          ],
+          "score": 0.9474939107894897
+        },
+        {
+          "id": "1",
+          "text": "39",
+          "bbox": [
+            67,
+            64,
+            139,
+            118
+          ],
+          "poly": [
+            [
+              67,
+              64
+            ],
+            [
+              139,
+              64
+            ],
+            [
+              139,
+              118
+            ],
+            [
+              67,
+              118
+            ]
+          ],
+          "score": 0.9993361234664917
+        },
+        {
+          "id": "2",
+          "text": "Нені үйренгеніңді",
+          "bbox": [
+            471,
+            64,
+            704,
+            98
+          ],
+          "poly": [
+            [
+              472,
+              64
+            ],
+            [
+              704,
+              67
+            ],
+            [
+              704,
+              98
+            ],
+            [
+              471,
+              96
+            ]
+          ],
+          "score": 0.9982872009277344
+        },
+        {
+          "id": "3",
+          "text": "A",
+          "bbox": [
+            831,
+            69,
+            855,
+            82
+          ],
+          "poly": [
+            [
+              831,
+              69
+            ],
+            [
+              855,
+              69
+            ],
+            [
+              855,
+              82
+            ],
+            [
+              831,
+              82
+            ]
+          ],
+          "score": 0.3914514183998108
+        },
+        {
+          "id": "4",
+          "text": "Өзіңді тексер",
+          "bbox": [
+            158,
+            83,
+            352,
+            122
+          ],
+          "poly": [
+            [
+              159,
+              83
+            ],
+            [
+              352,
+              88
+            ],
+            [
+              351,
+              122
+            ],
+            [
+              158,
+              118
+            ]
+          ],
+          "score": 0.9886817336082458
+        },
+        {
+          "id": "5",
+          "text": "білесің",
+          "bbox": [
+            540,
+            96,
+            636,
+            129
+          ],
+          "poly": [
+            [
+              541,
+              96
+            ],
+            [
+              636,
+              100
+            ],
+            [
+              635,
+              129
+            ],
+            [
+              540,
+              126
+            ]
+          ],
+          "score": 0.9994224905967712
+        },
+        {
+          "id": "6",
+          "text": "САБAК",
+          "bbox": [
+            71,
+            111,
+            134,
+            137
+          ],
+          "poly": [
+            [
+              71,
+              111
+            ],
+            [
+              134,
+              111
+            ],
+            [
+              134,
+              137
+            ],
+            [
+              71,
+              137
+            ]
+          ],
+          "score": 0.5790920853614807
+        },
+        {
+          "id": "7",
+          "text": "Тікбұрышты параллелепипедтің көлемін",
+          "bbox": [
+            201,
+            223,
+            675,
+            255
+          ],
+          "poly": [
+            [
+              201,
+              223
+            ],
+            [
+              675,
+              225
+            ],
+            [
+              675,
+              255
+            ],
+            [
+              201,
+              253
+            ]
+          ],
+          "score": 0.9980921149253845
+        },
+        {
+          "id": "8",
+          "text": "табу формуласын қалай құрастыруға және",
+          "bbox": [
+            203,
+            255,
+            700,
+            282
+          ],
+          "poly": [
+            [
+              203,
+              255
+            ],
+            [
+              700,
+              255
+            ],
+            [
+              700,
+              282
+            ],
+            [
+              203,
+              282
+            ]
+          ],
+          "score": 0.9973065257072449
+        },
+        {
+          "id": "9",
+          "text": "пайдалануға болатынын білемін.",
+          "bbox": [
+            206,
+            284,
+            582,
+            308
+          ],
+          "poly": [
+            [
+              206,
+              284
+            ],
+            [
+              582,
+              284
+            ],
+            [
+              582,
+              308
+            ],
+            [
+              206,
+              308
+            ]
+          ],
+          "score": 0.9993240833282471
+        },
+        {
+          "id": "10",
+          "text": "Тікбұрышты параллелепипедтің өлшемдерінің әріптік бел-",
+          "bbox": [
+            157,
+            352,
+            862,
+            385
+          ],
+          "poly": [
+            [
+              157,
+              352
+            ],
+            [
+              862,
+              355
+            ],
+            [
+              862,
+              385
+            ],
+            [
+              157,
+              383
+            ]
+          ],
+          "score": 0.983244776725769
+        },
+        {
+          "id": "11",
+          "text": "гіленуін  жаз. Көлемді  табуғаарналған  формуланы  жаз.",
+          "bbox": [
+            158,
+            388,
+            862,
+            415
+          ],
+          "poly": [
+            [
+              158,
+              388
+            ],
+            [
+              862,
+              388
+            ],
+            [
+              862,
+              415
+            ],
+            [
+              158,
+              415
+            ]
+          ],
+          "score": 0.9607193470001221
+        },
+        {
+          "id": "12",
+          "text": "Фигураның көлемін есепте.",
+          "bbox": [
+            158,
+            418,
+            476,
+            449
+          ],
+          "poly": [
+            [
+              158,
+              418
+            ],
+            [
+              476,
+              422
+            ],
+            [
+              475,
+              449
+            ],
+            [
+              158,
+              445
+            ]
+          ],
+          "score": 0.9992954730987549
+        },
+        {
+          "id": "14",
+          "text": "6 см",
+          "bbox": [
+            533,
+            470,
+            598,
+            516
+          ],
+          "poly": [
+            [
+              533,
+              481
+            ],
+            [
+              592,
+              470
+            ],
+            [
+              598,
+              506
+            ],
+            [
+              539,
+              516
+            ]
+          ],
+          "score": 0.7094976305961609
+        },
+        {
+          "id": "13",
+          "text": "а",
+          "bbox": [
+            194,
+            483,
+            216,
+            507
+          ],
+          "poly": [
+            [
+              194,
+              483
+            ],
+            [
+              216,
+              483
+            ],
+            [
+              216,
+              507
+            ],
+            [
+              194,
+              507
+            ]
+          ],
+          "score": 0.9888976216316223
+        },
+        {
+          "id": "15",
+          "text": "b",
+          "bbox": [
+            193,
+            535,
+            216,
+            560
+          ],
+          "poly": [
+            [
+              193,
+              535
+            ],
+            [
+              216,
+              535
+            ],
+            [
+              216,
+              560
+            ],
+            [
+              193,
+              560
+            ]
+          ],
+          "score": 0.5262777209281921
+        },
+        {
+          "id": "16",
+          "text": " ",
+          "bbox": [
+            490,
+            529,
+            530,
+            595
+          ],
+          "poly": [
+            [
+              499,
+              529
+            ],
+            [
+              530,
+              533
+            ],
+            [
+              521,
+              595
+            ],
+            [
+              490,
+              591
+            ]
+          ],
+          "score": 0.6176139712333679
+        },
+        {
+          "id": "17",
+          "text": "",
+          "bbox": [
+            179,
+            573,
+            205,
+            580
+          ],
+          "poly": [
+            [
+              179,
+              573
+            ],
+            [
+              205,
+              573
+            ],
+            [
+              205,
+              580
+            ],
+            [
+              179,
+              580
+            ]
+          ],
+          "score": 0.0
+        },
+        {
+          "id": "18",
+          "text": "с",
+          "bbox": [
+            195,
+            593,
+            216,
+            617
+          ],
+          "poly": [
+            [
+              195,
+              593
+            ],
+            [
+              216,
+              593
+            ],
+            [
+              216,
+              617
+            ],
+            [
+              195,
+              617
+            ]
+          ],
+          "score": 0.7988898754119873
+        },
+        {
+          "id": "19",
+          "text": "12CM",
+          "bbox": [
+            600,
+            627,
+            683,
+            685
+          ],
+          "poly": [
+            [
+              611,
+              627
+            ],
+            [
+              683,
+              650
+            ],
+            [
+              672,
+              685
+            ],
+            [
+              600,
+              662
+            ]
+          ],
+          "score": 0.8791362047195435
+        },
+        {
+          "id": "20",
+          "text": "V",
+          "bbox": [
+            195,
+            643,
+            219,
+            668
+          ],
+          "poly": [
+            [
+              195,
+              643
+            ],
+            [
+              219,
+              643
+            ],
+            [
+              219,
+              668
+            ],
+            [
+              195,
+              668
+            ]
+          ],
+          "score": 0.9210743308067322
+        },
+        {
+          "id": "21",
+          "text": "Есеп шығарған кезде шамалардың ұзындығы,  ені, биік-",
+          "bbox": [
+            202,
+            767,
+            862,
+            799
+          ],
+          "poly": [
+            [
+              202,
+              768
+            ],
+            [
+              862,
+              767
+            ],
+            [
+              862,
+              798
+            ],
+            [
+              202,
+              799
+            ]
+          ],
+          "score": 0.9740819334983826
+        },
+        {
+          "id": "22",
+          "text": "тігі және көлемі арасындағы тәуелділік туралы білімімді",
+          "bbox": [
+            201,
+            797,
+            864,
+            828
+          ],
+          "poly": [
+            [
+              201,
+              797
+            ],
+            [
+              864,
+              798
+            ],
+            [
+              864,
+              828
+            ],
+            [
+              201,
+              827
+            ]
+          ],
+          "score": 0.9989954233169556
+        },
+        {
+          "id": "23",
+          "text": "қолданамын.",
+          "bbox": [
+            204,
+            831,
+            357,
+            855
+          ],
+          "poly": [
+            [
+              204,
+              831
+            ],
+            [
+              357,
+              831
+            ],
+            [
+              357,
+              855
+            ],
+            [
+              204,
+              855
+            ]
+          ],
+          "score": 0.976698637008667
+        },
+        {
+          "id": "24",
+          "text": "Қораптың көлемі 270 дм³-ге тең. Қораптың ұзындығы —",
+          "bbox": [
+            159,
+            885,
+            791,
+            913
+          ],
+          "poly": [
+            [
+              159,
+              885
+            ],
+            [
+              791,
+              886
+            ],
+            [
+              791,
+              913
+            ],
+            [
+              159,
+              912
+            ]
+          ],
+          "score": 0.9844251275062561
+        },
+        {
+          "id": "25",
+          "text": "10 дм, ені 9 дм екендігі белгілі. Биіктігі нешеге тең?",
+          "bbox": [
+            159,
+            916,
+            734,
+            945
+          ],
+          "poly": [
+            [
+              159,
+              916
+            ],
+            [
+              734,
+              917
+            ],
+            [
+              734,
+              945
+            ],
+            [
+              159,
+              944
+            ]
+          ],
+          "score": 0.9988410472869873
+        },
+        {
+          "id": "26",
+          "text": "140",
+          "bbox": [
+            44,
+            1332,
+            94,
+            1365
+          ],
+          "poly": [
+            [
+              44,
+              1332
+            ],
+            [
+              94,
+              1332
+            ],
+            [
+              94,
+              1365
+            ],
+            [
+              44,
+              1365
+            ]
+          ],
+          "score": 0.9993355870246887
+        },
+        {
+          "id": "27",
+          "text": "Книга предоставлена исключительно в образовательных целях",
+          "bbox": [
+            179,
+            1367,
+            818,
+            1391
+          ],
+          "poly": [
+            [
+              179,
+              1367
+            ],
+            [
+              818,
+              1368
+            ],
+            [
+              818,
+              1391
+            ],
+            [
+              179,
+              1390
+            ]
+          ],
+          "score": 0.9902595281600952
+        },
+        {
+          "id": "28",
+          "text": "согласно Приказа Министра образования и науки Республики Казахстан от 17 мая 2019 года № 21",
+          "bbox": [
+            0,
+            1392,
+            981,
+            1417
+          ],
+          "poly": [
+            [
+              0,
+              1394
+            ],
+            [
+              981,
+              1392
+            ],
+            [
+              981,
+              1415
+            ],
+            [
+              0,
+              1417
+            ]
+          ],
+          "score": 0.9950600862503052
+        }
+      ],
+      "printed_page_ocr_evidence": [
+        {
+          "line_id": "26",
+          "wiki_line_id": "math-2023-grade4-part1:p140:l26",
+          "raw": "140",
+          "existing_corrected": "140"
+        }
+      ],
+      "review_status": "pending_review"
+    },
+    {
+      "id": "math-2023-grade4-part1:p141",
+      "pdf_page": 141,
+      "printed_page": "141",
+      "width": 993,
+      "height": 1418,
+      "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+      "scan_sha256": "1d016ecf163d8a8b6be67d2032f0a47fecad95a0d72704230810459a0c4c9bf2",
+      "scan_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页141_原图.png",
+      "raw_ocr_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/逐页数据/原始OCR/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页141_原始OCR.json",
+      "corrected_ocr_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/逐页数据/最终校对/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页141_最终校对.json",
+      "layout_path": "wiki-data/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_数据/逐页数据/版面分析/数学2023_哈语学生_哈语教材（4-1）_АЛМАТЫКІТАП_页141_版面分析.json",
+      "raw_ocr_lines": [
+        {
+          "id": "0",
+          "text": "Все учебники Казахстана ищите на сайтах OKULYK.COM и OKULYK.KZ",
+          "bbox": [
+            0,
+            0,
+            987,
+            31
+          ],
+          "poly": [
+            [
+              0,
+              0
+            ],
+            [
+              987,
+              0
+            ],
+            [
+              987,
+              30
+            ],
+            [
+              0,
+              31
+            ]
+          ],
+          "score": 0.9447540640830994
+        },
+        {
+          "id": "1",
+          "text": "Құрама фигуралардың ауданын қалай табуға болатынына",
+          "bbox": [
+            175,
+            222,
+            836,
+            255
+          ],
+          "poly": [
+            [
+              175,
+              222
+            ],
+            [
+              836,
+              222
+            ],
+            [
+              836,
+              255
+            ],
+            [
+              175,
+              255
+            ]
+          ],
+          "score": 0.9935307502746582
+        },
+        {
+          "id": "2",
+          "text": "талдау жасай аламын.",
+          "bbox": [
+            173,
+            252,
+            434,
+            281
+          ],
+          "poly": [
+            [
+              173,
+              254
+            ],
+            [
+              433,
+              252
+            ],
+            [
+              434,
+              279
+            ],
+            [
+              173,
+              281
+            ]
+          ],
+          "score": 0.9976800084114075
+        },
+        {
+          "id": "3",
+          "text": "8м",
+          "bbox": [
+            625,
+            307,
+            678,
+            341
+          ],
+          "poly": [
+            [
+              627,
+              307
+            ],
+            [
+              678,
+              310
+            ],
+            [
+              676,
+              341
+            ],
+            [
+              625,
+              338
+            ]
+          ],
+          "score": 0.832373857498169
+        },
+        {
+          "id": "4",
+          "text": "W2",
+          "bbox": [
+            763,
+            351,
+            796,
+            401
+          ],
+          "poly": [
+            [
+              763,
+              351
+            ],
+            [
+              796,
+              351
+            ],
+            [
+              796,
+              401
+            ],
+            [
+              763,
+              401
+            ]
+          ],
+          "score": 0.2939078211784363
+        },
+        {
+          "id": "5",
+          "text": "Фигураның ауданын әртүрлі",
+          "bbox": [
+            131,
+            384,
+            453,
+            414
+          ],
+          "poly": [
+            [
+              131,
+              384
+            ],
+            [
+              453,
+              384
+            ],
+            [
+              453,
+              414
+            ],
+            [
+              131,
+              414
+            ]
+          ],
+          "score": 0.9949203729629517
+        },
+        {
+          "id": "7",
+          "text": "WΣ",
+          "bbox": [
+            818,
+            415,
+            852,
+            468
+          ],
+          "poly": [
+            [
+              821,
+              415
+            ],
+            [
+              852,
+              417
+            ],
+            [
+              849,
+              468
+            ],
+            [
+              818,
+              466
+            ]
+          ],
+          "score": 0.45199620723724365
+        },
+        {
+          "id": "6",
+          "text": "тәсілмен есепте.",
+          "bbox": [
+            129,
+            417,
+            324,
+            444
+          ],
+          "poly": [
+            [
+              129,
+              417
+            ],
+            [
+              324,
+              419
+            ],
+            [
+              324,
+              444
+            ],
+            [
+              129,
+              442
+            ]
+          ],
+          "score": 0.9986529350280762
+        },
+        {
+          "id": "8",
+          "text": "10 M",
+          "bbox": [
+            647,
+            481,
+            711,
+            517
+          ],
+          "poly": [
+            [
+              649,
+              481
+            ],
+            [
+              711,
+              484
+            ],
+            [
+              710,
+              517
+            ],
+            [
+              647,
+              514
+            ]
+          ],
+          "score": 0.8375073671340942
+        },
+        {
+          "id": "9",
+          "text": "Көлемді табуға есеп құрастыра аламын.",
+          "bbox": [
+            182,
+            570,
+            646,
+            600
+          ],
+          "poly": [
+            [
+              182,
+              570
+            ],
+            [
+              646,
+              570
+            ],
+            [
+              646,
+              600
+            ],
+            [
+              182,
+              600
+            ]
+          ],
+          "score": 0.9910241365432739
+        },
+        {
+          "id": "10",
+          "text": "4",
+          "bbox": [
+            120,
+            582,
+            146,
+            612
+          ],
+          "poly": [
+            [
+              120,
+              582
+            ],
+            [
+              146,
+              582
+            ],
+            [
+              146,
+              612
+            ],
+            [
+              120,
+              612
+            ]
+          ],
+          "score": 0.9996680021286011
+        },
+        {
+          "id": "11",
+          "text": "Көлемді табуға арналған",
+          "bbox": [
+            135,
+            717,
+            419,
+            752
+          ],
+          "poly": [
+            [
+              135,
+              717
+            ],
+            [
+              419,
+              721
+            ],
+            [
+              418,
+              752
+            ],
+            [
+              135,
+              748
+            ]
+          ],
+          "score": 0.997982919216156
+        },
+        {
+          "id": "12",
+          "text": "а",
+          "bbox": [
+            528,
+            723,
+            549,
+            748
+          ],
+          "poly": [
+            [
+              528,
+              723
+            ],
+            [
+              549,
+              723
+            ],
+            [
+              549,
+              748
+            ],
+            [
+              528,
+              748
+            ]
+          ],
+          "score": 0.9887944459915161
+        },
+        {
+          "id": "13",
+          "text": "ь",
+          "bbox": [
+            612,
+            720,
+            637,
+            749
+          ],
+          "poly": [
+            [
+              612,
+              720
+            ],
+            [
+              637,
+              720
+            ],
+            [
+              637,
+              749
+            ],
+            [
+              612,
+              749
+            ]
+          ],
+          "score": 0.35308021306991577
+        },
+        {
+          "id": "14",
+          "text": "с",
+          "bbox": [
+            698,
+            722,
+            721,
+            748
+          ],
+          "poly": [
+            [
+              698,
+              722
+            ],
+            [
+              721,
+              722
+            ],
+            [
+              721,
+              748
+            ],
+            [
+              698,
+              748
+            ]
+          ],
+          "score": 0.9496694803237915
+        },
+        {
+          "id": "15",
+          "text": "V",
+          "bbox": [
+            781,
+            720,
+            810,
+            748
+          ],
+          "poly": [
+            [
+              781,
+              720
+            ],
+            [
+              810,
+              720
+            ],
+            [
+              810,
+              748
+            ],
+            [
+              781,
+              748
+            ]
+          ],
+          "score": 0.8468818664550781
+        },
+        {
+          "id": "16",
+          "text": "есептер құрастыр және",
+          "bbox": [
+            135,
+            754,
+            409,
+            782
+          ],
+          "poly": [
+            [
+              135,
+              754
+            ],
+            [
+              409,
+              754
+            ],
+            [
+              409,
+              782
+            ],
+            [
+              135,
+              782
+            ]
+          ],
+          "score": 0.9991162419319153
+        },
+        {
+          "id": "17",
+          "text": "?",
+          "bbox": [
+            783,
+            759,
+            804,
+            786
+          ],
+          "poly": [
+            [
+              783,
+              759
+            ],
+            [
+              804,
+              759
+            ],
+            [
+              804,
+              786
+            ],
+            [
+              783,
+              786
+            ]
+          ],
+          "score": 0.9965631365776062
+        },
+        {
+          "id": "18",
+          "text": "шығар.",
+          "bbox": [
+            133,
+            783,
+            220,
+            817
+          ],
+          "poly": [
+            [
+              134,
+              783
+            ],
+            [
+              220,
+              788
+            ],
+            [
+              218,
+              817
+            ],
+            [
+              133,
+              812
+            ]
+          ],
+          "score": 0.9974401593208313
+        },
+        {
+          "id": "19",
+          "text": "5",
+          "bbox": [
+            120,
+            933,
+            145,
+            970
+          ],
+          "poly": [
+            [
+              120,
+              933
+            ],
+            [
+              145,
+              933
+            ],
+            [
+              145,
+              970
+            ],
+            [
+              120,
+              970
+            ]
+          ],
+          "score": 0.9997772574424744
+        },
+        {
+          "id": "20",
+          "text": "Есептердің  шығарылуының  дұрыс-",
+          "bbox": [
+            174,
+            931,
+            607,
+            963
+          ],
+          "poly": [
+            [
+              174,
+              931
+            ],
+            [
+              607,
+              933
+            ],
+            [
+              607,
+              963
+            ],
+            [
+              174,
+              961
+            ]
+          ],
+          "score": 0.982549786567688
+        },
+        {
+          "id": "21",
+          "text": "МЕН БІЛЕМІН",
+          "bbox": [
+            767,
+            951,
+            881,
+            1022
+          ],
+          "poly": [
+            [
+              778,
+              951
+            ],
+            [
+              881,
+              999
+            ],
+            [
+              871,
+              1022
+            ],
+            [
+              767,
+              974
+            ]
+          ],
+          "score": 0.8881881237030029
+        },
+        {
+          "id": "22",
+          "text": "тығын тексере аламын.",
+          "bbox": [
+            175,
+            965,
+            445,
+            989
+          ],
+          "poly": [
+            [
+              175,
+              965
+            ],
+            [
+              445,
+              965
+            ],
+            [
+              445,
+              989
+            ],
+            [
+              175,
+              989
+            ]
+          ],
+          "score": 0.9985074400901794
+        },
+        {
+          "id": "23",
+          "text": "Тексер, кесте дұрыс толтырылған ба?",
+          "bbox": [
+            129,
+            1030,
+            556,
+            1062
+          ],
+          "poly": [
+            [
+              129,
+              1030
+            ],
+            [
+              556,
+              1031
+            ],
+            [
+              556,
+              1062
+            ],
+            [
+              129,
+              1060
+            ]
+          ],
+          "score": 0.9898706674575806
+        },
+        {
+          "id": "24",
+          "text": "КЕЛЕДИ",
+          "bbox": [
+            753,
+            1028,
+            822,
+            1078
+          ],
+          "poly": [
+            [
+              763,
+              1028
+            ],
+            [
+              822,
+              1056
+            ],
+            [
+              812,
+              1078
+            ],
+            [
+              753,
+              1050
+            ]
+          ],
+          "score": 0.8437098860740662
+        },
+        {
+          "id": "25",
+          "text": "Қатесін түзе.",
+          "bbox": [
+            131,
+            1063,
+            279,
+            1096
+          ],
+          "poly": [
+            [
+              132,
+              1063
+            ],
+            [
+              279,
+              1067
+            ],
+            [
+              279,
+              1096
+            ],
+            [
+              131,
+              1093
+            ]
+          ],
+          "score": 0.9991363883018494
+        },
+        {
+          "id": "27",
+          "text": "9 см",
+          "bbox": [
+            281,
+            1120,
+            348,
+            1157
+          ],
+          "poly": [
+            [
+              282,
+              1120
+            ],
+            [
+              348,
+              1122
+            ],
+            [
+              346,
+              1157
+            ],
+            [
+              281,
+              1154
+            ]
+          ],
+          "score": 0.8841784000396729
+        },
+        {
+          "id": "28",
+          "text": "10M",
+          "bbox": [
+            468,
+            1121,
+            534,
+            1154
+          ],
+          "poly": [
+            [
+              468,
+              1121
+            ],
+            [
+              534,
+              1121
+            ],
+            [
+              534,
+              1154
+            ],
+            [
+              468,
+              1154
+            ]
+          ],
+          "score": 0.8757008910179138
+        },
+        {
+          "id": "26",
+          "text": "а",
+          "bbox": [
+            169,
+            1129,
+            192,
+            1153
+          ],
+          "poly": [
+            [
+              169,
+              1129
+            ],
+            [
+              192,
+              1129
+            ],
+            [
+              192,
+              1153
+            ],
+            [
+              169,
+              1153
+            ]
+          ],
+          "score": 0.9221774339675903
+        },
+        {
+          "id": "30",
+          "text": "5 CM",
+          "bbox": [
+            281,
+            1160,
+            347,
+            1196
+          ],
+          "poly": [
+            [
+              282,
+              1160
+            ],
+            [
+              347,
+              1163
+            ],
+            [
+              345,
+              1196
+            ],
+            [
+              281,
+              1193
+            ]
+          ],
+          "score": 0.6031392216682434
+        },
+        {
+          "id": "31",
+          "text": "5M",
+          "bbox": [
+            474,
+            1161,
+            527,
+            1196
+          ],
+          "poly": [
+            [
+              476,
+              1161
+            ],
+            [
+              527,
+              1164
+            ],
+            [
+              525,
+              1196
+            ],
+            [
+              474,
+              1193
+            ]
+          ],
+          "score": 0.7866814136505127
+        },
+        {
+          "id": "29",
+          "text": "b",
+          "bbox": [
+            170,
+            1166,
+            192,
+            1192
+          ],
+          "poly": [
+            [
+              170,
+              1166
+            ],
+            [
+              192,
+              1166
+            ],
+            [
+              192,
+              1192
+            ],
+            [
+              170,
+              1192
+            ]
+          ],
+          "score": 0.568195641040802
+        },
+        {
+          "id": "32",
+          "text": "2CM",
+          "bbox": [
+            280,
+            1198,
+            348,
+            1236
+          ],
+          "poly": [
+            [
+              282,
+              1198
+            ],
+            [
+              348,
+              1202
+            ],
+            [
+              346,
+              1236
+            ],
+            [
+              280,
+              1232
+            ]
+          ],
+          "score": 0.8098104000091553
+        },
+        {
+          "id": "34",
+          "text": "4 м",
+          "bbox": [
+            474,
+            1202,
+            528,
+            1234
+          ],
+          "poly": [
+            [
+              474,
+              1202
+            ],
+            [
+              528,
+              1202
+            ],
+            [
+              528,
+              1234
+            ],
+            [
+              474,
+              1234
+            ]
+          ],
+          "score": 0.9201280474662781
+        },
+        {
+          "id": "33",
+          "text": "с",
+          "bbox": [
+            171,
+            1209,
+            193,
+            1234
+          ],
+          "poly": [
+            [
+              171,
+              1209
+            ],
+            [
+              193,
+              1209
+            ],
+            [
+              193,
+              1234
+            ],
+            [
+              171,
+              1234
+            ]
+          ],
+          "score": 0.7278298139572144
+        },
+        {
+          "id": "36",
+          "text": "90 см",
+          "bbox": [
+            275,
+            1239,
+            354,
+            1274
+          ],
+          "poly": [
+            [
+              276,
+              1239
+            ],
+            [
+              354,
+              1242
+            ],
+            [
+              353,
+              1274
+            ],
+            [
+              275,
+              1272
+            ]
+          ],
+          "score": 0.9339545369148254
+        },
+        {
+          "id": "37",
+          "text": "20 m3",
+          "bbox": [
+            466,
+            1241,
+            537,
+            1271
+          ],
+          "poly": [
+            [
+              466,
+              1241
+            ],
+            [
+              537,
+              1241
+            ],
+            [
+              537,
+              1271
+            ],
+            [
+              466,
+              1271
+            ]
+          ],
+          "score": 0.6967295408248901
+        },
+        {
+          "id": "35",
+          "text": "V",
+          "bbox": [
+            171,
+            1244,
+            194,
+            1269
+          ],
+          "poly": [
+            [
+              171,
+              1244
+            ],
+            [
+              194,
+              1244
+            ],
+            [
+              194,
+              1269
+            ],
+            [
+              171,
+              1269
+            ]
+          ],
+          "score": 0.9319257736206055
+        },
+        {
+          "id": "38",
+          "text": "141",
+          "bbox": [
+            897,
+            1332,
+            945,
+            1366
+          ],
+          "poly": [
+            [
+              897,
+              1332
+            ],
+            [
+              945,
+              1332
+            ],
+            [
+              945,
+              1366
+            ],
+            [
+              897,
+              1366
+            ]
+          ],
+          "score": 0.9999246597290039
+        },
+        {
+          "id": "39",
+          "text": "Книга предоставлена исключительно в образовательных целях",
+          "bbox": [
+            180,
+            1367,
+            818,
+            1391
+          ],
+          "poly": [
+            [
+              180,
+              1367
+            ],
+            [
+              818,
+              1368
+            ],
+            [
+              818,
+              1391
+            ],
+            [
+              180,
+              1390
+            ]
+          ],
+          "score": 0.9985612034797668
+        },
+        {
+          "id": "40",
+          "text": "Дриказа Министра образования и науки Республики Казахстан от 17 мая 2019 года № 217",
+          "bbox": [
+            102,
+            1391,
+            991,
+            1418
+          ],
+          "poly": [
+            [
+              102,
+              1395
+            ],
+            [
+              991,
+              1391
+            ],
+            [
+              991,
+              1415
+            ],
+            [
+              102,
+              1418
+            ]
+          ],
+          "score": 0.9901686310768127
+        }
+      ],
+      "printed_page_ocr_evidence": [
+        {
+          "line_id": "38",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l38",
+          "raw": "141",
+          "existing_corrected": "141"
+        }
+      ],
+      "review_status": "pending_review"
+    }
+  ],
+  "crop_assets": {
+    "math-2023-grade4-part1:lesson-039:header:number:crop": {
+      "pdf_page": 140,
+      "printed_page": "140",
+      "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+      "bbox": [
+        55,
+        55,
+        150,
+        149
+      ]
+    },
+    "math-2023-grade4-part1:lesson-039:m01:number:crop": {
+      "pdf_page": 140,
+      "printed_page": "140",
+      "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+      "bbox": [
+        150,
+        226,
+        175,
+        260
+      ]
+    },
+    "math-2023-grade4-part1:lesson-039:m01:blank-dimensions:crop": {
+      "pdf_page": 140,
+      "printed_page": "140",
+      "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+      "bbox": [
+        169,
+        468,
+        453,
+        686
+      ]
+    },
+    "math-2023-grade4-part1:lesson-039:m01:blue-prism:crop": {
+      "pdf_page": 140,
+      "printed_page": "140",
+      "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+      "bbox": [
+        495,
+        483,
+        875,
+        687
+      ]
+    },
+    "math-2023-grade4-part1:lesson-039:m02:number:crop": {
+      "pdf_page": 140,
+      "printed_page": "140",
+      "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+      "bbox": [
+        150,
+        780,
+        175,
+        814
+      ]
+    },
+    "math-2023-grade4-part1:lesson-039:m02:green-prism:crop": {
+      "pdf_page": 140,
+      "printed_page": "140",
+      "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+      "bbox": [
+        250,
+        999,
+        752,
+        1277
+      ]
+    },
+    "math-2023-grade4-part1:lesson-039:m03:number:crop": {
+      "pdf_page": 141,
+      "printed_page": "141",
+      "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+      "bbox": [
+        121,
+        228,
+        145,
+        263
+      ]
+    },
+    "math-2023-grade4-part1:lesson-039:m03:step-outline:crop": {
+      "pdf_page": 141,
+      "printed_page": "141",
+      "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+      "bbox": [
+        534,
+        311,
+        854,
+        514
+      ]
+    },
+    "math-2023-grade4-part1:lesson-039:m04:number:crop": {
+      "pdf_page": 141,
+      "printed_page": "141",
+      "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+      "bbox": [
+        120,
+        582,
+        146,
+        612
+      ]
+    },
+    "math-2023-grade4-part1:lesson-039:m04:volume-example-grid:crop": {
+      "pdf_page": 141,
+      "printed_page": "141",
+      "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+      "bbox": [
+        496,
+        716,
+        838,
+        796
+      ]
+    },
+    "math-2023-grade4-part1:lesson-039:m05:number:crop": {
+      "pdf_page": 141,
+      "printed_page": "141",
+      "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+      "bbox": [
+        120,
+        933,
+        145,
+        970
+      ]
+    },
+    "math-2023-grade4-part1:lesson-039:m05:check-volume-grid:crop": {
+      "pdf_page": 141,
+      "printed_page": "141",
+      "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+      "bbox": [
+        141,
+        1120,
+        595,
+        1280
+      ]
+    },
+    "math-2023-grade4-part1:lesson-039:closing-caption:crop": {
+      "pdf_page": 141,
+      "printed_page": "141",
+      "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+      "bbox": [
+        716,
+        964,
+        881,
+        1082
+      ]
+    }
+  },
+  "ocr_suggestions": [
+    {
+      "id": "math-2023-grade4-part1:lesson-039:m01:prompt:suggestion-1",
+      "object_id": "math-2023-grade4-part1:lesson-039:m01:prompt",
+      "category": "ocr_character",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 140,
+          "printed_page": "140",
+          "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+          "bbox": [
+            157,
+            352,
+            862,
+            449
+          ]
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "11",
+          "wiki_line_id": "math-2023-grade4-part1:p140:l11",
+          "raw": "гіленуін  жаз. Көлемді  табуғаарналған  формуланы  жаз.",
+          "existing_corrected": "гіленуін жаз. Көлемді табуға арналған формуланы жаз."
+        }
+      ],
+      "reason_kk": "Таңбалар мен сөздер баспа бетімен салыстырылды.",
+      "suggested_value": "Тікбұрышты параллелепипедтің өлшемдерінің әріптік белгіленуін жаз. Көлемді табуға арналған формуланы жаз. Фигураның көлемін есепте.",
+      "evidence_regions": [
+        {
+          "pdf_page": 140,
+          "printed_page": "140",
+          "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+          "bbox": [
+            158,
+            388,
+            862,
+            415
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part1:lesson-039:m01:prompt:suggestion-2",
+      "object_id": "math-2023-grade4-part1:lesson-039:m01:prompt",
+      "category": "ocr_linebreak",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 140,
+          "printed_page": "140",
+          "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+          "bbox": [
+            157,
+            352,
+            862,
+            449
+          ]
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "10",
+          "wiki_line_id": "math-2023-grade4-part1:p140:l10",
+          "raw": "Тікбұрышты параллелепипедтің өлшемдерінің әріптік бел-",
+          "existing_corrected": "Тікбұрышты параллелепипедтің өлшемдерінің әріптік бел-"
+        },
+        {
+          "line_id": "11",
+          "wiki_line_id": "math-2023-grade4-part1:p140:l11",
+          "raw": "гіленуін  жаз. Көлемді  табуғаарналған  формуланы  жаз.",
+          "existing_corrected": "гіленуін жаз. Көлемді табуға арналған формуланы жаз."
+        },
+        {
+          "line_id": "12",
+          "wiki_line_id": "math-2023-grade4-part1:p140:l12",
+          "raw": "Фигураның көлемін есепте.",
+          "existing_corrected": "Фигураның көлемін есепте."
+        }
+      ],
+      "reason_kk": "Жолдарға бөлінген сөздер мен мәтін түпнұсқаға сай біріктірілді.",
+      "suggested_value": "Тікбұрышты параллелепипедтің өлшемдерінің әріптік белгіленуін жаз. Көлемді табуға арналған формуланы жаз. Фигураның көлемін есепте.",
+      "evidence_regions": [
+        {
+          "pdf_page": 140,
+          "printed_page": "140",
+          "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+          "bbox": [
+            157,
+            352,
+            862,
+            385
+          ]
+        },
+        {
+          "pdf_page": 140,
+          "printed_page": "140",
+          "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+          "bbox": [
+            158,
+            388,
+            862,
+            415
+          ]
+        },
+        {
+          "pdf_page": 140,
+          "printed_page": "140",
+          "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+          "bbox": [
+            158,
+            418,
+            476,
+            449
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part1:lesson-039:m01:blank-dimensions:suggestion-1",
+      "object_id": "math-2023-grade4-part1:lesson-039:m01:blank-dimensions",
+      "category": "table_structure",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 140,
+          "printed_page": "140",
+          "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+          "bbox": [
+            169,
+            468,
+            453,
+            686
+          ]
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "13",
+          "wiki_line_id": "math-2023-grade4-part1:p140:l13",
+          "raw": "а",
+          "existing_corrected": "a"
+        },
+        {
+          "line_id": "15",
+          "wiki_line_id": "math-2023-grade4-part1:p140:l15",
+          "raw": "b",
+          "existing_corrected": "b"
+        },
+        {
+          "line_id": "18",
+          "wiki_line_id": "math-2023-grade4-part1:p140:l18",
+          "raw": "с",
+          "existing_corrected": "c"
+        },
+        {
+          "line_id": "20",
+          "wiki_line_id": "math-2023-grade4-part1:p140:l20",
+          "raw": "V",
+          "existing_corrected": "V"
+        }
+      ],
+      "reason_kk": "Кестенің жолдары, бағандары мен бос ұяшықтары сканнан тексерілді.",
+      "suggested_value": "4 жол × 2 баған.",
+      "evidence_regions": [
+        {
+          "pdf_page": 140,
+          "printed_page": "140",
+          "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+          "bbox": [
+            194,
+            483,
+            216,
+            507
+          ]
+        },
+        {
+          "pdf_page": 140,
+          "printed_page": "140",
+          "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+          "bbox": [
+            193,
+            535,
+            216,
+            560
+          ]
+        },
+        {
+          "pdf_page": 140,
+          "printed_page": "140",
+          "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+          "bbox": [
+            195,
+            593,
+            216,
+            617
+          ]
+        },
+        {
+          "pdf_page": 140,
+          "printed_page": "140",
+          "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+          "bbox": [
+            195,
+            643,
+            219,
+            668
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part1:lesson-039:m01:blue-prism:suggestion-1",
+      "object_id": "math-2023-grade4-part1:lesson-039:m01:blue-prism",
+      "category": "image_relationship",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 140,
+          "printed_page": "140",
+          "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+          "bbox": [
+            495,
+            483,
+            875,
+            687
+          ]
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "14",
+          "wiki_line_id": "math-2023-grade4-part1:p140:l14",
+          "raw": "6 см",
+          "existing_corrected": "6 см"
+        },
+        {
+          "line_id": "16",
+          "wiki_line_id": "math-2023-grade4-part1:p140:l16",
+          "raw": " ",
+          "existing_corrected": "5 см"
+        },
+        {
+          "line_id": "19",
+          "wiki_line_id": "math-2023-grade4-part1:p140:l19",
+          "raw": "12CM",
+          "existing_corrected": "12 см"
+        }
+      ],
+      "reason_kk": "Үш өлшемнің қырларға сәйкестігі сканнан тексерілді.",
+      "suggested_value": "Көк дененің ұзын төменгі қыры 12 см, сол жақтағы тік қыры 5 см, жоғарғы қиғаш қысқа қыры 6 см.",
+      "evidence_regions": [
+        {
+          "pdf_page": 140,
+          "printed_page": "140",
+          "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+          "bbox": [
+            533,
+            470,
+            598,
+            516
+          ]
+        },
+        {
+          "pdf_page": 140,
+          "printed_page": "140",
+          "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+          "bbox": [
+            490,
+            529,
+            530,
+            595
+          ]
+        },
+        {
+          "pdf_page": 140,
+          "printed_page": "140",
+          "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+          "bbox": [
+            600,
+            627,
+            683,
+            685
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part1:lesson-039:m02:criterion:suggestion-1",
+      "object_id": "math-2023-grade4-part1:lesson-039:m02:criterion",
+      "category": "ocr_linebreak",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 140,
+          "printed_page": "140",
+          "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+          "bbox": [
+            201,
+            767,
+            864,
+            855
+          ]
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "21",
+          "wiki_line_id": "math-2023-grade4-part1:p140:l21",
+          "raw": "Есеп шығарған кезде шамалардың ұзындығы,  ені, биік-",
+          "existing_corrected": "Есеп шығарған кезде шамалардың ұзындығы,  ені, биік-"
+        },
+        {
+          "line_id": "22",
+          "wiki_line_id": "math-2023-grade4-part1:p140:l22",
+          "raw": "тігі және көлемі арасындағы тәуелділік туралы білімімді",
+          "existing_corrected": "тігі және көлемі арасындағы тәуелділік туралы білімімді"
+        },
+        {
+          "line_id": "23",
+          "wiki_line_id": "math-2023-grade4-part1:p140:l23",
+          "raw": "қолданамын.",
+          "existing_corrected": "қолданамын."
+        }
+      ],
+      "reason_kk": "Жолдарға бөлінген сөздер мен мәтін түпнұсқаға сай біріктірілді.",
+      "suggested_value": "Есеп шығарған кезде шамалардың ұзындығы, ені, биіктігі және көлемі арасындағы тәуелділік туралы білімімді қолданамын.",
+      "evidence_regions": [
+        {
+          "pdf_page": 140,
+          "printed_page": "140",
+          "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+          "bbox": [
+            202,
+            767,
+            862,
+            799
+          ]
+        },
+        {
+          "pdf_page": 140,
+          "printed_page": "140",
+          "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+          "bbox": [
+            201,
+            797,
+            864,
+            828
+          ]
+        },
+        {
+          "pdf_page": 140,
+          "printed_page": "140",
+          "scan_asset_id": "math-2023-grade4-part1:p140:scan",
+          "bbox": [
+            204,
+            831,
+            357,
+            855
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part1:lesson-039:m03:step-outline:suggestion-1",
+      "object_id": "math-2023-grade4-part1:lesson-039:m03:step-outline",
+      "category": "image_relationship",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            534,
+            311,
+            854,
+            514
+          ]
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "3",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l3",
+          "raw": "8м",
+          "existing_corrected": "8 м"
+        },
+        {
+          "line_id": "4",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l4",
+          "raw": "W2",
+          "existing_corrected": "2 м"
+        },
+        {
+          "line_id": "7",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l7",
+          "raw": "WΣ",
+          "existing_corrected": "3 м"
+        },
+        {
+          "line_id": "8",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l8",
+          "raw": "10 M",
+          "existing_corrected": "10 м"
+        }
+      ],
+      "reason_kk": "Тік және көлденең өлшемдер контурға сәйкес белгіленді.",
+      "suggested_value": "Саты тәрізді контурдың үстіңгі қыры 8 м, қысқа тік сатысы 2 м, сыртқы оң тік қыры 3 м, толық табаны 10 м.",
+      "evidence_regions": [
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            625,
+            307,
+            678,
+            341
+          ]
+        },
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            763,
+            351,
+            796,
+            401
+          ]
+        },
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            818,
+            415,
+            852,
+            468
+          ]
+        },
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            647,
+            481,
+            711,
+            517
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part1:lesson-039:m04:volume-example-grid:suggestion-1",
+      "object_id": "math-2023-grade4-part1:lesson-039:m04:volume-example-grid",
+      "category": "table_structure",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            496,
+            716,
+            838,
+            796
+          ]
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "12",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l12",
+          "raw": "а",
+          "existing_corrected": "a"
+        },
+        {
+          "line_id": "13",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l13",
+          "raw": "ь",
+          "existing_corrected": "b"
+        },
+        {
+          "line_id": "14",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l14",
+          "raw": "с",
+          "existing_corrected": "c"
+        },
+        {
+          "line_id": "15",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l15",
+          "raw": "V",
+          "existing_corrected": "V"
+        },
+        {
+          "line_id": "17",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l17",
+          "raw": "?",
+          "existing_corrected": "?"
+        }
+      ],
+      "reason_kk": "Кестенің жолдары, бағандары мен бос ұяшықтары сканнан тексерілді.",
+      "suggested_value": "2 жол × 4 баған.",
+      "evidence_regions": [
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            528,
+            723,
+            549,
+            748
+          ]
+        },
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            612,
+            720,
+            637,
+            749
+          ]
+        },
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            698,
+            722,
+            721,
+            748
+          ]
+        },
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            781,
+            720,
+            810,
+            748
+          ]
+        },
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            783,
+            759,
+            804,
+            786
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part1:lesson-039:m05:criterion:suggestion-1",
+      "object_id": "math-2023-grade4-part1:lesson-039:m05:criterion",
+      "category": "ocr_linebreak",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            174,
+            931,
+            607,
+            989
+          ]
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "20",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l20",
+          "raw": "Есептердің  шығарылуының  дұрыс-",
+          "existing_corrected": "Есептердің  шығарылуының  дұрыс-"
+        },
+        {
+          "line_id": "22",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l22",
+          "raw": "тығын тексере аламын.",
+          "existing_corrected": "тығын тексере аламын."
+        }
+      ],
+      "reason_kk": "Жолдарға бөлінген сөздер мен мәтін түпнұсқаға сай біріктірілді.",
+      "suggested_value": "Есептердің шығарылуының дұрыстығын тексере аламын.",
+      "evidence_regions": [
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            174,
+            931,
+            607,
+            963
+          ]
+        },
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            175,
+            965,
+            445,
+            989
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part1:lesson-039:m05:check-volume-grid:suggestion-1",
+      "object_id": "math-2023-grade4-part1:lesson-039:m05:check-volume-grid",
+      "category": "table_structure",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            141,
+            1120,
+            595,
+            1280
+          ]
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "26",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l26",
+          "raw": "а",
+          "existing_corrected": "a"
+        },
+        {
+          "line_id": "27",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l27",
+          "raw": "9 см",
+          "existing_corrected": "9 см"
+        },
+        {
+          "line_id": "28",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l28",
+          "raw": "10M",
+          "existing_corrected": "10 м"
+        },
+        {
+          "line_id": "29",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l29",
+          "raw": "b",
+          "existing_corrected": "b"
+        },
+        {
+          "line_id": "30",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l30",
+          "raw": "5 CM",
+          "existing_corrected": "5 см"
+        },
+        {
+          "line_id": "31",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l31",
+          "raw": "5M",
+          "existing_corrected": "5 м"
+        },
+        {
+          "line_id": "33",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l33",
+          "raw": "с",
+          "existing_corrected": "c"
+        },
+        {
+          "line_id": "32",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l32",
+          "raw": "2CM",
+          "existing_corrected": "2 см"
+        },
+        {
+          "line_id": "34",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l34",
+          "raw": "4 м",
+          "existing_corrected": "4 м"
+        },
+        {
+          "line_id": "35",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l35",
+          "raw": "V",
+          "existing_corrected": "V"
+        },
+        {
+          "line_id": "36",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l36",
+          "raw": "90 см",
+          "existing_corrected": "90 см"
+        },
+        {
+          "line_id": "37",
+          "wiki_line_id": "math-2023-grade4-part1:p141:l37",
+          "raw": "20 m3",
+          "existing_corrected": "20 м³"
+        }
+      ],
+      "reason_kk": "Кестенің жолдары, бағандары мен бос ұяшықтары сканнан тексерілді.",
+      "suggested_value": "4 жол × 3 баған.",
+      "evidence_regions": [
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            169,
+            1129,
+            192,
+            1153
+          ]
+        },
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            281,
+            1120,
+            348,
+            1157
+          ]
+        },
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            468,
+            1121,
+            534,
+            1154
+          ]
+        },
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            170,
+            1166,
+            192,
+            1192
+          ]
+        },
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            281,
+            1160,
+            347,
+            1196
+          ]
+        },
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            474,
+            1161,
+            527,
+            1196
+          ]
+        },
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            171,
+            1209,
+            193,
+            1234
+          ]
+        },
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            280,
+            1198,
+            348,
+            1236
+          ]
+        },
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            474,
+            1202,
+            528,
+            1234
+          ]
+        },
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            171,
+            1244,
+            194,
+            1269
+          ]
+        },
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            275,
+            1239,
+            354,
+            1274
+          ]
+        },
+        {
+          "pdf_page": 141,
+          "printed_page": "141",
+          "scan_asset_id": "math-2023-grade4-part1:p141:scan",
+          "bbox": [
+            466,
+            1241,
+            537,
+            1271
+          ]
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "other": 4,
+    "text": 12,
+    "module": 5,
+    "module_number": 5,
+    "module_badge": 5,
+    "table": 3,
+    "informative_image": 3,
+    "ocr_suggestions": 9
+  }
+}
