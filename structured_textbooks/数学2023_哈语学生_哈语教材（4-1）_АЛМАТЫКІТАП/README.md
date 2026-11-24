@@ -27,7 +27,8 @@
 | [lesson_006](01_segmentation/lesson_006/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_007](01_segmentation/lesson_007/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_008](01_segmentation/lesson_008/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
-| lesson_009–lesson_040 | 本项目尚未归档 | 未开始 | 未开始 | 未开始 | 未完成 |
+| [lesson_009](01_segmentation/lesson_009/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
+| lesson_010–lesson_040 | 本项目尚未归档 | 未开始 | 未开始 | 未开始 | 未完成 |
 
 第 1 课 `3-сыныпта өткенді қайталау` 覆盖 PDF 第 7–10 页，对应印刷第 7–10 页。第 2 课从第 11 页开始，标题相同。教材按课号区分两课。
 
@@ -61,11 +62,15 @@
 
 [结构化 JSON](01_segmentation/lesson_008/content.json)、[中文连续审核](01_segmentation/lesson_008/review_zh.html)、[哈语连续审核](01_segmentation/lesson_008/review_kk.html)。双语离线交互和审核记录交叉导入已核验。
 
+第 9 课 `Миллиграмм`，PDF 和印刷页 36–39。共 11 个 Module、1 条独立教学说明、0 张表、5 张信息图及 50 条校对建议。可对照原图复核第 36 页质量单位换算阶梯的箭头，以及第 38 页地图中两条距离线的对应城市。
+
+[结构化 JSON](01_segmentation/lesson_009/content.json)、[中文连续审核](01_segmentation/lesson_009/review_zh.html)、[哈语连续审核](01_segmentation/lesson_009/review_kk.html)。双语离线交互和审核记录交叉导入已核验。
+
 [项目总览](../README.md) 说明六个阶段的文件用途。[工具目录](tools/README.md) 保存两种界面的生成代码与来源清单。其余阶段随实际审核、校正和标注推进时归档。
 
 ## 课程起页
 
-教材目录位于原始 PDF 第 149–150 页，列出 40 课。下表记录目录起页，印刷页码与本 PDF 的一基页序一致。切割边界已核对第 1–8 课。
+教材目录位于原始 PDF 第 149–150 页，列出 40 课。下表记录目录起页，印刷页码与本 PDF 的一基页序一致。切割边界已核对第 1–9 课。
 
 | Lesson | 印刷及 PDF 起页 |
 | --- | ---: |
