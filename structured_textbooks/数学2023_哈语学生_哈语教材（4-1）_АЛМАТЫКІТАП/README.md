@@ -41,7 +41,8 @@
 | [lesson_020](01_segmentation/lesson_020/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_021](01_segmentation/lesson_021/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_022](01_segmentation/lesson_022/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
-| lesson_023–lesson_040 | 本项目尚未归档 | 未开始 | 未开始 | 未开始 | 未完成 |
+| [lesson_023](01_segmentation/lesson_023/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
+| lesson_024–lesson_040 | 本项目尚未归档 | 未开始 | 未开始 | 未开始 | 未完成 |
 
 第 1 课 `3-сыныпта өткенді қайталау` 覆盖 PDF 第 7–10 页，对应印刷第 7–10 页。第 2 课从第 11 页开始，标题相同。教材按课号区分两课。
 
@@ -131,11 +132,15 @@
 
 [结构化 JSON](01_segmentation/lesson_022/content.json)、[中文连续审核](01_segmentation/lesson_022/review_zh.html)、[哈语连续审核](01_segmentation/lesson_022/review_kk.html)。双语离线交互和审核记录交叉导入已核验。
 
+第 23 课 `10, 100, 1 000 сандарына көбейту және бөлу`，PDF 和印刷页 89–91。共 9 个 Module、1 条独立教学说明、0 张表、1 张信息图及 36 条校对建议。第 91 页第 8 题的四个竖式保留原印星号及数位对齐。
+
+[结构化 JSON](01_segmentation/lesson_023/content.json)、[中文连续审核](01_segmentation/lesson_023/review_zh.html)、[哈语连续审核](01_segmentation/lesson_023/review_kk.html)。双语离线交互和审核记录交叉导入已核验。
+
 [项目总览](../README.md) 说明六个阶段的文件用途。[工具目录](tools/README.md) 保存两种界面的生成代码与来源清单。其余阶段随实际审核、校正和标注推进时归档。
 
 ## 课程起页
 
-教材目录位于原始 PDF 第 149–150 页，列出 40 课。下表记录目录起页，印刷页码与本 PDF 的一基页序一致。切割边界已核对第 1–22 课。
+教材目录位于原始 PDF 第 149–150 页，列出 40 课。下表记录目录起页，印刷页码与本 PDF 的一基页序一致。切割边界已核对第 1–23 课。
 
 | Lesson | 印刷及 PDF 起页 |
 | --- | ---: |
