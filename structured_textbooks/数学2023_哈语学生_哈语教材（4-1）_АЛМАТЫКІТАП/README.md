@@ -38,7 +38,8 @@
 | [lesson_017](01_segmentation/lesson_017/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_018](01_segmentation/lesson_018/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_019](01_segmentation/lesson_019/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
-| lesson_020–lesson_040 | 本项目尚未归档 | 未开始 | 未开始 | 未开始 | 未完成 |
+| [lesson_020](01_segmentation/lesson_020/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
+| lesson_021–lesson_040 | 本项目尚未归档 | 未开始 | 未开始 | 未开始 | 未完成 |
 
 第 1 课 `3-сыныпта өткенді қайталау` 覆盖 PDF 第 7–10 页，对应印刷第 7–10 页。第 2 课从第 11 页开始，标题相同。教材按课号区分两课。
 
@@ -116,11 +117,15 @@
 
 [结构化 JSON](01_segmentation/lesson_019/content.json)、[中文连续审核](01_segmentation/lesson_019/review_zh.html)、[哈语连续审核](01_segmentation/lesson_019/review_kk.html)。双语离线交互和审核记录交叉导入已核验。
 
+第 20 课 `Көптаңбалы санды бір таңбалы санға көбейту және бөлу`，PDF 和印刷页 77–80。共 10 个 Module、0 条独立教学说明、0 张表、3 张信息图及 43 条校对建议。第 2 题跨第 77、78 页；第 78 页三个长除法示例保留零的书写与简写差异。
+
+[结构化 JSON](01_segmentation/lesson_020/content.json)、[中文连续审核](01_segmentation/lesson_020/review_zh.html)、[哈语连续审核](01_segmentation/lesson_020/review_kk.html)。双语离线交互和审核记录交叉导入已核验。
+
 [项目总览](../README.md) 说明六个阶段的文件用途。[工具目录](tools/README.md) 保存两种界面的生成代码与来源清单。其余阶段随实际审核、校正和标注推进时归档。
 
 ## 课程起页
 
-教材目录位于原始 PDF 第 149–150 页，列出 40 课。下表记录目录起页，印刷页码与本 PDF 的一基页序一致。切割边界已核对第 1–19 课。
+教材目录位于原始 PDF 第 149–150 页，列出 40 课。下表记录目录起页，印刷页码与本 PDF 的一基页序一致。切割边界已核对第 1–20 课。
 
 | Lesson | 印刷及 PDF 起页 |
 | --- | ---: |
