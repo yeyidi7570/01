@@ -1,0 +1,23 @@
+<section class="review" aria-labelledby="review-heading">
+  <header class="review-toolbar">
+    <div class="review-heading">
+      <h2 id="review-heading" data-i="review"></h2>
+      <button type="button" id="to-top" data-i="toTop"></button>
+    </div>
+    <div class="progress">
+      <div id="statistics" role="status"></div>
+      <progress id="meter"></progress>
+    </div>
+    <div class="toolbar review-options">
+      <label><span data-i="jump"></span> <select id="module-jump"></select></label>
+      <label><span data-i="filter"></span> <select id="filter"></select></label>
+      <button type="button" id="apply-filter" data-i="applyFilter" hidden></button>
+      <label class="check"><input type="checkbox" id="auto-collapse"> <span data-i="autoCollapse"></span></label>
+    </div>
+  </header>
+  <div id="review-scroll" tabindex="0" aria-labelledby="review-heading">
+    <div id="cards"></div>
+    <p id="no-cards" data-i="none" hidden></p>
+    <div id="review-tail" aria-hidden="true"></div>
+  </div>
+</section>
