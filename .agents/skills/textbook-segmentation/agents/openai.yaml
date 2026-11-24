@@ -1,0 +1,4 @@
+interface:
+  display_name: "教材逐课切割"
+  short_description: "按课结构化教材，生成中哈离线审核页并归档 GitHub"
+  default_prompt: '使用 $textbook-segmentation 处理我提供的完整教材目录名和课次范围，先盘点已存在的产物与审核反馈。'

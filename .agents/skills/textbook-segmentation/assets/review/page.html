@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="@@LANG@@">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data: blob:">
+<title>@@TITLE@@</title>
+<style>@@CSS@@</style>
+</head>
+<body>
+<header class="top">
+  <div class="course">
+    <div id="course-meta" class="meta"></div>
+    <h1 id="title"></h1>
+    <div id="translated-title"></div>
+  </div>
+  <div class="files">
+    <label><span data-i="reviewer"></span> <input id="reviewer" maxlength="100" autocomplete="off"></label>
+    <div class="buttons"><button id="import" data-i="import"></button><button id="export" class="accent" data-i="export"></button></div>
+    <input type="file" id="file" accept=".json,application/json" hidden>
+  </div>
+  <div id="draft"></div>
+</header>
+<div id="message" role="status" aria-live="polite"></div>
+<main>
+<section class="viewer" aria-labelledby="scan-heading">
+  <h2 id="scan-heading" data-i="scan"></h2>
+  <div class="toolbar">
+    <label><span data-i="page"></span> <select id="page"></select></label>
+    <label><span data-i="zoom"></span> <select id="zoom"><option>100%</option><option>125%</option><option>150%</option><option>200%</option><option>250%</option></select></label>
+    <label class="check"><input type="checkbox" id="elements" checked> <span data-i="elements"></span></label>
+  </div>
+  <div id="scan-scroll" tabindex="0">
+    <div id="sheet"><img id="scan" draggable="false"><div id="overlays"></div><div id="selection" hidden></div></div>
+  </div>
+  <div class="toolbar foot"><button id="omission" data-i="omission"></button><button id="cancel-draw" data-i="cancel" hidden></button><small id="draw-hint"></small></div>
+  <div id="legend"></div>
+</section>
+<section class="review" aria-labelledby="review-heading">
+  <header class="review-toolbar">
+    <div class="review-heading">
+      <h2 id="review-heading" data-i="review"></h2>
+      <button type="button" id="to-top" data-i="toTop"></button>
+    </div>
+    <div class="progress">
+      <div id="statistics" role="status"></div>
+      <progress id="meter"></progress>
+    </div>
+    <div class="toolbar review-options">
+      <label><span data-i="jump"></span> <select id="module-jump"></select></label>
+      <label><span data-i="filter"></span> <select id="filter"></select></label>
+      <button type="button" id="apply-filter" data-i="applyFilter" hidden></button>
+      <label class="check"><input type="checkbox" id="auto-collapse"> <span data-i="autoCollapse"></span></label>
+    </div>
+  </header>
+  <div id="review-scroll" tabindex="0" aria-labelledby="review-heading">
+    <div id="cards"></div>
+    <p id="no-cards" data-i="none" hidden></p>
+    <div id="review-tail" aria-hidden="true"></div>
+  </div>
+</section>
+</main>
+<script id="dataset" type="application/json">@@DATA@@</script>
+<script id="assets" type="application/json">@@IMAGES@@</script>
+<script id="translations" type="application/json">@@AUX@@</script>
+<script>@@JS@@</script>
+</body>
+</html>
