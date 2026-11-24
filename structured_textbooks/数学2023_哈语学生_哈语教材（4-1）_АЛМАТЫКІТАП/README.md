@@ -21,7 +21,8 @@
 | --- | --- | --- | --- | --- | --- |
 | [lesson_001](01_segmentation/lesson_001/) | 已归档 V4，`pending_review` | 待审核 | 未开始 | 未开始 | 未完成 |
 | [lesson_002](01_segmentation/lesson_002/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
-| lesson_003–lesson_040 | 本项目尚未归档 | 未开始 | 未开始 | 未开始 | 未完成 |
+| [lesson_003](01_segmentation/lesson_003/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
+| lesson_004–lesson_040 | 本项目尚未归档 | 未开始 | 未开始 | 未开始 | 未完成 |
 
 第 1 课 `3-сыныпта өткенді қайталау` 覆盖 PDF 第 7–10 页，对应印刷第 7–10 页。第 2 课从第 11 页开始，标题相同。教材按课号区分两课。
 
@@ -31,11 +32,15 @@
 
 第 2 课入口为 [结构化 JSON](01_segmentation/lesson_002/content.json)、[中文连续审核](01_segmentation/lesson_002/review_zh.html) 和 [哈语连续审核](01_segmentation/lesson_002/review_kk.html)。双语页面已通过断网交互及审核记录交叉导入测试。归档提交可查该课路径的 Git 历史。
 
+第 3 课 `Көптаңбалы сандар. Сандардың реті` 以 `Қазақстан сандармен` 为情境，覆盖 PDF 和印刷第 14–17 页。第 18 页是第 4 课。保留 10 个 Module、3 条独立教学说明 `ЕСІҢДЕ САҚТА!`、5 个 Module Badge、1 张数位表、2 幅信息图、7 个公式对象、7 条教学关联和 35 条校对建议，其中 33 条为字符或排版建议，2 条为结构建议。
+
+第 3 课入口为 [结构化 JSON](01_segmentation/lesson_003/content.json)、[中文连续审核](01_segmentation/lesson_003/review_zh.html) 和 [哈语连续审核](01_segmentation/lesson_003/review_kk.html)。数位表保留 3 个跨列标题和 17 个原印空白格。优先复核第 10 题统计图的学校数与学位数系列，另核对第 8 题是否引用第 7 题，以及 10Ә 是否承接 10А 的学位数系列。双语页面已通过断网测试及审核记录交叉导入，提交可查该课路径的 Git 历史。
+
 [项目总览](../README.md) 说明六个阶段的文件用途。[工具目录](tools/README.md) 保存两种界面的生成代码与来源清单。其余阶段随实际审核、校正和标注推进时归档。
 
 ## 课程起页
 
-教材目录位于原始 PDF 第 149–150 页，列出 40 课。下表记录目录起页，印刷页码与本 PDF 的一基页序一致。切割边界已核对第 1–2 课。
+教材目录位于原始 PDF 第 149–150 页，列出 40 课。下表记录目录起页，印刷页码与本 PDF 的一基页序一致。切割边界已核对第 1–3 课。
 
 | Lesson | 印刷及 PDF 起页 |
 | --- | ---: |
