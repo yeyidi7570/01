@@ -58,7 +58,7 @@
 | [lesson_037](01_segmentation/lesson_037/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_038](01_segmentation/lesson_038/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_039](01_segmentation/lesson_039/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
-| lesson_040 | 本项目尚未归档 | 未开始 | 未开始 | 未开始 | 未完成 |
+| [lesson_040](01_segmentation/lesson_040/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 
 第 1 课 `3-сыныпта өткенді қайталау` 覆盖 PDF 第 7–10 页，对应印刷第 7–10 页。第 2 课从第 11 页开始，标题相同。教材按课号区分两课。
 
@@ -216,11 +216,15 @@
 
 [结构化 JSON](01_segmentation/lesson_039/content.json)、[中文连续审核](01_segmentation/lesson_039/review_zh.html)、[哈语连续审核](01_segmentation/lesson_039/review_kk.html)。双语离线交互和审核记录交叉导入已核验，归档提交可查本课 Git 历史。
 
+第 40 课 `Қорытындылау`，PDF 142–145 页、印刷 142–145 页。共 10 个 Module、0 条独立教学说明、1 张表、4 张信息图及 36 条校对建议。第 142 页保留同字母的不同列，第 145 页区分两级方格并逐项记录房间、门和窗的尺寸箭头。
+
+[结构化 JSON](01_segmentation/lesson_040/content.json)、[中文连续审核](01_segmentation/lesson_040/review_zh.html)、[哈语连续审核](01_segmentation/lesson_040/review_kk.html)。双语离线交互和审核记录交叉导入已核验，归档提交可查本课 Git 历史。
+
 [项目总览](../README.md) 说明六个阶段的文件用途。[工具目录](tools/README.md) 保存两种界面的生成代码与来源清单。其余阶段随实际审核、校正和标注推进时归档。
 
 ## 课程起页
 
-教材目录位于原始 PDF 第 149–150 页，列出 40 课。下表记录目录起页，印刷页码与本 PDF 的一基页序一致。切割边界已核对第 1–39 课。
+教材目录位于原始 PDF 第 149–150 页，列出 40 课。下表记录目录起页，印刷页码与本 PDF 的一基页序一致。切割边界已核对第 1–40 课。
 
 | Lesson | 印刷及 PDF 起页 |
 | --- | ---: |
