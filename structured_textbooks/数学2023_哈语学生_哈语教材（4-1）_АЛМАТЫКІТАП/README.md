@@ -45,7 +45,8 @@
 | [lesson_024](01_segmentation/lesson_024/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_025](01_segmentation/lesson_025/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_026](01_segmentation/lesson_026/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
-| lesson_027–lesson_040 | 本项目尚未归档 | 未开始 | 未开始 | 未开始 | 未完成 |
+| [lesson_027](01_segmentation/lesson_027/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
+| lesson_028–lesson_040 | 本项目尚未归档 | 未开始 | 未开始 | 未开始 | 未完成 |
 
 第 1 课 `3-сыныпта өткенді қайталау` 覆盖 PDF 第 7–10 页，对应印刷第 7–10 页。第 2 课从第 11 页开始，标题相同。教材按课号区分两课。
 
@@ -151,11 +152,15 @@
 
 [结构化 JSON](01_segmentation/lesson_026/content.json)、[中文连续审核](01_segmentation/lesson_026/review_zh.html)、[哈语连续审核](01_segmentation/lesson_026/review_kk.html)。双语离线交互和审核记录交叉导入已核验，归档提交可查本课 Git 历史。
 
+第 27 课 `Өзіңді тексер`，PDF 102–103 页、印刷 102–103 页。共 5 个 Module、0 条独立教学说明、1 张表、1 张信息图及 6 条校对建议。保留第 1 题空白集合图、第 3 题 B 集合的原印 120、第 4 题四个空格与第 5 题供检验的原印等式。
+
+[结构化 JSON](01_segmentation/lesson_027/content.json)、[中文连续审核](01_segmentation/lesson_027/review_zh.html)、[哈语连续审核](01_segmentation/lesson_027/review_kk.html)。双语离线交互和审核记录交叉导入已核验，归档提交可查本课 Git 历史。
+
 [项目总览](../README.md) 说明六个阶段的文件用途。[工具目录](tools/README.md) 保存两种界面的生成代码与来源清单。其余阶段随实际审核、校正和标注推进时归档。
 
 ## 课程起页
 
-教材目录位于原始 PDF 第 149–150 页，列出 40 课。下表记录目录起页，印刷页码与本 PDF 的一基页序一致。切割边界已核对第 1–26 课。
+教材目录位于原始 PDF 第 149–150 页，列出 40 课。下表记录目录起页，印刷页码与本 PDF 的一基页序一致。切割边界已核对第 1–27 课。
 
 | Lesson | 印刷及 PDF 起页 |
 | --- | ---: |
