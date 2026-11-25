@@ -7,7 +7,7 @@ Lesson 按原书课次以至少三位数字补零，例如 `lesson_001`。各阶
 | 阶段 | 内容和文件 |
 | --- | --- |
 | `01_segmentation/` | 每课目录包含待审核的 `content.json`、中文 `review_zh.html` 和哈语 `review_kk.html`。同课界面变体可保存于 `variants/`。 |
-| `02_segmentation_review/` | 第一轮原始反馈保存于 `lesson_XXX/submissions/`，按提交分别保留。待复核修订保存于 `lesson_XXX/revision_001/` 等独立版本目录，包含三件套和变更记录。 |
+| `02_segmentation_review/` | 第一轮原始反馈保存于 `lesson_XXX/submissions/`，按提交分别保留。待复核修订保存于 `lesson_XXX/revision_1/`、`lesson_XXX/revision_2/` 等目录，包含三件套和变更记录。修订编号按课从 1 开始，不补零。 |
 | `03_verified_content/` | 处理第一轮反馈、解决冲突并确认后保存的教材内容，例如 `lesson_001.json`。 |
 | `04_semantic_labels/` | 基于已确认内容生成的 KLP、题型、难度和关联。 |
 | `05_labels_review/` | 第二轮审核的原始反馈，按课及审核员保存。 |
