@@ -99,6 +99,7 @@ def validate_content(data):
     require(bool(note_badges), 'missing confirmed Instructional Note badges')
     pages = {p['pdf_page']:p for p in data['pages']}
     ids = {}
+    unit_owners = {}
     scans = set()
     require(pages and list(pages) == sorted(pages) and len(pages) == len(data['pages'])
             and all(integer(p) and p > 0 for p in pages), 'invalid or duplicate PDF pages')
@@ -130,7 +131,7 @@ def validate_content(data):
     for ref in data.get('crop_assets',{}).values():
         location(ref)
 
-    def visit(items, order, parent):
+    def visit(items, order, parent, owner=None):
         require(order == [o['id'] for o in items], f'content_order mismatch for {parent}')
         for o in items:
             register(o)
@@ -138,6 +139,8 @@ def validate_content(data):
             for ref in o['page_refs']:
                 location(ref)
             kind = o['type']
+            item_owner = kind if kind in ('module', 'instructional_note') else owner
+            unit_owners[o['id']] = item_owner
             if kind == 'instructional_note':
                 require(parent==lesson['id'] and o['instructional_note_badge'] in note_badges, f'invalid Note: {o["id"]}')
             if kind == 'module_badge' and o.get('badge_origin')=='lesson_inherited':
@@ -183,14 +186,20 @@ def validate_content(data):
                 require(len(occupied)==o['row_count'] * o['column_count'], f'cells do not cover grid: {o["id"]}')
             if kind == 'table' and 'cells' not in o:
                 require(o.get('crop_asset_id') and o.get('review_flags'), f'unresolved table needs a crop and review flag: {o["id"]}')
-            visit(o.get('elements',[]),o.get('content_order',[]),o['id'])
+            visit(o.get('elements',[]),o.get('content_order',[]),o['id'],item_owner)
 
     visit(lesson['units'],lesson['content_order'],lesson['id'])
     for link in lesson['teaching_links']:
-        require(all(link[k] in ids for k in ('parent_id','from_id','to_id'))
-                and link['relationship'] in ('supports','uses_as_material')
-                and link['from_id']!=link['to_id'] and link.get('rationale_kk')
+        origin, target = link['from_id'], link['to_id']
+        relationship = link['relationship']
+        require(link['parent_id'] in ids and link.get('type') == 'teaching_link'
+                and origin in unit_owners and target in unit_owners
+                and origin != target and link.get('rationale_kk')
                 and link['page_refs'] and link['review_status'], f'invalid teaching link: {link["id"]}')
+        owners = (unit_owners[origin], unit_owners[target])
+        require((relationship == 'supports' and owners == ('instructional_note', 'module'))
+                or (relationship == 'uses_as_material' and owners[0] == 'module'),
+                f'invalid teaching link direction ({relationship}): {link["id"]}: {origin} -> {target}')
         for ref in link['page_refs']:
             location(ref)
         register(link)

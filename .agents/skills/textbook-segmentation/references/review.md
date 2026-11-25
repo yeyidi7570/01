@@ -22,3 +22,5 @@
 ## 每课断网实测
 
 用 `file://` 打开双语产物并拦截网络。检查扫描、切框、滚动定位与跨页分组。用单个和多个 Formula 的 Example、含子项的 Instructional Note 和空容器核对按钮数量和父级汇总。检查连续竖式与单位换算、重要 Badge 疑点、合并与空白单元格、页面遗漏框选、局部修改。核对原始审核包导入、新包双语交叉导入及草稿恢复，确认记录身份和问题状态保留。现有历史产物可用静态检查读取，重新生成时使用当前模板。
+
+Teaching Link 的卡片与编辑器都按关系显示端点角色。`supports` 是「提供方法或知识 → 受支持的任务」，`uses_as_material` 是「使用者 → 引用材料」。在中哈两版测试两类卡片、点击端点后的定位、切换关系后的角色、颠倒任务和说明后保存被拒绝，以及导出的关系仍使用 `from_id`、`to_id` 和 `relationship`。运行 `python -m unittest discover -s .agents/skills/textbook-segmentation/scripts -p 'test_teaching_links.py'` 校验数据方向。

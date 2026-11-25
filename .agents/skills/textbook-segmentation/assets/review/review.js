@@ -12,12 +12,12 @@ const ui = {
   zh:{
     reviewer:'审核员（选填）',import:'导入记录',export:'导出记录 JSON',scan:'教材原图',review:'审核对象',page:'页码',zoom:'缩放',elements:'内部切割框',omission:'本页存在遗漏内容',cancel:'取消',module:'任务',filter:'筛选',object:'对象',prev:'上一项',next:'下一项',nextUnreviewed:'下一未审核项',approve:'通过',issue:'有问题',unable:'无法判断',skip:'跳过',bulk:'通过本单元及无疑点子项',ocr:'文字有误',
     total:'对象',unreviewed:'未审核',approved:'已通过',unable_to_verify:'无法判断',all:'全部',ocrOnly:'OCR 与结构修正建议',visual:'图片、表格或公式',linkOnly:'教学关联',none:'此筛选下没有对象',noPending:'此筛选下没有其他未审核对象。',
-    draft:'浏览器草稿仅保存在本机。请导出 JSON 留存。',noDraft:'此浏览器无法保存本地草稿。请在关闭前导出 JSON。',saved:'已保存审核。',skipped:'已跳过，审核状态保留。',exported:'已发起 JSON 下载。请确认文件已保存。',exportError:'无法发起下载。',imported:'导入完成，原有审核历史已保留。',importError:'导入失败。请使用与本课及当前数据版本匹配的审核 JSON。',conflict:'存在互相冲突的审核或修正。导出将保留各方记录，需人工裁定。',notes:'审核备注',kind:'问题类型',corrected:'建议修正内容（选填）',rawText:'哈萨克语原文',translation:'中文参考翻译',advanced:'高级信息',children:'所含内容',currentRecords:'当前审核记录',known:'人工复核提示',suggestions:'待审核的识别修正',showPage:'查看位置',printed:'印刷',moduleNumber:'任务',missing:'遗漏内容',drag:'在原图上拖动框选，或直接按页报告。',pageOnly:'按页报告',selectedRegion:'已框选遗漏区域。',possible:'可能的内容类型',save:'保存并继续',newType:'修正后的类型',parent:'修正后的归属',order:'同级阅读顺序位置（从 1 开始）',bbox:'新切割框（像素坐标 x0, y0, x1, y1）',redraw:'在原图上重新框选',badBox:'坐标无效，请重新框选或输入有效坐标。',change:'建议操作',keep:'保留当前值',replace:'修改',remove:'删除关联',from:'使用者',to:'引用材料',supports:'提供知识或方法',uses_as_material:'直接使用材料',whichPage:'所在页',noEdit:'发现的问题可在备注中描述。',cell:'已选单元格',reason:'原因（选填）',issueNote:'问题说明（选填）',linked:'打开对象',select:'请选择',root:'本课',record:'记录',blank:'空白',printedVersion:'印刷排法',structure:'结构化说明',region:'位置',suggestionConfirm:'通过会记录对本对象所列修正建议的确认。',protected:'整体通过会保留带疑点、修正建议或既有问题的子项。',partial:'部分子项仍需单独审核。',draftError:'本地草稿无法恢复。可导入已导出的记录。',pageAudit:'这里可确认该页的切割覆盖，也可直接报告遗漏。',sourceOCR:'原始 OCR / 已有校对',badgeScope:'标签作用范围',unsure:'待确认',duplicate:'导入文件里同一记录 ID 对应不同内容。',
+    draft:'浏览器草稿仅保存在本机。请导出 JSON 留存。',noDraft:'此浏览器无法保存本地草稿。请在关闭前导出 JSON。',saved:'已保存审核。',skipped:'已跳过，审核状态保留。',exported:'已发起 JSON 下载。请确认文件已保存。',exportError:'无法发起下载。',imported:'导入完成，原有审核历史已保留。',importError:'导入失败。请使用与本课及当前数据版本匹配的审核 JSON。',conflict:'存在互相冲突的审核或修正。导出将保留各方记录，需人工裁定。',notes:'审核备注',kind:'问题类型',corrected:'建议修正内容（选填）',rawText:'哈萨克语原文',translation:'中文参考翻译',advanced:'高级信息',children:'所含内容',currentRecords:'当前审核记录',known:'人工复核提示',suggestions:'待审核的识别修正',showPage:'查看位置',printed:'印刷',moduleNumber:'任务',missing:'遗漏内容',drag:'在原图上拖动框选，或直接按页报告。',pageOnly:'按页报告',selectedRegion:'已框选遗漏区域。',possible:'可能的内容类型',save:'保存并继续',newType:'修正后的类型',parent:'修正后的归属',order:'同级阅读顺序位置（从 1 开始）',bbox:'新切割框（像素坐标 x0, y0, x1, y1）',redraw:'在原图上重新框选',badBox:'坐标无效，请重新框选或输入有效坐标。',change:'建议操作',keep:'保留当前值',replace:'修改',remove:'删除关联',supports:'提供知识或方法',uses_as_material:'直接使用材料',whichPage:'所在页',noEdit:'发现的问题可在备注中描述。',cell:'已选单元格',reason:'原因（选填）',issueNote:'问题说明（选填）',linked:'打开对象',select:'请选择',root:'本课',record:'记录',blank:'空白',printedVersion:'印刷排法',structure:'结构化说明',region:'位置',suggestionConfirm:'通过会记录对本对象所列修正建议的确认。',protected:'整体通过会保留带疑点、修正建议或既有问题的子项。',partial:'部分子项仍需单独审核。',draftError:'本地草稿无法恢复。可导入已导出的记录。',pageAudit:'这里可确认该页的切割覆盖，也可直接报告遗漏。',sourceOCR:'原始 OCR / 已有校对',badgeScope:'标签作用范围',unsure:'待确认',duplicate:'导入文件里同一记录 ID 对应不同内容。',
   },
   kk:{
     reviewer:'Тексеруші (міндетті емес)',import:'Жазбаларды импорттау',export:'JSON жазбаларын экспорттау',scan:'Оқулықтың түпнұсқа беті',review:'Тексерілетін нысан',page:'Бет',zoom:'Масштаб',elements:'Ішкі жиектер',omission:'Бетте қалып қойған мазмұн бар',cancel:'Бас тарту',module:'Тапсырма',filter:'Сүзгі',object:'Нысан',prev:'Алдыңғы',next:'Келесі',nextUnreviewed:'Келесі тексерілмеген нысан',approve:'Мақұлдау',issue:'Ақау бар',unable:'Анықтай алмадым',skip:'Өткізіп жіберу',bulk:'Бөлім мен күмәнсіз ішкі нысандарды мақұлдау',ocr:'Мәтінде қате бар',
     total:'Нысан',unreviewed:'Тексерілмеген',approved:'Мақұлданған',unable_to_verify:'Анықталмаған',all:'Барлығы',ocrOnly:'OCR және құрылым түзетулері',visual:'Сурет, кесте немесе өрнек',linkOnly:'Оқу байланыстары',none:'Бұл сүзгіде нысан жоқ',noPending:'Бұл сүзгіде басқа тексерілмеген нысан жоқ.',
-    draft:'Нобай осы браузерде ғана сақталады. JSON файлын экспорттаңыз.',noDraft:'Осы браузерде нобайды сақтау мүмкін емес. Жабар алдында JSON файлын экспорттаңыз.',saved:'Тексеру жазбасы сақталды.',skipped:'Өткізілді, тексеру күйі сақталды.',exported:'JSON жүктеп алу басталды. Файлдың сақталғанын тексеріңіз.',exportError:'Жүктеп алу басталмады.',imported:'Импорт аяқталды, бұрынғы жазбалар сақталды.',importError:'Импортталмады. Осы сабақ пен деректер нұсқасына сәйкес JSON файлын таңдаңыз.',conflict:'Тексеру жазбаларында қайшылық бар. Экспортта барлық нұсқа сақталады, шешімді адам қабылдайды.',notes:'Тексерушінің ескертпесі',kind:'Ақау түрі',corrected:'Ұсынылатын түзету (міндетті емес)',rawText:'Қазақша түпнұсқа',translation:'Қытайша аударма',advanced:'Қосымша деректер',children:'Ішкі мазмұн',currentRecords:'Ағымдағы жазбалар',known:'Тексеруге арналған ескертпе',suggestions:'Тексеруді қажет ететін түзетулер',showPage:'Орнын көру',printed:'Баспа беті',moduleNumber:'Тапсырма',missing:'Қалып қойған мазмұн',drag:'Түпнұсқадан аймақты белгілеңіз немесе бүкіл бетке ескерту қалдырыңыз.',pageOnly:'Бүкіл бетке ескерту',selectedRegion:'Қалып қойған аймақ белгіленді.',possible:'Ықтимал мазмұн түрі',save:'Сақтау және жалғастыру',newType:'Түзетілген түрі',parent:'Тиесілі жаңа нысан',order:'Оқу ретіндегі орны (1-ден бастап)',bbox:'Жаңа жақтау (пиксельмен x0, y0, x1, y1)',redraw:'Түпнұсқада аймақты қайта белгілеу',badBox:'Координаттар жарамсыз. Аймақты қайта белгілеңіз немесе дұрыс координаттарды енгізіңіз.',change:'Ұсынылатын әрекет',keep:'Сақтау',replace:'Өзгерту',remove:'Байланысты жою',from:'Пайдаланатын нысан',to:'Пайдаланылатын материал',supports:'Білім не әдіспен қолдайды',uses_as_material:'Материалды тікелей пайдаланады',whichPage:'Орналасқан бет',noEdit:'Ақауды ескертпеде сипаттауға болады.',cell:'Таңдалған ұяшық',reason:'Себебі (міндетті емес)',issueNote:'Ақау сипаттамасы (міндетті емес)',linked:'Нысанды ашу',select:'Таңдаңыз',root:'Осы сабақ',record:'Жазба',blank:'Бос',printedVersion:'Баспа нұсқасы',structure:'Құрылымдық сипаттама',region:'Орналасуы',suggestionConfirm:'Мақұлдағанда осы нысанның түзету ұсыныстары расталады.',protected:'Тұтас мақұлдау кезінде күмәні, түзету ұсынысы немесе ақауы бар ішкі нысандардың күйі сақталады.',partial:'Кей ішкі нысанды жеке тексеру керек.',draftError:'Жергілікті нобай ашылмады. Бұрын экспортталған жазбаларды импорттай аласыз.',pageAudit:'Бет мазмұнының толық қамтылуын тексеріңіз немесе қалып қойған аймақ туралы хабарлаңыз.',sourceOCR:'Бастапқы OCR / бұрынғы түзету',badgeScope:'Белгінің қолданылу аясы',unsure:'Тексеру керек',duplicate:'Бір жазба идентификаторы импортта әртүрлі мазмұнға берілген.',
+    draft:'Нобай осы браузерде ғана сақталады. JSON файлын экспорттаңыз.',noDraft:'Осы браузерде нобайды сақтау мүмкін емес. Жабар алдында JSON файлын экспорттаңыз.',saved:'Тексеру жазбасы сақталды.',skipped:'Өткізілді, тексеру күйі сақталды.',exported:'JSON жүктеп алу басталды. Файлдың сақталғанын тексеріңіз.',exportError:'Жүктеп алу басталмады.',imported:'Импорт аяқталды, бұрынғы жазбалар сақталды.',importError:'Импортталмады. Осы сабақ пен деректер нұсқасына сәйкес JSON файлын таңдаңыз.',conflict:'Тексеру жазбаларында қайшылық бар. Экспортта барлық нұсқа сақталады, шешімді адам қабылдайды.',notes:'Тексерушінің ескертпесі',kind:'Ақау түрі',corrected:'Ұсынылатын түзету (міндетті емес)',rawText:'Қазақша түпнұсқа',translation:'Қытайша аударма',advanced:'Қосымша деректер',children:'Ішкі мазмұн',currentRecords:'Ағымдағы жазбалар',known:'Тексеруге арналған ескертпе',suggestions:'Тексеруді қажет ететін түзетулер',showPage:'Орнын көру',printed:'Баспа беті',moduleNumber:'Тапсырма',missing:'Қалып қойған мазмұн',drag:'Түпнұсқадан аймақты белгілеңіз немесе бүкіл бетке ескерту қалдырыңыз.',pageOnly:'Бүкіл бетке ескерту',selectedRegion:'Қалып қойған аймақ белгіленді.',possible:'Ықтимал мазмұн түрі',save:'Сақтау және жалғастыру',newType:'Түзетілген түрі',parent:'Тиесілі жаңа нысан',order:'Оқу ретіндегі орны (1-ден бастап)',bbox:'Жаңа жақтау (пиксельмен x0, y0, x1, y1)',redraw:'Түпнұсқада аймақты қайта белгілеу',badBox:'Координаттар жарамсыз. Аймақты қайта белгілеңіз немесе дұрыс координаттарды енгізіңіз.',change:'Ұсынылатын әрекет',keep:'Сақтау',replace:'Өзгерту',remove:'Байланысты жою',supports:'Білім не әдіспен қолдайды',uses_as_material:'Материалды тікелей пайдаланады',whichPage:'Орналасқан бет',noEdit:'Ақауды ескертпеде сипаттауға болады.',cell:'Таңдалған ұяшық',reason:'Себебі (міндетті емес)',issueNote:'Ақау сипаттамасы (міндетті емес)',linked:'Нысанды ашу',select:'Таңдаңыз',root:'Осы сабақ',record:'Жазба',blank:'Бос',printedVersion:'Баспа нұсқасы',structure:'Құрылымдық сипаттама',region:'Орналасуы',suggestionConfirm:'Мақұлдағанда осы нысанның түзету ұсыныстары расталады.',protected:'Тұтас мақұлдау кезінде күмәні, түзету ұсынысы немесе ақауы бар ішкі нысандардың күйі сақталады.',partial:'Кей ішкі нысанды жеке тексеру керек.',draftError:'Жергілікті нобай ашылмады. Бұрын экспортталған жазбаларды импорттай аласыз.',pageAudit:'Бет мазмұнының толық қамтылуын тексеріңіз немесе қалып қойған аймақ туралы хабарлаңыз.',sourceOCR:'Бастапқы OCR / бұрынғы түзету',badgeScope:'Белгінің қолданылу аясы',unsure:'Тексеру керек',duplicate:'Бір жазба идентификаторы импортта әртүрлі мазмұнға берілген.',
   }
 }[lang];
 const types = {
@@ -41,6 +41,10 @@ const codes = {
 };
 const local = pair => pair[lang==='zh'?0:1];
 const nameOf = code => types[code] ?? code;
+const linkRoles = {
+  supports:[local(['提供方法或知识','Әдіс не білім беретін нысан']),local(['受支持的任务','Қолдау алатын тапсырма'])],
+  uses_as_material:[local(['使用者','Пайдаланатын нысан']),local(['引用材料','Пайдаланылатын материал'])]
+};
 const byId = new Map();
 const ordered = [];
 const pages = new Map(D.pages.map(p => [p.pdf_page,p]));
@@ -430,13 +434,14 @@ function renderContent(div,o,view) {
   if (o.structured_description) block(div,null,o.structured_description.description_kk);
   if (o.cells) renderTable(div,o,view);
   if (o.type==='teaching_link') {
-    block(div,ui.change,ui[o.relationship]);
+    block(div,ui.kind,ui[o.relationship]);
     block(div,ui.rawText,o.rationale_kk);
     block(div,ui.translation,aux(o.id),'translation');
     const nav=node('div',null,'toolbar');
-    for (const [key,id] of [['from',o.from_id],['to',o.to_id]]) {
+    const roles=linkRoles[o.relationship];
+    for (const [i,id] of [o.from_id,o.to_id].entries()) {
       const tgt=byId.get(id).o;
-      nav.append(button(`${ui[key]} · ${label(tgt)}`,()=>jumpTo(tgt)));
+      nav.append(button(`${roles[i]} · ${label(tgt)}`,()=>jumpTo(tgt)));
     }
     div.append(nav);
   }
@@ -605,19 +610,21 @@ function setFields(panel,code,ctx) {
     region.onchange=()=>{f.value=onPage[Number(region.value)].bbox.join(', ');};
     panel.append(button(ui.redraw,()=>startDraw('boundary',ctx)));
   } else if (code==='teaching_link') {
-    if (o.type==='teaching_link') {
-      selectField(panel,'link-action',ui.change,[['replace',ui.replace],['remove',ui.remove]]);
-      const candidates=ordered.filter(c=>!['page','teaching_link'].includes(c.type)).map(c=>[c.id,label(c)]);
-      selectField(panel,'link-from',ui.from,candidates,o.from_id);
-      selectField(panel,'link-to',ui.to,candidates,o.to_id);
-      selectField(panel,'link-relation',ui.kind,[['supports',ui.supports],['uses_as_material',ui.uses_as_material]],o.relationship);
-      inputText(o.rationale_kk);
-    } else {
-      const candidates=ordered.filter(c=>!['page','teaching_link'].includes(c.type)).map(c=>[c.id,label(c)]);
-      selectField(panel,'link-to',ui.to,[['',ui.select],...candidates]);
-      selectField(panel,'link-relation',ui.kind,[['supports',ui.supports],['uses_as_material',ui.uses_as_material]]);
-      inputText();
-    }
+    const editing=o.type==='teaching_link';
+    if (editing) selectField(panel,'link-action',ui.change,[['replace',ui.replace],['remove',ui.remove]]);
+    const candidates=ordered.filter(c=>!['page','teaching_link'].includes(c.type)).map(c=>[c.id,label(c)]);
+    const relation=selectField(panel,'link-relation',ui.kind,Object.keys(linkRoles).map(key=>[key,ui[key]]),
+      editing?o.relationship:linkOwner(o.id)==='instructional_note'?'supports':'uses_as_material');
+    const from=selectField(panel,'link-from','',candidates,editing?o.from_id:o.id);
+    const to=selectField(panel,'link-to','',[['',ui.select],...candidates],editing?o.to_id:'');
+    const updateRoles=()=>{
+      const [origin,target]=linkRoles[relation.value];
+      from.previousElementSibling.textContent=origin;
+      to.previousElementSibling.textContent=target;
+    };
+    relation.onchange=updateRoles;
+    updateRoles();
+    inputText(o.rationale_kk);
   } else if (code==='badge') {
     inputText(o.text_kk??'');
     const owner=byId.get(o.id)?.owner;
@@ -656,6 +663,14 @@ function flatChildren(o) {
 function validBbox(b,p) {
   return b.length===4 && b.every(x=>Number.isInteger(x) && x>=0) && b[0]<b[2] && b[1]<b[3] && b[2]<=p.width && b[3]<=p.height;
 }
+function linkOwner(id) {
+  return byId.get(byId.get(id)?.owner)?.o.type;
+}
+function validLinkDirection(from,to,relationship) {
+  if (!from || !to || from===to) return false;
+  if (relationship==='supports') return linkOwner(from)==='instructional_note' && linkOwner(to)==='module';
+  return relationship==='uses_as_material' && linkOwner(from)==='module';
+}
 function issueChanges(ctx,code) {
   const {o,cell,pdf,box}=ctx;
   const field=name=>get(ctx,name);
@@ -681,18 +696,21 @@ function issueChanges(ctx,code) {
     const old=o.page_refs.filter(r=>r.pdf_page===pdf)[Number(field('region-index').value)];
     put(o.id,'page_refs',old,{...old,bbox:input},'replace_region',{region_index:o.page_refs.indexOf(old)});
   } else if (code==='teaching_link') {
-    const to=field('link-to')?.value;
     const action=field('link-action')?.value;
-    if (o.type==='teaching_link') {
-      if (action==='remove') list.push(change('remove_link',o.id,'teaching_links',original(o),null));
-      else {
-        const from=field('link-from').value;
-        const next={from_id:from,to_id:to,relationship:field('link-relation').value,rationale_kk:value};
-        if (from===to) throw Error(ui.invalidLink);
-        put(o.id,'teaching_links',original(o),next,'update_link');
+    if (action==='remove') list.push(change('remove_link',o.id,'teaching_links',original(o),null));
+    else {
+      const from=field('link-from').value;
+      const to=field('link-to').value;
+      const relationship=field('link-relation').value;
+      if (to || o.type==='teaching_link') {
+        if (!validLinkDirection(from,to,relationship)) throw Error(ui.invalidLink);
+        const next={from_id:from,to_id:to,relationship,rationale_kk:value};
+        if (o.type==='teaching_link') {
+          put(o.id,'teaching_links',original(o),next,'update_link');
+        } else {
+          list.push(change('add_link',o.id,'teaching_links',null,next));
+        }
       }
-    } else if (to && to!==o.id) {
-      list.push(change('add_link',o.id,'teaching_links',null,{from_id:o.id,to_id:to,relationship:field('link-relation').value,rationale_kk:value}));
     }
   } else if (code==='badge') {
     put(o.id,'text_kk',o.text_kk,value);
@@ -1173,8 +1191,8 @@ scroller.addEventListener('scroll',()=>{if(!narrow())syncScroll();},{passive:tru
 window.addEventListener('scroll',()=>{if(narrow())syncScroll();},{passive:true});
 
 const extraLabels={
-  zh:{upper:'上行',lower:'下行',operator:'运算符',result:'结果',equivalence:'等值换算',invalidLink:'关联两端必须为不同对象。',rowSpan:'跨行数',colSpan:'跨列数'},
-  kk:{upper:'Жоғарғы жол',lower:'Төменгі жол',operator:'Амал таңбасы',result:'Нәтиже',equivalence:'Тең мәнді түрлендіру',invalidLink:'Байланыс екі бөлек нысанды қосуы керек.',rowSpan:'Қамтитын жол саны',colSpan:'Қамтитын баған саны'}
+  zh:{upper:'上行',lower:'下行',operator:'运算符',result:'结果',equivalence:'等值换算',invalidLink:'请检查关系方向。提供方法的说明指向受支持的任务，使用材料的任务指向所用材料，两端须为不同对象。',rowSpan:'跨行数',colSpan:'跨列数'},
+  kk:{upper:'Жоғарғы жол',lower:'Төменгі жол',operator:'Амал таңбасы',result:'Нәтиже',equivalence:'Тең мәнді түрлендіру',invalidLink:'Байланыс бағытын тексеріңіз. Әдіс беретін ескертпе қолдау алатын тапсырмаға, материалды қолданатын тапсырма сол материалға бағытталады. Екі нысан бөлек болуы керек.',rowSpan:'Қамтитын жол саны',colSpan:'Қамтитын баған саны'}
 };
 Object.assign(ui,extraLabels[lang]);
 for (const el of document.querySelectorAll('[data-i]')) el.textContent=ui[el.dataset.i];
