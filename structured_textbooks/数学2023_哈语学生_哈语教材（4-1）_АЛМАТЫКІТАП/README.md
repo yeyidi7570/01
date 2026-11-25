@@ -19,7 +19,7 @@
 
 | Lesson | 切割 | 内容审核 | 主观标签 | 标签审核 | 最终完成 |
 | --- | --- | --- | --- | --- | --- |
-| [lesson_001](01_segmentation/lesson_001/) | 已归档 V4，`pending_review` | [第一轮修订待复核](02_segmentation_review/lesson_001/revision_1/) | 未开始 | 未开始 | 未完成 |
+| [lesson_001](01_segmentation/lesson_001/) | 已归档 V4，`pending_review` | [第二轮修订待复核](02_segmentation_review/lesson_001/revision_2/) | 未开始 | 未开始 | 未完成 |
 | [lesson_002](01_segmentation/lesson_002/) | `segmentation_completed` | [第一轮修订复核通过](02_segmentation_review/lesson_002/revision_1/) | 未开始 | 未开始 | 未完成 |
 | [lesson_003](01_segmentation/lesson_003/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_004](01_segmentation/lesson_004/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
@@ -65,6 +65,8 @@
 第 1 课的正式入口为 [结构化 JSON](01_segmentation/lesson_001/content.json)、[中文连续审核](01_segmentation/lesson_001/review_zh.html) 和 [哈语连续审核](01_segmentation/lesson_001/review_kk.html)。两份审核页沿用 `v4.1` 数据、原切割坐标和对象 ID，支持导入此前导出的第一课审核记录。
 
 第 1 课已收到人工审核提交。第 8 页第 4 题的竖式对齐和连续计算步骤已根据原图修订，版本 `v4.1-r001` 待人工复核。原始切割版本保留。新版共 75 个内容审核项，51 项沿用有效通过，24 项待核。4 页完整性记录保留，借位示范有 1 项结构修订待确认。[原始提交](02_segmentation_review/lesson_001/submissions/review_001_original.json) · [新版 JSON](02_segmentation_review/lesson_001/revision_1/content.json) · [中文审核](02_segmentation_review/lesson_001/revision_1/review_zh.html) · [哈语审核](02_segmentation_review/lesson_001/revision_1/review_kk.html) · [修订记录](02_segmentation_review/lesson_001/revision_1/change_log.md)
+
+第 1 课第二轮修订 `v4.1-r002` 已按复核反馈，将第 8 页第 4 题的时间竖式改为直接展示原书裁图。75 项内容中 74 项沿用通过，修订的竖式待复核。4 页完整性已通过，借位示范仍有 1 项结构待确认。[第二份审核提交](02_segmentation_review/lesson_001/submissions/review_002_original.json) · [新版 JSON](02_segmentation_review/lesson_001/revision_2/content.json) · [中文审核](02_segmentation_review/lesson_001/revision_2/review_zh.html) · [哈语审核](02_segmentation_review/lesson_001/revision_2/review_kk.html) · [第二轮修订记录](02_segmentation_review/lesson_001/revision_2/change_log.md)
 
 第 2 课 `3-сыныпта өткенді қайталау` 以 `ЭКСПО-2017` 为情境，覆盖 PDF 和印刷第 11–13 页。第 14 页是第 3 课。保留 9 个 Module、1 个独立教学说明 `ОСЫЛАЙ ТАЛДА!`、6 个 Module Badge、2 幅信息性天平图、24 个公式对象、1 条支持关联和 27 条校对建议，其中 22 条为字符或排版建议，5 条为结构建议。建议人工复核第 4 题的变量字形、第 5 题的天平标注和第 9 题的右边框。子题的原书小写标记与大写索引并存。
 

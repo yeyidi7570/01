@@ -153,6 +153,9 @@ def validate_content(data):
                         f'invalid Cyrillic subtask number: {o["id"]}')
             if o.get('crop_asset_id'):
                 require(o['crop_asset_id'] in data['crop_assets'], f'missing crop asset: {o["id"]}')
+            if (o.get('vertical') or {}).get('presentation') == 'source_crop':
+                require(kind == 'formula' and o.get('crop_asset_id') and o.get('text_kk'),
+                        f'source-rendered formula needs a crop and transcription: {o["id"]}')
             sequence=o.get('worked_sequence')
             if sequence:
                 require(kind=='example' and bool(sequence['description_kk'])
@@ -256,14 +259,24 @@ def validate_review_history(data, ids, history):
     require(history['schema_version'] == 'textbook-review/4.0' and history['data_version'] == source_version
             and history['textbook_id'] == data['book']['id'] and history['lesson_id'] == data['lesson']['id'],
             'review package does not match the previous version')
+    versions = {source_version: source_ids}
+    for version, ancestor in revision.get('ancestors', {}).items():
+        ancestor_ids = set(ancestor['source_object_ids'])
+        require(version and version not in (data['data_version'], source_version)
+                and set(ancestor['equivalent_object_ids']) <= ancestor_ids & equivalent,
+                'invalid ancestor version or equivalent object')
+        versions[version] = ancestor_ids
     records = history['records']
-    require(isinstance(records, list), 'review records must be a list')
+    ancestors = history.get('prior_records', [])
+    require(isinstance(records, list) and isinstance(ancestors, list), 'review records must be lists')
     by_record = {}
-    for record in records:
+    for record, permitted in [(r, {source_version: source_ids}) for r in records] + [
+        (r, versions) for r in ancestors
+    ]:
         record_id = record['record_id']
         require(isinstance(record_id, str) and record_id and record_id not in by_record
-                and record['object_id'] in source_ids
-                and all(record[key] == history[key] for key in ('textbook_id','lesson_id','schema_version','data_version'))
+                and record['object_id'] in permitted.get(record['data_version'], ())
+                and all(record[key] == history[key] for key in ('textbook_id','lesson_id','schema_version'))
                 and record['status'] in ('approved','issue','unable_to_verify')
                 and record['interface_language'] in ('zh','kk')
                 and record['review_scope'] in ('textbook','auxiliary_translation','page_omission')

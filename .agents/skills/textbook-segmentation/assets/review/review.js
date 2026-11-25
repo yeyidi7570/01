@@ -49,6 +49,8 @@ const priorPackage = JSON.parse($('prior-review').textContent);
 const equivalent = new Set(revision?.equivalent_object_ids ?? []);
 const resolved = new Set(revision?.addressed_record_ids ?? []);
 const priorObjectIds = new Set(revision?.source_object_ids ?? []);
+const ancestry = new Map(Object.entries(revision?.ancestors ?? {}).map(([version, info]) =>
+  [version, {ids:new Set(info.source_object_ids), equivalent:new Set(info.equivalent_object_ids)}]));
 let priorRecords = new Map();
 const groupsOnly = new Set(['module','instructional_note','subtask','example']);
 const structureCodes = new Set(['missing_region','extra_region','boundary','assignment','element_type',
@@ -134,7 +136,9 @@ function hasContent(o) {
 const isContainer = o => groupsOnly.has(o.type) || children(o).length > 0;
 const structureRecord = (o,r) => r.report_kind==='structure_review' || (!hasContent(o) && r.status!=='approved');
 function signature(r) {
-  return canonical([r.status,r.issue_code??null,r.changes??[],r.confirmed_suggestion_ids??[]]);
+  const changes=r.changes??[];
+  return canonical([r.status,r.issue_code??null,
+    r.status==='approved'?changes.filter(c=>c.op!=='confirm_scan_restoration'):changes]);
 }
 function conflict(items) {
   return items.some((a,i)=>items.slice(i+1).some(b=>
@@ -149,9 +153,13 @@ function recordState(items) {
 function historical(o) {
   return priorFor(o.id).filter(r=>!resolved.has(r.record_id));
 }
+function equivalentIn(record, id) {
+  return (ancestry.get(record.data_version)?.equivalent ?? equivalent).has(id);
+}
 function contentState(o) {
   const current=liveRecords(o.id,true).filter(r=>!structureRecord(o,r));
-  const retained=historical(o).filter(r=>!structureRecord(o,r) && (equivalent.has(o.id) || r.status==='issue'));
+  const retained=historical(o).filter(r=>!structureRecord(o,r) &&
+    (equivalentIn(r,o.id) || r.status==='issue'));
   return recordState(current.length?[...current,...retained.filter(r=>r.status==='issue')]:retained);
 }
 function structureState(o) {
@@ -222,7 +230,7 @@ function message(text='',error=false) {
 
 function validRecord(r, version=manifest.data_version) {
   if (!r || typeof r.record_id!=='string' || typeof r.reviewer_stream_id!=='string' ||
-      !(version===manifest.data_version?recordables:priorObjectIds).has(r.object_id) || r.textbook_id!==manifest.textbook_id ||
+      !(version===manifest.data_version?recordables:ancestry.get(version)?.ids ?? priorObjectIds).has(r.object_id) || r.textbook_id!==manifest.textbook_id ||
       r.lesson_id!==manifest.lesson_id || r.data_version!==version || r.schema_version!==manifest.schema_version ||
       !recordStates.includes(r.status) || !['zh','kk'].includes(r.interface_language) ||
       !pages.has(r.pdf_page) || !['textbook','auxiliary_translation','page_omission'].includes(r.review_scope) || !Array.isArray(r.changes) || !Array.isArray(r.supersedes) ||
@@ -235,11 +243,13 @@ function canonical(value) {
   if (Array.isArray(value)) return '['+value.map(canonical).join(',')+']';
   return '{'+Object.keys(value).sort().map(k=>JSON.stringify(k)+':'+canonical(value[k])).join(',')+'}';
 }
-function mergeRecords(existing, incoming, version) {
+function mergeRecords(existing, incoming, version, historical=false) {
   if (!Array.isArray(incoming)) throw Error(ui.importError);
   const next=new Map(existing);
   for (const r of incoming) {
-    if (!validRecord(r,version)) throw Error(ui.importError);
+    const recordVersion=historical?r?.data_version:version;
+    if ((historical && recordVersion!==revision.source_version && !ancestry.has(recordVersion)) ||
+        !validRecord(r,recordVersion)) throw Error(ui.importError);
     const previous=next.get(r.record_id);
     if (previous && canonical(previous)!==canonical(r)) throw Error(ui.duplicate);
     next.set(r.record_id,r);
@@ -248,7 +258,8 @@ function mergeRecords(existing, incoming, version) {
     if (r.supersedes.some(id=>{
       const old=next.get(id);
       return id===r.record_id || old && (old.object_id!==r.object_id || old.reviewer_stream_id!==r.reviewer_stream_id ||
-        old.report_kind!==r.report_kind || old.review_scope!==r.review_scope || old.recorded_at>r.recorded_at);
+        old.data_version!==r.data_version || old.report_kind!==r.report_kind ||
+        old.review_scope!==r.review_scope || old.recorded_at>r.recorded_at);
     })) throw Error(ui.importError);
   }
   return next;
@@ -256,15 +267,16 @@ function mergeRecords(existing, incoming, version) {
 function merge(f) {
   if (!f || f.schema_version!==manifest.schema_version || f.textbook_id!==manifest.textbook_id ||
       f.lesson_id!==manifest.lesson_id) throw Error(ui.importError);
-  if (revision && f.data_version===revision.source_version) {
-    priorRecords=mergeRecords(priorRecords,f.records,revision.source_version);
+  if (revision && (f.data_version===revision.source_version || ancestry.has(f.data_version))) {
+    const previous=mergeRecords(priorRecords,f.records,f.data_version);
+    priorRecords=mergeRecords(previous,f.prior_records??[],null,true);
     return;
   }
   if (f.data_version!==manifest.data_version) throw Error(ui.importError);
   const next=mergeRecords(records,f.records,manifest.data_version);
   const prior=f.prior_records??[];
   if (!Array.isArray(prior) || (prior.length && !revision)) throw Error(ui.importError);
-  if (revision) priorRecords=mergeRecords(priorRecords,prior,revision.source_version);
+  if (revision) priorRecords=mergeRecords(priorRecords,prior,null,true);
   records=next;
 }
 function exportRecords() {
@@ -392,8 +404,9 @@ function renderContent(div,o,view) {
       !children(o).some(c=>c.type==='instructional_note_badge' || c.text_kk===o.instructional_note_badge)) {
     block(div,null,o.instructional_note_badge,'caption');
   }
-  if (o.vertical) renderVertical(div,o.vertical);
-  else block(div,null,o.text_kk,o.type==='formula'?'equations':'');
+  const sourceCrop=o.vertical?.presentation==='source_crop';
+  if (o.vertical && !sourceCrop) renderVertical(div,o.vertical);
+  else if (!sourceCrop) block(div,null,o.text_kk,o.type==='formula'?'equations':'');
   if (aux(o.id) && hasContent(o) && o.type!=='teaching_link') block(div,ui.translation,aux(o.id),'translation');
   if (o.scope_ids) {
     const scopes=o.scope_ids.map(id=>byId.get(id)?.o).filter(Boolean);
@@ -407,7 +420,7 @@ function renderContent(div,o,view) {
     img.width=r-x;
     img.height=b-y;
     img.src=images[imageId];
-    img.alt=`${ui.scan} · ${nameOf(o.type)}`;
+    img.alt=sourceCrop?o.text_kk:`${ui.scan} · ${nameOf(o.type)}`;
     div.append(img);
   }
   if (o.worked_sequence) {
@@ -789,9 +802,9 @@ function refreshStates() {
 }
 function updateFeedback(view,o) {
   const current=liveRecords(o.id,true).filter(r=>r.status!=='approved');
-  const previous=priorFor(o.id).filter(r=>r.status!=='approved' || (!equivalent.has(o.id) && hasContent(o)));
+  const previous=priorFor(o.id).filter(r=>r.status!=='approved' || (!equivalentIn(r,o.id) && hasContent(o)));
   const notes=[...new Set([...current,...previous].map(r=>r.note).filter(Boolean))];
-  const pending=ownStatus.get(o.id)!=='approved' && previous.some(r=>!equivalent.has(o.id) || resolved.has(r.record_id));
+  const pending=ownStatus.get(o.id)!=='approved' && previous.some(r=>!equivalentIn(r,o.id) || resolved.has(r.record_id));
   view.feedback.hidden=!notes.length && !pending;
   view.feedback.replaceChildren();
   if (pending) view.feedback.append(node('p',ui.historyPending));
