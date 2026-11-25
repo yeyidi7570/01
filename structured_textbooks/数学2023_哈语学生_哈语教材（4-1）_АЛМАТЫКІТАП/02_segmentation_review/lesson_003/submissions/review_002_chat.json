@@ -1,0 +1,65 @@
+{
+  "schema_version": "textbook-review/4.0",
+  "data_version": "v4.1-r001",
+  "textbook_id": "math-2023-grade4-part1",
+  "lesson_id": "math-2023-grade4-part1:lesson-003",
+  "records": [
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1-r001",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-003",
+      "record_id": "2249dc00-88f0-48e1-9b39-fd71bffdc63d",
+      "reviewer_stream_id": "a1bf6c7c-ff5e-49a8-9853-73678b27dfdd",
+      "report_kind": "structure_review",
+      "object_id": "math-2023-grade4-part1:lesson-003:m05",
+      "object_type": "module",
+      "pdf_page": 16,
+      "source_locations": [
+        {
+          "pdf_page": 16,
+          "printed_page": "16",
+          "bbox": [
+            113,
+            168,
+            909,
+            485
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p016:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "module",
+        "parent_id": "math-2023-grade4-part1:lesson-003",
+        "content_order": [
+          "math-2023-grade4-part1:lesson-003:m05:number",
+          "math-2023-grade4-part1:lesson-003:m05:prompt",
+          "math-2023-grade4-part1:lesson-003:m05:example",
+          "math-2023-grade4-part1:lesson-003:m05:number-1",
+          "math-2023-grade4-part1:lesson-003:m05:number-2",
+          "math-2023-grade4-part1:lesson-003:m05:number-3",
+          "math-2023-grade4-part1:lesson-003:m05:number-4"
+        ],
+        "exercise_input_ids": [
+          "math-2023-grade4-part1:lesson-003:m05:number-1",
+          "math-2023-grade4-part1:lesson-003:m05:number-2",
+          "math-2023-grade4-part1:lesson-003:m05:number-3",
+          "math-2023-grade4-part1:lesson-003:m05:number-4"
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T07:34:18.135Z",
+      "supersedes": [],
+      "provenance": {
+        "source": "user_chat",
+        "quote": "第三课结构也确认了"
+      }
+    }
+  ]
+}
