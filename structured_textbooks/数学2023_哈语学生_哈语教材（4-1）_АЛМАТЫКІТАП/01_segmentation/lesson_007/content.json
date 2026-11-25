@@ -1,6 +1,6 @@
 {
   "schema_version": "textbook-lesson/4.0",
-  "data_version": "v4.1",
+  "data_version": "v4.1-audit1",
   "review_status": "pending_review",
   "coordinate_system": {
     "origin": "top-left",
@@ -980,7 +980,198 @@
                 "crop_asset_id": "math-2023-grade4-part1:lesson-007:note-addition:example-3:calculation:crop",
                 "ocr_suggestion_ids": [
                   "math-2023-grade4-part1:lesson-007:note-addition:example-3:calculation:suggestion-1"
-                ]
+                ],
+                "vertical": {
+                  "layout": {
+                    "columns": [
+                      {
+                        "id": "operator"
+                      },
+                      {
+                        "id": "d1",
+                        "place": 100000
+                      },
+                      {
+                        "id": "d2",
+                        "place": 10000
+                      },
+                      {
+                        "id": "d3",
+                        "place": 1000
+                      },
+                      {
+                        "id": "d4",
+                        "place": 100
+                      },
+                      {
+                        "id": "d5",
+                        "place": 10
+                      },
+                      {
+                        "id": "d6",
+                        "place": 1
+                      }
+                    ],
+                    "units": {},
+                    "given": {
+                      "operator": "+",
+                      "operands": [
+                        [
+                          {
+                            "value": 486536
+                          }
+                        ],
+                        [
+                          {
+                            "value": 31201
+                          }
+                        ],
+                        [
+                          {
+                            "value": 392
+                          }
+                        ]
+                      ]
+                    },
+                    "rows": [
+                      {
+                        "role": "upper_operand",
+                        "cells": [
+                          {
+                            "column": "d1",
+                            "kind": "digit",
+                            "value": 4
+                          },
+                          {
+                            "column": "d2",
+                            "kind": "digit",
+                            "value": 8
+                          },
+                          {
+                            "column": "d3",
+                            "kind": "digit",
+                            "value": 6
+                          },
+                          {
+                            "column": "d4",
+                            "kind": "digit",
+                            "value": 5
+                          },
+                          {
+                            "column": "d5",
+                            "kind": "digit",
+                            "value": 3
+                          },
+                          {
+                            "column": "d6",
+                            "kind": "digit",
+                            "value": 6
+                          }
+                        ]
+                      },
+                      {
+                        "role": "lower_operand",
+                        "cells": [
+                          {
+                            "column": "d2",
+                            "kind": "digit",
+                            "value": 3
+                          },
+                          {
+                            "column": "d3",
+                            "kind": "digit",
+                            "value": 1
+                          },
+                          {
+                            "column": "d4",
+                            "kind": "digit",
+                            "value": 2
+                          },
+                          {
+                            "column": "d5",
+                            "kind": "digit",
+                            "value": 0
+                          },
+                          {
+                            "column": "d6",
+                            "kind": "digit",
+                            "value": 1
+                          }
+                        ]
+                      },
+                      {
+                        "role": "lower_operand",
+                        "cells": [
+                          {
+                            "column": "operator",
+                            "kind": "operator",
+                            "value": "+"
+                          },
+                          {
+                            "column": "d4",
+                            "kind": "digit",
+                            "value": 3
+                          },
+                          {
+                            "column": "d5",
+                            "kind": "digit",
+                            "value": 9
+                          },
+                          {
+                            "column": "d6",
+                            "kind": "digit",
+                            "value": 2
+                          }
+                        ]
+                      },
+                      {
+                        "role": "rule",
+                        "cells": [
+                          {
+                            "column": "d1",
+                            "kind": "rule",
+                            "span": 6
+                          }
+                        ]
+                      },
+                      {
+                        "role": "result",
+                        "cells": [
+                          {
+                            "column": "d1",
+                            "kind": "digit",
+                            "value": 5
+                          },
+                          {
+                            "column": "d2",
+                            "kind": "digit",
+                            "value": 1
+                          },
+                          {
+                            "column": "d3",
+                            "kind": "digit",
+                            "value": 8
+                          },
+                          {
+                            "column": "d4",
+                            "kind": "digit",
+                            "value": 1
+                          },
+                          {
+                            "column": "d5",
+                            "kind": "digit",
+                            "value": 2
+                          },
+                          {
+                            "column": "d6",
+                            "kind": "digit",
+                            "value": 9
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
               }
             ],
             "content_order": [
@@ -1634,7 +1825,150 @@
                 "crop_asset_id": "math-2023-grade4-part1:lesson-007:note-subtraction:example-1:calculation:crop",
                 "ocr_suggestion_ids": [
                   "math-2023-grade4-part1:lesson-007:note-subtraction:example-1:calculation:suggestion-1"
-                ]
+                ],
+                "vertical": {
+                  "layout": {
+                    "columns": [
+                      {
+                        "id": "operator"
+                      },
+                      {
+                        "id": "d1",
+                        "place": 1000
+                      },
+                      {
+                        "id": "d2",
+                        "place": 100
+                      },
+                      {
+                        "id": "d3",
+                        "place": 10
+                      },
+                      {
+                        "id": "d4",
+                        "place": 1
+                      }
+                    ],
+                    "units": {},
+                    "given": {
+                      "operator": "−",
+                      "operands": [
+                        [
+                          {
+                            "value": 8567
+                          }
+                        ],
+                        [
+                          {
+                            "value": 3284
+                          }
+                        ]
+                      ]
+                    },
+                    "rows": [
+                      {
+                        "role": "annotation",
+                        "cells": [
+                          {
+                            "column": "d2",
+                            "kind": "marker",
+                            "value": "·"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "upper_operand",
+                        "cells": [
+                          {
+                            "column": "d1",
+                            "kind": "digit",
+                            "value": 8
+                          },
+                          {
+                            "column": "d2",
+                            "kind": "digit",
+                            "value": 5
+                          },
+                          {
+                            "column": "d3",
+                            "kind": "digit",
+                            "value": 6
+                          },
+                          {
+                            "column": "d4",
+                            "kind": "digit",
+                            "value": 7
+                          }
+                        ]
+                      },
+                      {
+                        "role": "lower_operand",
+                        "cells": [
+                          {
+                            "column": "operator",
+                            "kind": "operator",
+                            "value": "−"
+                          },
+                          {
+                            "column": "d1",
+                            "kind": "digit",
+                            "value": 3
+                          },
+                          {
+                            "column": "d2",
+                            "kind": "digit",
+                            "value": 2
+                          },
+                          {
+                            "column": "d3",
+                            "kind": "digit",
+                            "value": 8
+                          },
+                          {
+                            "column": "d4",
+                            "kind": "digit",
+                            "value": 4
+                          }
+                        ]
+                      },
+                      {
+                        "role": "rule",
+                        "cells": [
+                          {
+                            "column": "d1",
+                            "kind": "rule",
+                            "span": 4
+                          }
+                        ]
+                      },
+                      {
+                        "role": "result",
+                        "cells": [
+                          {
+                            "column": "d1",
+                            "kind": "digit",
+                            "value": 5
+                          },
+                          {
+                            "column": "d2",
+                            "kind": "digit",
+                            "value": 2
+                          },
+                          {
+                            "column": "d3",
+                            "kind": "digit",
+                            "value": 8
+                          },
+                          {
+                            "column": "d4",
+                            "kind": "digit",
+                            "value": 3
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
               }
             ],
             "content_order": [
@@ -1735,7 +2069,164 @@
                 "crop_asset_id": "math-2023-grade4-part1:lesson-007:note-subtraction:example-2:calculation:crop",
                 "ocr_suggestion_ids": [
                   "math-2023-grade4-part1:lesson-007:note-subtraction:example-2:calculation:suggestion-1"
-                ]
+                ],
+                "vertical": {
+                  "layout": {
+                    "columns": [
+                      {
+                        "id": "operator"
+                      },
+                      {
+                        "id": "d1",
+                        "place": 10000
+                      },
+                      {
+                        "id": "d2",
+                        "place": 1000
+                      },
+                      {
+                        "id": "d3",
+                        "place": 100
+                      },
+                      {
+                        "id": "d4",
+                        "place": 10
+                      },
+                      {
+                        "id": "d5",
+                        "place": 1
+                      }
+                    ],
+                    "units": {},
+                    "given": {
+                      "operator": "−",
+                      "operands": [
+                        [
+                          {
+                            "value": 12680
+                          }
+                        ],
+                        [
+                          {
+                            "value": 7453
+                          }
+                        ]
+                      ]
+                    },
+                    "rows": [
+                      {
+                        "role": "annotation",
+                        "cells": [
+                          {
+                            "column": "d1",
+                            "kind": "marker",
+                            "value": "·"
+                          },
+                          {
+                            "column": "d4",
+                            "kind": "marker",
+                            "value": "·"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "upper_operand",
+                        "cells": [
+                          {
+                            "column": "d1",
+                            "kind": "digit",
+                            "value": 1
+                          },
+                          {
+                            "column": "d2",
+                            "kind": "digit",
+                            "value": 2
+                          },
+                          {
+                            "column": "d3",
+                            "kind": "digit",
+                            "value": 6
+                          },
+                          {
+                            "column": "d4",
+                            "kind": "digit",
+                            "value": 8
+                          },
+                          {
+                            "column": "d5",
+                            "kind": "digit",
+                            "value": 0
+                          }
+                        ]
+                      },
+                      {
+                        "role": "lower_operand",
+                        "cells": [
+                          {
+                            "column": "operator",
+                            "kind": "operator",
+                            "value": "−"
+                          },
+                          {
+                            "column": "d2",
+                            "kind": "digit",
+                            "value": 7
+                          },
+                          {
+                            "column": "d3",
+                            "kind": "digit",
+                            "value": 4
+                          },
+                          {
+                            "column": "d4",
+                            "kind": "digit",
+                            "value": 5
+                          },
+                          {
+                            "column": "d5",
+                            "kind": "digit",
+                            "value": 3
+                          }
+                        ]
+                      },
+                      {
+                        "role": "rule",
+                        "cells": [
+                          {
+                            "column": "d1",
+                            "kind": "rule",
+                            "span": 5
+                          }
+                        ]
+                      },
+                      {
+                        "role": "result",
+                        "cells": [
+                          {
+                            "column": "d2",
+                            "kind": "digit",
+                            "value": 5
+                          },
+                          {
+                            "column": "d3",
+                            "kind": "digit",
+                            "value": 2
+                          },
+                          {
+                            "column": "d4",
+                            "kind": "digit",
+                            "value": 2
+                          },
+                          {
+                            "column": "d5",
+                            "kind": "digit",
+                            "value": 7
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
               }
             ],
             "content_order": [
@@ -1900,7 +2391,174 @@
                 "crop_asset_id": "math-2023-grade4-part1:lesson-007:note-subtraction:example-3:calculation:crop",
                 "ocr_suggestion_ids": [
                   "math-2023-grade4-part1:lesson-007:note-subtraction:example-3:calculation:suggestion-1"
-                ]
+                ],
+                "vertical": {
+                  "layout": {
+                    "columns": [
+                      {
+                        "id": "operator"
+                      },
+                      {
+                        "id": "d1",
+                        "place": 10000
+                      },
+                      {
+                        "id": "d2",
+                        "place": 1000
+                      },
+                      {
+                        "id": "d3",
+                        "place": 100
+                      },
+                      {
+                        "id": "d4",
+                        "place": 10
+                      },
+                      {
+                        "id": "d5",
+                        "place": 1
+                      }
+                    ],
+                    "units": {},
+                    "given": {
+                      "operator": "−",
+                      "operands": [
+                        [
+                          {
+                            "value": 40003
+                          }
+                        ],
+                        [
+                          {
+                            "value": 352
+                          }
+                        ]
+                      ]
+                    },
+                    "rows": [
+                      {
+                        "role": "annotation",
+                        "cells": [
+                          {
+                            "column": "d1",
+                            "kind": "marker",
+                            "value": "·"
+                          },
+                          {
+                            "column": "d2",
+                            "kind": "marker",
+                            "value": "9"
+                          },
+                          {
+                            "column": "d3",
+                            "kind": "marker",
+                            "value": "9"
+                          },
+                          {
+                            "column": "d4",
+                            "kind": "marker",
+                            "value": "10"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "upper_operand",
+                        "cells": [
+                          {
+                            "column": "d1",
+                            "kind": "digit",
+                            "value": 4
+                          },
+                          {
+                            "column": "d2",
+                            "kind": "digit",
+                            "value": 0
+                          },
+                          {
+                            "column": "d3",
+                            "kind": "digit",
+                            "value": 0
+                          },
+                          {
+                            "column": "d4",
+                            "kind": "digit",
+                            "value": 0
+                          },
+                          {
+                            "column": "d5",
+                            "kind": "digit",
+                            "value": 3
+                          }
+                        ]
+                      },
+                      {
+                        "role": "lower_operand",
+                        "cells": [
+                          {
+                            "column": "operator",
+                            "kind": "operator",
+                            "value": "−"
+                          },
+                          {
+                            "column": "d3",
+                            "kind": "digit",
+                            "value": 3
+                          },
+                          {
+                            "column": "d4",
+                            "kind": "digit",
+                            "value": 5
+                          },
+                          {
+                            "column": "d5",
+                            "kind": "digit",
+                            "value": 2
+                          }
+                        ]
+                      },
+                      {
+                        "role": "rule",
+                        "cells": [
+                          {
+                            "column": "d1",
+                            "kind": "rule",
+                            "span": 5
+                          }
+                        ]
+                      },
+                      {
+                        "role": "result",
+                        "cells": [
+                          {
+                            "column": "d1",
+                            "kind": "digit",
+                            "value": 3
+                          },
+                          {
+                            "column": "d2",
+                            "kind": "digit",
+                            "value": 9
+                          },
+                          {
+                            "column": "d3",
+                            "kind": "digit",
+                            "value": 6
+                          },
+                          {
+                            "column": "d4",
+                            "kind": "digit",
+                            "value": 5
+                          },
+                          {
+                            "column": "d5",
+                            "kind": "digit",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
               }
             ],
             "content_order": [
@@ -2132,7 +2790,233 @@
                 "crop_asset_id": "math-2023-grade4-part1:lesson-007:note-subtraction:example-4:calculation:crop",
                 "ocr_suggestion_ids": [
                   "math-2023-grade4-part1:lesson-007:note-subtraction:example-4:calculation:suggestion-1"
-                ]
+                ],
+                "vertical": {
+                  "layout": {
+                    "columns": [
+                      {
+                        "id": "operator"
+                      },
+                      {
+                        "id": "d1",
+                        "place": 100000
+                      },
+                      {
+                        "id": "d2",
+                        "place": 10000
+                      },
+                      {
+                        "id": "d3",
+                        "place": 1000
+                      },
+                      {
+                        "id": "d4",
+                        "place": 100
+                      },
+                      {
+                        "id": "d5",
+                        "place": 10
+                      },
+                      {
+                        "id": "d6",
+                        "place": 1
+                      }
+                    ],
+                    "units": {},
+                    "given": {
+                      "operator": "−",
+                      "operands": [
+                        [
+                          {
+                            "value": 600100
+                          }
+                        ],
+                        [
+                          {
+                            "value": 54273
+                          }
+                        ]
+                      ]
+                    },
+                    "rows": [
+                      {
+                        "role": "annotation",
+                        "cells": [
+                          {
+                            "column": "d2",
+                            "kind": "marker",
+                            "value": "9"
+                          },
+                          {
+                            "column": "d3",
+                            "kind": "marker",
+                            "value": "9"
+                          },
+                          {
+                            "column": "d4",
+                            "kind": "marker",
+                            "value": "10"
+                          },
+                          {
+                            "column": "d5",
+                            "kind": "marker",
+                            "value": "9"
+                          },
+                          {
+                            "column": "d6",
+                            "kind": "marker",
+                            "value": "10"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "annotation",
+                        "cells": [
+                          {
+                            "column": "d1",
+                            "kind": "marker",
+                            "value": "·"
+                          },
+                          {
+                            "column": "d2",
+                            "kind": "marker",
+                            "value": "·"
+                          },
+                          {
+                            "column": "d3",
+                            "kind": "marker",
+                            "value": "·"
+                          },
+                          {
+                            "column": "d4",
+                            "kind": "marker",
+                            "value": "·"
+                          },
+                          {
+                            "column": "d5",
+                            "kind": "marker",
+                            "value": "·"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "upper_operand",
+                        "cells": [
+                          {
+                            "column": "d1",
+                            "kind": "digit",
+                            "value": 6
+                          },
+                          {
+                            "column": "d2",
+                            "kind": "digit",
+                            "value": 0
+                          },
+                          {
+                            "column": "d3",
+                            "kind": "digit",
+                            "value": 0
+                          },
+                          {
+                            "column": "d4",
+                            "kind": "digit",
+                            "value": 1
+                          },
+                          {
+                            "column": "d5",
+                            "kind": "digit",
+                            "value": 0
+                          },
+                          {
+                            "column": "d6",
+                            "kind": "digit",
+                            "value": 0
+                          }
+                        ]
+                      },
+                      {
+                        "role": "lower_operand",
+                        "cells": [
+                          {
+                            "column": "operator",
+                            "kind": "operator",
+                            "value": "−"
+                          },
+                          {
+                            "column": "d2",
+                            "kind": "digit",
+                            "value": 5
+                          },
+                          {
+                            "column": "d3",
+                            "kind": "digit",
+                            "value": 4
+                          },
+                          {
+                            "column": "d4",
+                            "kind": "digit",
+                            "value": 2
+                          },
+                          {
+                            "column": "d5",
+                            "kind": "digit",
+                            "value": 7
+                          },
+                          {
+                            "column": "d6",
+                            "kind": "digit",
+                            "value": 3
+                          }
+                        ]
+                      },
+                      {
+                        "role": "rule",
+                        "cells": [
+                          {
+                            "column": "d1",
+                            "kind": "rule",
+                            "span": 6
+                          }
+                        ]
+                      },
+                      {
+                        "role": "result",
+                        "cells": [
+                          {
+                            "column": "d1",
+                            "kind": "digit",
+                            "value": 5
+                          },
+                          {
+                            "column": "d2",
+                            "kind": "digit",
+                            "value": 4
+                          },
+                          {
+                            "column": "d3",
+                            "kind": "digit",
+                            "value": 5
+                          },
+                          {
+                            "column": "d4",
+                            "kind": "digit",
+                            "value": 8
+                          },
+                          {
+                            "column": "d5",
+                            "kind": "digit",
+                            "value": 2
+                          },
+                          {
+                            "column": "d6",
+                            "kind": "digit",
+                            "value": 7
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
               }
             ],
             "content_order": [
@@ -25727,5 +26611,250 @@
     "text_ocr_suggestions": 44,
     "structure_suggestions": 10,
     "review_objects": 121
+  },
+  "review_revision": {
+    "source_version": "v4.1",
+    "source_object_ids": [
+      "math-2023-grade4-part1:lesson-007:closing-cover-words",
+      "math-2023-grade4-part1:lesson-007:cover-words",
+      "math-2023-grade4-part1:lesson-007:header",
+      "math-2023-grade4-part1:lesson-007:header:number",
+      "math-2023-grade4-part1:lesson-007:header:theme",
+      "math-2023-grade4-part1:lesson-007:header:title",
+      "math-2023-grade4-part1:lesson-007:intro",
+      "math-2023-grade4-part1:lesson-007:intro:label",
+      "math-2023-grade4-part1:lesson-007:intro:objective",
+      "math-2023-grade4-part1:lesson-007:link-m02-addition",
+      "math-2023-grade4-part1:lesson-007:link-m02-subtraction",
+      "math-2023-grade4-part1:lesson-007:link-note-addition-m03",
+      "math-2023-grade4-part1:lesson-007:link-note-subtraction-m03",
+      "math-2023-grade4-part1:lesson-007:link-note-subtraction-m04",
+      "math-2023-grade4-part1:lesson-007:m01",
+      "math-2023-grade4-part1:lesson-007:m01:number",
+      "math-2023-grade4-part1:lesson-007:m01:prompt",
+      "math-2023-grade4-part1:lesson-007:m02",
+      "math-2023-grade4-part1:lesson-007:m02:continuation",
+      "math-2023-grade4-part1:lesson-007:m02:number",
+      "math-2023-grade4-part1:lesson-007:m02:prompt",
+      "math-2023-grade4-part1:lesson-007:m03",
+      "math-2023-grade4-part1:lesson-007:m03:badge",
+      "math-2023-grade4-part1:lesson-007:m03:formula-1",
+      "math-2023-grade4-part1:lesson-007:m03:formula-2",
+      "math-2023-grade4-part1:lesson-007:m03:formula-3",
+      "math-2023-grade4-part1:lesson-007:m03:formula-4",
+      "math-2023-grade4-part1:lesson-007:m03:formula-5",
+      "math-2023-grade4-part1:lesson-007:m03:formula-6",
+      "math-2023-grade4-part1:lesson-007:m03:number",
+      "math-2023-grade4-part1:lesson-007:m03:prompt",
+      "math-2023-grade4-part1:lesson-007:m04",
+      "math-2023-grade4-part1:lesson-007:m04:formula-1",
+      "math-2023-grade4-part1:lesson-007:m04:formula-2",
+      "math-2023-grade4-part1:lesson-007:m04:formula-3",
+      "math-2023-grade4-part1:lesson-007:m04:formula-4",
+      "math-2023-grade4-part1:lesson-007:m04:formula-5",
+      "math-2023-grade4-part1:lesson-007:m04:formula-6",
+      "math-2023-grade4-part1:lesson-007:m04:number",
+      "math-2023-grade4-part1:lesson-007:m04:prompt",
+      "math-2023-grade4-part1:lesson-007:m05",
+      "math-2023-grade4-part1:lesson-007:m05:badge",
+      "math-2023-grade4-part1:lesson-007:m05:context",
+      "math-2023-grade4-part1:lesson-007:m05:number",
+      "math-2023-grade4-part1:lesson-007:m05:prompt",
+      "math-2023-grade4-part1:lesson-007:m05:question",
+      "math-2023-grade4-part1:lesson-007:m05:train-context",
+      "math-2023-grade4-part1:lesson-007:m05:train-fares",
+      "math-2023-grade4-part1:lesson-007:m06",
+      "math-2023-grade4-part1:lesson-007:m06:air-ticket-sales",
+      "math-2023-grade4-part1:lesson-007:m06:badge",
+      "math-2023-grade4-part1:lesson-007:m06:number",
+      "math-2023-grade4-part1:lesson-007:m06:prompt",
+      "math-2023-grade4-part1:lesson-007:m07",
+      "math-2023-grade4-part1:lesson-007:m07:badge",
+      "math-2023-grade4-part1:lesson-007:m07:context",
+      "math-2023-grade4-part1:lesson-007:m07:number",
+      "math-2023-grade4-part1:lesson-007:m07:prompt",
+      "math-2023-grade4-part1:lesson-007:m08",
+      "math-2023-grade4-part1:lesson-007:m08:distances",
+      "math-2023-grade4-part1:lesson-007:m08:instruction",
+      "math-2023-grade4-part1:lesson-007:m08:number",
+      "math-2023-grade4-part1:lesson-007:m08:prompt",
+      "math-2023-grade4-part1:lesson-007:m09",
+      "math-2023-grade4-part1:lesson-007:m09:badge",
+      "math-2023-grade4-part1:lesson-007:m09:number",
+      "math-2023-grade4-part1:lesson-007:m09:prompt",
+      "math-2023-grade4-part1:lesson-007:m09:question",
+      "math-2023-grade4-part1:lesson-007:m10",
+      "math-2023-grade4-part1:lesson-007:m10:badge",
+      "math-2023-grade4-part1:lesson-007:m10:formula-1",
+      "math-2023-grade4-part1:lesson-007:m10:formula-2",
+      "math-2023-grade4-part1:lesson-007:m10:formula-3",
+      "math-2023-grade4-part1:lesson-007:m10:formula-4",
+      "math-2023-grade4-part1:lesson-007:m10:number",
+      "math-2023-grade4-part1:lesson-007:m10:prompt",
+      "math-2023-grade4-part1:lesson-007:note-addition",
+      "math-2023-grade4-part1:lesson-007:note-addition:algorithm",
+      "math-2023-grade4-part1:lesson-007:note-addition:algorithm:step-1",
+      "math-2023-grade4-part1:lesson-007:note-addition:algorithm:step-2",
+      "math-2023-grade4-part1:lesson-007:note-addition:algorithm:step-3",
+      "math-2023-grade4-part1:lesson-007:note-addition:algorithm:step-4",
+      "math-2023-grade4-part1:lesson-007:note-addition:algorithm:step-5",
+      "math-2023-grade4-part1:lesson-007:note-addition:algorithm:step-6",
+      "math-2023-grade4-part1:lesson-007:note-addition:algorithm:step-7",
+      "math-2023-grade4-part1:lesson-007:note-addition:alignment",
+      "math-2023-grade4-part1:lesson-007:note-addition:example-1",
+      "math-2023-grade4-part1:lesson-007:note-addition:example-1:calculation",
+      "math-2023-grade4-part1:lesson-007:note-addition:example-2",
+      "math-2023-grade4-part1:lesson-007:note-addition:example-2:calculation",
+      "math-2023-grade4-part1:lesson-007:note-addition:example-3",
+      "math-2023-grade4-part1:lesson-007:note-addition:example-3:calculation",
+      "math-2023-grade4-part1:lesson-007:note-addition:example-4",
+      "math-2023-grade4-part1:lesson-007:note-addition:example-4:calculation",
+      "math-2023-grade4-part1:lesson-007:note-addition:operation",
+      "math-2023-grade4-part1:lesson-007:note-subtraction",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:algorithm",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:algorithm:step-1",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:algorithm:step-2",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:algorithm:step-3",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:algorithm:step-4",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:algorithm:step-5",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:algorithm:step-6",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:algorithm:step-7",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:alignment",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:example-1",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:example-1:calculation",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:example-2",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:example-2:calculation",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:example-3",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:example-3:calculation",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:example-4",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:example-4:calculation",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:operation",
+      "math-2023-grade4-part1:lesson-007:running-30",
+      "math-2023-grade4-part1:lesson-007:running-31",
+      "math-2023-grade4-part1:lesson-007:running-32",
+      "math-2023-grade4-part1:p029",
+      "math-2023-grade4-part1:p030",
+      "math-2023-grade4-part1:p031",
+      "math-2023-grade4-part1:p032"
+    ],
+    "equivalent_object_ids": [
+      "math-2023-grade4-part1:lesson-007:closing-cover-words",
+      "math-2023-grade4-part1:lesson-007:cover-words",
+      "math-2023-grade4-part1:lesson-007:header",
+      "math-2023-grade4-part1:lesson-007:header:number",
+      "math-2023-grade4-part1:lesson-007:header:theme",
+      "math-2023-grade4-part1:lesson-007:header:title",
+      "math-2023-grade4-part1:lesson-007:intro",
+      "math-2023-grade4-part1:lesson-007:intro:label",
+      "math-2023-grade4-part1:lesson-007:intro:objective",
+      "math-2023-grade4-part1:lesson-007:link-m02-addition",
+      "math-2023-grade4-part1:lesson-007:link-m02-subtraction",
+      "math-2023-grade4-part1:lesson-007:link-note-addition-m03",
+      "math-2023-grade4-part1:lesson-007:link-note-subtraction-m03",
+      "math-2023-grade4-part1:lesson-007:link-note-subtraction-m04",
+      "math-2023-grade4-part1:lesson-007:m01",
+      "math-2023-grade4-part1:lesson-007:m01:number",
+      "math-2023-grade4-part1:lesson-007:m01:prompt",
+      "math-2023-grade4-part1:lesson-007:m02",
+      "math-2023-grade4-part1:lesson-007:m02:continuation",
+      "math-2023-grade4-part1:lesson-007:m02:number",
+      "math-2023-grade4-part1:lesson-007:m02:prompt",
+      "math-2023-grade4-part1:lesson-007:m03",
+      "math-2023-grade4-part1:lesson-007:m03:badge",
+      "math-2023-grade4-part1:lesson-007:m03:formula-1",
+      "math-2023-grade4-part1:lesson-007:m03:formula-2",
+      "math-2023-grade4-part1:lesson-007:m03:formula-3",
+      "math-2023-grade4-part1:lesson-007:m03:formula-4",
+      "math-2023-grade4-part1:lesson-007:m03:formula-5",
+      "math-2023-grade4-part1:lesson-007:m03:formula-6",
+      "math-2023-grade4-part1:lesson-007:m03:number",
+      "math-2023-grade4-part1:lesson-007:m03:prompt",
+      "math-2023-grade4-part1:lesson-007:m04",
+      "math-2023-grade4-part1:lesson-007:m04:formula-1",
+      "math-2023-grade4-part1:lesson-007:m04:formula-2",
+      "math-2023-grade4-part1:lesson-007:m04:formula-3",
+      "math-2023-grade4-part1:lesson-007:m04:formula-4",
+      "math-2023-grade4-part1:lesson-007:m04:formula-5",
+      "math-2023-grade4-part1:lesson-007:m04:formula-6",
+      "math-2023-grade4-part1:lesson-007:m04:number",
+      "math-2023-grade4-part1:lesson-007:m04:prompt",
+      "math-2023-grade4-part1:lesson-007:m05",
+      "math-2023-grade4-part1:lesson-007:m05:badge",
+      "math-2023-grade4-part1:lesson-007:m05:context",
+      "math-2023-grade4-part1:lesson-007:m05:number",
+      "math-2023-grade4-part1:lesson-007:m05:prompt",
+      "math-2023-grade4-part1:lesson-007:m05:question",
+      "math-2023-grade4-part1:lesson-007:m05:train-context",
+      "math-2023-grade4-part1:lesson-007:m05:train-fares",
+      "math-2023-grade4-part1:lesson-007:m06",
+      "math-2023-grade4-part1:lesson-007:m06:air-ticket-sales",
+      "math-2023-grade4-part1:lesson-007:m06:badge",
+      "math-2023-grade4-part1:lesson-007:m06:number",
+      "math-2023-grade4-part1:lesson-007:m06:prompt",
+      "math-2023-grade4-part1:lesson-007:m07",
+      "math-2023-grade4-part1:lesson-007:m07:badge",
+      "math-2023-grade4-part1:lesson-007:m07:context",
+      "math-2023-grade4-part1:lesson-007:m07:number",
+      "math-2023-grade4-part1:lesson-007:m07:prompt",
+      "math-2023-grade4-part1:lesson-007:m08",
+      "math-2023-grade4-part1:lesson-007:m08:distances",
+      "math-2023-grade4-part1:lesson-007:m08:instruction",
+      "math-2023-grade4-part1:lesson-007:m08:number",
+      "math-2023-grade4-part1:lesson-007:m08:prompt",
+      "math-2023-grade4-part1:lesson-007:m09",
+      "math-2023-grade4-part1:lesson-007:m09:badge",
+      "math-2023-grade4-part1:lesson-007:m09:number",
+      "math-2023-grade4-part1:lesson-007:m09:prompt",
+      "math-2023-grade4-part1:lesson-007:m09:question",
+      "math-2023-grade4-part1:lesson-007:m10",
+      "math-2023-grade4-part1:lesson-007:m10:badge",
+      "math-2023-grade4-part1:lesson-007:m10:formula-1",
+      "math-2023-grade4-part1:lesson-007:m10:formula-2",
+      "math-2023-grade4-part1:lesson-007:m10:formula-3",
+      "math-2023-grade4-part1:lesson-007:m10:formula-4",
+      "math-2023-grade4-part1:lesson-007:m10:number",
+      "math-2023-grade4-part1:lesson-007:m10:prompt",
+      "math-2023-grade4-part1:lesson-007:note-addition",
+      "math-2023-grade4-part1:lesson-007:note-addition:algorithm",
+      "math-2023-grade4-part1:lesson-007:note-addition:algorithm:step-1",
+      "math-2023-grade4-part1:lesson-007:note-addition:algorithm:step-2",
+      "math-2023-grade4-part1:lesson-007:note-addition:algorithm:step-3",
+      "math-2023-grade4-part1:lesson-007:note-addition:algorithm:step-4",
+      "math-2023-grade4-part1:lesson-007:note-addition:algorithm:step-5",
+      "math-2023-grade4-part1:lesson-007:note-addition:algorithm:step-6",
+      "math-2023-grade4-part1:lesson-007:note-addition:algorithm:step-7",
+      "math-2023-grade4-part1:lesson-007:note-addition:alignment",
+      "math-2023-grade4-part1:lesson-007:note-addition:example-1",
+      "math-2023-grade4-part1:lesson-007:note-addition:example-1:calculation",
+      "math-2023-grade4-part1:lesson-007:note-addition:example-2",
+      "math-2023-grade4-part1:lesson-007:note-addition:example-2:calculation",
+      "math-2023-grade4-part1:lesson-007:note-addition:example-3",
+      "math-2023-grade4-part1:lesson-007:note-addition:example-4",
+      "math-2023-grade4-part1:lesson-007:note-addition:example-4:calculation",
+      "math-2023-grade4-part1:lesson-007:note-addition:operation",
+      "math-2023-grade4-part1:lesson-007:note-subtraction",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:algorithm",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:algorithm:step-1",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:algorithm:step-2",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:algorithm:step-3",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:algorithm:step-4",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:algorithm:step-5",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:algorithm:step-6",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:algorithm:step-7",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:alignment",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:example-1",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:example-2",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:example-3",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:example-4",
+      "math-2023-grade4-part1:lesson-007:note-subtraction:operation",
+      "math-2023-grade4-part1:lesson-007:running-30",
+      "math-2023-grade4-part1:lesson-007:running-31",
+      "math-2023-grade4-part1:lesson-007:running-32",
+      "math-2023-grade4-part1:p029",
+      "math-2023-grade4-part1:p030",
+      "math-2023-grade4-part1:p031",
+      "math-2023-grade4-part1:p032"
+    ],
+    "addressed_record_ids": []
   }
 }

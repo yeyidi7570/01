@@ -7,7 +7,8 @@ const images = JSON.parse($('assets').textContent);
 const translations = JSON.parse($('translations').textContent);
 const L = D.lesson;
 const manifest = {schema_version:'textbook-review/4.0', data_version:D.data_version, textbook_id:D.book.id, lesson_id:L.id};
-const key = `${manifest.schema_version}/${manifest.data_version}/${L.id}/${lang}`;
+const draftKey = version => `${manifest.schema_version}/${version}/${L.id}/${lang}`;
+const key = draftKey(manifest.data_version);
 const ui = {
   zh:{
     reviewer:'审核员（选填）',import:'导入记录',export:'导出记录 JSON',scan:'教材原图',review:'审核对象',page:'页码',zoom:'缩放',elements:'内部切割框',omission:'本页存在遗漏内容',cancel:'取消',module:'任务',filter:'筛选',object:'对象',prev:'上一项',next:'下一项',nextUnreviewed:'下一未审核项',approve:'通过',issue:'有问题',unable:'无法判断',skip:'跳过',bulk:'通过本单元及无疑点子项',ocr:'文字有误',
@@ -210,7 +211,7 @@ function label(o) {
 
 function readDraft() {
   try {
-    const raw=localStorage.getItem(key);
+    const raw=localStorage.getItem(key) ?? (revision ? localStorage.getItem(draftKey(revision.source_version)) : null);
     if (!raw) return;
     const draft=JSON.parse(raw);
     merge(draft);
@@ -420,7 +421,9 @@ function renderContent(div,o,view) {
     div.append(node('div',verticalLabels.reconstructed,'caption'));
     renderVertical(div,o.vertical,o.text_kk);
   } else block(div,null,o.text_kk,o.type==='formula'?'equations':'');
-  if (aux(o.id) && hasContent(o) && o.type!=='teaching_link') block(div,ui.translation,aux(o.id),'translation');
+  if (aux(o.id) && hasContent(o) && !['teaching_link','subtask_number'].includes(o.type)) {
+    block(div,ui.translation,aux(o.id),'translation');
+  }
   if (o.scope_ids) {
     const scopes=o.scope_ids.map(id=>byId.get(id)?.o).filter(Boolean);
     block(div,ui.badgeScope,scopes.map(label).join(' · '));
@@ -475,12 +478,15 @@ function renderVerticalGrid(layout,transcription) {
   grid.setAttribute('role','img');
   grid.setAttribute('aria-label',transcription);
   const positions=new Map(layout.columns.map((column,i)=>[column.id,i+1]));
-  grid.style.gridTemplateColumns=layout.columns.map(column=>'place' in column?'1ch':'max-content').join(' ');
+  const wideMarks=layout.rows.some(row=>row.cells.some(cell=>cell.kind==='marker' && cell.value.length>1));
+  const digitWidth=wideMarks?'1.6ch':'1ch';
+  grid.style.gridTemplateColumns=layout.columns.map(column=>'place' in column || column.digit_track?digitWidth:'max-content').join(' ');
   grid.style.marginInlineStart=`${layout.indent_em??0}em`;
   for (const [i,row] of layout.rows.entries()) {
     for (const cell of row.cells) {
       const text=cell.kind==='unit'?layout.units[cell.value]:cell.value;
       const item=node('span',text,`vertical-cell vertical-${cell.kind}`);
+      if (cell.kind==='quotient_digit' && layout.quotient_place_marks) item.classList.add('place-mark');
       item.style.gridRow=String(i+1);
       item.style.gridColumn=`${positions.get(cell.column)} / span ${cell.span??1}`;
       grid.append(item);

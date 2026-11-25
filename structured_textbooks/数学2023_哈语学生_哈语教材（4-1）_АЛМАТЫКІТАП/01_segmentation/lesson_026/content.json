@@ -1,6 +1,6 @@
 {
   "schema_version": "textbook-lesson/4.0",
-  "data_version": "v4.1",
+  "data_version": "v4.1-audit1",
   "review_status": "pending_review",
   "coordinate_system": {
     "origin": "top-left",
@@ -1648,7 +1648,7 @@
                   }
                 ],
                 "printed_text_kk": "1ә",
-                "text_kk": "1Ә",
+                "text_kk": "1ә",
                 "ocr_evidence": [
                   {
                     "line_id": "57",
@@ -1660,7 +1660,8 @@
                 "crop_asset_id": "math-2023-grade4-part1:lesson-026:m01:1Ә:number:crop",
                 "ocr_suggestion_ids": [
                   "math-2023-grade4-part1:lesson-026:m01:1Ә:number:suggestion-1"
-                ]
+                ],
+                "printed_label_kk": "1ә"
               },
               {
                 "id": "math-2023-grade4-part1:lesson-026:m01:1Ә:prompt",
@@ -2498,7 +2499,7 @@
                   }
                 ],
                 "printed_text_kk": "а)",
-                "text_kk": "3А",
+                "text_kk": "а)",
                 "ocr_evidence": [
                   {
                     "line_id": "9",
@@ -2510,7 +2511,8 @@
                 "crop_asset_id": "math-2023-grade4-part1:lesson-026:m03:3А:number:crop",
                 "ocr_suggestion_ids": [
                   "math-2023-grade4-part1:lesson-026:m03:3А:number:suggestion-1"
-                ]
+                ],
+                "printed_label_kk": "а)"
               },
               {
                 "id": "math-2023-grade4-part1:lesson-026:m03:3А:prompt",
@@ -2586,7 +2588,7 @@
                   }
                 ],
                 "printed_text_kk": "ә)",
-                "text_kk": "3Ә",
+                "text_kk": "ә)",
                 "ocr_evidence": [
                   {
                     "line_id": "10",
@@ -2598,7 +2600,8 @@
                 "crop_asset_id": "math-2023-grade4-part1:lesson-026:m03:3Ә:number:crop",
                 "ocr_suggestion_ids": [
                   "math-2023-grade4-part1:lesson-026:m03:3Ә:number:suggestion-1"
-                ]
+                ],
+                "printed_label_kk": "ә)"
               },
               {
                 "id": "math-2023-grade4-part1:lesson-026:m03:3Ә:prompt",
@@ -2680,7 +2683,7 @@
                   }
                 ],
                 "printed_text_kk": "б)",
-                "text_kk": "3Б",
+                "text_kk": "б)",
                 "ocr_evidence": [
                   {
                     "line_id": "12",
@@ -2692,7 +2695,8 @@
                 "crop_asset_id": "math-2023-grade4-part1:lesson-026:m03:3Б:number:crop",
                 "ocr_suggestion_ids": [
                   "math-2023-grade4-part1:lesson-026:m03:3Б:number:suggestion-1"
-                ]
+                ],
+                "printed_label_kk": "б)"
               },
               {
                 "id": "math-2023-grade4-part1:lesson-026:m03:3Б:prompt",
@@ -10326,5 +10330,181 @@
     "module_badge": 6,
     "formula": 16,
     "ocr_suggestions": 30
+  },
+  "review_revision": {
+    "source_version": "v4.1",
+    "source_object_ids": [
+      "math-2023-grade4-part1:lesson-026:closing-caption",
+      "math-2023-grade4-part1:lesson-026:cover-words",
+      "math-2023-grade4-part1:lesson-026:goal",
+      "math-2023-grade4-part1:lesson-026:goal:body",
+      "math-2023-grade4-part1:lesson-026:goal:label",
+      "math-2023-grade4-part1:lesson-026:header",
+      "math-2023-grade4-part1:lesson-026:header:number",
+      "math-2023-grade4-part1:lesson-026:header:theme",
+      "math-2023-grade4-part1:lesson-026:header:title",
+      "math-2023-grade4-part1:lesson-026:introduction",
+      "math-2023-grade4-part1:lesson-026:introduction:body",
+      "math-2023-grade4-part1:lesson-026:m01",
+      "math-2023-grade4-part1:lesson-026:m01:1А",
+      "math-2023-grade4-part1:lesson-026:m01:1А:alphabet-venn",
+      "math-2023-grade4-part1:lesson-026:m01:1А:number",
+      "math-2023-grade4-part1:lesson-026:m01:1А:prompt",
+      "math-2023-grade4-part1:lesson-026:m01:1Ә",
+      "math-2023-grade4-part1:lesson-026:m01:1Ә:empty-venn",
+      "math-2023-grade4-part1:lesson-026:m01:1Ә:number",
+      "math-2023-grade4-part1:lesson-026:m01:1Ә:prompt",
+      "math-2023-grade4-part1:lesson-026:m02",
+      "math-2023-grade4-part1:lesson-026:m02:badge",
+      "math-2023-grade4-part1:lesson-026:m02:expr-1",
+      "math-2023-grade4-part1:lesson-026:m02:expr-2",
+      "math-2023-grade4-part1:lesson-026:m02:expr-3",
+      "math-2023-grade4-part1:lesson-026:m02:expr-4",
+      "math-2023-grade4-part1:lesson-026:m02:expr-5",
+      "math-2023-grade4-part1:lesson-026:m02:expr-6",
+      "math-2023-grade4-part1:lesson-026:m02:number",
+      "math-2023-grade4-part1:lesson-026:m02:prompt",
+      "math-2023-grade4-part1:lesson-026:m03",
+      "math-2023-grade4-part1:lesson-026:m03:3А",
+      "math-2023-grade4-part1:lesson-026:m03:3А:number",
+      "math-2023-grade4-part1:lesson-026:m03:3А:prompt",
+      "math-2023-grade4-part1:lesson-026:m03:3Б",
+      "math-2023-grade4-part1:lesson-026:m03:3Б:number",
+      "math-2023-grade4-part1:lesson-026:m03:3Б:prompt",
+      "math-2023-grade4-part1:lesson-026:m03:3Ә",
+      "math-2023-grade4-part1:lesson-026:m03:3Ә:number",
+      "math-2023-grade4-part1:lesson-026:m03:3Ә:prompt",
+      "math-2023-grade4-part1:lesson-026:m03:number",
+      "math-2023-grade4-part1:lesson-026:m03:prompt",
+      "math-2023-grade4-part1:lesson-026:m03:set-a",
+      "math-2023-grade4-part1:lesson-026:m03:set-b",
+      "math-2023-grade4-part1:lesson-026:m03:set-c",
+      "math-2023-grade4-part1:lesson-026:m03:set-d",
+      "math-2023-grade4-part1:lesson-026:m03:set-e",
+      "math-2023-grade4-part1:lesson-026:m03:set-p",
+      "math-2023-grade4-part1:lesson-026:m04",
+      "math-2023-grade4-part1:lesson-026:m04:givens",
+      "math-2023-grade4-part1:lesson-026:m04:number",
+      "math-2023-grade4-part1:lesson-026:m04:prompt",
+      "math-2023-grade4-part1:lesson-026:m04:route",
+      "math-2023-grade4-part1:lesson-026:m05",
+      "math-2023-grade4-part1:lesson-026:m05:badge",
+      "math-2023-grade4-part1:lesson-026:m05:book-count",
+      "math-2023-grade4-part1:lesson-026:m05:givens",
+      "math-2023-grade4-part1:lesson-026:m05:number",
+      "math-2023-grade4-part1:lesson-026:m05:prompt",
+      "math-2023-grade4-part1:lesson-026:m06",
+      "math-2023-grade4-part1:lesson-026:m06:badge",
+      "math-2023-grade4-part1:lesson-026:m06:givens",
+      "math-2023-grade4-part1:lesson-026:m06:number",
+      "math-2023-grade4-part1:lesson-026:m06:prompt",
+      "math-2023-grade4-part1:lesson-026:m07",
+      "math-2023-grade4-part1:lesson-026:m07:badge",
+      "math-2023-grade4-part1:lesson-026:m07:number",
+      "math-2023-grade4-part1:lesson-026:m07:prompt",
+      "math-2023-grade4-part1:lesson-026:m08",
+      "math-2023-grade4-part1:lesson-026:m08:badge",
+      "math-2023-grade4-part1:lesson-026:m08:givens",
+      "math-2023-grade4-part1:lesson-026:m08:number",
+      "math-2023-grade4-part1:lesson-026:m08:prompt",
+      "math-2023-grade4-part1:lesson-026:m09",
+      "math-2023-grade4-part1:lesson-026:m09:badge",
+      "math-2023-grade4-part1:lesson-026:m09:expr-1",
+      "math-2023-grade4-part1:lesson-026:m09:expr-2",
+      "math-2023-grade4-part1:lesson-026:m09:expr-3",
+      "math-2023-grade4-part1:lesson-026:m09:expr-4",
+      "math-2023-grade4-part1:lesson-026:m09:number",
+      "math-2023-grade4-part1:lesson-026:m09:prompt",
+      "math-2023-grade4-part1:lesson-026:running-header-p100",
+      "math-2023-grade4-part1:lesson-026:running-header-p101",
+      "math-2023-grade4-part1:p099",
+      "math-2023-grade4-part1:p100",
+      "math-2023-grade4-part1:p101"
+    ],
+    "equivalent_object_ids": [
+      "math-2023-grade4-part1:lesson-026:closing-caption",
+      "math-2023-grade4-part1:lesson-026:cover-words",
+      "math-2023-grade4-part1:lesson-026:goal",
+      "math-2023-grade4-part1:lesson-026:goal:body",
+      "math-2023-grade4-part1:lesson-026:goal:label",
+      "math-2023-grade4-part1:lesson-026:header",
+      "math-2023-grade4-part1:lesson-026:header:number",
+      "math-2023-grade4-part1:lesson-026:header:theme",
+      "math-2023-grade4-part1:lesson-026:header:title",
+      "math-2023-grade4-part1:lesson-026:introduction",
+      "math-2023-grade4-part1:lesson-026:introduction:body",
+      "math-2023-grade4-part1:lesson-026:m01",
+      "math-2023-grade4-part1:lesson-026:m01:1А",
+      "math-2023-grade4-part1:lesson-026:m01:1А:alphabet-venn",
+      "math-2023-grade4-part1:lesson-026:m01:1А:number",
+      "math-2023-grade4-part1:lesson-026:m01:1А:prompt",
+      "math-2023-grade4-part1:lesson-026:m01:1Ә",
+      "math-2023-grade4-part1:lesson-026:m01:1Ә:empty-venn",
+      "math-2023-grade4-part1:lesson-026:m01:1Ә:prompt",
+      "math-2023-grade4-part1:lesson-026:m02",
+      "math-2023-grade4-part1:lesson-026:m02:badge",
+      "math-2023-grade4-part1:lesson-026:m02:expr-1",
+      "math-2023-grade4-part1:lesson-026:m02:expr-2",
+      "math-2023-grade4-part1:lesson-026:m02:expr-3",
+      "math-2023-grade4-part1:lesson-026:m02:expr-4",
+      "math-2023-grade4-part1:lesson-026:m02:expr-5",
+      "math-2023-grade4-part1:lesson-026:m02:expr-6",
+      "math-2023-grade4-part1:lesson-026:m02:number",
+      "math-2023-grade4-part1:lesson-026:m02:prompt",
+      "math-2023-grade4-part1:lesson-026:m03",
+      "math-2023-grade4-part1:lesson-026:m03:3А",
+      "math-2023-grade4-part1:lesson-026:m03:3А:prompt",
+      "math-2023-grade4-part1:lesson-026:m03:3Б",
+      "math-2023-grade4-part1:lesson-026:m03:3Б:prompt",
+      "math-2023-grade4-part1:lesson-026:m03:3Ә",
+      "math-2023-grade4-part1:lesson-026:m03:3Ә:prompt",
+      "math-2023-grade4-part1:lesson-026:m03:number",
+      "math-2023-grade4-part1:lesson-026:m03:prompt",
+      "math-2023-grade4-part1:lesson-026:m03:set-a",
+      "math-2023-grade4-part1:lesson-026:m03:set-b",
+      "math-2023-grade4-part1:lesson-026:m03:set-c",
+      "math-2023-grade4-part1:lesson-026:m03:set-d",
+      "math-2023-grade4-part1:lesson-026:m03:set-e",
+      "math-2023-grade4-part1:lesson-026:m03:set-p",
+      "math-2023-grade4-part1:lesson-026:m04",
+      "math-2023-grade4-part1:lesson-026:m04:givens",
+      "math-2023-grade4-part1:lesson-026:m04:number",
+      "math-2023-grade4-part1:lesson-026:m04:prompt",
+      "math-2023-grade4-part1:lesson-026:m04:route",
+      "math-2023-grade4-part1:lesson-026:m05",
+      "math-2023-grade4-part1:lesson-026:m05:badge",
+      "math-2023-grade4-part1:lesson-026:m05:book-count",
+      "math-2023-grade4-part1:lesson-026:m05:givens",
+      "math-2023-grade4-part1:lesson-026:m05:number",
+      "math-2023-grade4-part1:lesson-026:m05:prompt",
+      "math-2023-grade4-part1:lesson-026:m06",
+      "math-2023-grade4-part1:lesson-026:m06:badge",
+      "math-2023-grade4-part1:lesson-026:m06:givens",
+      "math-2023-grade4-part1:lesson-026:m06:number",
+      "math-2023-grade4-part1:lesson-026:m06:prompt",
+      "math-2023-grade4-part1:lesson-026:m07",
+      "math-2023-grade4-part1:lesson-026:m07:badge",
+      "math-2023-grade4-part1:lesson-026:m07:number",
+      "math-2023-grade4-part1:lesson-026:m07:prompt",
+      "math-2023-grade4-part1:lesson-026:m08",
+      "math-2023-grade4-part1:lesson-026:m08:badge",
+      "math-2023-grade4-part1:lesson-026:m08:givens",
+      "math-2023-grade4-part1:lesson-026:m08:number",
+      "math-2023-grade4-part1:lesson-026:m08:prompt",
+      "math-2023-grade4-part1:lesson-026:m09",
+      "math-2023-grade4-part1:lesson-026:m09:badge",
+      "math-2023-grade4-part1:lesson-026:m09:expr-1",
+      "math-2023-grade4-part1:lesson-026:m09:expr-2",
+      "math-2023-grade4-part1:lesson-026:m09:expr-3",
+      "math-2023-grade4-part1:lesson-026:m09:expr-4",
+      "math-2023-grade4-part1:lesson-026:m09:number",
+      "math-2023-grade4-part1:lesson-026:m09:prompt",
+      "math-2023-grade4-part1:lesson-026:running-header-p100",
+      "math-2023-grade4-part1:lesson-026:running-header-p101",
+      "math-2023-grade4-part1:p099",
+      "math-2023-grade4-part1:p100",
+      "math-2023-grade4-part1:p101"
+    ],
+    "addressed_record_ids": []
   }
 }

@@ -27,6 +27,7 @@ python "$tool" compare --old "$previous_content" --new "$new_stage/content.json"
 - `crop_assets` 以资源 ID 映射到上述定位；对象使用 `crop_asset_id`。图片使用包含 `description_kk` 和关系证据的 `structured_description`。表格使用 `row_count`、`column_count`、`header_rows` 和 `cells`，单元格含 `id`、零基 `row`/`column`、`rowspan`/`colspan`、`header`、`text_kk` 与定位，可用 `printed_text_kk` 保留原印刷分行。竖式使用 `vertical` 的 `upper`、`lower`、`operator`、`result` 和必要位置/等价式字段，复杂公式保留精确版面表示及原图。
 - 教学关联是课内平铺的 `teaching_links`，须有 `id`、`parent_id`、`from_id`、`to_id`、`type=teaching_link`、`relationship`、`rationale_kk`、`page_refs`、证据和状态。OCR 建议包含 `id`、`object_id`、`category`、`reason_kk`、定位、状态、`source_lines`（含 `line_id`、`raw`、`existing_corrected`）、建议值及必要的结构更正。对象用 `ocr_suggestion_ids` 反向指向建议。确保页面抽查能追到源行。
 - `vertical.layout` 提供有序的 `columns`（含列 ID 和可选的十进制数位 `place`）、带角色的 `rows`、单位符号表 `units`、原题的结构化运算 `given`，以及可选的标题下缩进 `indent_em`。每格用 `column`、`kind`、`value` 或 `span` 表示数字、单位、符号、横线、留空或标记。审核页面按此布局渲染，`text_kk` 提供可读转写，`crop_asset_id` 保留对照证据。旧数据可继续使用原有的上下行字段。
+- 多加数用多行 `lower_operand` 表示。长除法用 `layout.kind = long_division`，按原图记录被除数、除数、商、各次部分被除数与减法、余数、竖线、横线和确实印出的标记。保留原书省略的步骤，不能自行补出教材未展示的行。
 - 同一 Module 中独立于 Example 的一组练习用数，可用 `exercise_input_ids` 按印刷顺序引用其连续的直属 `number_bank` 文字对象。审核页独立标示该组，各数字保留自己的对象 ID 和审核记录。
 
 共用模板位于 [assets/review](../assets/review/)，从仓库 V4 连续问卷实现抽取。书级旧生成器仅用于复现历史案例。连续竖式可在 Example 中使用 `worked_sequence`，以 `steps` 引用原顺序中的直接子项，并提供整组裁图、关系及哈语简述。其中文参考以 `对象ID#worked_sequence` 提供。

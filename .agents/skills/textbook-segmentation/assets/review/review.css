@@ -116,7 +116,12 @@ sup u{text-underline-offset:2px}
 .vertical-grid .vertical-operator{padding-right:.3em}
 .vertical-grid .vertical-unit,.vertical-grid .vertical-relation,.vertical-grid .vertical-number{padding-left:.22em}
 .vertical-grid .vertical-rule{border-top:1px solid;margin:.16rem 0}
-.vertical-grid .vertical-marker{font-size:.75em}
+.vertical-grid .vertical-marker{font-size:.75em;text-align:center}
+.vertical-grid .vertical-division_bar{border-left:1px solid;padding-inline-end:.22em;height:100%;align-self:stretch}
+.vertical-grid .vertical-quotient_digit{border-top:1px solid;text-align:right}
+.vertical-grid .vertical-quotient_digit.place-mark{position:relative;padding-block-end:.35em}
+.vertical-grid .vertical-quotient_digit.place-mark::after{content:'·';position:absolute;inset-inline:0;bottom:-.4em;text-align:center}
+.vertical-grid .vertical-remainder_label{width:0;padding-inline-start:.2em}
 .equations{font-family:ui-monospace,monospace;white-space:pre-wrap}
 .child-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.35rem;margin:.55rem 0}
 .child-list button{text-align:left;font-size:.83rem;font-weight:500}

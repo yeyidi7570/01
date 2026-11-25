@@ -45,12 +45,21 @@ def validate_vertical_layout(layout, object_id):
             and places == sorted(set(places), reverse=True), issue)
     require(all(isinstance(text, str) and text.strip() for text in units.values()), issue)
     roles = [row['role'] for row in rows]
-    require([role for role in roles if role != 'annotation'] == ['upper_operand', 'lower_operand', 'rule', 'result'],
-            issue)
+    operation_rows = [role for role in roles if role != 'annotation']
+    long_division = layout.get('kind') == 'long_division'
+    if long_division:
+        require(operation_rows[:2] == ['division_header', 'quotient'] and operation_rows[-1] == 'result'
+                and set(operation_rows[2:-1]) <= {'rule','partial','subtract'}, issue)
+    else:
+        require(operation_rows[0:2] == ['upper_operand', 'lower_operand']
+                and operation_rows[-2:] == ['rule', 'result']
+                and all(role == 'lower_operand' for role in operation_rows[2:-2]), issue)
     operator = layout['given']['operator']
     operands = layout['given']['operands']
-    require(operator in ('+', '−', '×', '÷') and len(operands) == 2 and all(
-        amounts and all(integer(amount['value']) and amount['value'] >= 0 and amount['unit'] in units
+    require(operator in ('+', '−', '×', '÷') and (operator == '÷' if long_division else True)
+            and len(operands) == (2 if long_division else operation_rows.count('lower_operand')+1) and all(
+        amounts and all(integer(amount['value']) and amount['value'] >= 0 and
+                        (amount.get('unit') is None or amount['unit'] in units)
                         for amount in amounts) for amounts in operands), issue)
     positions = {name: i for i, name in enumerate(names)}
     for row in rows:
@@ -68,18 +77,24 @@ def validate_vertical_layout(layout, object_id):
             elif kind == 'unit':
                 valid = value in units
             elif kind == 'operator':
-                valid = row['role'] == 'lower_operand' and value == operator
+                valid = (row['role'] == 'lower_operand' and value == operator
+                         or long_division and row['role'] in ('quotient','subtract') and value == '−')
             elif kind == 'relation':
                 valid = row['role'] == 'result' and value == '='
             elif kind == 'marker':
                 valid = row['role'] == 'annotation' and isinstance(value, str) and bool(value.strip())
+            elif kind in ('division_bar', 'quotient_digit', 'remainder_label'):
+                valid = long_division and (
+                    kind == 'division_bar' and row['role'] in ('division_header','quotient') and value is None
+                    or kind == 'quotient_digit' and row['role'] == 'quotient' and integer(value) and 0 <= value <= 9
+                    or kind == 'remainder_label' and row['role'] == 'result' and isinstance(value, str) and bool(value.strip()))
             else:
                 valid = kind in ('blank', 'rule') and value is None
             require(valid and (kind == 'rule') == (row['role'] == 'rule')
                     and (span == 1 or kind in ('rule', 'blank', 'marker')), issue)
         require(row['cells'] and (row['role'] != 'rule' or len(row['cells']) == 1), issue)
-    lower = next(row for row in rows if row['role'] == 'lower_operand')
-    require(sum(cell['kind'] == 'operator' for cell in lower['cells']) == 1, issue)
+    if not long_division:
+        require(sum(cell['kind'] == 'operator' for row in rows for cell in row['cells']) == 1, issue)
 
 
 def selected_lessons(selector, available):
@@ -322,13 +337,16 @@ class ReviewHTML(HTMLParser):
 
 def validate_review_history(data, ids, history):
     revision = data.get('review_revision')
-    require(bool(revision) == bool(history), 'a revision requires its original review package')
     if not revision:
+        require(history is None, 'review history requires version mapping')
         return
     source_version = revision['source_version']
     require(isinstance(source_version, str) and source_version and source_version != data['data_version'],
             'invalid revision source version')
-    require(re.fullmatch(r'[a-f0-9]{64}', revision['submission_sha256']), 'invalid submission checksum')
+    checksum = revision.get('submission_sha256')
+    require((history is None and checksum is None) or
+            (history is not None and isinstance(checksum, str) and re.fullmatch(r'[a-f0-9]{64}', checksum)),
+            'review archive and submission checksum must match')
     source_ids = set(revision['source_object_ids'])
     equivalent = set(revision['equivalent_object_ids'])
     require(equivalent <= source_ids & ids.keys(), 'unknown equivalent object')
@@ -339,6 +357,10 @@ def validate_review_history(data, ids, history):
                 and set(ancestor['equivalent_object_ids']) <= ancestor_ids & equivalent,
                 'invalid ancestor version or equivalent object')
         versions[version] = ancestor_ids
+    if history is None:
+        require(not revision['addressed_record_ids'] and 'submission_version' not in revision,
+                'addressed issues and a submission version require original review history')
+        return
     submission_version = revision.get('submission_version', source_version)
     require(submission_version in versions and history['schema_version'] == 'textbook-review/4.0'
             and history['data_version'] == submission_version and history['textbook_id'] == data['book']['id']

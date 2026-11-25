@@ -22,7 +22,7 @@
 | [lesson_001](01_segmentation/lesson_001/) | 已归档 V4，`pending_review` | [第三轮复核通过](02_segmentation_review/lesson_001/revision_3/) | 未开始 | 未开始 | 未完成 |
 | [lesson_002](01_segmentation/lesson_002/) | `segmentation_completed` | [第一轮修订复核通过](02_segmentation_review/lesson_002/revision_1/) | 未开始 | 未开始 | 未完成 |
 | [lesson_003](01_segmentation/lesson_003/) | `segmentation_completed` | [第一轮修订复核通过](02_segmentation_review/lesson_003/revision_1/) | 未开始 | 未开始 | 未完成 |
-| [lesson_004](01_segmentation/lesson_004/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
+| [lesson_004](01_segmentation/lesson_004/) | `segmentation_completed` | [已收到人工提交，剩余事项待复核](01_segmentation/lesson_004/review_zh.html) | 未开始 | 未开始 | 未完成 |
 | [lesson_005](01_segmentation/lesson_005/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_006](01_segmentation/lesson_006/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_007](01_segmentation/lesson_007/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
@@ -82,9 +82,13 @@
 
 第 3 课第一轮修订 `v4.1-r001` 将第 16 页 Module 5 的示例等式和四个练习用数明确分组。79/79 项内容和 4/4 页完整性已通过，Module 5 分组已由审核员在对话中确认。中哈审核页预载该记录，打开即显示 84/84 项通过。[结构确认记录](02_segmentation_review/lesson_003/submissions/review_002_chat.json) · [原始提交](02_segmentation_review/lesson_003/submissions/review_001_original.json) · [修订目录](02_segmentation_review/lesson_003/revision_1/)
 
+第 4–40 课的初始切割目录已应用同一套最新双语审核模板。已对照原图校正 155 个子题标记，并为第 7、19、20 课中 10 道旧竖式补上二维结构。内容更改的版本可导入旧审核；未改对象可沿用通过，已改对象待复核。
+
 第 4 课 `Миллиондар класы. Сандарды дөңгелектеу`，PDF 和印刷页 18–21。共 10 个 Module、3 条独立教学说明、1 张表、4 张信息图及 48 条校对建议。复核第 6 题地图中的城乡人口颜色及城市引线，和第 19 页取近似值示例的彩色标记。
 
 [结构化 JSON](01_segmentation/lesson_004/content.json)、[中文连续审核](01_segmentation/lesson_004/review_zh.html)、[哈语连续审核](01_segmentation/lesson_004/review_kk.html)。双语离线交互和审核记录交叉导入已核验。
+
+第 4 课的人工提交已归档。第 5 题三个标签按原书显示为 `а)`、`ә)`、`б)`，第 4 题的 `4ә` 也已校正。新版沿用 104 个通过任务（含 4 页完整性），四个修改过的标签待复核。人口地图有 1 项问题，取近似值图和数位单位图各有 1 项无法判断。[原始提交](02_segmentation_review/lesson_004/submissions/review_001_original.json)
 
 第 5 课 `Көптаңбалы сандармен арифметикалық амалдар орындау`，PDF 和印刷页 22–25。共 10 个 Module、0 条独立教学说明、1 张表、2 张信息图及 47 条校对建议。保留第 9 题的原印单位「6 995 км」，以及第 7 题左列两次出现的 125 000，均标记待核。
 

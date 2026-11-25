@@ -1,6 +1,6 @@
 {
   "schema_version": "textbook-lesson/4.0",
-  "data_version": "v4.1",
+  "data_version": "v4.1-audit1",
   "review_status": "pending_review",
   "coordinate_system": {
     "origin": "top-left",
@@ -1115,7 +1115,7 @@
                 ],
                 "parent_id": "math-2023-grade4-part1:lesson-020:m02:part-ae",
                 "printed_label_kk": "2ә",
-                "text_kk": "2Ә",
+                "text_kk": "2ә",
                 "ocr_evidence": [
                   {
                     "line_id": "3",
@@ -1595,7 +1595,216 @@
                     "crop_asset_id": "math-2023-grade4-part1:lesson-020:m03:part-a:long-division-1:calculation:crop",
                     "ocr_suggestion_ids": [
                       "math-2023-grade4-part1:lesson-020:m03:part-a:long-division-1:calculation:suggestion-1"
-                    ]
+                    ],
+                    "vertical": {
+                      "layout": {
+                        "kind": "long_division",
+                        "columns": [
+                          {
+                            "id": "operator"
+                          },
+                          {
+                            "id": "d1",
+                            "place": 1000
+                          },
+                          {
+                            "id": "d2",
+                            "place": 100
+                          },
+                          {
+                            "id": "d3",
+                            "place": 10
+                          },
+                          {
+                            "id": "d4",
+                            "place": 1
+                          },
+                          {
+                            "id": "bar"
+                          },
+                          {
+                            "id": "q1",
+                            "digit_track": true
+                          },
+                          {
+                            "id": "q2",
+                            "digit_track": true
+                          },
+                          {
+                            "id": "q3",
+                            "digit_track": true
+                          }
+                        ],
+                        "units": {},
+                        "given": {
+                          "operator": "÷",
+                          "operands": [
+                            [
+                              {
+                                "value": 1218
+                              }
+                            ],
+                            [
+                              {
+                                "value": 6
+                              }
+                            ]
+                          ]
+                        },
+                        "quotient_place_marks": true,
+                        "rows": [
+                          {
+                            "role": "annotation",
+                            "cells": [
+                              {
+                                "column": "d1",
+                                "kind": "marker",
+                                "value": "⌃",
+                                "span": 2
+                              }
+                            ]
+                          },
+                          {
+                            "role": "division_header",
+                            "cells": [
+                              {
+                                "column": "d1",
+                                "kind": "digit",
+                                "value": 1
+                              },
+                              {
+                                "column": "d2",
+                                "kind": "digit",
+                                "value": 2
+                              },
+                              {
+                                "column": "d3",
+                                "kind": "digit",
+                                "value": 1
+                              },
+                              {
+                                "column": "d4",
+                                "kind": "digit",
+                                "value": 8
+                              },
+                              {
+                                "column": "bar",
+                                "kind": "division_bar"
+                              },
+                              {
+                                "column": "q1",
+                                "kind": "number",
+                                "value": 6
+                              }
+                            ]
+                          },
+                          {
+                            "role": "quotient",
+                            "cells": [
+                              {
+                                "column": "operator",
+                                "kind": "operator",
+                                "value": "−"
+                              },
+                              {
+                                "column": "d1",
+                                "kind": "digit",
+                                "value": 1
+                              },
+                              {
+                                "column": "d2",
+                                "kind": "digit",
+                                "value": 2
+                              },
+                              {
+                                "column": "bar",
+                                "kind": "division_bar"
+                              },
+                              {
+                                "column": "q1",
+                                "kind": "quotient_digit",
+                                "value": 2
+                              },
+                              {
+                                "column": "q2",
+                                "kind": "quotient_digit",
+                                "value": 0
+                              },
+                              {
+                                "column": "q3",
+                                "kind": "quotient_digit",
+                                "value": 3
+                              }
+                            ]
+                          },
+                          {
+                            "role": "rule",
+                            "cells": [
+                              {
+                                "column": "d1",
+                                "kind": "rule",
+                                "span": 2
+                              }
+                            ]
+                          },
+                          {
+                            "role": "partial",
+                            "cells": [
+                              {
+                                "column": "d3",
+                                "kind": "digit",
+                                "value": 1
+                              },
+                              {
+                                "column": "d4",
+                                "kind": "digit",
+                                "value": 8
+                              }
+                            ]
+                          },
+                          {
+                            "role": "subtract",
+                            "cells": [
+                              {
+                                "column": "d2",
+                                "kind": "operator",
+                                "value": "−"
+                              },
+                              {
+                                "column": "d3",
+                                "kind": "digit",
+                                "value": 1
+                              },
+                              {
+                                "column": "d4",
+                                "kind": "digit",
+                                "value": 8
+                              }
+                            ]
+                          },
+                          {
+                            "role": "rule",
+                            "cells": [
+                              {
+                                "column": "d3",
+                                "kind": "rule",
+                                "span": 2
+                              }
+                            ]
+                          },
+                          {
+                            "role": "result",
+                            "cells": [
+                              {
+                                "column": "d4",
+                                "kind": "digit",
+                                "value": 0
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
                   }
                 ],
                 "content_order": [
@@ -1729,7 +1938,268 @@
                     "crop_asset_id": "math-2023-grade4-part1:lesson-020:m03:part-a:long-division-2:calculation:crop",
                     "ocr_suggestion_ids": [
                       "math-2023-grade4-part1:lesson-020:m03:part-a:long-division-2:calculation:suggestion-1"
-                    ]
+                    ],
+                    "vertical": {
+                      "layout": {
+                        "kind": "long_division",
+                        "columns": [
+                          {
+                            "id": "operator"
+                          },
+                          {
+                            "id": "d1",
+                            "place": 10000
+                          },
+                          {
+                            "id": "d2",
+                            "place": 1000
+                          },
+                          {
+                            "id": "d3",
+                            "place": 100
+                          },
+                          {
+                            "id": "d4",
+                            "place": 10
+                          },
+                          {
+                            "id": "d5",
+                            "place": 1
+                          },
+                          {
+                            "id": "bar"
+                          },
+                          {
+                            "id": "q1",
+                            "digit_track": true
+                          },
+                          {
+                            "id": "q2",
+                            "digit_track": true
+                          },
+                          {
+                            "id": "q3",
+                            "digit_track": true
+                          },
+                          {
+                            "id": "q4",
+                            "digit_track": true
+                          }
+                        ],
+                        "units": {},
+                        "given": {
+                          "operator": "÷",
+                          "operands": [
+                            [
+                              {
+                                "value": 12018
+                              }
+                            ],
+                            [
+                              {
+                                "value": 6
+                              }
+                            ]
+                          ]
+                        },
+                        "quotient_place_marks": true,
+                        "rows": [
+                          {
+                            "role": "annotation",
+                            "cells": [
+                              {
+                                "column": "d1",
+                                "kind": "marker",
+                                "value": "⌃",
+                                "span": 2
+                              }
+                            ]
+                          },
+                          {
+                            "role": "division_header",
+                            "cells": [
+                              {
+                                "column": "d1",
+                                "kind": "digit",
+                                "value": 1
+                              },
+                              {
+                                "column": "d2",
+                                "kind": "digit",
+                                "value": 2
+                              },
+                              {
+                                "column": "d3",
+                                "kind": "digit",
+                                "value": 0
+                              },
+                              {
+                                "column": "d4",
+                                "kind": "digit",
+                                "value": 1
+                              },
+                              {
+                                "column": "d5",
+                                "kind": "digit",
+                                "value": 8
+                              },
+                              {
+                                "column": "bar",
+                                "kind": "division_bar"
+                              },
+                              {
+                                "column": "q1",
+                                "kind": "number",
+                                "value": 6
+                              }
+                            ]
+                          },
+                          {
+                            "role": "quotient",
+                            "cells": [
+                              {
+                                "column": "operator",
+                                "kind": "operator",
+                                "value": "−"
+                              },
+                              {
+                                "column": "d1",
+                                "kind": "digit",
+                                "value": 1
+                              },
+                              {
+                                "column": "d2",
+                                "kind": "digit",
+                                "value": 2
+                              },
+                              {
+                                "column": "bar",
+                                "kind": "division_bar"
+                              },
+                              {
+                                "column": "q1",
+                                "kind": "quotient_digit",
+                                "value": 2
+                              },
+                              {
+                                "column": "q2",
+                                "kind": "quotient_digit",
+                                "value": 0
+                              },
+                              {
+                                "column": "q3",
+                                "kind": "quotient_digit",
+                                "value": 0
+                              },
+                              {
+                                "column": "q4",
+                                "kind": "quotient_digit",
+                                "value": 3
+                              }
+                            ]
+                          },
+                          {
+                            "role": "rule",
+                            "cells": [
+                              {
+                                "column": "d1",
+                                "kind": "rule",
+                                "span": 2
+                              }
+                            ]
+                          },
+                          {
+                            "role": "partial",
+                            "cells": [
+                              {
+                                "column": "d3",
+                                "kind": "digit",
+                                "value": 0
+                              }
+                            ]
+                          },
+                          {
+                            "role": "subtract",
+                            "cells": [
+                              {
+                                "column": "d2",
+                                "kind": "operator",
+                                "value": "−"
+                              },
+                              {
+                                "column": "d3",
+                                "kind": "digit",
+                                "value": 0
+                              }
+                            ]
+                          },
+                          {
+                            "role": "rule",
+                            "cells": [
+                              {
+                                "column": "d3",
+                                "kind": "rule"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "partial",
+                            "cells": [
+                              {
+                                "column": "d4",
+                                "kind": "digit",
+                                "value": 1
+                              },
+                              {
+                                "column": "d5",
+                                "kind": "digit",
+                                "value": 8
+                              }
+                            ]
+                          },
+                          {
+                            "role": "subtract",
+                            "cells": [
+                              {
+                                "column": "d3",
+                                "kind": "operator",
+                                "value": "−"
+                              },
+                              {
+                                "column": "d4",
+                                "kind": "digit",
+                                "value": 1
+                              },
+                              {
+                                "column": "d5",
+                                "kind": "digit",
+                                "value": 8
+                              }
+                            ]
+                          },
+                          {
+                            "role": "rule",
+                            "cells": [
+                              {
+                                "column": "d4",
+                                "kind": "rule",
+                                "span": 2
+                              }
+                            ]
+                          },
+                          {
+                            "role": "result",
+                            "cells": [
+                              {
+                                "column": "d5",
+                                "kind": "digit",
+                                "value": 0
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
                   }
                 ],
                 "content_order": [
@@ -1846,7 +2316,252 @@
                     "crop_asset_id": "math-2023-grade4-part1:lesson-020:m03:part-a:long-division-3:calculation:crop",
                     "ocr_suggestion_ids": [
                       "math-2023-grade4-part1:lesson-020:m03:part-a:long-division-3:calculation:suggestion-1"
-                    ]
+                    ],
+                    "vertical": {
+                      "layout": {
+                        "kind": "long_division",
+                        "columns": [
+                          {
+                            "id": "operator"
+                          },
+                          {
+                            "id": "d1",
+                            "place": 100000
+                          },
+                          {
+                            "id": "d2",
+                            "place": 10000
+                          },
+                          {
+                            "id": "d3",
+                            "place": 1000
+                          },
+                          {
+                            "id": "d4",
+                            "place": 100
+                          },
+                          {
+                            "id": "d5",
+                            "place": 10
+                          },
+                          {
+                            "id": "d6",
+                            "place": 1
+                          },
+                          {
+                            "id": "bar"
+                          },
+                          {
+                            "id": "q1",
+                            "digit_track": true
+                          },
+                          {
+                            "id": "q2",
+                            "digit_track": true
+                          },
+                          {
+                            "id": "q3",
+                            "digit_track": true
+                          },
+                          {
+                            "id": "q4",
+                            "digit_track": true
+                          },
+                          {
+                            "id": "q5",
+                            "digit_track": true
+                          }
+                        ],
+                        "units": {},
+                        "given": {
+                          "operator": "÷",
+                          "operands": [
+                            [
+                              {
+                                "value": 120018
+                              }
+                            ],
+                            [
+                              {
+                                "value": 6
+                              }
+                            ]
+                          ]
+                        },
+                        "quotient_place_marks": true,
+                        "rows": [
+                          {
+                            "role": "annotation",
+                            "cells": [
+                              {
+                                "column": "d1",
+                                "kind": "marker",
+                                "value": "⌃",
+                                "span": 2
+                              }
+                            ]
+                          },
+                          {
+                            "role": "division_header",
+                            "cells": [
+                              {
+                                "column": "d1",
+                                "kind": "digit",
+                                "value": 1
+                              },
+                              {
+                                "column": "d2",
+                                "kind": "digit",
+                                "value": 2
+                              },
+                              {
+                                "column": "d3",
+                                "kind": "digit",
+                                "value": 0
+                              },
+                              {
+                                "column": "d4",
+                                "kind": "digit",
+                                "value": 0
+                              },
+                              {
+                                "column": "d5",
+                                "kind": "digit",
+                                "value": 1
+                              },
+                              {
+                                "column": "d6",
+                                "kind": "digit",
+                                "value": 8
+                              },
+                              {
+                                "column": "bar",
+                                "kind": "division_bar"
+                              },
+                              {
+                                "column": "q1",
+                                "kind": "number",
+                                "value": 6
+                              }
+                            ]
+                          },
+                          {
+                            "role": "quotient",
+                            "cells": [
+                              {
+                                "column": "operator",
+                                "kind": "operator",
+                                "value": "−"
+                              },
+                              {
+                                "column": "d1",
+                                "kind": "digit",
+                                "value": 1
+                              },
+                              {
+                                "column": "d2",
+                                "kind": "digit",
+                                "value": 2
+                              },
+                              {
+                                "column": "bar",
+                                "kind": "division_bar"
+                              },
+                              {
+                                "column": "q1",
+                                "kind": "quotient_digit",
+                                "value": 2
+                              },
+                              {
+                                "column": "q2",
+                                "kind": "quotient_digit",
+                                "value": 0
+                              },
+                              {
+                                "column": "q3",
+                                "kind": "quotient_digit",
+                                "value": 0
+                              },
+                              {
+                                "column": "q4",
+                                "kind": "quotient_digit",
+                                "value": 0
+                              },
+                              {
+                                "column": "q5",
+                                "kind": "quotient_digit",
+                                "value": 3
+                              }
+                            ]
+                          },
+                          {
+                            "role": "rule",
+                            "cells": [
+                              {
+                                "column": "d1",
+                                "kind": "rule",
+                                "span": 2
+                              }
+                            ]
+                          },
+                          {
+                            "role": "partial",
+                            "cells": [
+                              {
+                                "column": "d5",
+                                "kind": "digit",
+                                "value": 1
+                              },
+                              {
+                                "column": "d6",
+                                "kind": "digit",
+                                "value": 8
+                              }
+                            ]
+                          },
+                          {
+                            "role": "subtract",
+                            "cells": [
+                              {
+                                "column": "d4",
+                                "kind": "operator",
+                                "value": "−"
+                              },
+                              {
+                                "column": "d5",
+                                "kind": "digit",
+                                "value": 1
+                              },
+                              {
+                                "column": "d6",
+                                "kind": "digit",
+                                "value": 8
+                              }
+                            ]
+                          },
+                          {
+                            "role": "rule",
+                            "cells": [
+                              {
+                                "column": "d5",
+                                "kind": "rule",
+                                "span": 2
+                              }
+                            ]
+                          },
+                          {
+                            "role": "result",
+                            "cells": [
+                              {
+                                "column": "d6",
+                                "kind": "digit",
+                                "value": 0
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
                   }
                 ],
                 "content_order": [
@@ -1902,7 +2617,7 @@
                 ],
                 "parent_id": "math-2023-grade4-part1:lesson-020:m03:part-ae",
                 "printed_label_kk": "3ә",
-                "text_kk": "3Ә",
+                "text_kk": "3ә",
                 "ocr_evidence": [
                   {
                     "line_id": "32",
@@ -17194,5 +17909,244 @@
     "text_ocr_suggestions": 33,
     "structure_suggestions": 10,
     "review_objects": 118
+  },
+  "review_revision": {
+    "source_version": "v4.1",
+    "source_object_ids": [
+      "math-2023-grade4-part1:lesson-020:closing-avatar",
+      "math-2023-grade4-part1:lesson-020:cover-words",
+      "math-2023-grade4-part1:lesson-020:header",
+      "math-2023-grade4-part1:lesson-020:header:number",
+      "math-2023-grade4-part1:lesson-020:header:theme",
+      "math-2023-grade4-part1:lesson-020:header:title",
+      "math-2023-grade4-part1:lesson-020:intro",
+      "math-2023-grade4-part1:lesson-020:intro:label",
+      "math-2023-grade4-part1:lesson-020:intro:objective",
+      "math-2023-grade4-part1:lesson-020:m01",
+      "math-2023-grade4-part1:lesson-020:m01:matching-expression-1",
+      "math-2023-grade4-part1:lesson-020:m01:matching-expression-2",
+      "math-2023-grade4-part1:lesson-020:m01:number",
+      "math-2023-grade4-part1:lesson-020:m01:portrait-abai",
+      "math-2023-grade4-part1:lesson-020:m01:portrait-tolstoy",
+      "math-2023-grade4-part1:lesson-020:m01:quotation-1",
+      "math-2023-grade4-part1:lesson-020:m01:quotation-2",
+      "math-2023-grade4-part1:lesson-020:m01:text-1",
+      "math-2023-grade4-part1:lesson-020:m02",
+      "math-2023-grade4-part1:lesson-020:m02:part-a",
+      "math-2023-grade4-part1:lesson-020:m02:part-a:label",
+      "math-2023-grade4-part1:lesson-020:m02:part-a:prompt",
+      "math-2023-grade4-part1:lesson-020:m02:part-a:vertical-1",
+      "math-2023-grade4-part1:lesson-020:m02:part-a:vertical-1:calculation",
+      "math-2023-grade4-part1:lesson-020:m02:part-a:vertical-2",
+      "math-2023-grade4-part1:lesson-020:m02:part-a:vertical-2:calculation",
+      "math-2023-grade4-part1:lesson-020:m02:part-a:vertical-3",
+      "math-2023-grade4-part1:lesson-020:m02:part-a:vertical-3:calculation",
+      "math-2023-grade4-part1:lesson-020:m02:part-ae",
+      "math-2023-grade4-part1:lesson-020:m02:part-ae:badge-1",
+      "math-2023-grade4-part1:lesson-020:m02:part-ae:formula-1",
+      "math-2023-grade4-part1:lesson-020:m02:part-ae:formula-2",
+      "math-2023-grade4-part1:lesson-020:m02:part-ae:formula-3",
+      "math-2023-grade4-part1:lesson-020:m02:part-ae:formula-4",
+      "math-2023-grade4-part1:lesson-020:m02:part-ae:label",
+      "math-2023-grade4-part1:lesson-020:m02:part-ae:prompt",
+      "math-2023-grade4-part1:lesson-020:m03",
+      "math-2023-grade4-part1:lesson-020:m03:part-a",
+      "math-2023-grade4-part1:lesson-020:m03:part-a:label",
+      "math-2023-grade4-part1:lesson-020:m03:part-a:long-division-1",
+      "math-2023-grade4-part1:lesson-020:m03:part-a:long-division-1:calculation",
+      "math-2023-grade4-part1:lesson-020:m03:part-a:long-division-2",
+      "math-2023-grade4-part1:lesson-020:m03:part-a:long-division-2:calculation",
+      "math-2023-grade4-part1:lesson-020:m03:part-a:long-division-3",
+      "math-2023-grade4-part1:lesson-020:m03:part-a:long-division-3:calculation",
+      "math-2023-grade4-part1:lesson-020:m03:part-a:prompt",
+      "math-2023-grade4-part1:lesson-020:m03:part-ae",
+      "math-2023-grade4-part1:lesson-020:m03:part-ae:formula-1",
+      "math-2023-grade4-part1:lesson-020:m03:part-ae:formula-2",
+      "math-2023-grade4-part1:lesson-020:m03:part-ae:formula-3",
+      "math-2023-grade4-part1:lesson-020:m03:part-ae:formula-4",
+      "math-2023-grade4-part1:lesson-020:m03:part-ae:formula-5",
+      "math-2023-grade4-part1:lesson-020:m03:part-ae:formula-6",
+      "math-2023-grade4-part1:lesson-020:m03:part-ae:formula-7",
+      "math-2023-grade4-part1:lesson-020:m03:part-ae:formula-8",
+      "math-2023-grade4-part1:lesson-020:m03:part-ae:label",
+      "math-2023-grade4-part1:lesson-020:m03:part-ae:prompt",
+      "math-2023-grade4-part1:lesson-020:m04",
+      "math-2023-grade4-part1:lesson-020:m04:badge-1",
+      "math-2023-grade4-part1:lesson-020:m04:formula-1",
+      "math-2023-grade4-part1:lesson-020:m04:formula-2",
+      "math-2023-grade4-part1:lesson-020:m04:formula-3",
+      "math-2023-grade4-part1:lesson-020:m04:formula-4",
+      "math-2023-grade4-part1:lesson-020:m04:formula-5",
+      "math-2023-grade4-part1:lesson-020:m04:formula-6",
+      "math-2023-grade4-part1:lesson-020:m04:number",
+      "math-2023-grade4-part1:lesson-020:m04:text-1",
+      "math-2023-grade4-part1:lesson-020:m05",
+      "math-2023-grade4-part1:lesson-020:m05:library-context",
+      "math-2023-grade4-part1:lesson-020:m05:number",
+      "math-2023-grade4-part1:lesson-020:m05:text-1",
+      "math-2023-grade4-part1:lesson-020:m05:text-2",
+      "math-2023-grade4-part1:lesson-020:m06",
+      "math-2023-grade4-part1:lesson-020:m06:badge-1",
+      "math-2023-grade4-part1:lesson-020:m06:formula-1",
+      "math-2023-grade4-part1:lesson-020:m06:formula-2",
+      "math-2023-grade4-part1:lesson-020:m06:formula-3",
+      "math-2023-grade4-part1:lesson-020:m06:formula-4",
+      "math-2023-grade4-part1:lesson-020:m06:number",
+      "math-2023-grade4-part1:lesson-020:m06:text-1",
+      "math-2023-grade4-part1:lesson-020:m07",
+      "math-2023-grade4-part1:lesson-020:m07:badge-1",
+      "math-2023-grade4-part1:lesson-020:m07:number",
+      "math-2023-grade4-part1:lesson-020:m07:text-1",
+      "math-2023-grade4-part1:lesson-020:m07:text-2",
+      "math-2023-grade4-part1:lesson-020:m08",
+      "math-2023-grade4-part1:lesson-020:m08:badge-1",
+      "math-2023-grade4-part1:lesson-020:m08:number",
+      "math-2023-grade4-part1:lesson-020:m08:text-1",
+      "math-2023-grade4-part1:lesson-020:m08:text-2",
+      "math-2023-grade4-part1:lesson-020:m09",
+      "math-2023-grade4-part1:lesson-020:m09:badge-1",
+      "math-2023-grade4-part1:lesson-020:m09:number",
+      "math-2023-grade4-part1:lesson-020:m09:text-1",
+      "math-2023-grade4-part1:lesson-020:m09:text-2",
+      "math-2023-grade4-part1:lesson-020:m10",
+      "math-2023-grade4-part1:lesson-020:m10:badge-1",
+      "math-2023-grade4-part1:lesson-020:m10:formula-1",
+      "math-2023-grade4-part1:lesson-020:m10:formula-10",
+      "math-2023-grade4-part1:lesson-020:m10:formula-11",
+      "math-2023-grade4-part1:lesson-020:m10:formula-12",
+      "math-2023-grade4-part1:lesson-020:m10:formula-2",
+      "math-2023-grade4-part1:lesson-020:m10:formula-3",
+      "math-2023-grade4-part1:lesson-020:m10:formula-4",
+      "math-2023-grade4-part1:lesson-020:m10:formula-5",
+      "math-2023-grade4-part1:lesson-020:m10:formula-6",
+      "math-2023-grade4-part1:lesson-020:m10:formula-7",
+      "math-2023-grade4-part1:lesson-020:m10:formula-8",
+      "math-2023-grade4-part1:lesson-020:m10:formula-9",
+      "math-2023-grade4-part1:lesson-020:m10:number",
+      "math-2023-grade4-part1:lesson-020:m10:text-1",
+      "math-2023-grade4-part1:lesson-020:running-78",
+      "math-2023-grade4-part1:lesson-020:running-79",
+      "math-2023-grade4-part1:lesson-020:running-80",
+      "math-2023-grade4-part1:p077",
+      "math-2023-grade4-part1:p078",
+      "math-2023-grade4-part1:p079",
+      "math-2023-grade4-part1:p080"
+    ],
+    "equivalent_object_ids": [
+      "math-2023-grade4-part1:lesson-020:closing-avatar",
+      "math-2023-grade4-part1:lesson-020:cover-words",
+      "math-2023-grade4-part1:lesson-020:header",
+      "math-2023-grade4-part1:lesson-020:header:number",
+      "math-2023-grade4-part1:lesson-020:header:theme",
+      "math-2023-grade4-part1:lesson-020:header:title",
+      "math-2023-grade4-part1:lesson-020:intro",
+      "math-2023-grade4-part1:lesson-020:intro:label",
+      "math-2023-grade4-part1:lesson-020:intro:objective",
+      "math-2023-grade4-part1:lesson-020:m01",
+      "math-2023-grade4-part1:lesson-020:m01:matching-expression-1",
+      "math-2023-grade4-part1:lesson-020:m01:matching-expression-2",
+      "math-2023-grade4-part1:lesson-020:m01:number",
+      "math-2023-grade4-part1:lesson-020:m01:portrait-abai",
+      "math-2023-grade4-part1:lesson-020:m01:portrait-tolstoy",
+      "math-2023-grade4-part1:lesson-020:m01:quotation-1",
+      "math-2023-grade4-part1:lesson-020:m01:quotation-2",
+      "math-2023-grade4-part1:lesson-020:m01:text-1",
+      "math-2023-grade4-part1:lesson-020:m02",
+      "math-2023-grade4-part1:lesson-020:m02:part-a",
+      "math-2023-grade4-part1:lesson-020:m02:part-a:label",
+      "math-2023-grade4-part1:lesson-020:m02:part-a:prompt",
+      "math-2023-grade4-part1:lesson-020:m02:part-a:vertical-1",
+      "math-2023-grade4-part1:lesson-020:m02:part-a:vertical-1:calculation",
+      "math-2023-grade4-part1:lesson-020:m02:part-a:vertical-2",
+      "math-2023-grade4-part1:lesson-020:m02:part-a:vertical-2:calculation",
+      "math-2023-grade4-part1:lesson-020:m02:part-a:vertical-3",
+      "math-2023-grade4-part1:lesson-020:m02:part-a:vertical-3:calculation",
+      "math-2023-grade4-part1:lesson-020:m02:part-ae",
+      "math-2023-grade4-part1:lesson-020:m02:part-ae:badge-1",
+      "math-2023-grade4-part1:lesson-020:m02:part-ae:formula-1",
+      "math-2023-grade4-part1:lesson-020:m02:part-ae:formula-2",
+      "math-2023-grade4-part1:lesson-020:m02:part-ae:formula-3",
+      "math-2023-grade4-part1:lesson-020:m02:part-ae:formula-4",
+      "math-2023-grade4-part1:lesson-020:m02:part-ae:prompt",
+      "math-2023-grade4-part1:lesson-020:m03",
+      "math-2023-grade4-part1:lesson-020:m03:part-a",
+      "math-2023-grade4-part1:lesson-020:m03:part-a:label",
+      "math-2023-grade4-part1:lesson-020:m03:part-a:long-division-1",
+      "math-2023-grade4-part1:lesson-020:m03:part-a:long-division-2",
+      "math-2023-grade4-part1:lesson-020:m03:part-a:long-division-3",
+      "math-2023-grade4-part1:lesson-020:m03:part-a:prompt",
+      "math-2023-grade4-part1:lesson-020:m03:part-ae",
+      "math-2023-grade4-part1:lesson-020:m03:part-ae:formula-1",
+      "math-2023-grade4-part1:lesson-020:m03:part-ae:formula-2",
+      "math-2023-grade4-part1:lesson-020:m03:part-ae:formula-3",
+      "math-2023-grade4-part1:lesson-020:m03:part-ae:formula-4",
+      "math-2023-grade4-part1:lesson-020:m03:part-ae:formula-5",
+      "math-2023-grade4-part1:lesson-020:m03:part-ae:formula-6",
+      "math-2023-grade4-part1:lesson-020:m03:part-ae:formula-7",
+      "math-2023-grade4-part1:lesson-020:m03:part-ae:formula-8",
+      "math-2023-grade4-part1:lesson-020:m03:part-ae:prompt",
+      "math-2023-grade4-part1:lesson-020:m04",
+      "math-2023-grade4-part1:lesson-020:m04:badge-1",
+      "math-2023-grade4-part1:lesson-020:m04:formula-1",
+      "math-2023-grade4-part1:lesson-020:m04:formula-2",
+      "math-2023-grade4-part1:lesson-020:m04:formula-3",
+      "math-2023-grade4-part1:lesson-020:m04:formula-4",
+      "math-2023-grade4-part1:lesson-020:m04:formula-5",
+      "math-2023-grade4-part1:lesson-020:m04:formula-6",
+      "math-2023-grade4-part1:lesson-020:m04:number",
+      "math-2023-grade4-part1:lesson-020:m04:text-1",
+      "math-2023-grade4-part1:lesson-020:m05",
+      "math-2023-grade4-part1:lesson-020:m05:library-context",
+      "math-2023-grade4-part1:lesson-020:m05:number",
+      "math-2023-grade4-part1:lesson-020:m05:text-1",
+      "math-2023-grade4-part1:lesson-020:m05:text-2",
+      "math-2023-grade4-part1:lesson-020:m06",
+      "math-2023-grade4-part1:lesson-020:m06:badge-1",
+      "math-2023-grade4-part1:lesson-020:m06:formula-1",
+      "math-2023-grade4-part1:lesson-020:m06:formula-2",
+      "math-2023-grade4-part1:lesson-020:m06:formula-3",
+      "math-2023-grade4-part1:lesson-020:m06:formula-4",
+      "math-2023-grade4-part1:lesson-020:m06:number",
+      "math-2023-grade4-part1:lesson-020:m06:text-1",
+      "math-2023-grade4-part1:lesson-020:m07",
+      "math-2023-grade4-part1:lesson-020:m07:badge-1",
+      "math-2023-grade4-part1:lesson-020:m07:number",
+      "math-2023-grade4-part1:lesson-020:m07:text-1",
+      "math-2023-grade4-part1:lesson-020:m07:text-2",
+      "math-2023-grade4-part1:lesson-020:m08",
+      "math-2023-grade4-part1:lesson-020:m08:badge-1",
+      "math-2023-grade4-part1:lesson-020:m08:number",
+      "math-2023-grade4-part1:lesson-020:m08:text-1",
+      "math-2023-grade4-part1:lesson-020:m08:text-2",
+      "math-2023-grade4-part1:lesson-020:m09",
+      "math-2023-grade4-part1:lesson-020:m09:badge-1",
+      "math-2023-grade4-part1:lesson-020:m09:number",
+      "math-2023-grade4-part1:lesson-020:m09:text-1",
+      "math-2023-grade4-part1:lesson-020:m09:text-2",
+      "math-2023-grade4-part1:lesson-020:m10",
+      "math-2023-grade4-part1:lesson-020:m10:badge-1",
+      "math-2023-grade4-part1:lesson-020:m10:formula-1",
+      "math-2023-grade4-part1:lesson-020:m10:formula-10",
+      "math-2023-grade4-part1:lesson-020:m10:formula-11",
+      "math-2023-grade4-part1:lesson-020:m10:formula-12",
+      "math-2023-grade4-part1:lesson-020:m10:formula-2",
+      "math-2023-grade4-part1:lesson-020:m10:formula-3",
+      "math-2023-grade4-part1:lesson-020:m10:formula-4",
+      "math-2023-grade4-part1:lesson-020:m10:formula-5",
+      "math-2023-grade4-part1:lesson-020:m10:formula-6",
+      "math-2023-grade4-part1:lesson-020:m10:formula-7",
+      "math-2023-grade4-part1:lesson-020:m10:formula-8",
+      "math-2023-grade4-part1:lesson-020:m10:formula-9",
+      "math-2023-grade4-part1:lesson-020:m10:number",
+      "math-2023-grade4-part1:lesson-020:m10:text-1",
+      "math-2023-grade4-part1:lesson-020:running-78",
+      "math-2023-grade4-part1:lesson-020:running-79",
+      "math-2023-grade4-part1:lesson-020:running-80",
+      "math-2023-grade4-part1:p077",
+      "math-2023-grade4-part1:p078",
+      "math-2023-grade4-part1:p079",
+      "math-2023-grade4-part1:p080"
+    ],
+    "addressed_record_ids": []
   }
 }
