@@ -1,0 +1,689 @@
+{
+  "schema_version": "textbook-review/4.0",
+  "data_version": "v4.1-audit1-r001",
+  "textbook_id": "math-2023-grade4-part1",
+  "lesson_id": "math-2023-grade4-part1:lesson-004",
+  "records": [
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1-audit1-r001",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-004",
+      "record_id": "75dcab43-5e7e-44d1-b4c7-61baf7ed7eef",
+      "reviewer_stream_id": "5ee0184b-ebfa-4d94-aa59-38e2b231d77c",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-004:m06:population-map",
+      "object_type": "informative_image",
+      "pdf_page": 20,
+      "source_locations": [
+        {
+          "pdf_page": 20,
+          "printed_page": "20",
+          "bbox": [
+            114,
+            866,
+            902,
+            1306
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p020:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "informative_image",
+        "parent_id": "math-2023-grade4-part1:lesson-004:m06",
+        "structured_description": {
+          "description_kk": "2019 жылғы 1 қаңтардағы Қазақстан халқы.\nҚызыл сандар — қала халқы, көк сандар — ауыл халқы.\nЕл бойынша: қала халқы (қызыл) — 10 698 210 адам; ауыл халқы (көк) — 7 697 357 адам.\n\nОблыстар бойынша\nСолтүстік Қазақстан облысы: қала халқы (қызыл) — 252 673; ауыл халқы (көк) — 301 844.\nҚостанай облысы: қала халқы (қызыл) — 475 681; ауыл халқы (көк) — 397 114.\nПавлодар облысы: қала халқы (қызыл) — 532 029; ауыл халқы (көк) — 221 824.\nАқмола облысы: қала халқы (қызыл) — 348 269; ауыл халқы (көк) — 390 318.\nБатыс Қазақстан облысы: қала халқы (қызыл) — 339 259; ауыл халқы (көк) — 313 066.\nШығыс Қазақстан облысы: қала халқы (қызыл) — 849 152; ауыл халқы (көк) — 529 375.\nАқтөбе облысы: қала халқы (қызыл) — 614 492; ауыл халқы (көк) — 255 145.\nҚарағанды облысы: қала халқы (қызыл) — 1 097 419; ауыл халқы (көк) — 281 114.\nАтырау облысы: қала халқы (қызыл) — 330 218; ауыл халқы (көк) — 303 573.\nАлматы облысы: қала халқы (қызыл) — 457 411; ауыл халқы (көк) — 1 581 523.\nМаңғыстау облысы: қала халқы (қызыл) — 271 054; ауыл халқы (көк) — 407 145.\nҚызылорда облысы: қала халқы (қызыл) — 352 020; ауыл халқы (көк) — 442 314.\nЖамбыл облысы: қала халқы (қызыл) — 447 007; ауыл халқы (көк) — 678 435.\nТүркістан облысы: қала халқы (қызыл) — 389 400; ауыл халқы (көк) — 1 594 567.\n\nСілтеме сызықтарымен бөлек көрсетілген қалалар\nАстана: қала халқы (қызыл) — 1 078 384.\nАлматы: қала халқы (қызыл) — 1 854 656.\nШымкент: қала халқы (қызыл) — 1 009 086.",
+          "legend": {
+            "red": "urban",
+            "blue": "rural"
+          },
+          "series_data": [
+            {
+              "region_kk": "Солтүстік Қазақстан облысы",
+              "urban": 252673,
+              "rural": 301844,
+              "page_refs": [
+                {
+                  "pdf_page": 20,
+                  "printed_page": "20",
+                  "bbox": [
+                    490,
+                    882,
+                    644,
+                    961
+                  ],
+                  "scan_asset_id": "math-2023-grade4-part1:p020:scan"
+                }
+              ]
+            },
+            {
+              "region_kk": "Қостанай облысы",
+              "urban": 475681,
+              "rural": 397114,
+              "page_refs": [
+                {
+                  "pdf_page": 20,
+                  "printed_page": "20",
+                  "bbox": [
+                    369,
+                    940,
+                    507,
+                    1003
+                  ],
+                  "scan_asset_id": "math-2023-grade4-part1:p020:scan"
+                }
+              ]
+            },
+            {
+              "region_kk": "Павлодар облысы",
+              "urban": 532029,
+              "rural": 221824,
+              "page_refs": [
+                {
+                  "pdf_page": 20,
+                  "printed_page": "20",
+                  "bbox": [
+                    659,
+                    936,
+                    738,
+                    1018
+                  ],
+                  "scan_asset_id": "math-2023-grade4-part1:p020:scan"
+                }
+              ]
+            },
+            {
+              "region_kk": "Ақмола облысы",
+              "urban": 348269,
+              "rural": 390318,
+              "page_refs": [
+                {
+                  "pdf_page": 20,
+                  "printed_page": "20",
+                  "bbox": [
+                    489,
+                    968,
+                    612,
+                    1027
+                  ],
+                  "scan_asset_id": "math-2023-grade4-part1:p020:scan"
+                }
+              ]
+            },
+            {
+              "region_kk": "Батыс Қазақстан облысы",
+              "urban": 339259,
+              "rural": 313066,
+              "page_refs": [
+                {
+                  "pdf_page": 20,
+                  "printed_page": "20",
+                  "bbox": [
+                    143,
+                    981,
+                    273,
+                    1061
+                  ],
+                  "scan_asset_id": "math-2023-grade4-part1:p020:scan"
+                }
+              ]
+            },
+            {
+              "region_kk": "Шығыс Қазақстан облысы",
+              "urban": 849152,
+              "rural": 529375,
+              "page_refs": [
+                {
+                  "pdf_page": 20,
+                  "printed_page": "20",
+                  "bbox": [
+                    736,
+                    1045,
+                    873,
+                    1127
+                  ],
+                  "scan_asset_id": "math-2023-grade4-part1:p020:scan"
+                }
+              ]
+            },
+            {
+              "region_kk": "Ақтөбе облысы",
+              "urban": 614492,
+              "rural": 255145,
+              "page_refs": [
+                {
+                  "pdf_page": 20,
+                  "printed_page": "20",
+                  "bbox": [
+                    289,
+                    1051,
+                    409,
+                    1113
+                  ],
+                  "scan_asset_id": "math-2023-grade4-part1:p020:scan"
+                }
+              ]
+            },
+            {
+              "region_kk": "Қарағанды облысы",
+              "urban": 1097419,
+              "rural": 281114,
+              "page_refs": [
+                {
+                  "pdf_page": 20,
+                  "printed_page": "20",
+                  "bbox": [
+                    524,
+                    1066,
+                    668,
+                    1122
+                  ],
+                  "scan_asset_id": "math-2023-grade4-part1:p020:scan"
+                }
+              ]
+            },
+            {
+              "region_kk": "Атырау облысы",
+              "urban": 330218,
+              "rural": 303573,
+              "page_refs": [
+                {
+                  "pdf_page": 20,
+                  "printed_page": "20",
+                  "bbox": [
+                    164,
+                    1077,
+                    284,
+                    1135
+                  ],
+                  "scan_asset_id": "math-2023-grade4-part1:p020:scan"
+                }
+              ]
+            },
+            {
+              "region_kk": "Алматы облысы",
+              "urban": 457411,
+              "rural": 1581523,
+              "page_refs": [
+                {
+                  "pdf_page": 20,
+                  "printed_page": "20",
+                  "bbox": [
+                    671,
+                    1144,
+                    793,
+                    1203
+                  ],
+                  "scan_asset_id": "math-2023-grade4-part1:p020:scan"
+                }
+              ]
+            },
+            {
+              "region_kk": "Маңғыстау облысы",
+              "urban": 271054,
+              "rural": 407145,
+              "page_refs": [
+                {
+                  "pdf_page": 20,
+                  "printed_page": "20",
+                  "bbox": [
+                    173,
+                    1164,
+                    320,
+                    1227
+                  ],
+                  "scan_asset_id": "math-2023-grade4-part1:p020:scan"
+                }
+              ]
+            },
+            {
+              "region_kk": "Қызылорда облысы",
+              "urban": 352020,
+              "rural": 442314,
+              "page_refs": [
+                {
+                  "pdf_page": 20,
+                  "printed_page": "20",
+                  "bbox": [
+                    362,
+                    1161,
+                    520,
+                    1219
+                  ],
+                  "scan_asset_id": "math-2023-grade4-part1:p020:scan"
+                }
+              ]
+            },
+            {
+              "region_kk": "Жамбыл облысы",
+              "urban": 447007,
+              "rural": 678435,
+              "page_refs": [
+                {
+                  "pdf_page": 20,
+                  "printed_page": "20",
+                  "bbox": [
+                    546,
+                    1167,
+                    676,
+                    1225
+                  ],
+                  "scan_asset_id": "math-2023-grade4-part1:p020:scan"
+                }
+              ]
+            },
+            {
+              "region_kk": "Түркістан облысы",
+              "urban": 389400,
+              "rural": 1594567,
+              "page_refs": [
+                {
+                  "pdf_page": 20,
+                  "printed_page": "20",
+                  "bbox": [
+                    468,
+                    1234,
+                    607,
+                    1296
+                  ],
+                  "scan_asset_id": "math-2023-grade4-part1:p020:scan"
+                }
+              ]
+            },
+            {
+              "region_kk": "Астана",
+              "urban": 1078384,
+              "rural": null,
+              "page_refs": [
+                {
+                  "pdf_page": 20,
+                  "printed_page": "20",
+                  "bbox": [
+                    713,
+                    878,
+                    801,
+                    918
+                  ],
+                  "scan_asset_id": "math-2023-grade4-part1:p020:scan"
+                }
+              ]
+            },
+            {
+              "region_kk": "Алматы",
+              "urban": 1854656,
+              "rural": null,
+              "page_refs": [
+                {
+                  "pdf_page": 20,
+                  "printed_page": "20",
+                  "bbox": [
+                    742,
+                    1234,
+                    827,
+                    1270
+                  ],
+                  "scan_asset_id": "math-2023-grade4-part1:p020:scan"
+                }
+              ]
+            },
+            {
+              "region_kk": "Шымкент",
+              "urban": 1009086,
+              "rural": null,
+              "page_refs": [
+                {
+                  "pdf_page": 20,
+                  "printed_page": "20",
+                  "bbox": [
+                    600,
+                    1262,
+                    690,
+                    1302
+                  ],
+                  "scan_asset_id": "math-2023-grade4-part1:p020:scan"
+                }
+              ]
+            }
+          ],
+          "national_totals": {
+            "urban": 10698210,
+            "rural": 7697357,
+            "source_object_id": "math-2023-grade4-part1:lesson-004:m06:national-totals"
+          },
+          "city_callouts_kk": [
+            "Астана",
+            "Алматы",
+            "Шымкент"
+          ]
+        },
+        "ocr_evidence": [
+          {
+            "line_id": "30",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l30",
+            "raw": "Солтүстік Қазақстан",
+            "existing_corrected": "Солтүстік Қазақстан"
+          },
+          {
+            "line_id": "34",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l34",
+            "raw": "облысы",
+            "existing_corrected": "облысы"
+          },
+          {
+            "line_id": "36",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l36",
+            "raw": "252 673",
+            "existing_corrected": "252 673"
+          },
+          {
+            "line_id": "38",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l38",
+            "raw": "301844",
+            "existing_corrected": "301 844"
+          },
+          {
+            "line_id": "37",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l37",
+            "raw": "Костанай облысы",
+            "existing_corrected": "Қостанай облысы"
+          },
+          {
+            "line_id": "40",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l40",
+            "raw": "475 681",
+            "existing_corrected": "475 681"
+          },
+          {
+            "line_id": "44",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l44",
+            "raw": "397114",
+            "existing_corrected": "397 114"
+          },
+          {
+            "line_id": "39",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l39",
+            "raw": "Павлодар",
+            "existing_corrected": "Павлодар"
+          },
+          {
+            "line_id": "41",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l41",
+            "raw": "облысы",
+            "existing_corrected": "облысы"
+          },
+          {
+            "line_id": "46",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l46",
+            "raw": "532029",
+            "existing_corrected": "532 029"
+          },
+          {
+            "line_id": "49",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l49",
+            "raw": "221824",
+            "existing_corrected": "221 824"
+          },
+          {
+            "line_id": "42",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l42",
+            "raw": "Ақмола облысы",
+            "existing_corrected": "Ақмола облысы"
+          },
+          {
+            "line_id": "45",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l45",
+            "raw": "348 269",
+            "existing_corrected": "348 269"
+          },
+          {
+            "line_id": "48",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l48",
+            "raw": "390 318",
+            "existing_corrected": "390 318"
+          },
+          {
+            "line_id": "43",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l43",
+            "raw": "Батыс Казақстан",
+            "existing_corrected": "Батыс Қазақстан"
+          },
+          {
+            "line_id": "47",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l47",
+            "raw": "облысы",
+            "existing_corrected": "облысы"
+          },
+          {
+            "line_id": "50",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l50",
+            "raw": "339 259",
+            "existing_corrected": "339 259"
+          },
+          {
+            "line_id": "51",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l51",
+            "raw": "313 066",
+            "existing_corrected": "313 066"
+          },
+          {
+            "line_id": "53",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l53",
+            "raw": "Шығыс Қазақстан",
+            "existing_corrected": "Шығыс Қазақстан"
+          },
+          {
+            "line_id": "56",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l56",
+            "raw": "облысы",
+            "existing_corrected": "облысы"
+          },
+          {
+            "line_id": "60",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l60",
+            "raw": "849152",
+            "existing_corrected": "849 152"
+          },
+          {
+            "line_id": "64",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l64",
+            "raw": "529 375",
+            "existing_corrected": "529 375"
+          },
+          {
+            "line_id": "52",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l52",
+            "raw": "Ақтебе облысы",
+            "existing_corrected": "Ақтөбе облысы"
+          },
+          {
+            "line_id": "54",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l54",
+            "raw": "614 492",
+            "existing_corrected": "614 492"
+          },
+          {
+            "line_id": "58",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l58",
+            "raw": "255 145",
+            "existing_corrected": "255 145"
+          },
+          {
+            "line_id": "55",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l55",
+            "raw": "Қарағанды облысы",
+            "existing_corrected": "Қарағанды облысы"
+          },
+          {
+            "line_id": "59",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l59",
+            "raw": "1097 419",
+            "existing_corrected": "1 097 419"
+          },
+          {
+            "line_id": "62",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l62",
+            "raw": "281 114",
+            "existing_corrected": "281 114"
+          },
+          {
+            "line_id": "57",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l57",
+            "raw": "Атырау облысы",
+            "existing_corrected": "Атырау облысы"
+          },
+          {
+            "line_id": "61",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l61",
+            "raw": "330 218",
+            "existing_corrected": "330 218"
+          },
+          {
+            "line_id": "63",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l63",
+            "raw": "303 573",
+            "existing_corrected": "303 573"
+          },
+          {
+            "line_id": "65",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l65",
+            "raw": "Алматы облысы",
+            "existing_corrected": "Алматы облысы"
+          },
+          {
+            "line_id": "69",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l69",
+            "raw": "457 411",
+            "existing_corrected": "457 411"
+          },
+          {
+            "line_id": "73",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l73",
+            "raw": "1581523",
+            "existing_corrected": "1 581 523"
+          },
+          {
+            "line_id": "66",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l66",
+            "raw": "Маңғыстау облысы",
+            "existing_corrected": "Маңғыстау облысы"
+          },
+          {
+            "line_id": "70",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l70",
+            "raw": "271054",
+            "existing_corrected": "271 054"
+          },
+          {
+            "line_id": "74",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l74",
+            "raw": "407145",
+            "existing_corrected": "407 145"
+          },
+          {
+            "line_id": "67",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l67",
+            "raw": "Қызылорда облысы",
+            "existing_corrected": "Қызылорда облысы"
+          },
+          {
+            "line_id": "71",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l71",
+            "raw": "352 020",
+            "existing_corrected": "352 020"
+          },
+          {
+            "line_id": "75",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l75",
+            "raw": "442 314",
+            "existing_corrected": "442 314"
+          },
+          {
+            "line_id": "68",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l68",
+            "raw": "Жамбыл облысы",
+            "existing_corrected": "Жамбыл облысы"
+          },
+          {
+            "line_id": "72",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l72",
+            "raw": "447 007",
+            "existing_corrected": "447 007"
+          },
+          {
+            "line_id": "76",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l76",
+            "raw": "678 435",
+            "existing_corrected": "678 435"
+          },
+          {
+            "line_id": "77",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l77",
+            "raw": "Туркістан облысы",
+            "existing_corrected": "Түркістан облысы"
+          },
+          {
+            "line_id": "79",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l79",
+            "raw": "389400",
+            "existing_corrected": "389 400"
+          },
+          {
+            "line_id": "82",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l82",
+            "raw": "1594 567",
+            "existing_corrected": "1 594 567"
+          },
+          {
+            "line_id": "31",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l31",
+            "raw": "Астана",
+            "existing_corrected": "Астана"
+          },
+          {
+            "line_id": "33",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l33",
+            "raw": "1078 384",
+            "existing_corrected": "1 078 384"
+          },
+          {
+            "line_id": "78",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l78",
+            "raw": "Алматы",
+            "existing_corrected": "Алматы"
+          },
+          {
+            "line_id": "80",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l80",
+            "raw": "1854 656",
+            "existing_corrected": "1 854 656"
+          },
+          {
+            "line_id": "81",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l81",
+            "raw": "Шымкент",
+            "existing_corrected": "Шымкент"
+          },
+          {
+            "line_id": "83",
+            "wiki_line_id": "math-2023-grade4-part1:p020:l83",
+            "raw": "1009086",
+            "existing_corrected": "1 009 086"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T08:30:49.376Z",
+      "supersedes": [],
+      "provenance": {
+        "source": "user_chat",
+        "quote": "给这个标记已通过吧"
+      }
+    }
+  ]
+}

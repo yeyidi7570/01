@@ -22,7 +22,7 @@
 | [lesson_001](01_segmentation/lesson_001/) | 已归档 V4，`pending_review` | [第三轮复核通过](02_segmentation_review/lesson_001/revision_3/) | 未开始 | 未开始 | 未完成 |
 | [lesson_002](01_segmentation/lesson_002/) | `segmentation_completed` | [第一轮修订复核通过](02_segmentation_review/lesson_002/revision_1/) | 未开始 | 未开始 | 未完成 |
 | [lesson_003](01_segmentation/lesson_003/) | `segmentation_completed` | [第一轮修订复核通过](02_segmentation_review/lesson_003/revision_1/) | 未开始 | 未开始 | 未完成 |
-| [lesson_004](01_segmentation/lesson_004/) | `segmentation_completed` | [第一轮修订待复核](02_segmentation_review/lesson_004/revision_1/) | 未开始 | 未开始 | 未完成 |
+| [lesson_004](01_segmentation/lesson_004/) | `segmentation_completed` | [地图复核通过，2 项无法判断](02_segmentation_review/lesson_004/revision_1/) | 未开始 | 未开始 | 未完成 |
 | [lesson_005](01_segmentation/lesson_005/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_006](01_segmentation/lesson_006/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_007](01_segmentation/lesson_007/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
@@ -90,7 +90,7 @@
 
 第 4 课的人工提交已归档。第 5 题三个标签按原书显示为 `а)`、`ә)`、`б)`，第 4 题的 `4ә` 也已校正。新版沿用 104 个通过任务（含 4 页完整性），四个修改过的标签待复核。人口地图有 1 项问题，取近似值图和数位单位图各有 1 项无法判断。[原始提交](02_segmentation_review/lesson_004/submissions/review_001_original.json)
 
-第 4 课第一轮修订逐州写明图中的红字城市人口、蓝字农村人口，并单列三座带引线的城市。四个子题标记已根据第二份审核提交确认为通过。新版为 108/111 项通过，地图待复核，另外两幅图保留无法判断状态。[第二份审核提交](02_segmentation_review/lesson_004/submissions/review_002_original.json) · [修订目录](02_segmentation_review/lesson_004/revision_1/)
+第 4 课第一轮修订逐州写明图中的红字城市人口、蓝字农村人口，并单列三座带引线的城市。四个子题标记已根据第二份审核提交确认为通过。人口地图已由审核员在对话中确认通过。新版为 109/111 项通过，另外两幅图保留无法判断状态。[地图通过记录](02_segmentation_review/lesson_004/submissions/review_003_chat.json) · [第二份审核提交](02_segmentation_review/lesson_004/submissions/review_002_original.json) · [修订目录](02_segmentation_review/lesson_004/revision_1/)
 
 第 5 课 `Көптаңбалы сандармен арифметикалық амалдар орындау`，PDF 和印刷页 22–25。共 10 个 Module、0 条独立教学说明、1 张表、2 张信息图及 47 条校对建议。保留第 9 题的原印单位「6 995 км」，以及第 7 题左列两次出现的 125 000，均标记待核。
 
