@@ -15,4 +15,4 @@
 
 ## 复用连续问卷界面生成程序
 
-在临时工作目录中以原始命名放置两个 V4 审核 HTML。将 [review_continuous](review_continuous/) 下的四份工具文件复制到该临时目录的 `scratch/review_continuous/`，运行其中的 `build.py`。程序沿用 V4 内嵌数据和图像，并在临时工作目录写出两个 `_v4_continuous.html`。归档版本位于 [第一课的连续界面目录](../01_segmentation/lesson_001/variants/continuous/)。
+在临时工作目录中以原始命名放置两个 V4 审核 HTML。将 [review_continuous](review_continuous/) 下的四份工具文件复制到该临时目录的 `scratch/review_continuous/`，运行其中的 `build.py`。程序沿用 V4 内嵌数据和图像，并在临时工作目录写出两个 `_v4_continuous.html`。正式审核入口为 [中文连续审核](../01_segmentation/lesson_001/review_zh.html) 和 [哈语连续审核](../01_segmentation/lesson_001/review_kk.html)。

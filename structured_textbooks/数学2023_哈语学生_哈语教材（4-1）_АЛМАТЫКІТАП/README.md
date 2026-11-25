@@ -62,7 +62,7 @@
 
 第 1 课 `3-сыныпта өткенді қайталау` 覆盖 PDF 第 7–10 页，对应印刷第 7–10 页。第 2 课从第 11 页开始，标题相同。教材按课号区分两课。
 
-第一课标准入口为 [结构化 JSON](01_segmentation/lesson_001/content.json)、[中文审核 HTML](01_segmentation/lesson_001/review_zh.html) 和 [哈语审核 HTML](01_segmentation/lesson_001/review_kk.html)。两份标准 HTML 使用 V4 原始的单对象审核界面。后续的 [连续问卷界面](01_segmentation/lesson_001/variants/continuous/) 是同一份内容的双语界面变体，沿用原切割坐标、对象 ID 和审核记录格式。
+第 1 课的正式入口为 [结构化 JSON](01_segmentation/lesson_001/content.json)、[中文连续审核](01_segmentation/lesson_001/review_zh.html) 和 [哈语连续审核](01_segmentation/lesson_001/review_kk.html)。两份审核页沿用 `v4.1` 数据、原切割坐标和对象 ID，支持导入此前导出的第一课审核记录。
 
 第 2 课 `3-сыныпта өткенді қайталау` 以 `ЭКСПО-2017` 为情境，覆盖 PDF 和印刷第 11–13 页。第 14 页是第 3 课。保留 9 个 Module、1 个独立教学说明 `ОСЫЛАЙ ТАЛДА!`、6 个 Module Badge、2 幅信息性天平图、24 个公式对象、1 条支持关联和 27 条校对建议，其中 22 条为字符或排版建议，5 条为结构建议。建议人工复核第 4 题的变量字形、第 5 题的天平标注和第 9 题的右边框。子题的原书小写标记与大写索引并存。
 
