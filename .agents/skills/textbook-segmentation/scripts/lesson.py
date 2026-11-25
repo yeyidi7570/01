@@ -150,6 +150,14 @@ def validate_content(data):
                             for c in text), f'non-uppercase-Cyrillic subtask number: {o["id"]}')
             if o.get('crop_asset_id'):
                 require(o['crop_asset_id'] in data['crop_assets'], f'missing crop asset: {o["id"]}')
+            sequence=o.get('worked_sequence')
+            if sequence:
+                require(kind=='example' and bool(sequence['description_kk'])
+                        and sequence['crop_asset_id'] in data['crop_assets']
+                        and sequence['steps']==o.get('content_order')
+                        and all(len(path)>1 and set(path)<=set(sequence['steps'])
+                                for path in sequence.get('relationships',[])),
+                        f'invalid worked calculation sequence: {o["id"]}')
             if kind == 'informative_image':
                 require(o.get('crop_asset_id') and (o.get('structured_description') or o.get('review_flags')),
                         f'image needs a crop and description or a review flag: {o["id"]}')
@@ -230,6 +238,39 @@ class ReviewHTML(HTMLParser):
             self.current = None
 
 
+def validate_review_history(data, ids, history):
+    revision = data.get('review_revision')
+    require(bool(revision) == bool(history), 'a revision requires its original review package')
+    if not revision:
+        return
+    source_version = revision['source_version']
+    require(isinstance(source_version, str) and source_version and source_version != data['data_version'],
+            'invalid revision source version')
+    require(re.fullmatch(r'[a-f0-9]{64}', revision['submission_sha256']), 'invalid submission checksum')
+    source_ids = set(revision['source_object_ids'])
+    equivalent = set(revision['equivalent_object_ids'])
+    require(equivalent <= source_ids & ids.keys(), 'unknown equivalent object')
+    require(history['schema_version'] == 'textbook-review/4.0' and history['data_version'] == source_version
+            and history['textbook_id'] == data['book']['id'] and history['lesson_id'] == data['lesson']['id'],
+            'review package does not match the previous version')
+    records = history['records']
+    require(isinstance(records, list), 'review records must be a list')
+    by_record = {}
+    for record in records:
+        record_id = record['record_id']
+        require(isinstance(record_id, str) and record_id and record_id not in by_record
+                and record['object_id'] in source_ids
+                and all(record[key] == history[key] for key in ('textbook_id','lesson_id','schema_version','data_version'))
+                and record['status'] in ('approved','issue','unable_to_verify')
+                and record['interface_language'] in ('zh','kk')
+                and record['review_scope'] in ('textbook','auxiliary_translation','page_omission')
+                and all(isinstance(record[key], list) for key in ('supersedes','changes','source_locations')),
+                f'invalid prior review record: {record_id}')
+        by_record[record_id] = record
+    require(all(record_id in by_record and by_record[record_id]['status'] == 'issue'
+                for record_id in revision['addressed_record_ids']), 'addressed record must identify an original issue')
+
+
 def audit_package(directory, allow_legacy=False):
     for name in FILES:
         p=directory/name
@@ -258,7 +299,9 @@ def audit_package(directory, allow_legacy=False):
             if p.get('scan_sha256'):
                 require(hashlib.sha256(payloads[p['scan_asset_id']]).hexdigest()==p['scan_sha256'],
                         f'embedded scan checksum mismatch: {p["scan_asset_id"]}')
-        behavior=(assets, html.sections['script'], html.sections['style'])
+        prior=json.loads(html.sections.get('prior-review','null'))
+        validate_review_history(data,ids,prior)
+        behavior=(assets,html.sections['script'],html.sections['style'],prior)
         aux=json.loads(html.sections['translations'])
         require(lang=='zh' or not aux, 'Kazakh page must not depend on Chinese translations')
         paired[lang]=behavior
@@ -282,11 +325,17 @@ def render(args):
     translations=read(args.translations)
     permitted=set(ids)
     permitted.update(o['id'] for o in data['ocr_suggestions'])
+    permitted.update(f'{o["id"]}#worked_sequence' for o in ids.values() if o.get('worked_sequence'))
     permitted.update(f'{o["id"]}#{flag["code"]}' for o in ids.values() for flag in o.get('review_flags',[]))
     require(translations.get('title') and isinstance(translations['objects'],dict)
             and set(translations['objects']) <= permitted
             and all(isinstance(s,str) and s.strip() for s in translations['objects'].values()),
             'invalid Chinese auxiliary translations or unknown object IDs')
+    prior=read(args.prior_review) if args.prior_review else None
+    validate_review_history(data,ids,prior)
+    if args.prior_review:
+        require(sha(args.prior_review)==data['review_revision']['submission_sha256'],
+                'prior review checksum differs from revision metadata')
     paths=read(args.scans)
     require(set(paths)=={p['scan_asset_id'] for p in data['pages']}, 'scan manifest must match the Lesson scan IDs')
     imgs, images={}, {}
@@ -311,7 +360,7 @@ def render(args):
             im.save(stream,format='PNG',optimize=True)
             images[id_]=embed('PNG',stream.getvalue())
     html=(ASSETS/'page.html').read_text(encoding='utf-8')
-    fields=dict(DATA=script_json(data),IMAGES=script_json(images),CSS=(ASSETS/'review.css').read_text(encoding='utf-8'),
+    fields=dict(DATA=script_json(data),IMAGES=script_json(images),PRIOR=script_json(prior),CSS=(ASSETS/'review.css').read_text(encoding='utf-8'),
                 JS=(ASSETS/'review.js').read_text(encoding='utf-8'))
     for key in (*fields,'LANG','TITLE','AUX'):
         require(html.count(f'@@{key}@@')==1, f'bad template marker: {key}')
@@ -356,6 +405,7 @@ def main():
     r=sub.add_parser('render',help='render three artifacts to a new staging directory from confirmed input data')
     for name in ('content','scans','translations','output'):
         r.add_argument(f'--{name}',type=Path,required=True)
+    r.add_argument('--prior-review',type=Path,help='unchanged submission for a revised Lesson')
     c=sub.add_parser('check',help='check content, assets and bilingual embedded parity')
     c.add_argument('--lesson-dir',type=Path,required=True)
     c.add_argument('--allow-legacy-review',action='store_true')

@@ -101,9 +101,15 @@ td button,th button{border:0;padding:.12rem;background:transparent;white-space:p
 td button[aria-pressed=true],th button[aria-pressed=true]{background:#fbead9}
 td small,th small{display:block;color:#36616c;font-size:.77rem}
 sup u{text-underline-offset:2px}
-.vertical{display:inline-grid;grid-template-columns:auto auto;gap:.04rem .4rem;margin:.2rem .5rem .6rem;text-align:right;font-variant-numeric:tabular-nums}
-.vertical .rule{grid-column:2;border-top:1px solid}
+.vertical-figure{margin:.22rem 0 .48rem;overflow-x:auto}
+.vertical{display:inline-grid;grid-template-columns:auto auto max-content max-content auto;column-gap:.26em;align-items:baseline;font-variant-numeric:tabular-nums;white-space:pre}
+.vertical .amount{text-align:right}
+.vertical .small-unit{text-align:left}
+.vertical .larger-unit{text-align:right}
+.vertical .operator{align-self:center}
+.vertical .rule{grid-column:2/5;border-top:1px solid;margin:.16rem 0}
 .vertical .formula-caption{grid-column:1/-1}
+.vertical .equivalence{padding-left:.12em}
 .equations{font-family:ui-monospace,monospace;white-space:pre-wrap}
 .child-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.35rem;margin:.55rem 0}
 .child-list button{text-align:left;font-size:.83rem;font-weight:500}
@@ -155,32 +161,30 @@ main{flex:1;min-height:0;align-items:stretch;padding:.8rem 1.15rem;gap:.8rem}
 #cards{display:flow-root}
 .page-group{padding-top:.6rem}
 .page-heading{font-size:.83rem;font-weight:750;color:#315868;margin:.3rem 0 .5rem}
-.review-card,.review-element{background:#fff;min-width:0;overflow-wrap:anywhere}
-.review-card{margin:.6rem 0 .85rem;border:1px solid var(--line);border-radius:11px;padding:.7rem .9rem .75rem}
-.review-card[data-type=module],.review-card[data-type=instructional_note]{border-top:3px solid var(--box)}
-.review-card>.card-head{margin-bottom:.5rem}
-.review-element{padding:.55rem .62rem;margin:.3rem 0;border:1px solid #e3ebf0;border-left:2px solid var(--box,var(--line));border-radius:6px}
-.review-children{display:grid;gap:.22rem;margin-top:.4rem}
-.card-head{display:flex;align-items:center;justify-content:space-between;gap:.3rem .7rem;padding:.22rem .25rem;border-radius:5px;flex-wrap:wrap}
-.card-head h3,.card-head h4{margin:0;font-size:1rem;line-height:1.35}
-.card-head h4{font-size:.84rem}
+.review-card,.review-element,.review-group{min-width:0;overflow-wrap:anywhere}
+.review-card,.review-element{padding:.45rem .25rem;border-top:1px solid var(--line)}
+.review-group{margin:.5rem 0}
+.page-group>.review-group,.page-group>.review-card{background:#fff;padding:.62rem .8rem}
+.review-group .review-group>.card-head{background:#eff4f7}
+.review-children{margin-top:.23rem}
+.card-head{display:flex;align-items:center;gap:.28rem .55rem;padding:.18rem .2rem;flex-wrap:wrap}
+.card-head h3,.card-head h4{margin:0;margin-right:auto;font-size:.9rem;line-height:1.34}
+.card-head h4{font-size:.79rem}
 .card-head h3 small{display:inline-block;color:var(--sub);font-size:.72rem;font-weight:650;margin-left:.55rem}
-.card-head-tools{display:flex;align-items:center;gap:.35rem;flex-wrap:wrap}
 .state{display:inline-block;max-width:100%}
-.subtle{font-size:.77rem;padding:.22rem .43rem}
+.state:empty{display:none}
+.subtle{font-size:.76rem;padding:.2rem .4rem}
 .card-head.jumped{outline:2px solid #c55a09;background:#fff2e3;outline-offset:2px}
-.card-content>.content{margin:.2rem 0 .5rem}
-.card-content>.caption{margin-top:.18rem}
+.card-content>.content{margin:.16rem 0 .28rem}
+.card-content>.caption{margin-top:.16rem}
 .card-content>.pager{flex-wrap:wrap}
 .card-content>.flag{font-size:.84rem}
-.review-card .review-form{padding:.7rem .75rem;margin-top:.55rem;border:1px solid var(--line);border-radius:8px;background:#f5f9fc}
-.review-form h5{font-size:.95rem;margin:0 0 .45rem}
-.child-warning{display:flex;flex-wrap:wrap;gap:.35rem;margin:.28rem 0 .55rem;padding:.35rem .45rem;border:1px solid #d59882;background:#fff3e8;border-radius:6px}
-.child-warning button{font-size:.77rem}
-.element-controls{margin:.24rem 0 0;border:0;padding:0}
-.element-controls summary{color:#315868;font-size:.78rem;padding:.16rem 0}
-.element-actions{margin:.32rem 0}
-.element-actions button{font-size:.81rem;min-height:0;padding:.28rem .51rem}
+.review-form{padding:.65rem;margin-top:.35rem;border:1px solid var(--line);border-radius:6px;background:#f5f9fc}
+.review-form h5{font-size:.88rem;margin:0 0 .35rem}
+.feedback{border-left:2px solid #b46a47;padding:0 .5rem;font-size:.82rem}
+.feedback p{margin:.22rem 0}
+.element-actions{margin:.25rem 0}
+.element-actions button{font-size:.81rem;min-height:0;padding:.25rem .49rem}
 .table-wrap table{min-width:420px}
 #no-cards{color:var(--sub)}
 @media(max-width:950px){
@@ -197,8 +201,4 @@ main{flex:1;min-height:0;align-items:stretch;padding:.8rem 1.15rem;gap:.8rem}
  #review-scroll{overflow:visible}
  .top{grid-template-columns:minmax(0,1fr)}
  .files{justify-content:start}
-}
-@media(min-width:1050px){
- .review-card[data-role=lesson_header] .review-children{grid-template-columns:minmax(0,1fr) minmax(0,2fr) minmax(0,1.6fr);gap:.4rem}
- .review-card[data-role=lesson_header] .review-element{padding:.45rem .48rem}
 }

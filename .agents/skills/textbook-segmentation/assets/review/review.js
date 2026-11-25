@@ -21,11 +21,11 @@ const ui = {
   }
 }[lang];
 const types = {
-  page:['原图页','Түпнұсқа беті'],module:['任务','Тапсырма'],instructional_note:['教学说明','Оқу ескертпесі'],
-  other:['其他内容','Басқа мазмұн'],text:['文字','Мәтін'],module_number:['任务编号','Тапсырма нөмірі'],
-  subtask_number:['子题编号','Тармақ нөмірі'],module_badge:['任务标签','Тапсырма белгісі'],
-  informative_image:['信息性图片','Ақпараттық сурет'],formula:['公式','Өрнек'],table:['表格','Кесте'],
-  subtask:['子题','Тапсырма тармағы'],example:['示范','Үлгі'],teaching_link:['教学关联','Оқу байланысы']
+  page:'Page', module:'Module', instructional_note:'Instructional Note', subtask:'Subtask',
+  example:'Example', other:'Other', text:'Text', formula:'Formula', table:'Table',
+  informative_image:'Informative Image', badge:'Badge', module_number:'Module Number',
+  module_badge:'Module Badge', instructional_note_badge:'Instructional Note Badge',
+  subtask_number:'Subtask Number', teaching_link:'Teaching Link'
 };
 const codes = {
   subtask_number_error:['子题编号错误','Тармақ нөмірінің қатесі'],
@@ -36,19 +36,29 @@ const codes = {
   ocr_character:['OCR 字符错误','OCR таңба қатесі'],ocr_linebreak:['断词或换行错误','Тасымал не жол үзілісі'],
   formula_structure:['公式错误','Өрнек қатесі'],table_structure:['表格结构错误','Кесте құрылымының қатесі'],
   image_relationship:['信息性图片理解错误','Суреттегі байланысты түсіндіру қатесі'],reading_order:['阅读顺序错误','Оқу реті қатесі'],
+  cross_page:['跨页问题','Бетаралық ақау'],
   translation_zh:['中文辅助翻译错误','Қытайша аударма қатесі'],other:['其他','Басқа']
 };
 const local = pair => pair[lang==='zh'?0:1];
-const nameOf = code => local(types[code] ?? [code,code]);
+const nameOf = code => types[code] ?? code;
 const byId = new Map();
 const ordered = [];
 const pages = new Map(D.pages.map(p => [p.pdf_page,p]));
-const proposals = new Map(D.ocr_suggestions.map(p => [p.id,p]));
+const revision = D.review_revision;
+const priorPackage = JSON.parse($('prior-review').textContent);
+const equivalent = new Set(revision?.equivalent_object_ids ?? []);
+const resolved = new Set(revision?.addressed_record_ids ?? []);
+const priorObjectIds = new Set(revision?.source_object_ids ?? []);
+let priorRecords = new Map();
+const groupsOnly = new Set(['module','instructional_note','subtask','example']);
+const structureCodes = new Set(['missing_region','extra_region','boundary','assignment','element_type',
+  'reading_order','badge','instructional_note','formula_structure','table_structure','teaching_link','cross_page','other']);
+
 const recordStates = ['approved','issue','unable_to_verify'];
 const visualKinds = ['informative_image','table','formula'];
 const filterOptions = [
   ['all','all'],['issue','issue'],['unreviewed','unreviewed'],['unable_to_verify','unable_to_verify'],
-  ['ocr','ocrOnly'],['visual','visual'],['teaching_link','linkOnly']
+  ['visual','visual'],['teaching_link','linkOnly'],['page','pageReview']
 ];
 const pageOf = o => o.page_refs[0].pdf_page;
 const uid = () => globalThis.crypto?.randomUUID?.() ?? `${Date.now()}-${Math.random().toString(36).slice(2)}`;
@@ -104,24 +114,51 @@ for (const link of L.teaching_links) {
 const recordables = new Set(ordered.map(o => o.id));
 const omission = r => r.report_kind === 'page_omission';
 const objectRecords = id => [...records.values()].filter(r => r.object_id===id);
-function liveRecords(id, alsoOmissions=false) {
-  const relevant = objectRecords(id).filter(r => alsoOmissions || !omission(r));
-  const superseded = new Set(relevant.flatMap(r => r.supersedes ?? []));
-  return relevant.filter(r => !superseded.has(r.record_id)).sort(sortRecords);
+function latest(items) {
+  const superseded = new Set(items.flatMap(r=>r.supersedes));
+  return items.filter(r=>!superseded.has(r.record_id)).sort(sortRecords);
 }
+function liveRecords(id, alsoOmissions=false) {
+  return latest(objectRecords(id).filter(r=>alsoOmissions || !omission(r)));
+}
+function priorFor(id) {
+  return latest([...priorRecords.values()].filter(r=>r.object_id===id));
+}
+function hasContent(o) {
+  const kids=children(o);
+  const noteBadge=o.instructional_note_badge &&
+    !kids.some(c=>c.type==='instructional_note_badge' || c.text_kk===o.instructional_note_badge);
+  return o.type==='page' || o.type==='teaching_link' || Boolean(o.text_kk?.trim() || o.cells?.length ||
+    o.vertical || o.structured_description || noteBadge || (!kids.length && o.crop_asset_id));
+}
+const isContainer = o => groupsOnly.has(o.type) || children(o).length > 0;
+const structureRecord = (o,r) => r.report_kind==='structure_review' || (!hasContent(o) && r.status!=='approved');
 function signature(r) {
   return canonical([r.status,r.issue_code??null,r.changes??[],r.confirmed_suggestion_ids??[]]);
 }
-function conflict(o) {
-  const live=liveRecords(o.id);
-  return live.some((a,i)=>live.slice(i+1).some(b=>
+function conflict(items) {
+  return items.some((a,i)=>items.slice(i+1).some(b=>
     a.review_scope===b.review_scope &&
     (a.status!==b.status || (a.issue_code===b.issue_code && a.cell_id===b.cell_id && signature(a)!==signature(b)))));
 }
-function state(o) {
-  const live=liveRecords(o.id);
-  if (conflict(o) || (o.type==='page' && objectRecords(o.id).some(omission))) return 'issue';
-  return live.find(r=>r.status==='issue')?.status ?? live.find(r=>r.review_scope==='textbook')?.status ?? 'unreviewed';
+function recordState(items) {
+  if (conflict(items) || items.some(r=>r.status==='issue')) return 'issue';
+  if (items.some(r=>r.status==='unable_to_verify')) return 'unable_to_verify';
+  return items.some(r=>r.status==='approved' && r.review_scope==='textbook')?'approved':'unreviewed';
+}
+function historical(o) {
+  return priorFor(o.id).filter(r=>!resolved.has(r.record_id));
+}
+function contentState(o) {
+  const current=liveRecords(o.id,true).filter(r=>!structureRecord(o,r));
+  const retained=historical(o).filter(r=>!structureRecord(o,r) && (equivalent.has(o.id) || r.status==='issue'));
+  return recordState(current.length?[...current,...retained.filter(r=>r.status==='issue')]:retained);
+}
+function structureState(o) {
+  const current=liveRecords(o.id).filter(r=>structureRecord(o,r));
+  const retained=historical(o).filter(r=>structureRecord(o,r));
+  const status=recordState([...current,...retained]);
+  return status==='unreviewed' && !o.structure_recheck?'neutral':status;
 }
 
 function node(tag,txt,cls) {
@@ -145,11 +182,10 @@ function optionSet(select,pairs) {
   select.replaceChildren(...pairs.map(([value,label]) => option(value,label)));
 }
 const aux = id => translations.objects?.[id];
-const fmt = o => JSON.stringify(o,null,2);
 function label(o) {
   const owner=byId.get(o.id)?.owner;
   const mod=owner && byId.get(owner).o.module_number;
-  if (o.type==='module') return `${ui.moduleNumber} ${o.module_number}`;
+  if (o.type==='module') return `${nameOf(o.type)} ${o.module_number}`;
   if (o.type==='page') return `PDF ${pageOf(o)} · ${ui.printed} ${o.page_refs[0].printed_page}`;
   if (o.type==='teaching_link') return `${nameOf(o.type)} · ${label(byId.get(o.from_id).o).split(' · ')[0]} → ${nameOf(byId.get(o.to_id).o.type)}`;
   const part=o.subtask_label ?? byId.get(o.parent_id)?.o.subtask_label;
@@ -174,7 +210,7 @@ function readDraft() {
 }
 function persist() {
   try {
-    localStorage.setItem(key,JSON.stringify({...manifest,stream,reviewer:$('reviewer').value,records:[...records.values()]}));
+    localStorage.setItem(key,JSON.stringify({...manifest,stream,reviewer:$('reviewer').value,records:[...records.values()],prior_records:[...priorRecords.values()]}));
     durable=true;
   } catch(e) { durable=false; }
   $('draft').textContent=durable?ui.draft:ui.noDraft;
@@ -184,10 +220,10 @@ function message(text='',error=false) {
   $('message').dataset.error=error;
 }
 
-function validRecord(r) {
+function validRecord(r, version=manifest.data_version) {
   if (!r || typeof r.record_id!=='string' || typeof r.reviewer_stream_id!=='string' ||
-      !recordables.has(r.object_id) || r.textbook_id!==manifest.textbook_id ||
-      r.lesson_id!==manifest.lesson_id || r.data_version!==manifest.data_version ||
+      !(version===manifest.data_version?recordables:priorObjectIds).has(r.object_id) || r.textbook_id!==manifest.textbook_id ||
+      r.lesson_id!==manifest.lesson_id || r.data_version!==version || r.schema_version!==manifest.schema_version ||
       !recordStates.includes(r.status) || !['zh','kk'].includes(r.interface_language) ||
       !pages.has(r.pdf_page) || !['textbook','auxiliary_translation','page_omission'].includes(r.review_scope) || !Array.isArray(r.changes) || !Array.isArray(r.supersedes) ||
       !Array.isArray(r.source_locations) || r.issue_code!=null && !(r.issue_code in codes)) return false;
@@ -199,13 +235,13 @@ function canonical(value) {
   if (Array.isArray(value)) return '['+value.map(canonical).join(',')+']';
   return '{'+Object.keys(value).sort().map(k=>JSON.stringify(k)+':'+canonical(value[k])).join(',')+'}';
 }
-function merge(f) {
-  if (!f || Object.entries(manifest).some(([k,v]) => f[k]!==v) || !Array.isArray(f.records)) throw Error(ui.importError);
-  const next=new Map(records);
-  for (const r of f.records) {
-    if (!validRecord(r)) throw Error(ui.importError);
-    const prior=next.get(r.record_id);
-    if (prior && canonical(prior)!==canonical(r)) throw Error(ui.duplicate);
+function mergeRecords(existing, incoming, version) {
+  if (!Array.isArray(incoming)) throw Error(ui.importError);
+  const next=new Map(existing);
+  for (const r of incoming) {
+    if (!validRecord(r,version)) throw Error(ui.importError);
+    const previous=next.get(r.record_id);
+    if (previous && canonical(previous)!==canonical(r)) throw Error(ui.duplicate);
     next.set(r.record_id,r);
   }
   for (const r of next.values()) {
@@ -215,11 +251,26 @@ function merge(f) {
         old.report_kind!==r.report_kind || old.review_scope!==r.review_scope || old.recorded_at>r.recorded_at);
     })) throw Error(ui.importError);
   }
+  return next;
+}
+function merge(f) {
+  if (!f || f.schema_version!==manifest.schema_version || f.textbook_id!==manifest.textbook_id ||
+      f.lesson_id!==manifest.lesson_id) throw Error(ui.importError);
+  if (revision && f.data_version===revision.source_version) {
+    priorRecords=mergeRecords(priorRecords,f.records,revision.source_version);
+    return;
+  }
+  if (f.data_version!==manifest.data_version) throw Error(ui.importError);
+  const next=mergeRecords(records,f.records,manifest.data_version);
+  const prior=f.prior_records??[];
+  if (!Array.isArray(prior) || (prior.length && !revision)) throw Error(ui.importError);
+  if (revision) priorRecords=mergeRecords(priorRecords,prior,revision.source_version);
   records=next;
 }
 function exportRecords() {
   try {
-    const dump={...manifest,exported_at:new Date().toISOString(),export_interface_language:lang,records:[...records.values()].sort(sortRecords)};
+    const dump={...manifest,exported_at:new Date().toISOString(),export_interface_language:lang,records:[...records.values()].sort(sortRecords),
+      ...(priorRecords.size?{prior_records:[...priorRecords.values()].sort(sortRecords)}:{})};
     const url=URL.createObjectURL(new Blob([JSON.stringify(dump,null,2)],{type:'application/json'}));
     const a=node('a');
     a.href=url;
@@ -234,7 +285,7 @@ function exportRecords() {
 function original(o) {
   if (o.type==='teaching_link') return {from_id:o.from_id,to_id:o.to_id,relationship:o.relationship,rationale_kk:o.rationale_kk};
   if (o.type==='page') return {pdf_page:pageOf(o),printed_page:o.page_refs[0].printed_page};
-  const fields=['type','parent_id','content_order','text_kk','cells','vertical','structured_description','scope_ids','instructional_note_badge','ocr_evidence'];
+  const fields=['type','parent_id','content_order','text_kk','cells','vertical','worked_sequence','structured_description','scope_ids','instructional_note_badge','ocr_evidence'];
   return Object.fromEntries(fields.filter(k=>o[k]!==undefined).map(k=>[k,o[k]]));
 }
 function append(o,status,extra={}) {
@@ -244,7 +295,7 @@ function append(o,status,extra={}) {
   const isOmission=report_kind==='page_omission';
   const review_scope=isOmission?'page_omission':extra.issue_code==='translation_zh'?'auxiliary_translation':'textbook';
   const supersedes=isOmission?[]:liveRecords(o.id).filter(r=>
-    r.reviewer_stream_id===stream && r.review_scope===review_scope &&
+    r.reviewer_stream_id===stream && r.review_scope===review_scope && r.report_kind===report_kind &&
     (status!=='issue' || r.status!=='issue' || (r.issue_code===extra.issue_code && r.cell_id===extra.cell_id))
   ).map(r=>r.record_id);
   const data = {...manifest,record_id:id,reviewer_stream_id:stream,report_kind,object_id:o.id,
@@ -337,27 +388,33 @@ function block(parent,title,content,cls='') {
 }
 function renderContent(div,o,view) {
   if (o.type==='page') block(div,null,ui.pageAudit);
-  if (o.instructional_note_badge && o.instructional_note_badge!==o.text_kk) {
+  if (o.instructional_note_badge && o.instructional_note_badge!==o.text_kk &&
+      !children(o).some(c=>c.type==='instructional_note_badge' || c.text_kk===o.instructional_note_badge)) {
     block(div,null,o.instructional_note_badge,'caption');
   }
   if (o.vertical) renderVertical(div,o.vertical);
-  else block(div,ui.rawText,o.text_kk,o.type==='formula'?'equations':'');
-  if (aux(o.id) && o.type!=='teaching_link') block(div,ui.translation,aux(o.id),'translation');
+  else block(div,null,o.text_kk,o.type==='formula'?'equations':'');
+  if (aux(o.id) && hasContent(o) && o.type!=='teaching_link') block(div,ui.translation,aux(o.id),'translation');
   if (o.scope_ids) {
     const scopes=o.scope_ids.map(id=>byId.get(id)?.o).filter(Boolean);
     block(div,ui.badgeScope,scopes.map(label).join(' · '));
   }
-  if (o.crop_asset_id) {
+  const imageId=o.worked_sequence?.crop_asset_id ?? o.crop_asset_id;
+  if (imageId) {
     const img=node('img',null,'crop');
     img.loading='lazy';
-    const [x,y,r,b]=D.crop_assets[o.crop_asset_id].bbox;
+    const [x,y,r,b]=D.crop_assets[imageId].bbox;
     img.width=r-x;
     img.height=b-y;
-    img.src=images[o.crop_asset_id];
+    img.src=images[imageId];
     img.alt=`${ui.scan} · ${nameOf(o.type)}`;
     div.append(img);
   }
-  if (o.structured_description) block(div,ui.structure,o.structured_description.description_kk);
+  if (o.worked_sequence) {
+    block(div,null,o.worked_sequence.description_kk);
+    block(div,ui.translation,aux(o.id+'#worked_sequence'),'translation');
+  }
+  if (o.structured_description) block(div,null,o.structured_description.description_kk);
   if (o.cells) renderTable(div,o,view);
   if (o.type==='teaching_link') {
     block(div,ui.change,ui[o.relationship]);
@@ -375,51 +432,42 @@ function renderContent(div,o,view) {
     for (const p of new Set(o.page_refs.map(r=>r.pdf_page))) nav.append(button(`PDF ${p}`,()=>manualScan(o,p)));
     div.append(nav);
   }
-  for (const flag of o.review_flags ?? []) {
+  const flags=(o.review_flags??[]).filter(flag=>flag.requires_confirmation!==false &&
+    !['source_blank','border_overlap'].includes(flag.code));
+  if (flags.length) {
     const item=node('div',null,'flag');
-    block(item,ui.known,flag.description_kk);
-    if (aux(o.id+'#'+flag.code)) block(item,null,aux(o.id+'#'+flag.code));
+    block(item,ui.known,[...new Set(flags.map(f=>f.description_kk))].join('\n'));
+    const zh=flags.map(f=>aux(o.id+'#'+f.code)).filter(Boolean);
+    if (zh.length) block(item,null,[...new Set(zh)].join('\n'),'translation');
     div.append(item);
   }
-  if (o.ocr_suggestion_ids?.length) {
-    const d=node('details');
-    d.append(node('summary',`${ui.suggestions} (${o.ocr_suggestion_ids.length})`),node('p',ui.suggestionConfirm));
-    for (const id of o.ocr_suggestion_ids) {
-      const s=proposals.get(id);
-      block(d,local(codes[s.category]),s.reason_kk);
-      if (aux(id)) block(d,null,aux(id));
-      const ocr=node('details');
-      ocr.append(node('summary',ui.sourceOCR));
-      for (const item of s.source_lines) ocr.append(node('pre',`${item.line_id} · ${item.raw??'∅'}\n→ ${item.existing_corrected??'∅'}`));
-      d.append(ocr);
-    }
-    div.append(d);
-  }
-  const d=node('details');
-  d.append(node('summary',ui.advanced));
-  d.addEventListener('toggle',()=>{
-    if (d.open && d.childElementCount===1) d.append(node('pre',fmt({id:o.id,sources:o.page_refs,...original(o)})));
-  });
-  div.append(d);
 }
 function renderVertical(parent,v) {
-  parent.append(node('div',ui.rawText,'caption'));
+  const figure=node('div',null,'vertical-figure');
+  if (v.expression_kk) figure.append(node('div',v.expression_kk,'formula-caption'));
   const d=node('div',null,'vertical');
-  if (v.expression_kk) d.append(node('div',v.expression_kk,'formula-caption'));
-  const upper=node('span');
-  function withHighlight(target, value, token) {
-    const at=token ? value.indexOf(token) : -1;
-    if (at<0) { target.textContent=value; return; }
-    target.append(value.slice(0,at),node('strong',token,'marked'),value.slice(at+token.length));
+  const row=(value,operator,token,suffix='')=>{
+    const match=(value??'').match(/^(?:(.*?[^\d\s])\s+)?(\d[\d ]*)\s+(\S+)$/u);
+    const [,prefix='',number=value??'',unit='']=match??[];
+    const digits=node('span',null,'amount');
+    const at=token ? number.indexOf(token) : -1;
+    if (at<0) digits.textContent=number;
+    else digits.append(number.slice(0,at),node('strong',token,'marked'),number.slice(at+token.length));
+    d.append(node('span',operator,'operator'),node('span',prefix?.trim(),'larger-unit'),
+      digits,node('span',unit,'small-unit'),node('span',suffix,'equivalence'));
+  };
+  row(v.upper,'',v.highlight?.position?.startsWith('upper')?v.highlight.value:undefined);
+  row(v.lower,v.operator);
+  if (v.result_rule_printed!==false) d.append(node('span'),node('span',null,'rule'),node('span'));
+  const suffix=v.result && v.equivalence_kk?.startsWith(v.result)?v.equivalence_kk.slice(v.result.length):'';
+  if (v.result==null && v.result_blank_unit) {
+    d.append(node('span'),node('span'),node('span'),node('span',v.result_blank_unit,'small-unit'),node('span'));
+  } else row(v.result ?? v.equivalence_kk,'',v.highlight?.position?.startsWith('first_digit')?v.highlight.value:undefined,suffix);
+  if (v.equivalence_kk && !suffix && v.result && v.equivalence_kk!==v.result) {
+    d.append(node('div',v.equivalence_kk,'formula-caption'));
   }
-  withHighlight(upper,v.upper,v.highlight?.position?.startsWith('upper')?v.highlight.value:null);
-  d.append(node('span'),upper,node('span',v.operator),node('span',v.lower));
-  if (v.result_rule_printed!==false) d.append(node('span',null,'rule'));
-  const result=node('span');
-  const printed=v.equivalence_kk ?? v.result ?? `    ${v.result_blank_unit??''}`;
-  withHighlight(result,printed,v.highlight?.position?.startsWith('first_digit')?v.highlight.value:null);
-  d.append(node('span'),result);
-  parent.append(d);
+  figure.append(d);
+  parent.append(figure);
 }
 function timeText(btn,t) {
   for (const [i,time] of [t.start,t.end].entries()) {
@@ -663,32 +711,21 @@ function issueChanges(ctx,code) {
   }
   return list;
 }
-function approveOne(o, sourcePage=pageOf(o)) {
-  const ids=o.ocr_suggestion_ids??[];
-  const changes=ids.map(id=>{
-    const s=proposals.get(id);
-    return {op:'confirm_scan_restoration',target_id:o.id,suggestion_id:s.id,category:s.category,
-      source_lines:s.source_lines,source_locations:s.evidence_regions,suggested_value:s.suggested_value,
-      value:s.suggested_value,...(s.proposed_changes?{proposed_changes:s.proposed_changes}:{})};
-  });
-  append(o,'approved',{confirmed_suggestion_ids:ids,changes,pdf_page:sourcePage});
-}
 const continuousLabels={
-  zh:{review:'连续审核',jump:'跳到任务',toTop:'返回顶部',applyFilter:'刷新结果',autoCollapse:'通过后自动收起',
-    expand:'展开',collapse:'收起',elementReview:'审核此元素',covered:'随整卡通过',save:'保存',
-    childIssues:n=>`${n} 个子项有问题`,childUnable:n=>`${n} 个子项无法判断`,childPending:n=>`${n} 个子项需单独复核`,
-    pageReview:'本页完整性',protected:'整卡通过涵盖普通子项。已记录的问题、无法判断和待复核建议仍保留。'},
-  kk:{review:'Ретімен тексеру',jump:'Тапсырмаға өту',toTop:'Басына қайту',applyFilter:'Нәтижені жаңарту',
-    autoCollapse:'Мақұлдаған соң жинау',expand:'Ашу',collapse:'Жинау',elementReview:'Элементті тексеру',covered:'Бөліммен бірге мақұлданды',
-    save:'Сақтау',childIssues:n=>`${n} ішкі элементте ақау бар`,childUnable:n=>`${n} ішкі элемент анықталмады`,
-    childPending:n=>`${n} ішкі элементті жеке тексеру қажет`,pageReview:'Беттің толықтығы',
-    protected:'Бөлімді мақұлдау кәдімгі ішкі элементтерге қолданылады. Тіркелген ақаулар, анықталмаған күйлер және тексеру ұсыныстары сақталады.'}
+  zh:{review:'连续审核',jump:'跳到 Module',toTop:'返回顶部',applyFilter:'刷新结果',
+    save:'保存',pageReview:'页面完整性',structureIssue:'报告结构问题',structurePass:'确认结构修订',
+    pending:'审核中',neutral:'',historyPending:'旧版记录需对照修订内容复核',detailsLabel:'反馈',
+    contentTotal:'内容',pageTotal:'页面完整性',structureTotal:'结构待处理',sync:'同步原图'},
+  kk:{review:'Ретімен тексеру',jump:'Module таңдау',toTop:'Басына қайту',applyFilter:'Нәтижені жаңарту',
+    save:'Сақтау',pageReview:'Беттің толықтығы',structureIssue:'Құрылым ақауын хабарлау',
+    structurePass:'Құрылым түзетуін растау',pending:'Тексеріліп жатыр',neutral:'',
+    historyPending:'Алдыңғы жазбаларды түзетілген мәтінмен салыстырыңыз',detailsLabel:'Пікір',
+    contentTotal:'Мазмұн',pageTotal:'Беттің толықтығы',structureTotal:'Құрылымды тексеру',sync:'Түпнұсқамен синхрондау'}
 };
 Object.assign(ui,continuousLabels[lang]);
 const mobile=matchMedia('(max-width:680px)');
 const reviewStatus=new Map();
-const explicitStatus=new Map();
-const needsSeparateReview=o=>o.review_flags?.length || o.ocr_suggestion_ids?.length || o.type==='teaching_link';
+const ownStatus=new Map();
 const narrow=()=>mobile.matches;
 let alignedTop=null, scrollFrame=0, highlightTimer, highlighted;
 const scrollY=()=>narrow()?window.scrollY:scroller.scrollTop;
@@ -713,157 +750,128 @@ function keepPosition(callback) {
 function statusOf(o) {
   return reviewStatus.get(o.id)??'unreviewed';
 }
-function covered(o) {
-  let p=byId.get(o.id).parent;
-  while (p) {
-    if (unitTypes.has(p.o.type)) return explicitStatus.get(p.o.id)==='approved';
-    p=p.parent;
-  }
-  return false;
-}
 function refreshStates() {
-  for (const o of ordered) explicitStatus.set(o.id,state(o));
-  const stats=Object.fromEntries(['unreviewed',...recordStates].map(s=>[s,0]));
-  for (const o of ordered) {
-    const direct=explicitStatus.get(o.id);
-    const inherited=direct==='unreviewed' && !needsSeparateReview(o) && covered(o);
-    const status=inherited?'approved':direct;
+  const counts=()=>Object.fromEntries(['unreviewed',...recordStates].map(state=>[state,0]));
+  const content=counts(), page=counts();
+  let pendingStructure=0;
+  for (const o of [...ordered].reverse()) {
+    const own=hasContent(o)?contentState(o):'neutral';
+    ownStatus.set(o.id,own);
+    if (own!=='neutral') (o.type==='page'?page:content)[own]++;
+    const structure=isContainer(o)?structureState(o):'neutral';
+    if (['issue','unreviewed','unable_to_verify'].includes(structure)) pendingStructure++;
+    const states=[own,structure,...children(o).map(statusOf)].filter(s=>s!=='neutral');
+    const status=states.includes('issue')?'issue':states.includes('unable_to_verify')?'unable_to_verify':
+      states.some(s=>['unreviewed','pending'].includes(s))?(isContainer(o)?'pending':'unreviewed'):
+      states.length?'approved':'neutral';
     reviewStatus.set(o.id,status);
-    stats[status]++;
     const view=views.get(o.id);
-    view.status.textContent=inherited?ui.covered:ui[status];
+    view.status.textContent=ui[status]??'';
     view.status.dataset.state=status;
     view.card.dataset.state=status;
-    view.conflict.hidden=!conflict(o);
-    updateRecords(view,o);
+    if (view.ownStatus) view.ownStatus.textContent=ui[own];
+    if (view.structurePass) view.structurePass.hidden=structure!=='unreviewed' &&
+      !liveRecords(o.id).some(r=>r.report_kind==='structure_review' && r.reviewer_stream_id===stream && r.status==='issue');
+    updateFeedback(view,o);
   }
-  for (const o of ordered.filter(o=>unitTypes.has(o.type))) {
-    const view=views.get(o.id);
-    const kids=descendants(o);
-    const issues=kids.filter(c=>statusOf(c)==='issue');
-    const unable=kids.filter(c=>statusOf(c)==='unable_to_verify');
-    const pending=kids.filter(c=>statusOf(c)==='unreviewed'&&needsSeparateReview(c));
-    const summary=[
-      [issues,ui.childIssues,'problem'],[unable,ui.childUnable,''],[pending,ui.childPending,'']
-    ].filter(([items])=>items.length && (items!==pending || statusOf(o)==='approved'));
-    view.warning.replaceChildren(...summary.map(([items,label,cls])=>
-      button(label(items.length),()=>jumpTo(items[0]),cls)));
-    view.warning.hidden=summary.length===0;
-  }
-  const aggregate=Object.entries({total:ordered.length,...stats});
-  $('statistics').replaceChildren(...aggregate.map(([k,v])=>node('span',`${ui[k]} ${v}`)));
-  $('meter').max=ordered.length;
-  $('meter').value=ordered.length-stats.unreviewed;
-  $('meter').setAttribute('aria-label',`${$('meter').value} / ${ordered.length}`);
+  const total=Object.values(content).reduce((sum,n)=>sum+n,0);
+  const pageCount=Object.values(page).reduce((sum,n)=>sum+n,0);
+  const lines=[
+    `${ui.contentTotal} · ${ui.approved} ${content.approved}/${total} · ${ui.issue} ${content.issue} · ${ui.unable_to_verify} ${content.unable_to_verify} · ${ui.unreviewed} ${content.unreviewed}`,
+    `${ui.pageTotal} ${page.approved}/${pageCount} · ${ui.structureTotal} ${pendingStructure}`
+  ];
+  const unmatched=latest([...priorRecords.values()]).filter(r=>!recordables.has(r.object_id));
+  if (unmatched.length) lines.push(`${ui.historyPending} · ${unmatched.length}`);
+  $('statistics').replaceChildren(...lines.map(line=>node('span',line)));
+  $('meter').max=Math.max(1,total);
+  $('meter').value=content.approved;
+  $('meter').setAttribute('aria-label',`${content.approved} / ${total}`);
 }
-function descendants(o) {
-  return children(o).flatMap(c=>[c,...descendants(c)]);
-}
-function updateRecords(view,o) {
-  const recs=liveRecords(o.id,true);
-  const signature=recs.map(r=>r.record_id).join();
-  if (view.recordSignature===signature) return;
-  view.recordSignature=signature;
-  view.records.hidden=!recs.length;
-  view.records.replaceChildren(node('summary',`${ui.currentRecords} (${recs.length})`));
-  for (const r of recs) {
-    const heading=[ui[r.status],r.issue_code?local(codes[r.issue_code]):'',r.reviewer??'',r.interface_language].filter(Boolean).join(' · ');
-    block(view.records,heading,r.note||r.recorded_at);
-    if (r.changes.length) {
-      const changes=node('details');
-      changes.append(node('summary',ui.change));
-      changes.addEventListener('toggle',()=>{
-        if (changes.open && changes.childElementCount===1) changes.append(node('pre',fmt(r.changes)));
-      });
-      view.records.append(changes);
-    }
-  }
-}
-function setCollapsed(view,on) {
-  if (!view.toggle) return;
-  view.body.hidden=on;
-  view.toggle.textContent=on?ui.expand:ui.collapse;
-  view.toggle.setAttribute('aria-expanded',String(!on));
+function updateFeedback(view,o) {
+  const current=liveRecords(o.id,true).filter(r=>r.status!=='approved');
+  const previous=priorFor(o.id).filter(r=>r.status!=='approved' || (!equivalent.has(o.id) && hasContent(o)));
+  const notes=[...new Set([...current,...previous].map(r=>r.note).filter(Boolean))];
+  const pending=ownStatus.get(o.id)!=='approved' && previous.some(r=>!equivalent.has(o.id) || resolved.has(r.record_id));
+  view.feedback.hidden=!notes.length && !pending;
+  view.feedback.replaceChildren();
+  if (pending) view.feedback.append(node('p',ui.historyPending));
+  for (const note of notes) view.feedback.append(node('p',note));
 }
 const issueType=o=>({
   subtask_number:'subtask_number_error',teaching_link:'teaching_link',table:'table_structure',formula:'formula_structure',
   informative_image:'image_relationship',module_badge:'badge',instructional_note:'instructional_note'
 })[o.type]??'other';
-function makeActions(o,view) {
-  const actions=node('div',null,view.primary?'actions':'actions element-actions');
-  const specs=[
-    ['approve',ui.approve,()=>approveCard(o,view),'pass'],
+function makeActions(o) {
+  const actions=node('div',null,'actions element-actions');
+  for (const [id,title,act,cls] of [
+    ['approve',ui.approve,()=>{append(o,'approved',{pdf_page:sourcePage(o)}); saveReview();},'pass'],
     ['issue',ui.issue,()=>openIssue(o,issueType(o)),'problem'],
-    ['unable',ui.unable,()=>openUnable(o),''],
-  ];
-  if (o.text_kk!==undefined || o.cells) specs.push(['ocr',ui.ocr,()=>openIssue(o,'ocr_character'),'']);
-  for (const [id,label,action,cls] of specs) {
-    const b=button(label,action,cls);
-    b.dataset.action=id;
-    actions.append(b);
+    ['unable',ui.unable,()=>openUnable(o),'']
+  ]) {
+    const control=button(title,act,cls);
+    control.dataset.action=id;
+    actions.append(control);
   }
   return actions;
 }
-const roles={
-  lesson_header:['课题','Сабақ тақырыбы'],lesson_objective:['课程说明','Сабақ мақсаты'],
-  lesson_number:['课次','Сабақ нөмірі'],lesson_title:['课名','Сабақ атауы'],
-  lesson_context:['主题','Ортақ тақырып'],lesson_type_badge:['课型标签','Сабақ түрінің белгісі'],
-  running_header:['页眉','Бет тақырыбы'],illustration_caption:['插图文字','Сурет жазуы'],
-  lesson_closing_prompt:['课末提示','Сабақ соңындағы нұсқау']
-};
 function renderCard(o,parent) {
   const primary=!byId.get(o.id).parent;
-  const card=node('article',null,primary?'review-card':'review-element');
+  const container=isContainer(o);
+  const reviewable=hasContent(o);
+  const card=node('article',null,container?'review-group':primary?'review-card':'review-element');
   card.dataset.objectId=o.id;
   card.dataset.type=o.type;
   card.dataset.role=o.role??'';
+  card.dataset.reviewable=String(reviewable);
   const head=node('header',null,'card-head');
   head.tabIndex=-1;
-  const title=roles[o.role]?local(roles[o.role]):o.subtask_label??(o.type==='page'?ui.pageReview:primary?label(o):nameOf(o.type));
+  const title=o.type==='page'?ui.pageReview:
+    [nameOf(o.type),o.module_number??o.subtask_label].filter(Boolean).join(' ');
   const heading=node(primary?'h3':'h4',title);
   const status=node('span',null,'state');
   const body=node('div',null,'card-body');
   const content=node('div',null,'card-content');
   const form=node('form',null,'review-form');
   form.hidden=true;
-  const recordsPanel=node('details',null,'card-records');
-  recordsPanel.hidden=true;
-  const warning=node('div',null,'child-warning');
-  warning.hidden=true;
-  const conflictPanel=node('div',ui.conflict,'conflict');
-  conflictPanel.hidden=true;
-  const view={card,head,body,form,records:recordsPanel,status,conflict:conflictPanel,warning,primary};
+  const feedback=node('div',null,'feedback');
+  feedback.hidden=true;
+  const view={card,head,body,form,status,feedback};
   views.set(o.id,view);
-  const tools=node('div',null,'card-head-tools');
-  tools.append(status);
-  if (primary) {
-    const toggle=button('',()=>keepPosition(()=>setCollapsed(view,!body.hidden)),'subtle');
-    view.toggle=toggle;
-    tools.append(toggle);
-    setCollapsed(view,false);
+  head.append(heading,status);
+  if (container) {
+    const structure=button(ui.structureIssue,()=>openIssue(o,'assignment',editorContext(o),false,true),'subtle');
+    structure.dataset.action='structure';
+    head.append(structure);
+    const pass=button(ui.structurePass,()=>{
+      append(o,'approved',{report_kind:'structure_review',pdf_page:sourcePage(o)});
+      saveReview();
+    },'subtle');
+    pass.dataset.action='structure-approve';
+    head.append(pass);
+    view.structurePass=pass;
   }
-  head.append(heading,tools);
-  if (primary) {
+  if (primary && o.type!=='page') {
     const nums=[...new Set(o.page_refs.map(r=>r.pdf_page))];
     heading.append(node('small',`PDF ${nums.join(' · ')}`));
   }
   renderContent(content,o,view);
-  if (unitTypes.has(o.type)) content.append(node('p',ui.protected,'caption'));
   body.append(content);
+  if (reviewable) {
+    const actions=makeActions(o);
+    if (container) {
+      view.ownStatus=node('span',null,'state');
+      actions.prepend(view.ownStatus);
+    }
+    body.append(actions);
+  }
+  body.append(form,feedback);
   const sub=children(o);
   if (sub.length) {
     const branch=node('div',null,'review-children');
     for (const child of sub) renderCard(child,branch);
     body.append(branch);
   }
-  card.append(head,warning,conflictPanel,body);
-  if (primary) card.append(makeActions(o,view));
-  else {
-    const controls=node('details',null,'element-controls');
-    controls.append(node('summary',ui.elementReview),makeActions(o,view));
-    card.append(controls);
-  }
-  card.append(form,recordsPanel);
+  card.append(head,body);
   parent.append(card);
 }
 function renderCards() {
@@ -879,10 +887,10 @@ function renderCards() {
 }
 function matchesFilter(o,key) {
   if (key==='all') return true;
-  if (key==='ocr') return Boolean(o.ocr_suggestion_ids?.length);
+  if (key==='page') return o.type==='page';
   if (key==='visual') return visualKinds.includes(o.type);
   if (key==='teaching_link') return o.type===key;
-  return statusOf(o)===key;
+  return statusOf(o)===key || ownStatus.get(o.id)===key;
 }
 function applyFilter() {
   const key=$('filter').value;
@@ -892,7 +900,6 @@ function applyFilter() {
     const shown=related||matchesFilter(o,key);
     const view=views.get(o.id);
     view.card.hidden=!shown;
-    if (key!=='all' && related) setCollapsed(view,false);
     return shown;
   }
   let first=null;
@@ -955,6 +962,7 @@ function atLine() {
   return group&&find(group.roots);
 }
 function syncScroll() {
+  if (!$('sync-scan').checked) return;
   if (scrollFrame) return;
   scrollFrame=requestAnimationFrame(()=>{
     scrollFrame=0;
@@ -967,13 +975,11 @@ function syncScroll() {
   });
 }
 function jumpTo(o,p=pageOf(o),center=true) {
-  const item=byId.get(o.id);
   const view=views.get(o.id);
   if (view.card.closest('[hidden]')) {
     $('filter').value='all';
     applyFilter();
   }
-  for (let parent=item.parent;parent;parent=parent.parent) setCollapsed(views.get(parent.o.id),false);
   if (view.card.hidden) return;
   setScroll(scrollY()+view.head.getBoundingClientRect().top-readingLine());
   highlighted?.classList.remove('jumped');
@@ -991,22 +997,11 @@ function saveReview(text=ui.saved) {
 function sourcePage(o) {
   return o.page_refs.some(r=>r.pdf_page===pdf)?pdf:pageOf(o);
 }
-function approveCard(o,view) {
-  const p=sourcePage(o);
-  approveOne(o,p);
-  const children=descendants(o);
-  if ($('auto-collapse').checked && view.primary &&
-      state(o)==='approved' && !view.editor &&
-      !children.some(c=>['issue','unable_to_verify'].includes(state(c))||views.get(c.id).editor)) {
-    keepPosition(()=>setCollapsed(view,true));
-  }
-  saveReview();
-}
 function editorContext(o) {
   const view=views.get(o.id);
   return {o,view,pdf:sourcePage(o),cell:view.cell};
 }
-function openIssue(o,initial='other',ctx=editorContext(o),pageLevel=false) {
+function openIssue(o,initial='other',ctx=editorContext(o),pageLevel=false,structural=false) {
   manualScan(o,ctx.pdf,false);
   const panel=editor(ctx,pageLevel?ui.missing:ui.issue,()=>{
     const code=get(ctx,'issue-kind')?.value??'missing_region';
@@ -1021,6 +1016,7 @@ function openIssue(o,initial='other',ctx=editorContext(o),pageLevel=false) {
         extra.cell_id=cell.id;
         extra.original_cell=cell;
       }
+      if (structural) extra.report_kind='structure_review';
       if (pageLevel) {
         extra.report_kind='page_omission';
         extra.omission_region=ctx.box??null;
@@ -1034,7 +1030,7 @@ function openIssue(o,initial='other',ctx=editorContext(o),pageLevel=false) {
   });
   const fields=node('div');
   if (!pageLevel) {
-    const pairs=Object.entries(codes).filter(([k])=>lang==='zh'||k!=='translation_zh').map(([k,v])=>[k,local(v)]);
+    const pairs=Object.entries(codes).filter(([k])=>(lang==='zh'||k!=='translation_zh') && (!structural||structureCodes.has(k))).map(([k,v])=>[k,local(v)]);
     const sel=selectField(panel,'issue-kind',ui.kind,pairs,initial);
     sel.onchange=()=>setFields(fields,sel.value,ctx);
   }
@@ -1187,6 +1183,7 @@ for (const t of ['module','instructional_note','text','informative_image','formu
   item.dataset.type=t;
   $('legend').append(item);
 }
+if (priorPackage) merge(priorPackage);
 readDraft();
 $('draft').textContent=durable?ui.draft:ui.noDraft;
 renderCards();

@@ -50,7 +50,7 @@
       <label><span data-i="jump"></span> <select id="module-jump"></select></label>
       <label><span data-i="filter"></span> <select id="filter"></select></label>
       <button type="button" id="apply-filter" data-i="applyFilter" hidden></button>
-      <label class="check"><input type="checkbox" id="auto-collapse"> <span data-i="autoCollapse"></span></label>
+      <label class="check"><input type="checkbox" id="sync-scan" checked> <span data-i="sync"></span></label>
     </div>
   </header>
   <div id="review-scroll" tabindex="0" aria-labelledby="review-heading">
@@ -63,6 +63,7 @@
 <script id="dataset" type="application/json">@@DATA@@</script>
 <script id="assets" type="application/json">@@IMAGES@@</script>
 <script id="translations" type="application/json">@@AUX@@</script>
+<script id="prior-review" type="application/json">@@PRIOR@@</script>
 <script>@@JS@@</script>
 </body>
 </html>
