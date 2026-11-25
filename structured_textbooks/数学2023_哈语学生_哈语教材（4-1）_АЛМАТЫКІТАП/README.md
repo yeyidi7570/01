@@ -21,7 +21,7 @@
 | --- | --- | --- | --- | --- | --- |
 | [lesson_001](01_segmentation/lesson_001/) | 已归档 V4，`pending_review` | [第三轮修订待复核](02_segmentation_review/lesson_001/revision_3/) | 未开始 | 未开始 | 未完成 |
 | [lesson_002](01_segmentation/lesson_002/) | `segmentation_completed` | [第一轮修订复核通过](02_segmentation_review/lesson_002/revision_1/) | 未开始 | 未开始 | 未完成 |
-| [lesson_003](01_segmentation/lesson_003/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
+| [lesson_003](01_segmentation/lesson_003/) | `segmentation_completed` | [第一轮结构修订待复核](02_segmentation_review/lesson_003/revision_1/) | 未开始 | 未开始 | 未完成 |
 | [lesson_004](01_segmentation/lesson_004/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_005](01_segmentation/lesson_005/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_006](01_segmentation/lesson_006/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
@@ -79,6 +79,8 @@
 第 3 课 `Көптаңбалы сандар. Сандардың реті` 以 `Қазақстан сандармен` 为情境，覆盖 PDF 和印刷第 14–17 页。第 18 页是第 4 课。保留 10 个 Module、3 条独立教学说明 `ЕСІҢДЕ САҚТА!`、5 个 Module Badge、1 张数位表、2 幅信息图、7 个公式对象、7 条教学关联和 35 条校对建议，其中 33 条为字符或排版建议，2 条为结构建议。
 
 第 3 课入口为 [结构化 JSON](01_segmentation/lesson_003/content.json)、[中文连续审核](01_segmentation/lesson_003/review_zh.html) 和 [哈语连续审核](01_segmentation/lesson_003/review_kk.html)。数位表保留 3 个跨列标题和 17 个原印空白格。优先复核第 10 题统计图的学校数与学位数系列，另核对第 8 题是否引用第 7 题，以及 10Ә 是否承接 10А 的学位数系列。双语页面已通过断网测试及审核记录交叉导入，提交可查该课路径的 Git 历史。 第 15 页的比较说明以 `supports` 指向 Module 2，双语审核显示说明提供方法、任务接受支持。
+
+第 3 课第一轮修订 `v4.1-r001` 将第 16 页 Module 5 的示例等式和四个练习用数明确分组。79/79 项内容和 4/4 页完整性已通过，Module 5 分组待复核。[原始提交](02_segmentation_review/lesson_003/submissions/review_001_original.json) · [修订目录](02_segmentation_review/lesson_003/revision_1/)
 
 第 4 课 `Миллиондар класы. Сандарды дөңгелектеу`，PDF 和印刷页 18–21。共 10 个 Module、3 条独立教学说明、1 张表、4 张信息图及 48 条校对建议。复核第 6 题地图中的城乡人口颜色及城市引线，和第 19 页取近似值示例的彩色标记。
 

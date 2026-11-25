@@ -221,6 +221,19 @@ def validate_content(data):
                         and all(len(path)>1 and set(path)<=set(sequence['steps'])
                                 for path in sequence.get('relationships',[])),
                         f'invalid worked calculation sequence: {o["id"]}')
+            if 'exercise_input_ids' in o:
+                children = o.get('elements', [])
+                input_ids = o['exercise_input_ids']
+                require(kind == 'module' and isinstance(input_ids, list) and input_ids,
+                        f'invalid exercise input group: {o["id"]}')
+                order = o['content_order']
+                require(input_ids[0] in order, f'unknown exercise input: {o["id"]}')
+                start = order.index(input_ids[0])
+                group = children[start:start + len(input_ids)]
+                require(input_ids == [item['id'] for item in group]
+                        and len(set(input_ids)) == len(input_ids)
+                        and all(item['type'] == 'text' and item.get('role') == 'number_bank' for item in group),
+                        f'exercise inputs must be consecutive direct number-bank items: {o["id"]}')
             if kind == 'informative_image':
                 require(o.get('crop_asset_id') and (o.get('structured_description') or o.get('review_flags')),
                         f'image needs a crop and description or a review flag: {o["id"]}')

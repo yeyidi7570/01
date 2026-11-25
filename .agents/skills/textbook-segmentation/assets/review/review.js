@@ -301,7 +301,7 @@ function exportRecords() {
 function original(o) {
   if (o.type==='teaching_link') return {from_id:o.from_id,to_id:o.to_id,relationship:o.relationship,rationale_kk:o.rationale_kk};
   if (o.type==='page') return {pdf_page:pageOf(o),printed_page:o.page_refs[0].printed_page};
-  const fields=['type','parent_id','content_order','text_kk','cells','vertical','worked_sequence','structured_description','scope_ids','instructional_note_badge','ocr_evidence'];
+  const fields=['type','parent_id','content_order','exercise_input_ids','text_kk','cells','vertical','worked_sequence','structured_description','scope_ids','instructional_note_badge','ocr_evidence'];
   return Object.fromEntries(fields.filter(k=>o[k]!==undefined).map(k=>[k,o[k]]));
 }
 function append(o,status,extra={}) {
@@ -945,7 +945,23 @@ function renderCard(o,parent) {
   const sub=children(o);
   if (sub.length) {
     const branch=node('div',null,'review-children');
-    for (const child of sub) renderCard(child,branch);
+    const exerciseInputs=new Set(o.exercise_input_ids??[]);
+    let exerciseGroup;
+    for (const child of sub) {
+      if (!exerciseInputs.has(child.id)) {
+        renderCard(child,branch);
+        continue;
+      }
+      if (!exerciseGroup) {
+        const title=local(['练习用数','Жаттығуға берілген сандар']);
+        exerciseGroup=node('div',null,'exercise-inputs');
+        exerciseGroup.setAttribute('role','group');
+        exerciseGroup.setAttribute('aria-label',title);
+        exerciseGroup.append(node('h4',title));
+        branch.append(exerciseGroup);
+      }
+      renderCard(child,exerciseGroup);
+    }
     body.append(branch);
   }
   card.append(head,body);
