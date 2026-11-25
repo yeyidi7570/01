@@ -15,9 +15,9 @@ description: 对指定教材的单课、课次范围或整册逐课执行原书�
 ## 执行
 
 1. **盘点来源和课次。** 检查 `git status`、remote、当前和远程分支，读取 `structured_textbooks/README.md` 与目标书 README。查找仓库实有的原始 PDF/原图、原始及最终校对 OCR、版面、Wiki、既有切割和通用脚本。以原书目录、课号、标题、页眉和相邻页确认边界，分别记录 PDF 一基页码和印刷页码。目录与正文冲突时保留证据并标待核，不能猜补。阅读 [内容规则](references/content.md)。
-2. **确定复用或重跑。** 按 [脚本接口](references/tools.md) 运行 `scripts/lesson.py plan`。按课号排序，一次完成一课再进入下一课。有效的既有数据直接复用，只有界面过时时可保留数据升级界面。缺文件先查可复用来源；遇到身份或版本冲突，按 [重跑与归档](references/publish.md) 暂存候选版并处理。显式 `rerun` 也须保护反馈。
+2. **确定复用或重跑。** 按 [脚本接口](references/tools.md) 运行 `scripts/lesson.py plan`。按课号排序，一次完成一课再进入下一课。有效的既有数据直接复用。仅更新界面时使用 `scripts/lesson.py refresh-review` 检查两种语言是否已是最新版。过时的页面在暂存目录生成并验证，归档时只替换两个 HTML。缺文件先查可复用来源；遇到身份或版本冲突，按 [重跑与归档](references/publish.md) 暂存候选版并处理。显式 `rerun` 也须保护反馈。
 3. **视觉核对和结构化。** 优先把现有 OCR 与原图对齐；只为缺失或不可靠的区域补识别。保留 Lesson、Module、独立 Instructional Note、子题、Badge、元素阅读顺序、跨页、页坐标、教学证据和不确定项。按 [内容规则](references/content.md) 在临时目录生成或复用统一的待审核 JSON，并单独准备对应的中文辅助翻译。检查图、表和公式的二维结构。
-4. **生成离线审核页。** 正式入口为 `scripts/lesson.py render` 和共用的连续审核模板。书级历史生成器用于复现历史产物。两个语言版由同一数据、资源和逻辑生成。按 [双语审核](references/review.md) 检查翻译、卡片、审核状态与导入导出。
+4. **生成离线审核页。** 新切割通过 `scripts/lesson.py render` 默认使用新版逐元素审核模板。书级历史生成器用于复现历史产物。两个语言版由同一数据、资源和逻辑生成。按 [双语审核](references/review.md) 检查翻译、卡片、审核状态与导入导出。
 5. **验证和归档。** 运行 `scripts/lesson.py check`，对照原图人工走查，并实际用断网浏览器测试两个语言版本。仅将通过检查的 `content.json`、`review_zh.html`、`review_kk.html` 放入 `structured_textbooks/<完整教材名称>/01_segmentation/lesson_XXX/`。若为人工反馈修订，将提交原件和新版本放入第二阶段。填写该书 README 的真实进度。按 [重跑与归档](references/publish.md) 提交、非强推推送并验证 GitHub 上的提交及文件。推送受阻则区分本地完成和远程交付，报告具体情况。
 6. **逐课报告。** 给出真实课号、标题、PDF 与印刷页、Module/Note/OCR 建议数量、主要疑点、三个远程路径、Commit SHA、分支和推送结果。范围任务汇总真实完成与剩余课次。切割完成状态与人工验收状态分别记录。
 

@@ -271,18 +271,21 @@ def validate_review_history(data, ids, history):
                 for record_id in revision['addressed_record_ids']), 'addressed record must identify an original issue')
 
 
-def audit_package(directory, allow_legacy=False):
+def read_package(directory, allow_legacy=False):
     for name in FILES:
         p=directory/name
         require(p.is_file() and 0 < p.stat().st_size <= MAX_BYTES, f'missing, empty or oversized file: {p}')
-    data=read(directory/'content.json')
+    raw=(directory/'content.json').read_bytes()
+    data=json.loads(raw)
     ids, asset_ids=validate_content(data)
     slug=f'lesson_{data["lesson"]["number"]:03}'
     if re.fullmatch(r'lesson_\d+', directory.name):
         require(directory.name==slug, f'folder name must be {slug}')
     paired={}
+    editions={}
     for lang in ('zh','kk'):
-        html=ReviewHTML((directory/f'review_{lang}.html').read_text(encoding='utf-8'))
+        existing=(directory/f'review_{lang}.html').read_text(encoding='utf-8')
+        html=ReviewHTML(existing)
         require(html.lang==lang and html.csp and "default-src 'none'" in html.csp, f'invalid offline shell: {lang}')
         require(allow_legacy or {'cards','review-scroll'} <= html.ids, f'continuous reviewer missing: {lang}')
         require(json.loads(html.sections['dataset'])==data, f'embedded dataset does not match content.json: {lang}')
@@ -305,11 +308,17 @@ def audit_package(directory, allow_legacy=False):
         aux=json.loads(html.sections['translations'])
         require(lang=='zh' or not aux, 'Kazakh page must not depend on Chinese translations')
         paired[lang]=behavior
+        editions[lang]=(existing,aux)
     require(paired['zh']==paired['kk'], 'both editions must embed identical assets and logic')
-    return dict(lesson_id=data['lesson']['id'], objects=len(ids), assets=len(asset_ids),
+    stats=dict(lesson_id=data['lesson']['id'], objects=len(ids), assets=len(asset_ids),
                 notes=sum(o.get('type')=='instructional_note' for o in ids.values()),
                 modules=sum(o.get('type')=='module' for o in ids.values()),
                 ocr_suggestions=len(data['ocr_suggestions']))
+    return raw,data,editions,paired['zh'][0],paired['zh'][3],stats
+
+
+def audit_package(directory, allow_legacy=False):
+    return read_package(directory,allow_legacy)[-1]
 
 
 def script_json(obj):
@@ -359,22 +368,45 @@ def render(args):
                 im=im.convert('RGB')
             im.save(stream,format='PNG',optimize=True)
             images[id_]=embed('PNG',stream.getvalue())
+    pages=review_pages(data,images,{'zh':translations,'kk':{}},prior)
+    print(json.dumps(write_package(args.output,raw,pages),ensure_ascii=False))
+
+
+def review_pages(data, images, translations, prior):
     html=(ASSETS/'page.html').read_text(encoding='utf-8')
-    fields=dict(DATA=script_json(data),IMAGES=script_json(images),PRIOR=script_json(prior),CSS=(ASSETS/'review.css').read_text(encoding='utf-8'),
+    fields=dict(DATA=script_json(data),IMAGES=script_json(images),PRIOR=script_json(prior),
+                CSS=(ASSETS/'review.css').read_text(encoding='utf-8'),
                 JS=(ASSETS/'review.js').read_text(encoding='utf-8'))
     for key in (*fields,'LANG','TITLE','AUX'):
         require(html.count(f'@@{key}@@')==1, f'bad template marker: {key}')
-    require(not args.output.exists(), f'output exists; choose a fresh staging directory: {args.output}')
-    # Nothing is written into the canonical Lesson directory by this renderer.
-    args.output.mkdir()
-    (args.output/'content.json').write_bytes(raw)
+    pages={}
     for lang in ('zh','kk'):
-        title=data['lesson']['title_kk']
-        translations_for_ui=translations if lang=='zh' else {}
-        values=dict(fields,LANG=lang,TITLE=escape(title),AUX=script_json(translations_for_ui))
-        page=re.sub(r'@@([A-Z]+)@@',lambda m:values[m[1]],html)
-        (args.output/f'review_{lang}.html').write_text(page,encoding='utf-8')
-    print(json.dumps(audit_package(args.output),ensure_ascii=False))
+        values=dict(fields,LANG=lang,TITLE=escape(data['lesson']['title_kk']),AUX=script_json(translations[lang]))
+        pages[lang]=re.sub(r'@@([A-Z]+)@@',lambda m:values[m[1]],html)
+    return pages
+
+
+def write_package(output, raw, pages):
+    require(not output.exists(), 'output exists; choose a fresh staging directory')
+    output.mkdir()
+    (output/'content.json').write_bytes(raw)
+    for lang,page in pages.items():
+        (output/f'review_{lang}.html').write_text(page,encoding='utf-8')
+    return audit_package(output)
+
+
+def refresh_review(args):
+    raw,data,editions,images,prior,stats=read_package(args.lesson_dir,allow_legacy=True)
+    pages=review_pages(data,images,{lang:edition[1] for lang,edition in editions.items()},prior)
+    current=all(pages[lang]==edition[0] for lang,edition in editions.items())
+    if current:
+        action='current'
+    elif args.output:
+        write_package(args.output,raw,pages)
+        action='staged'
+    else:
+        action='refresh_needed'
+    print(json.dumps({**stats,'action':action},ensure_ascii=False))
 
 
 def compare(args):
@@ -406,6 +438,9 @@ def main():
     for name in ('content','scans','translations','output'):
         r.add_argument(f'--{name}',type=Path,required=True)
     r.add_argument('--prior-review',type=Path,help='unchanged submission for a revised Lesson')
+    u=sub.add_parser('refresh-review',help='inspect or stage current review HTML from the archived package')
+    u.add_argument('--lesson-dir',type=Path,required=True)
+    u.add_argument('--output',type=Path,help='new staging directory; omit for inspection only')
     c=sub.add_parser('check',help='check content, assets and bilingual embedded parity')
     c.add_argument('--lesson-dir',type=Path,required=True)
     c.add_argument('--allow-legacy-review',action='store_true')
@@ -418,6 +453,8 @@ def main():
             plan(args)
         elif args.command=='render':
             render(args)
+        elif args.command=='refresh-review':
+            refresh_review(args)
         elif args.command=='check':
             print(json.dumps(audit_package(args.lesson_dir,args.allow_legacy_review),ensure_ascii=False))
         else:
