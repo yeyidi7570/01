@@ -1,0 +1,128 @@
+{
+  "schema_version": "textbook-review/4.0",
+  "data_version": "v4.1-audit1-r001",
+  "textbook_id": "math-2023-grade4-part1",
+  "lesson_id": "math-2023-grade4-part1:lesson-005",
+  "records": [
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1-audit1-r001",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-005",
+      "record_id": "546fda0f-1575-4e59-9c0d-05964fe81574",
+      "reviewer_stream_id": "95fcb7ce-afc1-40b5-bca9-74c4f65d7e58",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-005:m03:part-ae:formula-4",
+      "object_type": "formula",
+      "pdf_page": 23,
+      "source_locations": [
+        {
+          "pdf_page": 23,
+          "printed_page": "23",
+          "bbox": [
+            421,
+            562,
+            533,
+            590
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p023:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-005:m03:part-ae",
+        "text_kk": "3 594 − 4",
+        "ocr_evidence": [
+          {
+            "line_id": "20",
+            "wiki_line_id": "math-2023-grade4-part1:p023:l20",
+            "raw": "3 594 - 4",
+            "existing_corrected": "3 594 - 4"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T11:00:45.475Z",
+      "supersedes": [],
+      "provenance": {
+        "source": "user_chat",
+        "quote": "第五课两个都标为通过"
+      }
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1-audit1-r001",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-005",
+      "record_id": "552548fd-a2bf-4135-8356-3505fd359ee8",
+      "reviewer_stream_id": "95fcb7ce-afc1-40b5-bca9-74c4f65d7e58",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-005:m09:fact-5",
+      "object_type": "text",
+      "pdf_page": 25,
+      "source_locations": [
+        {
+          "pdf_page": 25,
+          "printed_page": "25",
+          "bbox": [
+            440,
+            449,
+            790,
+            538
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p025:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "text",
+        "parent_id": "math-2023-grade4-part1:lesson-005:m09",
+        "text_kk": "• Тянь-Шань тауларындағы:\nХан Тәңірі шыңы – 6 995 м;\nЖеңіс шыңы – 7 439 м.",
+        "ocr_evidence": [
+          {
+            "line_id": "10",
+            "wiki_line_id": "math-2023-grade4-part1:p025:l10",
+            "raw": ".Тянь-Шань тауларындағы:",
+            "existing_corrected": "• Тянь-Шань тауларындағы:"
+          },
+          {
+            "line_id": "11",
+            "wiki_line_id": "math-2023-grade4-part1:p025:l11",
+            "raw": "Хан Тәңірі шыңы ",
+            "existing_corrected": "Хан Тәңірі шыңы "
+          },
+          {
+            "line_id": "12",
+            "wiki_line_id": "math-2023-grade4-part1:p025:l12",
+            "raw": " - 6 995 км;",
+            "existing_corrected": " - 6 995 км;"
+          },
+          {
+            "line_id": "14",
+            "wiki_line_id": "math-2023-grade4-part1:p025:l14",
+            "raw": "Жеңіс шыңы – 7 439 м.",
+            "existing_corrected": "Жеңіс шыңы – 7 439 м."
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T11:00:45.475Z",
+      "supersedes": [],
+      "provenance": {
+        "source": "user_chat",
+        "quote": "第五课两个都标为通过"
+      }
+    }
+  ]
+}
