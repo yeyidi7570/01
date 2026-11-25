@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>教材预览</title>
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header class="site-head">
+    <div class="frame">
+      <a href="/" class="brand">教材预览</a>
+      <span class="book">四年级数学 · 哈萨克语 · 第一册</span>
+    </div>
+  </header>
+  <main class="frame">
+    <nav aria-label="教材导航" class="controls">
+      <label>课次 <select id="lesson"></select></label>
+      <label>模块 <select id="module"></select></label>
+      <label>视图
+        <select id="audience">
+          <option value="student">学生</option>
+          <option value="teacher">教师</option>
+        </select>
+      </label>
+      <label class="check"><input id="compare" type="checkbox"> 原书对照</label>
+      <form id="lookup">
+        <label for="object-id">对象 ID</label>
+        <div class="input-action"><input id="object-id" required><button>定位</button></div>
+      </form>
+    </nav>
+    <p id="status" role="status" hidden></p>
+    <details id="teaching" hidden>
+      <summary>AI 教学组织 · 模拟</summary>
+      <form id="teacher-request">
+        <label for="request">教学请求</label>
+        <div class="input-action">
+          <input id="request" maxlength="500" placeholder="例如：用课表讲解怎样计算课间时间" required>
+          <button>查找教材</button>
+        </div>
+      </form>
+      <div id="plan" aria-live="polite"></div>
+    </details>
+    <div id="reader">
+      <article id="textbook" aria-label="教材原文"></article>
+      <aside id="comparison" aria-label="原书对照" hidden></aside>
+    </div>
+  </main>
+</body>
+</html>
