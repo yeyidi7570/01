@@ -24,7 +24,7 @@
 | [lesson_003](01_segmentation/lesson_003/) | `segmentation_completed` | [第一轮修订复核通过](02_segmentation_review/lesson_003/revision_1/) | 未开始 | 未开始 | 未完成 |
 | [lesson_004](01_segmentation/lesson_004/) | `segmentation_completed` | [地图复核通过，2 项无法判断](02_segmentation_review/lesson_004/revision_1/) | 未开始 | 未开始 | 未完成 |
 | [lesson_005](01_segmentation/lesson_005/) | `segmentation_completed` | [第一轮修订待复核](02_segmentation_review/lesson_005/revision_1/) | 未开始 | 未开始 | 未完成 |
-| [lesson_006](01_segmentation/lesson_006/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
+| [lesson_006](01_segmentation/lesson_006/) | `segmentation_completed` | [第一轮修订待复核](02_segmentation_review/lesson_006/revision_1/) | 未开始 | 未开始 | 未完成 |
 | [lesson_007](01_segmentation/lesson_007/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_008](01_segmentation/lesson_008/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_009](01_segmentation/lesson_009/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
@@ -101,6 +101,8 @@
 第 6 课 `Көптаңбалы сандармен арифметикалық амалдар орындау`，PDF 和印刷页 26–28。共 9 个 Module、2 条独立教学说明、2 张表、2 张信息图及 31 条校对建议。保留第 6 题表格的斜线表头及旁边计算器图，保留第 8 题竖式的西里尔字母和数位。
 
 [结构化 JSON](01_segmentation/lesson_006/content.json)、[中文连续审核](01_segmentation/lesson_006/review_zh.html)、[哈语连续审核](01_segmentation/lesson_006/review_kk.html)。双语离线交互和审核记录交叉导入已核验。
+
+第 6 课第一轮修订更新了第 6 题计算器插图说明。新版 78/82 项通过，第 6 题插图说明和第 2 题题干待审核。两条计算器教学关联保持「无法判断」，审核页显示人工批注原话。[原始审核提交](02_segmentation_review/lesson_006/submissions/review_001_original.json) · [修订目录](02_segmentation_review/lesson_006/revision_1/)
 
 第 7 课 `Көптаңбалы сандарды жазбаша қосу және азайту`，PDF 和印刷页 29–32。共 10 个 Module、2 条独立教学说明、2 张表、1 张信息图及 54 条校对建议。第 2 题跨第 29、30 页，仅保留一个 Module；两页「请记住」各自独立并关联第 2 题。第 30 页借位点、小数字和对齐位置可对照竖式裁图复核。
 

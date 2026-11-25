@@ -885,12 +885,21 @@ function refreshStates() {
 function updateFeedback(view,o) {
   const current=liveRecords(o.id,true).filter(r=>r.status!=='approved');
   const previous=priorFor(o.id).filter(r=>r.status!=='approved' || (!equivalentIn(r,o.id) && hasContent(o)));
-  const notes=[...new Set([...current,...previous].map(r=>r.note).filter(Boolean))];
+  const feedback=[...current,...previous];
+  const notes=new Set(feedback.map(r=>r.note).filter(Boolean));
+  const reasons=new Set(feedback.filter(r=>r.status==='unable_to_verify' && !resolved.has(r.record_id))
+    .map(r=>r.note).filter(Boolean));
   const pending=ownStatus.get(o.id)!=='approved' && previous.some(r=>!equivalentIn(r,o.id) || resolved.has(r.record_id));
-  view.feedback.hidden=!notes.length && !pending;
+  view.feedback.hidden=!notes.size && !pending;
   view.feedback.replaceChildren();
   if (pending) view.feedback.append(node('p',ui.historyPending));
-  for (const note of notes) view.feedback.append(node('p',note));
+  if (reasons.size) {
+    const group=node('div',null,'human-review-reason');
+    group.append(node('strong',local(['人工待审核原因','Қолмен қайта тексеру себебі'])));
+    for (const reason of reasons) group.append(node('p',reason));
+    view.feedback.append(group);
+  }
+  for (const note of notes) if (!reasons.has(note)) view.feedback.append(node('p',note));
 }
 const issueType=o=>({
   subtask_number:'subtask_number_error',teaching_link:'teaching_link',table:'table_structure',formula:'formula_structure',

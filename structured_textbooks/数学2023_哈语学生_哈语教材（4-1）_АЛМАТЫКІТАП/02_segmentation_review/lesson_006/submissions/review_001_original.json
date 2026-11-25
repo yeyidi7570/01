@@ -1,0 +1,5104 @@
+{
+  "schema_version": "textbook-review/4.0",
+  "data_version": "v4.1",
+  "textbook_id": "math-2023-grade4-part1",
+  "lesson_id": "math-2023-grade4-part1:lesson-006",
+  "exported_at": "2026-11-25T10:53:55.481Z",
+  "export_interface_language": "zh",
+  "records": [
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "013d11e0-7e6c-488b-a92b-73bea8788a41",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m03:badge",
+      "object_type": "module_badge",
+      "pdf_page": 27,
+      "source_locations": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "bbox": [
+            312,
+            155,
+            651,
+            186
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "module_badge",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m03",
+        "text_kk": "МАТЕМАТИКА КҮНДЕЛІКТІ ӨМІРДЕ",
+        "scope_ids": [
+          "math-2023-grade4-part1:lesson-006:m03"
+        ],
+        "ocr_evidence": [
+          {
+            "line_id": "2",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l2",
+            "raw": "МАТЕМАТИКА КУНДЕЛІКТИ ӨМІРДЕ",
+            "existing_corrected": "МАТЕМАТИКА КҮНДЕЛІКТІ ӨМІРДЕ"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:34:50.512Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "042ff81a-f9b9-4c74-851f-8d25e06c0f8e",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m02:number",
+      "object_type": "module_number",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            131,
+            1127,
+            192,
+            1189
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "module_number",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m02",
+        "text_kk": "2",
+        "ocr_evidence": [
+          {
+            "line_id": "a1",
+            "wiki_line_id": "math-2023-grade4-part1:p026:la1",
+            "raw": null,
+            "existing_corrected": "2"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:33:52.593Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "0b5047ed-865c-4b4e-b5a8-16dc91d8495f",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:p028",
+      "object_type": "page",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan",
+          "bbox": [
+            0,
+            0,
+            993,
+            1418
+          ]
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "pdf_page": 28,
+        "printed_page": "28"
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:53:53.631Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "0c112fe2-a1d7-4441-95d8-6efb25297523",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:cover-words",
+      "object_type": "other",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            818,
+            179,
+            926,
+            273
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "other",
+        "parent_id": "math-2023-grade4-part1:lesson-006",
+        "text_kk": "ҚОСУ АЗАЙТУ",
+        "ocr_evidence": [
+          {
+            "line_id": "7",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l7",
+            "raw": "KOCY",
+            "existing_corrected": "ҚОСУ"
+          },
+          {
+            "line_id": "8",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l8",
+            "raw": "АЗАЙТУ",
+            "existing_corrected": "АЗАЙТУ"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:32:44.358Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "0d2f4115-823e-4c95-9f62-0a7795e5b547",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:note-calculator",
+      "object_type": "instructional_note",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            112,
+            866,
+            910,
+            1078
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "instructional_note",
+        "parent_id": "math-2023-grade4-part1:lesson-006",
+        "content_order": [
+          "math-2023-grade4-part1:lesson-006:note-calculator:rule",
+          "math-2023-grade4-part1:lesson-006:note-calculator:calculator-types"
+        ],
+        "text_kk": "КАЛЬКУЛЯТОР",
+        "instructional_note_badge": "КАЛЬКУЛЯТОР",
+        "ocr_evidence": [
+          {
+            "line_id": "28",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l28",
+            "raw": "КАЛЬКУЛЯТОР",
+            "existing_corrected": "КАЛЬКУЛЯТОР"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:33:45.159Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "0d70a83c-cfe4-4d60-b93d-99825fa8fe10",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m04:formula-2",
+      "object_type": "formula",
+      "pdf_page": 27,
+      "source_locations": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "bbox": [
+            609,
+            918,
+            819,
+            947
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m04",
+        "text_kk": "765 000 − 1 999 =",
+        "ocr_evidence": [
+          {
+            "line_id": "42",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l42",
+            "raw": "765 000 – 1 999 =",
+            "existing_corrected": "765 000 – 1 999 ="
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:39:38.068Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "0fab4023-fce2-45b9-9fa0-57a03761b910",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m06:badge",
+      "object_type": "module_badge",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            369,
+            154,
+            652,
+            183
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "module_badge",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m06",
+        "text_kk": "ШЫҒАРМАШЫЛЫҚ ЖҰМЫС",
+        "scope_ids": [
+          "math-2023-grade4-part1:lesson-006:m06"
+        ],
+        "ocr_evidence": [
+          {
+            "line_id": "2",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l2",
+            "raw": "ШЫҒАРМАШЫЛЫК ЖУМЫС",
+            "existing_corrected": "ШЫҒАРМАШЫЛЫҚ ЖҰМЫС"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:48:02.410Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "10e106d7-d8bd-44fd-aafb-fc2ba01da494",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m01:formula-10",
+      "object_type": "formula",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            616,
+            632,
+            788,
+            657
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m01",
+        "text_kk": "53 000 − 5 000",
+        "ocr_evidence": [
+          {
+            "line_id": "22",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l22",
+            "raw": "53 000-5000",
+            "existing_corrected": "53 000 – 5 000"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:33:20.092Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "14b43cf7-a069-4111-b844-8160d5bb7cb4",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m01:formula-6",
+      "object_type": "formula",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            615,
+            567,
+            789,
+            594
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m01",
+        "text_kk": "34 000 + 9 000",
+        "ocr_evidence": [
+          {
+            "line_id": "18",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l18",
+            "raw": "34 000+9000",
+            "existing_corrected": "34 000 + 9 000"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:33:08.359Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "1583c19b-3508-4321-bcaf-e7f19e86a376",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m05:number",
+      "object_type": "module_number",
+      "pdf_page": 27,
+      "source_locations": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "bbox": [
+            103,
+            1084,
+            162,
+            1145
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "module_number",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m05",
+        "text_kk": "5",
+        "ocr_evidence": [
+          {
+            "line_id": "a2",
+            "wiki_line_id": "math-2023-grade4-part1:p027:la2",
+            "raw": null,
+            "existing_corrected": "5"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:39:42.608Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "164fecd4-5ca8-4288-9146-2bf183744ee7",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m03:number",
+      "object_type": "module_number",
+      "pdf_page": 27,
+      "source_locations": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "bbox": [
+            104,
+            186,
+            162,
+            244
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "module_number",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m03",
+        "text_kk": "3",
+        "ocr_evidence": [
+          {
+            "line_id": "a0",
+            "wiki_line_id": "math-2023-grade4-part1:p027:la0",
+            "raw": null,
+            "existing_corrected": "3"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:34:48.660Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "183f3219-3e0d-4387-874b-31df3e9d9da8",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m06:calculator-illustration",
+      "object_type": "other",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            664,
+            382,
+            904,
+            560
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "issue",
+      "review_scope": "textbook",
+      "issue_code": "image_relationship",
+      "note": "插图数字无意义",
+      "original_content": {
+        "type": "other",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m06",
+        "text_kk": "465 378",
+        "ocr_evidence": [
+          {
+            "line_id": "12",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l12",
+            "raw": "465378",
+            "existing_corrected": "465 378"
+          }
+        ]
+      },
+      "changes": [
+        {
+          "op": "replace_visual_description",
+          "target_id": "math-2023-grade4-part1:lesson-006:m06:calculator-illustration",
+          "field": "structured_description.description_kk",
+          "old_value": null,
+          "value": ""
+        }
+      ],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:49:07.645Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "1a7c1756-ebf7-4187-91a9-a2d5da951482",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m01:formula-4",
+      "object_type": "formula",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            616,
+            535,
+            789,
+            562
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m01",
+        "text_kk": "79 000 + 6 000",
+        "ocr_evidence": [
+          {
+            "line_id": "16",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l16",
+            "raw": "79 000 + 6 000",
+            "existing_corrected": "79 000 + 6 000"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:33:03.842Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "1b3d45ab-1e58-4dca-a7e9-2a941efc33f6",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m01:prompt",
+      "object_type": "text",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            203,
+            417,
+            702,
+            450
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "text",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m01",
+        "text_kk": "Есептеудің қалай орындалатынын түсіндір.",
+        "ocr_evidence": [
+          {
+            "line_id": "12",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l12",
+            "raw": "Есептеудің қалай орындалатынын түсіндір.",
+            "existing_corrected": "Есептеудің қалай орындалатынын түсіндір."
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:32:56.208Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "1c9cd937-f7e4-49af-ad2f-733cbeb5a1f5",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m09:formula-3",
+      "object_type": "formula",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            209,
+            1205,
+            555,
+            1234
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m09",
+        "text_kk": "(960 502 – 60 000) – 0 · 251 · 2",
+        "ocr_evidence": [
+          {
+            "line_id": "42",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l42",
+            "raw": "(960 502 – 60 000) – 0 · 251 · 2",
+            "existing_corrected": "(960 502 – 60 000) – 0 · 251 · 2"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:52:22.063Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "1d8f6dcb-2ed5-40bb-9834-a8c1bc3f67a5",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:link-calculator-m09",
+      "object_type": "teaching_link",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            112,
+            866,
+            910,
+            1078
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        },
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            113,
+            957,
+            739,
+            1298
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "unable_to_verify",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "instructional note没有明确教使用计算器，不确定是否solid支持module",
+      "original_content": {
+        "from_id": "math-2023-grade4-part1:lesson-006:note-calculator",
+        "to_id": "math-2023-grade4-part1:lesson-006:m09",
+        "relationship": "supports",
+        "rationale_kk": "Үй тапсырмасы есептеуді калькулятормен тексеруді сұрайды."
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:52:55.047Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "1ebd156c-2cc6-41ba-b34b-a0872fdec712",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m01:formula-3",
+      "object_type": "formula",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            190,
+            529,
+            366,
+            556
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m01",
+        "text_kk": "92 000 − 8 000",
+        "ocr_evidence": [
+          {
+            "line_id": "15",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l15",
+            "raw": "92 000 – 8 000",
+            "existing_corrected": "92 000 – 8 000"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:33:02.758Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "249d5f7c-15c9-4c57-83c9-dce15330f1eb",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m08:badge",
+      "object_type": "module_badge",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            397,
+            803,
+            624,
+            833
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "module_badge",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m08",
+        "text_kk": "СЕН ЗЕРТТЕУШІСІҢ",
+        "scope_ids": [
+          "math-2023-grade4-part1:lesson-006:m08"
+        ],
+        "ocr_evidence": [
+          {
+            "line_id": "25",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l25",
+            "raw": "СЕН ЗЕРТТЕУШИСИН",
+            "existing_corrected": "СЕН ЗЕРТТЕУШІСІҢ"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:51:27.162Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "2666f4f8-0d5d-4830-ae53-f8f34414c778",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m01:number",
+      "object_type": "module_number",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            132,
+            405,
+            194,
+            466
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "module_number",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m01",
+        "text_kk": "1",
+        "ocr_evidence": [
+          {
+            "line_id": "a0",
+            "wiki_line_id": "math-2023-grade4-part1:p026:la0",
+            "raw": null,
+            "existing_corrected": "1"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:32:52.958Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "27a334b0-ab15-48d9-902d-00e8e6999983",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m09:badge",
+      "object_type": "module_badge",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            310,
+            958,
+            539,
+            988
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "module_badge",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m09",
+        "text_kk": "ҮЙ ТАПСЫРМАСЫ",
+        "scope_ids": [
+          "math-2023-grade4-part1:lesson-006:m09"
+        ],
+        "ocr_evidence": [
+          {
+            "line_id": "32",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l32",
+            "raw": "УЙ ТАПСЫРМАСЫ",
+            "existing_corrected": "ҮЙ ТАПСЫРМАСЫ"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:51:45.546Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "30c5af01-513e-4e2b-b826-323a9ccdb46d",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m06:number",
+      "object_type": "module_number",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            132,
+            182,
+            192,
+            244
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "module_number",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m06",
+        "text_kk": "6",
+        "ocr_evidence": [
+          {
+            "line_id": "a0",
+            "wiki_line_id": "math-2023-grade4-part1:p028:la0",
+            "raw": null,
+            "existing_corrected": "6"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:48:00.727Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "31c02010-abf5-487b-ac2a-34ebc07fe77e",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m03:computer-literacy-table",
+      "object_type": "table",
+      "pdf_page": 27,
+      "source_locations": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "bbox": [
+            86,
+            429,
+            878,
+            709
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "table",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m03",
+        "cells": [
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m03:computer-literacy-table:r1c1",
+            "row": 0,
+            "column": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": true,
+            "empty": true,
+            "text_kk": "",
+            "page_refs": [
+              {
+                "pdf_page": 27,
+                "printed_page": "27",
+                "bbox": [
+                  86,
+                  429,
+                  281,
+                  568
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+              }
+            ],
+            "illustration": {
+              "asset_id": "math-2023-grade4-part1:lesson-006:m03:computer-literacy-table:crop",
+              "page_refs": [
+                {
+                  "pdf_page": 27,
+                  "printed_page": "27",
+                  "bbox": [
+                    96,
+                    448,
+                    275,
+                    546
+                  ],
+                  "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+                }
+              ],
+              "role": "computer_icon"
+            }
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m03:computer-literacy-table:r1c2",
+            "row": 0,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": true,
+            "empty": false,
+            "text_kk": "Мәтінді теру және редакциялауды меңгерген адамдар саны",
+            "page_refs": [
+              {
+                "pdf_page": 27,
+                "printed_page": "27",
+                "bbox": [
+                  281,
+                  429,
+                  480,
+                  568
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "10",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l10",
+                "raw": "Мәтінді теру және",
+                "existing_corrected": "Мәтінді теру және"
+              },
+              {
+                "line_id": "13",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l13",
+                "raw": "редакциялауды",
+                "existing_corrected": "редакциялауды"
+              },
+              {
+                "line_id": "16",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l16",
+                "raw": "меңгерген",
+                "existing_corrected": "меңгерген"
+              },
+              {
+                "line_id": "19",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l19",
+                "raw": "адамдар саны",
+                "existing_corrected": "адамдар саны"
+              }
+            ],
+            "printed_text_kk": "Мәтінді теру және\nредакциялауды\nмеңгерген\nадамдар саны"
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m03:computer-literacy-table:r1c3",
+            "row": 0,
+            "column": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": true,
+            "empty": false,
+            "text_kk": "Электрондық пошта мен интернетте жұмыс істеуді меңгерген адамдар саны",
+            "page_refs": [
+              {
+                "pdf_page": 27,
+                "printed_page": "27",
+                "bbox": [
+                  480,
+                  429,
+                  679,
+                  568
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "9",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l9",
+                "raw": "Электрондық",
+                "existing_corrected": "Электрондық"
+              },
+              {
+                "line_id": "12",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l12",
+                "raw": "пошта мен",
+                "existing_corrected": "пошта мен"
+              },
+              {
+                "line_id": "15",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l15",
+                "raw": "интернетте жұмыс",
+                "existing_corrected": "интернетте жұмыс"
+              },
+              {
+                "line_id": "18",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l18",
+                "raw": "істеуді меңгерген",
+                "existing_corrected": "істеуді меңгерген"
+              },
+              {
+                "line_id": "21",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l21",
+                "raw": "адамдар саны",
+                "existing_corrected": "адамдар саны"
+              }
+            ],
+            "printed_text_kk": "Электрондық\nпошта мен\nинтернетте жұмыс\nістеуді меңгерген\nадамдар саны"
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m03:computer-literacy-table:r1c4",
+            "row": 0,
+            "column": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": true,
+            "empty": false,
+            "text_kk": "Басқа программаларды меңгерген адамдар саны",
+            "page_refs": [
+              {
+                "pdf_page": 27,
+                "printed_page": "27",
+                "bbox": [
+                  679,
+                  429,
+                  878,
+                  568
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "11",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l11",
+                "raw": "Басқа програм-",
+                "existing_corrected": "Басқа програм-"
+              },
+              {
+                "line_id": "14",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l14",
+                "raw": "маларды",
+                "existing_corrected": "маларды"
+              },
+              {
+                "line_id": "17",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l17",
+                "raw": "меңгерген",
+                "existing_corrected": "меңгерген"
+              },
+              {
+                "line_id": "20",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l20",
+                "raw": "адамдар саны",
+                "existing_corrected": "адамдар саны"
+              }
+            ],
+            "printed_text_kk": "Басқа програм-\nмаларды\nмеңгерген\nадамдар саны"
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m03:computer-literacy-table:r2c1",
+            "row": 1,
+            "column": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": false,
+            "empty": false,
+            "text_kk": "Барлығы",
+            "page_refs": [
+              {
+                "pdf_page": 27,
+                "printed_page": "27",
+                "bbox": [
+                  86,
+                  568,
+                  281,
+                  613
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "22",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l22",
+                "raw": "Барлығы",
+                "existing_corrected": "Барлығы"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m03:computer-literacy-table:r2c2",
+            "row": 1,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": false,
+            "empty": false,
+            "text_kk": "4 126 991",
+            "page_refs": [
+              {
+                "pdf_page": 27,
+                "printed_page": "27",
+                "bbox": [
+                  281,
+                  568,
+                  480,
+                  613
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "23",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l23",
+                "raw": "4126 991",
+                "existing_corrected": "4 126 991"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m03:computer-literacy-table:r2c3",
+            "row": 1,
+            "column": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": false,
+            "empty": false,
+            "text_kk": "2 493 122",
+            "page_refs": [
+              {
+                "pdf_page": 27,
+                "printed_page": "27",
+                "bbox": [
+                  480,
+                  568,
+                  679,
+                  613
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "24",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l24",
+                "raw": "2493122",
+                "existing_corrected": "2 493 122"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m03:computer-literacy-table:r2c4",
+            "row": 1,
+            "column": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": false,
+            "empty": false,
+            "text_kk": "2 207 635",
+            "page_refs": [
+              {
+                "pdf_page": 27,
+                "printed_page": "27",
+                "bbox": [
+                  679,
+                  568,
+                  878,
+                  613
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "25",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l25",
+                "raw": "2 207 635",
+                "existing_corrected": "2 207 635"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m03:computer-literacy-table:r3c1",
+            "row": 2,
+            "column": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": false,
+            "empty": false,
+            "text_kk": "Ерлер",
+            "page_refs": [
+              {
+                "pdf_page": 27,
+                "printed_page": "27",
+                "bbox": [
+                  86,
+                  613,
+                  281,
+                  658
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "26",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l26",
+                "raw": "Ерлер",
+                "existing_corrected": "Ерлер"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m03:computer-literacy-table:r3c2",
+            "row": 2,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": false,
+            "empty": false,
+            "text_kk": "1 881 676",
+            "page_refs": [
+              {
+                "pdf_page": 27,
+                "printed_page": "27",
+                "bbox": [
+                  281,
+                  613,
+                  480,
+                  658
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "27",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l27",
+                "raw": "1 881 676",
+                "existing_corrected": "1 881 676"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m03:computer-literacy-table:r3c3",
+            "row": 2,
+            "column": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": false,
+            "empty": false,
+            "text_kk": "1 159 782",
+            "page_refs": [
+              {
+                "pdf_page": 27,
+                "printed_page": "27",
+                "bbox": [
+                  480,
+                  613,
+                  679,
+                  658
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "28",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l28",
+                "raw": "1159 782",
+                "existing_corrected": "1 159 782"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m03:computer-literacy-table:r3c4",
+            "row": 2,
+            "column": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": false,
+            "empty": false,
+            "text_kk": "1 025 816",
+            "page_refs": [
+              {
+                "pdf_page": 27,
+                "printed_page": "27",
+                "bbox": [
+                  679,
+                  613,
+                  878,
+                  658
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "29",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l29",
+                "raw": "1025 816",
+                "existing_corrected": "1 025 816"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m03:computer-literacy-table:r4c1",
+            "row": 3,
+            "column": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": false,
+            "empty": false,
+            "text_kk": "Әйелдер",
+            "page_refs": [
+              {
+                "pdf_page": 27,
+                "printed_page": "27",
+                "bbox": [
+                  86,
+                  658,
+                  281,
+                  709
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "30",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l30",
+                "raw": "Әйелдер",
+                "existing_corrected": "Әйелдер"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m03:computer-literacy-table:r4c2",
+            "row": 3,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": false,
+            "empty": false,
+            "text_kk": "2 245 315",
+            "page_refs": [
+              {
+                "pdf_page": 27,
+                "printed_page": "27",
+                "bbox": [
+                  281,
+                  658,
+                  480,
+                  709
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "31",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l31",
+                "raw": "2245315",
+                "existing_corrected": "2 245 315"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m03:computer-literacy-table:r4c3",
+            "row": 3,
+            "column": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": false,
+            "empty": false,
+            "text_kk": "1 333 340",
+            "page_refs": [
+              {
+                "pdf_page": 27,
+                "printed_page": "27",
+                "bbox": [
+                  480,
+                  658,
+                  679,
+                  709
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "33",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l33",
+                "raw": "1333340",
+                "existing_corrected": "1 333 340"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m03:computer-literacy-table:r4c4",
+            "row": 3,
+            "column": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": false,
+            "empty": false,
+            "text_kk": "1 181 819",
+            "page_refs": [
+              {
+                "pdf_page": 27,
+                "printed_page": "27",
+                "bbox": [
+                  679,
+                  658,
+                  878,
+                  709
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "34",
+                "wiki_line_id": "math-2023-grade4-part1:p027:l34",
+                "raw": "1181 819",
+                "existing_corrected": "1 181 819"
+              }
+            ]
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:35:24.661Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "329ad294-9cc3-421a-aeff-4df37c5a3d51",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m04:formula-3",
+      "object_type": "formula",
+      "pdf_page": 27,
+      "source_locations": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "bbox": [
+            609,
+            960,
+            840,
+            990
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m04",
+        "text_kk": "467 000 − 60 999 =",
+        "ocr_evidence": [
+          {
+            "line_id": "43",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l43",
+            "raw": "467 000 – 60 999 =",
+            "existing_corrected": "467 000 – 60 999 ="
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:39:40.068Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "3499e755-ab5f-404b-bdbf-97282d00a178",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m09:number",
+      "object_type": "module_number",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            131,
+            989,
+            193,
+            1048
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "module_number",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m09",
+        "text_kk": "9",
+        "ocr_evidence": [
+          {
+            "line_id": "a3",
+            "wiki_line_id": "math-2023-grade4-part1:p028:la3",
+            "raw": null,
+            "existing_corrected": "9"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:51:46.597Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "35b2604c-68d0-47a2-b355-0ef371fafd34",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m08:prompt",
+      "object_type": "text",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            204,
+            846,
+            587,
+            903
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "text",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m08",
+        "text_kk": "Әріптермен қандай цифрлардың белгіленгенін анықта.",
+        "ocr_evidence": [
+          {
+            "line_id": "26",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l26",
+            "raw": "Әріптермен қандай цифрлардың",
+            "existing_corrected": "Әріптермен қандай цифрлардың"
+          },
+          {
+            "line_id": "30",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l30",
+            "raw": "белгіленгенін анықта.",
+            "existing_corrected": "белгіленгенін анықта."
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:51:30.495Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "3890e543-ab1d-4568-9704-3151f4fa0327",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m05:formula-2",
+      "object_type": "formula",
+      "pdf_page": 27,
+      "source_locations": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "bbox": [
+            506,
+            1180,
+            745,
+            1208
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m05",
+        "text_kk": "92 000 000 + 80 000",
+        "ocr_evidence": [
+          {
+            "line_id": "49",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l49",
+            "raw": "92 000 000 + 80 000",
+            "existing_corrected": "92 000 000 + 80 000"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:41:53.887Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "3e635b3e-4d3a-421c-8c3e-5eca790cb6cf",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m02:formula-1",
+      "object_type": "formula",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            161,
+            1216,
+            312,
+            1243
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m02",
+        "text_kk": "76 100 – 400",
+        "ocr_evidence": [
+          {
+            "line_id": "42",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l42",
+            "raw": "76 100 – 400",
+            "existing_corrected": "76 100 – 400"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:33:56.633Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "3eb89e2d-aacc-4c5c-9bdb-4ce6052419ed",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m05:formula-5",
+      "object_type": "formula",
+      "pdf_page": 27,
+      "source_locations": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "bbox": [
+            130,
+            1255,
+            453,
+            1279
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m05",
+        "text_kk": "100 000 + 70 000 + 200 + 40",
+        "ocr_evidence": [
+          {
+            "line_id": "52",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l52",
+            "raw": "100 000 + 70 000 + 200 + 40",
+            "existing_corrected": "100 000 + 70 000 + 200 + 40"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:42:00.753Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "49c182f4-1534-4ac9-87f7-6a5e46615d2b",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m01:formula-11",
+      "object_type": "formula",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            190,
+            659,
+            513,
+            683
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m01",
+        "text_kk": "100 000 + 20 000 + 800 + 30",
+        "ocr_evidence": [
+          {
+            "line_id": "23",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l23",
+            "raw": "100 000 + 20 000 + 800 + 30",
+            "existing_corrected": "100 000 + 20 000 + 800 + 30"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:33:23.227Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "564d0e33-db36-43e3-984e-7d30d26e06bb",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m07:number",
+      "object_type": "module_number",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            132,
+            657,
+            192,
+            719
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "module_number",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m07",
+        "text_kk": "7",
+        "ocr_evidence": [
+          {
+            "line_id": "a1",
+            "wiki_line_id": "math-2023-grade4-part1:p028:la1",
+            "raw": null,
+            "existing_corrected": "7"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:51:09.695Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "581ce6e6-d220-4f31-9805-013295894475",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m02:formula-4",
+      "object_type": "formula",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            160,
+            1247,
+            348,
+            1274
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m02",
+        "text_kk": "29 000 + 40 000",
+        "ocr_evidence": [
+          {
+            "line_id": "45",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l45",
+            "raw": "29 000 + 40 000",
+            "existing_corrected": "29 000 + 40 000"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:34:01.693Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "599bdc51-bb65-4e48-9204-cded66ab8ba2",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m05:prompt",
+      "object_type": "text",
+      "pdf_page": 27,
+      "source_locations": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "bbox": [
+            173,
+            1086,
+            836,
+            1141
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "text",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m05",
+        "text_kk": "Есепте. Досыңа тексеруге бер. Қосуды қалай тексеруге болады? Азайтуды қалай тексеруге болады?",
+        "ocr_evidence": [
+          {
+            "line_id": "46",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l46",
+            "raw": "Есепте. Досыңа тексеруге бер. Қосуды қалай тексеруге",
+            "existing_corrected": "Есепте. Досыңа тексеруге бер. Қосуды қалай тексеруге"
+          },
+          {
+            "line_id": "47",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l47",
+            "raw": "болады? Азайтуды қалай тексеруге болады?",
+            "existing_corrected": "болады? Азайтуды қалай тексеруге болады?"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:39:48.636Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "5c4503d0-2ab1-4b31-979e-10659b00cab8",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m02:formula-5",
+      "object_type": "formula",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            429,
+            1248,
+            617,
+            1275
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m02",
+        "text_kk": "76 000 – 29 000",
+        "ocr_evidence": [
+          {
+            "line_id": "46",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l46",
+            "raw": "76 000 – 29 000",
+            "existing_corrected": "76 000 – 29 000"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:34:03.092Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "5dda56ee-b8f3-4965-91c3-1b51cfec75ea",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m05:formula-3",
+      "object_type": "formula",
+      "pdf_page": 27,
+      "source_locations": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "bbox": [
+            130,
+            1216,
+            400,
+            1246
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m05",
+        "text_kk": "905 000 + 70 000 + 700",
+        "ocr_evidence": [
+          {
+            "line_id": "50",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l50",
+            "raw": "905 000 + 70 000 + 700",
+            "existing_corrected": "905 000 + 70 000 + 700"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:41:57.254Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "5ffe0332-53d6-422b-8a61-3790a3bb9916",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m06:prompt",
+      "object_type": "text",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            202,
+            184,
+            865,
+            299
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "text",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m06",
+        "text_kk": "Астана және Алматы қалаларында әр 10 жыл сайын халық саны қаншалықты өскенін калькулятордың көмегімен есепте. Өзің тұратын жердегі немесе жақын орналасқан қаладағы халық санын анықта.",
+        "ocr_evidence": [
+          {
+            "line_id": "3",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l3",
+            "raw": "Астана және Алматы қалаларында әр 10 жыл сайын",
+            "existing_corrected": "Астана және Алматы қалаларында әр 10 жыл сайын"
+          },
+          {
+            "line_id": "4",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l4",
+            "raw": "халық саны қаншалықты өскенін калькулятордың көме-",
+            "existing_corrected": "халық саны қаншалықты өскенін калькулятордың көме-"
+          },
+          {
+            "line_id": "5",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l5",
+            "raw": "гімен есепте. Өзің тұратын жердегі немесе жақын орна-",
+            "existing_corrected": "гімен есепте. Өзің тұратын жердегі немесе жақын орна-"
+          },
+          {
+            "line_id": "6",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l6",
+            "raw": "ласқан қаладағы халық санын анықта.",
+            "existing_corrected": "ласқан қаладағы халық санын анықта."
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:48:11.960Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "60edc5f9-9df1-4a36-a88f-defb4bcadfd2",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m03:prompt",
+      "object_type": "text",
+      "pdf_page": 27,
+      "source_locations": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "bbox": [
+            175,
+            195,
+            425,
+            229
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "text",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m03",
+        "text_kk": "Тапсырманы орында.",
+        "ocr_evidence": [
+          {
+            "line_id": "3",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l3",
+            "raw": "Тапсырманы орында.",
+            "existing_corrected": "Тапсырманы орында."
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:34:51.444Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "64f3ba99-96b3-4199-a64c-cd40145f1e42",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m01:formula-7",
+      "object_type": "formula",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            189,
+            591,
+            463,
+            620
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m01",
+        "text_kk": "405 000 + 80 000 + 700",
+        "ocr_evidence": [
+          {
+            "line_id": "19",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l19",
+            "raw": "405 000 + 80 000 + 700",
+            "existing_corrected": "405 000 + 80 000 + 700"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:33:11.399Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "659dfda3-ed69-4d91-8713-dd7f17385b5d",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:link-calculator-m06",
+      "object_type": "teaching_link",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            112,
+            866,
+            910,
+            1078
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        },
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            113,
+            154,
+            909,
+            598
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "unable_to_verify",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "instructional note没有明确教使用计算器，不确定是否solid支持module",
+      "original_content": {
+        "from_id": "math-2023-grade4-part1:lesson-006:note-calculator",
+        "to_id": "math-2023-grade4-part1:lesson-006:m06",
+        "relationship": "supports",
+        "rationale_kk": "6-тапсырма есептеу үшін калькуляторды тікелей атайды."
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:51:06.162Z",
+      "supersedes": [
+        "83b2b209-ad62-4f96-a2fe-da09f40681d1"
+      ]
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "66f7926d-7b1c-4290-8332-4974df24b8f7",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m08:letter-addition",
+      "object_type": "formula",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            726,
+            833,
+            870,
+            919
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m08",
+        "text_kk": "  АБВГ\n+ АБВГ\n──────\n ВГДБГ",
+        "vertical": {
+          "upper": "АБВГ",
+          "lower": "АБВГ",
+          "operator": "+",
+          "result": "ВГДБГ",
+          "letter_symbols": [
+            "А",
+            "Б",
+            "В",
+            "Г",
+            "Д"
+          ],
+          "alignment": "right"
+        },
+        "ocr_evidence": [
+          {
+            "line_id": "27",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l27",
+            "raw": "АБВГ",
+            "existing_corrected": "АБВГ"
+          },
+          {
+            "line_id": "28",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l28",
+            "raw": "+",
+            "existing_corrected": "+"
+          },
+          {
+            "line_id": "29",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l29",
+            "raw": "АБВГ",
+            "existing_corrected": "АБВГ"
+          },
+          {
+            "line_id": "31",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l31",
+            "raw": "ВГДБГ",
+            "existing_corrected": "ВГДБГ"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:51:32.729Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "6a03520f-1ea0-4596-a7f3-a663ca660c76",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:note-oral:rule",
+      "object_type": "text",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            154,
+            763,
+            865,
+            828
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "text",
+        "parent_id": "math-2023-grade4-part1:lesson-006:note-oral",
+        "text_kk": "Нөлдермен аяқталатын көптаңбалы сандарды ауызша қосу және азайту үшін, алдымен оларды кластарға бөліп ал.",
+        "ocr_evidence": [
+          {
+            "line_id": "26",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l26",
+            "raw": "Нөлдермен аяқталатын көптаңбалы сандарды ауызша қосу",
+            "existing_corrected": "Нөлдермен аяқталатын көптаңбалы сандарды ауызша қосу"
+          },
+          {
+            "line_id": "27",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l27",
+            "raw": "және азайту үшін, алдымен оларды кластарға бөліп ал.",
+            "existing_corrected": "және азайту үшін, алдымен оларды кластарға бөліп ал."
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:33:41.059Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "6cd5d6bf-b89b-4e16-99c2-2031c4e9aab4",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m07:badge",
+      "object_type": "module_badge",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            371,
+            628,
+            648,
+            656
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "module_badge",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m07",
+        "text_kk": "ШЫҒАРМАШЫЛЫҚ ЖҰМЫС",
+        "scope_ids": [
+          "math-2023-grade4-part1:lesson-006:m07"
+        ],
+        "ocr_evidence": [
+          {
+            "line_id": "21",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l21",
+            "raw": "ШЫФАРМАШЫЛЫК ЖУМЫС",
+            "existing_corrected": "ШЫҒАРМАШЫЛЫҚ ЖҰМЫС"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:51:19.746Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "7745bb26-d693-4383-b441-921650e20f49",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m04:formula-1",
+      "object_type": "formula",
+      "pdf_page": 27,
+      "source_locations": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "bbox": [
+            610,
+            876,
+            802,
+            904
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m04",
+        "text_kk": "567 000 − 999 =",
+        "ocr_evidence": [
+          {
+            "line_id": "39",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l39",
+            "raw": "567 000 – 999 =",
+            "existing_corrected": "567 000 – 999 ="
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:39:36.335Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "78b9c48c-e8bb-4ae3-a955-4e6d4c61f4a2",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m09:formula-2",
+      "object_type": "formula",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            210,
+            1174,
+            496,
+            1201
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m09",
+        "text_kk": "(135 496 – 135 000) : 8 · 4",
+        "ocr_evidence": [
+          {
+            "line_id": "41",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l41",
+            "raw": "(135 496 - 135 000): 8·4",
+            "existing_corrected": "(135 496 – 135 000) : 8 · 4"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:52:09.963Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "7a0a9fe7-8271-4069-bc6f-cbefbd8fecfd",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m06:city-population-table",
+      "object_type": "table",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            114,
+            319,
+            654,
+            594
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "table",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m06",
+        "cells": [
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m06:city-population-table:r1c1",
+            "row": 0,
+            "column": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": true,
+            "empty": false,
+            "text_kk": "Жыл\nҚала",
+            "page_refs": [
+              {
+                "pdf_page": 28,
+                "printed_page": "28",
+                "bbox": [
+                  114,
+                  319,
+                  271,
+                  431
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "7",
+                "wiki_line_id": "math-2023-grade4-part1:p028:l7",
+                "raw": "Жыл",
+                "existing_corrected": "Жыл"
+              },
+              {
+                "line_id": "11",
+                "wiki_line_id": "math-2023-grade4-part1:p028:l11",
+                "raw": "Қала",
+                "existing_corrected": "Қала"
+              }
+            ],
+            "printed_text_kk": "Жыл\nҚала",
+            "diagonal_header": {
+              "top_right_kk": "Жыл",
+              "bottom_left_kk": "Қала"
+            }
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m06:city-population-table:r1c2",
+            "row": 0,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": true,
+            "empty": false,
+            "text_kk": "1999",
+            "page_refs": [
+              {
+                "pdf_page": 28,
+                "printed_page": "28",
+                "bbox": [
+                  271,
+                  319,
+                  400,
+                  431
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "8",
+                "wiki_line_id": "math-2023-grade4-part1:p028:l8",
+                "raw": "1999",
+                "existing_corrected": "1999"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m06:city-population-table:r1c3",
+            "row": 0,
+            "column": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": true,
+            "empty": false,
+            "text_kk": "2009",
+            "page_refs": [
+              {
+                "pdf_page": 28,
+                "printed_page": "28",
+                "bbox": [
+                  400,
+                  319,
+                  528,
+                  431
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "9",
+                "wiki_line_id": "math-2023-grade4-part1:p028:l9",
+                "raw": "2009",
+                "existing_corrected": "2009"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m06:city-population-table:r1c4",
+            "row": 0,
+            "column": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": true,
+            "empty": false,
+            "text_kk": "2019",
+            "page_refs": [
+              {
+                "pdf_page": 28,
+                "printed_page": "28",
+                "bbox": [
+                  528,
+                  319,
+                  654,
+                  431
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "10",
+                "wiki_line_id": "math-2023-grade4-part1:p028:l10",
+                "raw": "2019",
+                "existing_corrected": "2019"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m06:city-population-table:r2c1",
+            "row": 1,
+            "column": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": false,
+            "empty": false,
+            "text_kk": "Астана",
+            "page_refs": [
+              {
+                "pdf_page": 28,
+                "printed_page": "28",
+                "bbox": [
+                  114,
+                  431,
+                  271,
+                  513
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "13",
+                "wiki_line_id": "math-2023-grade4-part1:p028:l13",
+                "raw": "Астана",
+                "existing_corrected": "Астана"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m06:city-population-table:r2c2",
+            "row": 1,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": false,
+            "empty": false,
+            "text_kk": "328 341",
+            "page_refs": [
+              {
+                "pdf_page": 28,
+                "printed_page": "28",
+                "bbox": [
+                  271,
+                  431,
+                  400,
+                  513
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "14",
+                "wiki_line_id": "math-2023-grade4-part1:p028:l14",
+                "raw": "328341",
+                "existing_corrected": "328 341"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m06:city-population-table:r2c3",
+            "row": 1,
+            "column": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": false,
+            "empty": false,
+            "text_kk": "613 006",
+            "page_refs": [
+              {
+                "pdf_page": 28,
+                "printed_page": "28",
+                "bbox": [
+                  400,
+                  431,
+                  528,
+                  513
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "15",
+                "wiki_line_id": "math-2023-grade4-part1:p028:l15",
+                "raw": "613 006",
+                "existing_corrected": "613 006"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m06:city-population-table:r2c4",
+            "row": 1,
+            "column": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": false,
+            "empty": false,
+            "text_kk": "1 078 384",
+            "page_refs": [
+              {
+                "pdf_page": 28,
+                "printed_page": "28",
+                "bbox": [
+                  528,
+                  431,
+                  654,
+                  513
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "16",
+                "wiki_line_id": "math-2023-grade4-part1:p028:l16",
+                "raw": "1078384",
+                "existing_corrected": "1 078 384"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m06:city-population-table:r3c1",
+            "row": 2,
+            "column": 0,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": false,
+            "empty": false,
+            "text_kk": "Алматы",
+            "page_refs": [
+              {
+                "pdf_page": 28,
+                "printed_page": "28",
+                "bbox": [
+                  114,
+                  513,
+                  271,
+                  594
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "17",
+                "wiki_line_id": "math-2023-grade4-part1:p028:l17",
+                "raw": "Алматы",
+                "existing_corrected": "Алматы"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m06:city-population-table:r3c2",
+            "row": 2,
+            "column": 1,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": false,
+            "empty": false,
+            "text_kk": "1 130 621",
+            "page_refs": [
+              {
+                "pdf_page": 28,
+                "printed_page": "28",
+                "bbox": [
+                  271,
+                  513,
+                  400,
+                  594
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "18",
+                "wiki_line_id": "math-2023-grade4-part1:p028:l18",
+                "raw": "1 130 621",
+                "existing_corrected": "1 130 621"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m06:city-population-table:r3c3",
+            "row": 2,
+            "column": 2,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": false,
+            "empty": false,
+            "text_kk": "1 365 632",
+            "page_refs": [
+              {
+                "pdf_page": 28,
+                "printed_page": "28",
+                "bbox": [
+                  400,
+                  513,
+                  528,
+                  594
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "19",
+                "wiki_line_id": "math-2023-grade4-part1:p028:l19",
+                "raw": "1 365632",
+                "existing_corrected": "1 365 632"
+              }
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part1:lesson-006:m06:city-population-table:r3c4",
+            "row": 2,
+            "column": 3,
+            "rowspan": 1,
+            "colspan": 1,
+            "header": false,
+            "empty": false,
+            "text_kk": "1 854 656",
+            "page_refs": [
+              {
+                "pdf_page": 28,
+                "printed_page": "28",
+                "bbox": [
+                  528,
+                  513,
+                  654,
+                  594
+                ],
+                "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "20",
+                "wiki_line_id": "math-2023-grade4-part1:p028:l20",
+                "raw": "1854656",
+                "existing_corrected": "1 854 656"
+              }
+            ]
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:48:18.492Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "83b2b209-ad62-4f96-a2fe-da09f40681d1",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:link-calculator-m06",
+      "object_type": "teaching_link",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            112,
+            866,
+            910,
+            1078
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        },
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            113,
+            154,
+            909,
+            598
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "from_id": "math-2023-grade4-part1:lesson-006:note-calculator",
+        "to_id": "math-2023-grade4-part1:lesson-006:m06",
+        "relationship": "supports",
+        "rationale_kk": "6-тапсырма есептеу үшін калькуляторды тікелей атайды."
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:49:17.760Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "84d75d56-7ffb-4ffa-8634-8330cfe60ae3",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m01:formula-12",
+      "object_type": "formula",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            616,
+            663,
+            787,
+            690
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m01",
+        "text_kk": "31 000 − 7 000",
+        "ocr_evidence": [
+          {
+            "line_id": "24",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l24",
+            "raw": "31 000-7 000",
+            "existing_corrected": "31 000-7 000"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:33:26.159Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "8948825b-699b-49be-8678-223b07d35732",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m08:number",
+      "object_type": "module_number",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            131,
+            843,
+            192,
+            903
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "module_number",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m08",
+        "text_kk": "8",
+        "ocr_evidence": [
+          {
+            "line_id": "a2",
+            "wiki_line_id": "math-2023-grade4-part1:p028:la2",
+            "raw": null,
+            "existing_corrected": "8"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:51:25.445Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "8b04d435-c700-4bd9-8bfe-2aa7dd6a2c84",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m04:prompt",
+      "object_type": "text",
+      "pdf_page": 27,
+      "source_locations": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "bbox": [
+            175,
+            762,
+            659,
+            795
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "text",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m04",
+        "text_kk": "Есептеудің тиімді тәсілін түсіндір. Есепте.",
+        "ocr_evidence": [
+          {
+            "line_id": "35",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l35",
+            "raw": "Есептеудің тиімді тәсілін түсіндір. Есепте.",
+            "existing_corrected": "Есептеудің тиімді тәсілін түсіндір. Есепте."
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:35:30.944Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "8ca318ef-eab7-4c6e-a8bd-af9a19402720",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m03:survey",
+      "object_type": "text",
+      "pdf_page": 27,
+      "source_locations": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "bbox": [
+            127,
+            262,
+            835,
+            418
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "text",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m03",
+        "text_kk": "Ғалымдар бірнеше жыл бұрын Қазақстан халқының 15 жастан асқан тұрғындарының компьютерді меңгеру деңгейін анықтады. Сол уақытта барлығы қанша адам мәтін редакциялауды, электрондық пошта қолдануды меңгергенін есепте. Кестеден тағы қандай ақпарат алуыңа болады?",
+        "ocr_evidence": [
+          {
+            "line_id": "4",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l4",
+            "raw": "Ғалымдар бірнеше жыл бұрын Қазақстан халқының 15 жастан",
+            "existing_corrected": "Ғалымдар бірнеше жыл бұрын Қазақстан халқының 15 жастан"
+          },
+          {
+            "line_id": "5",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l5",
+            "raw": "асқан тұрғындарының компьютерді меңгеру деңгейін анықтады.",
+            "existing_corrected": "асқан тұрғындарының компьютерді меңгеру деңгейін анықтады."
+          },
+          {
+            "line_id": "6",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l6",
+            "raw": "Сол уақытта барлығы қанша адам мәтін редакциялауды,",
+            "existing_corrected": "Сол уақытта барлығы қанша адам мәтін редакциялауды,"
+          },
+          {
+            "line_id": "7",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l7",
+            "raw": "электрондық пошта қолдануды меңгергенін есепте. Кестеден",
+            "existing_corrected": "электрондық пошта қолдануды меңгергенін есепте. Кестеден"
+          },
+          {
+            "line_id": "8",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l8",
+            "raw": "тағы қандай ақпарат алуыңа болады?",
+            "existing_corrected": "тағы қандай ақпарат алуыңа болады?"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:35:15.183Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "8d43c675-7c93-48c2-8e5d-9514a55e39dd",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m01:formula-5",
+      "object_type": "formula",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            190,
+            561,
+            452,
+            588
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m01",
+        "text_kk": "253 457 − 400 − 50 − 7",
+        "ocr_evidence": [
+          {
+            "line_id": "17",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l17",
+            "raw": "253 457 – 400 – 50 – 7",
+            "existing_corrected": "253 457 – 400 – 50 – 7"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:33:06.425Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "8efc86c9-ad48-4d1b-aba4-5480428d90cf",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m09:prompt",
+      "object_type": "text",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            203,
+            991,
+            694,
+            1107
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "text",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m09",
+        "text_kk": "Қандай есептеулерді ауызша, қандай есептеулерді жазбаша орындауға болатынын анықта. Өрнектердің мәнін тап. Калькулятордың көмегімен есептеуіңді тексер.",
+        "ocr_evidence": [
+          {
+            "line_id": "33",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l33",
+            "raw": "Қандай есептеулерді ауызша, қандай есеп-",
+            "existing_corrected": "Қандай есептеулерді ауызша, қандай есеп-"
+          },
+          {
+            "line_id": "34",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l34",
+            "raw": "теулерді  жазбаша орындауға  болатынын",
+            "existing_corrected": "теулерді  жазбаша орындауға  болатынын"
+          },
+          {
+            "line_id": "35",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l35",
+            "raw": "анықта. Өрнектердің мәнін тап. Калькуля-",
+            "existing_corrected": "анықта. Өрнектердің мәнін тап. Калькуля-"
+          },
+          {
+            "line_id": "37",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l37",
+            "raw": "тордың көмегімен есептеуіңді тексер.",
+            "existing_corrected": "тордың көмегімен есептеуіңді тексер."
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:51:51.397Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "9901bae6-28c4-435d-ba57-3292ba3747fd",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:header:theme",
+      "object_type": "text",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            165,
+            120,
+            386,
+            149
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "text",
+        "parent_id": "math-2023-grade4-part1:lesson-006:header",
+        "text_kk": "Менің елім сандармен",
+        "ocr_evidence": [
+          {
+            "line_id": "5",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l5",
+            "raw": "Менің елім сандармен",
+            "existing_corrected": "Менің елім сандармен"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:28:16.270Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "992fe58d-f0fb-483b-972b-ccfd2775807a",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m01:formula-8",
+      "object_type": "formula",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            616,
+            599,
+            788,
+            626
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m01",
+        "text_kk": "12 000 + 8 000",
+        "ocr_evidence": [
+          {
+            "line_id": "20",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l20",
+            "raw": "12 000 + 8 000",
+            "existing_corrected": "12 000 + 8 000"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:33:14.160Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "a2fe04c4-3fb0-4482-916d-b553399fd6a7",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:note-calculator:rule",
+      "object_type": "text",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            151,
+            914,
+            529,
+            1043
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "text",
+        "parent_id": "math-2023-grade4-part1:lesson-006:note-calculator",
+        "text_kk": "Үлкен сандармен орындалатын есептеулерді калькулятормен есептеген ыңғайлы. Бұл құрылғыларды қайдан көрдің?",
+        "ocr_evidence": [
+          {
+            "line_id": "29",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l29",
+            "raw": "Үлкен",
+            "existing_corrected": "Үлкен"
+          },
+          {
+            "line_id": "30",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l30",
+            "raw": "сандармен",
+            "existing_corrected": "сандармен"
+          },
+          {
+            "line_id": "31",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l31",
+            "raw": "орындала-",
+            "existing_corrected": "орындала-"
+          },
+          {
+            "line_id": "34",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l34",
+            "raw": "тын",
+            "existing_corrected": "тын"
+          },
+          {
+            "line_id": "35",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l35",
+            "raw": " есептеулерді  калькулятор-",
+            "existing_corrected": " есептеулерді  калькулятор-"
+          },
+          {
+            "line_id": "37",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l37",
+            "raw": "мен есептеген ыңғайлы. Бұл құ-",
+            "existing_corrected": "мен есептеген ыңғайлы. Бұл құ-"
+          },
+          {
+            "line_id": "40",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l40",
+            "raw": "рылғыларды қайдан көрдің?",
+            "existing_corrected": "рылғыларды қайдан көрдің?"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:33:47.494Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "a492c8f1-5cab-4849-b329-1245917fe8d4",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:p026",
+      "object_type": "page",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan",
+          "bbox": [
+            0,
+            0,
+            993,
+            1418
+          ]
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "pdf_page": 26,
+        "printed_page": "26"
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:34:10.259Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "a8a0e2fc-e35c-4f13-901e-abbe37fa3d85",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m05:formula-4",
+      "object_type": "formula",
+      "pdf_page": 27,
+      "source_locations": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "bbox": [
+            509,
+            1220,
+            798,
+            1244
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m05",
+        "text_kk": "82 000 000 – 60 000 000",
+        "ocr_evidence": [
+          {
+            "line_id": "51",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l51",
+            "raw": "82 000 000 – 60 000 000",
+            "existing_corrected": "82 000 000 – 60 000 000"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:41:58.887Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "abd6440d-93ba-4eb6-b6f2-0ad49bf9d656",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:link-oral-m02",
+      "object_type": "teaching_link",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            112,
+            730,
+            908,
+            845
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        },
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            112,
+            1113,
+            910,
+            1305
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "from_id": "math-2023-grade4-part1:lesson-006:note-oral",
+        "to_id": "math-2023-grade4-part1:lesson-006:m02",
+        "relationship": "supports",
+        "rationale_kk": "Екінші тапсырмада да нөлмен аяқталатын сандармен есептеу бар."
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:34:09.143Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "af12367b-bf19-46ff-aaf6-5522c17580e4",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m02:formula-6",
+      "object_type": "formula",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            693,
+            1248,
+            842,
+            1275
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m02",
+        "text_kk": "39 700 + 400",
+        "ocr_evidence": [
+          {
+            "line_id": "47",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l47",
+            "raw": "39 700 + 400",
+            "existing_corrected": "39 700 + 400"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:34:05.276Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "b6c68399-ba27-4924-872b-3ad123f06436",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:note-calculator:calculator-types",
+      "object_type": "informative_image",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            560,
+            901,
+            887,
+            1051
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "informative_image",
+        "parent_id": "math-2023-grade4-part1:lesson-006:note-calculator",
+        "structured_description": {
+          "description_kk": "Солдан оңға: қалта калькуляторы, телефон калькуляторы және компьютердегі калькулятор. Дисплей мен перне таңбалары көрінеді.",
+          "devices": [
+            "pocket_calculator",
+            "phone_calculator",
+            "computer_calculator"
+          ],
+          "role": "illustration_for_where_seen"
+        },
+        "ocr_evidence": [
+          {
+            "line_id": "32",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l32",
+            "raw": "8",
+            "existing_corrected": "8"
+          },
+          {
+            "line_id": "33",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l33",
+            "raw": "15",
+            "existing_corrected": "15"
+          },
+          {
+            "line_id": "38",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l38",
+            "raw": "0",
+            "existing_corrected": "6"
+          },
+          {
+            "line_id": "39",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l39",
+            "raw": "1",
+            "existing_corrected": "1/x"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:33:50.643Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "bc545b36-e65a-4502-a6c0-56073d9ff53d",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m01:formula-2",
+      "object_type": "formula",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            617,
+            505,
+            789,
+            529
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m01",
+        "text_kk": "48 000 + 5 000",
+        "ocr_evidence": [
+          {
+            "line_id": "14",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l14",
+            "raw": "48 000 + 5 000",
+            "existing_corrected": "48 000 + 5 000"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:33:01.025Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "bf2b346d-2633-403a-a0a4-44d70e1ebe05",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m02:formula-3",
+      "object_type": "formula",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            692,
+            1216,
+            842,
+            1244
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m02",
+        "text_kk": "71 400 – 500",
+        "ocr_evidence": [
+          {
+            "line_id": "44",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l44",
+            "raw": "71 400 – 500",
+            "existing_corrected": "71 400 – 500"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:34:00.378Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "c03d1a48-fd78-4e86-89c9-c398f6590296",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m05:formula-1",
+      "object_type": "formula",
+      "pdf_page": 27,
+      "source_locations": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "bbox": [
+            130,
+            1181,
+            426,
+            1209
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m05",
+        "text_kk": "286 000 – 80 000 – 6 000",
+        "ocr_evidence": [
+          {
+            "line_id": "48",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l48",
+            "raw": "286 000 – 80 000 – 6 000",
+            "existing_corrected": "286 000 – 80 000 – 6 000"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:41:50.938Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "c4c30174-b17c-44d3-8215-449919c8176d",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:intro:label",
+      "object_type": "text",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            312,
+            186,
+            534,
+            207
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "text",
+        "parent_id": "math-2023-grade4-part1:lesson-006:intro",
+        "text_kk": "ЖАҢАНЫ ОҚЫП-ҮЙРЕНУ",
+        "ocr_evidence": [
+          {
+            "line_id": "6",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l6",
+            "raw": "ЖАңАНЫ ОҚЫП-УЙРЕНУ",
+            "existing_corrected": "ЖАҢАНЫ ОҚЫП-ҮЙРЕНУ"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:28:17.686Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "ce8893b8-cf48-4456-a618-db0308fb3469",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m09:formula-4",
+      "object_type": "formula",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            212,
+            1240,
+            615,
+            1264
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m09",
+        "text_kk": "(235 000 + 745) – (30 000 + 5 000) · 0",
+        "ocr_evidence": [
+          {
+            "line_id": "43",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l43",
+            "raw": "(235 000 + 745) – (30 000 + 5 000) · 0",
+            "existing_corrected": "(235 000 + 745) – (30 000 + 5 000) · 0"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:52:28.580Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "cf5cdd5e-4213-4a1c-8d12-fe485a602a89",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m04:number",
+      "object_type": "module_number",
+      "pdf_page": 27,
+      "source_locations": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "bbox": [
+            103,
+            751,
+            162,
+            811
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "module_number",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m04",
+        "text_kk": "4",
+        "ocr_evidence": [
+          {
+            "line_id": "a1",
+            "wiki_line_id": "math-2023-grade4-part1:p027:la1",
+            "raw": null,
+            "existing_corrected": "4"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:35:29.346Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "d41d8902-2eb6-41ab-a854-ef67fbe07497",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m05:formula-6",
+      "object_type": "formula",
+      "pdf_page": 27,
+      "source_locations": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "bbox": [
+            505,
+            1253,
+            784,
+            1281
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m05",
+        "text_kk": "56 000 000 – 9 000 000",
+        "ocr_evidence": [
+          {
+            "line_id": "53",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l53",
+            "raw": "56 000 000 – 9 000 000",
+            "existing_corrected": "56 000 000 – 9 000 000"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:42:02.271Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "d83964c5-cfc1-4e9c-83e3-1c2bd1515ab5",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:header:number",
+      "object_type": "text",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            71,
+            81,
+            135,
+            139
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "text",
+        "parent_id": "math-2023-grade4-part1:lesson-006:header",
+        "text_kk": "6\nСАБАҚ",
+        "ocr_evidence": [
+          {
+            "line_id": "2",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l2",
+            "raw": "6",
+            "existing_corrected": "6"
+          },
+          {
+            "line_id": "4",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l4",
+            "raw": "СAБAK",
+            "existing_corrected": "САБАҚ"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:28:13.672Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "dc9275af-c79b-4543-b18c-dc1570d0e8ab",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:note-oral",
+      "object_type": "instructional_note",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            112,
+            730,
+            908,
+            845
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "instructional_note",
+        "parent_id": "math-2023-grade4-part1:lesson-006",
+        "content_order": [
+          "math-2023-grade4-part1:lesson-006:note-oral:rule"
+        ],
+        "text_kk": "ЕСІҢДЕ САҚТА!",
+        "instructional_note_badge": "ЕСІҢДЕ САҚТА!",
+        "ocr_evidence": [
+          {
+            "line_id": "25",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l25",
+            "raw": "ЕСІНДЕ САҚТА!",
+            "existing_corrected": "ЕСІҢДЕ САҚТА!"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:33:37.242Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "df0d36c3-508b-4526-b2cb-f5550307b7b6",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m04:subtraction-flow",
+      "object_type": "informative_image",
+      "pdf_page": 27,
+      "source_locations": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "bbox": [
+            115,
+            831,
+            573,
+            1036
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "informative_image",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m04",
+        "structured_description": {
+          "description_kk": "450 035 санынан −999 арқылы =449 036-ға жететін жоғарғы жол және −1 000, =449 035, +1 арқылы сол нәтижеге апаратын төменгі жол бар.",
+          "paths": [
+            [
+              "450 035",
+              "− 999",
+              "= 449 036"
+            ],
+            [
+              "450 035",
+              "− 1 000",
+              "= 449 035",
+              "+ 1",
+              "= 449 036"
+            ]
+          ],
+          "role": "worked_subtraction_paths"
+        },
+        "ocr_evidence": [
+          {
+            "line_id": "36",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l36",
+            "raw": "450 035",
+            "existing_corrected": "450 035"
+          },
+          {
+            "line_id": "37",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l37",
+            "raw": "-999",
+            "existing_corrected": "− 999"
+          },
+          {
+            "line_id": "38",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l38",
+            "raw": "= 449 036",
+            "existing_corrected": "= 449 036"
+          },
+          {
+            "line_id": "40",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l40",
+            "raw": "– 1000",
+            "existing_corrected": "− 1 000"
+          },
+          {
+            "line_id": "41",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l41",
+            "raw": "+1",
+            "existing_corrected": "+ 1"
+          },
+          {
+            "line_id": "44",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l44",
+            "raw": "= 449 035",
+            "existing_corrected": "= 449 035"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:39:27.785Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "e0302411-a269-4f6c-a97b-c163be4df0fb",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:link-oral-m01",
+      "object_type": "teaching_link",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            112,
+            730,
+            908,
+            845
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        },
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            113,
+            390,
+            909,
+            711
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "from_id": "math-2023-grade4-part1:lesson-006:note-oral",
+        "to_id": "math-2023-grade4-part1:lesson-006:m01",
+        "relationship": "supports",
+        "rationale_kk": "Ереже бірінші тапсырмадағы нөлмен аяқталатын сандарға қатысты."
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:33:32.509Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "e2131db6-ff65-4bc5-851a-e897e8bb3d4e",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m05:badge",
+      "object_type": "module_badge",
+      "pdf_page": 27,
+      "source_locations": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "bbox": [
+            386,
+            1054,
+            580,
+            1084
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "module_badge",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m05",
+        "text_kk": "ЖҰПТЫҚ ЖҰМЫС",
+        "scope_ids": [
+          "math-2023-grade4-part1:lesson-006:m05"
+        ],
+        "ocr_evidence": [
+          {
+            "line_id": "45",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l45",
+            "raw": "ЖУПТЫК ЖУМЫС",
+            "existing_corrected": "ЖҰПТЫҚ ЖҰМЫС"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:39:44.518Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "e33b2f6a-1285-4eb3-8b57-ee80e5e10102",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:running-28",
+      "object_type": "other",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            110,
+            83,
+            759,
+            115
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "other",
+        "parent_id": "math-2023-grade4-part1:lesson-006",
+        "text_kk": "6-сабақ • Көптаңбалы сандармен арифметикалық амалдар орындау",
+        "ocr_evidence": [
+          {
+            "line_id": "1",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l1",
+            "raw": "6-сабақ • Көптаңбалы сандармен арифметикалық амалдар орындау",
+            "existing_corrected": "6-сабақ • Көптаңбалы сандармен арифметикалық амалдар орындау"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:47:15.391Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "ec0604f9-bf32-40a7-be43-3be787934dfe",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m01:formula-9",
+      "object_type": "formula",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            191,
+            626,
+            485,
+            651
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m01",
+        "text_kk": "789 000 − 80 000 − 9 000",
+        "ocr_evidence": [
+          {
+            "line_id": "21",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l21",
+            "raw": "789 000 – 80 000 – 9 000",
+            "existing_corrected": "789 000 – 80 000 – 9 000"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:33:15.848Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "ee9a813c-a8e8-43c4-80b7-2260eaf27b4f",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m01:formula-1",
+      "object_type": "formula",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            189,
+            494,
+            375,
+            525
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m01",
+        "text_kk": "14 000 − 14 000",
+        "ocr_evidence": [
+          {
+            "line_id": "13",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l13",
+            "raw": "14 000 – 14 000",
+            "existing_corrected": "14 000 – 14 000"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:32:57.775Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "f094db32-0080-4b40-a6b2-438f33659ab6",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m09:formula-1",
+      "object_type": "formula",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            210,
+            1142,
+            499,
+            1169
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m09",
+        "text_kk": "(702 565 – 702 000) : 5 · 3",
+        "ocr_evidence": [
+          {
+            "line_id": "40",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l40",
+            "raw": "(702 565 - 702 000): 5· 3",
+            "existing_corrected": "(702 565 – 702 000) : 5 · 3"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:52:03.079Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "f0bf5861-3f36-4d10-b13c-034dc449644a",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m02:formula-2",
+      "object_type": "formula",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            428,
+            1216,
+            584,
+            1243
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "formula",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m02",
+        "text_kk": "60 700 – 900",
+        "ocr_evidence": [
+          {
+            "line_id": "43",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l43",
+            "raw": "60 700 – 900",
+            "existing_corrected": "60 700 – 900"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:33:58.192Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "f0d6d1a2-76d3-46fb-922b-f8e253888f10",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:header:title",
+      "object_type": "text",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            165,
+            54,
+            608,
+            113
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "text",
+        "parent_id": "math-2023-grade4-part1:lesson-006:header",
+        "text_kk": "Көптаңбалы сандармен арифметикалық амалдар орындау",
+        "ocr_evidence": [
+          {
+            "line_id": "1",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l1",
+            "raw": "Көптаңбалы сандармен арифметикалық",
+            "existing_corrected": "Көптаңбалы сандармен арифметикалық"
+          },
+          {
+            "line_id": "3",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l3",
+            "raw": "амалдар орындау",
+            "existing_corrected": "амалдар орындау"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:28:14.819Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "f3c54b80-bacc-40c8-bbe9-40e787579a25",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:m07:prompt",
+      "object_type": "text",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            202,
+            660,
+            865,
+            751
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "text",
+        "parent_id": "math-2023-grade4-part1:lesson-006:m07",
+        "text_kk": "Сегіз таңбалы сан жаз. Қандай цифрлар қолдандың? Ол цифрлардан ең үлкен және ең кіші сегіз таңбалы сандар құрастыр.",
+        "ocr_evidence": [
+          {
+            "line_id": "22",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l22",
+            "raw": "Сегіз таңбалы сан жаз. Қандай цифрлар қолдандың? Ол",
+            "existing_corrected": "Сегіз таңбалы сан жаз. Қандай цифрлар қолдандың? Ол"
+          },
+          {
+            "line_id": "23",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l23",
+            "raw": "цифрлардан ең үлкен және ең кіші сегіз таңбалы сандар",
+            "existing_corrected": "цифрлардан ең үлкен және ең кіші сегіз таңбалы сандар"
+          },
+          {
+            "line_id": "24",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l24",
+            "raw": "құрастыр.",
+            "existing_corrected": "құрастыр."
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:51:23.412Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "f6e94a10-0d82-4221-bbf8-855081023cb0",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:running-27",
+      "object_type": "other",
+      "pdf_page": 27,
+      "source_locations": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "bbox": [
+            664,
+            84,
+            882,
+            113
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p027:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "other",
+        "parent_id": "math-2023-grade4-part1:lesson-006",
+        "text_kk": "Менің елім сандармен",
+        "ocr_evidence": [
+          {
+            "line_id": "1",
+            "wiki_line_id": "math-2023-grade4-part1:p027:l1",
+            "raw": "Менің елім сандармен",
+            "existing_corrected": "Менің елім сандармен"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:34:47.444Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "f7d53a14-9c49-4e99-b422-ffb379ffb4dd",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:closing",
+      "object_type": "other",
+      "pdf_page": 28,
+      "source_locations": [
+        {
+          "pdf_page": 28,
+          "printed_page": "28",
+          "bbox": [
+            752,
+            1064,
+            854,
+            1135
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p028:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "other",
+        "parent_id": "math-2023-grade4-part1:lesson-006",
+        "text_kk": "НЕГЕ\nАТА\nТҮСІНДІР",
+        "ocr_evidence": [
+          {
+            "line_id": "36",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l36",
+            "raw": "НEГЕ",
+            "existing_corrected": "НЕГЕ"
+          },
+          {
+            "line_id": "38",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l38",
+            "raw": "АТА",
+            "existing_corrected": "АТА"
+          },
+          {
+            "line_id": "39",
+            "wiki_line_id": "math-2023-grade4-part1:p028:l39",
+            "raw": "тҮСІНДІР",
+            "existing_corrected": "ТҮСІНДІР"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:53:52.648Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "f9d2e4bb-fe69-4ca1-8086-ee766857c890",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:lesson-006:intro:objective",
+      "object_type": "text",
+      "pdf_page": 26,
+      "source_locations": [
+        {
+          "pdf_page": 26,
+          "printed_page": "26",
+          "bbox": [
+            177,
+            227,
+            674,
+            325
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p026:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "text",
+        "parent_id": "math-2023-grade4-part1:lesson-006:intro",
+        "text_kk": "Көптаңбалы сандарды калькулятордың көмегімен қосуды және азайтуды үйренесің.",
+        "ocr_evidence": [
+          {
+            "line_id": "9",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l9",
+            "raw": "Көптаңбалы сандарды калькулятордың",
+            "existing_corrected": "Көптаңбалы сандарды калькулятордың"
+          },
+          {
+            "line_id": "10",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l10",
+            "raw": "көмегімен  қосуды және азайтуды",
+            "existing_corrected": "көмегімен  қосуды және азайтуды"
+          },
+          {
+            "line_id": "11",
+            "wiki_line_id": "math-2023-grade4-part1:p026:l11",
+            "raw": "үйренесің.",
+            "existing_corrected": "үйренесің."
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:28:19.336Z",
+      "supersedes": []
+    },
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-006",
+      "record_id": "ff58e9ca-de87-476c-8863-25ecc3cdfa1b",
+      "reviewer_stream_id": "b9d90025-e977-475e-8f5a-e9a5a9d7ae7e",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part1:p027",
+      "object_type": "page",
+      "pdf_page": 27,
+      "source_locations": [
+        {
+          "pdf_page": 27,
+          "printed_page": "27",
+          "scan_asset_id": "math-2023-grade4-part1:p027:scan",
+          "bbox": [
+            0,
+            0,
+            993,
+            1418
+          ]
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "pdf_page": 27,
+        "printed_page": "27"
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T10:42:04.470Z",
+      "supersedes": []
+    }
+  ]
+}
