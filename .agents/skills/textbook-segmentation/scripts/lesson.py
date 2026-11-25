@@ -146,8 +146,11 @@ def validate_content(data):
                         f'unjustified inherited Badge: {o["id"]}')
             if kind == 'subtask_number':
                 text = o['text_kk'].strip()
-                require(all(not c.isalpha() or c.isupper() and 'CYRILLIC' in unicodedata.name(c,'')
-                            for c in text), f'non-uppercase-Cyrillic subtask number: {o["id"]}')
+                letters = [c for c in text if c.isalpha()]
+                require(all('CYRILLIC' in unicodedata.name(c, '') for c in letters)
+                        and (all(c.isupper() for c in letters)
+                             or text == o.get('printed_label_kk') and all(c.islower() for c in letters)),
+                        f'invalid Cyrillic subtask number: {o["id"]}')
             if o.get('crop_asset_id'):
                 require(o['crop_asset_id'] in data['crop_assets'], f'missing crop asset: {o["id"]}')
             sequence=o.get('worked_sequence')
