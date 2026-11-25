@@ -30,6 +30,58 @@ def integer(value):
     return type(value) is int
 
 
+def validate_vertical_layout(layout, object_id):
+    issue = f'invalid vertical grid: {object_id}'
+    columns = layout['columns']
+    units = layout['units']
+    rows = layout['rows']
+    indent = layout.get('indent_em', 0)
+    require(type(indent) in (int, float) and 0 <= indent <= 10, issue)
+    names = [column['id'] for column in columns]
+    require(names and len(names) == len(set(names)) and all(isinstance(name, str) and name for name in names),
+            issue)
+    places = [column['place'] for column in columns if 'place' in column]
+    require(all(integer(place) and re.fullmatch(r'10*', str(place)) for place in places)
+            and places == sorted(set(places), reverse=True), issue)
+    require(all(isinstance(text, str) and text.strip() for text in units.values()), issue)
+    roles = [row['role'] for row in rows]
+    require([role for role in roles if role != 'annotation'] == ['upper_operand', 'lower_operand', 'rule', 'result'],
+            issue)
+    operator = layout['given']['operator']
+    operands = layout['given']['operands']
+    require(operator in ('+', '−', '×', '÷') and len(operands) == 2 and all(
+        amounts and all(integer(amount['value']) and amount['value'] >= 0 and amount['unit'] in units
+                        for amount in amounts) for amounts in operands), issue)
+    positions = {name: i for i, name in enumerate(names)}
+    for row in rows:
+        end = 0
+        for cell in row['cells']:
+            start = positions.get(cell['column'], -1)
+            span = cell.get('span', 1)
+            require(integer(span) and span > 0 and end <= start and start + span <= len(names), issue)
+            end = start + span
+            kind, value = cell['kind'], cell.get('value')
+            if kind == 'digit':
+                valid = 'place' in columns[start] and integer(value) and 0 <= value <= 9
+            elif kind == 'number':
+                valid = integer(value) and value >= 0
+            elif kind == 'unit':
+                valid = value in units
+            elif kind == 'operator':
+                valid = row['role'] == 'lower_operand' and value == operator
+            elif kind == 'relation':
+                valid = row['role'] == 'result' and value == '='
+            elif kind == 'marker':
+                valid = row['role'] == 'annotation' and isinstance(value, str) and bool(value.strip())
+            else:
+                valid = kind in ('blank', 'rule') and value is None
+            require(valid and (kind == 'rule') == (row['role'] == 'rule')
+                    and (span == 1 or kind in ('rule', 'blank', 'marker')), issue)
+        require(row['cells'] and (row['role'] != 'rule' or len(row['cells']) == 1), issue)
+    lower = next(row for row in rows if row['role'] == 'lower_operand')
+    require(sum(cell['kind'] == 'operator' for cell in lower['cells']) == 1, issue)
+
+
 def selected_lessons(selector, available):
     if selector == 'all':
         require(bool(available), 'all requires --catalog with confirmed boundaries')
@@ -156,9 +208,11 @@ def validate_content(data):
                         f'invalid Cyrillic subtask number: {o["id"]}')
             if o.get('crop_asset_id'):
                 require(o['crop_asset_id'] in data['crop_assets'], f'missing crop asset: {o["id"]}')
-            if (o.get('vertical') or {}).get('presentation') == 'source_crop':
-                require(kind == 'formula' and o.get('crop_asset_id') and o.get('text_kk'),
-                        f'source-rendered formula needs a crop and transcription: {o["id"]}')
+            vertical = o.get('vertical') or {}
+            if 'layout' in vertical:
+                require(kind == 'formula' and o.get('text_kk') and o.get('crop_asset_id'),
+                        f'vertical grid needs a transcription and reference crop: {o["id"]}')
+                validate_vertical_layout(vertical['layout'], o['id'])
             sequence=o.get('worked_sequence')
             if sequence:
                 require(kind=='example' and bool(sequence['description_kk'])
@@ -265,9 +319,6 @@ def validate_review_history(data, ids, history):
     source_ids = set(revision['source_object_ids'])
     equivalent = set(revision['equivalent_object_ids'])
     require(equivalent <= source_ids & ids.keys(), 'unknown equivalent object')
-    require(history['schema_version'] == 'textbook-review/4.0' and history['data_version'] == source_version
-            and history['textbook_id'] == data['book']['id'] and history['lesson_id'] == data['lesson']['id'],
-            'review package does not match the previous version')
     versions = {source_version: source_ids}
     for version, ancestor in revision.get('ancestors', {}).items():
         ancestor_ids = set(ancestor['source_object_ids'])
@@ -275,11 +326,16 @@ def validate_review_history(data, ids, history):
                 and set(ancestor['equivalent_object_ids']) <= ancestor_ids & equivalent,
                 'invalid ancestor version or equivalent object')
         versions[version] = ancestor_ids
+    submission_version = revision.get('submission_version', source_version)
+    require(submission_version in versions and history['schema_version'] == 'textbook-review/4.0'
+            and history['data_version'] == submission_version and history['textbook_id'] == data['book']['id']
+            and history['lesson_id'] == data['lesson']['id'],
+            'review package does not match the declared submission version')
     records = history['records']
     ancestors = history.get('prior_records', [])
     require(isinstance(records, list) and isinstance(ancestors, list), 'review records must be lists')
     by_record = {}
-    for record, permitted in [(r, {source_version: source_ids}) for r in records] + [
+    for record, permitted in [(r, {submission_version: versions[submission_version]}) for r in records] + [
         (r, versions) for r in ancestors
     ]:
         record_id = record['record_id']

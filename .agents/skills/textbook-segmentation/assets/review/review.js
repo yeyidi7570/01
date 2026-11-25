@@ -402,15 +402,23 @@ function block(parent,title,content,cls='') {
   if (title) parent.append(node('div',title,'caption'));
   parent.append(node('div',content,`content ${cls}`));
 }
+const verticalLabels = {
+  reconstructed:local(['重建竖式','Қайта құрылған бағандық есеп']),
+  source:local(['原书裁图（对照）','Оқулықтан қиынды (салыстыру үшін)']),
+  edit:local(['二维布局修正（JSON）','Екі өлшемді орналасуды түзету (JSON)']),
+  invalid:local(['请输入有效的二维布局 JSON。','Екі өлшемді орналасудың жарамды JSON деректерін енгізіңіз.'])
+};
+
 function renderContent(div,o,view) {
   if (o.type==='page') block(div,null,ui.pageAudit);
   if (o.instructional_note_badge && o.instructional_note_badge!==o.text_kk &&
       !children(o).some(c=>c.type==='instructional_note_badge' || c.text_kk===o.instructional_note_badge)) {
     block(div,null,o.instructional_note_badge,'caption');
   }
-  const sourceCrop=o.vertical?.presentation==='source_crop';
-  if (o.vertical && !sourceCrop) renderVertical(div,o.vertical);
-  else if (!sourceCrop) block(div,null,o.text_kk,o.type==='formula'?'equations':'');
+  if (o.vertical) {
+    div.append(node('div',verticalLabels.reconstructed,'caption'));
+    renderVertical(div,o.vertical,o.text_kk);
+  } else block(div,null,o.text_kk,o.type==='formula'?'equations':'');
   if (aux(o.id) && hasContent(o) && o.type!=='teaching_link') block(div,ui.translation,aux(o.id),'translation');
   if (o.scope_ids) {
     const scopes=o.scope_ids.map(id=>byId.get(id)?.o).filter(Boolean);
@@ -424,7 +432,8 @@ function renderContent(div,o,view) {
     img.width=r-x;
     img.height=b-y;
     img.src=images[imageId];
-    img.alt=sourceCrop?o.text_kk:`${ui.scan} · ${nameOf(o.type)}`;
+    img.alt=`${ui.scan} · ${nameOf(o.type)}`;
+    if (o.vertical) div.append(node('div',verticalLabels.source,'caption'));
     div.append(img);
   }
   if (o.worked_sequence) {
@@ -460,9 +469,33 @@ function renderContent(div,o,view) {
     div.append(item);
   }
 }
-function renderVertical(parent,v) {
+function renderVerticalGrid(layout,transcription) {
+  const grid=node('div',null,'vertical-grid');
+  grid.setAttribute('role','img');
+  grid.setAttribute('aria-label',transcription);
+  const positions=new Map(layout.columns.map((column,i)=>[column.id,i+1]));
+  grid.style.gridTemplateColumns=layout.columns.map(column=>'place' in column?'1ch':'max-content').join(' ');
+  grid.style.marginInlineStart=`${layout.indent_em??0}em`;
+  for (const [i,row] of layout.rows.entries()) {
+    for (const cell of row.cells) {
+      const text=cell.kind==='unit'?layout.units[cell.value]:cell.value;
+      const item=node('span',text,`vertical-cell vertical-${cell.kind}`);
+      item.style.gridRow=String(i+1);
+      item.style.gridColumn=`${positions.get(cell.column)} / span ${cell.span??1}`;
+      grid.append(item);
+    }
+  }
+  return grid;
+}
+
+function renderVertical(parent,v,transcription) {
   const figure=node('div',null,'vertical-figure');
   if (v.expression_kk) figure.append(node('div',v.expression_kk,'formula-caption'));
+  if (v.layout) {
+    figure.append(renderVerticalGrid(v.layout,transcription));
+    parent.append(figure);
+    return;
+  }
   const d=node('div',null,'vertical');
   const row=(value,operator,token,suffix='')=>{
     const match=(value??'').match(/^(?:(.*?[^\d\s])\s+)?(\d[\d ]*)\s+(\S+)$/u);
@@ -645,6 +678,8 @@ function setFields(panel,code,ctx) {
     f.type='number'; f.min=1; f.max=o.row_count-cell.row; f.value=cell.rowspan;
     const g=field(panel,'new-colspan',ui.colSpan,'input');
     g.type='number'; g.min=1; g.max=o.column_count-cell.column; g.value=cell.colspan;
+  } else if (code==='formula_structure' && o.vertical?.layout) {
+    field(panel,'vertical-layout',verticalLabels.edit,'textarea').value=JSON.stringify(o.vertical.layout,null,2);
   } else if (code==='formula_structure' && o.vertical) {
     for (const [key,label] of [['upper',ui.upper],['lower',ui.lower],['operator',ui.operator],['result',ui.result],['equivalence_kk',ui.equivalence]]) {
       field(panel,'vertical-'+key,label,'input').value=o.vertical[key]??'';
@@ -725,6 +760,17 @@ function issueChanges(ctx,code) {
       const v=field('new-'+span).value;
       if (v) put(cell.id,span,cell[span],Number(v),'replace_table_cell',extra);
     }
+  } else if (code==='formula_structure' && o.vertical?.layout) {
+    let layout;
+    try {
+      layout=JSON.parse(field('vertical-layout').value);
+    } catch {
+      throw Error(verticalLabels.invalid);
+    }
+    if (!layout || !Array.isArray(layout.columns) || !Array.isArray(layout.rows) || !layout.units || !layout.given) {
+      throw Error(verticalLabels.invalid);
+    }
+    put(o.id,'vertical',o.vertical,{...o.vertical,layout},'replace_formula_layout');
   } else if (code==='formula_structure' && o.vertical) {
     const next={...o.vertical};
     for (const key of ['upper','lower','operator','result','equivalence_kk']) {
