@@ -23,7 +23,7 @@
 | [lesson_002](01_segmentation/lesson_002/) | `segmentation_completed` | [第一轮修订复核通过](02_segmentation_review/lesson_002/revision_1/) | 未开始 | 未开始 | 未完成 |
 | [lesson_003](01_segmentation/lesson_003/) | `segmentation_completed` | [第一轮修订复核通过](02_segmentation_review/lesson_003/revision_1/) | 未开始 | 未开始 | 未完成 |
 | [lesson_004](01_segmentation/lesson_004/) | `segmentation_completed` | [地图复核通过，2 项无法判断](02_segmentation_review/lesson_004/revision_1/) | 未开始 | 未开始 | 未完成 |
-| [lesson_005](01_segmentation/lesson_005/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
+| [lesson_005](01_segmentation/lesson_005/) | `segmentation_completed` | [第一轮修订待复核](02_segmentation_review/lesson_005/revision_1/) | 未开始 | 未开始 | 未完成 |
 | [lesson_006](01_segmentation/lesson_006/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_007](01_segmentation/lesson_007/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_008](01_segmentation/lesson_008/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
@@ -95,6 +95,8 @@
 第 5 课 `Көптаңбалы сандармен арифметикалық амалдар орындау`，PDF 和印刷页 22–25。共 10 个 Module、0 条独立教学说明、1 张表、2 张信息图及 47 条校对建议。保留第 9 题的原印单位「6 995 км」，以及第 7 题左列两次出现的 125 000，均标记待核。
 
 [结构化 JSON](01_segmentation/lesson_005/content.json)、[中文连续审核](01_segmentation/lesson_005/review_zh.html)、[哈语连续审核](01_segmentation/lesson_005/review_kk.html)。双语离线交互和审核记录交叉导入已核验。
+
+第 5 课第一轮修订将第 25 页第 9 题汗腾格里峰的海拔单位校正为米，保留原印单位。新版 119/121 项通过，单位校正和第 3 题 Ә 小题的一道算式待复核。[原始审核提交](02_segmentation_review/lesson_005/submissions/review_001_original.json) · [修订目录](02_segmentation_review/lesson_005/revision_1/)
 
 第 6 课 `Көптаңбалы сандармен арифметикалық амалдар орындау`，PDF 和印刷页 26–28。共 9 个 Module、2 条独立教学说明、2 张表、2 张信息图及 31 条校对建议。保留第 6 题表格的斜线表头及旁边计算器图，保留第 8 题竖式的西里尔字母和数位。
 
