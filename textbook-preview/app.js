@@ -1,4 +1,5 @@
-import {assetUrl, el, ordered, pagesOf, renderObject} from "./render.js";
+import {el, ordered, pagesOf, renderObject} from "./render.js";
+import {previewSource} from "./source.js";
 
 const byId = id => document.getElementById(id);
 const lessonSelect = byId("lesson");
@@ -10,18 +11,13 @@ const comparison = byId("comparison");
 const lookup = byId("object-id");
 const status = byId("status");
 const plan = byId("plan");
-const query = new URLSearchParams(location.search);
+const embedded = byId("offline-data");
+const source = previewSource(embedded ? JSON.parse(embedded.textContent) : null);
+const query = new URLSearchParams(source.offline ? location.hash.slice(1) : location.search);
 const loaded = new Map();
 let catalog;
 let scene;
 let navigation = 0;
-
-async function json(url, options) {
-  const response = await fetch(url, options);
-  const body = await response.json();
-  if (!response.ok) throw Error(body.error ?? `请求失败 (${response.status})`);
-  return body;
-}
 
 function message(text = "") {
   status.hidden = !text;
@@ -48,7 +44,7 @@ function href(lessonId, objectId, selection, compareMode = compare.checked) {
   if (selection) params.set("module", selection);
   if (objectId) params.set("id", objectId);
   if (compareMode) params.set("compare", "1");
-  return `/?${params}`;
+  return `${source.offline ? "#" : "/?"}${params}`;
 }
 
 function label(entry) {
@@ -143,6 +139,7 @@ function render() {
   const visibleUnits = target ? units.filter(unit => roots.has(unit.id)) : units;
   const context = {
     data,
+    image: source.image,
     gaps: entry.gaps,
     teacher: audience.value === "teacher",
     identify(element, obj) {
@@ -208,7 +205,7 @@ function render() {
       image.loading = "lazy";
       image.width = page.width;
       image.height = page.height;
-      image.src = assetUrl("scan", lesson.id, page.scan_asset_id);
+      image.src = source.image("scan", lesson.id, page.scan_asset_id);
       image.addEventListener("error", () => image.replaceWith(el("p", "原书扫描资源加载失败。", "unsupported")));
       figure.append(image, el("figcaption", `原书第 ${page.printed_page} 页 · PDF ${page.pdf_page}`));
       comparison.append(figure);
@@ -223,7 +220,7 @@ async function openScene(lessonId, selection = "", objectId = "", keepSelection 
     const entry = catalog.find(lesson => lesson.id === lessonId);
     if (!entry) throw Error(`试验目录中没有课次 ${lessonId}。`);
     if (!loaded.has(lessonId)) {
-      const data = await json(assetUrl("lesson", lessonId, ""));
+      const data = await source.lesson(lessonId);
       loaded.set(lessonId, prepare(data));
     }
     if (turn !== navigation) return;
@@ -233,10 +230,12 @@ async function openScene(lessonId, selection = "", objectId = "", keepSelection 
     if (item && (!keepSelection || !selection)) {
       selection = item.root?.id === lessonId ? "" : item.root?.id ?? "";
     }
+    if (!selection && entry.supplement) selection = entry.modules[0].id;
     if (selection && !prepared.units.some(u => u.id === selection)) throw Error(`试验目录中没有模块 ${selection}。`);
     scene = {...prepared, entry, selection, objectId};
     lessonSelect.value = lessonId;
-    moduleSelect.replaceChildren(new Option("整课", ""));
+    moduleSelect.replaceChildren();
+    if (!entry.supplement) moduleSelect.add(new Option("整课", ""));
     for (const module of entry.modules) {
       moduleSelect.add(new Option(`${module.number} · ${module.topic}`, module.id));
     }
@@ -265,8 +264,11 @@ async function openScene(lessonId, selection = "", objectId = "", keepSelection 
 }
 
 async function start() {
-  catalog = await json("/api/catalog");
-  for (const lesson of catalog) lessonSelect.add(new Option(`${lesson.number} · ${lesson.title}`, lesson.id));
+  catalog = await source.catalog();
+  if (source.offline) {
+    byId("request").placeholder = "例如：展示第四课第五题";
+  }
+  for (const lesson of catalog) lessonSelect.add(new Option(`${lesson.number} · ${lesson.title}${lesson.supplement ? "（调用示例）" : ""}`, lesson.id));
   const id = query.get("id")?.trim() ?? "";
   const entry = catalog.find(l => l.id === query.get("lesson"))
     ?? catalog.find(l => l.id === id || id.startsWith(`${l.id}:`))
@@ -314,11 +316,7 @@ byId("teacher-request").addEventListener("submit", async event => {
   submit.disabled = true;
   plan.textContent = "正在查找教材…";
   try {
-    const result = await json("/api/teaching-plan", {
-      method: "POST",
-      headers: {"Content-Type": "application/json"},
-      body: JSON.stringify({request: byId("request").value}),
-    });
+    const result = await source.plan(byId("request").value);
     plan.replaceChildren();
     if (!result.references.length) {
       plan.textContent = "模拟接口未找到唯一匹配。请补充课次、题号或主题。";
@@ -348,6 +346,10 @@ byId("teacher-request").addEventListener("submit", async event => {
       section.append(block);
     }
     plan.append(section);
+    if (source.offline) {
+      const module = result.references.find(ref => ref.type === "module");
+      if (module) await openScene(module.lesson_id, module.object_id, module.object_id);
+    }
   } catch (error) {
     plan.textContent = error.message;
   } finally {

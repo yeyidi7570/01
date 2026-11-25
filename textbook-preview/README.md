@@ -2,6 +2,18 @@
 
 预览器直接读取仓库中的教材 `content.json`。打开后可选择课次、整课或样本模块，在教师和学生视图间切换，或输入对象 ID 跳转。原书对照可随时打开。哈萨克语正文和数学内容来自所选版本的教材数据。
 
+## 下载离线 Demo
+
+打开 [textbook-preview-offline.html 文件页](https://github.com/yeyidi7570/01/blob/textbook-preview/textbook-preview/textbook-preview-offline.html)，点击右上角的下载图标 **Download raw file**。将文件保存为 `textbook-preview-offline.html` 后双击，用浏览器打开即可。页面所需的 JSON、脚本、图片和可选对照页都内嵌在这个文件中。
+
+1. 用「课次」和「模块」切换原来的五个样本。初始打开第 1 课第 4 题。
+2. 将「视图」切到「教师」，展开「AI 教学组织 · 模拟」，输入「展示第四课第五题」，点击「查找教材」。预览会自动跳到第 4 课第 5 题。该题是从仓库已有 JSON 提取的额外调用示例。
+3. 勾选「原书对照」才显示整页扫描。已知的数据缺口会在对应对象标为「不支持的结构」。
+
+离线包范围为原有样本课与第 4 课第 5 题。第 4 课只打包了该题及第 20 页对照。模拟器识别中文或阿拉伯数字课号与题号，以及样本主题词。真实模型与其它课次未接入。机构管理的浏览器可能禁止打开 `file://`，此时可使用允许打开本地 HTML 的浏览器。
+
+维护者修改预览逻辑后，可在已安装 Pillow 的开发环境运行 `python -B textbook-preview/build_offline.py` 更新单文件。断网测试使用独立的 Chromium 151，从只含该 HTML 的临时目录按 `file://` 打开。测试覆盖五个样本、公式、表格、图片、对照开关、教师/学生切换和模拟调用，并检查页面未请求外部资源。安装 Playwright Chromium 后可运行 `node textbook-preview/test_offline.cjs` 复测。
+
 ## 启动
 
 在仓库根目录运行。需要 Python 3.10+、Pillow 和支持 CSS Grid 的浏览器。扫描 PNG 从仓库的 `wiki-data/` 读取，稀疏检出时需要加入 [样本](samples.json) 所引用课次的 `pages[].scan_path`。

@@ -5,10 +5,6 @@ export function el(tag, text, className) {
   return element;
 }
 
-export function assetUrl(kind, lessonId, id) {
-  return `/api/${kind}?${new URLSearchParams({lesson: lessonId, id})}`;
-}
-
 export function ordered(children = [], order = []) {
   const byId = new Map(children.map(child => [child.id, child]));
   if (byId.size !== children.length || order.length !== children.length ||
@@ -213,12 +209,13 @@ function imageOf(object, context) {
   const figure = el("figure");
   const description = object.structured_description;
   const asset = context.data.crop_assets?.[object.crop_asset_id];
-  if (!asset) {
+  const src = asset && context.image("crop", context.data.lesson.id, object.crop_asset_id);
+  if (!src) {
     figure.append(unsupported(object.id, "缺少信息图裁图"));
   } else {
     const img = el("img");
     img.alt = description?.description_kk ?? "教材信息图";
-    img.src = assetUrl("crop", context.data.lesson.id, object.crop_asset_id);
+    img.src = src;
     img.width = asset.bbox[2] - asset.bbox[0];
     img.height = asset.bbox[3] - asset.bbox[1];
     img.addEventListener("error", () => img.replaceWith(unsupported(object.id, "信息图资源加载失败")));
