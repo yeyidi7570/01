@@ -1,0 +1,83 @@
+{
+  "schema_version": "textbook-review/4.0",
+  "data_version": "v4.1-r003",
+  "textbook_id": "math-2023-grade4-part1",
+  "lesson_id": "math-2023-grade4-part1:lesson-001",
+  "records": [
+    {
+      "schema_version": "textbook-review/4.0",
+      "data_version": "v4.1-r003",
+      "textbook_id": "math-2023-grade4-part1",
+      "lesson_id": "math-2023-grade4-part1:lesson-001",
+      "record_id": "2f6948d0-a96f-47e2-8a58-ff1bb99571bc",
+      "reviewer_stream_id": "5a05f534-e6cb-4584-876b-4e085d3af4e8",
+      "report_kind": "structure_review",
+      "object_id": "math-2023-grade4-part1:lesson-001:m04:ex-borrow",
+      "object_type": "example",
+      "pdf_page": 8,
+      "source_locations": [
+        {
+          "pdf_page": 8,
+          "printed_page": "8",
+          "bbox": [
+            118,
+            1006,
+            878,
+            1170
+          ],
+          "scan_asset_id": "math-2023-grade4-part1:p008:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "example",
+        "parent_id": "math-2023-grade4-part1:lesson-001:m04",
+        "content_order": [
+          "math-2023-grade4-part1:lesson-001:m04:ex-borrow:first-layout",
+          "math-2023-grade4-part1:lesson-001:m04:ex-borrow:explanation",
+          "math-2023-grade4-part1:lesson-001:m04:ex-borrow:equivalence",
+          "math-2023-grade4-part1:lesson-001:m04:ex-borrow:transfer-layout",
+          "math-2023-grade4-part1:lesson-001:m04:ex-borrow:arrow",
+          "math-2023-grade4-part1:lesson-001:m04:ex-borrow:minutes-layout"
+        ],
+        "worked_sequence": {
+          "crop_asset_id": "math-2023-grade4-part1:lesson-001:m04:ex-borrow:worked-sequence:crop",
+          "steps": [
+            "math-2023-grade4-part1:lesson-001:m04:ex-borrow:first-layout",
+            "math-2023-grade4-part1:lesson-001:m04:ex-borrow:explanation",
+            "math-2023-grade4-part1:lesson-001:m04:ex-borrow:equivalence",
+            "math-2023-grade4-part1:lesson-001:m04:ex-borrow:transfer-layout",
+            "math-2023-grade4-part1:lesson-001:m04:ex-borrow:arrow",
+            "math-2023-grade4-part1:lesson-001:m04:ex-borrow:minutes-layout"
+          ],
+          "description_kk": "Сол жақтағы амалдан кейін минуттың жетпеуі түсіндіріледі. 1 сағаттан алынған 60 минут 16 минутқа қосылады. Жасыл жебе ауыстыруды көрсетеді; оң жақтағы 76 минуттан 45 минутты азайту — сол амалдың жалғасы.",
+          "relationships": [
+            [
+              "math-2023-grade4-part1:lesson-001:m04:ex-borrow:first-layout",
+              "math-2023-grade4-part1:lesson-001:m04:ex-borrow:explanation",
+              "math-2023-grade4-part1:lesson-001:m04:ex-borrow:equivalence",
+              "math-2023-grade4-part1:lesson-001:m04:ex-borrow:transfer-layout",
+              "math-2023-grade4-part1:lesson-001:m04:ex-borrow:minutes-layout"
+            ],
+            [
+              "math-2023-grade4-part1:lesson-001:m04:ex-borrow:arrow",
+              "math-2023-grade4-part1:lesson-001:m04:ex-borrow:transfer-layout"
+            ]
+          ]
+        }
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-25T07:32:28.429Z",
+      "supersedes": [],
+      "provenance": {
+        "source": "user_chat",
+        "quote": "这个结构确认了"
+      }
+    }
+  ]
+}

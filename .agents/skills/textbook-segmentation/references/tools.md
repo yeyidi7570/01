@@ -15,6 +15,7 @@ python "$tool" compare --old "$previous_content" --new "$new_stage/content.json"
 - `plan` 是只读盘点，列出现有文件、复用或重跑候选及审核记录哈希。根据真实目录与正文建立导入目录 JSON，顶层为 `lessons` 列表，每项含正整数 `number`、`title_kk`、按顺序列出的 `pdf_pages`、逐页对应的 `printed_pages` 和非空 `boundary_evidence`。PDF 页码始终为一基。单课或范围的初查可先省略 `--catalog`，但输出的空边界不能用于切割。`all` 要求已确认的目录。`--rerun` 只标记候选，不写入归档。
 - `render` 以待审核 JSON、扫描清单和中文辅助 JSON 为输入，在一个尚不存在且父目录已存在的暂存目录写出三件套。扫描清单是 `scan_asset_id → 路径` 的 JSON 对象，相对路径从清单所在目录解析。支持 PNG、JPEG、WebP。裁图按 `crop_assets` 从同批扫描生成。中文辅助文件包含 `title`、可选的 `theme` 与 `objects`，后者以对象、单元格或 OCR 建议 ID 为键，复核提示可用 `对象ID#code`。所有译文是字符串。保留已经生成的哈语数据原字节。修订时传入 `--prior-review` 指向未经改写的提交原件。教材 `review_revision` 保存 `source_version`、提交 SHA-256、来源对象 ID、经对照确认等同的对象 ID，以及已处理的旧问题记录 ID。两份 HTML 内嵌同一原始记录包。
 - `refresh-review` 比较两种语言产物与当前共用模板。若已一致，报告 `current` 并跳过。审查旧包的内嵌数据、资源与双语一致性后，复用其原有裁图、扫描、译文与审核历史生成候选。省略 `--output` 只检查。暂存目录含原字节的 `content.json` 供验证，发布时只替换两份 HTML。教材版本、稳定 ID 和审核存储键保持原样。
+- `refresh-review --current-review` 可预载已归档的同版本审核记录。传入的包只包含当前版本的 `records`，原有历史继续从归档页面读取。明确通过的聊天确认可以作为带来源和原话的独立记录归档。
 - `check` 验证并输出统计，覆盖数据身份和结构、页坐标、标签/表格/关联、OCR 建议引用、两版内嵌数据/资源/行为完全一致以及基本离线壳和体积。旧 V4 单对象界面只能用 `--allow-legacy-review` 检验历史产物，该选项不能用于新交付。仍需 [人工和浏览器实测](review.md)。
 - `compare` 以稳定 ID 报告相同、改变、删除和新增的对象。该命令不猜测拆分/合并对象的对应，也不迁移反馈。
 

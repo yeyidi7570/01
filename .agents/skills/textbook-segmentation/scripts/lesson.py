@@ -365,6 +365,25 @@ def validate_review_history(data, ids, history):
                 for record_id in revision['addressed_record_ids']), 'addressed record must identify an original issue')
 
 
+def validate_current_review(data, ids, package):
+    if package is None:
+        return
+    identity = dict(textbook_id=data['book']['id'], lesson_id=data['lesson']['id'],
+                    data_version=data['data_version'], schema_version='textbook-review/4.0')
+    require(all(package.get(k) == v for k, v in identity.items())
+            and isinstance(package.get('records'), list) and not package.get('prior_records'),
+            'invalid current-version review package')
+    seen = set()
+    for record in package['records']:
+        record_id = record['record_id']
+        require(isinstance(record_id, str) and record_id and record_id not in seen
+                and all(record.get(k) == v for k, v in identity.items())
+                and record['object_id'] in ids and record['status'] in ('approved','issue','unable_to_verify')
+                and all(isinstance(record[k], list) for k in ('changes','supersedes','source_locations')),
+                f'invalid current-version record: {record_id}')
+        seen.add(record_id)
+
+
 def read_package(directory, allow_legacy=False):
     for name in FILES:
         p=directory/name
@@ -398,7 +417,9 @@ def read_package(directory, allow_legacy=False):
                         f'embedded scan checksum mismatch: {p["scan_asset_id"]}')
         prior=json.loads(html.sections.get('prior-review','null'))
         validate_review_history(data,ids,prior)
-        behavior=(assets,html.sections['script'],html.sections['style'],prior)
+        current=json.loads(html.sections.get('current-review','null'))
+        validate_current_review(data,ids,current)
+        behavior=(assets,html.sections['script'],html.sections['style'],prior,current)
         aux=json.loads(html.sections['translations'])
         require(lang=='zh' or not aux, 'Kazakh page must not depend on Chinese translations')
         paired[lang]=behavior
@@ -408,7 +429,8 @@ def read_package(directory, allow_legacy=False):
                 notes=sum(o.get('type')=='instructional_note' for o in ids.values()),
                 modules=sum(o.get('type')=='module' for o in ids.values()),
                 ocr_suggestions=len(data['ocr_suggestions']))
-    return raw,data,editions,paired['zh'][0],paired['zh'][3],stats
+    assets,_,_,prior,current=paired['zh']
+    return raw,data,editions,assets,prior,current,stats
 
 
 def audit_package(directory, allow_legacy=False):
@@ -466,9 +488,9 @@ def render(args):
     print(json.dumps(write_package(args.output,raw,pages),ensure_ascii=False))
 
 
-def review_pages(data, images, translations, prior):
+def review_pages(data, images, translations, prior, current=None):
     html=(ASSETS/'page.html').read_text(encoding='utf-8')
-    fields=dict(DATA=script_json(data),IMAGES=script_json(images),PRIOR=script_json(prior),
+    fields=dict(DATA=script_json(data),IMAGES=script_json(images),PRIOR=script_json(prior),CURRENT=script_json(current),
                 CSS=(ASSETS/'review.css').read_text(encoding='utf-8'),
                 JS=(ASSETS/'review.js').read_text(encoding='utf-8'))
     for key in (*fields,'LANG','TITLE','AUX'):
@@ -490,8 +512,12 @@ def write_package(output, raw, pages):
 
 
 def refresh_review(args):
-    raw,data,editions,images,prior,stats=read_package(args.lesson_dir,allow_legacy=True)
-    pages=review_pages(data,images,{lang:edition[1] for lang,edition in editions.items()},prior)
+    raw,data,editions,images,prior,current,stats=read_package(args.lesson_dir,allow_legacy=True)
+    if args.current_review:
+        current=read(args.current_review)
+        ids,_=validate_content(data)
+        validate_current_review(data,ids,current)
+    pages=review_pages(data,images,{lang:edition[1] for lang,edition in editions.items()},prior,current)
     current=all(pages[lang]==edition[0] for lang,edition in editions.items())
     if current:
         action='current'
@@ -535,6 +561,7 @@ def main():
     u=sub.add_parser('refresh-review',help='inspect or stage current review HTML from the archived package')
     u.add_argument('--lesson-dir',type=Path,required=True)
     u.add_argument('--output',type=Path,help='new staging directory; omit for inspection only')
+    u.add_argument('--current-review',type=Path,help='archive of records for the same data version')
     c=sub.add_parser('check',help='check content, assets and bilingual embedded parity')
     c.add_argument('--lesson-dir',type=Path,required=True)
     c.add_argument('--allow-legacy-review',action='store_true')

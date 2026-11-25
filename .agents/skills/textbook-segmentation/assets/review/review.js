@@ -50,6 +50,7 @@ const ordered = [];
 const pages = new Map(D.pages.map(p => [p.pdf_page,p]));
 const revision = D.review_revision;
 const priorPackage = JSON.parse($('prior-review').textContent);
+const currentPackage = JSON.parse($('current-review').textContent);
 const equivalent = new Set(revision?.equivalent_object_ids ?? []);
 const resolved = new Set(revision?.addressed_record_ids ?? []);
 const priorObjectIds = new Set(revision?.source_object_ids ?? []);
@@ -792,17 +793,19 @@ const continuousLabels={
   zh:{review:'连续审核',jump:'跳到 Module',toTop:'返回顶部',applyFilter:'刷新结果',
     save:'保存',pageReview:'页面完整性',structureIssue:'报告结构问题',structurePass:'确认结构修订',
     pending:'审核中',neutral:'',historyPending:'旧版记录需对照修订内容复核',detailsLabel:'反馈',
-    contentTotal:'内容',pageTotal:'页面完整性',structureTotal:'结构待处理',sync:'同步原图'},
+    contentTotal:'内容',pageTotal:'页面完整性',structureTotal:'结构待处理',overall:'审核进度',structurePending:'结构待复核',sync:'同步原图'},
   kk:{review:'Ретімен тексеру',jump:'Module таңдау',toTop:'Басына қайту',applyFilter:'Нәтижені жаңарту',
     save:'Сақтау',pageReview:'Беттің толықтығы',structureIssue:'Құрылым ақауын хабарлау',
     structurePass:'Құрылым түзетуін растау',pending:'Тексеріліп жатыр',neutral:'',
     historyPending:'Алдыңғы жазбаларды түзетілген мәтінмен салыстырыңыз',detailsLabel:'Пікір',
-    contentTotal:'Мазмұн',pageTotal:'Беттің толықтығы',structureTotal:'Құрылымды тексеру',sync:'Түпнұсқамен синхрондау'}
+    contentTotal:'Мазмұн',pageTotal:'Беттің толықтығы',structureTotal:'Құрылымды тексеру',overall:'Тексеру барысы',
+    structurePending:'Құрылымды қайта тексеру',sync:'Түпнұсқамен синхрондау'}
 };
 Object.assign(ui,continuousLabels[lang]);
 const mobile=matchMedia('(max-width:680px)');
 const reviewStatus=new Map();
 const ownStatus=new Map();
+const structureStatuses=new Map();
 const narrow=()=>mobile.matches;
 let alignedTop=null, scrollFrame=0, highlightTimer, highlighted;
 const scrollY=()=>narrow()?window.scrollY:scroller.scrollTop;
@@ -829,14 +832,14 @@ function statusOf(o) {
 }
 function refreshStates() {
   const counts=()=>Object.fromEntries(['unreviewed',...recordStates].map(state=>[state,0]));
-  const content=counts(), page=counts();
-  let pendingStructure=0;
+  const content=counts(), page=counts(), structures=counts();
   for (const o of [...ordered].reverse()) {
     const own=hasContent(o)?contentState(o):'neutral';
     ownStatus.set(o.id,own);
     if (own!=='neutral') (o.type==='page'?page:content)[own]++;
     const structure=isContainer(o)?structureState(o):'neutral';
-    if (['issue','unreviewed','unable_to_verify'].includes(structure)) pendingStructure++;
+    structureStatuses.set(o.id,structure);
+    if (structure!=='neutral') structures[structure]++;
     const states=[own,structure,...children(o).map(statusOf)].filter(s=>s!=='neutral');
     const status=states.includes('issue')?'issue':states.includes('unable_to_verify')?'unable_to_verify':
       states.some(s=>['unreviewed','pending'].includes(s))?(isContainer(o)?'pending':'unreviewed'):
@@ -847,22 +850,31 @@ function refreshStates() {
     view.status.dataset.state=status;
     view.card.dataset.state=status;
     if (view.ownStatus) view.ownStatus.textContent=ui[own];
-    if (view.structurePass) view.structurePass.hidden=structure!=='unreviewed' &&
-      !liveRecords(o.id).some(r=>r.report_kind==='structure_review' && r.reviewer_stream_id===stream && r.status==='issue');
+    if (view.structurePass) {
+      view.structurePass.hidden=structure!=='unreviewed' &&
+        !liveRecords(o.id).some(r=>r.report_kind==='structure_review' && r.reviewer_stream_id===stream && r.status==='issue');
+      view.structureReview.hidden=structure==='neutral'||structure==='approved';
+      view.structureLabel.textContent=structure==='unreviewed'?ui.structurePending:`${ui.structurePending} · ${ui[structure]}`;
+      (view.structureReview.hidden?view.head:view.structureReview).append(view.structureIssue);
+    }
     updateFeedback(view,o);
   }
   const total=Object.values(content).reduce((sum,n)=>sum+n,0);
   const pageCount=Object.values(page).reduce((sum,n)=>sum+n,0);
+  const pendingStructure=structures.unreviewed+structures.issue+structures.unable_to_verify;
+  const approved=content.approved+page.approved+structures.approved;
+  const taskCount=total+pageCount+structures.approved+pendingStructure;
   const lines=[
-    `${ui.contentTotal} · ${ui.approved} ${content.approved}/${total} · ${ui.issue} ${content.issue} · ${ui.unable_to_verify} ${content.unable_to_verify} · ${ui.unreviewed} ${content.unreviewed}`,
+    `${ui.overall} · ${ui.approved} ${approved}/${taskCount} · ${ui.issue} ${content.issue+page.issue+structures.issue} · ${ui.unable_to_verify} ${content.unable_to_verify+page.unable_to_verify+structures.unable_to_verify} · ${ui.unreviewed} ${content.unreviewed+page.unreviewed+structures.unreviewed}`,
+    `${ui.contentTotal} ${content.approved}/${total}`,
     `${ui.pageTotal} ${page.approved}/${pageCount} · ${ui.structureTotal} ${pendingStructure}`
   ];
   const unmatched=latest([...priorRecords.values()]).filter(r=>!recordables.has(r.object_id));
   if (unmatched.length) lines.push(`${ui.historyPending} · ${unmatched.length}`);
   $('statistics').replaceChildren(...lines.map(line=>node('span',line)));
-  $('meter').max=Math.max(1,total);
-  $('meter').value=content.approved;
-  $('meter').setAttribute('aria-label',`${content.approved} / ${total}`);
+  $('meter').max=Math.max(1,taskCount);
+  $('meter').value=approved;
+  $('meter').setAttribute('aria-label',`${approved} / ${taskCount}`);
 }
 function updateFeedback(view,o) {
   const current=liveRecords(o.id,true).filter(r=>r.status!=='approved');
@@ -924,7 +936,12 @@ function renderCard(o,parent) {
       saveReview();
     },'subtle');
     pass.dataset.action='structure-approve';
-    head.append(pass);
+    pass.classList.replace('subtle','pass');
+    const review=node('div',null,'structure-review');
+    view.structureLabel=node('strong',null,'structure-label');
+    review.append(view.structureLabel,pass);
+    view.structureIssue=structure;
+    view.structureReview=review;
     view.structurePass=pass;
   }
   if (primary && o.type!=='page') {
@@ -933,6 +950,7 @@ function renderCard(o,parent) {
   }
   renderContent(content,o,view);
   body.append(content);
+  if (view.structureReview) body.append(view.structureReview);
   if (reviewable) {
     const actions=makeActions(o);
     if (container) {
@@ -983,14 +1001,15 @@ function matchesFilter(o,key) {
   if (key==='page') return o.type==='page';
   if (key==='visual') return visualKinds.includes(o.type);
   if (key==='teaching_link') return o.type===key;
-  return statusOf(o)===key || ownStatus.get(o.id)===key;
+  return statusOf(o)===key || ownStatus.get(o.id)===key || structureStatuses.get(o.id)===key;
 }
 function applyFilter() {
   const key=$('filter').value;
   $('apply-filter').hidden=key==='all';
-  function visible(o) {
-    const related=children(o).map(visible).some(Boolean);
-    const shown=related||matchesFilter(o,key);
+  function visible(o,context=false) {
+    const showChildren=context || (key!=='all' && structureStatuses.get(o.id)===key);
+    const related=children(o).map(child=>visible(child,showChildren)).some(Boolean);
+    const shown=context||related||matchesFilter(o,key);
     const view=views.get(o.id);
     view.card.hidden=!shown;
     return shown;
@@ -1002,7 +1021,7 @@ function applyFilter() {
     first??=shown[0];
   }
   $('no-cards').hidden=Boolean(first);
-  return first;
+  return ordered.find(o=>matchesFilter(o,key))??first;
 }
 function listFilter() {
   $('review-tail').style.height='';
@@ -1277,6 +1296,7 @@ for (const t of ['module','instructional_note','text','informative_image','formu
   $('legend').append(item);
 }
 if (priorPackage) merge(priorPackage);
+if (currentPackage) merge(currentPackage);
 readDraft();
 $('draft').textContent=durable?ui.draft:ui.noDraft;
 renderCards();
