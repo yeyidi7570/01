@@ -19,7 +19,7 @@
 
 | Lesson | 切割 | 内容审核 | 主观标签 | 标签审核 | 最终完成 |
 | --- | --- | --- | --- | --- | --- |
-| [lesson_001](01_segmentation/lesson_001/) | 已归档 V4，`pending_review` | [第三轮修订待复核](02_segmentation_review/lesson_001/revision_3/) | 未开始 | 未开始 | 未完成 |
+| [lesson_001](01_segmentation/lesson_001/) | 已归档 V4，`pending_review` | [第三轮内容已通过，1 项结构待复核](02_segmentation_review/lesson_001/revision_3/) | 未开始 | 未开始 | 未完成 |
 | [lesson_002](01_segmentation/lesson_002/) | `segmentation_completed` | [第一轮修订复核通过](02_segmentation_review/lesson_002/revision_1/) | 未开始 | 未开始 | 未完成 |
 | [lesson_003](01_segmentation/lesson_003/) | `segmentation_completed` | [第一轮结构修订待复核](02_segmentation_review/lesson_003/revision_1/) | 未开始 | 未开始 | 未完成 |
 | [lesson_004](01_segmentation/lesson_004/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
@@ -68,7 +68,7 @@
 
 第 1 课第二轮修订 `v4.1-r002` 已按复核反馈，将第 8 页第 4 题的时间竖式改为直接展示原书裁图。75 项内容中 74 项沿用通过，修订的竖式待复核。4 页完整性已通过，借位示范仍有 1 项结构待确认。[第二份审核提交](02_segmentation_review/lesson_001/submissions/review_002_original.json) · [新版 JSON](02_segmentation_review/lesson_001/revision_2/content.json) · [中文审核](02_segmentation_review/lesson_001/revision_2/review_zh.html) · [哈语审核](02_segmentation_review/lesson_001/revision_2/review_kk.html) · [第二轮修订记录](02_segmentation_review/lesson_001/revision_2/change_log.md)
 
-第 1 课第三轮修订 `v4.1-r003` 把第 8 页第 4 题的时间竖式改为以二维网格为主、原书裁图为对照。75 项内容中 74 项沿用通过，这道竖式待复核。4 页完整性已通过，借位示范仍有 1 项结构待确认。[新版 JSON](02_segmentation_review/lesson_001/revision_3/content.json) · [中文审核](02_segmentation_review/lesson_001/revision_3/review_zh.html) · [哈语审核](02_segmentation_review/lesson_001/revision_3/review_kk.html) · [第三轮修订记录](02_segmentation_review/lesson_001/revision_3/change_log.md)
+第 1 课第三轮修订 `v4.1-r003` 把第 8 页第 4 题的时间竖式改为以二维网格为主、原书裁图为对照。时间竖式已获人工通过。中哈审核页导入本次记录后均显示 75/75 项内容通过、4/4 页完整性通过。借位示范的分组和阅读顺序仍有 1 项结构待确认。[第三份审核提交](02_segmentation_review/lesson_001/submissions/review_003_original.json) · [新版 JSON](02_segmentation_review/lesson_001/revision_3/content.json) · [中文审核](02_segmentation_review/lesson_001/revision_3/review_zh.html) · [哈语审核](02_segmentation_review/lesson_001/revision_3/review_kk.html) · [第三轮修订记录](02_segmentation_review/lesson_001/revision_3/change_log.md)
 
 第 2 课 `3-сыныпта өткенді қайталау` 以 `ЭКСПО-2017` 为情境，覆盖 PDF 和印刷第 11–13 页。第 14 页是第 3 课。保留 9 个 Module、1 个独立教学说明 `ОСЫЛАЙ ТАЛДА!`、6 个 Module Badge、2 幅信息性天平图、24 个公式对象、1 条支持关联和 27 条校对建议，其中 22 条为字符或排版建议，5 条为结构建议。建议人工复核第 4 题的变量字形、第 5 题的天平标注和第 9 题的右边框。子题的原书小写标记与大写索引并存。
 
