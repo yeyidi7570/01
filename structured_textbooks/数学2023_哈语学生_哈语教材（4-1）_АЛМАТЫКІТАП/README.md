@@ -20,7 +20,7 @@
 | Lesson | 切割 | 内容审核 | 主观标签 | 标签审核 | 最终完成 |
 | --- | --- | --- | --- | --- | --- |
 | [lesson_001](01_segmentation/lesson_001/) | 已归档 V4，`pending_review` | [第一轮修订待复核](02_segmentation_review/lesson_001/revision_1/) | 未开始 | 未开始 | 未完成 |
-| [lesson_002](01_segmentation/lesson_002/) | `segmentation_completed` | [第一轮修订待复核](02_segmentation_review/lesson_002/revision_1/) | 未开始 | 未开始 | 未完成 |
+| [lesson_002](01_segmentation/lesson_002/) | `segmentation_completed` | [第一轮修订复核通过](02_segmentation_review/lesson_002/revision_1/) | 未开始 | 未开始 | 未完成 |
 | [lesson_003](01_segmentation/lesson_003/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_004](01_segmentation/lesson_004/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
 | [lesson_005](01_segmentation/lesson_005/) | `segmentation_completed` | `pending_review` | 未开始 | 未开始 | 未完成 |
@@ -70,7 +70,7 @@
 
 第 2 课入口为 [结构化 JSON](01_segmentation/lesson_002/content.json)、[中文连续审核](01_segmentation/lesson_002/review_zh.html) 和 [哈语连续审核](01_segmentation/lesson_002/review_kk.html)。双语页面已通过断网交互及审核记录交叉导入测试。归档提交可查该课路径的 Git 历史。
 
-第 2 课已根据人工审核提交和原图修订第 12 页 Module 3、第 13 页 Module 6 的四个子题标记。第一轮修订 `v4.1-r001` 共 82 个内容审核项，77 项沿用通过，4 处修订和 1 项原先漏审的题干待复核。3 页完整性记录保留。[原始提交](02_segmentation_review/lesson_002/submissions/review_001_original.json) · [新版 JSON](02_segmentation_review/lesson_002/revision_1/content.json) · [中文审核](02_segmentation_review/lesson_002/revision_1/review_zh.html) · [哈语审核](02_segmentation_review/lesson_002/revision_1/review_kk.html) · [修订记录](02_segmentation_review/lesson_002/revision_1/change_log.md)
+第 2 课第一轮修订 `v4.1-r001` 已复核通过。补交的 5 条通过记录覆盖第 12 页 Module 3 和第 13 页 Module 6 修订的四处子题标记，以及第 13 页第 6 题第一小题原先漏审的题干。导入该提交后，双语页面均显示 82 / 82 项内容通过、3 / 3 页完整性通过，待处理结构问题为 0。[复核提交](02_segmentation_review/lesson_002/submissions/review_002_original.json) · [原始提交](02_segmentation_review/lesson_002/submissions/review_001_original.json) · [新版 JSON](02_segmentation_review/lesson_002/revision_1/content.json) · [中文审核](02_segmentation_review/lesson_002/revision_1/review_zh.html) · [哈语审核](02_segmentation_review/lesson_002/revision_1/review_kk.html) · [修订记录](02_segmentation_review/lesson_002/revision_1/change_log.md)
 
 第 3 课 `Көптаңбалы сандар. Сандардың реті` 以 `Қазақстан сандармен` 为情境，覆盖 PDF 和印刷第 14–17 页。第 18 页是第 4 课。保留 10 个 Module、3 条独立教学说明 `ЕСІҢДЕ САҚТА!`、5 个 Module Badge、1 张数位表、2 幅信息图、7 个公式对象、7 条教学关联和 35 条校对建议，其中 33 条为字符或排版建议，2 条为结构建议。
 
