@@ -162,3 +162,23 @@ PDF 一基页码与印刷页码均为 5–8。第 159 页目录列出第 81 课�
 第 91 课保留咸海面积表、骑行作答表、双色运动图线与长方体尺寸图。第 92 课保留四种运动方向的图式和公式，以及编题与填空所需的图。第 93、94 课保留命题真假和否定的教学说明。第 95 课保留用于解题的指南针陈述、欧拉图、图形、星星方位和文件夹标签。
 
 第 94 课第 9 题右侧钱包内三枚较小硬币的面值无法从扫描可靠辨认，保留原图和待核标记。五课均通过静态校验和断网中哈审核测试。
+
+## 第 96–102 课
+
+切割进度为 `segmentation_completed`，内容均为 `pending_review`。PDF 一基页码与印刷页码相同。
+
+| 课次与原书标题 | PDF / 印刷页码 | Module | Instructional Note | 子题 | 表格 | OCR 建议 | 文件 |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | --- |
+| 96 · Логикалық есептер（逻辑题） | 56–58 | 9 | 1 | 5 | 1 | 51 | [JSON](01_segmentation/lesson_096/content.json) · [中文](01_segmentation/lesson_096/review_zh.html) · [哈语](01_segmentation/lesson_096/review_kk.html) |
+| 97 · Логикалық есептер（逻辑题） | 59–62 | 10 | 0 | 10 | 1 | 39 | [JSON](01_segmentation/lesson_097/content.json) · [中文](01_segmentation/lesson_097/review_zh.html) · [哈语](01_segmentation/lesson_097/review_kk.html) |
+| 98 · Логикалық есептер（逻辑题） | 63–65 | 9 | 0 | 6 | 1 | 37 | [JSON](01_segmentation/lesson_098/content.json) · [中文](01_segmentation/lesson_098/review_zh.html) · [哈语](01_segmentation/lesson_098/review_kk.html) |
+| 99 · Логикалық есептер（逻辑题） | 66–68 | 9 | 0 | 8 | 0 | 36 | [JSON](01_segmentation/lesson_099/content.json) · [中文](01_segmentation/lesson_099/review_zh.html) · [哈语](01_segmentation/lesson_099/review_kk.html) |
+| 100 · Таңдап алу тәсілімен шығарылатын комбинаторлық есептер（用枚举法解组合问题） | 69–71 | 9 | 1 | 4 | 1 | 39 | [JSON](01_segmentation/lesson_100/content.json) · [中文](01_segmentation/lesson_100/review_zh.html) · [哈语](01_segmentation/lesson_100/review_kk.html) |
+| 101 · Таңдап алу тәсілімен шығарылатын комбинаторлық есептер（用枚举法解组合问题） | 72–74 | 9 | 1 | 4 | 0 | 34 | [JSON](01_segmentation/lesson_101/content.json) · [中文](01_segmentation/lesson_101/review_zh.html) · [哈语](01_segmentation/lesson_101/review_kk.html) |
+| 102 · Таңдап алу тәсілімен шығарылатын комбинаторлық есептер（用枚举法解组合问题） | 75–77 | 11 | 0 | 3 | 0 | 32 | [JSON](01_segmentation/lesson_102/content.json) · [中文](01_segmentation/lesson_102/review_zh.html) · [哈语](01_segmentation/lesson_102/review_kk.html) |
+
+第 96–99 课保留立方体展开图、彩色方格的位置、平面几何、重叠图形与量尺题的原书裁图。图形的印刷尺寸以原书为准。被遮挡的小立方体数量需结合原图判断。第 100 课的 4А、4Ә 各有原印标签，归在同一第 4 题下，枚举树保留三层空白节点。
+
+请复核第 100 课第 8 题的同花条件、第 101 课第 5 题图线的 B 点读数，以及第 102 课第 4 题能否重复选鱼、第 9 题密码插图的数字限制。原书题干均已保留。
+
+本批各课均通过静态校验和断网中哈审核测试。
