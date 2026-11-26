@@ -143,6 +143,6 @@ PDF 一基页码与印刷页码均为 5–8。第 159 页目录列出第 81 课�
 
 ### 第 84 课第一轮审核修订 2
 
-第 16 页 3Ә 的图线说明补全横轴时刻、网格单位与折线经过的七个点。原始 JSON 中的 76 条记录按原字节归档。新版保留 72 项有效通过，含 3Б → 3Ә 图线的材料关联。唯一待复核项是更新后的 3Ә 图线说明。
+第 16 页 3Ә 的图线说明补全横轴时刻、网格单位与折线经过的七个点。原始 JSON 中的 76 条记录按原字节归档。新版保留 72 项有效通过，含 3Б → 3Ә 图线的材料关联。用户随后确认 3Ә 图线说明通过，第一轮审核共 73 项通过。
 
-[修订 JSON](02_segmentation_review/lesson_084/revision_2/content.json) · [新版中文审核页](02_segmentation_review/lesson_084/revision_2/review_zh.html) · [新版哈语审核页](02_segmentation_review/lesson_084/revision_2/review_kk.html) · [修订日志](02_segmentation_review/lesson_084/revision_2/change_log.md) · [原始审核记录](02_segmentation_review/lesson_084/submissions/review_001_original.json)
+[修订 JSON](02_segmentation_review/lesson_084/revision_2/content.json) · [新版中文审核页](02_segmentation_review/lesson_084/revision_2/review_zh.html) · [新版哈语审核页](02_segmentation_review/lesson_084/revision_2/review_kk.html) · [修订日志](02_segmentation_review/lesson_084/revision_2/change_log.md) · [原始审核记录](02_segmentation_review/lesson_084/submissions/review_001_original.json) · [聊天确认](02_segmentation_review/lesson_084/submissions/review_002_chat.json)

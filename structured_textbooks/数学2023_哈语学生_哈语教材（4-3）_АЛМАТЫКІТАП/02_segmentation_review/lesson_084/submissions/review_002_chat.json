@@ -1,0 +1,252 @@
+{
+  "schema_version": "textbook-review/4.0",
+  "textbook_id": "math-2023-grade4-part3",
+  "lesson_id": "math-2023-grade4-part3:lesson-084",
+  "data_version": "2026-11-26-revision-2",
+  "records": [
+    {
+      "schema_version": "textbook-review/4.0",
+      "textbook_id": "math-2023-grade4-part3",
+      "lesson_id": "math-2023-grade4-part3:lesson-084",
+      "data_version": "2026-11-26-revision-2",
+      "record_id": "dea7481e-b847-40a3-8e2c-86b246d903fe",
+      "reviewer_stream_id": "3a21aa37-3943-4607-a138-f83a40c36b31",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part3:lesson-084:m03:sub-Ә:route-graph",
+      "object_type": "informative_image",
+      "pdf_page": 16,
+      "source_locations": [
+        {
+          "pdf_page": 16,
+          "printed_page": "16",
+          "bbox": [
+            194,
+            663,
+            871,
+            1049
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p016:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "type": "informative_image",
+        "parent_id": "math-2023-grade4-part3:lesson-084:m03:sub-Ә",
+        "structured_description": {
+          "description_kk": "Көлденең t осі уақытты (сағ/мин) көрсетеді. Белгіленген уақыттар: 8:00, 8:30, 9:00, 9:30, 10:00, 10:30, 11:00. Баспада минуттар жоғарғы индекспен берілген, тордың бір кіші бөлігі — 10 минут. Тік S осі жүрген жолды (км) көрсетеді: 0-ден 100 км-ге дейін әр 10 км белгіленген, тордың бір кіші бөлігі — 5 км.\nКүлгін сынық сызық (8:00; 0 км), (8:30; 30 км), (8:40; 30 км), (9:10; 60 км), (9:20; 60 км), (10:20; 100 км), (10:30; 100 км) нүктелерін ретімен қосады. 11:00 осьте белгіленген, ал сызық 10:30-да аяқталады. Сол жақта 0 км-де ферма, 30 км-де бидай егістігі, 60 км-де базар, 100 км-де картоп егілген жер көрсетілген.",
+          "relations": [
+            {
+              "kind": "coordinate_graph",
+              "x_label": "t",
+              "x_unit_kk": "сағ/мин",
+              "x_ticks": [
+                "8:00",
+                "8:30",
+                "9:00",
+                "9:30",
+                "10:00",
+                "10:30",
+                "11:00"
+              ],
+              "y_label": "S",
+              "y_unit_kk": "км",
+              "y_ticks": [
+                0,
+                10,
+                20,
+                30,
+                40,
+                50,
+                60,
+                70,
+                80,
+                90,
+                100
+              ],
+              "vertices": [
+                [
+                  "8:00",
+                  0
+                ],
+                [
+                  "8:30",
+                  30
+                ],
+                [
+                  "8:40",
+                  30
+                ],
+                [
+                  "9:10",
+                  60
+                ],
+                [
+                  "9:20",
+                  60
+                ],
+                [
+                  "10:20",
+                  100
+                ],
+                [
+                  "10:30",
+                  100
+                ]
+              ],
+              "x_label_printed_style": "superscript_minutes",
+              "landmarks": [
+                {
+                  "distance": 0,
+                  "label_kk": "Ферма"
+                },
+                {
+                  "distance": 30,
+                  "label_kk": "Бидай егістігі"
+                },
+                {
+                  "distance": 60,
+                  "label_kk": "Базар"
+                },
+                {
+                  "distance": 100,
+                  "label_kk": "Картоп егілген жер"
+                }
+              ],
+              "x_grid_step_minutes": 10,
+              "y_grid_step_km": 5,
+              "line_color": "purple"
+            }
+          ]
+        },
+        "ocr_evidence": [
+          {
+            "line_id": "24",
+            "wiki_line_id": "math-2023-grade4-part3:p016:l24",
+            "raw": "S (kM)",
+            "existing_corrected": "S (км)"
+          },
+          {
+            "line_id": "25",
+            "wiki_line_id": "math-2023-grade4-part3:p016:l25",
+            "raw": "Картоп",
+            "existing_corrected": "Картоп"
+          },
+          {
+            "line_id": "26",
+            "wiki_line_id": "math-2023-grade4-part3:p016:l26",
+            "raw": "егилген жер",
+            "existing_corrected": "егілген жер"
+          },
+          {
+            "line_id": "27",
+            "wiki_line_id": "math-2023-grade4-part3:p016:l27",
+            "raw": "100",
+            "existing_corrected": "100"
+          },
+          {
+            "line_id": "28",
+            "wiki_line_id": "math-2023-grade4-part3:p016:l28",
+            "raw": "90",
+            "existing_corrected": "90"
+          },
+          {
+            "line_id": "29",
+            "wiki_line_id": "math-2023-grade4-part3:p016:l29",
+            "raw": "80",
+            "existing_corrected": "80"
+          },
+          {
+            "line_id": "30",
+            "wiki_line_id": "math-2023-grade4-part3:p016:l30",
+            "raw": "Базар",
+            "existing_corrected": "Базар"
+          },
+          {
+            "line_id": "31",
+            "wiki_line_id": "math-2023-grade4-part3:p016:l31",
+            "raw": "70",
+            "existing_corrected": "70"
+          },
+          {
+            "line_id": "32",
+            "wiki_line_id": "math-2023-grade4-part3:p016:l32",
+            "raw": "60",
+            "existing_corrected": "60"
+          },
+          {
+            "line_id": "33",
+            "wiki_line_id": "math-2023-grade4-part3:p016:l33",
+            "raw": "50",
+            "existing_corrected": "50"
+          },
+          {
+            "line_id": "34",
+            "wiki_line_id": "math-2023-grade4-part3:p016:l34",
+            "raw": "40",
+            "existing_corrected": "40"
+          },
+          {
+            "line_id": "35",
+            "wiki_line_id": "math-2023-grade4-part3:p016:l35",
+            "raw": "Бидай",
+            "existing_corrected": "Бидай"
+          },
+          {
+            "line_id": "36",
+            "wiki_line_id": "math-2023-grade4-part3:p016:l36",
+            "raw": "erictirri",
+            "existing_corrected": "егістігі"
+          },
+          {
+            "line_id": "37",
+            "wiki_line_id": "math-2023-grade4-part3:p016:l37",
+            "raw": "30",
+            "existing_corrected": "30"
+          },
+          {
+            "line_id": "38",
+            "wiki_line_id": "math-2023-grade4-part3:p016:l38",
+            "raw": "20",
+            "existing_corrected": "20"
+          },
+          {
+            "line_id": "39",
+            "wiki_line_id": "math-2023-grade4-part3:p016:l39",
+            "raw": "10",
+            "existing_corrected": "10"
+          },
+          {
+            "line_id": "40",
+            "wiki_line_id": "math-2023-grade4-part3:p016:l40",
+            "raw": "Ферма",
+            "existing_corrected": "Ферма"
+          },
+          {
+            "line_id": "42",
+            "wiki_line_id": "math-2023-grade4-part3:p016:l42",
+            "raw": "0",
+            "existing_corrected": "0"
+          },
+          {
+            "line_id": "43",
+            "wiki_line_id": "math-2023-grade4-part3:p016:l43",
+            "raw": "800 830 90 930 100 1030 110 t (сағ/мин)",
+            "existing_corrected": "8⁰⁰ 8³⁰ 9⁰⁰ 9³⁰ 10⁰⁰ 10³⁰ 11⁰⁰ t (сағ/мин)"
+          }
+        ]
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-26T05:12:18.158Z",
+      "supersedes": [],
+      "provenance": {
+        "source": "user_chat",
+        "quote": "通过"
+      }
+    }
+  ]
+}
