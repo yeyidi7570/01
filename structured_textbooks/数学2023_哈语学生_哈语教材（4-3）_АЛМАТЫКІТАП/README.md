@@ -108,3 +108,29 @@ PDF 一基页码与印刷页码均为 5–8。第 159 页目录列出第 81 课�
 第 10 题新版以完整段落显示，六个分数在句中显示为上下式。逐项审核和原图定位保留。原始 88 条记录按字节归档，继承 83 项有效通过。第 1 题继续保留「无法判断」记录。
 
 [修订 JSON](02_segmentation_review/lesson_083/revision_1/content.json) · [新版中文审核页](02_segmentation_review/lesson_083/revision_1/review_zh.html) · [新版哈语审核页](02_segmentation_review/lesson_083/revision_1/review_kk.html) · [修订日志](02_segmentation_review/lesson_083/revision_1/change_log.md) · [原始审核记录](02_segmentation_review/lesson_083/submissions/review_001_original.json)
+
+## 第 84–90 课
+
+切割进度为 `segmentation_completed`，七课的内容均为 `pending_review`。PDF 一基页码与印刷页码相同。第 159 页目录、各课课号与续页页眉、题号和相邻页共同确定页界，第 91 课从第 39 页开始。
+
+| 课次与原书标题 | PDF / 印刷页码 | Module | Instructional Note | 子题 | 表格 | OCR 建议 | 文件 |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | --- |
+| 84 · Графиктер（图线） | 15–18 | 9 | 1 | 7 | 2 | 35 | [JSON](01_segmentation/lesson_084/content.json) · [中文](01_segmentation/lesson_084/review_zh.html) · [哈语](01_segmentation/lesson_084/review_kk.html) |
+| 85 · Есеп шығару（解应用题） | 19–21 | 10 | 0 | 2 | 4 | 38 | [JSON](01_segmentation/lesson_085/content.json) · [中文](01_segmentation/lesson_085/review_zh.html) · [哈语](01_segmentation/lesson_085/review_kk.html) |
+| 86 · Бір бағыттағы қуып жету қозғалысы（同向追及运动） | 22–24 | 9 | 1 | 2 | 4 | 52 | [JSON](01_segmentation/lesson_086/content.json) · [中文](01_segmentation/lesson_086/review_zh.html) · [哈语](01_segmentation/lesson_086/review_kk.html) |
+| 87 · Бір бағыттағы қуып жету қозғалысы（同向追及运动） | 25–28 | 9 | 1 | 4 | 1 | 69 | [JSON](01_segmentation/lesson_087/content.json) · [中文](01_segmentation/lesson_087/review_zh.html) · [哈语](01_segmentation/lesson_087/review_kk.html) |
+| 88 · Бір бағыттағы қуып жету қозғалысына берілген есептер. Қозғалыс графиктері（同向追及问题与运动图线） | 29–31 | 9 | 0 | 0 | 1 | 29 | [JSON](01_segmentation/lesson_088/content.json) · [中文](01_segmentation/lesson_088/review_zh.html) · [哈语](01_segmentation/lesson_088/review_kk.html) |
+| 89 · Бір бағыттағы қалып қою қозғалысы（同向拉开距离的运动） | 32–34 | 9 | 1 | 0 | 1 | 36 | [JSON](01_segmentation/lesson_089/content.json) · [中文](01_segmentation/lesson_089/review_zh.html) · [哈语](01_segmentation/lesson_089/review_kk.html) |
+| 90 · Бір бағыттағы қалып қою қозғалысы（同向拉开距离的运动） | 35–38 | 10 | 0 | 3 | 0 | 35 | [JSON](01_segmentation/lesson_090/content.json) · [中文](01_segmentation/lesson_090/review_zh.html) · [哈语](01_segmentation/lesson_090/review_kk.html) |
+
+### 结构与人工抽查
+
+- 第 84 课把原印的 3А、3Ә、3Б 保留为同一 Module 的三个子题，图线的原印辅助线和表格作答空位可分别核查。第 16 页照录“84-сурет”，请核对是否有勘误。第 4 题中文参考译为“按原价的三分之一降价”，请复核折扣语义。第 18 页页末提示暂列 Other，作用范围待核。
+- 第 85 课第 3 题的二分之一保留在完整题干中，中文与哈语审核页使用上下式。第 5、6 题之间有原文明示的引用，图线标注和空白表格可对照原书。
+- 第 86 课保留追及速度公式的下标、第 1 题用于读图的示意图和原印作答空格。第 87 课保留互逆题的示意图、第 4 题明确引用的子题、第 26 页的列方程步骤和河流数据表。
+- 第 88 课保留第 2 题三幅图的箭头与旗标位置、第 3–4 题图中方向，以及第 5 题运动图线的颜色、折点和重合段。第 89 课第 1 题的三组速度只见于图中，保留其原印标签。第 2 题数轴保留细刻度、起点和弧线。
+- 第 90 课第 2 题引用第 1 题，并明确引用第 26 页第 87 课的规则。跨课引用保存了印刷原文、页码和目标 ID。现行 Teaching Link 端点仅限本课，请复核跨课定位。第 8 题保留行人与滑雪者的图线折点及停留段。
+
+保留理解题意及作答所需的图，装饰、情境和仅重复题干的配图留在原扫描中。图线和运动示意保留裁图、结构化关系与坐标，由现有审核页显示。原始来源沿用仓库扫描、Wiki 与 OCR 文件。
+
+七课均通过静态检查和断网 Chromium 双语审核测试。浏览器通过本地请求拦截载入同一 HTML，期间无外部请求。
