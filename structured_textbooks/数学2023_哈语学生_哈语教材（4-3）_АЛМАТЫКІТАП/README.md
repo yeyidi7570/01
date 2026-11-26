@@ -207,3 +207,23 @@ PDF 一基页码与印刷页码均为 5–8。第 159 页目录列出第 81 课�
 现有公式 Schema 能重建第 104 课第 6 题的除法竖式，暂不能完整重建同一题两个含多行部分积的乘法竖式。两式保留原印裁图、部分积行及其数位偏移，待人工复核。第 106 课的字母分式 `m/n` 保留上下式原裁图及分子、分母字段，当前原生分数只接受整数。
 
 本批各课均通过静态校验和断网中哈审核测试。
+
+## 第 109–114 课
+
+切割进度为 `segmentation_completed`，内容均为 `pending_review`。PDF 一基页码与印刷页码相同。
+
+| 课次与原书标题 | PDF / 印刷页码 | Module | Instructional Note | 子题 | 表格 | OCR 建议 | 文件 |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | --- |
+| 109 · Бөлшектер. Бөлшектерді салыстыру（分数与分数比较） | 96–99 | 12 | 2 | 10 | 1 | 67 | [JSON](01_segmentation/lesson_109/content.json) · [中文](01_segmentation/lesson_109/review_zh.html) · [哈语](01_segmentation/lesson_109/review_kk.html) |
+| 110 · Бөлшектерді қосу және азайту（分数的加法和减法） | 100–102 | 10 | 2 | 5 | 1 | 84 | [JSON](01_segmentation/lesson_110/content.json) · [中文](01_segmentation/lesson_110/review_zh.html) · [哈语](01_segmentation/lesson_110/review_kk.html) |
+| 111 · Бөлшектерді қосу және азайту（分数的加法和减法） | 103–105 | 9 | 0 | 8 | 0 | 72 | [JSON](01_segmentation/lesson_111/content.json) · [中文](01_segmentation/lesson_111/review_zh.html) · [哈语](01_segmentation/lesson_111/review_kk.html) |
+| 112 · Дұрыс және бұрыс бөлшектер（真分数与假分数） | 106–109 | 10 | 1 | 13 | 0 | 63 | [JSON](01_segmentation/lesson_112/content.json) · [中文](01_segmentation/lesson_112/review_zh.html) · [哈语](01_segmentation/lesson_112/review_kk.html) |
+| 113 · Бөлшектер. Аралас сандар（分数与带分数） | 110–112 | 9 | 2 | 11 | 0 | 69 | [JSON](01_segmentation/lesson_113/content.json) · [中文](01_segmentation/lesson_113/review_zh.html) · [哈语](01_segmentation/lesson_113/review_kk.html) |
+| 114 · Бөлшектер. Пысықтау（分数复习） | 113–115 | 10 | 0 | 4 | 1 | 80 | [JSON](01_segmentation/lesson_114/content.json) · [中文](01_segmentation/lesson_114/review_zh.html) · [哈语](01_segmentation/lesson_114/review_kk.html) |
+
+- 第 109、111、112 课保留依赖前一子题的材料关联。第 111 课 6А 在第 104 页，6Ә 在第 105 页，归属同一 Module。
+- 第 110 课的字母分数保留分子、分母和原图，现有原生上下式只校验整数分子与分母。
+- 第 113 课第 4 题照录分数部分为三分之四的原印带分数结构，请核对原书是否有勘误。
+- 第 114 课 5Ә 的行程距离与地名对应关系待核。第 7 题逐月降水量按网格估读，保留原图供比对。
+
+本批各课均通过静态校验和断网中哈审核测试。
