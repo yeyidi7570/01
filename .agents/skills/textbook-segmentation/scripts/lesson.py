@@ -167,6 +167,7 @@ def validate_content(data, *, allow_legacy_material_links=False):
     pages = {p['pdf_page']:p for p in data['pages']}
     ids = {}
     unit_owners = {}
+    subtask_owners = {}
     scans = set()
     require(pages and list(pages) == sorted(pages) and len(pages) == len(data['pages'])
             and all(integer(p) and p > 0 for p in pages), 'invalid or duplicate PDF pages')
@@ -198,7 +199,7 @@ def validate_content(data, *, allow_legacy_material_links=False):
     for ref in data.get('crop_assets',{}).values():
         location(ref)
 
-    def visit(items, order, parent, owner=None):
+    def visit(items, order, parent, owner=None, subtask=None):
         require(order == [o['id'] for o in items], f'content_order mismatch for {parent}')
         for o in items:
             register(o)
@@ -207,7 +208,9 @@ def validate_content(data, *, allow_legacy_material_links=False):
                 location(ref)
             kind = o['type']
             item_owner = o['id'] if kind in ('module', 'instructional_note') else owner
+            item_subtask = o['id'] if kind == 'subtask' else subtask
             unit_owners[o['id']] = item_owner
+            subtask_owners[o['id']] = item_subtask
             if kind == 'instructional_note':
                 require(parent==lesson['id'] and o['instructional_note_badge'] in note_badges, f'invalid Note: {o["id"]}')
             if kind == 'module_badge' and o.get('badge_origin')=='lesson_inherited':
@@ -274,7 +277,7 @@ def validate_content(data, *, allow_legacy_material_links=False):
                 require(len(occupied)==o['row_count'] * o['column_count'], f'cells do not cover grid: {o["id"]}')
             if kind == 'table' and 'cells' not in o:
                 require(o.get('crop_asset_id') and o.get('review_flags'), f'unresolved table needs a crop and review flag: {o["id"]}')
-            visit(o.get('elements',[]),o.get('content_order',[]),o['id'],item_owner)
+            visit(o.get('elements',[]),o.get('content_order',[]),o['id'],item_owner,item_subtask)
 
     visit(lesson['units'],lesson['content_order'],lesson['id'])
     for link in lesson['teaching_links']:
@@ -290,8 +293,11 @@ def validate_content(data, *, allow_legacy_material_links=False):
         require((relationship == 'supports' and (origin_kind, target_kind) == ('instructional_note', 'module'))
                 or (relationship == 'uses_as_material' and origin_kind == 'module'),
                 f'invalid teaching link direction ({relationship}): {link["id"]}: {origin} -> {target}')
-        require(allow_legacy_material_links or relationship != 'uses_as_material' or origin_owner != target_owner,
-                f'uses_as_material must cross Module boundaries: {link["id"]}: {origin} -> {target}')
+        origin_subtask, target_subtask = subtask_owners[origin], subtask_owners[target]
+        crosses_subtasks = origin_subtask and target_subtask and origin_subtask != target_subtask
+        require(allow_legacy_material_links or relationship != 'uses_as_material'
+                or origin_owner != target_owner or crosses_subtasks,
+                f'uses_as_material must cross Module or Subtask boundaries: {link["id"]}: {origin} -> {target}')
         for ref in link['page_refs']:
             location(ref)
         register(link)
@@ -598,7 +604,7 @@ def main():
     c.add_argument('--lesson-dir',type=Path,required=True)
     c.add_argument('--allow-legacy-review',action='store_true')
     c.add_argument('--allow-legacy-material-links',action='store_true',
-                   help='inspect an archived package that predates the cross-Module material rule')
+                   help='inspect an archived package with material links inside a single task scope')
     d=sub.add_parser('compare',help='list stable, changed, removed and added IDs; no migration')
     d.add_argument('--old',type=Path,required=True)
     d.add_argument('--new',type=Path,required=True)

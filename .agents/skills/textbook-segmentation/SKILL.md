@@ -19,7 +19,7 @@ description: 对指定教材的单课、课次范围或整册逐课执行原书�
 2. **确定复用或重跑。** 按 [脚本接口](references/tools.md) 运行 `scripts/lesson.py plan`。按课号排序，一次完成一课再进入下一课。有效的既有数据直接复用。仅更新界面时使用 `scripts/lesson.py refresh-review` 检查两种语言是否已是最新版。过时的页面在暂存目录生成并验证，归档时只替换两个 HTML。缺文件先查可复用来源；遇到身份或版本冲突，按 [重跑与归档](references/publish.md) 暂存候选版并处理。显式 `rerun` 也须保护反馈。
 3. **视觉核对和结构化。** 优先把现有 OCR 与原图对齐；只为缺失或不可靠的区域补识别。保留 Lesson、Module、独立 Instructional Note、子题、Badge、元素阅读顺序、跨页、页坐标、教学证据和不确定项。按 [内容规则](references/content.md) 在临时目录生成或复用统一的待审核 JSON，并单独准备对应的中文辅助翻译。检查图、表和公式的二维结构。
    逐张结合题干或独立教学说明判断图片的必要性。省略后仍可理解并完成任务、教学说明也无信息损失的配图留在原扫描中，结构化 JSON 无需图对象、裁图或情境描述。
-   教学关联中的 `uses_as_material` 仅用于任务明确引用所属 Module 之外的材料。同一 Module 内的元素和子题由父子结构保留。`supports` 仍表示独立说明提供知识或方法。
+   教学关联中的 `uses_as_material` 用于明确引用其他 Module 或独立材料，也用于同一 Module 内一个子题明确引用另一个子题中作答所必需的材料。题目与自身材料的归属由父子结构保留。`supports` 仍表示独立说明提供知识或方法。
 4. **生成离线审核页。** 新切割通过 `scripts/lesson.py render` 默认使用新版逐元素审核模板。书级历史生成器用于复现历史产物。两个语言版由同一数据、资源和逻辑生成。按 [双语审核](references/review.md) 检查翻译、卡片、审核状态与导入导出。
 5. **验证和归档。** 运行 `scripts/lesson.py check`，对照原图人工走查，并实际用断网浏览器测试两个语言版本。仅将通过检查的 `content.json`、`review_zh.html`、`review_kk.html` 放入 `structured_textbooks/<完整教材名称>/01_segmentation/lesson_XXX/`。若为人工反馈修订，将提交原件和新版本放入第二阶段。填写该书 README 的真实进度。按 [重跑与归档](references/publish.md) 提交、非强推推送并验证 GitHub 上的提交及文件。推送受阻则区分本地完成和远程交付，报告具体情况。
 6. **逐课报告。** 给出真实课号、标题、PDF 与印刷页、Module/Note/OCR 建议数量、主要疑点、三个远程路径、Commit SHA、分支和推送结果。范围任务汇总真实完成与剩余课次。切割完成状态与人工验收状态分别记录。

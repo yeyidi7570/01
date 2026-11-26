@@ -1,4 +1,4 @@
-"""Regression tests for Teaching Link direction and Module ownership."""
+"""Regression tests for Teaching Link direction and task scope."""
 
 import json
 import unittest
@@ -17,11 +17,12 @@ class TeachingLinkDirectionTests(unittest.TestCase):
         ).read_bytes())
 
     def test_archived_relationships(self):
+        validate_content(self.read_lesson(3))
         validate_content(self.read_lesson(12))
 
     def test_archived_same_module_links_require_compatibility_option(self):
-        data = self.read_lesson(3)
-        with self.assertRaisesRegex(ValueError, 'uses_as_material must cross Module boundaries'):
+        data = self.read_lesson(81)
+        with self.assertRaisesRegex(ValueError, 'uses_as_material must cross Module or Subtask boundaries'):
             validate_content(data)
         validate_content(data, allow_legacy_material_links=True)
 
@@ -36,22 +37,41 @@ class TeachingLinkDirectionTests(unittest.TestCase):
             ):
                 validate_content(data)
 
-    def test_material_within_same_module_is_rejected_at_any_depth(self):
+    def test_material_within_same_task_scope_is_rejected_at_any_depth(self):
         data = self.read_lesson(12)
         link = data['lesson']['teaching_links'][0]
         prefix = data['lesson']['id']
         scenarios = (
             ('m01', 'm01:formula-1'),
             ('m01:formula-1', 'm01'),
-            ('m02:part-a', 'm02:part-ae'),
+            ('m02', 'm02:part-a'),
+            ('m02:part-a', 'm02'),
             ('m03', 'm03:area-chart'),
             ('m03:prompt', 'm03:countries-left'),
         )
         for origin, target in scenarios:
             with self.subTest(origin=origin, target=target), self.assertRaisesRegex(
-                ValueError, 'uses_as_material must cross Module boundaries'
+                ValueError, 'uses_as_material must cross Module or Subtask boundaries'
             ):
                 link.update(from_id=f'{prefix}:{origin}', to_id=f'{prefix}:{target}')
+                validate_content(data)
+
+    def test_material_can_cross_subtasks_of_one_module(self):
+        data = self.read_lesson(84)
+        link = data['lesson']['teaching_links'][0]
+        link['relationship'] = 'uses_as_material'
+        prefix = f'{data["lesson"]["id"]}:m03'
+        graph = f'{prefix}:sub-Ә:route-graph'
+        link['to_id'] = graph
+        for origin in ('sub-Б', 'sub-Б:prompt'):
+            with self.subTest(origin=origin):
+                link['from_id'] = f'{prefix}:{origin}'
+                validate_content(data)
+        for origin in ('sub-Ә', 'sub-Ә:prompt'):
+            with self.subTest(origin=origin), self.assertRaisesRegex(
+                ValueError, 'uses_as_material must cross Module or Subtask boundaries'
+            ):
+                link['from_id'] = f'{prefix}:{origin}'
                 validate_content(data)
 
     def test_material_outside_module_is_permitted(self):

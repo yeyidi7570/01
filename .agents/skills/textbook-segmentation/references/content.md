@@ -41,8 +41,8 @@ Book → Lesson → Module / Instructional Note / Other。对象保留唯一且�
 | 关系 | `from_id` | `to_id` | 书面证据 |
 | --- | --- | --- | --- |
 | `supports` | 提供方法或知识的 Instructional Note 或其内容 | 受支持的 Module 或其内容 | 说明给出适用于该题的方法或概念。例如 Lesson 003 第 15 页，说明给出从高位比较多位数的方法，Module 2 要求比较数字。 |
-| `uses_as_material` | 使用材料的 Module 或其内容 | 所属 Module 之外的明确材料，例如另一 Module、独立 Instructional Note 或它们的内容 | 题目明确引用该材料，且可从题目和原图定位。例如 Lesson 012 的 Module 2 引用了独立 Instructional Note 中的换算材料。 |
+| `uses_as_material` | 使用材料的 Module、Subtask 或其内容 | 其他 Module、独立材料或同一 Module 内另一 Subtask 的材料 | 题目明确引用该材料，且可从题目和原图定位。例如 Lesson 012 的 Module 2 引用独立说明的换算材料。第三册第 84 课 3Б 要读取 3Ә 的图线来填表。 |
 
-按端点沿父子结构所属的 Module ID 判断边界。同一 Module 内的 Informative Image、Table、Formula、Text 或其他元素通过父子结构表达包含关系。即使题目写明“看图”，或一个子题引用同一 Module 的另一个子题中的材料，也不建立 `uses_as_material`。材料关系允许跨到另一个 Module 或没有 Module 归属的独立材料。
+沿父子结构找出端点所属的 Module 和最近的 Subtask。同一 Module 内的材料引用要求两个端点都属于 Subtask，且所属 Subtask 不同。只有原文指向另一子题、且需要该材料才能完成任务时，才建立这类引用，目标定位到所用的图、表或其他实际材料。Module 和同题内的元素、Subtask 和自身元素之间的包含关系由父子结构保留。
 
-依据原图核对语义，记录两个端点的来源位置、关系理由和不确定性，允许多对多。单凭位置相邻无法建立关系。校验程序检查端点类型、自连、方向和材料引用是否跨越 Module 边界。跨边界的实际引用仍需原书证据。`supports` 继续核对独立说明对任务的知识或方法支持，独立 Instructional Note 保持视觉和数据的同级关系。
+依据原图核对语义，记录两个端点的来源位置、关系理由和不确定性，允许多对多。单凭位置相邻无法建立关系。校验程序检查端点类型、自连、方向和材料引用是否跨越 Module 或 Subtask 边界。跨边界的实际引用仍需原书证据。`supports` 继续核对独立说明对任务的知识或方法支持，独立 Instructional Note 保持视觉和数据的同级关系。

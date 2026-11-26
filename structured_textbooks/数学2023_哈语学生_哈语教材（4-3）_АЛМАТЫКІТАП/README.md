@@ -134,3 +134,9 @@ PDF 一基页码与印刷页码均为 5–8。第 159 页目录列出第 81 课�
 保留理解题意及作答所需的图，装饰、情境和仅重复题干的配图留在原扫描中。图线和运动示意保留裁图、结构化关系与坐标，由现有审核页显示。原始来源沿用仓库扫描、Wiki 与 OCR 文件。
 
 七课均通过静态检查和断网 Chromium 双语审核测试。浏览器通过本地请求拦截载入同一 HTML，期间无外部请求。
+
+### 第 84 课第一轮审核修订 1
+
+第 16 页 3Б 明确要求读取 3Ә 的运动图线来填表，新增 3Б → 3Ә 图线的 `uses_as_material`。初版 118 个对象均为等同对象，旧版审核记录可导入。新增关联待审核。
+
+[修订 JSON](02_segmentation_review/lesson_084/revision_1/content.json) · [新版中文审核页](02_segmentation_review/lesson_084/revision_1/review_zh.html) · [新版哈语审核页](02_segmentation_review/lesson_084/revision_1/review_kk.html) · [修订日志与历史盘点](02_segmentation_review/lesson_084/revision_1/change_log.md)
