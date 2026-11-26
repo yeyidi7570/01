@@ -1,0 +1,4193 @@
+{
+  "data_version": "2026-11-26-initial-1",
+  "review_status": "pending_review",
+  "book": {
+    "id": "math-2023-grade4-part3",
+    "title_kk": "Математика",
+    "grade": 4,
+    "part": 3,
+    "year": 2023,
+    "language": "kk-Cyrl",
+    "publisher_kk": "АЛМАТЫКІТАП БАСПАСЫ",
+    "authors_kk": [
+      "Ә. Б. Ақпаева",
+      "Л. А. Лебедева",
+      "М. Ж. Мыңжасарова",
+      "Т. В. Лихобабенко"
+    ]
+  },
+  "source": {
+    "repository": "yeyidi7570/01",
+    "revision": "3453a6a63fe5decd3f2f70165e1c61fb03444011",
+    "original_pdf": {
+      "path": "wiki-data/数学2023_哈语学生_哈语教材（4-3）_АЛМАТЫКІТАП_数据/来源/数学2023_哈语学生_哈语教材（4-3）_АЛМАТЫКІТАП.pdf",
+      "sha256": "165506586345570c1b7bcae02815f281965ef8ed98439529c10cb81065267e60",
+      "page_count": 160
+    },
+    "corrected_pdf": {
+      "path": "数学2023_哈语学生_哈语教材（4-3）_АЛМАТЫКІТАП_OCR.pdf",
+      "sha256": "139f2446fda8740f606455b8eb68b924b18088a036ecd5f35113697d6aa5d4ab",
+      "page_count": 160
+    },
+    "wiki_path": "wiki-data/数学2023_哈语学生_哈语教材（4-3）_АЛМАТЫКІТАП_数据/数学2023_哈语学生_哈语教材（4-3）_АЛМАТЫКІТАП_Wiki.json",
+    "raw_ocr_path": "wiki-data/数学2023_哈语学生_哈语教材（4-3）_АЛМАТЫКІТАП_数据/数学2023_哈语学生_哈语教材（4-3）_АЛМАТЫКІТАП_原始OCR.json",
+    "final_proofread_path": "wiki-data/数学2023_哈语学生_哈语教材（4-3）_АЛМАТЫКІТАП_数据/数学2023_哈语学生_哈语教材（4-3）_АЛМАТЫКІТАП_最终校对.json",
+    "layout_path": "wiki-data/数学2023_哈语学生_哈语教材（4-3）_АЛМАТЫКІТАП_数据/数学2023_哈语学生_哈语教材（4-3）_АЛМАТЫКІТАП_版面分析.json",
+    "content_authority": "original_scan",
+    "transcription_method": "scan_checked_with_existing_ocr_as_evidence"
+  },
+  "coordinate_system": {
+    "origin": "top-left",
+    "axes": "x-right,y-down",
+    "bbox_format": "[x0,y0,x1,y1]",
+    "unit": "source_page_image_pixel",
+    "pdf_unit": "point (1/72 inch)",
+    "conversion": "pdf_x = image_x * pdf_width_pt / image_width; similarly for y"
+  },
+  "schema_rules": {
+    "instructional_note_badges": [
+      "ЕСІҢДЕ САҚТА!",
+      "ОСЫЛАЙ ТАЛДА!",
+      "КАЛЬКУЛЯТОР"
+    ],
+    "teaching_link_types": [
+      "supports",
+      "uses_as_material"
+    ]
+  },
+  "lesson": {
+    "id": "math-2023-grade4-part3:lesson-121",
+    "number": 121,
+    "title_kk": "Өзіңді тексер",
+    "theme_kk": "Өсімдіктер мен жануарларды қорғау",
+    "review_status": "pending_review",
+    "pdf_page_range": [
+      134,
+      135
+    ],
+    "printed_page_range": [
+      "134",
+      "135"
+    ],
+    "boundary_evidence": {
+      "contents": {
+        "pdf_page": 159,
+        "printed_page": "159",
+        "lesson_start": 134,
+        "next_lesson_start": 136
+      },
+      "previous_lesson_end": {
+        "pdf_page": 133,
+        "number": 120,
+        "last_module_number": 10
+      },
+      "start_heading": {
+        "pdf_page": 134,
+        "number": 121,
+        "title_kk": "Өзіңді тексер",
+        "context_kk": "Өсімдіктер мен жануарларды қорғау"
+      },
+      "continuation_headers": [
+        {
+          "pdf_page": 135,
+          "number": 121
+        }
+      ],
+      "next_lesson": {
+        "pdf_page": 136,
+        "number": 122,
+        "title_kk": "Қорытындылау"
+      },
+      "end_of_lesson": {
+        "pdf_page": 135,
+        "module_number": 5
+      }
+    },
+    "units": [
+      {
+        "id": "math-2023-grade4-part3:lesson-121:header",
+        "parent_id": "math-2023-grade4-part3:lesson-121",
+        "type": "other",
+        "review_status": "pending_review",
+        "page_refs": [
+          {
+            "pdf_page": 134,
+            "printed_page": "134",
+            "bbox": [
+              49,
+              53,
+              912,
+              190
+            ],
+            "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+          }
+        ],
+        "role": "lesson_header",
+        "elements": [
+          {
+            "id": "math-2023-grade4-part3:lesson-121:header:number",
+            "parent_id": "math-2023-grade4-part3:lesson-121:header",
+            "type": "text",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 134,
+                "printed_page": "134",
+                "bbox": [
+                  64,
+                  72,
+                  140,
+                  141
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+              }
+            ],
+            "role": "lesson_number",
+            "ocr_evidence": [
+              {
+                "line_id": "1",
+                "wiki_line_id": "math-2023-grade4-part3:p134:l1",
+                "raw": "121",
+                "existing_corrected": "121"
+              },
+              {
+                "line_id": "3",
+                "wiki_line_id": "math-2023-grade4-part3:p134:l3",
+                "raw": "САБAК",
+                "existing_corrected": "САБАҚ"
+              }
+            ],
+            "text_kk": "121\nСАБАҚ",
+            "ocr_suggestion_ids": [
+              "math-2023-grade4-part3:lesson-121:header:number:suggestion-1"
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:header:title",
+            "parent_id": "math-2023-grade4-part3:lesson-121:header",
+            "type": "text",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 134,
+                "printed_page": "134",
+                "bbox": [
+                  165,
+                  83,
+                  358,
+                  122
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+              }
+            ],
+            "role": "lesson_title",
+            "ocr_evidence": [
+              {
+                "line_id": "2",
+                "wiki_line_id": "math-2023-grade4-part3:p134:l2",
+                "raw": "Өзіңді тексер",
+                "existing_corrected": "Өзіңді тексер"
+              }
+            ],
+            "text_kk": "Өзіңді тексер"
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:header:objective",
+            "parent_id": "math-2023-grade4-part3:lesson-121:header",
+            "type": "text",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 134,
+                "printed_page": "134",
+                "bbox": [
+                  339,
+                  148,
+                  714,
+                  181
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "4",
+                "wiki_line_id": "math-2023-grade4-part3:p134:l4",
+                "raw": "Нені үйренгеніңді тексересің.",
+                "existing_corrected": "Нені үйренгеніңді тексересің."
+              }
+            ],
+            "text_kk": "Нені үйренгеніңді тексересің."
+          }
+        ],
+        "content_order": [
+          "math-2023-grade4-part3:lesson-121:header:number",
+          "math-2023-grade4-part3:lesson-121:header:title",
+          "math-2023-grade4-part3:lesson-121:header:objective"
+        ]
+      },
+      {
+        "id": "math-2023-grade4-part3:lesson-121:m01",
+        "parent_id": "math-2023-grade4-part3:lesson-121",
+        "type": "module",
+        "review_status": "pending_review",
+        "page_refs": [
+          {
+            "pdf_page": 134,
+            "printed_page": "134",
+            "bbox": [
+              112,
+              199,
+              911,
+              539
+            ],
+            "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+          }
+        ],
+        "module_number": 1,
+        "elements": [
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m01:number",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m01",
+            "type": "module_number",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 134,
+                "printed_page": "134",
+                "bbox": [
+                  147,
+                  240,
+                  175,
+                  273
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "a0",
+                "wiki_line_id": "math-2023-grade4-part3:p134:la0",
+                "raw": null,
+                "existing_corrected": "1"
+              }
+            ],
+            "text_kk": "1",
+            "ocr_suggestion_ids": [
+              "math-2023-grade4-part3:lesson-121:m01:number:suggestion-1"
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m01:self-goal",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m01",
+            "type": "text",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 134,
+                "printed_page": "134",
+                "bbox": [
+                  201,
+                  229,
+                  743,
+                  286
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+              }
+            ],
+            "role": "self_assessment_criterion",
+            "ocr_evidence": [
+              {
+                "line_id": "5",
+                "wiki_line_id": "math-2023-grade4-part3:p134:l5",
+                "raw": "Дұрыс, бұрыс бөлшектер, аралас сандар деге-",
+                "existing_corrected": "Дұрыс, бұрыс бөлшектер, аралас сандар деге-"
+              },
+              {
+                "line_id": "6",
+                "wiki_line_id": "math-2023-grade4-part3:p134:l6",
+                "raw": "німіз не екенін білемін.",
+                "existing_corrected": "німіз не екенін білемін."
+              }
+            ],
+            "text_kk": "Дұрыс, бұрыс бөлшектер, аралас сандар дегеніміз не екенін білемін.",
+            "ocr_suggestion_ids": [
+              "math-2023-grade4-part3:lesson-121:m01:self-goal:suggestion-1"
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m01:body-7",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m01",
+            "type": "text",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 134,
+                "printed_page": "134",
+                "bbox": [
+                  155,
+                  366,
+                  866,
+                  429
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "7",
+                "wiki_line_id": "math-2023-grade4-part3:p134:l7",
+                "raw": "Бөлімі 42 болатын дұрыс бөлшек және алымы 42 болатын",
+                "existing_corrected": "Бөлімі 42 болатын дұрыс бөлшек және алымы 42 болатын"
+              },
+              {
+                "line_id": "8",
+                "wiki_line_id": "math-2023-grade4-part3:p134:l8",
+                "raw": "бұрыс бөлшек жаз.",
+                "existing_corrected": "бұрыс бөлшек жаз."
+              }
+            ],
+            "text_kk": "Бөлімі 42 болатын дұрыс бөлшек және алымы 42 болатын бұрыс бөлшек жаз."
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m01:body-9",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m01",
+            "type": "text",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 134,
+                "printed_page": "134",
+                "bbox": [
+                  153,
+                  432,
+                  865,
+                  496
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "9",
+                "wiki_line_id": "math-2023-grade4-part3:p134:l9",
+                "raw": "Бүтін және бөлшек бөліктердің қосындысы түрінде кез келген",
+                "existing_corrected": "Бүтін және бөлшек бөліктердің қосындысы түрінде кез келген"
+              },
+              {
+                "line_id": "10",
+                "wiki_line_id": "math-2023-grade4-part3:p134:l10",
+                "raw": "аралас санды жаз.",
+                "existing_corrected": "аралас санды жаз."
+              }
+            ],
+            "text_kk": "Бүтін және бөлшек бөліктердің қосындысы түрінде кез келген аралас санды жаз."
+          }
+        ],
+        "content_order": [
+          "math-2023-grade4-part3:lesson-121:m01:number",
+          "math-2023-grade4-part3:lesson-121:m01:self-goal",
+          "math-2023-grade4-part3:lesson-121:m01:body-7",
+          "math-2023-grade4-part3:lesson-121:m01:body-9"
+        ]
+      },
+      {
+        "id": "math-2023-grade4-part3:lesson-121:m02",
+        "parent_id": "math-2023-grade4-part3:lesson-121",
+        "type": "module",
+        "review_status": "pending_review",
+        "page_refs": [
+          {
+            "pdf_page": 134,
+            "printed_page": "134",
+            "bbox": [
+              112,
+              589,
+              911,
+              863
+            ],
+            "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+          }
+        ],
+        "module_number": 2,
+        "elements": [
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m02:number",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m02",
+            "type": "module_number",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 134,
+                "printed_page": "134",
+                "bbox": [
+                  147,
+                  626,
+                  175,
+                  659
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "a1",
+                "wiki_line_id": "math-2023-grade4-part3:p134:la1",
+                "raw": null,
+                "existing_corrected": "2"
+              }
+            ],
+            "text_kk": "2",
+            "ocr_suggestion_ids": [
+              "math-2023-grade4-part3:lesson-121:m02:number:suggestion-1"
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m02:self-goal",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m02",
+            "type": "text",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 134,
+                "printed_page": "134",
+                "bbox": [
+                  204,
+                  620,
+                  865,
+                  654
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+              }
+            ],
+            "role": "self_assessment_criterion",
+            "ocr_evidence": [
+              {
+                "line_id": "11",
+                "wiki_line_id": "math-2023-grade4-part3:p134:l11",
+                "raw": "Бөлшектерді салыстыру үшін алған білімімді қолданамын.",
+                "existing_corrected": "Бөлшектерді салыстыру үшін алған білімімді қолданамын."
+              }
+            ],
+            "text_kk": "Бөлшектерді салыстыру үшін алған білімімді қолданамын."
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m02:body-12",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m02",
+            "type": "text",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 134,
+                "printed_page": "134",
+                "bbox": [
+                  156,
+                  728,
+                  280,
+                  760
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "12",
+                "wiki_line_id": "math-2023-grade4-part3:p134:l12",
+                "raw": "Салыстыр.",
+                "existing_corrected": "Салыстыр."
+              }
+            ],
+            "text_kk": "Салыстыр."
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m02:expr-13",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m02",
+            "type": "other",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 134,
+                "printed_page": "134",
+                "bbox": [
+                  225,
+                  759,
+                  789,
+                  827
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+              }
+            ],
+            "role": "problem_statement",
+            "printed_expression": "15/25 ∗ 6/25",
+            "crop_asset_id": "math-2023-grade4-part3:lesson-121:m02:expr-13:crop",
+            "elements": [
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m02:expr-13:fraction-1",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m02:expr-13",
+                "type": "formula",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 134,
+                    "printed_page": "134",
+                    "bbox": [
+                      225,
+                      759,
+                      789,
+                      827
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+                  }
+                ],
+                "fraction": {
+                  "numerator": 15,
+                  "denominator": 25,
+                  "notation": "stacked"
+                },
+                "crop_asset_id": "math-2023-grade4-part3:lesson-121:m02:expr-13:fraction-1:crop",
+                "ocr_evidence": [
+                  {
+                    "line_id": "13",
+                    "wiki_line_id": "math-2023-grade4-part3:p134:l13",
+                    "raw": "15",
+                    "existing_corrected": "15/25 * 6/25"
+                  }
+                ],
+                "text_kk": "15/25",
+                "ocr_suggestion_ids": [
+                  "math-2023-grade4-part3:lesson-121:m02:expr-13:fraction-1:suggestion-1"
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m02:expr-13:symbols-2",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m02:expr-13",
+                "type": "text",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 134,
+                    "printed_page": "134",
+                    "bbox": [
+                      459,
+                      759,
+                      601,
+                      827
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "13",
+                    "wiki_line_id": "math-2023-grade4-part3:p134:l13",
+                    "raw": "15",
+                    "existing_corrected": "15/25 * 6/25"
+                  }
+                ],
+                "text_kk": "∗"
+              },
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m02:expr-13:fraction-2",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m02:expr-13",
+                "type": "formula",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 134,
+                    "printed_page": "134",
+                    "bbox": [
+                      225,
+                      759,
+                      789,
+                      827
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+                  }
+                ],
+                "fraction": {
+                  "numerator": 6,
+                  "denominator": 25,
+                  "notation": "stacked"
+                },
+                "crop_asset_id": "math-2023-grade4-part3:lesson-121:m02:expr-13:fraction-2:crop",
+                "ocr_evidence": [
+                  {
+                    "line_id": "13",
+                    "wiki_line_id": "math-2023-grade4-part3:p134:l13",
+                    "raw": "15",
+                    "existing_corrected": "15/25 * 6/25"
+                  }
+                ],
+                "text_kk": "6/25",
+                "ocr_suggestion_ids": [
+                  "math-2023-grade4-part3:lesson-121:m02:expr-13:fraction-2:suggestion-1"
+                ]
+              }
+            ],
+            "content_order": [
+              "math-2023-grade4-part3:lesson-121:m02:expr-13:fraction-1",
+              "math-2023-grade4-part3:lesson-121:m02:expr-13:symbols-2",
+              "math-2023-grade4-part3:lesson-121:m02:expr-13:fraction-2"
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m02:expr-15",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m02",
+            "type": "other",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 134,
+                "printed_page": "134",
+                "bbox": [
+                  381,
+                  761,
+                  427,
+                  825
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+              }
+            ],
+            "role": "problem_statement",
+            "printed_expression": "6/25 ∗ 18/25",
+            "crop_asset_id": "math-2023-grade4-part3:lesson-121:m02:expr-15:crop",
+            "elements": [
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m02:expr-15:fraction-1",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m02:expr-15",
+                "type": "formula",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 134,
+                    "printed_page": "134",
+                    "bbox": [
+                      381,
+                      761,
+                      427,
+                      825
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+                  }
+                ],
+                "fraction": {
+                  "numerator": 6,
+                  "denominator": 25,
+                  "notation": "stacked"
+                },
+                "crop_asset_id": "math-2023-grade4-part3:lesson-121:m02:expr-15:fraction-1:crop",
+                "ocr_evidence": [
+                  {
+                    "line_id": "15",
+                    "wiki_line_id": "math-2023-grade4-part3:p134:l15",
+                    "raw": "25",
+                    "existing_corrected": "6/25 * 18/25"
+                  }
+                ],
+                "text_kk": "6/25",
+                "ocr_suggestion_ids": [
+                  "math-2023-grade4-part3:lesson-121:m02:expr-15:fraction-1:suggestion-1"
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m02:expr-15:symbols-2",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m02:expr-15",
+                "type": "text",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 134,
+                    "printed_page": "134",
+                    "bbox": [
+                      396,
+                      761,
+                      407,
+                      825
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "15",
+                    "wiki_line_id": "math-2023-grade4-part3:p134:l15",
+                    "raw": "25",
+                    "existing_corrected": "6/25 * 18/25"
+                  }
+                ],
+                "text_kk": "∗"
+              },
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m02:expr-15:fraction-2",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m02:expr-15",
+                "type": "formula",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 134,
+                    "printed_page": "134",
+                    "bbox": [
+                      381,
+                      761,
+                      427,
+                      825
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+                  }
+                ],
+                "fraction": {
+                  "numerator": 18,
+                  "denominator": 25,
+                  "notation": "stacked"
+                },
+                "crop_asset_id": "math-2023-grade4-part3:lesson-121:m02:expr-15:fraction-2:crop",
+                "ocr_evidence": [
+                  {
+                    "line_id": "15",
+                    "wiki_line_id": "math-2023-grade4-part3:p134:l15",
+                    "raw": "25",
+                    "existing_corrected": "6/25 * 18/25"
+                  }
+                ],
+                "text_kk": "18/25",
+                "ocr_suggestion_ids": [
+                  "math-2023-grade4-part3:lesson-121:m02:expr-15:fraction-2:suggestion-1"
+                ]
+              }
+            ],
+            "content_order": [
+              "math-2023-grade4-part3:lesson-121:m02:expr-15:fraction-1",
+              "math-2023-grade4-part3:lesson-121:m02:expr-15:symbols-2",
+              "math-2023-grade4-part3:lesson-121:m02:expr-15:fraction-2"
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m02:expr-17",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m02",
+            "type": "other",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 134,
+                "printed_page": "134",
+                "bbox": [
+                  541,
+                  761,
+                  586,
+                  825
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+              }
+            ],
+            "role": "problem_statement",
+            "printed_expression": "15/20 ∗ 15/25",
+            "crop_asset_id": "math-2023-grade4-part3:lesson-121:m02:expr-17:crop",
+            "elements": [
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m02:expr-17:fraction-1",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m02:expr-17",
+                "type": "formula",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 134,
+                    "printed_page": "134",
+                    "bbox": [
+                      541,
+                      761,
+                      586,
+                      825
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+                  }
+                ],
+                "fraction": {
+                  "numerator": 15,
+                  "denominator": 20,
+                  "notation": "stacked"
+                },
+                "crop_asset_id": "math-2023-grade4-part3:lesson-121:m02:expr-17:fraction-1:crop",
+                "ocr_evidence": [
+                  {
+                    "line_id": "17",
+                    "wiki_line_id": "math-2023-grade4-part3:p134:l17",
+                    "raw": "15{$",
+                    "existing_corrected": "15/20 * 15/25"
+                  }
+                ],
+                "text_kk": "15/20",
+                "ocr_suggestion_ids": [
+                  "math-2023-grade4-part3:lesson-121:m02:expr-17:fraction-1:suggestion-1"
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m02:expr-17:symbols-2",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m02:expr-17",
+                "type": "text",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 134,
+                    "printed_page": "134",
+                    "bbox": [
+                      559,
+                      761,
+                      569,
+                      825
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "17",
+                    "wiki_line_id": "math-2023-grade4-part3:p134:l17",
+                    "raw": "15{$",
+                    "existing_corrected": "15/20 * 15/25"
+                  }
+                ],
+                "text_kk": "∗"
+              },
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m02:expr-17:fraction-2",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m02:expr-17",
+                "type": "formula",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 134,
+                    "printed_page": "134",
+                    "bbox": [
+                      541,
+                      761,
+                      586,
+                      825
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+                  }
+                ],
+                "fraction": {
+                  "numerator": 15,
+                  "denominator": 25,
+                  "notation": "stacked"
+                },
+                "crop_asset_id": "math-2023-grade4-part3:lesson-121:m02:expr-17:fraction-2:crop",
+                "ocr_evidence": [
+                  {
+                    "line_id": "17",
+                    "wiki_line_id": "math-2023-grade4-part3:p134:l17",
+                    "raw": "15{$",
+                    "existing_corrected": "15/20 * 15/25"
+                  }
+                ],
+                "text_kk": "15/25",
+                "ocr_suggestion_ids": [
+                  "math-2023-grade4-part3:lesson-121:m02:expr-17:fraction-2:suggestion-1"
+                ]
+              }
+            ],
+            "content_order": [
+              "math-2023-grade4-part3:lesson-121:m02:expr-17:fraction-1",
+              "math-2023-grade4-part3:lesson-121:m02:expr-17:symbols-2",
+              "math-2023-grade4-part3:lesson-121:m02:expr-17:fraction-2"
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m02:expr-22",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m02",
+            "type": "other",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 134,
+                "printed_page": "134",
+                "bbox": [
+                  706,
+                  765,
+                  736,
+                  800
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+              }
+            ],
+            "role": "problem_statement",
+            "printed_expression": "6/25 ∗ 6/40",
+            "crop_asset_id": "math-2023-grade4-part3:lesson-121:m02:expr-22:crop",
+            "elements": [
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m02:expr-22:fraction-1",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m02:expr-22",
+                "type": "formula",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 134,
+                    "printed_page": "134",
+                    "bbox": [
+                      706,
+                      765,
+                      736,
+                      800
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+                  }
+                ],
+                "fraction": {
+                  "numerator": 6,
+                  "denominator": 25,
+                  "notation": "stacked"
+                },
+                "crop_asset_id": "math-2023-grade4-part3:lesson-121:m02:expr-22:fraction-1:crop",
+                "ocr_evidence": [
+                  {
+                    "line_id": "22",
+                    "wiki_line_id": "math-2023-grade4-part3:p134:l22",
+                    "raw": "6",
+                    "existing_corrected": "6/25 * 6/40"
+                  }
+                ],
+                "text_kk": "6/25",
+                "ocr_suggestion_ids": [
+                  "math-2023-grade4-part3:lesson-121:m02:expr-22:fraction-1:suggestion-1"
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m02:expr-22:symbols-2",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m02:expr-22",
+                "type": "text",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 134,
+                    "printed_page": "134",
+                    "bbox": [
+                      717,
+                      765,
+                      725,
+                      800
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "22",
+                    "wiki_line_id": "math-2023-grade4-part3:p134:l22",
+                    "raw": "6",
+                    "existing_corrected": "6/25 * 6/40"
+                  }
+                ],
+                "text_kk": "∗"
+              },
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m02:expr-22:fraction-2",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m02:expr-22",
+                "type": "formula",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 134,
+                    "printed_page": "134",
+                    "bbox": [
+                      706,
+                      765,
+                      736,
+                      800
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+                  }
+                ],
+                "fraction": {
+                  "numerator": 6,
+                  "denominator": 40,
+                  "notation": "stacked"
+                },
+                "crop_asset_id": "math-2023-grade4-part3:lesson-121:m02:expr-22:fraction-2:crop",
+                "ocr_evidence": [
+                  {
+                    "line_id": "22",
+                    "wiki_line_id": "math-2023-grade4-part3:p134:l22",
+                    "raw": "6",
+                    "existing_corrected": "6/25 * 6/40"
+                  }
+                ],
+                "text_kk": "6/40",
+                "ocr_suggestion_ids": [
+                  "math-2023-grade4-part3:lesson-121:m02:expr-22:fraction-2:suggestion-1"
+                ]
+              }
+            ],
+            "content_order": [
+              "math-2023-grade4-part3:lesson-121:m02:expr-22:fraction-1",
+              "math-2023-grade4-part3:lesson-121:m02:expr-22:symbols-2",
+              "math-2023-grade4-part3:lesson-121:m02:expr-22:fraction-2"
+            ]
+          }
+        ],
+        "content_order": [
+          "math-2023-grade4-part3:lesson-121:m02:number",
+          "math-2023-grade4-part3:lesson-121:m02:self-goal",
+          "math-2023-grade4-part3:lesson-121:m02:body-12",
+          "math-2023-grade4-part3:lesson-121:m02:expr-13",
+          "math-2023-grade4-part3:lesson-121:m02:expr-15",
+          "math-2023-grade4-part3:lesson-121:m02:expr-17",
+          "math-2023-grade4-part3:lesson-121:m02:expr-22"
+        ]
+      },
+      {
+        "id": "math-2023-grade4-part3:lesson-121:m03",
+        "parent_id": "math-2023-grade4-part3:lesson-121",
+        "type": "module",
+        "review_status": "pending_review",
+        "page_refs": [
+          {
+            "pdf_page": 134,
+            "printed_page": "134",
+            "bbox": [
+              112,
+              904,
+              911,
+              1204
+            ],
+            "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+          }
+        ],
+        "module_number": 3,
+        "elements": [
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m03:number",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m03",
+            "type": "module_number",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 134,
+                "printed_page": "134",
+                "bbox": [
+                  152,
+                  952,
+                  172,
+                  979
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "31",
+                "wiki_line_id": "math-2023-grade4-part3:p134:l31",
+                "raw": "3",
+                "existing_corrected": "3"
+              }
+            ],
+            "text_kk": "3"
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m03:self-goal",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m03",
+            "type": "text",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 134,
+                "printed_page": "134",
+                "bbox": [
+                  203,
+                  937,
+                  864,
+                  995
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+              }
+            ],
+            "role": "self_assessment_criterion",
+            "ocr_evidence": [
+              {
+                "line_id": "29",
+                "wiki_line_id": "math-2023-grade4-part3:p134:l29",
+                "raw": "Бөлімдері",
+                "existing_corrected": "Бөлімдері"
+              },
+              {
+                "line_id": "30",
+                "wiki_line_id": "math-2023-grade4-part3:p134:l30",
+                "raw": "бірдей жай бөлшектерді қосу және азайту",
+                "existing_corrected": "бірдей жай бөлшектерді қосу және азайту"
+              },
+              {
+                "line_id": "32",
+                "wiki_line_id": "math-2023-grade4-part3:p134:l32",
+                "raw": "амалдарын орындай аламын.",
+                "existing_corrected": "амалдарын орындай аламын."
+              }
+            ],
+            "text_kk": "Бөлімдері бірдей жай бөлшектерді қосу және азайту амалдарын орындай аламын."
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m03:body-33",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m03",
+            "type": "text",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 134,
+                "printed_page": "134",
+                "bbox": [
+                  155,
+                  1068,
+                  322,
+                  1104
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "33",
+                "wiki_line_id": "math-2023-grade4-part3:p134:l33",
+                "raw": "Теңдеуді шеш.",
+                "existing_corrected": "Теңдеуді шеш."
+              }
+            ],
+            "text_kk": "Теңдеуді шеш."
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m03:expr-34",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m03",
+            "type": "other",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 134,
+                "printed_page": "134",
+                "bbox": [
+                  374,
+                  1109,
+                  633,
+                  1150
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+              }
+            ],
+            "role": "problem_statement",
+            "printed_expression": "130/670 − 60/670 − x = 50/670",
+            "crop_asset_id": "math-2023-grade4-part3:lesson-121:m03:expr-34:crop",
+            "elements": [
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-1",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m03:expr-34",
+                "type": "formula",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 134,
+                    "printed_page": "134",
+                    "bbox": [
+                      374,
+                      1109,
+                      633,
+                      1150
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+                  }
+                ],
+                "fraction": {
+                  "numerator": 130,
+                  "denominator": 670,
+                  "notation": "stacked"
+                },
+                "crop_asset_id": "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-1:crop",
+                "ocr_evidence": [
+                  {
+                    "line_id": "34",
+                    "wiki_line_id": "math-2023-grade4-part3:p134:l34",
+                    "raw": "130",
+                    "existing_corrected": "130/670 − 60/670 − x = 50/670"
+                  }
+                ],
+                "text_kk": "130/670",
+                "ocr_suggestion_ids": [
+                  "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-1:suggestion-1"
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m03:expr-34:symbols-2",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m03:expr-34",
+                "type": "text",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 134,
+                    "printed_page": "134",
+                    "bbox": [
+                      437,
+                      1109,
+                      464,
+                      1150
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "34",
+                    "wiki_line_id": "math-2023-grade4-part3:p134:l34",
+                    "raw": "130",
+                    "existing_corrected": "130/670 − 60/670 − x = 50/670"
+                  }
+                ],
+                "text_kk": "−"
+              },
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-2",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m03:expr-34",
+                "type": "formula",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 134,
+                    "printed_page": "134",
+                    "bbox": [
+                      374,
+                      1109,
+                      633,
+                      1150
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+                  }
+                ],
+                "fraction": {
+                  "numerator": 60,
+                  "denominator": 670,
+                  "notation": "stacked"
+                },
+                "crop_asset_id": "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-2:crop",
+                "ocr_evidence": [
+                  {
+                    "line_id": "34",
+                    "wiki_line_id": "math-2023-grade4-part3:p134:l34",
+                    "raw": "130",
+                    "existing_corrected": "130/670 − 60/670 − x = 50/670"
+                  }
+                ],
+                "text_kk": "60/670",
+                "ocr_suggestion_ids": [
+                  "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-2:suggestion-1"
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m03:expr-34:symbols-3",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m03:expr-34",
+                "type": "text",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 134,
+                    "printed_page": "134",
+                    "bbox": [
+                      517,
+                      1109,
+                      579,
+                      1150
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "34",
+                    "wiki_line_id": "math-2023-grade4-part3:p134:l34",
+                    "raw": "130",
+                    "existing_corrected": "130/670 − 60/670 − x = 50/670"
+                  }
+                ],
+                "text_kk": "− x ="
+              },
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-3",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m03:expr-34",
+                "type": "formula",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 134,
+                    "printed_page": "134",
+                    "bbox": [
+                      374,
+                      1109,
+                      633,
+                      1150
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+                  }
+                ],
+                "fraction": {
+                  "numerator": 50,
+                  "denominator": 670,
+                  "notation": "stacked"
+                },
+                "crop_asset_id": "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-3:crop",
+                "ocr_evidence": [
+                  {
+                    "line_id": "34",
+                    "wiki_line_id": "math-2023-grade4-part3:p134:l34",
+                    "raw": "130",
+                    "existing_corrected": "130/670 − 60/670 − x = 50/670"
+                  }
+                ],
+                "text_kk": "50/670",
+                "ocr_suggestion_ids": [
+                  "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-3:suggestion-1"
+                ]
+              }
+            ],
+            "content_order": [
+              "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-1",
+              "math-2023-grade4-part3:lesson-121:m03:expr-34:symbols-2",
+              "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-2",
+              "math-2023-grade4-part3:lesson-121:m03:expr-34:symbols-3",
+              "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-3"
+            ]
+          }
+        ],
+        "content_order": [
+          "math-2023-grade4-part3:lesson-121:m03:number",
+          "math-2023-grade4-part3:lesson-121:m03:self-goal",
+          "math-2023-grade4-part3:lesson-121:m03:body-33",
+          "math-2023-grade4-part3:lesson-121:m03:expr-34"
+        ]
+      },
+      {
+        "id": "math-2023-grade4-part3:lesson-121:m04",
+        "parent_id": "math-2023-grade4-part3:lesson-121",
+        "type": "module",
+        "review_status": "pending_review",
+        "page_refs": [
+          {
+            "pdf_page": 135,
+            "printed_page": "135",
+            "bbox": [
+              99,
+              192,
+              883,
+              572
+            ],
+            "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+          }
+        ],
+        "module_number": 4,
+        "elements": [
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m04:number",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m04",
+            "type": "module_number",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 135,
+                "printed_page": "135",
+                "bbox": [
+                  119,
+                  240,
+                  147,
+                  274
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "a0",
+                "wiki_line_id": "math-2023-grade4-part3:p135:la0",
+                "raw": null,
+                "existing_corrected": "4"
+              }
+            ],
+            "text_kk": "4",
+            "ocr_suggestion_ids": [
+              "math-2023-grade4-part3:lesson-121:m04:number:suggestion-1"
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m04:self-goal",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m04",
+            "type": "text",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 135,
+                "printed_page": "135",
+                "bbox": [
+                  174,
+                  231,
+                  834,
+                  316
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+              }
+            ],
+            "role": "self_assessment_criterion",
+            "ocr_evidence": [
+              {
+                "line_id": "1",
+                "wiki_line_id": "math-2023-grade4-part3:p135:l1",
+                "raw": "Бүтіннің бөлігін табуға берілген есептерге талдау жасай",
+                "existing_corrected": "Бүтіннің бөлігін табуға берілген есептерге талдау жасай"
+              },
+              {
+                "line_id": "2",
+                "wiki_line_id": "math-2023-grade4-part3:p135:l2",
+                "raw": "аламын және шығарамын. Кері есептер құрастырамын",
+                "existing_corrected": "аламын және шығарамын. Кері есептер құрастырамын"
+              },
+              {
+                "line_id": "3",
+                "wiki_line_id": "math-2023-grade4-part3:p135:l3",
+                "raw": "және шығарамын.",
+                "existing_corrected": "және шығарамын."
+              }
+            ],
+            "text_kk": "Бүтіннің бөлігін табуға берілген есептерге талдау жасай аламын және шығарамын. Кері есептер құрастырамын және шығарамын."
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m04:sub-А",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m04",
+            "type": "subtask",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 135,
+                "printed_page": "135",
+                "bbox": [
+                  123,
+                  378,
+                  866,
+                  488
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+              }
+            ],
+            "subtask_label": "4А",
+            "elements": [
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m04:sub-А:number",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m04:sub-А",
+                "type": "subtask_number",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 135,
+                    "printed_page": "135",
+                    "bbox": [
+                      123,
+                      378,
+                      146,
+                      409
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+                  }
+                ],
+                "printed_label_kk": "а)",
+                "subtask_label": "4А",
+                "ocr_evidence": [
+                  {
+                    "line_id": "4",
+                    "wiki_line_id": "math-2023-grade4-part3:p135:l4",
+                    "raw": "a)",
+                    "existing_corrected": "а)"
+                  }
+                ],
+                "text_kk": "а)"
+              },
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m04:sub-А:body-5",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m04:sub-А",
+                "type": "text",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 135,
+                    "printed_page": "135",
+                    "bbox": [
+                      150,
+                      383,
+                      311,
+                      414
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "5",
+                    "wiki_line_id": "math-2023-grade4-part3:p135:l5",
+                    "raw": "Есепті шығар.",
+                    "existing_corrected": "Есепті шығар."
+                  }
+                ],
+                "text_kk": "Есепті шығар."
+              },
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m04:sub-А:ribbon",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m04:sub-А",
+                "type": "other",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 135,
+                    "printed_page": "135",
+                    "bbox": [
+                      124,
+                      414,
+                      857,
+                      497
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+                  }
+                ],
+                "role": "problem_statement",
+                "crop_asset_id": "math-2023-grade4-part3:lesson-121:m04:sub-А:ribbon:crop",
+                "elements": [
+                  {
+                    "id": "math-2023-grade4-part3:lesson-121:m04:sub-А:ribbon:text-1",
+                    "parent_id": "math-2023-grade4-part3:lesson-121:m04:sub-А:ribbon",
+                    "type": "text",
+                    "review_status": "pending_review",
+                    "page_refs": [
+                      {
+                        "pdf_page": 135,
+                        "printed_page": "135",
+                        "bbox": [
+                          124,
+                          414,
+                          857,
+                          497
+                        ],
+                        "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+                      }
+                    ],
+                    "ocr_evidence": [
+                      {
+                        "line_id": "6",
+                        "wiki_line_id": "math-2023-grade4-part3:p135:l6",
+                        "raw": "Таспадан 12 м кесіпалынды, бұл оның барлық ұзындығының",
+                        "existing_corrected": "Таспадан 12 м кесіп алынды, бұл оның барлық ұзындығының"
+                      },
+                      {
+                        "line_id": "7",
+                        "wiki_line_id": "math-2023-grade4-part3:p135:l7",
+                        "raw": "2m",
+                        "existing_corrected": "2/3"
+                      },
+                      {
+                        "line_id": "8",
+                        "wiki_line_id": "math-2023-grade4-part3:p135:l8",
+                        "raw": "бөлігін құрайды. Таспаның жалпы ұзындығы қандай?",
+                        "existing_corrected": "бөлігін құрайды. Таспаның жалпы ұзындығы қандай?"
+                      }
+                    ],
+                    "text_kk": "Таспадан 12 м кесіп алынды, бұл оның барлық ұзындығының"
+                  },
+                  {
+                    "id": "math-2023-grade4-part3:lesson-121:m04:sub-А:ribbon:fraction-2",
+                    "parent_id": "math-2023-grade4-part3:lesson-121:m04:sub-А:ribbon",
+                    "type": "formula",
+                    "review_status": "pending_review",
+                    "page_refs": [
+                      {
+                        "pdf_page": 135,
+                        "printed_page": "135",
+                        "bbox": [
+                          127,
+                          438,
+                          157,
+                          496
+                        ],
+                        "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+                      }
+                    ],
+                    "fraction": {
+                      "numerator": 2,
+                      "denominator": 3,
+                      "notation": "stacked"
+                    },
+                    "crop_asset_id": "math-2023-grade4-part3:lesson-121:m04:sub-А:ribbon:fraction-2:crop",
+                    "ocr_evidence": [
+                      {
+                        "line_id": "6",
+                        "wiki_line_id": "math-2023-grade4-part3:p135:l6",
+                        "raw": "Таспадан 12 м кесіпалынды, бұл оның барлық ұзындығының",
+                        "existing_corrected": "Таспадан 12 м кесіп алынды, бұл оның барлық ұзындығының"
+                      },
+                      {
+                        "line_id": "7",
+                        "wiki_line_id": "math-2023-grade4-part3:p135:l7",
+                        "raw": "2m",
+                        "existing_corrected": "2/3"
+                      },
+                      {
+                        "line_id": "8",
+                        "wiki_line_id": "math-2023-grade4-part3:p135:l8",
+                        "raw": "бөлігін құрайды. Таспаның жалпы ұзындығы қандай?",
+                        "existing_corrected": "бөлігін құрайды. Таспаның жалпы ұзындығы қандай?"
+                      }
+                    ],
+                    "text_kk": "2/3",
+                    "ocr_suggestion_ids": [
+                      "math-2023-grade4-part3:lesson-121:m04:sub-А:ribbon:fraction-2:suggestion-1"
+                    ]
+                  },
+                  {
+                    "id": "math-2023-grade4-part3:lesson-121:m04:sub-А:ribbon:text-3",
+                    "parent_id": "math-2023-grade4-part3:lesson-121:m04:sub-А:ribbon",
+                    "type": "text",
+                    "review_status": "pending_review",
+                    "page_refs": [
+                      {
+                        "pdf_page": 135,
+                        "printed_page": "135",
+                        "bbox": [
+                          124,
+                          414,
+                          857,
+                          497
+                        ],
+                        "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+                      }
+                    ],
+                    "ocr_evidence": [
+                      {
+                        "line_id": "6",
+                        "wiki_line_id": "math-2023-grade4-part3:p135:l6",
+                        "raw": "Таспадан 12 м кесіпалынды, бұл оның барлық ұзындығының",
+                        "existing_corrected": "Таспадан 12 м кесіп алынды, бұл оның барлық ұзындығының"
+                      },
+                      {
+                        "line_id": "7",
+                        "wiki_line_id": "math-2023-grade4-part3:p135:l7",
+                        "raw": "2m",
+                        "existing_corrected": "2/3"
+                      },
+                      {
+                        "line_id": "8",
+                        "wiki_line_id": "math-2023-grade4-part3:p135:l8",
+                        "raw": "бөлігін құрайды. Таспаның жалпы ұзындығы қандай?",
+                        "existing_corrected": "бөлігін құрайды. Таспаның жалпы ұзындығы қандай?"
+                      }
+                    ],
+                    "text_kk": "бөлігін құрайды. Таспаның жалпы ұзындығы қандай?"
+                  }
+                ],
+                "content_order": [
+                  "math-2023-grade4-part3:lesson-121:m04:sub-А:ribbon:text-1",
+                  "math-2023-grade4-part3:lesson-121:m04:sub-А:ribbon:fraction-2",
+                  "math-2023-grade4-part3:lesson-121:m04:sub-А:ribbon:text-3"
+                ]
+              }
+            ],
+            "content_order": [
+              "math-2023-grade4-part3:lesson-121:m04:sub-А:number",
+              "math-2023-grade4-part3:lesson-121:m04:sub-А:body-5",
+              "math-2023-grade4-part3:lesson-121:m04:sub-А:ribbon"
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m04:sub-Ә",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m04",
+            "type": "subtask",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 135,
+                "printed_page": "135",
+                "bbox": [
+                  124,
+                  500,
+                  523,
+                  539
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+              }
+            ],
+            "subtask_label": "4Ә",
+            "elements": [
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m04:sub-Ә:number",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m04:sub-Ә",
+                "type": "subtask_number",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 135,
+                    "printed_page": "135",
+                    "bbox": [
+                      124,
+                      500,
+                      147,
+                      530
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+                  }
+                ],
+                "printed_label_kk": "ә)",
+                "subtask_label": "4Ә",
+                "ocr_evidence": [
+                  {
+                    "line_id": "9",
+                    "wiki_line_id": "math-2023-grade4-part3:p135:l9",
+                    "raw": "ә) Кері есеп құрастыр және шығар.",
+                    "existing_corrected": "ә) Кері есеп құрастыр және шығар."
+                  }
+                ],
+                "text_kk": "ә)"
+              },
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m04:sub-Ә:body",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m04:sub-Ә",
+                "type": "text",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 135,
+                    "printed_page": "135",
+                    "bbox": [
+                      128,
+                      503,
+                      520,
+                      536
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "9",
+                    "wiki_line_id": "math-2023-grade4-part3:p135:l9",
+                    "raw": "ә) Кері есеп құрастыр және шығар.",
+                    "existing_corrected": "ә) Кері есеп құрастыр және шығар."
+                  }
+                ],
+                "text_kk": "Кері есеп құрастыр және шығар."
+              }
+            ],
+            "content_order": [
+              "math-2023-grade4-part3:lesson-121:m04:sub-Ә:number",
+              "math-2023-grade4-part3:lesson-121:m04:sub-Ә:body"
+            ]
+          }
+        ],
+        "content_order": [
+          "math-2023-grade4-part3:lesson-121:m04:number",
+          "math-2023-grade4-part3:lesson-121:m04:self-goal",
+          "math-2023-grade4-part3:lesson-121:m04:sub-А",
+          "math-2023-grade4-part3:lesson-121:m04:sub-Ә"
+        ]
+      },
+      {
+        "id": "math-2023-grade4-part3:lesson-121:m05",
+        "parent_id": "math-2023-grade4-part3:lesson-121",
+        "type": "module",
+        "review_status": "pending_review",
+        "page_refs": [
+          {
+            "pdf_page": 135,
+            "printed_page": "135",
+            "bbox": [
+              99,
+              613,
+              883,
+              861
+            ],
+            "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+          }
+        ],
+        "module_number": 5,
+        "elements": [
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m05:number",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m05",
+            "type": "module_number",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 135,
+                "printed_page": "135",
+                "bbox": [
+                  120,
+                  642,
+                  146,
+                  676
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "10",
+                "wiki_line_id": "math-2023-grade4-part3:p135:l10",
+                "raw": "5",
+                "existing_corrected": "5"
+              }
+            ],
+            "text_kk": "5"
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m05:self-goal",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m05",
+            "type": "text",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 135,
+                "printed_page": "135",
+                "bbox": [
+                  182,
+                  641,
+                  655,
+                  675
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+              }
+            ],
+            "role": "self_assessment_criterion",
+            "ocr_evidence": [
+              {
+                "line_id": "11",
+                "wiki_line_id": "math-2023-grade4-part3:p135:l11",
+                "raw": "Есептеудің дұрыстығын тексере аламын.",
+                "existing_corrected": "Есептеудің дұрыстығын тексере аламын."
+              }
+            ],
+            "text_kk": "Есептеудің дұрыстығын тексере аламын."
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m05:body-12",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m05",
+            "type": "text",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 135,
+                "printed_page": "135",
+                "bbox": [
+                  126,
+                  749,
+                  274,
+                  783
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+              }
+            ],
+            "ocr_evidence": [
+              {
+                "line_id": "12",
+                "wiki_line_id": "math-2023-grade4-part3:p135:l12",
+                "raw": "Қатені түзет.",
+                "existing_corrected": "Қатені түзет."
+              }
+            ],
+            "text_kk": "Қатені түзет."
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m05:eq-13 14",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m05",
+            "type": "other",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 135,
+                "printed_page": "135",
+                "bbox": [
+                  124,
+                  782,
+                  861,
+                  848
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+              }
+            ],
+            "role": "problem_statement",
+            "crop_asset_id": "math-2023-grade4-part3:lesson-121:m05:eq-13 14:crop",
+            "elements": [
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m05:eq-13 14:fraction-1",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m05:eq-13 14",
+                "type": "formula",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 135,
+                    "printed_page": "135",
+                    "bbox": [
+                      126,
+                      783,
+                      860,
+                      846
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+                  }
+                ],
+                "fraction": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "notation": "stacked"
+                },
+                "crop_asset_id": "math-2023-grade4-part3:lesson-121:m05:eq-13 14:fraction-1:crop",
+                "ocr_evidence": [
+                  {
+                    "line_id": "13",
+                    "wiki_line_id": "math-2023-grade4-part3:p135:l13",
+                    "raw": "2|m",
+                    "existing_corrected": "2/3"
+                  },
+                  {
+                    "line_id": "14",
+                    "wiki_line_id": "math-2023-grade4-part3:p135:l14",
+                    "raw": "сағ = 20 мин",
+                    "existing_corrected": "сағ = 20 мин"
+                  }
+                ],
+                "text_kk": "2/3",
+                "ocr_suggestion_ids": [
+                  "math-2023-grade4-part3:lesson-121:m05:eq-13 14:fraction-1:suggestion-1"
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m05:eq-13 14:text-2",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m05:eq-13 14",
+                "type": "text",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 135,
+                    "printed_page": "135",
+                    "bbox": [
+                      124,
+                      782,
+                      861,
+                      848
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "13",
+                    "wiki_line_id": "math-2023-grade4-part3:p135:l13",
+                    "raw": "2|m",
+                    "existing_corrected": "2/3"
+                  },
+                  {
+                    "line_id": "14",
+                    "wiki_line_id": "math-2023-grade4-part3:p135:l14",
+                    "raw": "сағ = 20 мин",
+                    "existing_corrected": "сағ = 20 мин"
+                  }
+                ],
+                "text_kk": "сағ = 20 мин"
+              }
+            ],
+            "content_order": [
+              "math-2023-grade4-part3:lesson-121:m05:eq-13 14:fraction-1",
+              "math-2023-grade4-part3:lesson-121:m05:eq-13 14:text-2"
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m05:eq-15 16",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m05",
+            "type": "other",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 135,
+                "printed_page": "135",
+                "bbox": [
+                  338,
+                  790,
+                  526,
+                  839
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+              }
+            ],
+            "role": "problem_statement",
+            "crop_asset_id": "math-2023-grade4-part3:lesson-121:m05:eq-15 16:crop",
+            "elements": [
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m05:eq-15 16:fraction-1",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m05:eq-15 16",
+                "type": "formula",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 135,
+                    "printed_page": "135",
+                    "bbox": [
+                      339,
+                      791,
+                      372,
+                      838
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+                  }
+                ],
+                "fraction": {
+                  "numerator": 2,
+                  "denominator": 4,
+                  "notation": "stacked"
+                },
+                "crop_asset_id": "math-2023-grade4-part3:lesson-121:m05:eq-15 16:fraction-1:crop",
+                "ocr_evidence": [
+                  {
+                    "line_id": "15",
+                    "wiki_line_id": "math-2023-grade4-part3:p135:l15",
+                    "raw": "2|4",
+                    "existing_corrected": "2/4"
+                  },
+                  {
+                    "line_id": "16",
+                    "wiki_line_id": "math-2023-grade4-part3:p135:l16",
+                    "raw": "тәул. = 12 сағ",
+                    "existing_corrected": "тәул. = 12 сағ"
+                  }
+                ],
+                "text_kk": "2/4",
+                "ocr_suggestion_ids": [
+                  "math-2023-grade4-part3:lesson-121:m05:eq-15 16:fraction-1:suggestion-1"
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m05:eq-15 16:text-2",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m05:eq-15 16",
+                "type": "text",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 135,
+                    "printed_page": "135",
+                    "bbox": [
+                      338,
+                      790,
+                      526,
+                      839
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "15",
+                    "wiki_line_id": "math-2023-grade4-part3:p135:l15",
+                    "raw": "2|4",
+                    "existing_corrected": "2/4"
+                  },
+                  {
+                    "line_id": "16",
+                    "wiki_line_id": "math-2023-grade4-part3:p135:l16",
+                    "raw": "тәул. = 12 сағ",
+                    "existing_corrected": "тәул. = 12 сағ"
+                  }
+                ],
+                "text_kk": "тәул. = 12 сағ"
+              }
+            ],
+            "content_order": [
+              "math-2023-grade4-part3:lesson-121:m05:eq-15 16:fraction-1",
+              "math-2023-grade4-part3:lesson-121:m05:eq-15 16:text-2"
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m05:eq-17 18",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m05",
+            "type": "other",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 135,
+                "printed_page": "135",
+                "bbox": [
+                  552,
+                  789,
+                  703,
+                  840
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+              }
+            ],
+            "role": "problem_statement",
+            "crop_asset_id": "math-2023-grade4-part3:lesson-121:m05:eq-17 18:crop",
+            "elements": [
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m05:eq-17 18:fraction-1",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m05:eq-17 18",
+                "type": "formula",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 135,
+                    "printed_page": "135",
+                    "bbox": [
+                      553,
+                      790,
+                      581,
+                      839
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+                  }
+                ],
+                "fraction": {
+                  "numerator": 2,
+                  "denominator": 4,
+                  "notation": "stacked"
+                },
+                "crop_asset_id": "math-2023-grade4-part3:lesson-121:m05:eq-17 18:fraction-1:crop",
+                "ocr_evidence": [
+                  {
+                    "line_id": "17",
+                    "wiki_line_id": "math-2023-grade4-part3:p135:l17",
+                    "raw": "2|4",
+                    "existing_corrected": "2/4"
+                  },
+                  {
+                    "line_id": "18",
+                    "wiki_line_id": "math-2023-grade4-part3:p135:l18",
+                    "raw": "т = 500 кг",
+                    "existing_corrected": "т = 500 кг"
+                  }
+                ],
+                "text_kk": "2/4",
+                "ocr_suggestion_ids": [
+                  "math-2023-grade4-part3:lesson-121:m05:eq-17 18:fraction-1:suggestion-1"
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m05:eq-17 18:text-2",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m05:eq-17 18",
+                "type": "text",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 135,
+                    "printed_page": "135",
+                    "bbox": [
+                      552,
+                      789,
+                      703,
+                      840
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "17",
+                    "wiki_line_id": "math-2023-grade4-part3:p135:l17",
+                    "raw": "2|4",
+                    "existing_corrected": "2/4"
+                  },
+                  {
+                    "line_id": "18",
+                    "wiki_line_id": "math-2023-grade4-part3:p135:l18",
+                    "raw": "т = 500 кг",
+                    "existing_corrected": "т = 500 кг"
+                  }
+                ],
+                "text_kk": "т = 500 кг"
+              }
+            ],
+            "content_order": [
+              "math-2023-grade4-part3:lesson-121:m05:eq-17 18:fraction-1",
+              "math-2023-grade4-part3:lesson-121:m05:eq-17 18:text-2"
+            ]
+          },
+          {
+            "id": "math-2023-grade4-part3:lesson-121:m05:eq-19 20",
+            "parent_id": "math-2023-grade4-part3:lesson-121:m05",
+            "type": "other",
+            "review_status": "pending_review",
+            "page_refs": [
+              {
+                "pdf_page": 135,
+                "printed_page": "135",
+                "bbox": [
+                  731,
+                  786,
+                  856,
+                  843
+                ],
+                "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+              }
+            ],
+            "role": "problem_statement",
+            "crop_asset_id": "math-2023-grade4-part3:lesson-121:m05:eq-19 20:crop",
+            "elements": [
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m05:eq-19 20:fraction-1",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m05:eq-19 20",
+                "type": "formula",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 135,
+                    "printed_page": "135",
+                    "bbox": [
+                      732,
+                      788,
+                      762,
+                      842
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+                  }
+                ],
+                "fraction": {
+                  "numerator": 2,
+                  "denominator": 5,
+                  "notation": "stacked"
+                },
+                "crop_asset_id": "math-2023-grade4-part3:lesson-121:m05:eq-19 20:fraction-1:crop",
+                "ocr_evidence": [
+                  {
+                    "line_id": "19",
+                    "wiki_line_id": "math-2023-grade4-part3:p135:l19",
+                    "raw": "2/5",
+                    "existing_corrected": "2/5"
+                  },
+                  {
+                    "line_id": "20",
+                    "wiki_line_id": "math-2023-grade4-part3:p135:l20",
+                    "raw": "ц = 4 кг",
+                    "existing_corrected": "ц = 4 кг"
+                  }
+                ],
+                "text_kk": "2/5",
+                "ocr_suggestion_ids": [
+                  "math-2023-grade4-part3:lesson-121:m05:eq-19 20:fraction-1:suggestion-1"
+                ]
+              },
+              {
+                "id": "math-2023-grade4-part3:lesson-121:m05:eq-19 20:text-2",
+                "parent_id": "math-2023-grade4-part3:lesson-121:m05:eq-19 20",
+                "type": "text",
+                "review_status": "pending_review",
+                "page_refs": [
+                  {
+                    "pdf_page": 135,
+                    "printed_page": "135",
+                    "bbox": [
+                      731,
+                      786,
+                      856,
+                      843
+                    ],
+                    "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+                  }
+                ],
+                "ocr_evidence": [
+                  {
+                    "line_id": "19",
+                    "wiki_line_id": "math-2023-grade4-part3:p135:l19",
+                    "raw": "2/5",
+                    "existing_corrected": "2/5"
+                  },
+                  {
+                    "line_id": "20",
+                    "wiki_line_id": "math-2023-grade4-part3:p135:l20",
+                    "raw": "ц = 4 кг",
+                    "existing_corrected": "ц = 4 кг"
+                  }
+                ],
+                "text_kk": "ц = 4 кг"
+              }
+            ],
+            "content_order": [
+              "math-2023-grade4-part3:lesson-121:m05:eq-19 20:fraction-1",
+              "math-2023-grade4-part3:lesson-121:m05:eq-19 20:text-2"
+            ]
+          }
+        ],
+        "content_order": [
+          "math-2023-grade4-part3:lesson-121:m05:number",
+          "math-2023-grade4-part3:lesson-121:m05:self-goal",
+          "math-2023-grade4-part3:lesson-121:m05:body-12",
+          "math-2023-grade4-part3:lesson-121:m05:eq-13 14",
+          "math-2023-grade4-part3:lesson-121:m05:eq-15 16",
+          "math-2023-grade4-part3:lesson-121:m05:eq-17 18",
+          "math-2023-grade4-part3:lesson-121:m05:eq-19 20"
+        ]
+      },
+      {
+        "id": "math-2023-grade4-part3:lesson-121:closing",
+        "parent_id": "math-2023-grade4-part3:lesson-121",
+        "type": "other",
+        "review_status": "pending_review",
+        "page_refs": [
+          {
+            "pdf_page": 135,
+            "printed_page": "135",
+            "bbox": [
+              393,
+              1023,
+              583,
+              1137
+            ],
+            "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+          }
+        ],
+        "role": "lesson_closing_prompt",
+        "ocr_evidence": [
+          {
+            "line_id": "21",
+            "wiki_line_id": "math-2023-grade4-part3:p135:l21",
+            "raw": "МЕН БІЛЕМІН",
+            "existing_corrected": "МЕН БІЛЕМІН"
+          },
+          {
+            "line_id": "22",
+            "wiki_line_id": "math-2023-grade4-part3:p135:l22",
+            "raw": "МЕн колдАнАмын",
+            "existing_corrected": "МЕН ҚОЛДАНАМЫН"
+          },
+          {
+            "line_id": "a1",
+            "wiki_line_id": "math-2023-grade4-part3:p135:la1",
+            "raw": null,
+            "existing_corrected": "МЕНІҢ ҚОЛЫМНАН"
+          },
+          {
+            "line_id": "23",
+            "wiki_line_id": "math-2023-grade4-part3:p135:l23",
+            "raw": "КЕЛЕДІ",
+            "existing_corrected": "КЕЛЕДІ"
+          }
+        ],
+        "text_kk": "МЕН БІЛЕМІН\nМЕН ҚОЛДАНАМЫН\nМЕНІҢ ҚОЛЫМНАН КЕЛЕДІ",
+        "ocr_suggestion_ids": [
+          "math-2023-grade4-part3:lesson-121:closing:suggestion-1"
+        ]
+      }
+    ],
+    "content_order": [
+      "math-2023-grade4-part3:lesson-121:header",
+      "math-2023-grade4-part3:lesson-121:m01",
+      "math-2023-grade4-part3:lesson-121:m02",
+      "math-2023-grade4-part3:lesson-121:m03",
+      "math-2023-grade4-part3:lesson-121:m04",
+      "math-2023-grade4-part3:lesson-121:m05",
+      "math-2023-grade4-part3:lesson-121:closing"
+    ],
+    "teaching_links": [
+      {
+        "id": "math-2023-grade4-part3:lesson-121:link:m04-inverse-uses-direct",
+        "parent_id": "math-2023-grade4-part3:lesson-121:m04:sub-Ә",
+        "from_id": "math-2023-grade4-part3:lesson-121:m04:sub-Ә",
+        "to_id": "math-2023-grade4-part3:lesson-121:m04:sub-А",
+        "type": "teaching_link",
+        "relationship": "uses_as_material",
+        "rationale_kk": "Кері есепте а) тармағындағы таспа туралы берілгендер қолданылады.",
+        "page_refs": [
+          {
+            "pdf_page": 135,
+            "printed_page": "135",
+            "bbox": [
+              124,
+              500,
+              523,
+              539
+            ],
+            "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+          },
+          {
+            "pdf_page": 135,
+            "printed_page": "135",
+            "bbox": [
+              123,
+              378,
+              866,
+              488
+            ],
+            "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+          }
+        ],
+        "review_status": "pending_review",
+        "evidence": {
+          "from_page_refs": [
+            {
+              "pdf_page": 135,
+              "printed_page": "135",
+              "bbox": [
+                124,
+                500,
+                523,
+                539
+              ],
+              "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+            }
+          ],
+          "to_page_refs": [
+            {
+              "pdf_page": 135,
+              "printed_page": "135",
+              "bbox": [
+                123,
+                378,
+                866,
+                488
+              ],
+              "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+            }
+          ],
+          "reason_kk": "Кері есепте а) тармағындағы таспа туралы берілгендер қолданылады."
+        }
+      }
+    ]
+  },
+  "pages": [
+    {
+      "id": "math-2023-grade4-part3:p134",
+      "pdf_page": 134,
+      "printed_page": "134",
+      "width": 992,
+      "height": 1418,
+      "scan_asset_id": "math-2023-grade4-part3:p134:scan",
+      "scan_path": "wiki-data/数学2023_哈语学生_哈语教材（4-3）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-3）_АЛМАТЫКІТАП_页134_原图.png",
+      "scan_sha256": "3b4ce4b819d2b42ff2fba41766c0f0a8181c51075c5025f00a552b549f19f1d2"
+    },
+    {
+      "id": "math-2023-grade4-part3:p135",
+      "pdf_page": 135,
+      "printed_page": "135",
+      "width": 992,
+      "height": 1418,
+      "scan_asset_id": "math-2023-grade4-part3:p135:scan",
+      "scan_path": "wiki-data/数学2023_哈语学生_哈语教材（4-3）_АЛМАТЫКІТАП_数据/来源/页面原图/数学2023_哈语学生_哈语教材（4-3）_АЛМАТЫКІТАП_页135_原图.png",
+      "scan_sha256": "ab9e6ab7758b3efa96e0cae0a40d785fb1bf9e5193f5b0993c8a21da174425d8"
+    }
+  ],
+  "crop_assets": {
+    "math-2023-grade4-part3:lesson-121:m02:expr-13:crop": {
+      "pdf_page": 134,
+      "printed_page": "134",
+      "bbox": [
+        225,
+        759,
+        789,
+        827
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m02:expr-13:fraction-1:crop": {
+      "pdf_page": 134,
+      "printed_page": "134",
+      "bbox": [
+        225,
+        759,
+        789,
+        827
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m02:expr-13:fraction-2:crop": {
+      "pdf_page": 134,
+      "printed_page": "134",
+      "bbox": [
+        225,
+        759,
+        789,
+        827
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m02:expr-15:crop": {
+      "pdf_page": 134,
+      "printed_page": "134",
+      "bbox": [
+        381,
+        761,
+        427,
+        825
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m02:expr-15:fraction-1:crop": {
+      "pdf_page": 134,
+      "printed_page": "134",
+      "bbox": [
+        381,
+        761,
+        427,
+        825
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m02:expr-15:fraction-2:crop": {
+      "pdf_page": 134,
+      "printed_page": "134",
+      "bbox": [
+        381,
+        761,
+        427,
+        825
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m02:expr-17:crop": {
+      "pdf_page": 134,
+      "printed_page": "134",
+      "bbox": [
+        541,
+        761,
+        586,
+        825
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m02:expr-17:fraction-1:crop": {
+      "pdf_page": 134,
+      "printed_page": "134",
+      "bbox": [
+        541,
+        761,
+        586,
+        825
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m02:expr-17:fraction-2:crop": {
+      "pdf_page": 134,
+      "printed_page": "134",
+      "bbox": [
+        541,
+        761,
+        586,
+        825
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m02:expr-22:crop": {
+      "pdf_page": 134,
+      "printed_page": "134",
+      "bbox": [
+        706,
+        765,
+        736,
+        800
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m02:expr-22:fraction-1:crop": {
+      "pdf_page": 134,
+      "printed_page": "134",
+      "bbox": [
+        706,
+        765,
+        736,
+        800
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m02:expr-22:fraction-2:crop": {
+      "pdf_page": 134,
+      "printed_page": "134",
+      "bbox": [
+        706,
+        765,
+        736,
+        800
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m03:expr-34:crop": {
+      "pdf_page": 134,
+      "printed_page": "134",
+      "bbox": [
+        374,
+        1109,
+        633,
+        1150
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-1:crop": {
+      "pdf_page": 134,
+      "printed_page": "134",
+      "bbox": [
+        374,
+        1109,
+        633,
+        1150
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-2:crop": {
+      "pdf_page": 134,
+      "printed_page": "134",
+      "bbox": [
+        374,
+        1109,
+        633,
+        1150
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-3:crop": {
+      "pdf_page": 134,
+      "printed_page": "134",
+      "bbox": [
+        374,
+        1109,
+        633,
+        1150
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m04:sub-А:ribbon:crop": {
+      "pdf_page": 135,
+      "printed_page": "135",
+      "bbox": [
+        124,
+        414,
+        857,
+        497
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m04:sub-А:ribbon:fraction-2:crop": {
+      "pdf_page": 135,
+      "printed_page": "135",
+      "bbox": [
+        127,
+        438,
+        157,
+        496
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m05:eq-13 14:crop": {
+      "pdf_page": 135,
+      "printed_page": "135",
+      "bbox": [
+        124,
+        782,
+        861,
+        848
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m05:eq-13 14:fraction-1:crop": {
+      "pdf_page": 135,
+      "printed_page": "135",
+      "bbox": [
+        126,
+        783,
+        860,
+        846
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m05:eq-15 16:crop": {
+      "pdf_page": 135,
+      "printed_page": "135",
+      "bbox": [
+        338,
+        790,
+        526,
+        839
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m05:eq-15 16:fraction-1:crop": {
+      "pdf_page": 135,
+      "printed_page": "135",
+      "bbox": [
+        339,
+        791,
+        372,
+        838
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m05:eq-17 18:crop": {
+      "pdf_page": 135,
+      "printed_page": "135",
+      "bbox": [
+        552,
+        789,
+        703,
+        840
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m05:eq-17 18:fraction-1:crop": {
+      "pdf_page": 135,
+      "printed_page": "135",
+      "bbox": [
+        553,
+        790,
+        581,
+        839
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m05:eq-19 20:crop": {
+      "pdf_page": 135,
+      "printed_page": "135",
+      "bbox": [
+        731,
+        786,
+        856,
+        843
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+    },
+    "math-2023-grade4-part3:lesson-121:m05:eq-19 20:fraction-1:crop": {
+      "pdf_page": 135,
+      "printed_page": "135",
+      "bbox": [
+        732,
+        788,
+        762,
+        842
+      ],
+      "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+    }
+  },
+  "ocr_suggestions": [
+    {
+      "id": "math-2023-grade4-part3:lesson-121:header:number:suggestion-1",
+      "object_id": "math-2023-grade4-part3:lesson-121:header:number",
+      "category": "ocr_character",
+      "reason_kk": "Бастапқы OCR мен бұрынғы түзету түпнұсқа бетпен салыстырылды; баспадағы таңба мен аралықтар сақталды.",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            64,
+            72,
+            140,
+            141
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "1",
+          "wiki_line_id": "math-2023-grade4-part3:p134:l1",
+          "raw": "121",
+          "existing_corrected": "121"
+        },
+        {
+          "line_id": "3",
+          "wiki_line_id": "math-2023-grade4-part3:p134:l3",
+          "raw": "САБAК",
+          "existing_corrected": "САБАҚ"
+        }
+      ],
+      "suggested_value": "121\nСАБАҚ",
+      "evidence_regions": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            64,
+            72,
+            140,
+            120
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        },
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            71,
+            115,
+            134,
+            141
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "baseline": "repository_raw_ocr",
+      "proposed_changes": [
+        {
+          "op": "restore_transcription",
+          "target_id": "math-2023-grade4-part3:lesson-121:header:number",
+          "field": "text_kk",
+          "value": "121\nСАБАҚ"
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part3:lesson-121:m01:number:suggestion-1",
+      "object_id": "math-2023-grade4-part3:lesson-121:m01:number",
+      "category": "ocr_character",
+      "reason_kk": "Түпнұсқадағы таңба бастапқы OCR-де жоқ; бұрынғы түзетуде суреттен қосылған.",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            147,
+            240,
+            175,
+            273
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "a0",
+          "wiki_line_id": "math-2023-grade4-part3:p134:la0",
+          "raw": null,
+          "existing_corrected": "1"
+        }
+      ],
+      "suggested_value": "1",
+      "evidence_regions": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            147,
+            240,
+            175,
+            273
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "baseline": "repository_raw_ocr",
+      "proposed_changes": [
+        {
+          "op": "restore_transcription",
+          "target_id": "math-2023-grade4-part3:lesson-121:m01:number",
+          "field": "text_kk",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part3:lesson-121:m01:self-goal:suggestion-1",
+      "object_id": "math-2023-grade4-part3:lesson-121:m01:self-goal",
+      "category": "ocr_linebreak",
+      "reason_kk": "Баспа жолының соңында тасымалданған сөз қайта біріктірілді.",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            201,
+            229,
+            743,
+            286
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "5",
+          "wiki_line_id": "math-2023-grade4-part3:p134:l5",
+          "raw": "Дұрыс, бұрыс бөлшектер, аралас сандар деге-",
+          "existing_corrected": "Дұрыс, бұрыс бөлшектер, аралас сандар деге-"
+        },
+        {
+          "line_id": "6",
+          "wiki_line_id": "math-2023-grade4-part3:p134:l6",
+          "raw": "німіз не екенін білемін.",
+          "existing_corrected": "німіз не екенін білемін."
+        }
+      ],
+      "suggested_value": "Дұрыс, бұрыс бөлшектер, аралас сандар дегеніміз не екенін білемін.",
+      "evidence_regions": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            201,
+            229,
+            743,
+            262
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        },
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            204,
+            262,
+            472,
+            286
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "baseline": "repository_raw_ocr",
+      "proposed_changes": [
+        {
+          "op": "restore_transcription",
+          "target_id": "math-2023-grade4-part3:lesson-121:m01:self-goal",
+          "field": "text_kk",
+          "value": "Дұрыс, бұрыс бөлшектер, аралас сандар дегеніміз не екенін білемін."
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part3:lesson-121:m02:number:suggestion-1",
+      "object_id": "math-2023-grade4-part3:lesson-121:m02:number",
+      "category": "ocr_character",
+      "reason_kk": "Түпнұсқадағы таңба бастапқы OCR-де жоқ; бұрынғы түзетуде суреттен қосылған.",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            147,
+            626,
+            175,
+            659
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "a1",
+          "wiki_line_id": "math-2023-grade4-part3:p134:la1",
+          "raw": null,
+          "existing_corrected": "2"
+        }
+      ],
+      "suggested_value": "2",
+      "evidence_regions": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            147,
+            626,
+            175,
+            659
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "baseline": "repository_raw_ocr",
+      "proposed_changes": [
+        {
+          "op": "restore_transcription",
+          "target_id": "math-2023-grade4-part3:lesson-121:m02:number",
+          "field": "text_kk",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part3:lesson-121:m02:expr-13:fraction-1:suggestion-1",
+      "object_id": "math-2023-grade4-part3:lesson-121:m02:expr-13:fraction-1",
+      "category": "structure_recognition",
+      "reason_kk": "Алым үстінде, бөлім астында және арада көлденең сызық басылған.",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            225,
+            759,
+            789,
+            827
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "13",
+          "wiki_line_id": "math-2023-grade4-part3:p134:l13",
+          "raw": "15",
+          "existing_corrected": "15/25 * 6/25"
+        }
+      ],
+      "suggested_value": {
+        "numerator": 15,
+        "denominator": 25,
+        "notation": "stacked"
+      },
+      "evidence_regions": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            227,
+            761,
+            787,
+            825
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "baseline": "repository_raw_ocr",
+      "proposed_changes": [
+        {
+          "op": "restore_structure",
+          "target_id": "math-2023-grade4-part3:lesson-121:m02:expr-13:fraction-1",
+          "field": "fraction",
+          "value": {
+            "numerator": 15,
+            "denominator": 25,
+            "notation": "stacked"
+          }
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part3:lesson-121:m02:expr-13:fraction-2:suggestion-1",
+      "object_id": "math-2023-grade4-part3:lesson-121:m02:expr-13:fraction-2",
+      "category": "structure_recognition",
+      "reason_kk": "Алым үстінде, бөлім астында және арада көлденең сызық басылған.",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            225,
+            759,
+            789,
+            827
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "13",
+          "wiki_line_id": "math-2023-grade4-part3:p134:l13",
+          "raw": "15",
+          "existing_corrected": "15/25 * 6/25"
+        }
+      ],
+      "suggested_value": {
+        "numerator": 6,
+        "denominator": 25,
+        "notation": "stacked"
+      },
+      "evidence_regions": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            227,
+            761,
+            787,
+            825
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "baseline": "repository_raw_ocr",
+      "proposed_changes": [
+        {
+          "op": "restore_structure",
+          "target_id": "math-2023-grade4-part3:lesson-121:m02:expr-13:fraction-2",
+          "field": "fraction",
+          "value": {
+            "numerator": 6,
+            "denominator": 25,
+            "notation": "stacked"
+          }
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part3:lesson-121:m02:expr-15:fraction-1:suggestion-1",
+      "object_id": "math-2023-grade4-part3:lesson-121:m02:expr-15:fraction-1",
+      "category": "structure_recognition",
+      "reason_kk": "Алым үстінде, бөлім астында және арада көлденең сызық басылған.",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            381,
+            761,
+            427,
+            825
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "15",
+          "wiki_line_id": "math-2023-grade4-part3:p134:l15",
+          "raw": "25",
+          "existing_corrected": "6/25 * 18/25"
+        }
+      ],
+      "suggested_value": {
+        "numerator": 6,
+        "denominator": 25,
+        "notation": "stacked"
+      },
+      "evidence_regions": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            383,
+            764,
+            425,
+            822
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "baseline": "repository_raw_ocr",
+      "proposed_changes": [
+        {
+          "op": "restore_structure",
+          "target_id": "math-2023-grade4-part3:lesson-121:m02:expr-15:fraction-1",
+          "field": "fraction",
+          "value": {
+            "numerator": 6,
+            "denominator": 25,
+            "notation": "stacked"
+          }
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part3:lesson-121:m02:expr-15:fraction-2:suggestion-1",
+      "object_id": "math-2023-grade4-part3:lesson-121:m02:expr-15:fraction-2",
+      "category": "structure_recognition",
+      "reason_kk": "Алым үстінде, бөлім астында және арада көлденең сызық басылған.",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            381,
+            761,
+            427,
+            825
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "15",
+          "wiki_line_id": "math-2023-grade4-part3:p134:l15",
+          "raw": "25",
+          "existing_corrected": "6/25 * 18/25"
+        }
+      ],
+      "suggested_value": {
+        "numerator": 18,
+        "denominator": 25,
+        "notation": "stacked"
+      },
+      "evidence_regions": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            383,
+            764,
+            425,
+            822
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "baseline": "repository_raw_ocr",
+      "proposed_changes": [
+        {
+          "op": "restore_structure",
+          "target_id": "math-2023-grade4-part3:lesson-121:m02:expr-15:fraction-2",
+          "field": "fraction",
+          "value": {
+            "numerator": 18,
+            "denominator": 25,
+            "notation": "stacked"
+          }
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part3:lesson-121:m02:expr-17:fraction-1:suggestion-1",
+      "object_id": "math-2023-grade4-part3:lesson-121:m02:expr-17:fraction-1",
+      "category": "structure_recognition",
+      "reason_kk": "Алым үстінде, бөлім астында және арада көлденең сызық басылған.",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            541,
+            761,
+            586,
+            825
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "17",
+          "wiki_line_id": "math-2023-grade4-part3:p134:l17",
+          "raw": "15{$",
+          "existing_corrected": "15/20 * 15/25"
+        }
+      ],
+      "suggested_value": {
+        "numerator": 15,
+        "denominator": 20,
+        "notation": "stacked"
+      },
+      "evidence_regions": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            544,
+            764,
+            584,
+            822
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "baseline": "repository_raw_ocr",
+      "proposed_changes": [
+        {
+          "op": "restore_structure",
+          "target_id": "math-2023-grade4-part3:lesson-121:m02:expr-17:fraction-1",
+          "field": "fraction",
+          "value": {
+            "numerator": 15,
+            "denominator": 20,
+            "notation": "stacked"
+          }
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part3:lesson-121:m02:expr-17:fraction-2:suggestion-1",
+      "object_id": "math-2023-grade4-part3:lesson-121:m02:expr-17:fraction-2",
+      "category": "structure_recognition",
+      "reason_kk": "Алым үстінде, бөлім астында және арада көлденең сызық басылған.",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            541,
+            761,
+            586,
+            825
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "17",
+          "wiki_line_id": "math-2023-grade4-part3:p134:l17",
+          "raw": "15{$",
+          "existing_corrected": "15/20 * 15/25"
+        }
+      ],
+      "suggested_value": {
+        "numerator": 15,
+        "denominator": 25,
+        "notation": "stacked"
+      },
+      "evidence_regions": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            544,
+            764,
+            584,
+            822
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "baseline": "repository_raw_ocr",
+      "proposed_changes": [
+        {
+          "op": "restore_structure",
+          "target_id": "math-2023-grade4-part3:lesson-121:m02:expr-17:fraction-2",
+          "field": "fraction",
+          "value": {
+            "numerator": 15,
+            "denominator": 25,
+            "notation": "stacked"
+          }
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part3:lesson-121:m02:expr-22:fraction-1:suggestion-1",
+      "object_id": "math-2023-grade4-part3:lesson-121:m02:expr-22:fraction-1",
+      "category": "structure_recognition",
+      "reason_kk": "Алым үстінде, бөлім астында және арада көлденең сызық басылған.",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            706,
+            765,
+            736,
+            800
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "22",
+          "wiki_line_id": "math-2023-grade4-part3:p134:l22",
+          "raw": "6",
+          "existing_corrected": "6/25 * 6/40"
+        }
+      ],
+      "suggested_value": {
+        "numerator": 6,
+        "denominator": 25,
+        "notation": "stacked"
+      },
+      "evidence_regions": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            708,
+            767,
+            733,
+            797
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "baseline": "repository_raw_ocr",
+      "proposed_changes": [
+        {
+          "op": "restore_structure",
+          "target_id": "math-2023-grade4-part3:lesson-121:m02:expr-22:fraction-1",
+          "field": "fraction",
+          "value": {
+            "numerator": 6,
+            "denominator": 25,
+            "notation": "stacked"
+          }
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part3:lesson-121:m02:expr-22:fraction-2:suggestion-1",
+      "object_id": "math-2023-grade4-part3:lesson-121:m02:expr-22:fraction-2",
+      "category": "structure_recognition",
+      "reason_kk": "Алым үстінде, бөлім астында және арада көлденең сызық басылған.",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            706,
+            765,
+            736,
+            800
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "22",
+          "wiki_line_id": "math-2023-grade4-part3:p134:l22",
+          "raw": "6",
+          "existing_corrected": "6/25 * 6/40"
+        }
+      ],
+      "suggested_value": {
+        "numerator": 6,
+        "denominator": 40,
+        "notation": "stacked"
+      },
+      "evidence_regions": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            708,
+            767,
+            733,
+            797
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "baseline": "repository_raw_ocr",
+      "proposed_changes": [
+        {
+          "op": "restore_structure",
+          "target_id": "math-2023-grade4-part3:lesson-121:m02:expr-22:fraction-2",
+          "field": "fraction",
+          "value": {
+            "numerator": 6,
+            "denominator": 40,
+            "notation": "stacked"
+          }
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-1:suggestion-1",
+      "object_id": "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-1",
+      "category": "structure_recognition",
+      "reason_kk": "Алым үстінде, бөлім астында және арада көлденең сызық басылған.",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            374,
+            1109,
+            633,
+            1150
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "34",
+          "wiki_line_id": "math-2023-grade4-part3:p134:l34",
+          "raw": "130",
+          "existing_corrected": "130/670 − 60/670 − x = 50/670"
+        }
+      ],
+      "suggested_value": {
+        "numerator": 130,
+        "denominator": 670,
+        "notation": "stacked"
+      },
+      "evidence_regions": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            376,
+            1111,
+            631,
+            1147
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "baseline": "repository_raw_ocr",
+      "proposed_changes": [
+        {
+          "op": "restore_structure",
+          "target_id": "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-1",
+          "field": "fraction",
+          "value": {
+            "numerator": 130,
+            "denominator": 670,
+            "notation": "stacked"
+          }
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-2:suggestion-1",
+      "object_id": "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-2",
+      "category": "structure_recognition",
+      "reason_kk": "Алым үстінде, бөлім астында және арада көлденең сызық басылған.",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            374,
+            1109,
+            633,
+            1150
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "34",
+          "wiki_line_id": "math-2023-grade4-part3:p134:l34",
+          "raw": "130",
+          "existing_corrected": "130/670 − 60/670 − x = 50/670"
+        }
+      ],
+      "suggested_value": {
+        "numerator": 60,
+        "denominator": 670,
+        "notation": "stacked"
+      },
+      "evidence_regions": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            376,
+            1111,
+            631,
+            1147
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "baseline": "repository_raw_ocr",
+      "proposed_changes": [
+        {
+          "op": "restore_structure",
+          "target_id": "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-2",
+          "field": "fraction",
+          "value": {
+            "numerator": 60,
+            "denominator": 670,
+            "notation": "stacked"
+          }
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-3:suggestion-1",
+      "object_id": "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-3",
+      "category": "structure_recognition",
+      "reason_kk": "Алым үстінде, бөлім астында және арада көлденең сызық басылған.",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            374,
+            1109,
+            633,
+            1150
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "34",
+          "wiki_line_id": "math-2023-grade4-part3:p134:l34",
+          "raw": "130",
+          "existing_corrected": "130/670 − 60/670 − x = 50/670"
+        }
+      ],
+      "suggested_value": {
+        "numerator": 50,
+        "denominator": 670,
+        "notation": "stacked"
+      },
+      "evidence_regions": [
+        {
+          "pdf_page": 134,
+          "printed_page": "134",
+          "bbox": [
+            376,
+            1111,
+            631,
+            1147
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p134:scan"
+        }
+      ],
+      "baseline": "repository_raw_ocr",
+      "proposed_changes": [
+        {
+          "op": "restore_structure",
+          "target_id": "math-2023-grade4-part3:lesson-121:m03:expr-34:fraction-3",
+          "field": "fraction",
+          "value": {
+            "numerator": 50,
+            "denominator": 670,
+            "notation": "stacked"
+          }
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part3:lesson-121:m04:number:suggestion-1",
+      "object_id": "math-2023-grade4-part3:lesson-121:m04:number",
+      "category": "ocr_character",
+      "reason_kk": "Түпнұсқадағы таңба бастапқы OCR-де жоқ; бұрынғы түзетуде суреттен қосылған.",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            119,
+            240,
+            147,
+            274
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "a0",
+          "wiki_line_id": "math-2023-grade4-part3:p135:la0",
+          "raw": null,
+          "existing_corrected": "4"
+        }
+      ],
+      "suggested_value": "4",
+      "evidence_regions": [
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            119,
+            240,
+            147,
+            274
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        }
+      ],
+      "baseline": "repository_raw_ocr",
+      "proposed_changes": [
+        {
+          "op": "restore_transcription",
+          "target_id": "math-2023-grade4-part3:lesson-121:m04:number",
+          "field": "text_kk",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part3:lesson-121:m04:sub-А:ribbon:fraction-2:suggestion-1",
+      "object_id": "math-2023-grade4-part3:lesson-121:m04:sub-А:ribbon:fraction-2",
+      "category": "structure_recognition",
+      "reason_kk": "Алым үстінде, бөлім астында және арада көлденең сызық басылған.",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            127,
+            438,
+            157,
+            496
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "6",
+          "wiki_line_id": "math-2023-grade4-part3:p135:l6",
+          "raw": "Таспадан 12 м кесіпалынды, бұл оның барлық ұзындығының",
+          "existing_corrected": "Таспадан 12 м кесіп алынды, бұл оның барлық ұзындығының"
+        },
+        {
+          "line_id": "7",
+          "wiki_line_id": "math-2023-grade4-part3:p135:l7",
+          "raw": "2m",
+          "existing_corrected": "2/3"
+        },
+        {
+          "line_id": "8",
+          "wiki_line_id": "math-2023-grade4-part3:p135:l8",
+          "raw": "бөлігін құрайды. Таспаның жалпы ұзындығы қандай?",
+          "existing_corrected": "бөлігін құрайды. Таспаның жалпы ұзындығы қандай?"
+        }
+      ],
+      "suggested_value": {
+        "numerator": 2,
+        "denominator": 3,
+        "notation": "stacked"
+      },
+      "evidence_regions": [
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            128,
+            418,
+            853,
+            447
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        },
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            129,
+            441,
+            155,
+            494
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        },
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            155,
+            450,
+            751,
+            487
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        }
+      ],
+      "baseline": "repository_raw_ocr",
+      "proposed_changes": [
+        {
+          "op": "restore_structure",
+          "target_id": "math-2023-grade4-part3:lesson-121:m04:sub-А:ribbon:fraction-2",
+          "field": "fraction",
+          "value": {
+            "numerator": 2,
+            "denominator": 3,
+            "notation": "stacked"
+          }
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part3:lesson-121:m05:eq-13 14:fraction-1:suggestion-1",
+      "object_id": "math-2023-grade4-part3:lesson-121:m05:eq-13 14:fraction-1",
+      "category": "structure_recognition",
+      "reason_kk": "Алым үстінде, бөлім астында және арада көлденең сызық басылған.",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            126,
+            783,
+            860,
+            846
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "13",
+          "wiki_line_id": "math-2023-grade4-part3:p135:l13",
+          "raw": "2|m",
+          "existing_corrected": "2/3"
+        },
+        {
+          "line_id": "14",
+          "wiki_line_id": "math-2023-grade4-part3:p135:l14",
+          "raw": "сағ = 20 мин",
+          "existing_corrected": "сағ = 20 мин"
+        }
+      ],
+      "suggested_value": {
+        "numerator": 2,
+        "denominator": 3,
+        "notation": "stacked"
+      },
+      "evidence_regions": [
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            128,
+            785,
+            858,
+            844
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        },
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            155,
+            799,
+            305,
+            830
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        }
+      ],
+      "baseline": "repository_raw_ocr",
+      "proposed_changes": [
+        {
+          "op": "restore_structure",
+          "target_id": "math-2023-grade4-part3:lesson-121:m05:eq-13 14:fraction-1",
+          "field": "fraction",
+          "value": {
+            "numerator": 2,
+            "denominator": 3,
+            "notation": "stacked"
+          }
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part3:lesson-121:m05:eq-15 16:fraction-1:suggestion-1",
+      "object_id": "math-2023-grade4-part3:lesson-121:m05:eq-15 16:fraction-1",
+      "category": "structure_recognition",
+      "reason_kk": "Алым үстінде, бөлім астында және арада көлденең сызық басылған.",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            339,
+            791,
+            372,
+            838
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "15",
+          "wiki_line_id": "math-2023-grade4-part3:p135:l15",
+          "raw": "2|4",
+          "existing_corrected": "2/4"
+        },
+        {
+          "line_id": "16",
+          "wiki_line_id": "math-2023-grade4-part3:p135:l16",
+          "raw": "тәул. = 12 сағ",
+          "existing_corrected": "тәул. = 12 сағ"
+        }
+      ],
+      "suggested_value": {
+        "numerator": 2,
+        "denominator": 4,
+        "notation": "stacked"
+      },
+      "evidence_regions": [
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            342,
+            793,
+            370,
+            836
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        },
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            363,
+            796,
+            523,
+            834
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        }
+      ],
+      "baseline": "repository_raw_ocr",
+      "proposed_changes": [
+        {
+          "op": "restore_structure",
+          "target_id": "math-2023-grade4-part3:lesson-121:m05:eq-15 16:fraction-1",
+          "field": "fraction",
+          "value": {
+            "numerator": 2,
+            "denominator": 4,
+            "notation": "stacked"
+          }
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part3:lesson-121:m05:eq-17 18:fraction-1:suggestion-1",
+      "object_id": "math-2023-grade4-part3:lesson-121:m05:eq-17 18:fraction-1",
+      "category": "structure_recognition",
+      "reason_kk": "Алым үстінде, бөлім астында және арада көлденең сызық басылған.",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            553,
+            790,
+            581,
+            839
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "17",
+          "wiki_line_id": "math-2023-grade4-part3:p135:l17",
+          "raw": "2|4",
+          "existing_corrected": "2/4"
+        },
+        {
+          "line_id": "18",
+          "wiki_line_id": "math-2023-grade4-part3:p135:l18",
+          "raw": "т = 500 кг",
+          "existing_corrected": "т = 500 кг"
+        }
+      ],
+      "suggested_value": {
+        "numerator": 2,
+        "denominator": 4,
+        "notation": "stacked"
+      },
+      "evidence_regions": [
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            556,
+            792,
+            578,
+            837
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        },
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            578,
+            796,
+            699,
+            831
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        }
+      ],
+      "baseline": "repository_raw_ocr",
+      "proposed_changes": [
+        {
+          "op": "restore_structure",
+          "target_id": "math-2023-grade4-part3:lesson-121:m05:eq-17 18:fraction-1",
+          "field": "fraction",
+          "value": {
+            "numerator": 2,
+            "denominator": 4,
+            "notation": "stacked"
+          }
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part3:lesson-121:m05:eq-19 20:fraction-1:suggestion-1",
+      "object_id": "math-2023-grade4-part3:lesson-121:m05:eq-19 20:fraction-1",
+      "category": "structure_recognition",
+      "reason_kk": "Алым үстінде, бөлім астында және арада көлденең сызық басылған.",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            732,
+            788,
+            762,
+            842
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "19",
+          "wiki_line_id": "math-2023-grade4-part3:p135:l19",
+          "raw": "2/5",
+          "existing_corrected": "2/5"
+        },
+        {
+          "line_id": "20",
+          "wiki_line_id": "math-2023-grade4-part3:p135:l20",
+          "raw": "ц = 4 кг",
+          "existing_corrected": "ц = 4 кг"
+        }
+      ],
+      "suggested_value": {
+        "numerator": 2,
+        "denominator": 5,
+        "notation": "stacked"
+      },
+      "evidence_regions": [
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            734,
+            790,
+            760,
+            840
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        },
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            760,
+            796,
+            852,
+            833
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        }
+      ],
+      "baseline": "repository_raw_ocr",
+      "proposed_changes": [
+        {
+          "op": "restore_structure",
+          "target_id": "math-2023-grade4-part3:lesson-121:m05:eq-19 20:fraction-1",
+          "field": "fraction",
+          "value": {
+            "numerator": 2,
+            "denominator": 5,
+            "notation": "stacked"
+          }
+        }
+      ]
+    },
+    {
+      "id": "math-2023-grade4-part3:lesson-121:closing:suggestion-1",
+      "object_id": "math-2023-grade4-part3:lesson-121:closing",
+      "category": "ocr_character",
+      "reason_kk": "Түпнұсқадағы таңба бастапқы OCR-де жоқ; бұрынғы түзетуде суреттен қосылған.",
+      "review_status": "pending_review",
+      "page_refs": [
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            393,
+            1023,
+            583,
+            1137
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        }
+      ],
+      "source_lines": [
+        {
+          "line_id": "21",
+          "wiki_line_id": "math-2023-grade4-part3:p135:l21",
+          "raw": "МЕН БІЛЕМІН",
+          "existing_corrected": "МЕН БІЛЕМІН"
+        },
+        {
+          "line_id": "22",
+          "wiki_line_id": "math-2023-grade4-part3:p135:l22",
+          "raw": "МЕн колдАнАмын",
+          "existing_corrected": "МЕН ҚОЛДАНАМЫН"
+        },
+        {
+          "line_id": "a1",
+          "wiki_line_id": "math-2023-grade4-part3:p135:la1",
+          "raw": null,
+          "existing_corrected": "МЕНІҢ ҚОЛЫМНАН"
+        },
+        {
+          "line_id": "23",
+          "wiki_line_id": "math-2023-grade4-part3:p135:l23",
+          "raw": "КЕЛЕДІ",
+          "existing_corrected": "КЕЛЕДІ"
+        }
+      ],
+      "suggested_value": "МЕН БІЛЕМІН\nМЕН ҚОЛДАНАМЫН\nМЕНІҢ ҚОЛЫМНАН КЕЛЕДІ",
+      "evidence_regions": [
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            422,
+            1023,
+            549,
+            1057
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        },
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            393,
+            1053,
+            583,
+            1096
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        },
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            398,
+            1095,
+            576,
+            1121
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        },
+        {
+          "pdf_page": 135,
+          "printed_page": "135",
+          "bbox": [
+            452,
+            1115,
+            522,
+            1137
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p135:scan"
+        }
+      ],
+      "baseline": "repository_raw_ocr",
+      "proposed_changes": [
+        {
+          "op": "restore_transcription",
+          "target_id": "math-2023-grade4-part3:lesson-121:closing",
+          "field": "text_kk",
+          "value": "МЕН БІЛЕМІН\nМЕН ҚОЛДАНАМЫН\nМЕНІҢ ҚОЛЫМНАН КЕЛЕДІ"
+        }
+      ]
+    }
+  ]
+}

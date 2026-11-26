@@ -227,3 +227,25 @@ PDF 一基页码与印刷页码均为 5–8。第 159 页目录列出第 81 课�
 - 第 114 课 5Ә 的行程距离与地名对应关系待核。第 7 题逐月降水量按网格估读，保留原图供比对。
 
 本批各课均通过静态校验和断网中哈审核测试。
+
+## 第 115–122 课
+
+切割进度为 `segmentation_completed`，内容均为 `pending_review`。PDF 一基页码与印刷页码相同。
+
+| 课次与原书标题 | PDF / 印刷页码 | Module | Instructional Note | 子题 | 表格 | OCR 建议 | 文件 |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | --- |
+| 115 · Бүтіннің бөлігін табуға берілген есептер（求整体的几分之几） | 116–118 | 10 | 1 | 6 | 1 | 48 | [JSON](01_segmentation/lesson_115/content.json) · [中文](01_segmentation/lesson_115/review_zh.html) · [哈语](01_segmentation/lesson_115/review_kk.html) |
+| 116 · Бөлігі бойынша бүтінді табуға берілген есептер（已知部分求整体） | 119–121 | 10 | 1 | 13 | 0 | 50 | [JSON](01_segmentation/lesson_116/content.json) · [中文](01_segmentation/lesson_116/review_zh.html) · [哈语](01_segmentation/lesson_116/review_kk.html) |
+| 117 · Есеп құрастыру және шығару（编题与解题） | 122–124 | 11 | 0 | 8 | 0 | 41 | [JSON](01_segmentation/lesson_117/content.json) · [中文](01_segmentation/lesson_117/review_zh.html) · [哈语](01_segmentation/lesson_117/review_kk.html) |
+| 118 · Пысықтау. Есеп шығару（巩固练习·解题） | 125–127 | 10 | 0 | 7 | 0 | 47 | [JSON](01_segmentation/lesson_118/content.json) · [中文](01_segmentation/lesson_118/review_zh.html) · [哈语](01_segmentation/lesson_118/review_kk.html) |
+| 119 · Қорытындылау（分数总结） | 128–130 | 11 | 0 | 6 | 1 | 68 | [JSON](01_segmentation/lesson_119/content.json) · [中文](01_segmentation/lesson_119/review_zh.html) · [哈语](01_segmentation/lesson_119/review_kk.html) |
+| 120 · Қорытындылау（分数总结） | 131–133 | 10 | 0 | 6 | 1 | 114 | [JSON](01_segmentation/lesson_120/content.json) · [中文](01_segmentation/lesson_120/review_zh.html) · [哈语](01_segmentation/lesson_120/review_kk.html) |
+| 121 · Өзіңді тексер（自我检测） | 134–135 | 5 | 0 | 2 | 0 | 22 | [JSON](01_segmentation/lesson_121/content.json) · [中文](01_segmentation/lesson_121/review_zh.html) · [哈语](01_segmentation/lesson_121/review_kk.html) |
+| 122 · Қорытындылау（总结复习） | 136–137 | 8 | 0 | 4 | 1 | 34 | [JSON](01_segmentation/lesson_122/content.json) · [中文](01_segmentation/lesson_122/review_zh.html) · [哈语](01_segmentation/lesson_122/review_kk.html) |
+
+- 第 116 课的空气污染指数图按网格估读。第 116、118 课保留正方体组合和原印俯视表，待填格留空。
+- 第 117、118、119、121 课的逆向应用题保留对前一子题的显式引用。
+- 第 118 课第 1 题照录「超过 900 万吨」，待核是否按估算量或下界作答。第 122 课 3А 的 250 千米对应的时点待核。
+- 第 119、120 课第 1 题的斜线表头、上下式分数和带分数保留裁图，分子分母逐格录入。现有审核模板的表格单元格只显示纯文本。
+
+本批各课均通过静态校验和断网中哈审核测试。
