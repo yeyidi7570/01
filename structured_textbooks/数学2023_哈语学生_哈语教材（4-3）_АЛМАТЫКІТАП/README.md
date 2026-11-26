@@ -191,6 +191,14 @@ PDF 一基页码与印刷页码均为 5–8。第 159 页目录列出第 81 课�
 
 [修订 JSON](02_segmentation_review/lesson_085/revision_1/content.json) · [新版中文审核页](02_segmentation_review/lesson_085/revision_1/review_zh.html) · [新版哈语审核页](02_segmentation_review/lesson_085/revision_1/review_kk.html) · [修订日志](02_segmentation_review/lesson_085/revision_1/change_log.md) · [原始审核记录](02_segmentation_review/lesson_085/submissions/review_001_original.json) · [聊天确认](02_segmentation_review/lesson_085/submissions/review_002_chat.json)
 
+### 第 86 课第一轮审核
+
+**Бір бағыттағы қуып жету қозғалысы**（同向追及运动），PDF 与印刷第 22–24 页。原始审核导出按原字节归档，82 条记录覆盖 **76/76 项有效通过**，其中内容 73 项、页面完整性 3 项。共 9 个 Module、1 个独立 Instructional Note 和 52 条 OCR 建议。
+
+审核快照沿用 `2026-11-26-initial-1`，两版离线审核页均预载原始审核记录，教材 JSON 沿用初版。
+
+[审核所用 JSON](02_segmentation_review/lesson_086/content.json) · [中文审核页](02_segmentation_review/lesson_086/review_zh.html) · [哈语审核页](02_segmentation_review/lesson_086/review_kk.html) · [原始审核记录](02_segmentation_review/lesson_086/submissions/review_001_original.json)
+
 ## 第 103–108 课
 
 切割进度为 `segmentation_completed`，内容均为 `pending_review`。PDF 一基页码与印刷页码相同。
