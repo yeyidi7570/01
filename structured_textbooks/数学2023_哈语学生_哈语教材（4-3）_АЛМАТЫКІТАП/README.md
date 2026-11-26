@@ -182,3 +182,9 @@ PDF 一基页码与印刷页码均为 5–8。第 159 页目录列出第 81 课�
 请复核第 100 课第 8 题的同花条件、第 101 课第 5 题图线的 B 点读数，以及第 102 课第 4 题能否重复选鱼、第 9 题密码插图的数字限制。原书题干均已保留。
 
 本批各课均通过静态校验和断网中哈审核测试。
+
+### 第 85 课第一轮审核修订 1
+
+第 20 页 5Ә 将 5А 两位滑雪者的运动图线画进同一坐标系，新增 5Ә → 5А 的材料关联。原始 66 条记录已归档，沿用 65 项通过。新增关联是唯一待复核项。
+
+[修订 JSON](02_segmentation_review/lesson_085/revision_1/content.json) · [新版中文审核页](02_segmentation_review/lesson_085/revision_1/review_zh.html) · [新版哈语审核页](02_segmentation_review/lesson_085/revision_1/review_kk.html) · [修订日志](02_segmentation_review/lesson_085/revision_1/change_log.md) · [原始审核记录](02_segmentation_review/lesson_085/submissions/review_001_original.json)
