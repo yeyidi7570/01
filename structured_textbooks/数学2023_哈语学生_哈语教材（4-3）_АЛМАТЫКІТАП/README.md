@@ -69,3 +69,9 @@ PDF 一基页码与印刷页码均为 5–8。第 159 页目录列出第 81 课�
 - 第 11 页“НЕГЕ / АТА / ТҮСІНДІР”贴近第 9 题，暂列页末 Other，作用范围待核。
 
 静态校验和 7 项教学关联回归测试已通过。中哈两版均在断网 Chromium 中通过合并格反馈、作答空格显示、跨页定位、同一 Module 引用拦截、遗漏框选、草稿恢复与双向导入导出。系统策略拦截 `file://`，实测由本地请求拦截载入原 HTML，期间无外部请求。
+
+### 第一轮审核修订 1
+
+第 4 题 ә) 的草莓配图移除，作答条件仍在题干，完整插图仍可在原扫描查看。新增第 9 页单位面积产量定义对第 11 页第 8 题的概念支持。原始 80 条记录已按字节归档，76 项有效通过均继承，新关联为唯一待复核项。
+
+[修订 JSON](02_segmentation_review/lesson_082/revision_1/content.json) · [新版中文审核页](02_segmentation_review/lesson_082/revision_1/review_zh.html) · [新版哈语审核页](02_segmentation_review/lesson_082/revision_1/review_kk.html) · [修订日志](02_segmentation_review/lesson_082/revision_1/change_log.md) · [原始审核记录](02_segmentation_review/lesson_082/submissions/review_001_original.json)
