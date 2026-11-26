@@ -43,7 +43,11 @@ PDF 一基页码与印刷页码均为 5–8。第 159 页目录列出第 81 课�
 
 [修订 JSON](02_segmentation_review/lesson_081/revision_2/content.json) · [新版中文审核页](02_segmentation_review/lesson_081/revision_2/review_zh.html) · [新版哈语审核页](02_segmentation_review/lesson_081/revision_2/review_kk.html) · [修订日志与历史影响范围](02_segmentation_review/lesson_081/revision_2/change_log.md)
 
-范围为第三册第一课。后续课次待人工抽查后另行处理。
+### 第一轮审核修订 3
+
+按图片必要性规则核对第 81 课。第 1 题图保留词语和算式配对，裁图聚焦必要区域。第 4 题天气图和六幅回顾三角图保留。第 5 题无标签作图参考和重复课题的吉祥物文字已从结构化数据移除，完整原扫描和 OCR 来源保留。新版保留 8 个必要图示和 71 条 OCR 建议，继承 107 项通过，尚有 8 项待审核。
+
+[修订 JSON](02_segmentation_review/lesson_081/revision_3/content.json) · [新版中文审核页](02_segmentation_review/lesson_081/revision_3/review_zh.html) · [新版哈语审核页](02_segmentation_review/lesson_081/revision_3/review_kk.html) · [修订日志](02_segmentation_review/lesson_081/revision_3/change_log.md)
 
 ## 第 82 课
 

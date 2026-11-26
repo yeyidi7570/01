@@ -21,6 +21,7 @@ python "$tool" compare --old "$previous_content" --new "$new_stage/content.json"
 
 ## 通用审核界面使用的数据合同
 
+- 图片是否提供必要信息，需要在切割时将原图与对应题干或说明人工对照。`check` 校验图对象、裁图和关联等数据约束。图中是否有数字不作为保留判据。
 - 顶层含 `data_version`、`review_status`、`book`、`source`、`schema_rules`、`lesson`、`pages`、`crop_assets`、`ocr_suggestions`。必要时添加坐标系、计数和证据元数据。使用一个明确稳定的复核版本。每个 `page` 有 `id`、`pdf_page`、`printed_page`、`width`、`height`、`scan_asset_id`、`scan_path`，可提供 `scan_sha256`。
 - `lesson` 包含 `id`、`number`、`title_kk`、`review_status`、`pdf_page_range`、`printed_page_range`、`boundary_evidence`、`units`、`content_order` 和 `teaching_links`。 `schema_rules.instructional_note_badges` 记录经原书确认的标签。
 - `units` 及嵌套 `elements` 的必需字段为 `id`、`parent_id`、`type`、`review_status` 和 `page_refs`。有子项时列出直接子项 ID 的 `content_order`。位置包括 `pdf_page`、`printed_page`、`scan_asset_id` 和像素 `bbox`。常见可选字段有 `text_kk`、`role`、`module_number`、`subtask_label`、`scope_ids`、`review_flags`；复核提示含 `code`、`description_kk`。
