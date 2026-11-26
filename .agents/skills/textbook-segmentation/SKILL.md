@@ -21,7 +21,7 @@ description: 对指定教材的单课、课次范围或整册逐课执行原书�
    逐张结合题干或独立教学说明判断图片的必要性。省略后仍可理解并完成任务、教学说明也无信息损失的配图留在原扫描中，结构化 JSON 无需图对象、裁图或情境描述。
    教学关联中的 `uses_as_material` 用于明确引用其他 Module 或独立材料，也用于同一 Module 内一个子题明确引用另一个子题中作答所必需的材料。题目与自身材料的归属由父子结构保留。`supports` 仍表示独立说明提供知识或方法。
 4. **生成离线审核页。** 新切割通过 `scripts/lesson.py render` 默认使用新版逐元素审核模板。书级历史生成器用于复现历史产物。两个语言版由同一数据、资源和逻辑生成。按 [双语审核](references/review.md) 检查翻译、卡片、审核状态与导入导出。
-5. **验证和归档。** 运行 `scripts/lesson.py check`，对照原图人工走查，并实际用断网浏览器测试两个语言版本。仅将通过检查的 `content.json`、`review_zh.html`、`review_kk.html` 放入 `structured_textbooks/<完整教材名称>/01_segmentation/lesson_XXX/`。若为人工反馈修订，将提交原件和新版本放入第二阶段。填写该书 README 的真实进度。按 [重跑与归档](references/publish.md) 提交、非强推推送并验证 GitHub 上的提交及文件。推送受阻则区分本地完成和远程交付，报告具体情况。
+5. **验证和归档。** 运行 `scripts/lesson.py check`，对照原图人工走查，并实际用断网浏览器测试两个语言版本。对可确定性重绘的必要图示，按 [必要图示重绘验证](references/redraw.md) 冻结第一版数据，仅用结构化数据绘图，再与原图比较并修正。仅将通过检查的 `content.json`、`review_zh.html`、`review_kk.html` 放入 `structured_textbooks/<完整教材名称>/01_segmentation/lesson_XXX/`。若为人工反馈修订，将提交原件和新版本放入第二阶段。填写该书 README 的真实进度。按 [重跑与归档](references/publish.md) 提交、非强推推送并验证 GitHub 上的提交及文件。推送受阻则区分本地完成和远程交付，报告具体情况。
 6. **逐课报告。** 给出真实课号、标题、PDF 与印刷页、Module/Note/OCR 建议数量、主要疑点、三个远程路径、Commit SHA、分支和推送结果。范围任务汇总真实完成与剩余课次。切割完成状态与人工验收状态分别记录。
 
 [仓库及 V4 参考案例](references/repository.md) 提供目录入口、历史实现和调用示例。案例数据不能充当新课模板输入或审核完成凭证。

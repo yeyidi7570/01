@@ -18,6 +18,7 @@ python "$tool" compare --old "$previous_content" --new "$new_stage/content.json"
 - `refresh-review --current-review` 可预载已归档的同版本审核记录。传入的包只包含当前版本的 `records`，原有历史继续从归档页面读取。明确通过的聊天确认可以作为带来源和原话的独立记录归档。
 - `check` 验证并输出统计，覆盖数据身份和结构、页坐标、标签/表格/关联、OCR 建议引用、两版内嵌数据/资源/行为完全一致以及基本离线壳和体积。默认执行跨 Module 或跨 Subtask 的材料引用规则，与 `render` 和 `refresh-review` 一致。只读检查采用旧材料规则的已归档文件时，可指定 `--allow-legacy-material-links`，其余关联校验仍生效。旧 V4 单对象界面使用 `--allow-legacy-review` 只读检查。新交付使用默认严格校验，另做 [人工和浏览器实测](review.md)。
 - `compare` 以稳定 ID 报告相同、改变、删除和新增的对象。`--old` 兼容旧版范围内的材料关联，`--new` 执行当前规则。该命令不猜测拆分/合并对象的对应，也不迁移反馈。
+- 图示重绘是独立校验，`check` 仍用于结构和双语配套检查。按 [重绘验证](redraw.md) 在隔离目录调用匹配图形类型的确定性绘图脚本，输入只包含冻结数据和绘图代码。
 
 ## 通用审核界面使用的数据合同
 
