@@ -153,7 +153,7 @@ def plan(args):
     print(json.dumps(results, ensure_ascii=False, indent=2))
 
 
-def validate_content(data):
+def validate_content(data, *, allow_legacy_material_links=False):
     lesson = data['lesson']
     require(data['data_version'] and data['book']['id'] and data['book']['title_kk']
             and lesson['id'] and lesson['title_kk'] and integer(lesson['number']) and lesson['number'] > 0,
@@ -206,7 +206,7 @@ def validate_content(data):
             for ref in o['page_refs']:
                 location(ref)
             kind = o['type']
-            item_owner = kind if kind in ('module', 'instructional_note') else owner
+            item_owner = o['id'] if kind in ('module', 'instructional_note') else owner
             unit_owners[o['id']] = item_owner
             if kind == 'instructional_note':
                 require(parent==lesson['id'] and o['instructional_note_badge'] in note_badges, f'invalid Note: {o["id"]}')
@@ -278,10 +278,14 @@ def validate_content(data):
                 and origin in unit_owners and target in unit_owners
                 and origin != target and link.get('rationale_kk')
                 and link['page_refs'] and link['review_status'], f'invalid teaching link: {link["id"]}')
-        owners = (unit_owners[origin], unit_owners[target])
-        require((relationship == 'supports' and owners == ('instructional_note', 'module'))
-                or (relationship == 'uses_as_material' and owners[0] == 'module'),
+        origin_owner, target_owner = unit_owners[origin], unit_owners[target]
+        origin_kind = ids[origin_owner]['type'] if origin_owner else None
+        target_kind = ids[target_owner]['type'] if target_owner else None
+        require((relationship == 'supports' and (origin_kind, target_kind) == ('instructional_note', 'module'))
+                or (relationship == 'uses_as_material' and origin_kind == 'module'),
                 f'invalid teaching link direction ({relationship}): {link["id"]}: {origin} -> {target}')
+        require(allow_legacy_material_links or relationship != 'uses_as_material' or origin_owner != target_owner,
+                f'uses_as_material must cross Module boundaries: {link["id"]}: {origin} -> {target}')
         for ref in link['page_refs']:
             location(ref)
         register(link)
@@ -406,13 +410,13 @@ def validate_current_review(data, ids, package):
         seen.add(record_id)
 
 
-def read_package(directory, allow_legacy=False):
+def read_package(directory, allow_legacy=False, *, allow_legacy_material_links=False):
     for name in FILES:
         p=directory/name
         require(p.is_file() and 0 < p.stat().st_size <= MAX_BYTES, f'missing, empty or oversized file: {p}')
     raw=(directory/'content.json').read_bytes()
     data=json.loads(raw)
-    ids, asset_ids=validate_content(data)
+    ids, asset_ids=validate_content(data,allow_legacy_material_links=allow_legacy_material_links)
     slug=f'lesson_{data["lesson"]["number"]:03}'
     if re.fullmatch(r'lesson_\d+', directory.name):
         require(directory.name==slug, f'folder name must be {slug}')
@@ -455,8 +459,8 @@ def read_package(directory, allow_legacy=False):
     return raw,data,editions,assets,prior,current,stats
 
 
-def audit_package(directory, allow_legacy=False):
-    return read_package(directory,allow_legacy)[-1]
+def audit_package(directory, allow_legacy=False, *, allow_legacy_material_links=False):
+    return read_package(directory,allow_legacy,allow_legacy_material_links=allow_legacy_material_links)[-1]
 
 
 def script_json(obj):
@@ -556,7 +560,7 @@ def compare(args):
     new = read(args.new)
     require(old['book']['id']==new['book']['id'] and old['lesson']['id']==new['lesson']['id']
             and old['lesson']['number']==new['lesson']['number'], 'different Lesson identity')
-    a,_=validate_content(old)
+    a,_=validate_content(old,allow_legacy_material_links=True)
     b,_=validate_content(new)
     shared=a.keys() & b.keys()
     def own(obj):
@@ -587,6 +591,8 @@ def main():
     c=sub.add_parser('check',help='check content, assets and bilingual embedded parity')
     c.add_argument('--lesson-dir',type=Path,required=True)
     c.add_argument('--allow-legacy-review',action='store_true')
+    c.add_argument('--allow-legacy-material-links',action='store_true',
+                   help='inspect an archived package that predates the cross-Module material rule')
     d=sub.add_parser('compare',help='list stable, changed, removed and added IDs; no migration')
     d.add_argument('--old',type=Path,required=True)
     d.add_argument('--new',type=Path,required=True)
@@ -599,7 +605,8 @@ def main():
         elif args.command=='refresh-review':
             refresh_review(args)
         elif args.command=='check':
-            print(json.dumps(audit_package(args.lesson_dir,args.allow_legacy_review),ensure_ascii=False))
+            print(json.dumps(audit_package(args.lesson_dir,args.allow_legacy_review,
+                                           allow_legacy_material_links=args.allow_legacy_material_links),ensure_ascii=False))
         else:
             compare(args)
     except (OSError, ValueError, KeyError, TypeError, AttributeError, ImportError) as err:

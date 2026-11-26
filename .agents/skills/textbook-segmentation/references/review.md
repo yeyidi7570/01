@@ -24,4 +24,4 @@
 
 用 `file://` 打开双语产物并拦截网络。检查扫描、切框、滚动定位与跨页分组。用单个和多个 Formula 的 Example、含子项的 Instructional Note 和空容器核对按钮数量和父级汇总。逐项对照重建竖式与原书裁图，核对数位、单位、符号、横线范围、空位、进借位和换算顺序。检查重要 Badge 疑点、合并与空白单元格、页面遗漏框选、局部修改。核对原始审核包导入、新包双语交叉导入及草稿恢复，确认记录身份和问题状态保留。现有历史产物可用静态检查读取，重新生成时使用当前模板。
 
-Teaching Link 的卡片与编辑器都按关系显示端点角色。`supports` 是「提供方法或知识 → 受支持的任务」，`uses_as_material` 是「使用者 → 引用材料」。在中哈两版测试两类卡片、点击端点后的定位、切换关系后的角色、颠倒任务和说明后保存被拒绝，以及导出的关系仍使用 `from_id`、`to_id` 和 `relationship`。运行 `python -m unittest discover -s .agents/skills/textbook-segmentation/scripts -p 'test_teaching_links.py'` 校验数据方向。
+Teaching Link 的卡片与编辑器都按关系显示端点角色。`supports` 是「提供方法或知识 → 受支持的任务」，`uses_as_material` 是「使用者 → 所属 Module 之外的引用材料」。在中哈两版测试适用的卡片、端点定位和切换关系后的角色。保存时应拒绝倒置的支持关系、同一 Module 内的材料关系（包括不同子题），并接受有证据的跨 Module 或独立材料引用。导出使用 `from_id`、`to_id` 和 `relationship`。旧审核记录继续按原版本导入和再导出。运行 `python -m unittest discover -s .agents/skills/textbook-segmentation/scripts -p 'test_teaching_links.py'` 校验数据方向和 Module 边界。

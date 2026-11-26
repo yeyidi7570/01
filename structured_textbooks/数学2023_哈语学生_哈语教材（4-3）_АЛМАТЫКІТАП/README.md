@@ -37,4 +37,10 @@ PDF 一基页码与印刷页码均为 5–8。第 159 页目录列出第 81 课�
 
 [修订 JSON](02_segmentation_review/lesson_081/revision_1/content.json) · [新版中文审核页](02_segmentation_review/lesson_081/revision_1/review_zh.html) · [新版哈语审核页](02_segmentation_review/lesson_081/revision_1/review_kk.html) · [修订日志](02_segmentation_review/lesson_081/revision_1/change_log.md) · [原始审核记录](02_segmentation_review/lesson_081/submissions/review_001_original.json)
 
+### 第一轮审核修订 2
+
+按跨 Module 材料引用规则移除了第 4 题指向题内天气图的关联。天气图、图例、结构化描述和全部 7 条 `supports` 保留。新版继承 110 项有效通过（含 4 页切割完整性），继续待审核 7 项。被删除关联的旧通过记录留在原审核历史中。
+
+[修订 JSON](02_segmentation_review/lesson_081/revision_2/content.json) · [新版中文审核页](02_segmentation_review/lesson_081/revision_2/review_zh.html) · [新版哈语审核页](02_segmentation_review/lesson_081/revision_2/review_kk.html) · [修订日志与历史影响范围](02_segmentation_review/lesson_081/revision_2/change_log.md)
+
 范围为第三册第一课。后续课次待人工抽查后另行处理。

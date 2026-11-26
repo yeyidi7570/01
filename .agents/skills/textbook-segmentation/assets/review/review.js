@@ -709,9 +709,11 @@ function linkOwner(id) {
   return byId.get(byId.get(id)?.owner)?.o.type;
 }
 function validLinkDirection(from,to,relationship) {
-  if (!from || !to || from===to) return false;
+  const target=byId.get(to);
+  if (from===to || !target || ['page','teaching_link'].includes(target.o.type)) return false;
   if (relationship==='supports') return linkOwner(from)==='instructional_note' && linkOwner(to)==='module';
-  return relationship==='uses_as_material' && linkOwner(from)==='module';
+  return relationship==='uses_as_material' && linkOwner(from)==='module' &&
+    byId.get(from).owner!==target.owner;
 }
 function issueChanges(ctx,code) {
   const {o,cell,pdf,box}=ctx;
@@ -1287,8 +1289,8 @@ scroller.addEventListener('scroll',()=>{if(!narrow())syncScroll();},{passive:tru
 window.addEventListener('scroll',()=>{if(narrow())syncScroll();},{passive:true});
 
 const extraLabels={
-  zh:{upper:'上行',lower:'下行',operator:'运算符',result:'结果',equivalence:'等值换算',invalidLink:'请检查关系方向。提供方法的说明指向受支持的任务，使用材料的任务指向所用材料，两端须为不同对象。',rowSpan:'跨行数',colSpan:'跨列数'},
-  kk:{upper:'Жоғарғы жол',lower:'Төменгі жол',operator:'Амал таңбасы',result:'Нәтиже',equivalence:'Тең мәнді түрлендіру',invalidLink:'Байланыс бағытын тексеріңіз. Әдіс беретін ескертпе қолдау алатын тапсырмаға, материалды қолданатын тапсырма сол материалға бағытталады. Екі нысан бөлек болуы керек.',rowSpan:'Қамтитын жол саны',colSpan:'Қамтитын баған саны'}
+  zh:{upper:'上行',lower:'下行',operator:'运算符',result:'结果',equivalence:'等值换算',invalidLink:'请检查关联端点。教学支持从说明指向受支持的任务，材料引用从任务指向该任务范围之外的材料。',rowSpan:'跨行数',colSpan:'跨列数'},
+  kk:{upper:'Жоғарғы жол',lower:'Төменгі жол',operator:'Амал таңбасы',result:'Нәтиже',equivalence:'Тең мәнді түрлендіру',invalidLink:'Байланыс нысандарын тексеріңіз. Әдіс беретін ескертпе қолдау алатын тапсырмаға, ал материалды қолданатын тапсырма өзіне тиесілі емес материалға бағытталады.',rowSpan:'Қамтитын жол саны',colSpan:'Қамтитын баған саны'}
 };
 Object.assign(ui,extraLabels[lang]);
 for (const el of document.querySelectorAll('[data-i]')) el.textContent=ui[el.dataset.i];
