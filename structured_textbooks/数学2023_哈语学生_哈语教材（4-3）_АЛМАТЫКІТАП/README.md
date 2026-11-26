@@ -75,3 +75,9 @@ PDF 一基页码与印刷页码均为 5–8。第 159 页目录列出第 81 课�
 第 4 题 ә) 的草莓配图移除，作答条件仍在题干，完整插图仍可在原扫描查看。新增第 9 页单位面积产量定义对第 11 页第 8 题的概念支持。原始 80 条记录已按字节归档，76 项有效通过均继承，新关联为唯一待复核项。
 
 [修订 JSON](02_segmentation_review/lesson_082/revision_1/content.json) · [新版中文审核页](02_segmentation_review/lesson_082/revision_1/review_zh.html) · [新版哈语审核页](02_segmentation_review/lesson_082/revision_1/review_kk.html) · [修订日志](02_segmentation_review/lesson_082/revision_1/change_log.md) · [原始审核记录](02_segmentation_review/lesson_082/submissions/review_001_original.json)
+
+### 第一轮审核修订 2
+
+第 8 题已给出两处单位面积产量，所需方法是统一单位后比较。撤除修订 1 新增的定义支持关联，保留原有的两条支持关系。新版沿用 76 项有效通过，审核页显示 0 项待核。
+
+[修订 JSON](02_segmentation_review/lesson_082/revision_2/content.json) · [新版中文审核页](02_segmentation_review/lesson_082/revision_2/review_zh.html) · [新版哈语审核页](02_segmentation_review/lesson_082/revision_2/review_kk.html) · [修订日志](02_segmentation_review/lesson_082/revision_2/change_log.md)
