@@ -185,6 +185,6 @@ PDF 一基页码与印刷页码均为 5–8。第 159 页目录列出第 81 课�
 
 ### 第 85 课第一轮审核修订 1
 
-第 20 页 5Ә 将 5А 两位滑雪者的运动图线画进同一坐标系，新增 5Ә → 5А 的材料关联。原始 66 条记录已归档，沿用 65 项通过。新增关联是唯一待复核项。
+第 20 页 5Ә 将 5А 两位滑雪者的运动图线画进同一坐标系，新增 5Ә → 5А 的材料关联。原始 66 条记录已归档，沿用 65 项通过。用户随后确认新增关联通过，第一轮审核共 66 项通过。
 
-[修订 JSON](02_segmentation_review/lesson_085/revision_1/content.json) · [新版中文审核页](02_segmentation_review/lesson_085/revision_1/review_zh.html) · [新版哈语审核页](02_segmentation_review/lesson_085/revision_1/review_kk.html) · [修订日志](02_segmentation_review/lesson_085/revision_1/change_log.md) · [原始审核记录](02_segmentation_review/lesson_085/submissions/review_001_original.json)
+[修订 JSON](02_segmentation_review/lesson_085/revision_1/content.json) · [新版中文审核页](02_segmentation_review/lesson_085/revision_1/review_zh.html) · [新版哈语审核页](02_segmentation_review/lesson_085/revision_1/review_kk.html) · [修订日志](02_segmentation_review/lesson_085/revision_1/change_log.md) · [原始审核记录](02_segmentation_review/lesson_085/submissions/review_001_original.json) · [聊天确认](02_segmentation_review/lesson_085/submissions/review_002_chat.json)

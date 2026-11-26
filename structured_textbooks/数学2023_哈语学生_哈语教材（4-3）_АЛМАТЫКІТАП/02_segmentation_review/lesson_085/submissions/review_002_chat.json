@@ -1,0 +1,85 @@
+{
+  "schema_version": "textbook-review/4.0",
+  "textbook_id": "math-2023-grade4-part3",
+  "lesson_id": "math-2023-grade4-part3:lesson-085",
+  "data_version": "2026-11-26-revision-1",
+  "records": [
+    {
+      "schema_version": "textbook-review/4.0",
+      "textbook_id": "math-2023-grade4-part3",
+      "lesson_id": "math-2023-grade4-part3:lesson-085",
+      "data_version": "2026-11-26-revision-1",
+      "record_id": "0c429fd6-a60f-46e5-b6bc-cea5b922d13a",
+      "reviewer_stream_id": "f9c5e2e0-4adc-4d9d-a3a4-f00fef0b94ff",
+      "report_kind": "object_review",
+      "object_id": "math-2023-grade4-part3:lesson-085:link:m05ae-uses-m05a-skiers",
+      "object_type": "teaching_link",
+      "pdf_page": 20,
+      "source_locations": [
+        {
+          "pdf_page": 20,
+          "printed_page": "20",
+          "bbox": [
+            158,
+            1011,
+            863,
+            1169
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p020:scan"
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": "20",
+          "bbox": [
+            156,
+            609,
+            883,
+            1005
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p020:scan"
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": "20",
+          "bbox": [
+            153,
+            946,
+            254,
+            965
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p020:scan"
+        },
+        {
+          "pdf_page": 20,
+          "printed_page": "20",
+          "bbox": [
+            517,
+            941,
+            613,
+            966
+          ],
+          "scan_asset_id": "math-2023-grade4-part3:p020:scan"
+        }
+      ],
+      "status": "approved",
+      "review_scope": "textbook",
+      "issue_code": null,
+      "note": "",
+      "original_content": {
+        "from_id": "math-2023-grade4-part3:lesson-085:m05:sub-Ә",
+        "to_id": "math-2023-grade4-part3:lesson-085:m05:sub-А",
+        "relationship": "uses_as_material",
+        "rationale_kk": "5Ә тапсырмасы бірінші және екінші шаңғышының қозғалыс графиктерін бір координаталық жүйеде сызуды сұрайды. Екі шаңғышыға берілген 15 және 5 км/сағ жылдамдықтар және олардың жеке графиктерін құру тапсырмасы 5А-да берілген."
+      },
+      "changes": [],
+      "confirmed_suggestion_ids": [],
+      "interface_language": "zh",
+      "recorded_at": "2026-11-26T06:05:17.113Z",
+      "supersedes": [],
+      "provenance": {
+        "source": "user_chat",
+        "quote": "85通过"
+      }
+    }
+  ]
+}
