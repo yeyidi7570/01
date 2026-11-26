@@ -140,3 +140,9 @@ PDF 一基页码与印刷页码均为 5–8。第 159 页目录列出第 81 课�
 第 16 页 3Б 明确要求读取 3Ә 的运动图线来填表，新增 3Б → 3Ә 图线的 `uses_as_material`。初版 118 个对象均为等同对象，旧版审核记录可导入。新增关联待审核。
 
 [修订 JSON](02_segmentation_review/lesson_084/revision_1/content.json) · [新版中文审核页](02_segmentation_review/lesson_084/revision_1/review_zh.html) · [新版哈语审核页](02_segmentation_review/lesson_084/revision_1/review_kk.html) · [修订日志与历史盘点](02_segmentation_review/lesson_084/revision_1/change_log.md)
+
+### 第 84 课第一轮审核修订 2
+
+第 16 页 3Ә 的图线说明补全横轴时刻、网格单位与折线经过的七个点。原始 JSON 中的 76 条记录按原字节归档。新版保留 72 项有效通过，含 3Б → 3Ә 图线的材料关联。唯一待复核项是更新后的 3Ә 图线说明。
+
+[修订 JSON](02_segmentation_review/lesson_084/revision_2/content.json) · [新版中文审核页](02_segmentation_review/lesson_084/revision_2/review_zh.html) · [新版哈语审核页](02_segmentation_review/lesson_084/revision_2/review_kk.html) · [修订日志](02_segmentation_review/lesson_084/revision_2/change_log.md) · [原始审核记录](02_segmentation_review/lesson_084/submissions/review_001_original.json)
