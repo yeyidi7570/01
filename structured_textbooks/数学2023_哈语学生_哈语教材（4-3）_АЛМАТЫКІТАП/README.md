@@ -102,3 +102,9 @@ PDF 一基页码与印刷页码均为 5–8。第 159 页目录列出第 81 课�
 - 第 14 页页末提示语印在第 11 题旁，作用范围待核。
 
 静态校验和十项回归测试已通过。中哈两版均在断网 Chromium 中验证了原扫描与定位、表格空格、分数裁图、遗漏反馈、草稿恢复和双向导入导出。浏览器通过本地请求拦截载入同一 HTML，测试期间无外部请求。
+
+### 第一轮审核修订 1
+
+第 10 题新版以完整段落显示，六个分数在句中显示为上下式。逐项审核和原图定位保留。原始 88 条记录按字节归档，继承 83 项有效通过。第 1 题继续保留「无法判断」记录。
+
+[修订 JSON](02_segmentation_review/lesson_083/revision_1/content.json) · [新版中文审核页](02_segmentation_review/lesson_083/revision_1/review_zh.html) · [新版哈语审核页](02_segmentation_review/lesson_083/revision_1/review_kk.html) · [修订日志](02_segmentation_review/lesson_083/revision_1/change_log.md) · [原始审核记录](02_segmentation_review/lesson_083/submissions/review_001_original.json)

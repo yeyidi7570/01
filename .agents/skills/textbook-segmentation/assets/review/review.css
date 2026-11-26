@@ -123,6 +123,7 @@ sup u{text-underline-offset:2px}
 .vertical-grid .vertical-quotient_digit.place-mark::after{content:'·';position:absolute;inset-inline:0;bottom:-.4em;text-align:center}
 .vertical-grid .vertical-remainder_label{width:0;padding-inline-start:.2em}
 .equations{font-family:ui-monospace,monospace;white-space:pre-wrap}
+.inline-fraction{white-space:nowrap}
 .child-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.35rem;margin:.55rem 0}
 .child-list button{text-align:left;font-size:.83rem;font-weight:500}
 details{margin-top:.55rem;border-top:1px solid var(--line);padding-top:.42rem}

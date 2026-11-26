@@ -224,6 +224,12 @@ def validate_content(data, *, allow_legacy_material_links=False):
             if o.get('crop_asset_id'):
                 require(o['crop_asset_id'] in data['crop_assets'], f'missing crop asset: {o["id"]}')
             vertical = o.get('vertical') or {}
+            if 'fraction' in o:
+                fraction = o['fraction']
+                require(kind == 'formula' and not vertical and o.get('text_kk')
+                        and isinstance(fraction,dict) and fraction.get('notation') == 'stacked'
+                        and integer(fraction.get('numerator')) and integer(fraction.get('denominator'))
+                        and fraction['denominator'] > 0, f'invalid stacked fraction: {o["id"]}')
             if 'layout' in vertical:
                 require(kind == 'formula' and o.get('text_kk') and o.get('crop_asset_id'),
                         f'vertical grid needs a transcription and reference crop: {o["id"]}')

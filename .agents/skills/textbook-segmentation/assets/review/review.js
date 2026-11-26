@@ -303,7 +303,7 @@ function exportRecords() {
 function original(o) {
   if (o.type==='teaching_link') return {from_id:o.from_id,to_id:o.to_id,relationship:o.relationship,rationale_kk:o.rationale_kk};
   if (o.type==='page') return {pdf_page:pageOf(o),printed_page:o.page_refs[0].printed_page};
-  const fields=['type','parent_id','content_order','exercise_input_ids','text_kk','cells','vertical','worked_sequence','structured_description','scope_ids','instructional_note_badge','ocr_evidence'];
+  const fields=['type','parent_id','content_order','exercise_input_ids','text_kk','cells','vertical','fraction','worked_sequence','structured_description','scope_ids','instructional_note_badge','ocr_evidence'];
   return Object.fromEntries(fields.filter(k=>o[k]!==undefined).map(k=>[k,o[k]]));
 }
 function append(o,status,extra={}) {
@@ -411,6 +411,59 @@ const verticalLabels = {
   invalid:local(['请输入有效的二维布局 JSON。','Екі өлшемді орналасудың жарамды JSON деректерін енгізіңіз.'])
 };
 
+const fractionLabels = {
+  numerator:local(['分子','Алым']),
+  denominator:local(['分母','Бөлім']),
+  invalid:local(['请输入整数分子和正整数分母。','Алымға бүтін санды, бөлімге оң бүтін санды енгізіңіз.'])
+};
+
+function renderFraction(fraction) {
+  const ns='http://www.w3.org/1998/Math/MathML';
+  const math=document.createElementNS(ns,'math');
+  const bar=document.createElementNS(ns,'mfrac');
+  for (const value of [fraction.numerator,fraction.denominator]) {
+    const number=document.createElementNS(ns,'mn');
+    number.textContent=String(value);
+    bar.append(number);
+  }
+  math.append(bar);
+  return math;
+}
+
+function renderProblemStatement(div,o) {
+  const parts=o.elements??[];
+  if (o.role!=='problem_statement' || !parts.some(part=>part.fraction) ||
+      !parts.every(part=>part.fraction || part.text_kk)) return;
+  const render=(getText,separator,cls)=>{
+    const paragraph=node('p',null,`content problem-passage ${cls}`);
+    for (const part of parts) {
+      if (part.fraction) {
+        if (paragraph.hasChildNodes()) paragraph.append(separator);
+        const wrapper=node('span',null,'inline-fraction');
+        wrapper.append(renderFraction(part.fraction));
+        paragraph.append(wrapper);
+        continue;
+      }
+      const content=getText(part);
+      const previous=paragraph.lastChild;
+      const suffix=separator && previous?.classList?.contains('inline-fraction') && content.match(/^-[^\s]+/);
+      if (suffix) {
+        previous.append(suffix[0]);
+        paragraph.append(content.slice(suffix[0].length));
+      } else {
+        if (paragraph.hasChildNodes()) paragraph.append(separator);
+        paragraph.append(content);
+      }
+    }
+    div.append(paragraph);
+  };
+  render(part=>part.text_kk,' ','');
+  if (lang==='zh' && parts.every(part=>part.fraction || aux(part.id))) {
+    div.append(node('div',ui.translation,'caption'));
+    render(part=>aux(part.id),'','translation');
+  }
+}
+
 function renderContent(div,o,view) {
   if (o.type==='page') block(div,null,ui.pageAudit);
   if (o.instructional_note_badge && o.instructional_note_badge!==o.text_kk &&
@@ -420,7 +473,10 @@ function renderContent(div,o,view) {
   if (o.vertical) {
     div.append(node('div',verticalLabels.reconstructed,'caption'));
     renderVertical(div,o.vertical,o.text_kk);
+  } else if (o.fraction) {
+    div.append(renderFraction(o.fraction));
   } else block(div,null,o.text_kk,o.type==='formula'?'equations':'');
+  renderProblemStatement(div,o);
   if (aux(o.id) && hasContent(o) && !['teaching_link','subtask_number'].includes(o.type)) {
     block(div,ui.translation,aux(o.id),'translation');
   }
@@ -685,6 +741,15 @@ function setFields(panel,code,ctx) {
     f.type='number'; f.min=1; f.max=o.row_count-cell.row; f.value=cell.rowspan;
     const g=field(panel,'new-colspan',ui.colSpan,'input');
     g.type='number'; g.min=1; g.max=o.column_count-cell.column; g.value=cell.colspan;
+  } else if (code==='formula_structure' && o.fraction) {
+    for (const key of ['numerator','denominator']) {
+      const control=field(panel,'fraction-'+key,fractionLabels[key],'input');
+      control.type='number';
+      control.step=1;
+      control.required=true;
+      if (key==='denominator') control.min=1;
+      control.value=o.fraction[key];
+    }
   } else if (code==='formula_structure' && o.vertical?.layout) {
     field(panel,'vertical-layout',verticalLabels.edit,'textarea').value=JSON.stringify(o.vertical.layout,null,2);
   } else if (code==='formula_structure' && o.vertical) {
@@ -768,6 +833,16 @@ function issueChanges(ctx,code) {
     for (const span of ['rowspan','colspan']) {
       const v=field('new-'+span).value;
       if (v) put(cell.id,span,cell[span],Number(v),'replace_table_cell',extra);
+    }
+  } else if (code==='formula_structure' && o.fraction) {
+    const numerator=field('fraction-numerator').valueAsNumber;
+    const denominator=field('fraction-denominator').valueAsNumber;
+    if (!Number.isSafeInteger(numerator) || !Number.isSafeInteger(denominator) || denominator<1) {
+      throw Error(fractionLabels.invalid);
+    }
+    if (numerator!==o.fraction.numerator || denominator!==o.fraction.denominator) {
+      put(o.id,'fraction',o.fraction,{...o.fraction,numerator,denominator},'replace_formula_layout');
+      put(o.id,'text_kk',o.text_kk,`${numerator}/${denominator}`);
     }
   } else if (code==='formula_structure' && o.vertical?.layout) {
     let layout;
