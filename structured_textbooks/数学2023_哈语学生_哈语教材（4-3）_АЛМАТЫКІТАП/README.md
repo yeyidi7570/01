@@ -2,6 +2,8 @@
 
 四年级哈萨克语数学第三册，АЛМАТЫКІТАП БАСПАСЫ，2023 年。
 
+本册第 81–130 课已完成初始切割，共 49 个教学单元。第 128–129 课为原书合编。新完成的第 91–130 课覆盖 117 页、39 个单元，共 359 个 Module、18 个独立 Instructional Note 和 1 840 条 OCR 建议，均待人工审核。第 86、138 页为单元扉页，第 158 页为术语表。各课文件与人工复核点见下方。
+
 ## 来源与复用
 
 - 原始 PDF 和仓库校对后的可搜索 PDF 均为 160 页。已核对两个文件的页数与 SHA-256，哈希与本册 Wiki 的来源记录一致。第一课以仓库的页面原图为视觉依据。[原始 PDF](../../wiki-data/数学2023_哈语学生_哈语教材（4-3）_АЛМАТЫКІТАП_数据/来源/数学2023_哈语学生_哈语教材（4-3）_АЛМАТЫКІТАП.pdf) · [OCR PDF](../../数学2023_哈语学生_哈语教材（4-3）_АЛМАТЫКІТАП_OCR.pdf) · [160 张原图](../../wiki-data/数学2023_哈语学生_哈语教材（4-3）_АЛМАТЫКІТАП_数据/来源/页面原图/) · [原 PDF 文字层](../../wiki-data/数学2023_哈语学生_哈语教材（4-3）_АЛМАТЫКІТАП_数据/来源/原PDF文字层/)
@@ -247,5 +249,26 @@ PDF 一基页码与印刷页码均为 5–8。第 159 页目录列出第 81 课�
 - 第 117、118、119、121 课的逆向应用题保留对前一子题的显式引用。
 - 第 118 课第 1 题照录「超过 900 万吨」，待核是否按估算量或下界作答。第 122 课 3А 的 250 千米对应的时点待核。
 - 第 119、120 课第 1 题的斜线表头、上下式分数和带分数保留裁图，分子分母逐格录入。现有审核模板的表格单元格只显示纯文本。
+
+本批各课均通过静态校验和断网中哈审核测试。
+
+## 第 123–130 课
+
+切割进度为 `segmentation_completed`，内容均为 `pending_review`。PDF 一基页码与印刷页码相同。
+
+| 课次与原书标题 | PDF / 印刷页码 | Module | Instructional Note | 子题 | 表格 | OCR 建议 | 文件 |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | --- |
+| 123 · Шеңбер және дөңгелек（圆周和圆面） | 139–142 | 10 | 1 | 4 | 0 | 38 | [JSON](01_segmentation/lesson_123/content.json) · [中文](01_segmentation/lesson_123/review_zh.html) · [哈语](01_segmentation/lesson_123/review_kk.html) |
+| 124 · Шеңбер және дөңгелек（圆周和圆面练习） | 143–145 | 9 | 0 | 4 | 2 | 55 | [JSON](01_segmentation/lesson_124/content.json) · [中文](01_segmentation/lesson_124/review_zh.html) · [哈语](01_segmentation/lesson_124/review_kk.html) |
+| 125 · Шеңбер және дөңгелек（圆周和圆面巩固练习） | 146–148 | 9 | 0 | 2 | 1 | 85 | [JSON](01_segmentation/lesson_125/content.json) · [中文](01_segmentation/lesson_125/review_zh.html) · [哈语](01_segmentation/lesson_125/review_kk.html) |
+| 126 · Қорытындылау（圆周和圆面总结） | 149–151 | 9 | 0 | 3 | 0 | 31 | [JSON](01_segmentation/lesson_126/content.json) · [中文](01_segmentation/lesson_126/review_zh.html) · [哈语](01_segmentation/lesson_126/review_kk.html) |
+| 127 · Өзіңді тексер（自我检测） | 152–153 | 5 | 0 | 0 | 0 | 10 | [JSON](01_segmentation/lesson_127/content.json) · [中文](01_segmentation/lesson_127/review_zh.html) · [哈语](01_segmentation/lesson_127/review_kk.html) |
+| 128–129 · Қорытындылау（综合复习） | 154–155 | 7 | 0 | 4 | 0 | 38 | [JSON](01_segmentation/lesson_128/content.json) · [中文](01_segmentation/lesson_128/review_zh.html) · [哈语](01_segmentation/lesson_128/review_kk.html) |
+| 130 · Қорытындылау（综合复习） | 156–157 | 8 | 0 | 2 | 0 | 33 | [JSON](01_segmentation/lesson_130/content.json) · [中文](01_segmentation/lesson_130/review_zh.html) · [哈语](01_segmentation/lesson_130/review_kk.html) |
+
+- 第 123、125、126 课有对照纸本量半径或直径的任务。保留原图和相对几何关系，实际厘米数按原书印刷比例复核。
+- 第 124 课第 1 题的示意图与表格对 30 厘米车轮标了不同年龄段，图为 2–4 岁，表为 2–3 岁。题干明确引用表格，整页扫描保留差异。第 125 课第 1 题的上下式分数及斜线表头在裁图中可核对，JSON 逐格记录。
+- 原书第 128–129 课为合编，统一归档到 `lesson_128`。第 5 题饼图角度为估读。第 6 题说信封排成一排，原图排成两行，只明确画出一支箭头，相邻顺序待核。
+- 第 130 课第 1 题十株一捆的计价用语、第 2 题括线覆盖距离、第 5 题无绝对长度的圆图均在审核页标记待核。第 7 题链接到第 6 题的陶罐材料。
 
 本批各课均通过静态校验和断网中哈审核测试。
