@@ -188,3 +188,22 @@ PDF 一基页码与印刷页码均为 5–8。第 159 页目录列出第 81 课�
 第 20 页 5Ә 将 5А 两位滑雪者的运动图线画进同一坐标系，新增 5Ә → 5А 的材料关联。原始 66 条记录已归档，沿用 65 项通过。用户随后确认新增关联通过，第一轮审核共 66 项通过。
 
 [修订 JSON](02_segmentation_review/lesson_085/revision_1/content.json) · [新版中文审核页](02_segmentation_review/lesson_085/revision_1/review_zh.html) · [新版哈语审核页](02_segmentation_review/lesson_085/revision_1/review_kk.html) · [修订日志](02_segmentation_review/lesson_085/revision_1/change_log.md) · [原始审核记录](02_segmentation_review/lesson_085/submissions/review_001_original.json) · [聊天确认](02_segmentation_review/lesson_085/submissions/review_002_chat.json)
+
+## 第 103–108 课
+
+切割进度为 `segmentation_completed`，内容均为 `pending_review`。PDF 一基页码与印刷页码相同。
+
+| 课次与原书标题 | PDF / 印刷页码 | Module | Instructional Note | 子题 | 表格 | OCR 建议 | 文件 |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | --- |
+| 103 · Қорытындылау（总结） | 78–80 | 10 | 0 | 0 | 3 | 38 | [JSON](01_segmentation/lesson_103/content.json) · [中文](01_segmentation/lesson_103/review_zh.html) · [哈语](01_segmentation/lesson_103/review_kk.html) |
+| 104 · Қорытындылау（总结） | 81–83 | 10 | 0 | 2 | 0 | 33 | [JSON](01_segmentation/lesson_104/content.json) · [中文](01_segmentation/lesson_104/review_zh.html) · [哈语](01_segmentation/lesson_104/review_kk.html) |
+| 105 · Өзіңді тексер（自我检测） | 84–85 | 5 | 0 | 0 | 0 | 15 | [JSON](01_segmentation/lesson_105/content.json) · [中文](01_segmentation/lesson_105/review_zh.html) · [哈语](01_segmentation/lesson_105/review_kk.html) |
+| 106 · Пайыздар（百分数） | 87–89 | 9 | 1 | 8 | 0 | 43 | [JSON](01_segmentation/lesson_106/content.json) · [中文](01_segmentation/lesson_106/review_zh.html) · [哈语](01_segmentation/lesson_106/review_kk.html) |
+| 107 · Пайыздар（百分数） | 90–92 | 11 | 1 | 4 | 4 | 54 | [JSON](01_segmentation/lesson_107/content.json) · [中文](01_segmentation/lesson_107/review_zh.html) · [哈语](01_segmentation/lesson_107/review_kk.html) |
+| 108 · Пайыздар. Пысықтау（百分数。巩固练习） | 93–95 | 10 | 0 | 0 | 2 | 30 | [JSON](01_segmentation/lesson_108/content.json) · [中文](01_segmentation/lesson_108/review_zh.html) · [哈语](01_segmentation/lesson_108/review_kk.html) |
+
+第 103 课保留了题干与图线特意设置的不一致、空白数位表及斜线表头。第 105 课自测任务继承原书课级标签，第 4 题的起始间距和运动方向未在题面写明，已标记待核。第 106–108 课保留整数分数的上下式、必要图例、方格位置和作答空位。第 107 课第 4 题的两处分数在同一题干中连续呈现。
+
+现有公式 Schema 能重建第 104 课第 6 题的除法竖式，暂不能完整重建同一题两个含多行部分积的乘法竖式。两式保留原印裁图、部分积行及其数位偏移，待人工复核。第 106 课的字母分式 `m/n` 保留上下式原裁图及分子、分母字段，当前原生分数只接受整数。
+
+本批各课均通过静态校验和断网中哈审核测试。
