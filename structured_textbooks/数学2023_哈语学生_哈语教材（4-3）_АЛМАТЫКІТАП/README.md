@@ -207,6 +207,12 @@ PDF 一基页码与印刷页码均为 5–8。第 159 页目录列出第 81 课�
 
 [审核所用 JSON](02_segmentation_review/lesson_087/content.json) · [中文审核页](02_segmentation_review/lesson_087/review_zh.html) · [哈语审核页](02_segmentation_review/lesson_087/review_kk.html) · [原始审核记录](02_segmentation_review/lesson_087/submissions/review_001_original.json)
 
+### 第 88 课第一轮审核修订 1
+
+第 30 页补全第 4 题小汽车与公交车各自的速度标签和位置，以及第 5 题坐标格单位和每段折线。原始 59 条记录已归档，两版审核页均为 55/58 项通过。两幅图待复核，第 5 题题干仍待审核。
+
+[修订 JSON](02_segmentation_review/lesson_088/revision_1/content.json) · [中文审核页](02_segmentation_review/lesson_088/revision_1/review_zh.html) · [哈语审核页](02_segmentation_review/lesson_088/revision_1/review_kk.html) · [修订日志](02_segmentation_review/lesson_088/revision_1/change_log.md) · [原始审核记录](02_segmentation_review/lesson_088/submissions/review_001_original.json)
+
 ## 第 103–108 课
 
 切割进度为 `segmentation_completed`，内容均为 `pending_review`。PDF 一基页码与印刷页码相同。
