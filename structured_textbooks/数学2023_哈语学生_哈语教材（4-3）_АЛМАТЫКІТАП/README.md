@@ -146,3 +146,19 @@ PDF 一基页码与印刷页码均为 5–8。第 159 页目录列出第 81 课�
 第 16 页 3Ә 的图线说明补全横轴时刻、网格单位与折线经过的七个点。原始 JSON 中的 76 条记录按原字节归档。新版保留 72 项有效通过，含 3Б → 3Ә 图线的材料关联。用户随后确认 3Ә 图线说明通过，第一轮审核共 73 项通过。
 
 [修订 JSON](02_segmentation_review/lesson_084/revision_2/content.json) · [新版中文审核页](02_segmentation_review/lesson_084/revision_2/review_zh.html) · [新版哈语审核页](02_segmentation_review/lesson_084/revision_2/review_kk.html) · [修订日志](02_segmentation_review/lesson_084/revision_2/change_log.md) · [原始审核记录](02_segmentation_review/lesson_084/submissions/review_001_original.json) · [聊天确认](02_segmentation_review/lesson_084/submissions/review_002_chat.json)
+
+## 第 91–95 课
+
+切割进度为 `segmentation_completed`，本批五课的内容均为 `pending_review`。PDF 一基页码与印刷页码相同。
+
+| 课次与原书标题 | PDF / 印刷页码 | Module | Instructional Note | 子题 | 表格 | OCR 建议 | 文件 |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | --- |
+| 91 · Бір бағыттағы қуып жету және қалып қою қозғалысы（同向追及与拉开距离的运动） | 39–42 | 9 | 0 | 5 | 2 | 40 | [JSON](01_segmentation/lesson_091/content.json) · [中文](01_segmentation/lesson_091/review_zh.html) · [哈语](01_segmentation/lesson_091/review_kk.html) |
+| 92 · Бір бағыттағы қуып жету және қалып қою қозғалыстарына берілген есептерді салыстыру（比较同向追及与拉开距离的应用题） | 43–45 | 10 | 0 | 9 | 0 | 42 | [JSON](01_segmentation/lesson_092/content.json) · [中文](01_segmentation/lesson_092/review_zh.html) · [哈语](01_segmentation/lesson_092/review_kk.html) |
+| 93 · Математикалық мазмұндағы пікірлер. Ақиқат және жалған（数学命题。真与假） | 46–48 | 9 | 2 | 4 | 0 | 36 | [JSON](01_segmentation/lesson_093/content.json) · [中文](01_segmentation/lesson_093/review_zh.html) · [哈语](01_segmentation/lesson_093/review_kk.html) |
+| 94 · Пікір. Пікірлердің ақиқаттығы және жалғандығы（命题及其真假） | 49–52 | 10 | 1 | 5 | 0 | 54 | [JSON](01_segmentation/lesson_094/content.json) · [中文](01_segmentation/lesson_094/review_zh.html) · [哈语](01_segmentation/lesson_094/review_kk.html) |
+| 95 · Қорытындылау. Пікір（总结。命题） | 53–55 | 8 | 0 | 0 | 0 | 38 | [JSON](01_segmentation/lesson_095/content.json) · [中文](01_segmentation/lesson_095/review_zh.html) · [哈语](01_segmentation/lesson_095/review_kk.html) |
+
+第 91 课保留咸海面积表、骑行作答表、双色运动图线与长方体尺寸图。第 92 课保留四种运动方向的图式和公式，以及编题与填空所需的图。第 93、94 课保留命题真假和否定的教学说明。第 95 课保留用于解题的指南针陈述、欧拉图、图形、星星方位和文件夹标签。
+
+第 94 课第 9 题右侧钱包内三枚较小硬币的面值无法从扫描可靠辨认，保留原图和待核标记。五课均通过静态校验和断网中哈审核测试。
