@@ -1,5 +1,5 @@
 {
-  "data_version": "2026-11-26-initial-1",
+  "data_version": "2026-11-26-redraw-1",
   "review_status": "pending_review",
   "book": {
     "id": "math-2023-grade4-part3",
@@ -470,7 +470,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "O — центр. KF — O арқылы өтетін толық кесінді, OA центр мен A нүктесін қосады. BN — O-дан өтпейтін хорда.",
+              "description_kk": "O — центр. KF — O арқылы өтетін толық кесінді, OA центр мен A нүктесін қосады. BN — O-дан өтпейтін хорда. KF центр арқылы өтеді; OA центрден басталады; BN центр арқылы өтпейді.",
               "relations": [
                 {
                   "kind": "circle_segments",
@@ -506,7 +506,92 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 400,
+                "height": 345,
+                "items": [
+                  {
+                    "type": "circle",
+                    "x": 197,
+                    "y": 166,
+                    "r": 117,
+                    "color": "#85a367",
+                    "width": 2
+                  },
+                  {
+                    "type": "text",
+                    "x": 298.8839109348241,
+                    "y": 85.50924791169028,
+                    "s": "A"
+                  },
+                  {
+                    "type": "text",
+                    "x": 80.67557895046036,
+                    "y": 235.47967949276284,
+                    "s": "B"
+                  },
+                  {
+                    "type": "text",
+                    "x": 197.0,
+                    "y": 38.0,
+                    "s": "N"
+                  },
+                  {
+                    "type": "text",
+                    "x": 120.71433396531086,
+                    "y": 62.0527781095641,
+                    "s": "K"
+                  },
+                  {
+                    "type": "text",
+                    "x": 273.28566603468914,
+                    "y": 279.9472218904359,
+                    "s": "F"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 129.8915569469276,
+                    "y1": 70.15921081818797,
+                    "x2": 264.1084430530724,
+                    "y2": 261.84078918181206,
+                    "color": "#85a367",
+                    "width": 2
+                  },
+                  {
+                    "type": "line",
+                    "x1": 94.6694942646907,
+                    "y1": 222.72272556882143,
+                    "x2": 197.0,
+                    "y2": 49.0,
+                    "color": "#85a367",
+                    "width": 2
+                  },
+                  {
+                    "type": "line",
+                    "x1": 197,
+                    "y1": 166,
+                    "x2": 286.6271998449204,
+                    "y2": 90.7938496666749,
+                    "color": "#85a367",
+                    "width": 2
+                  },
+                  {
+                    "type": "circle",
+                    "x": 197,
+                    "y": 166,
+                    "r": 4.5,
+                    "fill": "#85a367",
+                    "color": "#85a367"
+                  },
+                  {
+                    "type": "text",
+                    "x": 183,
+                    "y": 189,
+                    "s": "O"
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-126:m01:circle-and-segments:crop",
             "ocr_evidence": [
@@ -735,7 +820,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Сыртқы шеңбердің центрі O, ішкі шеңбердің центрі O₁. A, O, O₁, M бір түзу бойында. Екі шеңбер M нүктесінде іштей жанасады.",
+              "description_kk": "Сыртқы шеңбердің центрі O, ішкі шеңбердің центрі O₁. A, O, O₁, M бір түзу бойында. Екі шеңбер M нүктесінде іштей жанасады. Екі шеңбер іштей жанасады, центрлері мен жанасу нүктесі бір түзуде.",
               "relations": [
                 {
                   "kind": "internal_tangent_circles",
@@ -752,7 +837,93 @@
                   ],
                   "measurement_from_print": true
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 620,
+                "height": 345,
+                "items": [
+                  {
+                    "type": "circle",
+                    "x": 274,
+                    "y": 172,
+                    "r": 132,
+                    "color": "#7a9e7b",
+                    "width": 2
+                  },
+                  {
+                    "type": "circle",
+                    "x": 355.4,
+                    "y": 172,
+                    "r": 50.599999999999994,
+                    "color": "#7a9e7b",
+                    "width": 2
+                  },
+                  {
+                    "type": "line",
+                    "x1": 142,
+                    "y1": 172,
+                    "x2": 406,
+                    "y2": 172,
+                    "color": "#7a9e7b"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 274,
+                    "y": 172,
+                    "r": 4.5,
+                    "fill": "#7a9e7b",
+                    "color": "#7a9e7b"
+                  },
+                  {
+                    "type": "text",
+                    "x": 274,
+                    "y": 195,
+                    "s": "O"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 355.4,
+                    "y": 172,
+                    "r": 4.5,
+                    "fill": "#7a9e7b",
+                    "color": "#7a9e7b"
+                  },
+                  {
+                    "type": "text",
+                    "x": 355.4,
+                    "y": 195,
+                    "s": "O₁"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 406,
+                    "y": 172,
+                    "r": 4.5,
+                    "fill": "#7a9e7b",
+                    "color": "#7a9e7b"
+                  },
+                  {
+                    "type": "text",
+                    "x": 406,
+                    "y": 195,
+                    "s": "M"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 142,
+                    "y": 172,
+                    "r": 4.5,
+                    "fill": "#7a9e7b",
+                    "color": "#7a9e7b"
+                  },
+                  {
+                    "type": "text",
+                    "x": 142,
+                    "y": 195,
+                    "s": "A"
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-126:m02:inner-tangent-circles:crop",
             "ocr_evidence": [
@@ -783,6 +954,12 @@
             ],
             "ocr_suggestion_ids": [
               "math-2023-grade4-part3:lesson-126:m02:inner-tangent-circles:suggestion-1"
+            ],
+            "review_flags": [
+              {
+                "code": "redraw_source_uncertainty",
+                "description_kk": "Дәл өлшемі түпнұсқа баспа бетінен тексеріледі."
+              }
             ]
           }
         ],
@@ -961,7 +1138,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Ортақ центрі O болатын үш шеңбер.",
+              "description_kk": "Ортақ центрі O болатын үш шеңбер. Үш шеңбер концентрлі.",
               "relations": [
                 {
                   "kind": "concentric_circles",
@@ -969,7 +1146,51 @@
                   "count": 3,
                   "measurement_from_print": true
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 340,
+                "height": 310,
+                "items": [
+                  {
+                    "type": "circle",
+                    "x": 160,
+                    "y": 151,
+                    "r": 72,
+                    "color": "#8aa273",
+                    "width": 2
+                  },
+                  {
+                    "type": "circle",
+                    "x": 160,
+                    "y": 151,
+                    "r": 104,
+                    "color": "#8aa273",
+                    "width": 2
+                  },
+                  {
+                    "type": "circle",
+                    "x": 160,
+                    "y": 151,
+                    "r": 136,
+                    "color": "#8aa273",
+                    "width": 2
+                  },
+                  {
+                    "type": "circle",
+                    "x": 160,
+                    "y": 151,
+                    "r": 4.5,
+                    "fill": "#8aa273",
+                    "color": "#8aa273"
+                  },
+                  {
+                    "type": "text",
+                    "x": 144,
+                    "y": 175,
+                    "s": "O"
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-126:m03:three-concentric-circles:crop",
             "ocr_evidence": [
@@ -982,6 +1203,12 @@
             ],
             "ocr_suggestion_ids": [
               "math-2023-grade4-part3:lesson-126:m03:three-concentric-circles:suggestion-1"
+            ],
+            "review_flags": [
+              {
+                "code": "redraw_source_uncertainty",
+                "description_kk": "Басылған суреттің өлшемі қағаздан тексеріледі."
+              }
             ]
           }
         ],
@@ -1602,7 +1829,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "О центріне ортақ шеңберлер. Ішкі дөңгелектің диаметрі 5 м; айналасына біркелкі шым төселген.",
+              "description_kk": "О центріне ортақ шеңберлер. Ішкі дөңгелектің диаметрі 5 м; айналасына біркелкі шым төселген. Ішкі диаметр 5 м; сыртқы сақина ені есеп мәтінінде 1 м.",
               "relations": [
                 {
                   "kind": "annulus",
@@ -1610,7 +1837,58 @@
                   "inner_diameter_m": 5,
                   "radial_width_m": 1
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 420,
+                "height": 361,
+                "items": [
+                  {
+                    "type": "circle",
+                    "x": 187,
+                    "y": 156,
+                    "r": 126,
+                    "fill": "#b8cd92",
+                    "color": "#829c61"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 187,
+                    "y": 156,
+                    "r": 90,
+                    "fill": "#f5e6a0",
+                    "color": "#829c61"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 109,
+                    "y1": 201,
+                    "x2": 265,
+                    "y2": 111,
+                    "color": "#b47452",
+                    "width": 2
+                  },
+                  {
+                    "type": "circle",
+                    "x": 187,
+                    "y": 156,
+                    "r": 4.5,
+                    "fill": "#b73730",
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "text",
+                    "x": 213,
+                    "y": 173,
+                    "s": "O"
+                  },
+                  {
+                    "type": "text",
+                    "x": 163,
+                    "y": 131,
+                    "s": "d = 5 м"
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-126:m05:annular-garden-border:crop",
             "ocr_evidence": [
@@ -1807,7 +2085,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Екі дөңгелек өрнекте центр белгіленген, төрт жапырақ ортада түйіседі. Оң жақ өрнекте сыртқы шеңберге іштей сызылған, төбелері жоғары, оң, төмен және сол жақта орналасқан шаршы бар.",
+              "description_kk": "Екі дөңгелек өрнекте центр белгіленген, төрт жапырақ ортада түйіседі. Оң жақ өрнекте сыртқы шеңберге іштей сызылған, төбелері жоғары, оң, төмен және сол жақта орналасқан шаршы бар. Төрт күлтелі екі өрнек және екінші суреттегі іштей сызылған шаршы сақталды.",
               "relations": [
                 {
                   "kind": "paired_circle_motifs",
@@ -1822,9 +2100,127 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 675,
+                "height": 304,
+                "items": [
+                  {
+                    "type": "circle",
+                    "x": 176,
+                    "y": 145,
+                    "r": 113,
+                    "color": "#284d77",
+                    "width": 2
+                  },
+                  {
+                    "type": "circle",
+                    "x": 232.5,
+                    "y": 145,
+                    "r": 56.5,
+                    "color": "#284d77",
+                    "width": 1.6
+                  },
+                  {
+                    "type": "circle",
+                    "x": 119.5,
+                    "y": 145,
+                    "r": 56.5,
+                    "color": "#284d77",
+                    "width": 1.6
+                  },
+                  {
+                    "type": "circle",
+                    "x": 176,
+                    "y": 201.5,
+                    "r": 56.5,
+                    "color": "#284d77",
+                    "width": 1.6
+                  },
+                  {
+                    "type": "circle",
+                    "x": 176,
+                    "y": 88.5,
+                    "r": 56.5,
+                    "color": "#284d77",
+                    "width": 1.6
+                  },
+                  {
+                    "type": "circle",
+                    "x": 176,
+                    "y": 145,
+                    "r": 4.5,
+                    "fill": "#b73730",
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 489,
+                    "y": 145,
+                    "r": 113,
+                    "color": "#284d77",
+                    "width": 2
+                  },
+                  {
+                    "type": "polygon",
+                    "xy": [
+                      [
+                        489,
+                        32
+                      ],
+                      [
+                        602,
+                        145
+                      ],
+                      [
+                        489,
+                        258
+                      ],
+                      [
+                        376,
+                        145
+                      ]
+                    ],
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M489 145 Q545.5 177 602 145 Q545.5 113 489 145Z",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M489 145 Q457 201.5 489 258 Q521 201.5 489 145Z",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M489 145 Q432.5 113 376 145 Q432.5 177 489 145Z",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M489 145 Q521 88.5 489 32 Q457 88.5 489 145Z",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 489,
+                    "y": 145,
+                    "r": 4.5,
+                    "fill": "#b73730",
+                    "color": "#b73730"
+                  }
+                ]
+              }
             },
-            "crop_asset_id": "math-2023-grade4-part3:lesson-126:m06:two-compass-motifs:crop"
+            "crop_asset_id": "math-2023-grade4-part3:lesson-126:m06:two-compass-motifs:crop",
+            "review_flags": [
+              {
+                "code": "redraw_source_uncertainty",
+                "description_kk": "Оң өрнектегі доғалардың дәл конструкциясы түпнұсқа бойынша тексеріледі."
+              }
+            ]
           }
         ],
         "content_order": [
@@ -4829,5 +5225,179 @@
         }
       ]
     }
-  ]
+  ],
+  "review_revision": {
+    "source_version": "2026-11-26-initial-1",
+    "source_object_ids": [
+      "math-2023-grade4-part3:lesson-126:closing",
+      "math-2023-grade4-part3:lesson-126:header",
+      "math-2023-grade4-part3:lesson-126:header:number",
+      "math-2023-grade4-part3:lesson-126:header:theme",
+      "math-2023-grade4-part3:lesson-126:header:title",
+      "math-2023-grade4-part3:lesson-126:m01",
+      "math-2023-grade4-part3:lesson-126:m01:body-13",
+      "math-2023-grade4-part3:lesson-126:m01:circle-and-segments",
+      "math-2023-grade4-part3:lesson-126:m01:number",
+      "math-2023-grade4-part3:lesson-126:m01:prompt",
+      "math-2023-grade4-part3:lesson-126:m02",
+      "math-2023-grade4-part3:lesson-126:m02:badge",
+      "math-2023-grade4-part3:lesson-126:m02:body-21",
+      "math-2023-grade4-part3:lesson-126:m02:inner-tangent-circles",
+      "math-2023-grade4-part3:lesson-126:m02:number",
+      "math-2023-grade4-part3:lesson-126:m02:prompt",
+      "math-2023-grade4-part3:lesson-126:m03",
+      "math-2023-grade4-part3:lesson-126:m03:badge",
+      "math-2023-grade4-part3:lesson-126:m03:body-28",
+      "math-2023-grade4-part3:lesson-126:m03:number",
+      "math-2023-grade4-part3:lesson-126:m03:prompt",
+      "math-2023-grade4-part3:lesson-126:m03:three-concentric-circles",
+      "math-2023-grade4-part3:lesson-126:m04",
+      "math-2023-grade4-part3:lesson-126:m04:badge",
+      "math-2023-grade4-part3:lesson-126:m04:number",
+      "math-2023-grade4-part3:lesson-126:m04:prompt",
+      "math-2023-grade4-part3:lesson-126:m04:sub-А",
+      "math-2023-grade4-part3:lesson-126:m04:sub-А:body",
+      "math-2023-grade4-part3:lesson-126:m04:sub-А:number",
+      "math-2023-grade4-part3:lesson-126:m04:sub-Б",
+      "math-2023-grade4-part3:lesson-126:m04:sub-Б:body",
+      "math-2023-grade4-part3:lesson-126:m04:sub-Б:number",
+      "math-2023-grade4-part3:lesson-126:m04:sub-Ә",
+      "math-2023-grade4-part3:lesson-126:m04:sub-Ә:body",
+      "math-2023-grade4-part3:lesson-126:m04:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-126:m05",
+      "math-2023-grade4-part3:lesson-126:m05:annular-garden-border",
+      "math-2023-grade4-part3:lesson-126:m05:badge",
+      "math-2023-grade4-part3:lesson-126:m05:body-17",
+      "math-2023-grade4-part3:lesson-126:m05:number",
+      "math-2023-grade4-part3:lesson-126:m05:prompt",
+      "math-2023-grade4-part3:lesson-126:m06",
+      "math-2023-grade4-part3:lesson-126:m06:badge",
+      "math-2023-grade4-part3:lesson-126:m06:body-4",
+      "math-2023-grade4-part3:lesson-126:m06:number",
+      "math-2023-grade4-part3:lesson-126:m06:prompt",
+      "math-2023-grade4-part3:lesson-126:m06:two-compass-motifs",
+      "math-2023-grade4-part3:lesson-126:m07",
+      "math-2023-grade4-part3:lesson-126:m07:badge",
+      "math-2023-grade4-part3:lesson-126:m07:body-8",
+      "math-2023-grade4-part3:lesson-126:m07:number",
+      "math-2023-grade4-part3:lesson-126:m07:prompt",
+      "math-2023-grade4-part3:lesson-126:m08",
+      "math-2023-grade4-part3:lesson-126:m08:expression-14",
+      "math-2023-grade4-part3:lesson-126:m08:expression-15",
+      "math-2023-grade4-part3:lesson-126:m08:expression-16",
+      "math-2023-grade4-part3:lesson-126:m08:expression-17",
+      "math-2023-grade4-part3:lesson-126:m08:expression-18",
+      "math-2023-grade4-part3:lesson-126:m08:expression-19",
+      "math-2023-grade4-part3:lesson-126:m08:number",
+      "math-2023-grade4-part3:lesson-126:m08:prompt",
+      "math-2023-grade4-part3:lesson-126:m09",
+      "math-2023-grade4-part3:lesson-126:m09:badge",
+      "math-2023-grade4-part3:lesson-126:m09:body-22",
+      "math-2023-grade4-part3:lesson-126:m09:number",
+      "math-2023-grade4-part3:lesson-126:m09:prompt",
+      "math-2023-grade4-part3:lesson-126:orientation",
+      "math-2023-grade4-part3:lesson-126:orientation:badge",
+      "math-2023-grade4-part3:lesson-126:orientation:objective",
+      "math-2023-grade4-part3:p149",
+      "math-2023-grade4-part3:p150",
+      "math-2023-grade4-part3:p151"
+    ],
+    "equivalent_object_ids": [
+      "math-2023-grade4-part3:lesson-126:closing",
+      "math-2023-grade4-part3:lesson-126:header",
+      "math-2023-grade4-part3:lesson-126:header:number",
+      "math-2023-grade4-part3:lesson-126:header:theme",
+      "math-2023-grade4-part3:lesson-126:header:title",
+      "math-2023-grade4-part3:lesson-126:m01",
+      "math-2023-grade4-part3:lesson-126:m01:body-13",
+      "math-2023-grade4-part3:lesson-126:m01:number",
+      "math-2023-grade4-part3:lesson-126:m01:prompt",
+      "math-2023-grade4-part3:lesson-126:m02",
+      "math-2023-grade4-part3:lesson-126:m02:badge",
+      "math-2023-grade4-part3:lesson-126:m02:body-21",
+      "math-2023-grade4-part3:lesson-126:m02:number",
+      "math-2023-grade4-part3:lesson-126:m02:prompt",
+      "math-2023-grade4-part3:lesson-126:m03",
+      "math-2023-grade4-part3:lesson-126:m03:badge",
+      "math-2023-grade4-part3:lesson-126:m03:body-28",
+      "math-2023-grade4-part3:lesson-126:m03:number",
+      "math-2023-grade4-part3:lesson-126:m03:prompt",
+      "math-2023-grade4-part3:lesson-126:m04",
+      "math-2023-grade4-part3:lesson-126:m04:badge",
+      "math-2023-grade4-part3:lesson-126:m04:number",
+      "math-2023-grade4-part3:lesson-126:m04:prompt",
+      "math-2023-grade4-part3:lesson-126:m04:sub-А",
+      "math-2023-grade4-part3:lesson-126:m04:sub-А:body",
+      "math-2023-grade4-part3:lesson-126:m04:sub-А:number",
+      "math-2023-grade4-part3:lesson-126:m04:sub-Б",
+      "math-2023-grade4-part3:lesson-126:m04:sub-Б:body",
+      "math-2023-grade4-part3:lesson-126:m04:sub-Б:number",
+      "math-2023-grade4-part3:lesson-126:m04:sub-Ә",
+      "math-2023-grade4-part3:lesson-126:m04:sub-Ә:body",
+      "math-2023-grade4-part3:lesson-126:m04:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-126:m05",
+      "math-2023-grade4-part3:lesson-126:m05:badge",
+      "math-2023-grade4-part3:lesson-126:m05:body-17",
+      "math-2023-grade4-part3:lesson-126:m05:number",
+      "math-2023-grade4-part3:lesson-126:m05:prompt",
+      "math-2023-grade4-part3:lesson-126:m06",
+      "math-2023-grade4-part3:lesson-126:m06:badge",
+      "math-2023-grade4-part3:lesson-126:m06:body-4",
+      "math-2023-grade4-part3:lesson-126:m06:number",
+      "math-2023-grade4-part3:lesson-126:m06:prompt",
+      "math-2023-grade4-part3:lesson-126:m07",
+      "math-2023-grade4-part3:lesson-126:m07:badge",
+      "math-2023-grade4-part3:lesson-126:m07:body-8",
+      "math-2023-grade4-part3:lesson-126:m07:number",
+      "math-2023-grade4-part3:lesson-126:m07:prompt",
+      "math-2023-grade4-part3:lesson-126:m08",
+      "math-2023-grade4-part3:lesson-126:m08:expression-14",
+      "math-2023-grade4-part3:lesson-126:m08:expression-15",
+      "math-2023-grade4-part3:lesson-126:m08:expression-16",
+      "math-2023-grade4-part3:lesson-126:m08:expression-17",
+      "math-2023-grade4-part3:lesson-126:m08:expression-18",
+      "math-2023-grade4-part3:lesson-126:m08:expression-19",
+      "math-2023-grade4-part3:lesson-126:m08:number",
+      "math-2023-grade4-part3:lesson-126:m08:prompt",
+      "math-2023-grade4-part3:lesson-126:m09",
+      "math-2023-grade4-part3:lesson-126:m09:badge",
+      "math-2023-grade4-part3:lesson-126:m09:body-22",
+      "math-2023-grade4-part3:lesson-126:m09:number",
+      "math-2023-grade4-part3:lesson-126:m09:prompt",
+      "math-2023-grade4-part3:lesson-126:orientation",
+      "math-2023-grade4-part3:lesson-126:orientation:badge",
+      "math-2023-grade4-part3:lesson-126:orientation:objective",
+      "math-2023-grade4-part3:p149",
+      "math-2023-grade4-part3:p150",
+      "math-2023-grade4-part3:p151"
+    ],
+    "addressed_record_ids": []
+  },
+  "redraw_validation": {
+    "baseline_content_sha256": "4784627367b29e6e94bf5e85ddea95a9e625b01ce59f0e24529caccdc2e47b29",
+    "baseline_commit": "389c68b9a11759f9a4b1b74f2253b5be29fabf09",
+    "status": "verified_with_pending_sources",
+    "images": {
+      "math-2023-grade4-part3:lesson-126:m01:circle-and-segments": {
+        "finding_zh": "KF 过圆心，OA 从圆心出发，BN 是不经过圆心的弦。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-126:m02:inner-tangent-circles": {
+        "finding_zh": "两个圆内切，圆心与切点同线；保留原图点名。",
+        "status": "source_recheck"
+      },
+      "math-2023-grade4-part3:lesson-126:m03:three-concentric-circles": {
+        "finding_zh": "三圆同心，相对顺序可核对。纸本半径待实测。",
+        "status": "source_recheck"
+      },
+      "math-2023-grade4-part3:lesson-126:m05:annular-garden-border": {
+        "finding_zh": "内圆直径 5 米，外环宽 1 米，中心共用。只标原书数字。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-126:m06:two-compass-motifs": {
+        "finding_zh": "两幅四瓣图分开重建，第二幅保留内接旋转正方形。右图瓣形曲线仅作视觉核对。",
+        "status": "source_recheck"
+      }
+    }
+  }
 }

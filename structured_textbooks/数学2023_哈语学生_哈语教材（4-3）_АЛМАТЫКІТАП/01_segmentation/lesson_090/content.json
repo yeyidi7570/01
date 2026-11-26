@@ -1,5 +1,5 @@
 {
-  "data_version": "2026-11-26-initial-1",
+  "data_version": "2026-11-26-redraw-1",
   "review_status": "pending_review",
   "book": {
     "id": "math-2023-grade4-part3",
@@ -1004,7 +1004,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Екі мәшине бір нүктеден оңға қарай қозғалады. Әр жол екі бөліктен тұрады. v₁ = 70 км/сағ, v₂ белгісіз; 2 сағаттан кейін екінші мәшине 40 км алда.",
+              "description_kk": "Екі мәшине бір нүктеден оңға қарай қозғалады. Әр жол екі бөліктен тұрады. v₁ = 70 км/сағ, v₂ белгісіз; 2 сағаттан кейін екінші мәшине 40 км алда. 40 км төменгі жолдағы екі соңғы орынның арасына жазылған; әр жолда екі аралық бар.",
               "relations": [
                 {
                   "kind": "motion_diagram",
@@ -1026,7 +1026,134 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 700,
+                "height": 215,
+                "items": [
+                  {
+                    "type": "line",
+                    "x1": 62,
+                    "y1": 75,
+                    "x2": 445,
+                    "y2": 75,
+                    "color": "#284d77",
+                    "width": 3,
+                    "arrow": false
+                  },
+                  {
+                    "type": "circle",
+                    "x": 62,
+                    "y": 75,
+                    "r": 4.5,
+                    "fill": "#284d77",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 62,
+                    "y1": 75,
+                    "x2": 62,
+                    "y2": 52,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 62,
+                    "y1": 52,
+                    "x2": 175,
+                    "y2": 52,
+                    "color": "#284d77",
+                    "arrow": true
+                  },
+                  {
+                    "type": "text",
+                    "x": 118.5,
+                    "y": 41,
+                    "s": "v₁ = 70 км/сағ",
+                    "size": 14
+                  },
+                  {
+                    "type": "path",
+                    "d": "M62.0 75 Q157.75 55 253.5 75",
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M253.5 75 Q349.25 55 445.0 75",
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 62,
+                    "y1": 155,
+                    "x2": 637,
+                    "y2": 155,
+                    "color": "#284d77",
+                    "width": 3,
+                    "arrow": true
+                  },
+                  {
+                    "type": "circle",
+                    "x": 62,
+                    "y": 155,
+                    "r": 4.5,
+                    "fill": "#284d77",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 62,
+                    "y1": 155,
+                    "x2": 62,
+                    "y2": 182,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 62,
+                    "y1": 182,
+                    "x2": 175,
+                    "y2": 182,
+                    "color": "#284d77",
+                    "arrow": true
+                  },
+                  {
+                    "type": "text",
+                    "x": 118.5,
+                    "y": 203,
+                    "s": "v₂ = ? км/сағ",
+                    "size": 14
+                  },
+                  {
+                    "type": "path",
+                    "d": "M62.0 155 Q189 176 316.0 155",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M316.0 155 Q443 176 570.0 155",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M445 153 Q507.5 124 570 153",
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "text",
+                    "x": 510,
+                    "y": 130,
+                    "s": "S = 40 км"
+                  },
+                  {
+                    "type": "text",
+                    "x": 510,
+                    "y": 62,
+                    "s": "t = 2 сағ"
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-090:m03:car-motion:crop",
             "ocr_evidence": [
@@ -2424,7 +2551,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Көлденең ось — уақыт t (сағ), тік ось — жүрілген жол S (км). Жасыл сызық жаяу жүргіншіге, көк сызық шаңғышыға тиесілі. Жасыл сызық екі, көк сызық бір көлденең кесінді жасайды.",
+              "description_kk": "Көлденең ось — уақыт t (сағ), тік ось — жүрілген жол S (км). Жасыл сызық жаяу жүргіншіге, көк сызық шаңғышыға тиесілі. Жасыл сызық екі, көк сызық бір көлденең кесінді жасайды. Көлденең бір торкөз 15 мин, тік торкөз 1 км. Екі сызықтың бұрынғы нүктелері сақталды.",
               "relations": [
                 {
                   "kind": "coordinate_graph",
@@ -2507,6 +2634,16 @@
                         ]
                       ]
                     }
+                  ],
+                  "x_grid_step": 0.25,
+                  "y_grid_step": 1,
+                  "x_domain": [
+                    "9:00",
+                    "15:30"
+                  ],
+                  "y_domain": [
+                    0,
+                    19
                   ]
                 }
               ]
@@ -3026,7 +3163,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Екі қар тазалайтын мәшине 08:00-де бір нүктеден оңға шығады. 11:00-де S₁ жолы S₂-ден 6 км ұзын. v₁ белгісіз, v₂ = 30 км/сағ.",
+              "description_kk": "Екі қар тазалайтын мәшине 08:00-де бір нүктеден оңға шығады. 11:00-де S₁ жолы S₂-ден 6 км ұзын. v₁ белгісіз, v₂ = 30 км/сағ. S₁ ұзын, 6 км екі соңғы орынның арасы. Сағат белгілері 08:00 және 11:00.",
               "relations": [
                 {
                   "kind": "motion_diagram",
@@ -3050,7 +3187,124 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 700,
+                "height": 210,
+                "items": [
+                  {
+                    "type": "line",
+                    "x1": 125,
+                    "y1": 108,
+                    "x2": 604,
+                    "y2": 108,
+                    "color": "#284d77",
+                    "arrow": true,
+                    "width": 3
+                  },
+                  {
+                    "type": "circle",
+                    "x": 125,
+                    "y": 108,
+                    "r": 4.5,
+                    "fill": "#284d77",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 125,
+                    "y1": 108,
+                    "x2": 125,
+                    "y2": 68,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 125,
+                    "y1": 68,
+                    "x2": 240,
+                    "y2": 68,
+                    "color": "#284d77",
+                    "arrow": true
+                  },
+                  {
+                    "type": "text",
+                    "x": 182.5,
+                    "y": 57,
+                    "s": "v₁ = ? км/сағ",
+                    "size": 14
+                  },
+                  {
+                    "type": "line",
+                    "x1": 125,
+                    "y1": 108,
+                    "x2": 125,
+                    "y2": 148,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 125,
+                    "y1": 148,
+                    "x2": 207,
+                    "y2": 148,
+                    "color": "#284d77",
+                    "arrow": true
+                  },
+                  {
+                    "type": "text",
+                    "x": 166.0,
+                    "y": 169,
+                    "s": "v₂ = 30 км/сағ",
+                    "size": 14
+                  },
+                  {
+                    "type": "path",
+                    "d": "M125 104 Q352 75 579 104",
+                    "color": "light_blue"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M125 112 Q292 142 459 112",
+                    "color": "light_blue"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M459 112 Q519 136 579 112",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "text",
+                    "x": 72,
+                    "y": 113,
+                    "s": "08:00"
+                  },
+                  {
+                    "type": "text",
+                    "x": 654,
+                    "y": 113,
+                    "s": "11:00"
+                  },
+                  {
+                    "type": "text",
+                    "x": 356,
+                    "y": 78,
+                    "s": "S₁"
+                  },
+                  {
+                    "type": "text",
+                    "x": 350,
+                    "y": 157,
+                    "s": "S₂"
+                  },
+                  {
+                    "type": "text",
+                    "x": 520,
+                    "y": 158,
+                    "s": "S = 6 км"
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-090:m10:snowplow-motion:crop",
             "ocr_evidence": [
@@ -5698,6 +5952,16 @@
                 ]
               ]
             }
+          ],
+          "x_grid_step": 0.25,
+          "y_grid_step": 1,
+          "x_domain": [
+            "9:00",
+            "15:30"
+          ],
+          "y_domain": [
+            0,
+            19
           ]
         }
       ],
@@ -5989,6 +6253,16 @@
                     ]
                   ]
                 }
+              ],
+              "x_grid_step": 0.25,
+              "y_grid_step": 1,
+              "x_domain": [
+                "9:00",
+                "15:30"
+              ],
+              "y_domain": [
+                0,
+                19
               ]
             }
           ]
@@ -6602,5 +6876,197 @@
         }
       ]
     }
-  ]
+  ],
+  "review_revision": {
+    "source_version": "2026-11-26-initial-1",
+    "source_object_ids": [
+      "math-2023-grade4-part3:lesson-090:closing",
+      "math-2023-grade4-part3:lesson-090:header",
+      "math-2023-grade4-part3:lesson-090:header:number",
+      "math-2023-grade4-part3:lesson-090:header:theme",
+      "math-2023-grade4-part3:lesson-090:header:title",
+      "math-2023-grade4-part3:lesson-090:link:m02-refers-to-m01",
+      "math-2023-grade4-part3:lesson-090:m01",
+      "math-2023-grade4-part3:lesson-090:m01:context",
+      "math-2023-grade4-part3:lesson-090:m01:number",
+      "math-2023-grade4-part3:lesson-090:m01:problem",
+      "math-2023-grade4-part3:lesson-090:m01:prompt",
+      "math-2023-grade4-part3:lesson-090:m02",
+      "math-2023-grade4-part3:lesson-090:m02:number",
+      "math-2023-grade4-part3:lesson-090:m02:page-reference",
+      "math-2023-grade4-part3:lesson-090:m02:prompt",
+      "math-2023-grade4-part3:lesson-090:m02:worked-equation",
+      "math-2023-grade4-part3:lesson-090:m02:worked-equation:assign-variable",
+      "math-2023-grade4-part3:lesson-090:m02:worked-equation:equation",
+      "math-2023-grade4-part3:lesson-090:m02:worked-equation:separation",
+      "math-2023-grade4-part3:lesson-090:m02:worked-equation:speed-difference",
+      "math-2023-grade4-part3:lesson-090:m03",
+      "math-2023-grade4-part3:lesson-090:m03:car-motion",
+      "math-2023-grade4-part3:lesson-090:m03:number",
+      "math-2023-grade4-part3:lesson-090:m03:problem",
+      "math-2023-grade4-part3:lesson-090:m03:prompt",
+      "math-2023-grade4-part3:lesson-090:m04",
+      "math-2023-grade4-part3:lesson-090:m04:badge",
+      "math-2023-grade4-part3:lesson-090:m04:number",
+      "math-2023-grade4-part3:lesson-090:m04:problem",
+      "math-2023-grade4-part3:lesson-090:m04:prompt",
+      "math-2023-grade4-part3:lesson-090:m05",
+      "math-2023-grade4-part3:lesson-090:m05:badge",
+      "math-2023-grade4-part3:lesson-090:m05:expression-26",
+      "math-2023-grade4-part3:lesson-090:m05:expression-27",
+      "math-2023-grade4-part3:lesson-090:m05:expression-28",
+      "math-2023-grade4-part3:lesson-090:m05:expression-29",
+      "math-2023-grade4-part3:lesson-090:m05:expression-30",
+      "math-2023-grade4-part3:lesson-090:m05:expression-31",
+      "math-2023-grade4-part3:lesson-090:m05:number",
+      "math-2023-grade4-part3:lesson-090:m05:prompt",
+      "math-2023-grade4-part3:lesson-090:m06",
+      "math-2023-grade4-part3:lesson-090:m06:badge",
+      "math-2023-grade4-part3:lesson-090:m06:number",
+      "math-2023-grade4-part3:lesson-090:m06:prompt",
+      "math-2023-grade4-part3:lesson-090:m06:sub-А",
+      "math-2023-grade4-part3:lesson-090:m06:sub-А:body",
+      "math-2023-grade4-part3:lesson-090:m06:sub-А:number",
+      "math-2023-grade4-part3:lesson-090:m06:sub-Б",
+      "math-2023-grade4-part3:lesson-090:m06:sub-Б:body",
+      "math-2023-grade4-part3:lesson-090:m06:sub-Б:number",
+      "math-2023-grade4-part3:lesson-090:m06:sub-Ә",
+      "math-2023-grade4-part3:lesson-090:m06:sub-Ә:body",
+      "math-2023-grade4-part3:lesson-090:m06:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-090:m07",
+      "math-2023-grade4-part3:lesson-090:m07:badge",
+      "math-2023-grade4-part3:lesson-090:m07:number",
+      "math-2023-grade4-part3:lesson-090:m07:problem",
+      "math-2023-grade4-part3:lesson-090:m07:prompt",
+      "math-2023-grade4-part3:lesson-090:m08",
+      "math-2023-grade4-part3:lesson-090:m08:badge",
+      "math-2023-grade4-part3:lesson-090:m08:number",
+      "math-2023-grade4-part3:lesson-090:m08:pedestrian-and-skier",
+      "math-2023-grade4-part3:lesson-090:m08:problem",
+      "math-2023-grade4-part3:lesson-090:m08:prompt",
+      "math-2023-grade4-part3:lesson-090:m09",
+      "math-2023-grade4-part3:lesson-090:m09:badge",
+      "math-2023-grade4-part3:lesson-090:m09:context",
+      "math-2023-grade4-part3:lesson-090:m09:number",
+      "math-2023-grade4-part3:lesson-090:m09:problem",
+      "math-2023-grade4-part3:lesson-090:m09:prompt",
+      "math-2023-grade4-part3:lesson-090:m10",
+      "math-2023-grade4-part3:lesson-090:m10:badge",
+      "math-2023-grade4-part3:lesson-090:m10:number",
+      "math-2023-grade4-part3:lesson-090:m10:problem",
+      "math-2023-grade4-part3:lesson-090:m10:prompt",
+      "math-2023-grade4-part3:lesson-090:m10:snowplow-motion",
+      "math-2023-grade4-part3:lesson-090:method-heading",
+      "math-2023-grade4-part3:lesson-090:orientation",
+      "math-2023-grade4-part3:lesson-090:orientation:badge",
+      "math-2023-grade4-part3:lesson-090:orientation:objective",
+      "math-2023-grade4-part3:p035",
+      "math-2023-grade4-part3:p036",
+      "math-2023-grade4-part3:p037",
+      "math-2023-grade4-part3:p038"
+    ],
+    "equivalent_object_ids": [
+      "math-2023-grade4-part3:lesson-090:closing",
+      "math-2023-grade4-part3:lesson-090:header",
+      "math-2023-grade4-part3:lesson-090:header:number",
+      "math-2023-grade4-part3:lesson-090:header:theme",
+      "math-2023-grade4-part3:lesson-090:header:title",
+      "math-2023-grade4-part3:lesson-090:link:m02-refers-to-m01",
+      "math-2023-grade4-part3:lesson-090:m01",
+      "math-2023-grade4-part3:lesson-090:m01:context",
+      "math-2023-grade4-part3:lesson-090:m01:number",
+      "math-2023-grade4-part3:lesson-090:m01:problem",
+      "math-2023-grade4-part3:lesson-090:m01:prompt",
+      "math-2023-grade4-part3:lesson-090:m02",
+      "math-2023-grade4-part3:lesson-090:m02:number",
+      "math-2023-grade4-part3:lesson-090:m02:page-reference",
+      "math-2023-grade4-part3:lesson-090:m02:prompt",
+      "math-2023-grade4-part3:lesson-090:m02:worked-equation",
+      "math-2023-grade4-part3:lesson-090:m02:worked-equation:assign-variable",
+      "math-2023-grade4-part3:lesson-090:m02:worked-equation:equation",
+      "math-2023-grade4-part3:lesson-090:m02:worked-equation:separation",
+      "math-2023-grade4-part3:lesson-090:m02:worked-equation:speed-difference",
+      "math-2023-grade4-part3:lesson-090:m03",
+      "math-2023-grade4-part3:lesson-090:m03:number",
+      "math-2023-grade4-part3:lesson-090:m03:problem",
+      "math-2023-grade4-part3:lesson-090:m03:prompt",
+      "math-2023-grade4-part3:lesson-090:m04",
+      "math-2023-grade4-part3:lesson-090:m04:badge",
+      "math-2023-grade4-part3:lesson-090:m04:number",
+      "math-2023-grade4-part3:lesson-090:m04:problem",
+      "math-2023-grade4-part3:lesson-090:m04:prompt",
+      "math-2023-grade4-part3:lesson-090:m05",
+      "math-2023-grade4-part3:lesson-090:m05:badge",
+      "math-2023-grade4-part3:lesson-090:m05:expression-26",
+      "math-2023-grade4-part3:lesson-090:m05:expression-27",
+      "math-2023-grade4-part3:lesson-090:m05:expression-28",
+      "math-2023-grade4-part3:lesson-090:m05:expression-29",
+      "math-2023-grade4-part3:lesson-090:m05:expression-30",
+      "math-2023-grade4-part3:lesson-090:m05:expression-31",
+      "math-2023-grade4-part3:lesson-090:m05:number",
+      "math-2023-grade4-part3:lesson-090:m05:prompt",
+      "math-2023-grade4-part3:lesson-090:m06",
+      "math-2023-grade4-part3:lesson-090:m06:badge",
+      "math-2023-grade4-part3:lesson-090:m06:number",
+      "math-2023-grade4-part3:lesson-090:m06:prompt",
+      "math-2023-grade4-part3:lesson-090:m06:sub-А",
+      "math-2023-grade4-part3:lesson-090:m06:sub-А:body",
+      "math-2023-grade4-part3:lesson-090:m06:sub-А:number",
+      "math-2023-grade4-part3:lesson-090:m06:sub-Б",
+      "math-2023-grade4-part3:lesson-090:m06:sub-Б:body",
+      "math-2023-grade4-part3:lesson-090:m06:sub-Б:number",
+      "math-2023-grade4-part3:lesson-090:m06:sub-Ә",
+      "math-2023-grade4-part3:lesson-090:m06:sub-Ә:body",
+      "math-2023-grade4-part3:lesson-090:m06:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-090:m07",
+      "math-2023-grade4-part3:lesson-090:m07:badge",
+      "math-2023-grade4-part3:lesson-090:m07:number",
+      "math-2023-grade4-part3:lesson-090:m07:problem",
+      "math-2023-grade4-part3:lesson-090:m07:prompt",
+      "math-2023-grade4-part3:lesson-090:m08",
+      "math-2023-grade4-part3:lesson-090:m08:badge",
+      "math-2023-grade4-part3:lesson-090:m08:number",
+      "math-2023-grade4-part3:lesson-090:m08:problem",
+      "math-2023-grade4-part3:lesson-090:m08:prompt",
+      "math-2023-grade4-part3:lesson-090:m09",
+      "math-2023-grade4-part3:lesson-090:m09:badge",
+      "math-2023-grade4-part3:lesson-090:m09:context",
+      "math-2023-grade4-part3:lesson-090:m09:number",
+      "math-2023-grade4-part3:lesson-090:m09:problem",
+      "math-2023-grade4-part3:lesson-090:m09:prompt",
+      "math-2023-grade4-part3:lesson-090:m10",
+      "math-2023-grade4-part3:lesson-090:m10:badge",
+      "math-2023-grade4-part3:lesson-090:m10:number",
+      "math-2023-grade4-part3:lesson-090:m10:problem",
+      "math-2023-grade4-part3:lesson-090:m10:prompt",
+      "math-2023-grade4-part3:lesson-090:method-heading",
+      "math-2023-grade4-part3:lesson-090:orientation",
+      "math-2023-grade4-part3:lesson-090:orientation:badge",
+      "math-2023-grade4-part3:lesson-090:orientation:objective",
+      "math-2023-grade4-part3:p035",
+      "math-2023-grade4-part3:p036",
+      "math-2023-grade4-part3:p037",
+      "math-2023-grade4-part3:p038"
+    ],
+    "addressed_record_ids": []
+  },
+  "redraw_validation": {
+    "baseline_content_sha256": "feb87a06cca7182473281c3e769653e6a9046f948ea54de4e806c55802f4f8c7",
+    "baseline_commit": "389c68b9a11759f9a4b1b74f2253b5be29fabf09",
+    "status": "verified",
+    "images": {
+      "math-2023-grade4-part3:lesson-090:m03:car-motion": {
+        "finding_zh": "两轨均有两次时间步；40 千米标在从上轨终点投影到下轨终点的一段。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-090:m08:pedestrian-and-skier": {
+        "finding_zh": "原图逐小时之间有 4 小格，纵轴每格 1 千米；拆开标刻度和绘图网格。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-090:m10:snowplow-motion": {
+        "finding_zh": "两段同轴，以 08:00 和 11:00 标起止，S₁ 更长，6 千米只跨两终点。",
+        "status": "verified"
+      }
+    }
+  }
 }

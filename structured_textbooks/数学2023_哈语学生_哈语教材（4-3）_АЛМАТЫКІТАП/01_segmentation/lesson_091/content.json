@@ -1,5 +1,5 @@
 {
-  "data_version": "2026-11-26-initial-1",
+  "data_version": "2026-11-26-redraw-1",
   "review_status": "pending_review",
   "book": {
     "id": "math-2023-grade4-part3",
@@ -1982,7 +1982,7 @@
                   }
                 ],
                 "structured_description": {
-                  "description_kk": "Велосипедші A-дан B-ға қарай оңға қозғалады. Жылдамдық 15 км/сағ. Сызықта 15, 30, 45, 60, 75, 90 және 105 км нүктелері жазылған; A мен B арасы 120 км.",
+                  "description_kk": "Велосипедші A-дан B-ға қарай оңға қозғалады. Жылдамдық 15 км/сағ. Сызықта 15, 30, 45, 60, 75, 90 және 105 км нүктелері жазылған; A мен B арасы 120 км. A–B жақшасы 120 км; ішкі белгілер әр 15 км сайын берілген.",
                   "relations": [
                     {
                       "kind": "motion_number_line",
@@ -2001,7 +2001,172 @@
                         105
                       ]
                     }
-                  ]
+                  ],
+                  "verification_drawing": {
+                    "width": 700,
+                    "height": 163,
+                    "items": [
+                      {
+                        "type": "line",
+                        "x1": 65,
+                        "y1": 83,
+                        "x2": 646,
+                        "y2": 83,
+                        "color": "#284d77",
+                        "width": 3,
+                        "arrow": true
+                      },
+                      {
+                        "type": "circle",
+                        "x": 65,
+                        "y": 83,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "text",
+                        "x": 65,
+                        "y": 111,
+                        "s": "A"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 135,
+                        "y": 83,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "text",
+                        "x": 135,
+                        "y": 111,
+                        "s": 15
+                      },
+                      {
+                        "type": "circle",
+                        "x": 205,
+                        "y": 83,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "text",
+                        "x": 205,
+                        "y": 111,
+                        "s": 30
+                      },
+                      {
+                        "type": "circle",
+                        "x": 275,
+                        "y": 83,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "text",
+                        "x": 275,
+                        "y": 111,
+                        "s": 45
+                      },
+                      {
+                        "type": "circle",
+                        "x": 345,
+                        "y": 83,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "text",
+                        "x": 345,
+                        "y": 111,
+                        "s": 60
+                      },
+                      {
+                        "type": "circle",
+                        "x": 415,
+                        "y": 83,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "text",
+                        "x": 415,
+                        "y": 111,
+                        "s": 75
+                      },
+                      {
+                        "type": "circle",
+                        "x": 485,
+                        "y": 83,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "text",
+                        "x": 485,
+                        "y": 111,
+                        "s": 90
+                      },
+                      {
+                        "type": "circle",
+                        "x": 555,
+                        "y": 83,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "text",
+                        "x": 555,
+                        "y": 111,
+                        "s": 105
+                      },
+                      {
+                        "type": "text",
+                        "x": 625,
+                        "y": 111,
+                        "s": "B"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 65,
+                        "y1": 83,
+                        "x2": 65,
+                        "y2": 56,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 65,
+                        "y1": 56,
+                        "x2": 160,
+                        "y2": 56,
+                        "color": "#284d77",
+                        "arrow": true
+                      },
+                      {
+                        "type": "text",
+                        "x": 112.5,
+                        "y": 45,
+                        "s": "15 км/сағ",
+                        "size": 14
+                      },
+                      {
+                        "type": "bracket",
+                        "x1": 65,
+                        "x2": 625,
+                        "y": 116,
+                        "label": "S = 120 км"
+                      }
+                    ]
+                  }
                 },
                 "crop_asset_id": "math-2023-grade4-part3:lesson-091:m03:sub-А:bicycle-number-line:crop",
                 "ocr_evidence": [
@@ -2993,7 +3158,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Көлденең ось t (сағ), баспа белгілері 11:00, 12:00, 13:00, 14:00, минуттар жоғарғы индекспен. Тік ось S (км), 20-дан 100-ге дейін әр 20 км белгіленген. Мотоциклдің күлгін сызығы (11:00, 0), (12:30, 45), (13:15, 45), (14:00, 90) нүктелерін қосады. Қызыл автокөлік сызығы (11:00, 90), (12:00, 30), (13:00, 30), (14:00, 0) нүктелерін қосады; (12:00, 30) қиылысынан уақыт осіне үзік сызық түсірілген.",
+              "description_kk": "Көлденең ось t (сағ), баспа белгілері 11:00, 12:00, 13:00, 14:00, минуттар жоғарғы индекспен. Тік ось S (км), 20-дан 100-ге дейін әр 20 км белгіленген. Мотоциклдің күлгін сызығы (11:00, 0), (12:30, 45), (13:15, 45), (14:00, 90) нүктелерін қосады. Қызыл автокөлік сызығы (11:00, 90), (12:00, 30), (13:00, 30), (14:00, 0) нүктелерін қосады; (12:00, 30) қиылысынан уақыт осіне үзік сызық түсірілген. Тордың көлденең қадамы 15 мин, тік қадамы 5 км; 13:15 шамасы тордан оқылады.",
               "relations": [
                 {
                   "kind": "coordinate_graph",
@@ -3072,6 +3237,16 @@
                         0
                       ]
                     ]
+                  ],
+                  "x_grid_step": 0.25,
+                  "y_grid_step": 5,
+                  "x_domain": [
+                    "11:00",
+                    "14:15"
+                  ],
+                  "y_domain": [
+                    0,
+                    100
                   ]
                 }
               ]
@@ -3290,7 +3465,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Үш тікбұрышты параллелепипедтің табандары солдан оңға 5×4, 4×3, 7×4 см; көлемдері сәйкесінше 40, 12, 280 см³. Үшеуінде де тік қыры ? см деп белгіленген.",
+              "description_kk": "Үш тікбұрышты параллелепипедтің табандары солдан оңға 5×4, 4×3, 7×4 см; көлемдері сәйкесінше 40, 12, 280 см³. Үшеуінде де тік қыры ? см деп белгіленген. Әр дененің табанындағы екі қыры және белгісіз биіктігі ажыратылды.",
               "relations": [
                 {
                   "kind": "rectangular_solids",
@@ -3320,7 +3495,283 @@
                   ],
                   "unknown": "height_cm"
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 700,
+                "height": 173,
+                "items": [
+                  {
+                    "type": "polygon",
+                    "xy": [
+                      [
+                        45,
+                        68
+                      ],
+                      [
+                        145,
+                        68
+                      ],
+                      [
+                        145,
+                        110
+                      ],
+                      [
+                        45,
+                        110
+                      ]
+                    ],
+                    "fill": "#e8eef6"
+                  },
+                  {
+                    "type": "polygon",
+                    "xy": [
+                      [
+                        45,
+                        68
+                      ],
+                      [
+                        78,
+                        47
+                      ],
+                      [
+                        178,
+                        47
+                      ],
+                      [
+                        145,
+                        68
+                      ]
+                    ],
+                    "fill": "#c0d6ec"
+                  },
+                  {
+                    "type": "polygon",
+                    "xy": [
+                      [
+                        145,
+                        68
+                      ],
+                      [
+                        178,
+                        47
+                      ],
+                      [
+                        178,
+                        89
+                      ],
+                      [
+                        145,
+                        110
+                      ]
+                    ],
+                    "fill": "#b1c5df"
+                  },
+                  {
+                    "type": "text",
+                    "x": 103,
+                    "y": 31,
+                    "s": "V = 40 см³"
+                  },
+                  {
+                    "type": "text",
+                    "x": 93,
+                    "y": 133,
+                    "s": "5 см"
+                  },
+                  {
+                    "type": "text",
+                    "x": 174,
+                    "y": 125,
+                    "s": "4 см"
+                  },
+                  {
+                    "type": "text",
+                    "x": 194,
+                    "y": 95,
+                    "s": "? см"
+                  },
+                  {
+                    "type": "polygon",
+                    "xy": [
+                      [
+                        270,
+                        68
+                      ],
+                      [
+                        370,
+                        68
+                      ],
+                      [
+                        370,
+                        110
+                      ],
+                      [
+                        270,
+                        110
+                      ]
+                    ],
+                    "fill": "#e8eef6"
+                  },
+                  {
+                    "type": "polygon",
+                    "xy": [
+                      [
+                        270,
+                        68
+                      ],
+                      [
+                        303,
+                        47
+                      ],
+                      [
+                        403,
+                        47
+                      ],
+                      [
+                        370,
+                        68
+                      ]
+                    ],
+                    "fill": "#c0d6ec"
+                  },
+                  {
+                    "type": "polygon",
+                    "xy": [
+                      [
+                        370,
+                        68
+                      ],
+                      [
+                        403,
+                        47
+                      ],
+                      [
+                        403,
+                        89
+                      ],
+                      [
+                        370,
+                        110
+                      ]
+                    ],
+                    "fill": "#b1c5df"
+                  },
+                  {
+                    "type": "text",
+                    "x": 328,
+                    "y": 31,
+                    "s": "V = 12 см³"
+                  },
+                  {
+                    "type": "text",
+                    "x": 318,
+                    "y": 133,
+                    "s": "4 см"
+                  },
+                  {
+                    "type": "text",
+                    "x": 399,
+                    "y": 125,
+                    "s": "3 см"
+                  },
+                  {
+                    "type": "text",
+                    "x": 419,
+                    "y": 95,
+                    "s": "? см"
+                  },
+                  {
+                    "type": "polygon",
+                    "xy": [
+                      [
+                        495,
+                        68
+                      ],
+                      [
+                        595,
+                        68
+                      ],
+                      [
+                        595,
+                        110
+                      ],
+                      [
+                        495,
+                        110
+                      ]
+                    ],
+                    "fill": "#e8eef6"
+                  },
+                  {
+                    "type": "polygon",
+                    "xy": [
+                      [
+                        495,
+                        68
+                      ],
+                      [
+                        528,
+                        47
+                      ],
+                      [
+                        628,
+                        47
+                      ],
+                      [
+                        595,
+                        68
+                      ]
+                    ],
+                    "fill": "#c0d6ec"
+                  },
+                  {
+                    "type": "polygon",
+                    "xy": [
+                      [
+                        595,
+                        68
+                      ],
+                      [
+                        628,
+                        47
+                      ],
+                      [
+                        628,
+                        89
+                      ],
+                      [
+                        595,
+                        110
+                      ]
+                    ],
+                    "fill": "#b1c5df"
+                  },
+                  {
+                    "type": "text",
+                    "x": 553,
+                    "y": 31,
+                    "s": "V = 280 см³"
+                  },
+                  {
+                    "type": "text",
+                    "x": 543,
+                    "y": 133,
+                    "s": "7 см"
+                  },
+                  {
+                    "type": "text",
+                    "x": 624,
+                    "y": 125,
+                    "s": "4 см"
+                  },
+                  {
+                    "type": "text",
+                    "x": 644,
+                    "y": 95,
+                    "s": "? см"
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-091:m07:box-volumes:crop",
             "ocr_evidence": [
@@ -3710,7 +4161,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Екі қозғалыс бір нүктеден оңға бағытталған. t = 3 мин, v₁ = 5 м/мин, v₂ = 10 м/мин; үш минуттан кейінгі шеткі нүктелердің аралығы S = ? м.",
+              "description_kk": "Екі қозғалыс бір нүктеден оңға бағытталған. t = 3 мин, v₁ = 5 м/мин, v₂ = 10 м/мин; үш минуттан кейінгі шеткі нүктелердің аралығы S = ? м. Үш жоғарғы доға, бір төменгі доға және ортақ бастау сақталды.",
               "relations": [
                 {
                   "kind": "motion_diagram",
@@ -3723,7 +4174,127 @@
                   ],
                   "unknown": "final_separation_m"
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 700,
+                "height": 210,
+                "items": [
+                  {
+                    "type": "line",
+                    "x1": 100,
+                    "y1": 110,
+                    "x2": 617,
+                    "y2": 110,
+                    "color": "#284d77",
+                    "width": 3,
+                    "arrow": true
+                  },
+                  {
+                    "type": "circle",
+                    "x": 100,
+                    "y": 110,
+                    "r": 4.5,
+                    "fill": "#284d77",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 266,
+                    "y": 110,
+                    "r": 4.5,
+                    "fill": "#284d77",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 432,
+                    "y": 110,
+                    "r": 4.5,
+                    "fill": "#284d77",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M100 109 Q183 80 266 109",
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M266 109 Q349 80 432 109",
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M432 109 Q515 80 598 109",
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M100 111 Q349 146 598 111",
+                    "color": "light_blue"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 100,
+                    "y1": 110,
+                    "x2": 100,
+                    "y2": 70,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 100,
+                    "y1": 70,
+                    "x2": 199,
+                    "y2": 70,
+                    "color": "#284d77",
+                    "arrow": true
+                  },
+                  {
+                    "type": "text",
+                    "x": 149.5,
+                    "y": 59,
+                    "s": "v₁ = 5 м/мин",
+                    "size": 14
+                  },
+                  {
+                    "type": "line",
+                    "x1": 100,
+                    "y1": 110,
+                    "x2": 100,
+                    "y2": 145,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 100,
+                    "y1": 145,
+                    "x2": 241,
+                    "y2": 145,
+                    "color": "#284d77",
+                    "arrow": true
+                  },
+                  {
+                    "type": "text",
+                    "x": 170.5,
+                    "y": 166,
+                    "s": "v₂ = 10 м/мин",
+                    "size": 14
+                  },
+                  {
+                    "type": "text",
+                    "x": 360,
+                    "y": 40,
+                    "s": "t = 3 мин"
+                  },
+                  {
+                    "type": "text",
+                    "x": 493,
+                    "y": 160,
+                    "s": "S = ? м"
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-091:m09:animal-motion:crop",
             "ocr_evidence": [
@@ -6546,6 +7117,16 @@
                 0
               ]
             ]
+          ],
+          "x_grid_step": 0.25,
+          "y_grid_step": 5,
+          "x_domain": [
+            "11:00",
+            "14:15"
+          ],
+          "y_domain": [
+            0,
+            100
           ]
         }
       ],
@@ -6756,6 +7337,16 @@
                     0
                   ]
                 ]
+              ],
+              "x_grid_step": 0.25,
+              "y_grid_step": 5,
+              "x_domain": [
+                "11:00",
+                "14:15"
+              ],
+              "y_domain": [
+                0,
+                100
               ]
             }
           ]
@@ -7558,5 +8149,242 @@
         }
       ]
     }
-  ]
+  ],
+  "review_revision": {
+    "source_version": "2026-11-26-initial-1",
+    "source_object_ids": [
+      "math-2023-grade4-part3:lesson-091:closing",
+      "math-2023-grade4-part3:lesson-091:header",
+      "math-2023-grade4-part3:lesson-091:header:number",
+      "math-2023-grade4-part3:lesson-091:header:theme",
+      "math-2023-grade4-part3:lesson-091:header:title",
+      "math-2023-grade4-part3:lesson-091:m01",
+      "math-2023-grade4-part3:lesson-091:m01:context",
+      "math-2023-grade4-part3:lesson-091:m01:number",
+      "math-2023-grade4-part3:lesson-091:m01:prompt",
+      "math-2023-grade4-part3:lesson-091:m01:table",
+      "math-2023-grade4-part3:lesson-091:m01:table:r1c1",
+      "math-2023-grade4-part3:lesson-091:m01:table:r1c2",
+      "math-2023-grade4-part3:lesson-091:m01:table:r2c1",
+      "math-2023-grade4-part3:lesson-091:m01:table:r2c2",
+      "math-2023-grade4-part3:lesson-091:m01:table:r3c1",
+      "math-2023-grade4-part3:lesson-091:m01:table:r3c2",
+      "math-2023-grade4-part3:lesson-091:m02",
+      "math-2023-grade4-part3:lesson-091:m02:number",
+      "math-2023-grade4-part3:lesson-091:m02:problem",
+      "math-2023-grade4-part3:lesson-091:m02:prompt",
+      "math-2023-grade4-part3:lesson-091:m03",
+      "math-2023-grade4-part3:lesson-091:m03:badge",
+      "math-2023-grade4-part3:lesson-091:m03:number",
+      "math-2023-grade4-part3:lesson-091:m03:prompt",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:bicycle-number-line",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:body",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:number",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r1c1",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r1c2",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r1c3",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r1c4",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r1c5",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r1c6",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r1c7",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r1c8",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r1c9",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r2c1",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r2c2",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r2c3",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r2c4",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r2c5",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r2c6",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r2c7",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r2c8",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r2c9",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r3c1",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r3c2",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r3c3",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r3c4",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r3c5",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r3c6",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r3c7",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r3c8",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r3c9",
+      "math-2023-grade4-part3:lesson-091:m03:sub-Б",
+      "math-2023-grade4-part3:lesson-091:m03:sub-Б:body",
+      "math-2023-grade4-part3:lesson-091:m03:sub-Б:number",
+      "math-2023-grade4-part3:lesson-091:m03:sub-Ә",
+      "math-2023-grade4-part3:lesson-091:m03:sub-Ә:body",
+      "math-2023-grade4-part3:lesson-091:m03:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-091:m04",
+      "math-2023-grade4-part3:lesson-091:m04:number",
+      "math-2023-grade4-part3:lesson-091:m04:problem",
+      "math-2023-grade4-part3:lesson-091:m04:prompt",
+      "math-2023-grade4-part3:lesson-091:m04:unknown",
+      "math-2023-grade4-part3:lesson-091:m05",
+      "math-2023-grade4-part3:lesson-091:m05:badge",
+      "math-2023-grade4-part3:lesson-091:m05:number",
+      "math-2023-grade4-part3:lesson-091:m05:prompt",
+      "math-2023-grade4-part3:lesson-091:m05:sub-А",
+      "math-2023-grade4-part3:lesson-091:m05:sub-А:body",
+      "math-2023-grade4-part3:lesson-091:m05:sub-А:number",
+      "math-2023-grade4-part3:lesson-091:m05:sub-Ә",
+      "math-2023-grade4-part3:lesson-091:m05:sub-Ә:body",
+      "math-2023-grade4-part3:lesson-091:m05:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-091:m06",
+      "math-2023-grade4-part3:lesson-091:m06:number",
+      "math-2023-grade4-part3:lesson-091:m06:problem",
+      "math-2023-grade4-part3:lesson-091:m06:prompt",
+      "math-2023-grade4-part3:lesson-091:m06:vehicle-motion-graph",
+      "math-2023-grade4-part3:lesson-091:m07",
+      "math-2023-grade4-part3:lesson-091:m07:badge",
+      "math-2023-grade4-part3:lesson-091:m07:box-volumes",
+      "math-2023-grade4-part3:lesson-091:m07:number",
+      "math-2023-grade4-part3:lesson-091:m07:prompt",
+      "math-2023-grade4-part3:lesson-091:m08",
+      "math-2023-grade4-part3:lesson-091:m08:badge",
+      "math-2023-grade4-part3:lesson-091:m08:number",
+      "math-2023-grade4-part3:lesson-091:m08:problem",
+      "math-2023-grade4-part3:lesson-091:m08:prompt",
+      "math-2023-grade4-part3:lesson-091:m09",
+      "math-2023-grade4-part3:lesson-091:m09:animal-motion",
+      "math-2023-grade4-part3:lesson-091:m09:badge",
+      "math-2023-grade4-part3:lesson-091:m09:number",
+      "math-2023-grade4-part3:lesson-091:m09:prompt",
+      "math-2023-grade4-part3:lesson-091:method-heading",
+      "math-2023-grade4-part3:lesson-091:orientation",
+      "math-2023-grade4-part3:lesson-091:orientation:badge",
+      "math-2023-grade4-part3:lesson-091:orientation:objective",
+      "math-2023-grade4-part3:p039",
+      "math-2023-grade4-part3:p040",
+      "math-2023-grade4-part3:p041",
+      "math-2023-grade4-part3:p042"
+    ],
+    "equivalent_object_ids": [
+      "math-2023-grade4-part3:lesson-091:closing",
+      "math-2023-grade4-part3:lesson-091:header",
+      "math-2023-grade4-part3:lesson-091:header:number",
+      "math-2023-grade4-part3:lesson-091:header:theme",
+      "math-2023-grade4-part3:lesson-091:header:title",
+      "math-2023-grade4-part3:lesson-091:m01",
+      "math-2023-grade4-part3:lesson-091:m01:context",
+      "math-2023-grade4-part3:lesson-091:m01:number",
+      "math-2023-grade4-part3:lesson-091:m01:prompt",
+      "math-2023-grade4-part3:lesson-091:m01:table",
+      "math-2023-grade4-part3:lesson-091:m01:table:r1c1",
+      "math-2023-grade4-part3:lesson-091:m01:table:r1c2",
+      "math-2023-grade4-part3:lesson-091:m01:table:r2c1",
+      "math-2023-grade4-part3:lesson-091:m01:table:r2c2",
+      "math-2023-grade4-part3:lesson-091:m01:table:r3c1",
+      "math-2023-grade4-part3:lesson-091:m01:table:r3c2",
+      "math-2023-grade4-part3:lesson-091:m02",
+      "math-2023-grade4-part3:lesson-091:m02:number",
+      "math-2023-grade4-part3:lesson-091:m02:problem",
+      "math-2023-grade4-part3:lesson-091:m02:prompt",
+      "math-2023-grade4-part3:lesson-091:m03",
+      "math-2023-grade4-part3:lesson-091:m03:badge",
+      "math-2023-grade4-part3:lesson-091:m03:number",
+      "math-2023-grade4-part3:lesson-091:m03:prompt",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:body",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:number",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r1c1",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r1c2",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r1c3",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r1c4",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r1c5",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r1c6",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r1c7",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r1c8",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r1c9",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r2c1",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r2c2",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r2c3",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r2c4",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r2c5",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r2c6",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r2c7",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r2c8",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r2c9",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r3c1",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r3c2",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r3c3",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r3c4",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r3c5",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r3c6",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r3c7",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r3c8",
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:table:r3c9",
+      "math-2023-grade4-part3:lesson-091:m03:sub-Б",
+      "math-2023-grade4-part3:lesson-091:m03:sub-Б:body",
+      "math-2023-grade4-part3:lesson-091:m03:sub-Б:number",
+      "math-2023-grade4-part3:lesson-091:m03:sub-Ә",
+      "math-2023-grade4-part3:lesson-091:m03:sub-Ә:body",
+      "math-2023-grade4-part3:lesson-091:m03:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-091:m04",
+      "math-2023-grade4-part3:lesson-091:m04:number",
+      "math-2023-grade4-part3:lesson-091:m04:problem",
+      "math-2023-grade4-part3:lesson-091:m04:prompt",
+      "math-2023-grade4-part3:lesson-091:m04:unknown",
+      "math-2023-grade4-part3:lesson-091:m05",
+      "math-2023-grade4-part3:lesson-091:m05:badge",
+      "math-2023-grade4-part3:lesson-091:m05:number",
+      "math-2023-grade4-part3:lesson-091:m05:prompt",
+      "math-2023-grade4-part3:lesson-091:m05:sub-А",
+      "math-2023-grade4-part3:lesson-091:m05:sub-А:body",
+      "math-2023-grade4-part3:lesson-091:m05:sub-А:number",
+      "math-2023-grade4-part3:lesson-091:m05:sub-Ә",
+      "math-2023-grade4-part3:lesson-091:m05:sub-Ә:body",
+      "math-2023-grade4-part3:lesson-091:m05:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-091:m06",
+      "math-2023-grade4-part3:lesson-091:m06:number",
+      "math-2023-grade4-part3:lesson-091:m06:problem",
+      "math-2023-grade4-part3:lesson-091:m06:prompt",
+      "math-2023-grade4-part3:lesson-091:m07",
+      "math-2023-grade4-part3:lesson-091:m07:badge",
+      "math-2023-grade4-part3:lesson-091:m07:number",
+      "math-2023-grade4-part3:lesson-091:m07:prompt",
+      "math-2023-grade4-part3:lesson-091:m08",
+      "math-2023-grade4-part3:lesson-091:m08:badge",
+      "math-2023-grade4-part3:lesson-091:m08:number",
+      "math-2023-grade4-part3:lesson-091:m08:problem",
+      "math-2023-grade4-part3:lesson-091:m08:prompt",
+      "math-2023-grade4-part3:lesson-091:m09",
+      "math-2023-grade4-part3:lesson-091:m09:badge",
+      "math-2023-grade4-part3:lesson-091:m09:number",
+      "math-2023-grade4-part3:lesson-091:m09:prompt",
+      "math-2023-grade4-part3:lesson-091:method-heading",
+      "math-2023-grade4-part3:lesson-091:orientation",
+      "math-2023-grade4-part3:lesson-091:orientation:badge",
+      "math-2023-grade4-part3:lesson-091:orientation:objective",
+      "math-2023-grade4-part3:p039",
+      "math-2023-grade4-part3:p040",
+      "math-2023-grade4-part3:p041",
+      "math-2023-grade4-part3:p042"
+    ],
+    "addressed_record_ids": []
+  },
+  "redraw_validation": {
+    "baseline_content_sha256": "a7fb699a6e59785d01893b63cb8021627b3b2b73e8c357e4b31fc9f0b943e4ed",
+    "baseline_commit": "389c68b9a11759f9a4b1b74f2253b5be29fabf09",
+    "status": "verified",
+    "images": {
+      "math-2023-grade4-part3:lesson-091:m03:sub-А:bicycle-number-line": {
+        "finding_zh": "补画 A→B 距离括线、每 15 千米的编号和起点上方速度箭头。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-091:m06:vehicle-motion-graph": {
+        "finding_zh": "补回小格和坐标轴名称。紫线两折点在 12:30 和约 13:15，旧读数按网格保留。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-091:m07:box-volumes": {
+        "finding_zh": "三图将体积、底面的两条边与未知高度分别绑定。示意轮廓不用于量长。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-091:m09:animal-motion": {
+        "finding_zh": "保留共起点、三段上弧、下弧及 t 和 S 的相对位置；插图对象剪影省略。",
+        "status": "verified"
+      }
+    }
+  }
 }

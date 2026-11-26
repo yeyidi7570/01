@@ -1,5 +1,5 @@
 {
-  "data_version": "2026-11-26-initial-1",
+  "data_version": "2026-11-26-redraw-1",
   "review_status": "pending_review",
   "book": {
     "id": "math-2023-grade4-part3",
@@ -554,7 +554,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Үш автокөліктің үстіндегі белгілер солдан оңға 60 км/сағ, 40 км/сағ және 75 км/сағ.",
+              "description_kk": "Үш автокөліктің үстіндегі белгілер солдан оңға 60 км/сағ, 40 км/сағ және 75 км/сағ. 60, 40, 75 км/сағ солдан оңға қарай орналасады.",
               "relations": [
                 {
                   "kind": "ordered_labels",
@@ -701,7 +701,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "A бастапқы нүктесі 0-де, B 200-де. Көрсеткілер екеуі де оңға бағытталған; A үшін 60 км/сағ, B үшін 10 км/сағ жазылған. Ұсақ бөлік құны 10, нөмірлер 40 қадаммен берілген.",
+              "description_kk": "A бастапқы нүктесі 0-де, B 200-де. Көрсеткілер екеуі де оңға бағытталған; A үшін 60 км/сағ, B үшін 10 км/сағ жазылған. Ұсақ бөлік құны 10, нөмірлер 40 қадаммен берілген. 240-тан кейін 250, 260, 270 белгілері бар; B нүктесінен оңға қарай ось қызыл.",
               "relations": [
                 {
                   "kind": "number_line_motion",
@@ -748,7 +748,394 @@
                     ]
                   ]
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 700,
+                "height": 155,
+                "items": [
+                  {
+                    "type": "line",
+                    "x1": 47.0,
+                    "y1": 93,
+                    "x2": 483.00000000000006,
+                    "y2": 93,
+                    "color": "#284d77",
+                    "width": 2.5
+                  },
+                  {
+                    "type": "line",
+                    "x1": 483.00000000000006,
+                    "y1": 93,
+                    "x2": 657.4000000000001,
+                    "y2": 93,
+                    "color": "#b73730",
+                    "width": 2.5,
+                    "arrow": true
+                  },
+                  {
+                    "type": "line",
+                    "x1": 47.0,
+                    "y1": 93,
+                    "x2": 47.0,
+                    "y2": 104,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "text",
+                    "x": 47.0,
+                    "y": 123,
+                    "s": 0
+                  },
+                  {
+                    "type": "line",
+                    "x1": 68.8,
+                    "y1": 93,
+                    "x2": 68.8,
+                    "y2": 99,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 90.6,
+                    "y1": 93,
+                    "x2": 90.6,
+                    "y2": 99,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 112.4,
+                    "y1": 93,
+                    "x2": 112.4,
+                    "y2": 99,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 134.2,
+                    "y1": 93,
+                    "x2": 134.2,
+                    "y2": 104,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "text",
+                    "x": 134.2,
+                    "y": 123,
+                    "s": 40
+                  },
+                  {
+                    "type": "line",
+                    "x1": 156.0,
+                    "y1": 93,
+                    "x2": 156.0,
+                    "y2": 99,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 177.8,
+                    "y1": 93,
+                    "x2": 177.8,
+                    "y2": 99,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 199.60000000000002,
+                    "y1": 93,
+                    "x2": 199.60000000000002,
+                    "y2": 99,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 221.4,
+                    "y1": 93,
+                    "x2": 221.4,
+                    "y2": 104,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "text",
+                    "x": 221.4,
+                    "y": 123,
+                    "s": 80
+                  },
+                  {
+                    "type": "line",
+                    "x1": 243.20000000000002,
+                    "y1": 93,
+                    "x2": 243.20000000000002,
+                    "y2": 99,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 265.0,
+                    "y1": 93,
+                    "x2": 265.0,
+                    "y2": 99,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 286.8,
+                    "y1": 93,
+                    "x2": 286.8,
+                    "y2": 99,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 308.6,
+                    "y1": 93,
+                    "x2": 308.6,
+                    "y2": 104,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "text",
+                    "x": 308.6,
+                    "y": 123,
+                    "s": 120
+                  },
+                  {
+                    "type": "line",
+                    "x1": 330.40000000000003,
+                    "y1": 93,
+                    "x2": 330.40000000000003,
+                    "y2": 99,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 352.20000000000005,
+                    "y1": 93,
+                    "x2": 352.20000000000005,
+                    "y2": 99,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 374.0,
+                    "y1": 93,
+                    "x2": 374.0,
+                    "y2": 99,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 395.8,
+                    "y1": 93,
+                    "x2": 395.8,
+                    "y2": 104,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "text",
+                    "x": 395.8,
+                    "y": 123,
+                    "s": 160
+                  },
+                  {
+                    "type": "line",
+                    "x1": 417.6,
+                    "y1": 93,
+                    "x2": 417.6,
+                    "y2": 99,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 439.40000000000003,
+                    "y1": 93,
+                    "x2": 439.40000000000003,
+                    "y2": 99,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 461.20000000000005,
+                    "y1": 93,
+                    "x2": 461.20000000000005,
+                    "y2": 99,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 483.00000000000006,
+                    "y1": 93,
+                    "x2": 483.00000000000006,
+                    "y2": 104,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "text",
+                    "x": 483.00000000000006,
+                    "y": 123,
+                    "s": 200
+                  },
+                  {
+                    "type": "line",
+                    "x1": 504.8,
+                    "y1": 93,
+                    "x2": 504.8,
+                    "y2": 99,
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 526.6,
+                    "y1": 93,
+                    "x2": 526.6,
+                    "y2": 99,
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 548.4000000000001,
+                    "y1": 93,
+                    "x2": 548.4000000000001,
+                    "y2": 99,
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 570.2,
+                    "y1": 93,
+                    "x2": 570.2,
+                    "y2": 104,
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "text",
+                    "x": 570.2,
+                    "y": 123,
+                    "s": 240
+                  },
+                  {
+                    "type": "line",
+                    "x1": 592.0,
+                    "y1": 93,
+                    "x2": 592.0,
+                    "y2": 99,
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 613.8000000000001,
+                    "y1": 93,
+                    "x2": 613.8000000000001,
+                    "y2": 99,
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 635.6,
+                    "y1": 93,
+                    "x2": 635.6,
+                    "y2": 99,
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 47.0,
+                    "y": 93,
+                    "r": 4.5,
+                    "fill": "#284d77",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "text",
+                    "x": 36.0,
+                    "y": 80,
+                    "s": "A"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 47.0,
+                    "y1": 93,
+                    "x2": 47.0,
+                    "y2": 70,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 47.0,
+                    "y1": 70,
+                    "x2": 131.0,
+                    "y2": 70,
+                    "color": "#284d77",
+                    "arrow": true
+                  },
+                  {
+                    "type": "text",
+                    "x": 89.0,
+                    "y": 59,
+                    "s": "60 км/сағ",
+                    "size": 14
+                  },
+                  {
+                    "type": "circle",
+                    "x": 483.00000000000006,
+                    "y": 93,
+                    "r": 4.5,
+                    "fill": "#284d77",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "text",
+                    "x": 472.00000000000006,
+                    "y": 80,
+                    "s": "B"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 483.00000000000006,
+                    "y1": 93,
+                    "x2": 483.00000000000006,
+                    "y2": 70,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 483.00000000000006,
+                    "y1": 70,
+                    "x2": 527.0,
+                    "y2": 70,
+                    "color": "#284d77",
+                    "arrow": true
+                  },
+                  {
+                    "type": "text",
+                    "x": 505.0,
+                    "y": 59,
+                    "s": "10 км/сағ",
+                    "size": 14
+                  },
+                  {
+                    "type": "path",
+                    "d": "M47.0 92 Q112.4 67 177.8 92",
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M177.8 92 Q243.2 67 308.6 92",
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M483.00000000000006 92 Q493.9 73 504.8 92",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M504.8 92 Q515.7 73 526.6 92",
+                    "color": "#284d77"
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-089:m02:number-line:crop",
             "ocr_evidence": [
@@ -1478,7 +1865,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Көліктер бір жерден оңға жүреді. 75 км/сағ жеңіл автокөлік пен 50 км/сағ автобустың жолы үш бөлікке бөлінген. 3 сағаттан кейінгі соңғы белгілер айырмасы S = ? км.",
+              "description_kk": "Көліктер бір жерден оңға жүреді. 75 км/сағ жеңіл автокөлік пен 50 км/сағ автобустың жолы үш бөлікке бөлінген. 3 сағаттан кейінгі соңғы белгілер айырмасы S = ? км. Үш аралық әр көлікке жеке көрсетілген. Белгісіз аралық екі соңғы орынға қатысты.",
               "relations": [
                 {
                   "kind": "motion_diagram",
@@ -1498,7 +1885,155 @@
                   "time_hours": 3,
                   "unknown": "final_separation"
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 700,
+                "height": 215,
+                "items": [
+                  {
+                    "type": "line",
+                    "x1": 100,
+                    "y1": 91,
+                    "x2": 588,
+                    "y2": 91,
+                    "color": "#284d77",
+                    "width": 3,
+                    "arrow": true
+                  },
+                  {
+                    "type": "circle",
+                    "x": 100,
+                    "y": 91,
+                    "r": 4.5,
+                    "fill": "#284d77",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "text",
+                    "x": 88,
+                    "y": 81,
+                    "s": "Жеңіл автокөлік",
+                    "anchor": "end",
+                    "size": 11
+                  },
+                  {
+                    "type": "line",
+                    "x1": 100,
+                    "y1": 91,
+                    "x2": 100,
+                    "y2": 67,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 100,
+                    "y1": 67,
+                    "x2": 195,
+                    "y2": 67,
+                    "color": "#284d77",
+                    "arrow": true
+                  },
+                  {
+                    "type": "text",
+                    "x": 147.5,
+                    "y": 56,
+                    "s": "vжең.авт. = 75 км/сағ",
+                    "size": 14
+                  },
+                  {
+                    "type": "path",
+                    "d": "M100.0 91 Q181.333 69 262.66666666666663 91",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M262.66666666666663 91 Q344 69 425.3333333333333 91",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M425.3333333333333 91 Q506.667 69 588.0 91",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 100,
+                    "y1": 158,
+                    "x2": 466,
+                    "y2": 158,
+                    "color": "#284d77",
+                    "width": 3,
+                    "arrow": false
+                  },
+                  {
+                    "type": "circle",
+                    "x": 100,
+                    "y": 158,
+                    "r": 4.5,
+                    "fill": "#284d77",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "text",
+                    "x": 88,
+                    "y": 148,
+                    "s": "Автобус",
+                    "anchor": "end",
+                    "size": 11
+                  },
+                  {
+                    "type": "line",
+                    "x1": 100,
+                    "y1": 158,
+                    "x2": 100,
+                    "y2": 186,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 100,
+                    "y1": 186,
+                    "x2": 195,
+                    "y2": 186,
+                    "color": "#284d77",
+                    "arrow": true
+                  },
+                  {
+                    "type": "text",
+                    "x": 147.5,
+                    "y": 207,
+                    "s": "vавт. = 50 км/сағ",
+                    "size": 14
+                  },
+                  {
+                    "type": "path",
+                    "d": "M100.0 158 Q161 178 222.0 158",
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M222.0 158 Q283 178 344.0 158",
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M344.0 158 Q405 178 466.0 158",
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M466 92 Q527 112 588 92",
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "text",
+                    "x": 529,
+                    "y": 124,
+                    "s": "t = 3 сағ · S = ? км",
+                    "size": 13
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-089:m03:distance-diagram:crop",
             "ocr_evidence": [
@@ -2137,7 +2672,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Екі қозғалыс бір нүктеден оңға бағытталған. Жоғарғы v₁ = 16 км/сағ жолы S₁, төменгі v₂ = 25 км/сағ жолы S₂. Өткен уақыт 4 сағ. Шеткі нүктелердің айырмасы S = ? км.",
+              "description_kk": "Екі қозғалыс бір нүктеден оңға бағытталған. Жоғарғы v₁ = 16 км/сағ жолы S₁, төменгі v₂ = 25 км/сағ жолы S₂. Өткен уақыт 4 сағ. Шеткі нүктелердің айырмасы S = ? км. S₁ және S₂ ортақ нүктеден басталады. S = ? екі соңғы нүктенің арасында.",
               "relations": [
                 {
                   "kind": "motion_diagram",
@@ -2160,7 +2695,132 @@
                   ],
                   "unknown": "final_separation"
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 700,
+                "height": 210,
+                "items": [
+                  {
+                    "type": "line",
+                    "x1": 75,
+                    "y1": 104,
+                    "x2": 645,
+                    "y2": 104,
+                    "color": "#284d77",
+                    "width": 3,
+                    "arrow": true
+                  },
+                  {
+                    "type": "circle",
+                    "x": 75,
+                    "y": 104,
+                    "r": 4.5,
+                    "fill": "#284d77",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 75,
+                    "y1": 104,
+                    "x2": 75,
+                    "y2": 69,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 75,
+                    "y1": 69,
+                    "x2": 175,
+                    "y2": 69,
+                    "color": "#284d77",
+                    "arrow": true
+                  },
+                  {
+                    "type": "text",
+                    "x": 125.0,
+                    "y": 58,
+                    "s": "v₁ = 16 км/сағ",
+                    "size": 14
+                  },
+                  {
+                    "type": "line",
+                    "x1": 75,
+                    "y1": 104,
+                    "x2": 75,
+                    "y2": 136,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 75,
+                    "y1": 136,
+                    "x2": 216,
+                    "y2": 136,
+                    "color": "#284d77",
+                    "arrow": true
+                  },
+                  {
+                    "type": "text",
+                    "x": 145.5,
+                    "y": 157,
+                    "s": "v₂ = 25 км/сағ",
+                    "size": 14
+                  },
+                  {
+                    "type": "path",
+                    "d": "M75 101 Q227.5 69 380 101",
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M75 105 Q299 137 523 105",
+                    "color": "light_blue"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M380 101 Q451.5 69 523 101",
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 380,
+                    "y1": 94,
+                    "x2": 380,
+                    "y2": 116
+                  },
+                  {
+                    "type": "line",
+                    "x1": 523,
+                    "y1": 94,
+                    "x2": 523,
+                    "y2": 116
+                  },
+                  {
+                    "type": "text",
+                    "x": 266,
+                    "y": 74,
+                    "s": "S₁"
+                  },
+                  {
+                    "type": "text",
+                    "x": 300,
+                    "y": 143,
+                    "s": "S₂"
+                  },
+                  {
+                    "type": "text",
+                    "x": 460,
+                    "y": 60,
+                    "s": "S = ? км"
+                  },
+                  {
+                    "type": "text",
+                    "x": 615,
+                    "y": 82,
+                    "s": "t = 4 сағ"
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-089:m05:separation-diagram:crop",
             "ocr_evidence": [
@@ -6185,5 +6845,214 @@
         }
       ]
     }
-  ]
+  ],
+  "review_revision": {
+    "source_version": "2026-11-26-initial-1",
+    "source_object_ids": [
+      "math-2023-grade4-part3:lesson-089:closing",
+      "math-2023-grade4-part3:lesson-089:header",
+      "math-2023-grade4-part3:lesson-089:header:number",
+      "math-2023-grade4-part3:lesson-089:header:theme",
+      "math-2023-grade4-part3:lesson-089:header:title",
+      "math-2023-grade4-part3:lesson-089:link:rule-m04",
+      "math-2023-grade4-part3:lesson-089:link:rule-m05",
+      "math-2023-grade4-part3:lesson-089:link:rule-m06",
+      "math-2023-grade4-part3:lesson-089:link:rule-m09",
+      "math-2023-grade4-part3:lesson-089:link:worked-example-m03",
+      "math-2023-grade4-part3:lesson-089:m01",
+      "math-2023-grade4-part3:lesson-089:m01:badge",
+      "math-2023-grade4-part3:lesson-089:m01:number",
+      "math-2023-grade4-part3:lesson-089:m01:problem",
+      "math-2023-grade4-part3:lesson-089:m01:prompt",
+      "math-2023-grade4-part3:lesson-089:m01:question",
+      "math-2023-grade4-part3:lesson-089:m01:speed-labels",
+      "math-2023-grade4-part3:lesson-089:m02",
+      "math-2023-grade4-part3:lesson-089:m02:expression-37",
+      "math-2023-grade4-part3:lesson-089:m02:expression-38",
+      "math-2023-grade4-part3:lesson-089:m02:expression-39",
+      "math-2023-grade4-part3:lesson-089:m02:expression-40",
+      "math-2023-grade4-part3:lesson-089:m02:expression-41",
+      "math-2023-grade4-part3:lesson-089:m02:expression-42",
+      "math-2023-grade4-part3:lesson-089:m02:instruction",
+      "math-2023-grade4-part3:lesson-089:m02:number",
+      "math-2023-grade4-part3:lesson-089:m02:number-line",
+      "math-2023-grade4-part3:lesson-089:m02:prompt",
+      "math-2023-grade4-part3:lesson-089:m03",
+      "math-2023-grade4-part3:lesson-089:m03:distance-diagram",
+      "math-2023-grade4-part3:lesson-089:m03:number",
+      "math-2023-grade4-part3:lesson-089:m03:problem",
+      "math-2023-grade4-part3:lesson-089:m03:prompt",
+      "math-2023-grade4-part3:lesson-089:m03:table",
+      "math-2023-grade4-part3:lesson-089:m03:table:r1c1",
+      "math-2023-grade4-part3:lesson-089:m03:table:r1c2",
+      "math-2023-grade4-part3:lesson-089:m03:table:r1c3",
+      "math-2023-grade4-part3:lesson-089:m03:table:r1c4",
+      "math-2023-grade4-part3:lesson-089:m03:table:r2c1",
+      "math-2023-grade4-part3:lesson-089:m03:table:r2c2",
+      "math-2023-grade4-part3:lesson-089:m03:table:r2c3",
+      "math-2023-grade4-part3:lesson-089:m03:table:r2c4",
+      "math-2023-grade4-part3:lesson-089:m04",
+      "math-2023-grade4-part3:lesson-089:m04:badge",
+      "math-2023-grade4-part3:lesson-089:m04:number",
+      "math-2023-grade4-part3:lesson-089:m04:problem",
+      "math-2023-grade4-part3:lesson-089:m04:prompt",
+      "math-2023-grade4-part3:lesson-089:m05",
+      "math-2023-grade4-part3:lesson-089:m05:badge",
+      "math-2023-grade4-part3:lesson-089:m05:number",
+      "math-2023-grade4-part3:lesson-089:m05:prompt",
+      "math-2023-grade4-part3:lesson-089:m05:separation-diagram",
+      "math-2023-grade4-part3:lesson-089:m06",
+      "math-2023-grade4-part3:lesson-089:m06:number",
+      "math-2023-grade4-part3:lesson-089:m06:problem",
+      "math-2023-grade4-part3:lesson-089:m06:prompt",
+      "math-2023-grade4-part3:lesson-089:m07",
+      "math-2023-grade4-part3:lesson-089:m07:badge",
+      "math-2023-grade4-part3:lesson-089:m07:expression-1",
+      "math-2023-grade4-part3:lesson-089:m07:expression-2",
+      "math-2023-grade4-part3:lesson-089:m07:expression-3",
+      "math-2023-grade4-part3:lesson-089:m07:expression-4",
+      "math-2023-grade4-part3:lesson-089:m07:expression-5",
+      "math-2023-grade4-part3:lesson-089:m07:expression-6",
+      "math-2023-grade4-part3:lesson-089:m07:number",
+      "math-2023-grade4-part3:lesson-089:m07:prompt",
+      "math-2023-grade4-part3:lesson-089:m08",
+      "math-2023-grade4-part3:lesson-089:m08:badge",
+      "math-2023-grade4-part3:lesson-089:m08:number",
+      "math-2023-grade4-part3:lesson-089:m08:problem",
+      "math-2023-grade4-part3:lesson-089:m08:prompt",
+      "math-2023-grade4-part3:lesson-089:m09",
+      "math-2023-grade4-part3:lesson-089:m09:badge",
+      "math-2023-grade4-part3:lesson-089:m09:number",
+      "math-2023-grade4-part3:lesson-089:m09:problem",
+      "math-2023-grade4-part3:lesson-089:m09:prompt",
+      "math-2023-grade4-part3:lesson-089:note-separation-speed",
+      "math-2023-grade4-part3:lesson-089:note-separation-speed:badge",
+      "math-2023-grade4-part3:lesson-089:note-separation-speed:distance-example",
+      "math-2023-grade4-part3:lesson-089:note-separation-speed:distance-example:after-three-hours",
+      "math-2023-grade4-part3:lesson-089:note-separation-speed:distance-example:example-speed",
+      "math-2023-grade4-part3:lesson-089:note-separation-speed:distance-example:explanation",
+      "math-2023-grade4-part3:lesson-089:note-separation-speed:distance-example:result",
+      "math-2023-grade4-part3:lesson-089:note-separation-speed:distance-example:separation-speed",
+      "math-2023-grade4-part3:lesson-089:note-separation-speed:rule",
+      "math-2023-grade4-part3:lesson-089:orientation",
+      "math-2023-grade4-part3:lesson-089:orientation:badge",
+      "math-2023-grade4-part3:lesson-089:orientation:objective",
+      "math-2023-grade4-part3:p032",
+      "math-2023-grade4-part3:p033",
+      "math-2023-grade4-part3:p034"
+    ],
+    "equivalent_object_ids": [
+      "math-2023-grade4-part3:lesson-089:closing",
+      "math-2023-grade4-part3:lesson-089:header",
+      "math-2023-grade4-part3:lesson-089:header:number",
+      "math-2023-grade4-part3:lesson-089:header:theme",
+      "math-2023-grade4-part3:lesson-089:header:title",
+      "math-2023-grade4-part3:lesson-089:link:rule-m04",
+      "math-2023-grade4-part3:lesson-089:link:rule-m05",
+      "math-2023-grade4-part3:lesson-089:link:rule-m06",
+      "math-2023-grade4-part3:lesson-089:link:rule-m09",
+      "math-2023-grade4-part3:lesson-089:link:worked-example-m03",
+      "math-2023-grade4-part3:lesson-089:m01",
+      "math-2023-grade4-part3:lesson-089:m01:badge",
+      "math-2023-grade4-part3:lesson-089:m01:number",
+      "math-2023-grade4-part3:lesson-089:m01:problem",
+      "math-2023-grade4-part3:lesson-089:m01:prompt",
+      "math-2023-grade4-part3:lesson-089:m01:question",
+      "math-2023-grade4-part3:lesson-089:m02",
+      "math-2023-grade4-part3:lesson-089:m02:expression-37",
+      "math-2023-grade4-part3:lesson-089:m02:expression-38",
+      "math-2023-grade4-part3:lesson-089:m02:expression-39",
+      "math-2023-grade4-part3:lesson-089:m02:expression-40",
+      "math-2023-grade4-part3:lesson-089:m02:expression-41",
+      "math-2023-grade4-part3:lesson-089:m02:expression-42",
+      "math-2023-grade4-part3:lesson-089:m02:instruction",
+      "math-2023-grade4-part3:lesson-089:m02:number",
+      "math-2023-grade4-part3:lesson-089:m02:prompt",
+      "math-2023-grade4-part3:lesson-089:m03",
+      "math-2023-grade4-part3:lesson-089:m03:number",
+      "math-2023-grade4-part3:lesson-089:m03:problem",
+      "math-2023-grade4-part3:lesson-089:m03:prompt",
+      "math-2023-grade4-part3:lesson-089:m03:table",
+      "math-2023-grade4-part3:lesson-089:m03:table:r1c1",
+      "math-2023-grade4-part3:lesson-089:m03:table:r1c2",
+      "math-2023-grade4-part3:lesson-089:m03:table:r1c3",
+      "math-2023-grade4-part3:lesson-089:m03:table:r1c4",
+      "math-2023-grade4-part3:lesson-089:m03:table:r2c1",
+      "math-2023-grade4-part3:lesson-089:m03:table:r2c2",
+      "math-2023-grade4-part3:lesson-089:m03:table:r2c3",
+      "math-2023-grade4-part3:lesson-089:m03:table:r2c4",
+      "math-2023-grade4-part3:lesson-089:m04",
+      "math-2023-grade4-part3:lesson-089:m04:badge",
+      "math-2023-grade4-part3:lesson-089:m04:number",
+      "math-2023-grade4-part3:lesson-089:m04:problem",
+      "math-2023-grade4-part3:lesson-089:m04:prompt",
+      "math-2023-grade4-part3:lesson-089:m05",
+      "math-2023-grade4-part3:lesson-089:m05:badge",
+      "math-2023-grade4-part3:lesson-089:m05:number",
+      "math-2023-grade4-part3:lesson-089:m05:prompt",
+      "math-2023-grade4-part3:lesson-089:m06",
+      "math-2023-grade4-part3:lesson-089:m06:number",
+      "math-2023-grade4-part3:lesson-089:m06:problem",
+      "math-2023-grade4-part3:lesson-089:m06:prompt",
+      "math-2023-grade4-part3:lesson-089:m07",
+      "math-2023-grade4-part3:lesson-089:m07:badge",
+      "math-2023-grade4-part3:lesson-089:m07:expression-1",
+      "math-2023-grade4-part3:lesson-089:m07:expression-2",
+      "math-2023-grade4-part3:lesson-089:m07:expression-3",
+      "math-2023-grade4-part3:lesson-089:m07:expression-4",
+      "math-2023-grade4-part3:lesson-089:m07:expression-5",
+      "math-2023-grade4-part3:lesson-089:m07:expression-6",
+      "math-2023-grade4-part3:lesson-089:m07:number",
+      "math-2023-grade4-part3:lesson-089:m07:prompt",
+      "math-2023-grade4-part3:lesson-089:m08",
+      "math-2023-grade4-part3:lesson-089:m08:badge",
+      "math-2023-grade4-part3:lesson-089:m08:number",
+      "math-2023-grade4-part3:lesson-089:m08:problem",
+      "math-2023-grade4-part3:lesson-089:m08:prompt",
+      "math-2023-grade4-part3:lesson-089:m09",
+      "math-2023-grade4-part3:lesson-089:m09:badge",
+      "math-2023-grade4-part3:lesson-089:m09:number",
+      "math-2023-grade4-part3:lesson-089:m09:problem",
+      "math-2023-grade4-part3:lesson-089:m09:prompt",
+      "math-2023-grade4-part3:lesson-089:note-separation-speed",
+      "math-2023-grade4-part3:lesson-089:note-separation-speed:badge",
+      "math-2023-grade4-part3:lesson-089:note-separation-speed:distance-example",
+      "math-2023-grade4-part3:lesson-089:note-separation-speed:distance-example:after-three-hours",
+      "math-2023-grade4-part3:lesson-089:note-separation-speed:distance-example:example-speed",
+      "math-2023-grade4-part3:lesson-089:note-separation-speed:distance-example:explanation",
+      "math-2023-grade4-part3:lesson-089:note-separation-speed:distance-example:result",
+      "math-2023-grade4-part3:lesson-089:note-separation-speed:distance-example:separation-speed",
+      "math-2023-grade4-part3:lesson-089:note-separation-speed:rule",
+      "math-2023-grade4-part3:lesson-089:orientation",
+      "math-2023-grade4-part3:lesson-089:orientation:badge",
+      "math-2023-grade4-part3:lesson-089:orientation:objective",
+      "math-2023-grade4-part3:p032",
+      "math-2023-grade4-part3:p033",
+      "math-2023-grade4-part3:p034"
+    ],
+    "addressed_record_ids": []
+  },
+  "redraw_validation": {
+    "baseline_content_sha256": "2be1f216fb2d6c8e06a82e30423b808077f40d6093faf126c395b5b0d0387e1d",
+    "baseline_commit": "389c68b9a11759f9a4b1b74f2253b5be29fabf09",
+    "status": "verified",
+    "images": {
+      "math-2023-grade4-part3:lesson-089:m01:speed-labels": {
+        "finding_zh": "三项从左至右是 60、40、75 千米/时，首次即完整。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-089:m02:number-line": {
+        "finding_zh": "补齐 240 之后的三根细刻线、右端箭头和 B 之后的红色轴段。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-089:m03:distance-diagram": {
+        "finding_zh": "由上、下两条三等分轨道直接重建。未知距离连接两车的最终位置。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-089:m05:separation-diagram": {
+        "finding_zh": "两运动用同一条轴和共同出发点。S₁、S₂ 分别是到两终点的弧，问号弧只跨两终点。",
+        "status": "verified"
+      }
+    }
+  }
 }

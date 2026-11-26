@@ -1,5 +1,5 @@
 {
-  "data_version": "2026-11-26-initial-1",
+  "data_version": "2026-11-26-redraw-1",
   "review_status": "pending_review",
   "book": {
     "id": "math-2023-grade4-part3",
@@ -439,7 +439,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Сол жақтағы қыз: «Менің тұсбағдарым – қызғылт сары». Ортадағы ұл: «Менің тұсбағдарым – көк». Оң жақтағы қыз: «Менің тұсбағдарым – қызғылт сары емес». Құралдардың үлгілері солдан оңға қызғылт сары, қызыл және көк.",
+              "description_kk": "Сол жақтағы қыз: «Менің тұсбағдарым – қызғылт сары». Ортадағы ұл: «Менің тұсбағдарым – көк». Оң жақтағы қыз: «Менің тұсбағдарым – қызғылт сары емес». Құралдардың үлгілері солдан оңға қызғылт сары, қызыл және көк. Үш сөйлем мен қызғылт сары, қызыл, көк түстер баспа ретімен сақталды.",
               "relations": [
                 {
                   "kind": "illustrated_statements",
@@ -459,7 +459,106 @@
                     "blue"
                   ]
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 750,
+                "height": 195,
+                "items": [
+                  {
+                    "type": "circle",
+                    "x": 125,
+                    "y": 123,
+                    "r": 32,
+                    "fill": "orange"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 125,
+                    "y": 123,
+                    "r": 26,
+                    "fill": "white"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 112,
+                    "y1": 135,
+                    "x2": 138,
+                    "y2": 111,
+                    "color": "#b73730",
+                    "width": 3,
+                    "arrow": true
+                  },
+                  {
+                    "type": "text",
+                    "x": 125,
+                    "y": 38,
+                    "s": "Менің тұсбағдарым – қызғылт сары.",
+                    "size": 13
+                  },
+                  {
+                    "type": "circle",
+                    "x": 375,
+                    "y": 123,
+                    "r": 32,
+                    "fill": "red"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 375,
+                    "y": 123,
+                    "r": 26,
+                    "fill": "white"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 362,
+                    "y1": 135,
+                    "x2": 388,
+                    "y2": 111,
+                    "color": "#b73730",
+                    "width": 3,
+                    "arrow": true
+                  },
+                  {
+                    "type": "text",
+                    "x": 375,
+                    "y": 38,
+                    "s": "Менің тұсбағдарым – көк.",
+                    "size": 13
+                  },
+                  {
+                    "type": "circle",
+                    "x": 625,
+                    "y": 123,
+                    "r": 32,
+                    "fill": "blue"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 625,
+                    "y": 123,
+                    "r": 26,
+                    "fill": "white"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 612,
+                    "y1": 135,
+                    "x2": 638,
+                    "y2": 111,
+                    "color": "#b73730",
+                    "width": 3,
+                    "arrow": true
+                  },
+                  {
+                    "type": "text",
+                    "x": 625,
+                    "y": 38,
+                    "s": "Менің тұсбағдарым – қызғылт сары емес.",
+                    "size": 13
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-095:m01:compass-statements:crop",
             "ocr_evidence": [
@@ -649,7 +748,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Солдан оңға жасыл тік төртбұрыш, көлбеу көк параллелограмм және бұрылған күлгін тік төртбұрыш.",
+              "description_kk": "Солдан оңға жасыл тік төртбұрыш, көлбеу көк параллелограмм және бұрылған күлгін тік төртбұрыш. Үш фигураның пішіні, түсі мен бағыты сақталды.",
               "relations": [
                 {
                   "kind": "geometry_figures",
@@ -668,7 +767,65 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 700,
+                "height": 145,
+                "items": [
+                  {
+                    "type": "rect",
+                    "x": 58,
+                    "y": 34,
+                    "w": 93.24,
+                    "h": 63,
+                    "fill": "green"
+                  },
+                  {
+                    "type": "polygon",
+                    "xy": [
+                      [
+                        270,
+                        97
+                      ],
+                      [
+                        333,
+                        97
+                      ],
+                      [
+                        356,
+                        34
+                      ],
+                      [
+                        293,
+                        34
+                      ]
+                    ],
+                    "fill": "light_blue"
+                  },
+                  {
+                    "type": "polygon",
+                    "xy": [
+                      [
+                        482,
+                        68.65
+                      ],
+                      [
+                        497.75,
+                        34
+                      ],
+                      [
+                        585.95,
+                        70.53999999999999
+                      ],
+                      [
+                        570.2,
+                        105.19
+                      ]
+                    ],
+                    "fill": "purple"
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-095:m02:three-shapes:crop"
           },
@@ -762,7 +919,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Үш кірістірілген аймақ: сыртында көк «Төртбұрыштар», ішінде қызғылт «Тіктөртбұрыштар», ең ішінде сары «Шаршылар». Оң жақта тоғыз фигура берілген: жасыл параллелограмм, көк шағын шаршы, жасыл шағын шаршы, көк шаршы; жіңішке көк тік төртбұрыш, жасыл тік төртбұрыш, көк трапеция, көлбеу көк параллелограмм және көк ромб.",
+              "description_kk": "Үш кірістірілген аймақ: сыртында көк «Төртбұрыштар», ішінде қызғылт «Тіктөртбұрыштар», ең ішінде сары «Шаршылар». Оң жақта тоғыз фигура берілген: жасыл параллелограмм, көк шағын шаршы, жасыл шағын шаршы, көк шаршы; жіңішке көк тік төртбұрыш, жасыл тік төртбұрыш, көк трапеция, көлбеу көк параллелограмм және көк ромб. Үш кірістірілген жиын мен тоғыз бөлек фигура берілді.",
               "relations": [
                 {
                   "kind": "euler_diagram",
@@ -783,7 +940,183 @@
                     "rhombus"
                   ]
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 760,
+                "height": 305,
+                "items": [
+                  {
+                    "type": "circle",
+                    "x": 157,
+                    "y": 148,
+                    "r": 126,
+                    "fill": "#d6e6f5"
+                  },
+                  {
+                    "type": "text",
+                    "x": 157,
+                    "y": 240,
+                    "s": "Төртбұрыштар",
+                    "size": 12
+                  },
+                  {
+                    "type": "circle",
+                    "x": 157,
+                    "y": 148,
+                    "r": 93,
+                    "fill": "#eabda8"
+                  },
+                  {
+                    "type": "text",
+                    "x": 157,
+                    "y": 211,
+                    "s": "Тіктөртбұрыштар",
+                    "size": 12
+                  },
+                  {
+                    "type": "circle",
+                    "x": 157,
+                    "y": 148,
+                    "r": 57,
+                    "fill": "#f9edb0"
+                  },
+                  {
+                    "type": "text",
+                    "x": 157,
+                    "y": 158,
+                    "s": "Шаршылар",
+                    "size": 12
+                  },
+                  {
+                    "type": "polygon",
+                    "xy": [
+                      [
+                        318,
+                        74
+                      ],
+                      [
+                        350,
+                        74
+                      ],
+                      [
+                        373,
+                        42
+                      ],
+                      [
+                        341,
+                        42
+                      ]
+                    ],
+                    "fill": "#9cc470"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 421,
+                    "y": 42,
+                    "w": 32,
+                    "h": 32,
+                    "fill": "light_blue"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 524,
+                    "y": 42,
+                    "w": 32,
+                    "h": 32,
+                    "fill": "#9cc470"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 627,
+                    "y": 42,
+                    "w": 32,
+                    "h": 32,
+                    "fill": "light_blue"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 318,
+                    "y": 121,
+                    "w": 47.36,
+                    "h": 32,
+                    "fill": "light_blue"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 421,
+                    "y": 121,
+                    "w": 47.36,
+                    "h": 32,
+                    "fill": "#9cc470"
+                  },
+                  {
+                    "type": "polygon",
+                    "xy": [
+                      [
+                        524,
+                        121
+                      ],
+                      [
+                        556,
+                        121
+                      ],
+                      [
+                        550.56,
+                        140.2
+                      ],
+                      [
+                        529.44,
+                        140.2
+                      ]
+                    ],
+                    "fill": "light_blue"
+                  },
+                  {
+                    "type": "polygon",
+                    "xy": [
+                      [
+                        627,
+                        153
+                      ],
+                      [
+                        659,
+                        153
+                      ],
+                      [
+                        682,
+                        121
+                      ],
+                      [
+                        650,
+                        121
+                      ]
+                    ],
+                    "fill": "light_blue"
+                  },
+                  {
+                    "type": "polygon",
+                    "xy": [
+                      [
+                        334.0,
+                        200
+                      ],
+                      [
+                        350,
+                        219.2
+                      ],
+                      [
+                        334.0,
+                        238.4
+                      ],
+                      [
+                        318,
+                        219.2
+                      ]
+                    ],
+                    "fill": "light_blue"
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-095:m02:euler-and-shapes:crop",
             "ocr_evidence": [
@@ -1628,6 +1961,12 @@
             ],
             "ocr_suggestion_ids": [
               "math-2023-grade4-part3:lesson-095:m04:star-directions:suggestion-1"
+            ],
+            "review_flags": [
+              {
+                "code": "redraw_source_uncertainty",
+                "description_kk": "Жұлдыздардың орны және бағыт сызығы түпнұсқа бойынша тексеріледі."
+              }
             ]
           }
         ],
@@ -1736,7 +2075,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Автобус пен мәшине бір нүктеден оңға қозғалады. Жоғарғы жолда 70 км/сағ, төменгі жолда 100 км/сағ, уақыт белгісіз. Төменгі жолдың шеті жоғарғы жолдың шетінен 90 км алда.",
+              "description_kk": "Автобус пен мәшине бір нүктеден оңға қозғалады. Жоғарғы жолда 70 км/сағ, төменгі жолда 100 км/сағ, уақыт белгісіз. Төменгі жолдың шеті жоғарғы жолдың шетінен 90 км алда. Екі жолда да үш аралық; 90 км соңғы орындардың арасында.",
               "relations": [
                 {
                   "kind": "motion_diagram",
@@ -1747,7 +2086,144 @@
                   "final_separation_km": 90,
                   "time_hours": null
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 700,
+                "height": 225,
+                "items": [
+                  {
+                    "type": "line",
+                    "x1": 115,
+                    "y1": 80,
+                    "x2": 483,
+                    "y2": 80,
+                    "color": "#284d77",
+                    "width": 3,
+                    "arrow": false
+                  },
+                  {
+                    "type": "circle",
+                    "x": 115,
+                    "y": 80,
+                    "r": 4.5,
+                    "fill": "#284d77",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 115,
+                    "y1": 80,
+                    "x2": 115,
+                    "y2": 55,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 115,
+                    "y1": 55,
+                    "x2": 210,
+                    "y2": 55,
+                    "color": "#284d77",
+                    "arrow": true
+                  },
+                  {
+                    "type": "text",
+                    "x": 162.5,
+                    "y": 44,
+                    "s": "vавт. = 70 км/сағ",
+                    "size": 14
+                  },
+                  {
+                    "type": "path",
+                    "d": "M115.0 80 Q176.333 60 237.66666666666669 80",
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M237.66666666666669 80 Q299 60 360.33333333333337 80",
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M360.33333333333337 80 Q421.667 60 483.0 80",
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 115,
+                    "y1": 143,
+                    "x2": 601,
+                    "y2": 143,
+                    "color": "#284d77",
+                    "width": 3,
+                    "arrow": true
+                  },
+                  {
+                    "type": "circle",
+                    "x": 115,
+                    "y": 143,
+                    "r": 4.5,
+                    "fill": "#284d77",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 115,
+                    "y1": 143,
+                    "x2": 115,
+                    "y2": 173,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 115,
+                    "y1": 173,
+                    "x2": 210,
+                    "y2": 173,
+                    "color": "#284d77",
+                    "arrow": true
+                  },
+                  {
+                    "type": "text",
+                    "x": 162.5,
+                    "y": 194,
+                    "s": "vм = 100 км/сағ",
+                    "size": 14
+                  },
+                  {
+                    "type": "path",
+                    "d": "M115.0 143 Q196 159 277.0 143",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M277.0 143 Q358 159 439.0 143",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M439.0 143 Q520 159 601.0 143",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "path",
+                    "d": "M483 142 Q542 117 601 142",
+                    "color": "#b73730"
+                  },
+                  {
+                    "type": "text",
+                    "x": 541,
+                    "y": 122,
+                    "s": "S = 90 км"
+                  },
+                  {
+                    "type": "text",
+                    "x": 568,
+                    "y": 91,
+                    "s": "t = ? сағ"
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-095:m05:vehicle-motion:crop",
             "ocr_evidence": [
@@ -2333,7 +2809,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Солдан оңға төрт папка: қызғылт сары «Қала да емес, аудан да емес»; күлгін «Аудан емес»; көк «Қала да емес, ауыл да емес»; жасыл «Ауыл да емес, қала да емес, облыс та емес».",
+              "description_kk": "Солдан оңға төрт папка: қызғылт сары «Қала да емес, аудан да емес»; күлгін «Аудан емес»; көк «Қала да емес, ауыл да емес»; жасыл «Ауыл да емес, қала да емес, облыс та емес». Төрт мұқабаның түсі және терістелетін сөздері сақталды.",
               "relations": [
                 {
                   "kind": "ordered_logic_labels",
@@ -2368,7 +2844,101 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 720,
+                "height": 145,
+                "items": [
+                  {
+                    "type": "rect",
+                    "x": 13,
+                    "y": 28,
+                    "w": 160,
+                    "h": 90,
+                    "fill": "orange"
+                  },
+                  {
+                    "type": "text",
+                    "x": 93,
+                    "y": 55,
+                    "s": "қала емес",
+                    "size": 14
+                  },
+                  {
+                    "type": "text",
+                    "x": 93,
+                    "y": 78,
+                    "s": "аудан емес",
+                    "size": 14
+                  },
+                  {
+                    "type": "rect",
+                    "x": 187,
+                    "y": 28,
+                    "w": 160,
+                    "h": 90,
+                    "fill": "purple"
+                  },
+                  {
+                    "type": "text",
+                    "x": 267,
+                    "y": 55,
+                    "s": "аудан емес",
+                    "size": 14
+                  },
+                  {
+                    "type": "rect",
+                    "x": 361,
+                    "y": 28,
+                    "w": 160,
+                    "h": 90,
+                    "fill": "blue"
+                  },
+                  {
+                    "type": "text",
+                    "x": 441,
+                    "y": 55,
+                    "s": "қала емес",
+                    "size": 14
+                  },
+                  {
+                    "type": "text",
+                    "x": 441,
+                    "y": 78,
+                    "s": "ауыл емес",
+                    "size": 14
+                  },
+                  {
+                    "type": "rect",
+                    "x": 535,
+                    "y": 28,
+                    "w": 160,
+                    "h": 90,
+                    "fill": "green"
+                  },
+                  {
+                    "type": "text",
+                    "x": 615,
+                    "y": 55,
+                    "s": "ауыл емес",
+                    "size": 14
+                  },
+                  {
+                    "type": "text",
+                    "x": 615,
+                    "y": 78,
+                    "s": "қала емес",
+                    "size": 14
+                  },
+                  {
+                    "type": "text",
+                    "x": 615,
+                    "y": 101,
+                    "s": "облыс емес",
+                    "size": 14
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-095:m07:folder-labels:crop",
             "ocr_evidence": [
@@ -2551,7 +3121,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "A — дөңгелек, B — шаршы, C — алтыбұрыш, K — шаршы емес тіктөртбұрыш. A мен B үстіңгі қатарда, C мен K төменде.",
+              "description_kk": "A — дөңгелек, B — шаршы, C — алтыбұрыш, K — шаршы емес тіктөртбұрыш. A мен B үстіңгі қатарда, C мен K төменде. A, B, C, K таңбалары пішіндерімен байланыстырылды.",
               "relations": [
                 {
                   "kind": "geometry_figures",
@@ -2572,7 +3142,90 @@
                     "K": "non_square_rectangle"
                   }
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 315,
+                "height": 280,
+                "items": [
+                  {
+                    "type": "circle",
+                    "x": 83.0,
+                    "y": 59.0,
+                    "r": 41.0,
+                    "fill": null
+                  },
+                  {
+                    "type": "text",
+                    "x": 83,
+                    "y": 64,
+                    "s": "A"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 174,
+                    "y": 18,
+                    "w": 82,
+                    "h": 82,
+                    "fill": null
+                  },
+                  {
+                    "type": "text",
+                    "x": 215,
+                    "y": 64,
+                    "s": "B"
+                  },
+                  {
+                    "type": "polygon",
+                    "xy": [
+                      [
+                        62.5,
+                        142
+                      ],
+                      [
+                        103.5,
+                        142
+                      ],
+                      [
+                        124,
+                        183.0
+                      ],
+                      [
+                        103.5,
+                        224
+                      ],
+                      [
+                        62.5,
+                        224
+                      ],
+                      [
+                        42,
+                        183.0
+                      ]
+                    ],
+                    "fill": null
+                  },
+                  {
+                    "type": "text",
+                    "x": 83,
+                    "y": 188,
+                    "s": "C"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 161,
+                    "y": 154,
+                    "w": 88.8,
+                    "h": 60,
+                    "fill": null
+                  },
+                  {
+                    "type": "text",
+                    "x": 202,
+                    "y": 200,
+                    "s": "K"
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-095:m08:labelled-shapes:crop",
             "ocr_evidence": [
@@ -5832,5 +6485,193 @@
         }
       ]
     }
-  ]
+  ],
+  "review_revision": {
+    "source_version": "2026-11-26-initial-1",
+    "source_object_ids": [
+      "math-2023-grade4-part3:lesson-095:closing",
+      "math-2023-grade4-part3:lesson-095:header",
+      "math-2023-grade4-part3:lesson-095:header:number",
+      "math-2023-grade4-part3:lesson-095:header:theme",
+      "math-2023-grade4-part3:lesson-095:header:title",
+      "math-2023-grade4-part3:lesson-095:m01",
+      "math-2023-grade4-part3:lesson-095:m01:compass-statements",
+      "math-2023-grade4-part3:lesson-095:m01:number",
+      "math-2023-grade4-part3:lesson-095:m01:prompt",
+      "math-2023-grade4-part3:lesson-095:m02",
+      "math-2023-grade4-part3:lesson-095:m02:claim",
+      "math-2023-grade4-part3:lesson-095:m02:euler-and-shapes",
+      "math-2023-grade4-part3:lesson-095:m02:explanation",
+      "math-2023-grade4-part3:lesson-095:m02:instruction",
+      "math-2023-grade4-part3:lesson-095:m02:number",
+      "math-2023-grade4-part3:lesson-095:m02:prompt",
+      "math-2023-grade4-part3:lesson-095:m02:question",
+      "math-2023-grade4-part3:lesson-095:m02:three-shapes",
+      "math-2023-grade4-part3:lesson-095:m03",
+      "math-2023-grade4-part3:lesson-095:m03:badge",
+      "math-2023-grade4-part3:lesson-095:m03:claim-1",
+      "math-2023-grade4-part3:lesson-095:m03:claim-2",
+      "math-2023-grade4-part3:lesson-095:m03:claim-3",
+      "math-2023-grade4-part3:lesson-095:m03:claim-4",
+      "math-2023-grade4-part3:lesson-095:m03:claim-5",
+      "math-2023-grade4-part3:lesson-095:m03:claim-6",
+      "math-2023-grade4-part3:lesson-095:m03:claim-7",
+      "math-2023-grade4-part3:lesson-095:m03:claim-8",
+      "math-2023-grade4-part3:lesson-095:m03:number",
+      "math-2023-grade4-part3:lesson-095:m03:prompt",
+      "math-2023-grade4-part3:lesson-095:m04",
+      "math-2023-grade4-part3:lesson-095:m04:badge",
+      "math-2023-grade4-part3:lesson-095:m04:heading",
+      "math-2023-grade4-part3:lesson-095:m04:method",
+      "math-2023-grade4-part3:lesson-095:m04:number",
+      "math-2023-grade4-part3:lesson-095:m04:procedure",
+      "math-2023-grade4-part3:lesson-095:m04:prompt",
+      "math-2023-grade4-part3:lesson-095:m04:star-directions",
+      "math-2023-grade4-part3:lesson-095:m05",
+      "math-2023-grade4-part3:lesson-095:m05:number",
+      "math-2023-grade4-part3:lesson-095:m05:prompt",
+      "math-2023-grade4-part3:lesson-095:m05:vehicle-motion",
+      "math-2023-grade4-part3:lesson-095:m06",
+      "math-2023-grade4-part3:lesson-095:m06:badge",
+      "math-2023-grade4-part3:lesson-095:m06:expression-11",
+      "math-2023-grade4-part3:lesson-095:m06:expression-12",
+      "math-2023-grade4-part3:lesson-095:m06:expression-13",
+      "math-2023-grade4-part3:lesson-095:m06:expression-14",
+      "math-2023-grade4-part3:lesson-095:m06:expression-15",
+      "math-2023-grade4-part3:lesson-095:m06:expression-16",
+      "math-2023-grade4-part3:lesson-095:m06:expression-17",
+      "math-2023-grade4-part3:lesson-095:m06:expression-18",
+      "math-2023-grade4-part3:lesson-095:m06:expression-19",
+      "math-2023-grade4-part3:lesson-095:m06:number",
+      "math-2023-grade4-part3:lesson-095:m06:prompt",
+      "math-2023-grade4-part3:lesson-095:m07",
+      "math-2023-grade4-part3:lesson-095:m07:badge",
+      "math-2023-grade4-part3:lesson-095:m07:folder-labels",
+      "math-2023-grade4-part3:lesson-095:m07:number",
+      "math-2023-grade4-part3:lesson-095:m07:prompt",
+      "math-2023-grade4-part3:lesson-095:m08",
+      "math-2023-grade4-part3:lesson-095:m08:badge",
+      "math-2023-grade4-part3:lesson-095:m08:claim-1",
+      "math-2023-grade4-part3:lesson-095:m08:claim-2",
+      "math-2023-grade4-part3:lesson-095:m08:claim-3",
+      "math-2023-grade4-part3:lesson-095:m08:claim-4",
+      "math-2023-grade4-part3:lesson-095:m08:claim-5",
+      "math-2023-grade4-part3:lesson-095:m08:labelled-shapes",
+      "math-2023-grade4-part3:lesson-095:m08:number",
+      "math-2023-grade4-part3:lesson-095:m08:prompt",
+      "math-2023-grade4-part3:lesson-095:orientation",
+      "math-2023-grade4-part3:lesson-095:orientation:badge",
+      "math-2023-grade4-part3:lesson-095:orientation:objective",
+      "math-2023-grade4-part3:p053",
+      "math-2023-grade4-part3:p054",
+      "math-2023-grade4-part3:p055"
+    ],
+    "equivalent_object_ids": [
+      "math-2023-grade4-part3:lesson-095:closing",
+      "math-2023-grade4-part3:lesson-095:header",
+      "math-2023-grade4-part3:lesson-095:header:number",
+      "math-2023-grade4-part3:lesson-095:header:theme",
+      "math-2023-grade4-part3:lesson-095:header:title",
+      "math-2023-grade4-part3:lesson-095:m01",
+      "math-2023-grade4-part3:lesson-095:m01:number",
+      "math-2023-grade4-part3:lesson-095:m01:prompt",
+      "math-2023-grade4-part3:lesson-095:m02",
+      "math-2023-grade4-part3:lesson-095:m02:claim",
+      "math-2023-grade4-part3:lesson-095:m02:explanation",
+      "math-2023-grade4-part3:lesson-095:m02:instruction",
+      "math-2023-grade4-part3:lesson-095:m02:number",
+      "math-2023-grade4-part3:lesson-095:m02:prompt",
+      "math-2023-grade4-part3:lesson-095:m02:question",
+      "math-2023-grade4-part3:lesson-095:m03",
+      "math-2023-grade4-part3:lesson-095:m03:badge",
+      "math-2023-grade4-part3:lesson-095:m03:claim-1",
+      "math-2023-grade4-part3:lesson-095:m03:claim-2",
+      "math-2023-grade4-part3:lesson-095:m03:claim-3",
+      "math-2023-grade4-part3:lesson-095:m03:claim-4",
+      "math-2023-grade4-part3:lesson-095:m03:claim-5",
+      "math-2023-grade4-part3:lesson-095:m03:claim-6",
+      "math-2023-grade4-part3:lesson-095:m03:claim-7",
+      "math-2023-grade4-part3:lesson-095:m03:claim-8",
+      "math-2023-grade4-part3:lesson-095:m03:number",
+      "math-2023-grade4-part3:lesson-095:m03:prompt",
+      "math-2023-grade4-part3:lesson-095:m04",
+      "math-2023-grade4-part3:lesson-095:m04:badge",
+      "math-2023-grade4-part3:lesson-095:m04:heading",
+      "math-2023-grade4-part3:lesson-095:m04:method",
+      "math-2023-grade4-part3:lesson-095:m04:number",
+      "math-2023-grade4-part3:lesson-095:m04:procedure",
+      "math-2023-grade4-part3:lesson-095:m04:prompt",
+      "math-2023-grade4-part3:lesson-095:m05",
+      "math-2023-grade4-part3:lesson-095:m05:number",
+      "math-2023-grade4-part3:lesson-095:m05:prompt",
+      "math-2023-grade4-part3:lesson-095:m06",
+      "math-2023-grade4-part3:lesson-095:m06:badge",
+      "math-2023-grade4-part3:lesson-095:m06:expression-11",
+      "math-2023-grade4-part3:lesson-095:m06:expression-12",
+      "math-2023-grade4-part3:lesson-095:m06:expression-13",
+      "math-2023-grade4-part3:lesson-095:m06:expression-14",
+      "math-2023-grade4-part3:lesson-095:m06:expression-15",
+      "math-2023-grade4-part3:lesson-095:m06:expression-16",
+      "math-2023-grade4-part3:lesson-095:m06:expression-17",
+      "math-2023-grade4-part3:lesson-095:m06:expression-18",
+      "math-2023-grade4-part3:lesson-095:m06:expression-19",
+      "math-2023-grade4-part3:lesson-095:m06:number",
+      "math-2023-grade4-part3:lesson-095:m06:prompt",
+      "math-2023-grade4-part3:lesson-095:m07",
+      "math-2023-grade4-part3:lesson-095:m07:badge",
+      "math-2023-grade4-part3:lesson-095:m07:number",
+      "math-2023-grade4-part3:lesson-095:m07:prompt",
+      "math-2023-grade4-part3:lesson-095:m08",
+      "math-2023-grade4-part3:lesson-095:m08:badge",
+      "math-2023-grade4-part3:lesson-095:m08:claim-1",
+      "math-2023-grade4-part3:lesson-095:m08:claim-2",
+      "math-2023-grade4-part3:lesson-095:m08:claim-3",
+      "math-2023-grade4-part3:lesson-095:m08:claim-4",
+      "math-2023-grade4-part3:lesson-095:m08:claim-5",
+      "math-2023-grade4-part3:lesson-095:m08:number",
+      "math-2023-grade4-part3:lesson-095:m08:prompt",
+      "math-2023-grade4-part3:lesson-095:orientation",
+      "math-2023-grade4-part3:lesson-095:orientation:badge",
+      "math-2023-grade4-part3:lesson-095:orientation:objective",
+      "math-2023-grade4-part3:p053",
+      "math-2023-grade4-part3:p054",
+      "math-2023-grade4-part3:p055"
+    ],
+    "addressed_record_ids": []
+  },
+  "redraw_validation": {
+    "baseline_content_sha256": "182e8445acc6cc337b6b3dc25e7f49e695e4007f36763ae42354d917143363d6",
+    "baseline_commit": "389c68b9a11759f9a4b1b74f2253b5be29fabf09",
+    "status": "verified_with_pending_sources",
+    "images": {
+      "math-2023-grade4-part3:lesson-095:m01:compass-statements": {
+        "finding_zh": "原书三句话和橙、红、蓝罗盘按左、中、右排列；绘图保留图面对应，未把陈述当作结论。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-095:m02:three-shapes": {
+        "finding_zh": "保留绿色矩形、蓝色斜平行四边形、紫色旋转矩形。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-095:m02:euler-and-shapes": {
+        "finding_zh": "重绘三层嵌套集合与九个图形，图形仍在集合外供判断。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-095:m04:star-directions": {
+        "finding_zh": "方位投影和星名已有结构。星群形状、星点和虚线锚点缺精确坐标，原图仍是定位依据。",
+        "status": "source_recheck"
+      },
+      "math-2023-grade4-part3:lesson-095:m05:vehicle-motion": {
+        "finding_zh": "两轨各分三段，90 千米在下轨两终点之间，同向速度绑定 70 和 100。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-095:m07:folder-labels": {
+        "finding_zh": "四个文件夹的配色、顺序与排除词逐项对应。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-095:m08:labelled-shapes": {
+        "finding_zh": "保留 A 圆、B 正方形、C 六边形、K 非正方形矩形及 2×2 位置。",
+        "status": "verified"
+      }
+    }
+  }
 }

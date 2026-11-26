@@ -1,5 +1,5 @@
 {
-  "data_version": "2026-11-26-initial-1",
+  "data_version": "2026-11-26-redraw-1",
   "review_status": "pending_review",
   "book": {
     "id": "math-2023-grade4-part3",
@@ -682,7 +682,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Төрт бірдей көк шеңбер үлкен шеңбердің диагональ бойындағы диаметріне тізілген. Көршілері бір-біріне жанасады, екі шеткісі үлкен шеңберге жанасады.",
+              "description_kk": "Төрт бірдей көк шеңбер үлкен шеңбердің диагональ бойындағы диаметріне тізілген. Көршілері бір-біріне жанасады, екі шеткісі үлкен шеңберге жанасады. Үлкен диаметр бойында төрт жанасатын көк шеңбер бар.",
               "relations": [
                 {
                   "kind": "tangent_circle_chain",
@@ -690,7 +690,59 @@
                   "centers_on_outer_diameter": true,
                   "outer_radius_cm": 16
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 460,
+                "height": 378,
+                "items": [
+                  {
+                    "type": "circle",
+                    "x": 217,
+                    "y": 178,
+                    "r": 142,
+                    "width": 2
+                  },
+                  {
+                    "type": "circle",
+                    "x": 141.6931278036327,
+                    "y": 253.3068721963673,
+                    "r": 35.5,
+                    "fill": "#90b5d3",
+                    "color": "#385d79"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 191.89770926787756,
+                    "y": 203.10229073212244,
+                    "r": 35.5,
+                    "fill": "#90b5d3",
+                    "color": "#385d79"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 242.10229073212244,
+                    "y": 152.89770926787756,
+                    "r": 35.5,
+                    "fill": "#90b5d3",
+                    "color": "#385d79"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 292.3068721963673,
+                    "y": 102.69312780363269,
+                    "r": 35.5,
+                    "fill": "#90b5d3",
+                    "color": "#385d79"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 116.59083707151026,
+                    "y1": 278.40916292848976,
+                    "x2": 317.40916292848976,
+                    "y2": 77.59083707151026
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-127:m03:diameter-circle-chain:crop"
           }
@@ -977,7 +1029,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "O — центр. KF — O арқылы өтетін толық кесінді, OA центр мен A нүктесін қосады. BN — O-дан өтпейтін хорда.",
+              "description_kk": "O — центр. KF — O арқылы өтетін толық кесінді, OA центр мен A нүктесін қосады. BN — O-дан өтпейтін хорда. KF центр арқылы өтеді; OA центрден басталады; BN центр арқылы өтпейді.",
               "relations": [
                 {
                   "kind": "circle_segments",
@@ -1013,7 +1065,92 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 400,
+                "height": 345,
+                "items": [
+                  {
+                    "type": "circle",
+                    "x": 197,
+                    "y": 166,
+                    "r": 117,
+                    "color": "#a68c44",
+                    "width": 2
+                  },
+                  {
+                    "type": "text",
+                    "x": 298.8839109348241,
+                    "y": 85.50924791169028,
+                    "s": "A"
+                  },
+                  {
+                    "type": "text",
+                    "x": 80.67557895046036,
+                    "y": 235.47967949276284,
+                    "s": "B"
+                  },
+                  {
+                    "type": "text",
+                    "x": 197.0,
+                    "y": 38.0,
+                    "s": "N"
+                  },
+                  {
+                    "type": "text",
+                    "x": 120.71433396531086,
+                    "y": 62.0527781095641,
+                    "s": "K"
+                  },
+                  {
+                    "type": "text",
+                    "x": 273.28566603468914,
+                    "y": 279.9472218904359,
+                    "s": "F"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 129.8915569469276,
+                    "y1": 70.15921081818797,
+                    "x2": 264.1084430530724,
+                    "y2": 261.84078918181206,
+                    "color": "#a68c44",
+                    "width": 2
+                  },
+                  {
+                    "type": "line",
+                    "x1": 94.6694942646907,
+                    "y1": 222.72272556882143,
+                    "x2": 197.0,
+                    "y2": 49.0,
+                    "color": "#a68c44",
+                    "width": 2
+                  },
+                  {
+                    "type": "line",
+                    "x1": 197,
+                    "y1": 166,
+                    "x2": 286.6271998449204,
+                    "y2": 90.7938496666749,
+                    "color": "#a68c44",
+                    "width": 2
+                  },
+                  {
+                    "type": "circle",
+                    "x": 197,
+                    "y": 166,
+                    "r": 4.5,
+                    "fill": "#a68c44",
+                    "color": "#a68c44"
+                  },
+                  {
+                    "type": "text",
+                    "x": 183,
+                    "y": 189,
+                    "s": "O"
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-127:m05:labeled-circle-correction:crop",
             "ocr_evidence": [
@@ -2060,5 +2197,86 @@
         }
       ]
     }
-  ]
+  ],
+  "review_revision": {
+    "source_version": "2026-11-26-initial-1",
+    "source_object_ids": [
+      "math-2023-grade4-part3:lesson-127:closing",
+      "math-2023-grade4-part3:lesson-127:header",
+      "math-2023-grade4-part3:lesson-127:header:assessment",
+      "math-2023-grade4-part3:lesson-127:header:number",
+      "math-2023-grade4-part3:lesson-127:header:objective",
+      "math-2023-grade4-part3:lesson-127:header:title",
+      "math-2023-grade4-part3:lesson-127:m01",
+      "math-2023-grade4-part3:lesson-127:m01:body-10",
+      "math-2023-grade4-part3:lesson-127:m01:number",
+      "math-2023-grade4-part3:lesson-127:m01:self-goal",
+      "math-2023-grade4-part3:lesson-127:m02",
+      "math-2023-grade4-part3:lesson-127:m02:body-13",
+      "math-2023-grade4-part3:lesson-127:m02:number",
+      "math-2023-grade4-part3:lesson-127:m02:self-goal",
+      "math-2023-grade4-part3:lesson-127:m03",
+      "math-2023-grade4-part3:lesson-127:m03:body-16",
+      "math-2023-grade4-part3:lesson-127:m03:diameter-circle-chain",
+      "math-2023-grade4-part3:lesson-127:m03:number",
+      "math-2023-grade4-part3:lesson-127:m03:self-goal",
+      "math-2023-grade4-part3:lesson-127:m04",
+      "math-2023-grade4-part3:lesson-127:m04:body-3",
+      "math-2023-grade4-part3:lesson-127:m04:number",
+      "math-2023-grade4-part3:lesson-127:m04:self-goal",
+      "math-2023-grade4-part3:lesson-127:m05",
+      "math-2023-grade4-part3:lesson-127:m05:body-12",
+      "math-2023-grade4-part3:lesson-127:m05:labeled-circle-correction",
+      "math-2023-grade4-part3:lesson-127:m05:number",
+      "math-2023-grade4-part3:lesson-127:m05:self-goal",
+      "math-2023-grade4-part3:p152",
+      "math-2023-grade4-part3:p153"
+    ],
+    "equivalent_object_ids": [
+      "math-2023-grade4-part3:lesson-127:closing",
+      "math-2023-grade4-part3:lesson-127:header",
+      "math-2023-grade4-part3:lesson-127:header:assessment",
+      "math-2023-grade4-part3:lesson-127:header:number",
+      "math-2023-grade4-part3:lesson-127:header:objective",
+      "math-2023-grade4-part3:lesson-127:header:title",
+      "math-2023-grade4-part3:lesson-127:m01",
+      "math-2023-grade4-part3:lesson-127:m01:body-10",
+      "math-2023-grade4-part3:lesson-127:m01:number",
+      "math-2023-grade4-part3:lesson-127:m01:self-goal",
+      "math-2023-grade4-part3:lesson-127:m02",
+      "math-2023-grade4-part3:lesson-127:m02:body-13",
+      "math-2023-grade4-part3:lesson-127:m02:number",
+      "math-2023-grade4-part3:lesson-127:m02:self-goal",
+      "math-2023-grade4-part3:lesson-127:m03",
+      "math-2023-grade4-part3:lesson-127:m03:body-16",
+      "math-2023-grade4-part3:lesson-127:m03:number",
+      "math-2023-grade4-part3:lesson-127:m03:self-goal",
+      "math-2023-grade4-part3:lesson-127:m04",
+      "math-2023-grade4-part3:lesson-127:m04:body-3",
+      "math-2023-grade4-part3:lesson-127:m04:number",
+      "math-2023-grade4-part3:lesson-127:m04:self-goal",
+      "math-2023-grade4-part3:lesson-127:m05",
+      "math-2023-grade4-part3:lesson-127:m05:body-12",
+      "math-2023-grade4-part3:lesson-127:m05:number",
+      "math-2023-grade4-part3:lesson-127:m05:self-goal",
+      "math-2023-grade4-part3:p152",
+      "math-2023-grade4-part3:p153"
+    ],
+    "addressed_record_ids": []
+  },
+  "redraw_validation": {
+    "baseline_content_sha256": "6c5b72f77b2934aa0117067d95cfe6febd67a39591e183164edd643ab99086b4",
+    "baseline_commit": "389c68b9a11759f9a4b1b74f2253b5be29fabf09",
+    "status": "verified",
+    "images": {
+      "math-2023-grade4-part3:lesson-127:m03:diameter-circle-chain": {
+        "finding_zh": "沿大圆一条直径排四个内切小圆，留住两端与大圆相切的关系。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-127:m05:labeled-circle-correction": {
+        "finding_zh": "KF 过圆心，OA 从圆心出发，BN 是不经过圆心的弦。",
+        "status": "verified"
+      }
+    }
+  }
 }

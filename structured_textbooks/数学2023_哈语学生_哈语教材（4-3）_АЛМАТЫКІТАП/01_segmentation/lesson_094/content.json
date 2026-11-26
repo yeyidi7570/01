@@ -1,5 +1,5 @@
 {
-  "data_version": "2026-11-26-initial-1",
+  "data_version": "2026-11-26-redraw-1",
   "review_status": "pending_review",
   "book": {
     "id": "math-2023-grade4-part3",
@@ -499,7 +499,13 @@
                 }
               ]
             },
-            "crop_asset_id": "math-2023-grade4-part3:lesson-094:m01:fire-scenes:crop"
+            "crop_asset_id": "math-2023-grade4-part3:lesson-094:m01:fire-scenes:crop",
+            "review_flags": [
+              {
+                "code": "redraw_source_uncertainty",
+                "description_kk": "Төрт оқиғадағы әрекет пен жалынның орналасуы үшін түпнұсқа суреті қажет."
+              }
+            ]
           }
         ],
         "content_order": [
@@ -2110,7 +2116,7 @@
                   }
                 ],
                 "structured_description": {
-                  "description_kk": "210 км тұтас кесінді екі бөлікке бөлінген. Сол бөлік: 50 км/сағ · x сағ. Оң бөлік: 60 км.",
+                  "description_kk": "210 км тұтас кесінді екі бөлікке бөлінген. Сол бөлік: 50 км/сағ · x сағ. Оң бөлік: 60 км. 210 км доғасы барлық бөлікті қамтиды.",
                   "relations": [
                     {
                       "kind": "bar_model",
@@ -2124,7 +2130,79 @@
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "verification_drawing": {
+                    "width": 700,
+                    "height": 215,
+                    "items": [
+                      {
+                        "type": "line",
+                        "x1": 68,
+                        "y1": 128,
+                        "x2": 631,
+                        "y2": 128,
+                        "color": "#284d77",
+                        "width": 3
+                      },
+                      {
+                        "type": "path",
+                        "d": "M68 127 Q349.5 36 631 127",
+                        "color": "#18273a"
+                      },
+                      {
+                        "type": "text",
+                        "x": 350,
+                        "y": 66,
+                        "s": "210 км"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 68,
+                        "y": 128,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 405,
+                        "y": 128,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 631,
+                        "y": 128,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "path",
+                        "d": "M68 128 Q236.5 95 405 128",
+                        "color": "#18273a"
+                      },
+                      {
+                        "type": "text",
+                        "x": 236.5,
+                        "y": 158,
+                        "s": "50 км/сағ · x сағ"
+                      },
+                      {
+                        "type": "path",
+                        "d": "M405 128 Q518 95 631 128",
+                        "color": "#18273a"
+                      },
+                      {
+                        "type": "text",
+                        "x": 518.0,
+                        "y": 158,
+                        "s": "60 км"
+                      }
+                    ]
+                  }
                 },
                 "crop_asset_id": "math-2023-grade4-part3:lesson-094:m06:sub-А:two-part-distance:crop",
                 "ocr_evidence": [
@@ -2364,7 +2442,7 @@
                   }
                 ],
                 "structured_description": {
-                  "description_kk": "210 км тұтас кесінді төрт бөлікке бөлінген. Солдан оңға 50 км, 50 км, 50 км және x км.",
+                  "description_kk": "210 км тұтас кесінді төрт бөлікке бөлінген. Солдан оңға 50 км, 50 км, 50 км және x км. 210 км доғасы барлық бөлікті қамтиды.",
                   "relations": [
                     {
                       "kind": "bar_model",
@@ -2376,7 +2454,117 @@
                         "x"
                       ]
                     }
-                  ]
+                  ],
+                  "verification_drawing": {
+                    "width": 700,
+                    "height": 215,
+                    "items": [
+                      {
+                        "type": "line",
+                        "x1": 68,
+                        "y1": 128,
+                        "x2": 631,
+                        "y2": 128,
+                        "color": "#284d77",
+                        "width": 3
+                      },
+                      {
+                        "type": "path",
+                        "d": "M68 127 Q349.5 36 631 127",
+                        "color": "#18273a"
+                      },
+                      {
+                        "type": "text",
+                        "x": 350,
+                        "y": 66,
+                        "s": "210 км"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 68,
+                        "y": 128,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 174,
+                        "y": 128,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 280,
+                        "y": 128,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 386,
+                        "y": 128,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 631,
+                        "y": 128,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "path",
+                        "d": "M68 128 Q121 95 174 128",
+                        "color": "#18273a"
+                      },
+                      {
+                        "type": "text",
+                        "x": 121.0,
+                        "y": 158,
+                        "s": "50 км"
+                      },
+                      {
+                        "type": "path",
+                        "d": "M174 128 Q227 95 280 128",
+                        "color": "#18273a"
+                      },
+                      {
+                        "type": "text",
+                        "x": 227.0,
+                        "y": 158,
+                        "s": "50 км"
+                      },
+                      {
+                        "type": "path",
+                        "d": "M280 128 Q333 95 386 128",
+                        "color": "#18273a"
+                      },
+                      {
+                        "type": "text",
+                        "x": 333.0,
+                        "y": 158,
+                        "s": "50 км"
+                      },
+                      {
+                        "type": "path",
+                        "d": "M386 128 Q508.5 95 631 128",
+                        "color": "#18273a"
+                      },
+                      {
+                        "type": "text",
+                        "x": 508.5,
+                        "y": 158,
+                        "s": "x км"
+                      }
+                    ]
+                  }
                 },
                 "crop_asset_id": "math-2023-grade4-part3:lesson-094:m06:sub-Ә:four-part-distance:crop",
                 "ocr_evidence": [
@@ -3560,7 +3748,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Сол әмиянда 50, 10, 20, 5 және 10 теңгелік бес монета бар. Оң әмиянда екі 50 теңгелік монета мен үш ұсақ монета бар. Үш ұсақ монетаның таңбасы анық оқылмайды.",
+              "description_kk": "Сол әмиянда 50, 10, 20, 5 және 10 теңгелік бес монета бар. Оң әмиянда екі 50 теңгелік монета мен үш ұсақ монета бар. Үш ұсақ монетаның таңбасы анық оқылмайды. Екі әмияндағы монеталар бөлек берілген.",
               "relations": [
                 {
                   "kind": "coin_groups",
@@ -3580,7 +3768,155 @@
                   ],
                   "unit_kk": "теңге"
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 700,
+                "height": 210,
+                "items": [
+                  {
+                    "type": "text",
+                    "x": 182,
+                    "y": 30,
+                    "s": "Сол жақ"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 69,
+                    "y": 84,
+                    "r": 27,
+                    "fill": "#ece0ab"
+                  },
+                  {
+                    "type": "text",
+                    "x": 69,
+                    "y": 89,
+                    "s": 50
+                  },
+                  {
+                    "type": "circle",
+                    "x": 166,
+                    "y": 84,
+                    "r": 27,
+                    "fill": "#ece0ab"
+                  },
+                  {
+                    "type": "text",
+                    "x": 166,
+                    "y": 89,
+                    "s": 10
+                  },
+                  {
+                    "type": "circle",
+                    "x": 263,
+                    "y": 84,
+                    "r": 27,
+                    "fill": "#ece0ab"
+                  },
+                  {
+                    "type": "text",
+                    "x": 263,
+                    "y": 89,
+                    "s": 20
+                  },
+                  {
+                    "type": "circle",
+                    "x": 69,
+                    "y": 165,
+                    "r": 27,
+                    "fill": "#ece0ab"
+                  },
+                  {
+                    "type": "text",
+                    "x": 69,
+                    "y": 170,
+                    "s": 5
+                  },
+                  {
+                    "type": "circle",
+                    "x": 166,
+                    "y": 165,
+                    "r": 27,
+                    "fill": "#ece0ab"
+                  },
+                  {
+                    "type": "text",
+                    "x": 166,
+                    "y": 170,
+                    "s": 10
+                  },
+                  {
+                    "type": "text",
+                    "x": 512,
+                    "y": 30,
+                    "s": "Оң жақ"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 399,
+                    "y": 84,
+                    "r": 27,
+                    "fill": "#ece0ab"
+                  },
+                  {
+                    "type": "text",
+                    "x": 399,
+                    "y": 89,
+                    "s": 50
+                  },
+                  {
+                    "type": "circle",
+                    "x": 496,
+                    "y": 84,
+                    "r": 27,
+                    "fill": "#ece0ab"
+                  },
+                  {
+                    "type": "text",
+                    "x": 496,
+                    "y": 89,
+                    "s": 50
+                  },
+                  {
+                    "type": "circle",
+                    "x": 593,
+                    "y": 84,
+                    "r": 27,
+                    "fill": null
+                  },
+                  {
+                    "type": "text",
+                    "x": 593,
+                    "y": 89,
+                    "s": "?"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 399,
+                    "y": 165,
+                    "r": 27,
+                    "fill": null
+                  },
+                  {
+                    "type": "text",
+                    "x": 399,
+                    "y": 170,
+                    "s": "?"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 496,
+                    "y": 165,
+                    "r": 27,
+                    "fill": null
+                  },
+                  {
+                    "type": "text",
+                    "x": 496,
+                    "y": 170,
+                    "s": "?"
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-094:m09:wallet-coins:crop",
             "ocr_evidence": [
@@ -3634,6 +3970,10 @@
               {
                 "code": "coin_small_print",
                 "description_kk": "Оң жақтағы үш кіші монетаның баспа таңбалары анық көрінбейді. Мәндері енгізілген жоқ."
+              },
+              {
+                "code": "redraw_source_uncertainty",
+                "description_kk": "Оң жақтағы үш кіші монетаның номиналы ұсақ басылған, анық оқылмайды."
               }
             ]
           }
@@ -8206,5 +8546,282 @@
         }
       ]
     }
-  ]
+  ],
+  "review_revision": {
+    "source_version": "2026-11-26-initial-1",
+    "source_object_ids": [
+      "math-2023-grade4-part3:lesson-094:closing",
+      "math-2023-grade4-part3:lesson-094:header",
+      "math-2023-grade4-part3:lesson-094:header:number",
+      "math-2023-grade4-part3:lesson-094:header:theme",
+      "math-2023-grade4-part3:lesson-094:header:title",
+      "math-2023-grade4-part3:lesson-094:link:negation-m03",
+      "math-2023-grade4-part3:lesson-094:link:negation-m04",
+      "math-2023-grade4-part3:lesson-094:link:negation-m05",
+      "math-2023-grade4-part3:lesson-094:link:negation-m10",
+      "math-2023-grade4-part3:lesson-094:m01",
+      "math-2023-grade4-part3:lesson-094:m01:badge",
+      "math-2023-grade4-part3:lesson-094:m01:fire-scenes",
+      "math-2023-grade4-part3:lesson-094:m01:number",
+      "math-2023-grade4-part3:lesson-094:m01:prompt",
+      "math-2023-grade4-part3:lesson-094:m02",
+      "math-2023-grade4-part3:lesson-094:m02:badge",
+      "math-2023-grade4-part3:lesson-094:m02:claim-1",
+      "math-2023-grade4-part3:lesson-094:m02:claim-2",
+      "math-2023-grade4-part3:lesson-094:m02:claim-3",
+      "math-2023-grade4-part3:lesson-094:m02:claim-4",
+      "math-2023-grade4-part3:lesson-094:m02:claim-5",
+      "math-2023-grade4-part3:lesson-094:m02:number",
+      "math-2023-grade4-part3:lesson-094:m02:prompt",
+      "math-2023-grade4-part3:lesson-094:m03",
+      "math-2023-grade4-part3:lesson-094:m03:badge",
+      "math-2023-grade4-part3:lesson-094:m03:claim-1",
+      "math-2023-grade4-part3:lesson-094:m03:claim-2",
+      "math-2023-grade4-part3:lesson-094:m03:claim-3",
+      "math-2023-grade4-part3:lesson-094:m03:number",
+      "math-2023-grade4-part3:lesson-094:m03:prompt",
+      "math-2023-grade4-part3:lesson-094:m03:rewrite",
+      "math-2023-grade4-part3:lesson-094:m04",
+      "math-2023-grade4-part3:lesson-094:m04:badge",
+      "math-2023-grade4-part3:lesson-094:m04:claim-1",
+      "math-2023-grade4-part3:lesson-094:m04:claim-2",
+      "math-2023-grade4-part3:lesson-094:m04:claim-3",
+      "math-2023-grade4-part3:lesson-094:m04:claim-4",
+      "math-2023-grade4-part3:lesson-094:m04:claim-5",
+      "math-2023-grade4-part3:lesson-094:m04:claim-6",
+      "math-2023-grade4-part3:lesson-094:m04:claim-7",
+      "math-2023-grade4-part3:lesson-094:m04:number",
+      "math-2023-grade4-part3:lesson-094:m04:prompt",
+      "math-2023-grade4-part3:lesson-094:m05",
+      "math-2023-grade4-part3:lesson-094:m05:claim-1",
+      "math-2023-grade4-part3:lesson-094:m05:claim-2",
+      "math-2023-grade4-part3:lesson-094:m05:claim-3",
+      "math-2023-grade4-part3:lesson-094:m05:claim-4",
+      "math-2023-grade4-part3:lesson-094:m05:claim-5",
+      "math-2023-grade4-part3:lesson-094:m05:claim-6",
+      "math-2023-grade4-part3:lesson-094:m05:claim-7",
+      "math-2023-grade4-part3:lesson-094:m05:number",
+      "math-2023-grade4-part3:lesson-094:m05:prompt",
+      "math-2023-grade4-part3:lesson-094:m06",
+      "math-2023-grade4-part3:lesson-094:m06:badge",
+      "math-2023-grade4-part3:lesson-094:m06:number",
+      "math-2023-grade4-part3:lesson-094:m06:prompt",
+      "math-2023-grade4-part3:lesson-094:m06:sub-А",
+      "math-2023-grade4-part3:lesson-094:m06:sub-А:body",
+      "math-2023-grade4-part3:lesson-094:m06:sub-А:expression-15",
+      "math-2023-grade4-part3:lesson-094:m06:sub-А:expression-17",
+      "math-2023-grade4-part3:lesson-094:m06:sub-А:number",
+      "math-2023-grade4-part3:lesson-094:m06:sub-А:two-part-distance",
+      "math-2023-grade4-part3:lesson-094:m06:sub-Ә",
+      "math-2023-grade4-part3:lesson-094:m06:sub-Ә:body",
+      "math-2023-grade4-part3:lesson-094:m06:sub-Ә:expression-31",
+      "math-2023-grade4-part3:lesson-094:m06:sub-Ә:expression-35",
+      "math-2023-grade4-part3:lesson-094:m06:sub-Ә:four-part-distance",
+      "math-2023-grade4-part3:lesson-094:m06:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-094:m07",
+      "math-2023-grade4-part3:lesson-094:m07:badge",
+      "math-2023-grade4-part3:lesson-094:m07:number",
+      "math-2023-grade4-part3:lesson-094:m07:prompt",
+      "math-2023-grade4-part3:lesson-094:m07:sub-А",
+      "math-2023-grade4-part3:lesson-094:m07:sub-А:body",
+      "math-2023-grade4-part3:lesson-094:m07:sub-А:number",
+      "math-2023-grade4-part3:lesson-094:m07:sub-Б",
+      "math-2023-grade4-part3:lesson-094:m07:sub-Б:body",
+      "math-2023-grade4-part3:lesson-094:m07:sub-Б:number",
+      "math-2023-grade4-part3:lesson-094:m07:sub-Ә",
+      "math-2023-grade4-part3:lesson-094:m07:sub-Ә:body",
+      "math-2023-grade4-part3:lesson-094:m07:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-094:m08",
+      "math-2023-grade4-part3:lesson-094:m08:expression-10",
+      "math-2023-grade4-part3:lesson-094:m08:expression-11",
+      "math-2023-grade4-part3:lesson-094:m08:expression-3",
+      "math-2023-grade4-part3:lesson-094:m08:expression-4",
+      "math-2023-grade4-part3:lesson-094:m08:expression-5",
+      "math-2023-grade4-part3:lesson-094:m08:expression-6",
+      "math-2023-grade4-part3:lesson-094:m08:expression-7",
+      "math-2023-grade4-part3:lesson-094:m08:expression-8",
+      "math-2023-grade4-part3:lesson-094:m08:expression-9",
+      "math-2023-grade4-part3:lesson-094:m08:number",
+      "math-2023-grade4-part3:lesson-094:m08:prompt",
+      "math-2023-grade4-part3:lesson-094:m09",
+      "math-2023-grade4-part3:lesson-094:m09:badge",
+      "math-2023-grade4-part3:lesson-094:m09:liar",
+      "math-2023-grade4-part3:lesson-094:m09:number",
+      "math-2023-grade4-part3:lesson-094:m09:problem",
+      "math-2023-grade4-part3:lesson-094:m09:prompt",
+      "math-2023-grade4-part3:lesson-094:m09:statement-one",
+      "math-2023-grade4-part3:lesson-094:m09:statement-two",
+      "math-2023-grade4-part3:lesson-094:m09:truth-teller",
+      "math-2023-grade4-part3:lesson-094:m09:wallet-coins",
+      "math-2023-grade4-part3:lesson-094:m10",
+      "math-2023-grade4-part3:lesson-094:m10:badge",
+      "math-2023-grade4-part3:lesson-094:m10:claim-1",
+      "math-2023-grade4-part3:lesson-094:m10:claim-2",
+      "math-2023-grade4-part3:lesson-094:m10:claim-3",
+      "math-2023-grade4-part3:lesson-094:m10:claim-4",
+      "math-2023-grade4-part3:lesson-094:m10:claim-5",
+      "math-2023-grade4-part3:lesson-094:m10:claim-6",
+      "math-2023-grade4-part3:lesson-094:m10:claim-7",
+      "math-2023-grade4-part3:lesson-094:m10:claim-8",
+      "math-2023-grade4-part3:lesson-094:m10:number",
+      "math-2023-grade4-part3:lesson-094:m10:prompt",
+      "math-2023-grade4-part3:lesson-094:note-negation",
+      "math-2023-grade4-part3:lesson-094:note-negation:badge",
+      "math-2023-grade4-part3:lesson-094:note-negation:rule",
+      "math-2023-grade4-part3:lesson-094:orientation",
+      "math-2023-grade4-part3:lesson-094:orientation:badge",
+      "math-2023-grade4-part3:lesson-094:orientation:objective",
+      "math-2023-grade4-part3:p049",
+      "math-2023-grade4-part3:p050",
+      "math-2023-grade4-part3:p051",
+      "math-2023-grade4-part3:p052"
+    ],
+    "equivalent_object_ids": [
+      "math-2023-grade4-part3:lesson-094:closing",
+      "math-2023-grade4-part3:lesson-094:header",
+      "math-2023-grade4-part3:lesson-094:header:number",
+      "math-2023-grade4-part3:lesson-094:header:theme",
+      "math-2023-grade4-part3:lesson-094:header:title",
+      "math-2023-grade4-part3:lesson-094:link:negation-m03",
+      "math-2023-grade4-part3:lesson-094:link:negation-m04",
+      "math-2023-grade4-part3:lesson-094:link:negation-m05",
+      "math-2023-grade4-part3:lesson-094:link:negation-m10",
+      "math-2023-grade4-part3:lesson-094:m01",
+      "math-2023-grade4-part3:lesson-094:m01:badge",
+      "math-2023-grade4-part3:lesson-094:m01:number",
+      "math-2023-grade4-part3:lesson-094:m01:prompt",
+      "math-2023-grade4-part3:lesson-094:m02",
+      "math-2023-grade4-part3:lesson-094:m02:badge",
+      "math-2023-grade4-part3:lesson-094:m02:claim-1",
+      "math-2023-grade4-part3:lesson-094:m02:claim-2",
+      "math-2023-grade4-part3:lesson-094:m02:claim-3",
+      "math-2023-grade4-part3:lesson-094:m02:claim-4",
+      "math-2023-grade4-part3:lesson-094:m02:claim-5",
+      "math-2023-grade4-part3:lesson-094:m02:number",
+      "math-2023-grade4-part3:lesson-094:m02:prompt",
+      "math-2023-grade4-part3:lesson-094:m03",
+      "math-2023-grade4-part3:lesson-094:m03:badge",
+      "math-2023-grade4-part3:lesson-094:m03:claim-1",
+      "math-2023-grade4-part3:lesson-094:m03:claim-2",
+      "math-2023-grade4-part3:lesson-094:m03:claim-3",
+      "math-2023-grade4-part3:lesson-094:m03:number",
+      "math-2023-grade4-part3:lesson-094:m03:prompt",
+      "math-2023-grade4-part3:lesson-094:m03:rewrite",
+      "math-2023-grade4-part3:lesson-094:m04",
+      "math-2023-grade4-part3:lesson-094:m04:badge",
+      "math-2023-grade4-part3:lesson-094:m04:claim-1",
+      "math-2023-grade4-part3:lesson-094:m04:claim-2",
+      "math-2023-grade4-part3:lesson-094:m04:claim-3",
+      "math-2023-grade4-part3:lesson-094:m04:claim-4",
+      "math-2023-grade4-part3:lesson-094:m04:claim-5",
+      "math-2023-grade4-part3:lesson-094:m04:claim-6",
+      "math-2023-grade4-part3:lesson-094:m04:claim-7",
+      "math-2023-grade4-part3:lesson-094:m04:number",
+      "math-2023-grade4-part3:lesson-094:m04:prompt",
+      "math-2023-grade4-part3:lesson-094:m05",
+      "math-2023-grade4-part3:lesson-094:m05:claim-1",
+      "math-2023-grade4-part3:lesson-094:m05:claim-2",
+      "math-2023-grade4-part3:lesson-094:m05:claim-3",
+      "math-2023-grade4-part3:lesson-094:m05:claim-4",
+      "math-2023-grade4-part3:lesson-094:m05:claim-5",
+      "math-2023-grade4-part3:lesson-094:m05:claim-6",
+      "math-2023-grade4-part3:lesson-094:m05:claim-7",
+      "math-2023-grade4-part3:lesson-094:m05:number",
+      "math-2023-grade4-part3:lesson-094:m05:prompt",
+      "math-2023-grade4-part3:lesson-094:m06",
+      "math-2023-grade4-part3:lesson-094:m06:badge",
+      "math-2023-grade4-part3:lesson-094:m06:number",
+      "math-2023-grade4-part3:lesson-094:m06:prompt",
+      "math-2023-grade4-part3:lesson-094:m06:sub-А",
+      "math-2023-grade4-part3:lesson-094:m06:sub-А:body",
+      "math-2023-grade4-part3:lesson-094:m06:sub-А:expression-15",
+      "math-2023-grade4-part3:lesson-094:m06:sub-А:expression-17",
+      "math-2023-grade4-part3:lesson-094:m06:sub-А:number",
+      "math-2023-grade4-part3:lesson-094:m06:sub-Ә",
+      "math-2023-grade4-part3:lesson-094:m06:sub-Ә:body",
+      "math-2023-grade4-part3:lesson-094:m06:sub-Ә:expression-31",
+      "math-2023-grade4-part3:lesson-094:m06:sub-Ә:expression-35",
+      "math-2023-grade4-part3:lesson-094:m06:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-094:m07",
+      "math-2023-grade4-part3:lesson-094:m07:badge",
+      "math-2023-grade4-part3:lesson-094:m07:number",
+      "math-2023-grade4-part3:lesson-094:m07:prompt",
+      "math-2023-grade4-part3:lesson-094:m07:sub-А",
+      "math-2023-grade4-part3:lesson-094:m07:sub-А:body",
+      "math-2023-grade4-part3:lesson-094:m07:sub-А:number",
+      "math-2023-grade4-part3:lesson-094:m07:sub-Б",
+      "math-2023-grade4-part3:lesson-094:m07:sub-Б:body",
+      "math-2023-grade4-part3:lesson-094:m07:sub-Б:number",
+      "math-2023-grade4-part3:lesson-094:m07:sub-Ә",
+      "math-2023-grade4-part3:lesson-094:m07:sub-Ә:body",
+      "math-2023-grade4-part3:lesson-094:m07:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-094:m08",
+      "math-2023-grade4-part3:lesson-094:m08:expression-10",
+      "math-2023-grade4-part3:lesson-094:m08:expression-11",
+      "math-2023-grade4-part3:lesson-094:m08:expression-3",
+      "math-2023-grade4-part3:lesson-094:m08:expression-4",
+      "math-2023-grade4-part3:lesson-094:m08:expression-5",
+      "math-2023-grade4-part3:lesson-094:m08:expression-6",
+      "math-2023-grade4-part3:lesson-094:m08:expression-7",
+      "math-2023-grade4-part3:lesson-094:m08:expression-8",
+      "math-2023-grade4-part3:lesson-094:m08:expression-9",
+      "math-2023-grade4-part3:lesson-094:m08:number",
+      "math-2023-grade4-part3:lesson-094:m08:prompt",
+      "math-2023-grade4-part3:lesson-094:m09",
+      "math-2023-grade4-part3:lesson-094:m09:badge",
+      "math-2023-grade4-part3:lesson-094:m09:liar",
+      "math-2023-grade4-part3:lesson-094:m09:number",
+      "math-2023-grade4-part3:lesson-094:m09:problem",
+      "math-2023-grade4-part3:lesson-094:m09:prompt",
+      "math-2023-grade4-part3:lesson-094:m09:statement-one",
+      "math-2023-grade4-part3:lesson-094:m09:statement-two",
+      "math-2023-grade4-part3:lesson-094:m09:truth-teller",
+      "math-2023-grade4-part3:lesson-094:m10",
+      "math-2023-grade4-part3:lesson-094:m10:badge",
+      "math-2023-grade4-part3:lesson-094:m10:claim-1",
+      "math-2023-grade4-part3:lesson-094:m10:claim-2",
+      "math-2023-grade4-part3:lesson-094:m10:claim-3",
+      "math-2023-grade4-part3:lesson-094:m10:claim-4",
+      "math-2023-grade4-part3:lesson-094:m10:claim-5",
+      "math-2023-grade4-part3:lesson-094:m10:claim-6",
+      "math-2023-grade4-part3:lesson-094:m10:claim-7",
+      "math-2023-grade4-part3:lesson-094:m10:claim-8",
+      "math-2023-grade4-part3:lesson-094:m10:number",
+      "math-2023-grade4-part3:lesson-094:m10:prompt",
+      "math-2023-grade4-part3:lesson-094:note-negation",
+      "math-2023-grade4-part3:lesson-094:note-negation:badge",
+      "math-2023-grade4-part3:lesson-094:note-negation:rule",
+      "math-2023-grade4-part3:lesson-094:orientation",
+      "math-2023-grade4-part3:lesson-094:orientation:badge",
+      "math-2023-grade4-part3:lesson-094:orientation:objective",
+      "math-2023-grade4-part3:p049",
+      "math-2023-grade4-part3:p050",
+      "math-2023-grade4-part3:p051",
+      "math-2023-grade4-part3:p052"
+    ],
+    "addressed_record_ids": []
+  },
+  "redraw_validation": {
+    "baseline_content_sha256": "e9d8e91b2e38bf84d19dc948a8704f2c4b21bc25a39c3de1b6f96096dfdecbed",
+    "baseline_commit": "389c68b9a11759f9a4b1b74f2253b5be29fabf09",
+    "status": "verified_with_pending_sources",
+    "images": {
+      "math-2023-grade4-part3:lesson-094:m01:fire-scenes": {
+        "finding_zh": "四格场景的火源、位置及人物动作由原裁图判定；现有文字不足以复刻需要判断的完整行为。",
+        "status": "source_recheck"
+      },
+      "math-2023-grade4-part3:lesson-094:m06:sub-А:two-part-distance": {
+        "finding_zh": "总量弧覆盖全部分段；未知量只放在原书标明的单段。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-094:m06:sub-Ә:four-part-distance": {
+        "finding_zh": "总量弧覆盖全部分段；未知量只放在原书标明的单段。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-094:m09:wallet-coins": {
+        "finding_zh": "各袋硬币数量与可读面额独立绘出。右袋三枚小硬币的精确面额保留待核。",
+        "status": "source_recheck"
+      }
+    }
+  }
 }

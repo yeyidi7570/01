@@ -1,5 +1,5 @@
 {
-  "data_version": "2026-11-26-initial-1",
+  "data_version": "2026-11-26-redraw-1",
   "review_status": "pending_review",
   "book": {
     "id": "math-2023-grade4-part3",
@@ -508,7 +508,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Бірінші баға 1 500 тг, жеңілдік 50%; екінші баға 1 800 тг, жеңілдік 30%.",
+              "description_kk": "Бірінші баға 1 500 тг, жеңілдік 50%; екінші баға 1 800 тг, жеңілдік 30%. Баға мен жеңілдік өзара байланыстырылды.",
               "relations": [
                 {
                   "kind": "price_and_discount_tags",
@@ -524,7 +524,73 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 700,
+                "height": 193,
+                "items": [
+                  {
+                    "type": "rect",
+                    "x": 20,
+                    "y": 54,
+                    "w": 314.5,
+                    "h": 67,
+                    "fill": "#b84c42"
+                  },
+                  {
+                    "type": "text",
+                    "x": 177.25,
+                    "y": 93,
+                    "s": "1 500 тг",
+                    "color": "white",
+                    "size": 21
+                  },
+                  {
+                    "type": "rect",
+                    "x": 262.5,
+                    "y": 32,
+                    "w": 65,
+                    "h": 36,
+                    "fill": "#eec45e"
+                  },
+                  {
+                    "type": "text",
+                    "x": 294.5,
+                    "y": 55,
+                    "s": "−50%"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 351,
+                    "y": 54,
+                    "w": 314.5,
+                    "h": 67,
+                    "fill": "#b84c42"
+                  },
+                  {
+                    "type": "text",
+                    "x": 508.25,
+                    "y": 93,
+                    "s": "1 800 тг",
+                    "color": "white",
+                    "size": 21
+                  },
+                  {
+                    "type": "rect",
+                    "x": 593.5,
+                    "y": 32,
+                    "w": 65,
+                    "h": 36,
+                    "fill": "#eec45e"
+                  },
+                  {
+                    "type": "text",
+                    "x": 625.5,
+                    "y": 55,
+                    "s": "−30%"
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-130:m01:flower-price-tags:crop",
             "ocr_evidence": [
@@ -766,7 +832,7 @@
                   }
                 ],
                 "structured_description": {
-                  "description_kk": "Бастапқы аралық — 220 км. Екеуі оңға қарай, арттағысы 70, алдағысы 90 км/сағ. Уақыт 3 сағ. Бастапқы сол нүктеден оң жақтағы соңғы нүктеге дейінгі жақша белгісіз.",
+                  "description_kk": "Бастапқы аралық — 220 км. Екеуі оңға қарай, арттағысы 70, алдағысы 90 км/сағ. Уақыт 3 сағ. Бастапқы сол нүктеден оң жақтағы соңғы нүктеге дейінгі жақша белгісіз. 220 км бастау нүктелерінің арасы; белгісіз жақша сол бастан оң жақ шетке дейін.",
                   "relations": [
                     {
                       "kind": "same_direction_motion_diagram",
@@ -785,7 +851,107 @@
                         "end": "rightmost_drawn_end"
                       }
                     }
-                  ]
+                  ],
+                  "verification_drawing": {
+                    "width": 740,
+                    "height": 241,
+                    "items": [
+                      {
+                        "type": "circle",
+                        "x": 86,
+                        "y": 100,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 447,
+                        "y": 100,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 86,
+                        "y1": 100,
+                        "x2": 637,
+                        "y2": 100,
+                        "color": "#284d77",
+                        "width": 3,
+                        "arrow": true
+                      },
+                      {
+                        "type": "line",
+                        "x1": 86,
+                        "y1": 100,
+                        "x2": 86,
+                        "y2": 66,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 86,
+                        "y1": 66,
+                        "x2": 155,
+                        "y2": 66,
+                        "color": "#284d77",
+                        "arrow": true
+                      },
+                      {
+                        "type": "text",
+                        "x": 120.5,
+                        "y": 55,
+                        "s": "70 км/сағ",
+                        "size": 14
+                      },
+                      {
+                        "type": "line",
+                        "x1": 447,
+                        "y1": 100,
+                        "x2": 447,
+                        "y2": 66,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 447,
+                        "y1": 66,
+                        "x2": 543,
+                        "y2": 66,
+                        "color": "#284d77",
+                        "arrow": true
+                      },
+                      {
+                        "type": "text",
+                        "x": 495.0,
+                        "y": 55,
+                        "s": "90 км/сағ",
+                        "size": 14
+                      },
+                      {
+                        "type": "text",
+                        "x": 317,
+                        "y": 87,
+                        "s": "3 сағ"
+                      },
+                      {
+                        "type": "bracket",
+                        "x1": 86,
+                        "x2": 447,
+                        "y": 108,
+                        "label": "220 км"
+                      },
+                      {
+                        "type": "bracket",
+                        "x1": 86,
+                        "x2": 637,
+                        "y": 162,
+                        "label": "? км"
+                      }
+                    ]
+                  }
                 },
                 "crop_asset_id": "math-2023-grade4-part3:lesson-130:m02:sub-А:same-direction-diagram:crop",
                 "ocr_evidence": [
@@ -899,7 +1065,7 @@
                   }
                 ],
                 "structured_description": {
-                  "description_kk": "Бастапқы аралық — 220 км. Екеуі оңға қарай, арттағысы 90, алдағысы 70 км/сағ. Уақыт 3 сағ. Бастапқы сол нүктеден оң жақтағы соңғы нүктеге дейінгі жақша белгісіз.",
+                  "description_kk": "Бастапқы аралық — 220 км. Екеуі оңға қарай, арттағысы 90, алдағысы 70 км/сағ. Уақыт 3 сағ. Бастапқы сол нүктеден оң жақтағы соңғы нүктеге дейінгі жақша белгісіз. 220 км бастау нүктелерінің арасы; белгісіз жақша сол бастан оң жақ шетке дейін.",
                   "relations": [
                     {
                       "kind": "same_direction_motion_diagram",
@@ -918,7 +1084,107 @@
                         "end": "rightmost_drawn_end"
                       }
                     }
-                  ]
+                  ],
+                  "verification_drawing": {
+                    "width": 740,
+                    "height": 241,
+                    "items": [
+                      {
+                        "type": "circle",
+                        "x": 86,
+                        "y": 100,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 447,
+                        "y": 100,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 86,
+                        "y1": 100,
+                        "x2": 637,
+                        "y2": 100,
+                        "color": "#284d77",
+                        "width": 3,
+                        "arrow": true
+                      },
+                      {
+                        "type": "line",
+                        "x1": 86,
+                        "y1": 100,
+                        "x2": 86,
+                        "y2": 66,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 86,
+                        "y1": 66,
+                        "x2": 182,
+                        "y2": 66,
+                        "color": "#284d77",
+                        "arrow": true
+                      },
+                      {
+                        "type": "text",
+                        "x": 134.0,
+                        "y": 55,
+                        "s": "90 км/сағ",
+                        "size": 14
+                      },
+                      {
+                        "type": "line",
+                        "x1": 447,
+                        "y1": 100,
+                        "x2": 447,
+                        "y2": 66,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 447,
+                        "y1": 66,
+                        "x2": 516,
+                        "y2": 66,
+                        "color": "#284d77",
+                        "arrow": true
+                      },
+                      {
+                        "type": "text",
+                        "x": 481.5,
+                        "y": 55,
+                        "s": "70 км/сағ",
+                        "size": 14
+                      },
+                      {
+                        "type": "text",
+                        "x": 317,
+                        "y": 87,
+                        "s": "3 сағ"
+                      },
+                      {
+                        "type": "bracket",
+                        "x1": 86,
+                        "x2": 447,
+                        "y": 108,
+                        "label": "220 км"
+                      },
+                      {
+                        "type": "bracket",
+                        "x1": 86,
+                        "x2": 637,
+                        "y": 162,
+                        "label": "? км"
+                      }
+                    ]
+                  }
                 },
                 "crop_asset_id": "math-2023-grade4-part3:lesson-130:m02:sub-Ә:same-direction-diagram:crop",
                 "ocr_evidence": [
@@ -2002,7 +2268,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Үлкен шеңбердің екі перпендикуляр диаметрі штрихпен берілген. Төрт тең шеңбердің центрлері осы диаметрлерде жатады, әрқайсысы O арқылы өтіп сыртқы шеңберге жанасады.",
+              "description_kk": "Үлкен шеңбердің екі перпендикуляр диаметрі штрихпен берілген. Төрт тең шеңбердің центрлері осы диаметрлерде жатады, әрқайсысы O арқылы өтіп сыртқы шеңберге жанасады. Төрт кіші шеңбер үлкен шеңбердің центрі арқылы өтеді.",
               "relations": [
                 {
                   "kind": "circle_packing_with_center_axes",
@@ -2017,9 +2283,79 @@
                   "each_inner_passes_through_outer_center": true,
                   "each_inner_tangent_to_outer": true
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 386,
+                "height": 373,
+                "items": [
+                  {
+                    "type": "circle",
+                    "x": 190,
+                    "y": 181,
+                    "r": 139,
+                    "color": "#839e66",
+                    "width": 2
+                  },
+                  {
+                    "type": "line",
+                    "x1": 51,
+                    "y1": 181,
+                    "x2": 329,
+                    "y2": 181,
+                    "color": "#839e66",
+                    "dash": "6 4"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 190,
+                    "y1": 42,
+                    "x2": 190,
+                    "y2": 320,
+                    "color": "#839e66",
+                    "dash": "6 4"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 259.5,
+                    "y": 181,
+                    "r": 69.5,
+                    "color": "#839e66",
+                    "width": 2
+                  },
+                  {
+                    "type": "circle",
+                    "x": 120.5,
+                    "y": 181,
+                    "r": 69.5,
+                    "color": "#839e66",
+                    "width": 2
+                  },
+                  {
+                    "type": "circle",
+                    "x": 190,
+                    "y": 250.5,
+                    "r": 69.5,
+                    "color": "#839e66",
+                    "width": 2
+                  },
+                  {
+                    "type": "circle",
+                    "x": 190,
+                    "y": 111.5,
+                    "r": 69.5,
+                    "color": "#839e66",
+                    "width": 2
+                  }
+                ]
+              }
             },
-            "crop_asset_id": "math-2023-grade4-part3:lesson-130:m05:four-inner-circles:crop"
+            "crop_asset_id": "math-2023-grade4-part3:lesson-130:m05:four-inner-circles:crop",
+            "review_flags": [
+              {
+                "code": "redraw_source_uncertainty",
+                "description_kk": "Нақты ұзындық баспа парағынан өлшенеді."
+              }
+            ]
           }
         ],
         "content_order": [
@@ -2217,7 +2553,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Төрт құмыра тік төртбұрышты жәшікке 2×2 болып орналасады.",
+              "description_kk": "Төрт құмыра тік төртбұрышты жәшікке 2×2 болып орналасады. Төрт құмыра 2×2 орналасқан.",
               "relations": [
                 {
                   "kind": "circular_pot_arrangement",
@@ -2225,7 +2561,53 @@
                   "rows": 2,
                   "columns": 2
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 385,
+                "height": 361,
+                "items": [
+                  {
+                    "type": "rect",
+                    "x": 39,
+                    "y": 37,
+                    "w": 304,
+                    "h": 280,
+                    "color": "#ba9960"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 116,
+                    "y": 107,
+                    "r": 61,
+                    "fill": "#7e6a9e",
+                    "color": "#4a4774"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 116,
+                    "y": 247,
+                    "r": 61,
+                    "fill": "#7e6a9e",
+                    "color": "#4a4774"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 266,
+                    "y": 107,
+                    "r": 61,
+                    "fill": "#7e6a9e",
+                    "color": "#4a4774"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 266,
+                    "y": 247,
+                    "r": 61,
+                    "fill": "#7e6a9e",
+                    "color": "#4a4774"
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-130:m06:four-pots-packing:crop"
           }
@@ -5204,5 +5586,181 @@
         }
       ]
     }
-  ]
+  ],
+  "review_revision": {
+    "source_version": "2026-11-26-initial-1",
+    "source_object_ids": [
+      "math-2023-grade4-part3:lesson-130:closing",
+      "math-2023-grade4-part3:lesson-130:header",
+      "math-2023-grade4-part3:lesson-130:header:number",
+      "math-2023-grade4-part3:lesson-130:header:theme",
+      "math-2023-grade4-part3:lesson-130:header:title",
+      "math-2023-grade4-part3:lesson-130:link:m07-uses-m06-pot-problem",
+      "math-2023-grade4-part3:lesson-130:m01",
+      "math-2023-grade4-part3:lesson-130:m01:body-9",
+      "math-2023-grade4-part3:lesson-130:m01:flower-price-tags",
+      "math-2023-grade4-part3:lesson-130:m01:number",
+      "math-2023-grade4-part3:lesson-130:m01:prompt",
+      "math-2023-grade4-part3:lesson-130:m02",
+      "math-2023-grade4-part3:lesson-130:m02:badge",
+      "math-2023-grade4-part3:lesson-130:m02:number",
+      "math-2023-grade4-part3:lesson-130:m02:prompt",
+      "math-2023-grade4-part3:lesson-130:m02:sub-А",
+      "math-2023-grade4-part3:lesson-130:m02:sub-А:number",
+      "math-2023-grade4-part3:lesson-130:m02:sub-А:same-direction-diagram",
+      "math-2023-grade4-part3:lesson-130:m02:sub-Ә",
+      "math-2023-grade4-part3:lesson-130:m02:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-130:m02:sub-Ә:same-direction-diagram",
+      "math-2023-grade4-part3:lesson-130:m03",
+      "math-2023-grade4-part3:lesson-130:m03:expr-40",
+      "math-2023-grade4-part3:lesson-130:m03:expr-40:fraction-1",
+      "math-2023-grade4-part3:lesson-130:m03:expr-40:fraction-2",
+      "math-2023-grade4-part3:lesson-130:m03:expr-40:fraction-3",
+      "math-2023-grade4-part3:lesson-130:m03:expr-40:symbols-2",
+      "math-2023-grade4-part3:lesson-130:m03:expr-40:symbols-3",
+      "math-2023-grade4-part3:lesson-130:m03:expr-43",
+      "math-2023-grade4-part3:lesson-130:m03:expr-43:fraction-1",
+      "math-2023-grade4-part3:lesson-130:m03:expr-43:fraction-2",
+      "math-2023-grade4-part3:lesson-130:m03:expr-43:fraction-3",
+      "math-2023-grade4-part3:lesson-130:m03:expr-43:symbols-2",
+      "math-2023-grade4-part3:lesson-130:m03:expr-43:symbols-3",
+      "math-2023-grade4-part3:lesson-130:m03:number",
+      "math-2023-grade4-part3:lesson-130:m03:prompt",
+      "math-2023-grade4-part3:lesson-130:m04",
+      "math-2023-grade4-part3:lesson-130:m04:badge",
+      "math-2023-grade4-part3:lesson-130:m04:expression-57",
+      "math-2023-grade4-part3:lesson-130:m04:expression-58",
+      "math-2023-grade4-part3:lesson-130:m04:expression-59",
+      "math-2023-grade4-part3:lesson-130:m04:expression-60",
+      "math-2023-grade4-part3:lesson-130:m04:expression-61",
+      "math-2023-grade4-part3:lesson-130:m04:expression-62",
+      "math-2023-grade4-part3:lesson-130:m04:expression-63",
+      "math-2023-grade4-part3:lesson-130:m04:expression-64",
+      "math-2023-grade4-part3:lesson-130:m04:expression-65",
+      "math-2023-grade4-part3:lesson-130:m04:number",
+      "math-2023-grade4-part3:lesson-130:m04:prompt",
+      "math-2023-grade4-part3:lesson-130:m05",
+      "math-2023-grade4-part3:lesson-130:m05:body-3",
+      "math-2023-grade4-part3:lesson-130:m05:four-inner-circles",
+      "math-2023-grade4-part3:lesson-130:m05:number",
+      "math-2023-grade4-part3:lesson-130:m05:prompt",
+      "math-2023-grade4-part3:lesson-130:m06",
+      "math-2023-grade4-part3:lesson-130:m06:badge",
+      "math-2023-grade4-part3:lesson-130:m06:body-9",
+      "math-2023-grade4-part3:lesson-130:m06:four-pots-packing",
+      "math-2023-grade4-part3:lesson-130:m06:number",
+      "math-2023-grade4-part3:lesson-130:m06:prompt",
+      "math-2023-grade4-part3:lesson-130:m07",
+      "math-2023-grade4-part3:lesson-130:m07:badge",
+      "math-2023-grade4-part3:lesson-130:m07:number",
+      "math-2023-grade4-part3:lesson-130:m07:prompt",
+      "math-2023-grade4-part3:lesson-130:m08",
+      "math-2023-grade4-part3:lesson-130:m08:badge",
+      "math-2023-grade4-part3:lesson-130:m08:number",
+      "math-2023-grade4-part3:lesson-130:m08:prompt",
+      "math-2023-grade4-part3:lesson-130:orientation",
+      "math-2023-grade4-part3:lesson-130:orientation:badge",
+      "math-2023-grade4-part3:lesson-130:orientation:objective",
+      "math-2023-grade4-part3:p156",
+      "math-2023-grade4-part3:p157"
+    ],
+    "equivalent_object_ids": [
+      "math-2023-grade4-part3:lesson-130:closing",
+      "math-2023-grade4-part3:lesson-130:header",
+      "math-2023-grade4-part3:lesson-130:header:number",
+      "math-2023-grade4-part3:lesson-130:header:theme",
+      "math-2023-grade4-part3:lesson-130:header:title",
+      "math-2023-grade4-part3:lesson-130:link:m07-uses-m06-pot-problem",
+      "math-2023-grade4-part3:lesson-130:m01",
+      "math-2023-grade4-part3:lesson-130:m01:body-9",
+      "math-2023-grade4-part3:lesson-130:m01:number",
+      "math-2023-grade4-part3:lesson-130:m01:prompt",
+      "math-2023-grade4-part3:lesson-130:m02",
+      "math-2023-grade4-part3:lesson-130:m02:badge",
+      "math-2023-grade4-part3:lesson-130:m02:number",
+      "math-2023-grade4-part3:lesson-130:m02:prompt",
+      "math-2023-grade4-part3:lesson-130:m02:sub-А",
+      "math-2023-grade4-part3:lesson-130:m02:sub-А:number",
+      "math-2023-grade4-part3:lesson-130:m02:sub-Ә",
+      "math-2023-grade4-part3:lesson-130:m02:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-130:m03",
+      "math-2023-grade4-part3:lesson-130:m03:expr-40",
+      "math-2023-grade4-part3:lesson-130:m03:expr-40:fraction-1",
+      "math-2023-grade4-part3:lesson-130:m03:expr-40:fraction-2",
+      "math-2023-grade4-part3:lesson-130:m03:expr-40:fraction-3",
+      "math-2023-grade4-part3:lesson-130:m03:expr-40:symbols-2",
+      "math-2023-grade4-part3:lesson-130:m03:expr-40:symbols-3",
+      "math-2023-grade4-part3:lesson-130:m03:expr-43",
+      "math-2023-grade4-part3:lesson-130:m03:expr-43:fraction-1",
+      "math-2023-grade4-part3:lesson-130:m03:expr-43:fraction-2",
+      "math-2023-grade4-part3:lesson-130:m03:expr-43:fraction-3",
+      "math-2023-grade4-part3:lesson-130:m03:expr-43:symbols-2",
+      "math-2023-grade4-part3:lesson-130:m03:expr-43:symbols-3",
+      "math-2023-grade4-part3:lesson-130:m03:number",
+      "math-2023-grade4-part3:lesson-130:m03:prompt",
+      "math-2023-grade4-part3:lesson-130:m04",
+      "math-2023-grade4-part3:lesson-130:m04:badge",
+      "math-2023-grade4-part3:lesson-130:m04:expression-57",
+      "math-2023-grade4-part3:lesson-130:m04:expression-58",
+      "math-2023-grade4-part3:lesson-130:m04:expression-59",
+      "math-2023-grade4-part3:lesson-130:m04:expression-60",
+      "math-2023-grade4-part3:lesson-130:m04:expression-61",
+      "math-2023-grade4-part3:lesson-130:m04:expression-62",
+      "math-2023-grade4-part3:lesson-130:m04:expression-63",
+      "math-2023-grade4-part3:lesson-130:m04:expression-64",
+      "math-2023-grade4-part3:lesson-130:m04:expression-65",
+      "math-2023-grade4-part3:lesson-130:m04:number",
+      "math-2023-grade4-part3:lesson-130:m04:prompt",
+      "math-2023-grade4-part3:lesson-130:m05",
+      "math-2023-grade4-part3:lesson-130:m05:body-3",
+      "math-2023-grade4-part3:lesson-130:m05:number",
+      "math-2023-grade4-part3:lesson-130:m05:prompt",
+      "math-2023-grade4-part3:lesson-130:m06",
+      "math-2023-grade4-part3:lesson-130:m06:badge",
+      "math-2023-grade4-part3:lesson-130:m06:body-9",
+      "math-2023-grade4-part3:lesson-130:m06:number",
+      "math-2023-grade4-part3:lesson-130:m06:prompt",
+      "math-2023-grade4-part3:lesson-130:m07",
+      "math-2023-grade4-part3:lesson-130:m07:badge",
+      "math-2023-grade4-part3:lesson-130:m07:number",
+      "math-2023-grade4-part3:lesson-130:m07:prompt",
+      "math-2023-grade4-part3:lesson-130:m08",
+      "math-2023-grade4-part3:lesson-130:m08:badge",
+      "math-2023-grade4-part3:lesson-130:m08:number",
+      "math-2023-grade4-part3:lesson-130:m08:prompt",
+      "math-2023-grade4-part3:lesson-130:orientation",
+      "math-2023-grade4-part3:lesson-130:orientation:badge",
+      "math-2023-grade4-part3:lesson-130:orientation:objective",
+      "math-2023-grade4-part3:p156",
+      "math-2023-grade4-part3:p157"
+    ],
+    "addressed_record_ids": []
+  },
+  "redraw_validation": {
+    "baseline_content_sha256": "698a19ad4308f0b620cff44a4e7ff580df40dba94dba1348535cbbcae11af15a",
+    "baseline_commit": "389c68b9a11759f9a4b1b74f2253b5be29fabf09",
+    "status": "verified_with_pending_sources",
+    "images": {
+      "math-2023-grade4-part3:lesson-130:m01:flower-price-tags": {
+        "finding_zh": "两组花苗价签中价格和降幅逐一对应。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-130:m02:sub-А:same-direction-diagram": {
+        "finding_zh": "已知 220 千米括线在两起点之间，未知括线从左起点至右端；保留 70、90 的换位。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-130:m02:sub-Ә:same-direction-diagram": {
+        "finding_zh": "已知 220 千米括线在两起点之间，未知括线从左起点至右端；保留 70、90 的换位。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-130:m05:four-inner-circles": {
+        "finding_zh": "重绘共过大圆心的四个等小圆、互相垂直的辅助线及内切。纸本绝对长度待测。",
+        "status": "source_recheck"
+      },
+      "math-2023-grade4-part3:lesson-130:m06:four-pots-packing": {
+        "finding_zh": "俯视核对保留 2×2 四圆摆放，花盆外观无关。",
+        "status": "verified"
+      }
+    }
+  }
 }

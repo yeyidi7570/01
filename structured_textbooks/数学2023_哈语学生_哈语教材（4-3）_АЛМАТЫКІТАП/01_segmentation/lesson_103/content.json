@@ -1,5 +1,5 @@
 {
-  "data_version": "2026-11-26-initial-1",
+  "data_version": "2026-11-26-redraw-1",
   "review_status": "pending_review",
   "book": {
     "id": "math-2023-grade4-part3",
@@ -2790,7 +2790,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Үш сурет солдан оңға: Арманның, Бауыржанның, Серіктің қамалдары. Тірек сызығы шамалас, төбелер әртүрлі деңгейде; сандық биіктік қойылмаған.",
+              "description_kk": "Үш сурет солдан оңға: Арманның, Бауыржанның, Серіктің қамалдары. Тірек сызығы шамалас, төбелер әртүрлі деңгейде; сандық биіктік қойылмаған. Үш қамалдың ортақ табаны және биіктік реті сақталған.",
               "relations": [
                 {
                   "kind": "height_comparison",
@@ -2802,7 +2802,69 @@
                   "common_base_level": true,
                   "printed_heights": false
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 620,
+                "height": 232,
+                "items": [
+                  {
+                    "type": "rect",
+                    "x": 37,
+                    "y": 112,
+                    "w": 145,
+                    "h": 77,
+                    "fill": "#d2e0ed",
+                    "color": "#617988"
+                  },
+                  {
+                    "type": "text",
+                    "x": 110,
+                    "y": 213,
+                    "s": "Арманның қамалы",
+                    "size": 13
+                  },
+                  {
+                    "type": "rect",
+                    "x": 239,
+                    "y": 87,
+                    "w": 145,
+                    "h": 102,
+                    "fill": "#d2e0ed",
+                    "color": "#617988"
+                  },
+                  {
+                    "type": "text",
+                    "x": 312,
+                    "y": 213,
+                    "s": "Бауыржанның қамалы",
+                    "size": 13
+                  },
+                  {
+                    "type": "rect",
+                    "x": 441,
+                    "y": 30,
+                    "w": 145,
+                    "h": 159,
+                    "fill": "#d2e0ed",
+                    "color": "#617988"
+                  },
+                  {
+                    "type": "text",
+                    "x": 514,
+                    "y": 213,
+                    "s": "Серіктің қамалы",
+                    "size": 13
+                  },
+                  {
+                    "type": "line",
+                    "x1": 27,
+                    "y1": 190,
+                    "x2": 604,
+                    "y2": 190,
+                    "color": "#657e91"
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-103:m07:castle-height-comparison:crop",
             "ocr_evidence": [
@@ -3038,7 +3100,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "t осі 0–5 сағ, S осі 0–50 км (5 км қадам). Күлгін сызық А(0,0) нүктесінен жоғары, көк B(0,45) нүктесінен төмен қарай жүреді. Сызықтар М(3,15) нүктесінде қиылысады. Қызыл үзік сызықтар t=1, t=3 және S=5, S=15, S=35 белгілерін пайдаланады.",
+              "description_kk": "t осі 0–5 сағ, S осі 0–50 км (5 км қадам). Күлгін сызық А(0,0) нүктесінен жоғары, көк B(0,45) нүктесінен төмен қарай жүреді. Сызықтар М(3,15) нүктесінде қиылысады. Қызыл үзік сызықтар t=1, t=3 және S=5, S=15, S=35 белгілерін пайдаланады. A және B сызықтары M(3,15) нүктесінен кейін де жалғасады; көмекші сызықтар сақталды.",
               "relations": [
                 {
                   "kind": "coordinate_graph",
@@ -3107,6 +3169,147 @@
                     5,
                     15,
                     35
+                  ],
+                  "x_grid_step": 0.25,
+                  "y_grid_step": 5,
+                  "x_label": "t",
+                  "y_label": "S",
+                  "dashed_guides": [
+                    [
+                      [
+                        1,
+                        0
+                      ],
+                      [
+                        1,
+                        45
+                      ]
+                    ],
+                    [
+                      [
+                        3,
+                        0
+                      ],
+                      [
+                        3,
+                        15
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        5
+                      ],
+                      [
+                        1,
+                        5
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        35
+                      ],
+                      [
+                        1,
+                        35
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        15
+                      ],
+                      [
+                        3,
+                        15
+                      ]
+                    ]
+                  ],
+                  "series": [
+                    {
+                      "label": "A",
+                      "color": "purple",
+                      "vertices": [
+                        [
+                          0,
+                          0
+                        ],
+                        [
+                          1,
+                          5
+                        ],
+                        [
+                          3,
+                          15
+                        ],
+                        [
+                          3.5,
+                          17.5
+                        ]
+                      ]
+                    },
+                    {
+                      "label": "B",
+                      "color": "blue",
+                      "vertices": [
+                        [
+                          0,
+                          45
+                        ],
+                        [
+                          1,
+                          35
+                        ],
+                        [
+                          3,
+                          15
+                        ],
+                        [
+                          3.5,
+                          10
+                        ]
+                      ]
+                    }
+                  ],
+                  "solid_guides": [
+                    [
+                      [
+                        0,
+                        45
+                      ],
+                      [
+                        5,
+                        45
+                      ]
+                    ]
+                  ],
+                  "point_labels": [
+                    {
+                      "at": [
+                        0,
+                        0
+                      ],
+                      "label": "A",
+                      "dx": -13,
+                      "dy": 5
+                    },
+                    {
+                      "at": [
+                        0,
+                        45
+                      ],
+                      "label": "B"
+                    },
+                    {
+                      "at": [
+                        3,
+                        15
+                      ],
+                      "label": "M",
+                      "dx": -5,
+                      "dy": -9
+                    }
                   ]
                 }
               ]
@@ -3236,6 +3439,12 @@
             ],
             "ocr_suggestion_ids": [
               "math-2023-grade4-part3:lesson-103:m08:compare-motion-graph:suggestion-1"
+            ],
+            "review_flags": [
+              {
+                "code": "redraw_source_uncertainty",
+                "description_kk": "Соңғы қысқа бөліктердің ұштары санмен белгіленбеген."
+              }
             ]
           }
         ],
@@ -5842,6 +6051,147 @@
             5,
             15,
             35
+          ],
+          "x_grid_step": 0.25,
+          "y_grid_step": 5,
+          "x_label": "t",
+          "y_label": "S",
+          "dashed_guides": [
+            [
+              [
+                1,
+                0
+              ],
+              [
+                1,
+                45
+              ]
+            ],
+            [
+              [
+                3,
+                0
+              ],
+              [
+                3,
+                15
+              ]
+            ],
+            [
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                5
+              ]
+            ],
+            [
+              [
+                0,
+                35
+              ],
+              [
+                1,
+                35
+              ]
+            ],
+            [
+              [
+                0,
+                15
+              ],
+              [
+                3,
+                15
+              ]
+            ]
+          ],
+          "series": [
+            {
+              "label": "A",
+              "color": "purple",
+              "vertices": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  5
+                ],
+                [
+                  3,
+                  15
+                ],
+                [
+                  3.5,
+                  17.5
+                ]
+              ]
+            },
+            {
+              "label": "B",
+              "color": "blue",
+              "vertices": [
+                [
+                  0,
+                  45
+                ],
+                [
+                  1,
+                  35
+                ],
+                [
+                  3,
+                  15
+                ],
+                [
+                  3.5,
+                  10
+                ]
+              ]
+            }
+          ],
+          "solid_guides": [
+            [
+              [
+                0,
+                45
+              ],
+              [
+                5,
+                45
+              ]
+            ]
+          ],
+          "point_labels": [
+            {
+              "at": [
+                0,
+                0
+              ],
+              "label": "A",
+              "dx": -13,
+              "dy": 5
+            },
+            {
+              "at": [
+                0,
+                45
+              ],
+              "label": "B"
+            },
+            {
+              "at": [
+                3,
+                15
+              ],
+              "label": "M",
+              "dx": -5,
+              "dy": -9
+            }
           ]
         }
       ],
@@ -6141,6 +6491,147 @@
                 5,
                 15,
                 35
+              ],
+              "x_grid_step": 0.25,
+              "y_grid_step": 5,
+              "x_label": "t",
+              "y_label": "S",
+              "dashed_guides": [
+                [
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    1,
+                    45
+                  ]
+                ],
+                [
+                  [
+                    3,
+                    0
+                  ],
+                  [
+                    3,
+                    15
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    5
+                  ],
+                  [
+                    1,
+                    5
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    35
+                  ],
+                  [
+                    1,
+                    35
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    15
+                  ],
+                  [
+                    3,
+                    15
+                  ]
+                ]
+              ],
+              "series": [
+                {
+                  "label": "A",
+                  "color": "purple",
+                  "vertices": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      5
+                    ],
+                    [
+                      3,
+                      15
+                    ],
+                    [
+                      3.5,
+                      17.5
+                    ]
+                  ]
+                },
+                {
+                  "label": "B",
+                  "color": "blue",
+                  "vertices": [
+                    [
+                      0,
+                      45
+                    ],
+                    [
+                      1,
+                      35
+                    ],
+                    [
+                      3,
+                      15
+                    ],
+                    [
+                      3.5,
+                      10
+                    ]
+                  ]
+                }
+              ],
+              "solid_guides": [
+                [
+                  [
+                    0,
+                    45
+                  ],
+                  [
+                    5,
+                    45
+                  ]
+                ]
+              ],
+              "point_labels": [
+                {
+                  "at": [
+                    0,
+                    0
+                  ],
+                  "label": "A",
+                  "dx": -13,
+                  "dy": 5
+                },
+                {
+                  "at": [
+                    0,
+                    45
+                  ],
+                  "label": "B"
+                },
+                {
+                  "at": [
+                    3,
+                    15
+                  ],
+                  "label": "M",
+                  "dx": -5,
+                  "dy": -9
+                }
               ]
             }
           ]
@@ -6657,5 +7148,236 @@
         }
       ]
     }
-  ]
+  ],
+  "review_revision": {
+    "source_version": "2026-11-26-initial-1",
+    "source_object_ids": [
+      "math-2023-grade4-part3:lesson-103:closing",
+      "math-2023-grade4-part3:lesson-103:header",
+      "math-2023-grade4-part3:lesson-103:header:number",
+      "math-2023-grade4-part3:lesson-103:header:theme",
+      "math-2023-grade4-part3:lesson-103:header:title",
+      "math-2023-grade4-part3:lesson-103:m01",
+      "math-2023-grade4-part3:lesson-103:m01:choice-1",
+      "math-2023-grade4-part3:lesson-103:m01:choice-2",
+      "math-2023-grade4-part3:lesson-103:m01:choice-3",
+      "math-2023-grade4-part3:lesson-103:m01:choice-4",
+      "math-2023-grade4-part3:lesson-103:m01:number",
+      "math-2023-grade4-part3:lesson-103:m01:problem",
+      "math-2023-grade4-part3:lesson-103:m01:prompt",
+      "math-2023-grade4-part3:lesson-103:m02",
+      "math-2023-grade4-part3:lesson-103:m02:badge",
+      "math-2023-grade4-part3:lesson-103:m02:number",
+      "math-2023-grade4-part3:lesson-103:m02:problem",
+      "math-2023-grade4-part3:lesson-103:m02:prompt",
+      "math-2023-grade4-part3:lesson-103:m03",
+      "math-2023-grade4-part3:lesson-103:m03:badge",
+      "math-2023-grade4-part3:lesson-103:m03:number",
+      "math-2023-grade4-part3:lesson-103:m03:prompt",
+      "math-2023-grade4-part3:lesson-103:m04",
+      "math-2023-grade4-part3:lesson-103:m04:badge",
+      "math-2023-grade4-part3:lesson-103:m04:number",
+      "math-2023-grade4-part3:lesson-103:m04:problem",
+      "math-2023-grade4-part3:lesson-103:m04:prompt",
+      "math-2023-grade4-part3:lesson-103:m05",
+      "math-2023-grade4-part3:lesson-103:m05:division-table",
+      "math-2023-grade4-part3:lesson-103:m05:division-table:table",
+      "math-2023-grade4-part3:lesson-103:m05:division-table:table:r1c1",
+      "math-2023-grade4-part3:lesson-103:m05:division-table:table:r1c2",
+      "math-2023-grade4-part3:lesson-103:m05:division-table:table:r1c3",
+      "math-2023-grade4-part3:lesson-103:m05:division-table:table:r1c4",
+      "math-2023-grade4-part3:lesson-103:m05:division-table:table:r2c1",
+      "math-2023-grade4-part3:lesson-103:m05:division-table:table:r2c2",
+      "math-2023-grade4-part3:lesson-103:m05:division-table:table:r2c3",
+      "math-2023-grade4-part3:lesson-103:m05:division-table:table:r2c4",
+      "math-2023-grade4-part3:lesson-103:m05:multiplication-table",
+      "math-2023-grade4-part3:lesson-103:m05:multiplication-table:table",
+      "math-2023-grade4-part3:lesson-103:m05:multiplication-table:table:r1c1",
+      "math-2023-grade4-part3:lesson-103:m05:multiplication-table:table:r1c2",
+      "math-2023-grade4-part3:lesson-103:m05:multiplication-table:table:r1c3",
+      "math-2023-grade4-part3:lesson-103:m05:multiplication-table:table:r1c4",
+      "math-2023-grade4-part3:lesson-103:m05:multiplication-table:table:r2c1",
+      "math-2023-grade4-part3:lesson-103:m05:multiplication-table:table:r2c2",
+      "math-2023-grade4-part3:lesson-103:m05:multiplication-table:table:r2c3",
+      "math-2023-grade4-part3:lesson-103:m05:multiplication-table:table:r2c4",
+      "math-2023-grade4-part3:lesson-103:m05:number",
+      "math-2023-grade4-part3:lesson-103:m05:prompt",
+      "math-2023-grade4-part3:lesson-103:m06",
+      "math-2023-grade4-part3:lesson-103:m06:badge",
+      "math-2023-grade4-part3:lesson-103:m06:diagonal-header",
+      "math-2023-grade4-part3:lesson-103:m06:number",
+      "math-2023-grade4-part3:lesson-103:m06:prompt",
+      "math-2023-grade4-part3:lesson-103:m06:question",
+      "math-2023-grade4-part3:lesson-103:m06:table",
+      "math-2023-grade4-part3:lesson-103:m06:table:r1c1",
+      "math-2023-grade4-part3:lesson-103:m06:table:r1c2",
+      "math-2023-grade4-part3:lesson-103:m06:table:r1c3",
+      "math-2023-grade4-part3:lesson-103:m06:table:r1c4",
+      "math-2023-grade4-part3:lesson-103:m06:table:r1c5",
+      "math-2023-grade4-part3:lesson-103:m06:table:r2c1",
+      "math-2023-grade4-part3:lesson-103:m06:table:r2c2",
+      "math-2023-grade4-part3:lesson-103:m06:table:r2c3",
+      "math-2023-grade4-part3:lesson-103:m06:table:r2c4",
+      "math-2023-grade4-part3:lesson-103:m06:table:r2c5",
+      "math-2023-grade4-part3:lesson-103:m06:table:r3c1",
+      "math-2023-grade4-part3:lesson-103:m06:table:r3c2",
+      "math-2023-grade4-part3:lesson-103:m06:table:r3c3",
+      "math-2023-grade4-part3:lesson-103:m06:table:r3c4",
+      "math-2023-grade4-part3:lesson-103:m06:table:r3c5",
+      "math-2023-grade4-part3:lesson-103:m06:table:r4c1",
+      "math-2023-grade4-part3:lesson-103:m06:table:r4c2",
+      "math-2023-grade4-part3:lesson-103:m06:table:r4c3",
+      "math-2023-grade4-part3:lesson-103:m06:table:r4c4",
+      "math-2023-grade4-part3:lesson-103:m06:table:r4c5",
+      "math-2023-grade4-part3:lesson-103:m07",
+      "math-2023-grade4-part3:lesson-103:m07:badge",
+      "math-2023-grade4-part3:lesson-103:m07:castle-height-comparison",
+      "math-2023-grade4-part3:lesson-103:m07:number",
+      "math-2023-grade4-part3:lesson-103:m07:problem",
+      "math-2023-grade4-part3:lesson-103:m07:prompt",
+      "math-2023-grade4-part3:lesson-103:m08",
+      "math-2023-grade4-part3:lesson-103:m08:badge",
+      "math-2023-grade4-part3:lesson-103:m08:compare-motion-graph",
+      "math-2023-grade4-part3:lesson-103:m08:number",
+      "math-2023-grade4-part3:lesson-103:m08:problem",
+      "math-2023-grade4-part3:lesson-103:m08:prompt",
+      "math-2023-grade4-part3:lesson-103:m09",
+      "math-2023-grade4-part3:lesson-103:m09:badge",
+      "math-2023-grade4-part3:lesson-103:m09:number",
+      "math-2023-grade4-part3:lesson-103:m09:problem",
+      "math-2023-grade4-part3:lesson-103:m09:prompt",
+      "math-2023-grade4-part3:lesson-103:m10",
+      "math-2023-grade4-part3:lesson-103:m10:badge",
+      "math-2023-grade4-part3:lesson-103:m10:number",
+      "math-2023-grade4-part3:lesson-103:m10:problem",
+      "math-2023-grade4-part3:lesson-103:m10:prompt",
+      "math-2023-grade4-part3:lesson-103:orientation",
+      "math-2023-grade4-part3:lesson-103:orientation:badge",
+      "math-2023-grade4-part3:lesson-103:orientation:objective",
+      "math-2023-grade4-part3:p078",
+      "math-2023-grade4-part3:p079",
+      "math-2023-grade4-part3:p080"
+    ],
+    "equivalent_object_ids": [
+      "math-2023-grade4-part3:lesson-103:closing",
+      "math-2023-grade4-part3:lesson-103:header",
+      "math-2023-grade4-part3:lesson-103:header:number",
+      "math-2023-grade4-part3:lesson-103:header:theme",
+      "math-2023-grade4-part3:lesson-103:header:title",
+      "math-2023-grade4-part3:lesson-103:m01",
+      "math-2023-grade4-part3:lesson-103:m01:choice-1",
+      "math-2023-grade4-part3:lesson-103:m01:choice-2",
+      "math-2023-grade4-part3:lesson-103:m01:choice-3",
+      "math-2023-grade4-part3:lesson-103:m01:choice-4",
+      "math-2023-grade4-part3:lesson-103:m01:number",
+      "math-2023-grade4-part3:lesson-103:m01:problem",
+      "math-2023-grade4-part3:lesson-103:m01:prompt",
+      "math-2023-grade4-part3:lesson-103:m02",
+      "math-2023-grade4-part3:lesson-103:m02:badge",
+      "math-2023-grade4-part3:lesson-103:m02:number",
+      "math-2023-grade4-part3:lesson-103:m02:problem",
+      "math-2023-grade4-part3:lesson-103:m02:prompt",
+      "math-2023-grade4-part3:lesson-103:m03",
+      "math-2023-grade4-part3:lesson-103:m03:badge",
+      "math-2023-grade4-part3:lesson-103:m03:number",
+      "math-2023-grade4-part3:lesson-103:m03:prompt",
+      "math-2023-grade4-part3:lesson-103:m04",
+      "math-2023-grade4-part3:lesson-103:m04:badge",
+      "math-2023-grade4-part3:lesson-103:m04:number",
+      "math-2023-grade4-part3:lesson-103:m04:problem",
+      "math-2023-grade4-part3:lesson-103:m04:prompt",
+      "math-2023-grade4-part3:lesson-103:m05",
+      "math-2023-grade4-part3:lesson-103:m05:division-table",
+      "math-2023-grade4-part3:lesson-103:m05:division-table:table",
+      "math-2023-grade4-part3:lesson-103:m05:division-table:table:r1c1",
+      "math-2023-grade4-part3:lesson-103:m05:division-table:table:r1c2",
+      "math-2023-grade4-part3:lesson-103:m05:division-table:table:r1c3",
+      "math-2023-grade4-part3:lesson-103:m05:division-table:table:r1c4",
+      "math-2023-grade4-part3:lesson-103:m05:division-table:table:r2c1",
+      "math-2023-grade4-part3:lesson-103:m05:division-table:table:r2c2",
+      "math-2023-grade4-part3:lesson-103:m05:division-table:table:r2c3",
+      "math-2023-grade4-part3:lesson-103:m05:division-table:table:r2c4",
+      "math-2023-grade4-part3:lesson-103:m05:multiplication-table",
+      "math-2023-grade4-part3:lesson-103:m05:multiplication-table:table",
+      "math-2023-grade4-part3:lesson-103:m05:multiplication-table:table:r1c1",
+      "math-2023-grade4-part3:lesson-103:m05:multiplication-table:table:r1c2",
+      "math-2023-grade4-part3:lesson-103:m05:multiplication-table:table:r1c3",
+      "math-2023-grade4-part3:lesson-103:m05:multiplication-table:table:r1c4",
+      "math-2023-grade4-part3:lesson-103:m05:multiplication-table:table:r2c1",
+      "math-2023-grade4-part3:lesson-103:m05:multiplication-table:table:r2c2",
+      "math-2023-grade4-part3:lesson-103:m05:multiplication-table:table:r2c3",
+      "math-2023-grade4-part3:lesson-103:m05:multiplication-table:table:r2c4",
+      "math-2023-grade4-part3:lesson-103:m05:number",
+      "math-2023-grade4-part3:lesson-103:m05:prompt",
+      "math-2023-grade4-part3:lesson-103:m06",
+      "math-2023-grade4-part3:lesson-103:m06:badge",
+      "math-2023-grade4-part3:lesson-103:m06:diagonal-header",
+      "math-2023-grade4-part3:lesson-103:m06:number",
+      "math-2023-grade4-part3:lesson-103:m06:prompt",
+      "math-2023-grade4-part3:lesson-103:m06:question",
+      "math-2023-grade4-part3:lesson-103:m06:table",
+      "math-2023-grade4-part3:lesson-103:m06:table:r1c1",
+      "math-2023-grade4-part3:lesson-103:m06:table:r1c2",
+      "math-2023-grade4-part3:lesson-103:m06:table:r1c3",
+      "math-2023-grade4-part3:lesson-103:m06:table:r1c4",
+      "math-2023-grade4-part3:lesson-103:m06:table:r1c5",
+      "math-2023-grade4-part3:lesson-103:m06:table:r2c1",
+      "math-2023-grade4-part3:lesson-103:m06:table:r2c2",
+      "math-2023-grade4-part3:lesson-103:m06:table:r2c3",
+      "math-2023-grade4-part3:lesson-103:m06:table:r2c4",
+      "math-2023-grade4-part3:lesson-103:m06:table:r2c5",
+      "math-2023-grade4-part3:lesson-103:m06:table:r3c1",
+      "math-2023-grade4-part3:lesson-103:m06:table:r3c2",
+      "math-2023-grade4-part3:lesson-103:m06:table:r3c3",
+      "math-2023-grade4-part3:lesson-103:m06:table:r3c4",
+      "math-2023-grade4-part3:lesson-103:m06:table:r3c5",
+      "math-2023-grade4-part3:lesson-103:m06:table:r4c1",
+      "math-2023-grade4-part3:lesson-103:m06:table:r4c2",
+      "math-2023-grade4-part3:lesson-103:m06:table:r4c3",
+      "math-2023-grade4-part3:lesson-103:m06:table:r4c4",
+      "math-2023-grade4-part3:lesson-103:m06:table:r4c5",
+      "math-2023-grade4-part3:lesson-103:m07",
+      "math-2023-grade4-part3:lesson-103:m07:badge",
+      "math-2023-grade4-part3:lesson-103:m07:number",
+      "math-2023-grade4-part3:lesson-103:m07:problem",
+      "math-2023-grade4-part3:lesson-103:m07:prompt",
+      "math-2023-grade4-part3:lesson-103:m08",
+      "math-2023-grade4-part3:lesson-103:m08:badge",
+      "math-2023-grade4-part3:lesson-103:m08:number",
+      "math-2023-grade4-part3:lesson-103:m08:problem",
+      "math-2023-grade4-part3:lesson-103:m08:prompt",
+      "math-2023-grade4-part3:lesson-103:m09",
+      "math-2023-grade4-part3:lesson-103:m09:badge",
+      "math-2023-grade4-part3:lesson-103:m09:number",
+      "math-2023-grade4-part3:lesson-103:m09:problem",
+      "math-2023-grade4-part3:lesson-103:m09:prompt",
+      "math-2023-grade4-part3:lesson-103:m10",
+      "math-2023-grade4-part3:lesson-103:m10:badge",
+      "math-2023-grade4-part3:lesson-103:m10:number",
+      "math-2023-grade4-part3:lesson-103:m10:problem",
+      "math-2023-grade4-part3:lesson-103:m10:prompt",
+      "math-2023-grade4-part3:lesson-103:orientation",
+      "math-2023-grade4-part3:lesson-103:orientation:badge",
+      "math-2023-grade4-part3:lesson-103:orientation:objective",
+      "math-2023-grade4-part3:p078",
+      "math-2023-grade4-part3:p079",
+      "math-2023-grade4-part3:p080"
+    ],
+    "addressed_record_ids": []
+  },
+  "redraw_validation": {
+    "baseline_content_sha256": "57a439e39f5884f21387c78d205567784f3e578f6b2ac20c606a854398123dfb",
+    "baseline_commit": "389c68b9a11759f9a4b1b74f2253b5be29fabf09",
+    "status": "verified_with_pending_sources",
+    "images": {
+      "math-2023-grade4-part3:lesson-103:m07:castle-height-comparison": {
+        "finding_zh": "重绘保留共同基线和左低、中、右高的比较关系。柱高只示意，不输出厘米。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-103:m08:compare-motion-graph": {
+        "finding_zh": "补图中虚线、A/B 标签和 M 之后的两线段。末端 3.5 小时按示意延伸，准确交点仍为 (3, 15)。",
+        "status": "source_recheck"
+      }
+    }
+  }
 }

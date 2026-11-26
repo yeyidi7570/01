@@ -1,5 +1,5 @@
 {
-  "data_version": "2026-11-26-initial-1",
+  "data_version": "2026-11-26-redraw-1",
   "review_status": "pending_review",
   "book": {
     "id": "math-2023-grade4-part3",
@@ -848,6 +848,12 @@
             ],
             "ocr_suggestion_ids": [
               "math-2023-grade4-part3:lesson-105:m03:fruit-cube-net:suggestion-1"
+            ],
+            "review_flags": [
+              {
+                "code": "redraw_source_uncertainty",
+                "description_kk": "Жеміс белгілерінің нақты айналу бағыты түпнұсқада тексеріледі."
+              }
             ]
           }
         ],
@@ -1275,7 +1281,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Көлденең ось t (сағ): 0, 1, 2, 3; тік ось S (км): 50, 100, 150, 200. Екі түзу де A(0,0)-ден шығады. Көк жеңіл мәшине сызығы (1,100) және (2,200) арқылы, күлгін жүк көлігі сызығы (1,60), (2,120), (3,180) арқылы өтеді. t=1 және t=2 тұстарында тігінен үзік көмекші сызықтар басылған.",
+              "description_kk": "Көлденең ось t (сағ): 0, 1, 2, 3; тік ось S (км): 50, 100, 150, 200. Екі түзу де A(0,0)-ден шығады. Көк жеңіл мәшине сызығы (1,100) және (2,200) арқылы, күлгін жүк көлігі сызығы (1,60), (2,120), (3,180) арқылы өтеді. t=1 және t=2 тұстарында тігінен үзік көмекші сызықтар басылған. Бастапқы графиктің сызықтары мен 120 км көмекші сызығы өзгертілмеді.",
               "relations": [
                 {
                   "kind": "coordinate_graph",
@@ -1326,6 +1332,42 @@
                   "dashed_x": [
                     1,
                     2
+                  ],
+                  "x_grid_step": 0.1,
+                  "y_grid_step": 10,
+                  "x_label": "t",
+                  "y_label": "S",
+                  "dashed_guides": [
+                    [
+                      [
+                        1,
+                        0
+                      ],
+                      [
+                        1,
+                        120
+                      ]
+                    ],
+                    [
+                      [
+                        2,
+                        120
+                      ],
+                      [
+                        2,
+                        200
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        120
+                      ],
+                      [
+                        2,
+                        120
+                      ]
+                    ]
                   ]
                 }
               ]
@@ -2604,6 +2646,42 @@
           "dashed_x": [
             1,
             2
+          ],
+          "x_grid_step": 0.1,
+          "y_grid_step": 10,
+          "x_label": "t",
+          "y_label": "S",
+          "dashed_guides": [
+            [
+              [
+                1,
+                0
+              ],
+              [
+                1,
+                120
+              ]
+            ],
+            [
+              [
+                2,
+                120
+              ],
+              [
+                2,
+                200
+              ]
+            ],
+            [
+              [
+                0,
+                120
+              ],
+              [
+                2,
+                120
+              ]
+            ]
           ]
         }
       ],
@@ -2775,6 +2853,42 @@
               "dashed_x": [
                 1,
                 2
+              ],
+              "x_grid_step": 0.1,
+              "y_grid_step": 10,
+              "x_label": "t",
+              "y_label": "S",
+              "dashed_guides": [
+                [
+                  [
+                    1,
+                    0
+                  ],
+                  [
+                    1,
+                    120
+                  ]
+                ],
+                [
+                  [
+                    2,
+                    120
+                  ],
+                  [
+                    2,
+                    200
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    120
+                  ],
+                  [
+                    2,
+                    120
+                  ]
+                ]
               ]
             }
           ]
@@ -2883,5 +2997,102 @@
         }
       ]
     }
-  ]
+  ],
+  "review_revision": {
+    "source_version": "2026-11-26-initial-1",
+    "source_object_ids": [
+      "math-2023-grade4-part3:lesson-105:closing",
+      "math-2023-grade4-part3:lesson-105:header",
+      "math-2023-grade4-part3:lesson-105:header:number",
+      "math-2023-grade4-part3:lesson-105:header:title",
+      "math-2023-grade4-part3:lesson-105:m01",
+      "math-2023-grade4-part3:lesson-105:m01:badge",
+      "math-2023-grade4-part3:lesson-105:m01:criterion",
+      "math-2023-grade4-part3:lesson-105:m01:number",
+      "math-2023-grade4-part3:lesson-105:m01:problem",
+      "math-2023-grade4-part3:lesson-105:m02",
+      "math-2023-grade4-part3:lesson-105:m02:badge",
+      "math-2023-grade4-part3:lesson-105:m02:criterion",
+      "math-2023-grade4-part3:lesson-105:m02:number",
+      "math-2023-grade4-part3:lesson-105:m02:problem",
+      "math-2023-grade4-part3:lesson-105:m02:prompt",
+      "math-2023-grade4-part3:lesson-105:m03",
+      "math-2023-grade4-part3:lesson-105:m03:badge",
+      "math-2023-grade4-part3:lesson-105:m03:criterion",
+      "math-2023-grade4-part3:lesson-105:m03:fruit-cube-net",
+      "math-2023-grade4-part3:lesson-105:m03:number",
+      "math-2023-grade4-part3:lesson-105:m03:problem",
+      "math-2023-grade4-part3:lesson-105:m04",
+      "math-2023-grade4-part3:lesson-105:m04:badge",
+      "math-2023-grade4-part3:lesson-105:m04:criterion",
+      "math-2023-grade4-part3:lesson-105:m04:number",
+      "math-2023-grade4-part3:lesson-105:m04:problem",
+      "math-2023-grade4-part3:lesson-105:m04:prompt",
+      "math-2023-grade4-part3:lesson-105:m05",
+      "math-2023-grade4-part3:lesson-105:m05:badge",
+      "math-2023-grade4-part3:lesson-105:m05:criterion",
+      "math-2023-grade4-part3:lesson-105:m05:motion-graph-for-correction",
+      "math-2023-grade4-part3:lesson-105:m05:number",
+      "math-2023-grade4-part3:lesson-105:m05:problem",
+      "math-2023-grade4-part3:lesson-105:m05:prompt",
+      "math-2023-grade4-part3:lesson-105:orientation",
+      "math-2023-grade4-part3:lesson-105:orientation:objective",
+      "math-2023-grade4-part3:p084",
+      "math-2023-grade4-part3:p085"
+    ],
+    "equivalent_object_ids": [
+      "math-2023-grade4-part3:lesson-105:closing",
+      "math-2023-grade4-part3:lesson-105:header",
+      "math-2023-grade4-part3:lesson-105:header:number",
+      "math-2023-grade4-part3:lesson-105:header:title",
+      "math-2023-grade4-part3:lesson-105:m01",
+      "math-2023-grade4-part3:lesson-105:m01:badge",
+      "math-2023-grade4-part3:lesson-105:m01:criterion",
+      "math-2023-grade4-part3:lesson-105:m01:number",
+      "math-2023-grade4-part3:lesson-105:m01:problem",
+      "math-2023-grade4-part3:lesson-105:m02",
+      "math-2023-grade4-part3:lesson-105:m02:badge",
+      "math-2023-grade4-part3:lesson-105:m02:criterion",
+      "math-2023-grade4-part3:lesson-105:m02:number",
+      "math-2023-grade4-part3:lesson-105:m02:problem",
+      "math-2023-grade4-part3:lesson-105:m02:prompt",
+      "math-2023-grade4-part3:lesson-105:m03",
+      "math-2023-grade4-part3:lesson-105:m03:badge",
+      "math-2023-grade4-part3:lesson-105:m03:criterion",
+      "math-2023-grade4-part3:lesson-105:m03:number",
+      "math-2023-grade4-part3:lesson-105:m03:problem",
+      "math-2023-grade4-part3:lesson-105:m04",
+      "math-2023-grade4-part3:lesson-105:m04:badge",
+      "math-2023-grade4-part3:lesson-105:m04:criterion",
+      "math-2023-grade4-part3:lesson-105:m04:number",
+      "math-2023-grade4-part3:lesson-105:m04:problem",
+      "math-2023-grade4-part3:lesson-105:m04:prompt",
+      "math-2023-grade4-part3:lesson-105:m05",
+      "math-2023-grade4-part3:lesson-105:m05:badge",
+      "math-2023-grade4-part3:lesson-105:m05:criterion",
+      "math-2023-grade4-part3:lesson-105:m05:number",
+      "math-2023-grade4-part3:lesson-105:m05:problem",
+      "math-2023-grade4-part3:lesson-105:m05:prompt",
+      "math-2023-grade4-part3:lesson-105:orientation",
+      "math-2023-grade4-part3:lesson-105:orientation:objective",
+      "math-2023-grade4-part3:p084",
+      "math-2023-grade4-part3:p085"
+    ],
+    "addressed_record_ids": []
+  },
+  "redraw_validation": {
+    "baseline_content_sha256": "0f98d13c6a1396198d18df2634eea5b0f2ca37b17b3782595575e71df6bda1b0",
+    "baseline_commit": "389c68b9a11759f9a4b1b74f2253b5be29fabf09",
+    "status": "verified_with_pending_sources",
+    "images": {
+      "math-2023-grade4-part3:lesson-105:m03:fruit-cube-net": {
+        "finding_zh": "原图中石榴果冠的转向对折叠选项有意义，旧结构只列已辨认的朝向，仍应对照水果图与立体面。",
+        "status": "source_recheck"
+      },
+      "math-2023-grade4-part3:lesson-105:m05:motion-graph-for-correction": {
+        "finding_zh": "保留蓝线与紫线原有差异，补 x=1、x=2 及 y=120 的虚线。原题要求找错，线段未按常识纠正。",
+        "status": "verified"
+      }
+    }
+  }
 }

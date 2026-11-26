@@ -1,5 +1,5 @@
 {
-  "data_version": "2026-11-26-initial-1",
+  "data_version": "2026-11-26-redraw-1",
   "review_status": "pending_review",
   "book": {
     "id": "math-2023-grade4-part3",
@@ -1240,7 +1240,7 @@
                   }
                 ],
                 "structured_description": {
-                  "description_kk": "Сызба төменнен жоғары оқылады. Төменгі үшбұрыштан бірінші барудың үш түйіні тарайды. Әр түйіннен екінші барудың екі түйіні, олардың әрқайсысынан үшінші барудың бір түйіні жоғары қарай шығады. Барлық 15 шеңбер бос.",
+                  "description_kk": "Сызба төменнен жоғары оқылады. Төменгі үшбұрыштан бірінші барудың үш түйіні тарайды. Әр түйіннен екінші барудың екі түйіні, олардың әрқайсысынан үшінші барудың бір түйіні жоғары қарай шығады. Барлық 15 шеңбер бос. Үшбұрыштан жоғары қарай 3, 6, 6 бос шеңбер; тармақтары 3, 2, 1.",
                   "relations": [
                     {
                       "kind": "enumeration_tree",
@@ -1259,7 +1259,289 @@
                       "node_shape": "circle",
                       "labels_blank": true
                     }
-                  ]
+                  ],
+                  "verification_drawing": {
+                    "width": 720,
+                    "height": 279,
+                    "items": [
+                      {
+                        "type": "polygon",
+                        "xy": [
+                          [
+                            402,
+                            218
+                          ],
+                          [
+                            448,
+                            218
+                          ],
+                          [
+                            425,
+                            259
+                          ]
+                        ],
+                        "fill": "#e9ba9b"
+                      },
+                      {
+                        "type": "text",
+                        "x": 65,
+                        "y": 182,
+                        "s": "1-бару"
+                      },
+                      {
+                        "type": "text",
+                        "x": 65,
+                        "y": 111,
+                        "s": "2-бару"
+                      },
+                      {
+                        "type": "text",
+                        "x": 65,
+                        "y": 42,
+                        "s": "3-бару"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 425,
+                        "y1": 218,
+                        "x2": 220,
+                        "y2": 177,
+                        "color": "#b88267"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 220,
+                        "y1": 177,
+                        "x2": 175,
+                        "y2": 106,
+                        "color": "#b88267"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 175,
+                        "y1": 106,
+                        "x2": 175,
+                        "y2": 37,
+                        "color": "#b88267"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 175,
+                        "y": 106,
+                        "r": 21,
+                        "fill": "#cfdfa3",
+                        "color": "#93a46d"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 175,
+                        "y": 37,
+                        "r": 21,
+                        "fill": "#cfdfa3",
+                        "color": "#93a46d"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 220,
+                        "y1": 177,
+                        "x2": 265,
+                        "y2": 106,
+                        "color": "#b88267"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 265,
+                        "y1": 106,
+                        "x2": 265,
+                        "y2": 37,
+                        "color": "#b88267"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 265,
+                        "y": 106,
+                        "r": 21,
+                        "fill": "#cfdfa3",
+                        "color": "#93a46d"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 265,
+                        "y": 37,
+                        "r": 21,
+                        "fill": "#cfdfa3",
+                        "color": "#93a46d"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 220,
+                        "y": 177,
+                        "r": 21,
+                        "fill": "#cfdfa3",
+                        "color": "#93a46d"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 425,
+                        "y1": 218,
+                        "x2": 425,
+                        "y2": 177,
+                        "color": "#b88267"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 425,
+                        "y1": 177,
+                        "x2": 380,
+                        "y2": 106,
+                        "color": "#b88267"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 380,
+                        "y1": 106,
+                        "x2": 380,
+                        "y2": 37,
+                        "color": "#b88267"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 380,
+                        "y": 106,
+                        "r": 21,
+                        "fill": "#cfdfa3",
+                        "color": "#93a46d"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 380,
+                        "y": 37,
+                        "r": 21,
+                        "fill": "#cfdfa3",
+                        "color": "#93a46d"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 425,
+                        "y1": 177,
+                        "x2": 470,
+                        "y2": 106,
+                        "color": "#b88267"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 470,
+                        "y1": 106,
+                        "x2": 470,
+                        "y2": 37,
+                        "color": "#b88267"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 470,
+                        "y": 106,
+                        "r": 21,
+                        "fill": "#cfdfa3",
+                        "color": "#93a46d"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 470,
+                        "y": 37,
+                        "r": 21,
+                        "fill": "#cfdfa3",
+                        "color": "#93a46d"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 425,
+                        "y": 177,
+                        "r": 21,
+                        "fill": "#cfdfa3",
+                        "color": "#93a46d"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 425,
+                        "y1": 218,
+                        "x2": 630,
+                        "y2": 177,
+                        "color": "#b88267"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 630,
+                        "y1": 177,
+                        "x2": 585,
+                        "y2": 106,
+                        "color": "#b88267"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 585,
+                        "y1": 106,
+                        "x2": 585,
+                        "y2": 37,
+                        "color": "#b88267"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 585,
+                        "y": 106,
+                        "r": 21,
+                        "fill": "#cfdfa3",
+                        "color": "#93a46d"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 585,
+                        "y": 37,
+                        "r": 21,
+                        "fill": "#cfdfa3",
+                        "color": "#93a46d"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 630,
+                        "y1": 177,
+                        "x2": 675,
+                        "y2": 106,
+                        "color": "#b88267"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 675,
+                        "y1": 106,
+                        "x2": 675,
+                        "y2": 37,
+                        "color": "#b88267"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 675,
+                        "y": 106,
+                        "r": 21,
+                        "fill": "#cfdfa3",
+                        "color": "#93a46d"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 675,
+                        "y": 37,
+                        "r": 21,
+                        "fill": "#cfdfa3",
+                        "color": "#93a46d"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 630,
+                        "y": 177,
+                        "r": 21,
+                        "fill": "#cfdfa3",
+                        "color": "#93a46d"
+                      }
+                    ]
+                  }
                 },
                 "crop_asset_id": "math-2023-grade4-part3:lesson-100:m04:sub-А:visit-tree:crop",
                 "ocr_evidence": [
@@ -5844,5 +6126,201 @@
         }
       ]
     }
-  ]
+  ],
+  "review_revision": {
+    "source_version": "2026-11-26-initial-1",
+    "source_object_ids": [
+      "math-2023-grade4-part3:lesson-100:closing",
+      "math-2023-grade4-part3:lesson-100:header",
+      "math-2023-grade4-part3:lesson-100:header:number",
+      "math-2023-grade4-part3:lesson-100:header:theme",
+      "math-2023-grade4-part3:lesson-100:header:title",
+      "math-2023-grade4-part3:lesson-100:link:enumeration-m02",
+      "math-2023-grade4-part3:lesson-100:link:enumeration-m03",
+      "math-2023-grade4-part3:lesson-100:link:enumeration-m04",
+      "math-2023-grade4-part3:lesson-100:link:enumeration-m05",
+      "math-2023-grade4-part3:lesson-100:link:enumeration-m09",
+      "math-2023-grade4-part3:lesson-100:m01",
+      "math-2023-grade4-part3:lesson-100:m01:context",
+      "math-2023-grade4-part3:lesson-100:m01:number",
+      "math-2023-grade4-part3:lesson-100:m01:prompt",
+      "math-2023-grade4-part3:lesson-100:m02",
+      "math-2023-grade4-part3:lesson-100:m02:number",
+      "math-2023-grade4-part3:lesson-100:m02:prompt",
+      "math-2023-grade4-part3:lesson-100:m02:sub-А",
+      "math-2023-grade4-part3:lesson-100:m02:sub-А:body",
+      "math-2023-grade4-part3:lesson-100:m02:sub-А:number",
+      "math-2023-grade4-part3:lesson-100:m02:sub-Ә",
+      "math-2023-grade4-part3:lesson-100:m02:sub-Ә:body",
+      "math-2023-grade4-part3:lesson-100:m02:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-100:m03",
+      "math-2023-grade4-part3:lesson-100:m03:number",
+      "math-2023-grade4-part3:lesson-100:m03:problem",
+      "math-2023-grade4-part3:lesson-100:m03:prompt",
+      "math-2023-grade4-part3:lesson-100:m04",
+      "math-2023-grade4-part3:lesson-100:m04:sub-А",
+      "math-2023-grade4-part3:lesson-100:m04:sub-А:badge",
+      "math-2023-grade4-part3:lesson-100:m04:sub-А:number",
+      "math-2023-grade4-part3:lesson-100:m04:sub-А:problem",
+      "math-2023-grade4-part3:lesson-100:m04:sub-А:prompt",
+      "math-2023-grade4-part3:lesson-100:m04:sub-А:visit-tree",
+      "math-2023-grade4-part3:lesson-100:m04:sub-Ә",
+      "math-2023-grade4-part3:lesson-100:m04:sub-Ә:badge",
+      "math-2023-grade4-part3:lesson-100:m04:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-100:m04:sub-Ә:prompt",
+      "math-2023-grade4-part3:lesson-100:m05",
+      "math-2023-grade4-part3:lesson-100:m05:number",
+      "math-2023-grade4-part3:lesson-100:m05:problem",
+      "math-2023-grade4-part3:lesson-100:m05:prompt",
+      "math-2023-grade4-part3:lesson-100:m06",
+      "math-2023-grade4-part3:lesson-100:m06:badge",
+      "math-2023-grade4-part3:lesson-100:m06:number",
+      "math-2023-grade4-part3:lesson-100:m06:prompt",
+      "math-2023-grade4-part3:lesson-100:m06:table",
+      "math-2023-grade4-part3:lesson-100:m06:table:r1c1",
+      "math-2023-grade4-part3:lesson-100:m06:table:r1c2",
+      "math-2023-grade4-part3:lesson-100:m06:table:r1c3",
+      "math-2023-grade4-part3:lesson-100:m06:table:r2c1",
+      "math-2023-grade4-part3:lesson-100:m06:table:r2c2",
+      "math-2023-grade4-part3:lesson-100:m06:table:r2c3",
+      "math-2023-grade4-part3:lesson-100:m06:table:r3c1",
+      "math-2023-grade4-part3:lesson-100:m06:table:r3c2",
+      "math-2023-grade4-part3:lesson-100:m06:table:r3c3",
+      "math-2023-grade4-part3:lesson-100:m06:table:r4c1",
+      "math-2023-grade4-part3:lesson-100:m06:table:r4c2",
+      "math-2023-grade4-part3:lesson-100:m06:table:r4c3",
+      "math-2023-grade4-part3:lesson-100:m07",
+      "math-2023-grade4-part3:lesson-100:m07:badge",
+      "math-2023-grade4-part3:lesson-100:m07:expression-19",
+      "math-2023-grade4-part3:lesson-100:m07:expression-20",
+      "math-2023-grade4-part3:lesson-100:m07:expression-21",
+      "math-2023-grade4-part3:lesson-100:m07:expression-22",
+      "math-2023-grade4-part3:lesson-100:m07:expression-23",
+      "math-2023-grade4-part3:lesson-100:m07:expression-24",
+      "math-2023-grade4-part3:lesson-100:m07:number",
+      "math-2023-grade4-part3:lesson-100:m07:prompt",
+      "math-2023-grade4-part3:lesson-100:m08",
+      "math-2023-grade4-part3:lesson-100:m08:badge",
+      "math-2023-grade4-part3:lesson-100:m08:number",
+      "math-2023-grade4-part3:lesson-100:m08:problem",
+      "math-2023-grade4-part3:lesson-100:m08:prompt",
+      "math-2023-grade4-part3:lesson-100:m09",
+      "math-2023-grade4-part3:lesson-100:m09:badge",
+      "math-2023-grade4-part3:lesson-100:m09:number",
+      "math-2023-grade4-part3:lesson-100:m09:problem",
+      "math-2023-grade4-part3:lesson-100:m09:prompt",
+      "math-2023-grade4-part3:lesson-100:note-enumeration",
+      "math-2023-grade4-part3:lesson-100:note-enumeration:badge",
+      "math-2023-grade4-part3:lesson-100:note-enumeration:definition",
+      "math-2023-grade4-part3:lesson-100:note-enumeration:method",
+      "math-2023-grade4-part3:lesson-100:orientation",
+      "math-2023-grade4-part3:lesson-100:orientation:badge",
+      "math-2023-grade4-part3:lesson-100:orientation:objective",
+      "math-2023-grade4-part3:p069",
+      "math-2023-grade4-part3:p070",
+      "math-2023-grade4-part3:p071"
+    ],
+    "equivalent_object_ids": [
+      "math-2023-grade4-part3:lesson-100:closing",
+      "math-2023-grade4-part3:lesson-100:header",
+      "math-2023-grade4-part3:lesson-100:header:number",
+      "math-2023-grade4-part3:lesson-100:header:theme",
+      "math-2023-grade4-part3:lesson-100:header:title",
+      "math-2023-grade4-part3:lesson-100:link:enumeration-m02",
+      "math-2023-grade4-part3:lesson-100:link:enumeration-m03",
+      "math-2023-grade4-part3:lesson-100:link:enumeration-m04",
+      "math-2023-grade4-part3:lesson-100:link:enumeration-m05",
+      "math-2023-grade4-part3:lesson-100:link:enumeration-m09",
+      "math-2023-grade4-part3:lesson-100:m01",
+      "math-2023-grade4-part3:lesson-100:m01:context",
+      "math-2023-grade4-part3:lesson-100:m01:number",
+      "math-2023-grade4-part3:lesson-100:m01:prompt",
+      "math-2023-grade4-part3:lesson-100:m02",
+      "math-2023-grade4-part3:lesson-100:m02:number",
+      "math-2023-grade4-part3:lesson-100:m02:prompt",
+      "math-2023-grade4-part3:lesson-100:m02:sub-А",
+      "math-2023-grade4-part3:lesson-100:m02:sub-А:body",
+      "math-2023-grade4-part3:lesson-100:m02:sub-А:number",
+      "math-2023-grade4-part3:lesson-100:m02:sub-Ә",
+      "math-2023-grade4-part3:lesson-100:m02:sub-Ә:body",
+      "math-2023-grade4-part3:lesson-100:m02:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-100:m03",
+      "math-2023-grade4-part3:lesson-100:m03:number",
+      "math-2023-grade4-part3:lesson-100:m03:problem",
+      "math-2023-grade4-part3:lesson-100:m03:prompt",
+      "math-2023-grade4-part3:lesson-100:m04",
+      "math-2023-grade4-part3:lesson-100:m04:sub-А",
+      "math-2023-grade4-part3:lesson-100:m04:sub-А:badge",
+      "math-2023-grade4-part3:lesson-100:m04:sub-А:number",
+      "math-2023-grade4-part3:lesson-100:m04:sub-А:problem",
+      "math-2023-grade4-part3:lesson-100:m04:sub-А:prompt",
+      "math-2023-grade4-part3:lesson-100:m04:sub-Ә",
+      "math-2023-grade4-part3:lesson-100:m04:sub-Ә:badge",
+      "math-2023-grade4-part3:lesson-100:m04:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-100:m04:sub-Ә:prompt",
+      "math-2023-grade4-part3:lesson-100:m05",
+      "math-2023-grade4-part3:lesson-100:m05:number",
+      "math-2023-grade4-part3:lesson-100:m05:problem",
+      "math-2023-grade4-part3:lesson-100:m05:prompt",
+      "math-2023-grade4-part3:lesson-100:m06",
+      "math-2023-grade4-part3:lesson-100:m06:badge",
+      "math-2023-grade4-part3:lesson-100:m06:number",
+      "math-2023-grade4-part3:lesson-100:m06:prompt",
+      "math-2023-grade4-part3:lesson-100:m06:table",
+      "math-2023-grade4-part3:lesson-100:m06:table:r1c1",
+      "math-2023-grade4-part3:lesson-100:m06:table:r1c2",
+      "math-2023-grade4-part3:lesson-100:m06:table:r1c3",
+      "math-2023-grade4-part3:lesson-100:m06:table:r2c1",
+      "math-2023-grade4-part3:lesson-100:m06:table:r2c2",
+      "math-2023-grade4-part3:lesson-100:m06:table:r2c3",
+      "math-2023-grade4-part3:lesson-100:m06:table:r3c1",
+      "math-2023-grade4-part3:lesson-100:m06:table:r3c2",
+      "math-2023-grade4-part3:lesson-100:m06:table:r3c3",
+      "math-2023-grade4-part3:lesson-100:m06:table:r4c1",
+      "math-2023-grade4-part3:lesson-100:m06:table:r4c2",
+      "math-2023-grade4-part3:lesson-100:m06:table:r4c3",
+      "math-2023-grade4-part3:lesson-100:m07",
+      "math-2023-grade4-part3:lesson-100:m07:badge",
+      "math-2023-grade4-part3:lesson-100:m07:expression-19",
+      "math-2023-grade4-part3:lesson-100:m07:expression-20",
+      "math-2023-grade4-part3:lesson-100:m07:expression-21",
+      "math-2023-grade4-part3:lesson-100:m07:expression-22",
+      "math-2023-grade4-part3:lesson-100:m07:expression-23",
+      "math-2023-grade4-part3:lesson-100:m07:expression-24",
+      "math-2023-grade4-part3:lesson-100:m07:number",
+      "math-2023-grade4-part3:lesson-100:m07:prompt",
+      "math-2023-grade4-part3:lesson-100:m08",
+      "math-2023-grade4-part3:lesson-100:m08:badge",
+      "math-2023-grade4-part3:lesson-100:m08:number",
+      "math-2023-grade4-part3:lesson-100:m08:problem",
+      "math-2023-grade4-part3:lesson-100:m08:prompt",
+      "math-2023-grade4-part3:lesson-100:m09",
+      "math-2023-grade4-part3:lesson-100:m09:badge",
+      "math-2023-grade4-part3:lesson-100:m09:number",
+      "math-2023-grade4-part3:lesson-100:m09:problem",
+      "math-2023-grade4-part3:lesson-100:m09:prompt",
+      "math-2023-grade4-part3:lesson-100:note-enumeration",
+      "math-2023-grade4-part3:lesson-100:note-enumeration:badge",
+      "math-2023-grade4-part3:lesson-100:note-enumeration:definition",
+      "math-2023-grade4-part3:lesson-100:note-enumeration:method",
+      "math-2023-grade4-part3:lesson-100:orientation",
+      "math-2023-grade4-part3:lesson-100:orientation:badge",
+      "math-2023-grade4-part3:lesson-100:orientation:objective",
+      "math-2023-grade4-part3:p069",
+      "math-2023-grade4-part3:p070",
+      "math-2023-grade4-part3:p071"
+    ],
+    "addressed_record_ids": []
+  },
+  "redraw_validation": {
+    "baseline_content_sha256": "03c59fed3df3dbb3fa35e063d75e5d4c7fa271b90ba2c376e43c210a14e7ce57",
+    "baseline_commit": "389c68b9a11759f9a4b1b74f2253b5be29fabf09",
+    "status": "verified",
+    "images": {
+      "math-2023-grade4-part3:lesson-100:m04:sub-А:visit-tree": {
+        "finding_zh": "从底部三角根节点向上为 3、6、6 个空圆，下两层分支 3、2、1。",
+        "status": "verified"
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "data_version": "2026-11-26-initial-1",
+  "data_version": "2026-11-26-redraw-1",
   "review_status": "pending_review",
   "book": {
     "id": "math-2023-grade4-part3",
@@ -780,7 +780,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Үш нөмірлі кезең: түзу жолақ; жолақтан жасалған бос түйін; тартылған бесбұрышты түйінде жұлдыз сызықтары үзік сызықтармен көрсетілген.",
+              "description_kk": "Үш нөмірлі кезең: түзу жолақ; жолақтан жасалған бос түйін; тартылған бесбұрышты түйінде жұлдыз сызықтары үзік сызықтармен көрсетілген. Үш қадамның реті сақталды.",
               "relations": [
                 {
                   "kind": "numbered_procedure",
@@ -790,7 +790,179 @@
                     "tightened_pentagon_with_dashed_star"
                   ]
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 700,
+                "height": 210,
+                "items": [
+                  {
+                    "type": "rect",
+                    "x": 39,
+                    "y": 70,
+                    "w": 146,
+                    "h": 18,
+                    "fill": "green"
+                  },
+                  {
+                    "type": "polygon",
+                    "xy": [
+                      [
+                        249,
+                        138
+                      ],
+                      [
+                        320,
+                        64
+                      ],
+                      [
+                        369,
+                        122
+                      ],
+                      [
+                        361,
+                        137
+                      ],
+                      [
+                        319,
+                        84
+                      ],
+                      [
+                        259,
+                        152
+                      ]
+                    ],
+                    "fill": "green"
+                  },
+                  {
+                    "type": "polygon",
+                    "xy": [
+                      [
+                        491,
+                        82
+                      ],
+                      [
+                        535,
+                        52
+                      ],
+                      [
+                        588,
+                        77
+                      ],
+                      [
+                        569,
+                        128
+                      ],
+                      [
+                        511,
+                        128
+                      ]
+                    ],
+                    "fill": "#accd65"
+                  },
+                  {
+                    "type": "polygon",
+                    "xy": [
+                      [
+                        491,
+                        82
+                      ],
+                      [
+                        459,
+                        110
+                      ],
+                      [
+                        475,
+                        163
+                      ],
+                      [
+                        511,
+                        128
+                      ]
+                    ],
+                    "fill": "#98be53"
+                  },
+                  {
+                    "type": "polygon",
+                    "xy": [
+                      [
+                        588,
+                        77
+                      ],
+                      [
+                        624,
+                        103
+                      ],
+                      [
+                        622,
+                        149
+                      ],
+                      [
+                        569,
+                        128
+                      ]
+                    ],
+                    "fill": "#98be53"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 491,
+                    "y1": 82,
+                    "x2": 588,
+                    "y2": 77,
+                    "dash": "5 4"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 535,
+                    "y1": 52,
+                    "x2": 569,
+                    "y2": 128,
+                    "dash": "5 4"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 588,
+                    "y1": 77,
+                    "x2": 511,
+                    "y2": 128,
+                    "dash": "5 4"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 569,
+                    "y1": 128,
+                    "x2": 491,
+                    "y2": 82,
+                    "dash": "5 4"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 511,
+                    "y1": 128,
+                    "x2": 535,
+                    "y2": 52,
+                    "dash": "5 4"
+                  },
+                  {
+                    "type": "text",
+                    "x": 110,
+                    "y": 198,
+                    "s": 1
+                  },
+                  {
+                    "type": "text",
+                    "x": 309,
+                    "y": 198,
+                    "s": 2
+                  },
+                  {
+                    "type": "text",
+                    "x": 548,
+                    "y": 198,
+                    "s": 3
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-099:m02:strip-steps:crop",
             "ocr_evidence": [
@@ -815,6 +987,12 @@
             ],
             "ocr_suggestion_ids": [
               "math-2023-grade4-part3:lesson-099:m02:strip-steps:suggestion-1"
+            ],
+            "review_flags": [
+              {
+                "code": "redraw_source_uncertainty",
+                "description_kk": "Қатпарлардың берілуі түпнұсқа суреті арқылы тексеріледі."
+              }
             ]
           }
         ],
@@ -1142,14 +1320,80 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Дөңес бесбұрыштың барлық бес диагоналі жүргізілген. Олар ішкі жұлдызды құрайды.",
+              "description_kk": "Дөңес бесбұрыштың барлық бес диагоналі жүргізілген. Олар ішкі жұлдызды құрайды. Бес төбе және бес диагональ сақталды.",
               "relations": [
                 {
                   "kind": "polygon_diagonals",
                   "sides": 5,
                   "all_diagonals": true
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 350,
+                "height": 290,
+                "items": [
+                  {
+                    "type": "polygon",
+                    "xy": [
+                      [
+                        175.0,
+                        24.0
+                      ],
+                      [
+                        284.37149937394264,
+                        103.46304564688106
+                      ],
+                      [
+                        242.5953040136344,
+                        232.03695435311897
+                      ],
+                      [
+                        107.4046959863656,
+                        232.03695435311897
+                      ],
+                      [
+                        65.62850062605733,
+                        103.46304564688106
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "line",
+                    "x1": 175.0,
+                    "y1": 24.0,
+                    "x2": 242.5953040136344,
+                    "y2": 232.03695435311897
+                  },
+                  {
+                    "type": "line",
+                    "x1": 284.37149937394264,
+                    "y1": 103.46304564688106,
+                    "x2": 107.4046959863656,
+                    "y2": 232.03695435311897
+                  },
+                  {
+                    "type": "line",
+                    "x1": 242.5953040136344,
+                    "y1": 232.03695435311897,
+                    "x2": 65.62850062605733,
+                    "y2": 103.46304564688106
+                  },
+                  {
+                    "type": "line",
+                    "x1": 107.4046959863656,
+                    "y1": 232.03695435311897,
+                    "x2": 175.0,
+                    "y2": 24.0
+                  },
+                  {
+                    "type": "line",
+                    "x1": 65.62850062605733,
+                    "y1": 103.46304564688106,
+                    "x2": 284.37149937394264,
+                    "y2": 103.46304564688106
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-099:m03:pentagon-star:crop"
           }
@@ -1304,14 +1548,14 @@
                 "bbox": [
                   646,
                   178,
-                  833,
+                  860,
                   315
                 ],
                 "scan_asset_id": "math-2023-grade4-part3:p067:scan"
               }
             ],
             "structured_description": {
-              "description_kk": "Ортаңғы қатарда бес шаршы; үшінші шаршының үстінде және астында бір-бірден шаршы.",
+              "description_kk": "Ортаңғы қатарда бес шаршы; үшінші шаршының үстінде және астында бір-бірден шаршы. Көлденең бес ұяшық, ортасында үсті мен астында бір-бір ұяшық.",
               "relations": [
                 {
                   "kind": "grid_cells",
@@ -1321,7 +1565,76 @@
                     "..x.."
                   ]
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 400,
+                "height": 247,
+                "items": [
+                  {
+                    "type": "rect",
+                    "x": 156,
+                    "y": 22,
+                    "w": 64,
+                    "h": 64,
+                    "fill": null,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 28,
+                    "y": 86,
+                    "w": 64,
+                    "h": 64,
+                    "fill": null,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 92,
+                    "y": 86,
+                    "w": 64,
+                    "h": 64,
+                    "fill": null,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 156,
+                    "y": 86,
+                    "w": 64,
+                    "h": 64,
+                    "fill": null,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 220,
+                    "y": 86,
+                    "w": 64,
+                    "h": 64,
+                    "fill": null,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 284,
+                    "y": 86,
+                    "w": 64,
+                    "h": 64,
+                    "fill": null,
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 156,
+                    "y": 150,
+                    "w": 64,
+                    "h": 64,
+                    "fill": null,
+                    "color": "#284d77"
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-099:m04:seven-square-cross:crop"
           }
@@ -1878,7 +2191,13 @@
                     }
                   ]
                 },
-                "crop_asset_id": "math-2023-grade4-part3:lesson-099:m06:sub-А:measurement-picture:crop"
+                "crop_asset_id": "math-2023-grade4-part3:lesson-099:m06:sub-А:measurement-picture:crop",
+                "review_flags": [
+                  {
+                    "code": "redraw_source_uncertainty",
+                    "description_kk": "Өлшемді түпнұсқа баспа суреті бойынша тексеру керек."
+                  }
+                ]
               }
             ],
             "content_order": [
@@ -2049,6 +2368,12 @@
                 ],
                 "ocr_suggestion_ids": [
                   "math-2023-grade4-part3:lesson-099:m06:sub-Ә:measurement-picture:suggestion-1"
+                ],
+                "review_flags": [
+                  {
+                    "code": "redraw_source_uncertainty",
+                    "description_kk": "Өлшемді түпнұсқа баспа суреті бойынша тексеру керек."
+                  }
                 ]
               }
             ],
@@ -2198,6 +2523,12 @@
                 ],
                 "ocr_suggestion_ids": [
                   "math-2023-grade4-part3:lesson-099:m06:sub-Б:measurement-picture:suggestion-1"
+                ],
+                "review_flags": [
+                  {
+                    "code": "redraw_source_uncertainty",
+                    "description_kk": "Өлшемді түпнұсқа баспа суреті бойынша тексеру керек."
+                  }
                 ]
               }
             ],
@@ -2328,7 +2659,13 @@
                     }
                   ]
                 },
-                "crop_asset_id": "math-2023-grade4-part3:lesson-099:m06:sub-В:measurement-picture:crop"
+                "crop_asset_id": "math-2023-grade4-part3:lesson-099:m06:sub-В:measurement-picture:crop",
+                "review_flags": [
+                  {
+                    "code": "redraw_source_uncertainty",
+                    "description_kk": "Өлшемді түпнұсқа баспа суреті бойынша тексеру керек."
+                  }
+                ]
               }
             ],
             "content_order": [
@@ -2530,7 +2867,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Сол және оң жақта бірінің үстіне бірі қойылған екі шаршыдан бар. Ортақ көлденең қабырғалардың деңгейінде екі бағанды жалғайтын бір таяқша жатыр.",
+              "description_kk": "Сол және оң жақта бірінің үстіне бірі қойылған екі шаршыдан бар. Ортақ көлденең қабырғалардың деңгейінде екі бағанды жалғайтын бір таяқша жатыр. Екі жақта екі шаршы, ортасында бір көлденең таяқша.",
               "relations": [
                 {
                   "kind": "stick_layout",
@@ -2539,7 +2876,148 @@
                   "bridge": "horizontal_middle",
                   "total_sticks": 15
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 450,
+                "height": 250,
+                "items": [
+                  {
+                    "type": "line",
+                    "x1": 58,
+                    "y1": 45,
+                    "x2": 58,
+                    "y2": 111,
+                    "color": "#ba9e65",
+                    "width": 5
+                  },
+                  {
+                    "type": "line",
+                    "x1": 58,
+                    "y1": 117,
+                    "x2": 58,
+                    "y2": 183,
+                    "color": "#ba9e65",
+                    "width": 5
+                  },
+                  {
+                    "type": "line",
+                    "x1": 130,
+                    "y1": 45,
+                    "x2": 130,
+                    "y2": 111,
+                    "color": "#ba9e65",
+                    "width": 5
+                  },
+                  {
+                    "type": "line",
+                    "x1": 130,
+                    "y1": 117,
+                    "x2": 130,
+                    "y2": 183,
+                    "color": "#ba9e65",
+                    "width": 5
+                  },
+                  {
+                    "type": "line",
+                    "x1": 61,
+                    "y1": 42,
+                    "x2": 127,
+                    "y2": 42,
+                    "color": "#ba9e65",
+                    "width": 5
+                  },
+                  {
+                    "type": "line",
+                    "x1": 61,
+                    "y1": 114,
+                    "x2": 127,
+                    "y2": 114,
+                    "color": "#ba9e65",
+                    "width": 5
+                  },
+                  {
+                    "type": "line",
+                    "x1": 61,
+                    "y1": 186,
+                    "x2": 127,
+                    "y2": 186,
+                    "color": "#ba9e65",
+                    "width": 5
+                  },
+                  {
+                    "type": "line",
+                    "x1": 270,
+                    "y1": 45,
+                    "x2": 270,
+                    "y2": 111,
+                    "color": "#ba9e65",
+                    "width": 5
+                  },
+                  {
+                    "type": "line",
+                    "x1": 270,
+                    "y1": 117,
+                    "x2": 270,
+                    "y2": 183,
+                    "color": "#ba9e65",
+                    "width": 5
+                  },
+                  {
+                    "type": "line",
+                    "x1": 342,
+                    "y1": 45,
+                    "x2": 342,
+                    "y2": 111,
+                    "color": "#ba9e65",
+                    "width": 5
+                  },
+                  {
+                    "type": "line",
+                    "x1": 342,
+                    "y1": 117,
+                    "x2": 342,
+                    "y2": 183,
+                    "color": "#ba9e65",
+                    "width": 5
+                  },
+                  {
+                    "type": "line",
+                    "x1": 273,
+                    "y1": 42,
+                    "x2": 339,
+                    "y2": 42,
+                    "color": "#ba9e65",
+                    "width": 5
+                  },
+                  {
+                    "type": "line",
+                    "x1": 273,
+                    "y1": 114,
+                    "x2": 339,
+                    "y2": 114,
+                    "color": "#ba9e65",
+                    "width": 5
+                  },
+                  {
+                    "type": "line",
+                    "x1": 273,
+                    "y1": 186,
+                    "x2": 339,
+                    "y2": 186,
+                    "color": "#ba9e65",
+                    "width": 5
+                  },
+                  {
+                    "type": "line",
+                    "x1": 133,
+                    "y1": 114,
+                    "x2": 267,
+                    "y2": 114,
+                    "color": "#ba9e65",
+                    "width": 5
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-099:m07:starting-sticks:crop"
           }
@@ -2735,14 +3213,120 @@
                   }
                 ],
                 "structured_description": {
-                  "description_kk": "2×2 шаршы тордың әр ұяшығында екі диагональ жүргізілген.",
+                  "description_kk": "2×2 шаршы тордың әр ұяшығында екі диагональ жүргізілген. 2×2 тордың әр ұяшығында екі диагональ бар.",
                   "relations": [
                     {
                       "kind": "square_grid",
                       "size": 2,
                       "cell_diagonals": "both"
                     }
-                  ]
+                  ],
+                  "verification_drawing": {
+                    "width": 300,
+                    "height": 300,
+                    "items": [
+                      {
+                        "type": "rect",
+                        "x": 49,
+                        "y": 49,
+                        "w": 101,
+                        "h": 101,
+                        "fill": null,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 49,
+                        "y1": 49,
+                        "x2": 150,
+                        "y2": 150,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 150,
+                        "y1": 49,
+                        "x2": 49,
+                        "y2": 150,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "rect",
+                        "x": 150,
+                        "y": 49,
+                        "w": 101,
+                        "h": 101,
+                        "fill": null,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 150,
+                        "y1": 49,
+                        "x2": 251,
+                        "y2": 150,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 251,
+                        "y1": 49,
+                        "x2": 150,
+                        "y2": 150,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "rect",
+                        "x": 49,
+                        "y": 150,
+                        "w": 101,
+                        "h": 101,
+                        "fill": null,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 49,
+                        "y1": 150,
+                        "x2": 150,
+                        "y2": 251,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 150,
+                        "y1": 150,
+                        "x2": 49,
+                        "y2": 251,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "rect",
+                        "x": 150,
+                        "y": 150,
+                        "w": 101,
+                        "h": 101,
+                        "fill": null,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 150,
+                        "y1": 150,
+                        "x2": 251,
+                        "y2": 251,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 251,
+                        "y1": 150,
+                        "x2": 150,
+                        "y2": 251,
+                        "color": "#284d77"
+                      }
+                    ]
+                  }
                 },
                 "crop_asset_id": "math-2023-grade4-part3:lesson-099:m08:sub-А:square-diagram:crop"
               }
@@ -2821,16 +3405,101 @@
                   }
                 ],
                 "structured_description": {
-                  "description_kk": "45° бұрылған екі үлкен шаршы қабаттасқан. Сол жақ шаршыда ішкі көлбеу сызықтар бар.",
+                  "description_kk": "45° бұрылған екі үлкен шаршы қабаттасқан. Сол жақ шаршыда ішкі көлбеу сызықтар бар. Екі бұрылған шаршы және сол жақ ішкі сызықтар сақталды.",
                   "relations": [
                     {
                       "kind": "overlapping_squares",
                       "rotation_degrees": 45,
                       "internal_lines": "left_square"
                     }
-                  ]
+                  ],
+                  "verification_drawing": {
+                    "width": 575,
+                    "height": 347,
+                    "items": [
+                      {
+                        "type": "polygon",
+                        "xy": [
+                          [
+                            49,
+                            168
+                          ],
+                          [
+                            193,
+                            24
+                          ],
+                          [
+                            336,
+                            168
+                          ],
+                          [
+                            193,
+                            312
+                          ]
+                        ],
+                        "color": "#284d77",
+                        "width": 2
+                      },
+                      {
+                        "type": "polygon",
+                        "xy": [
+                          [
+                            240,
+                            168
+                          ],
+                          [
+                            384,
+                            24
+                          ],
+                          [
+                            528,
+                            168
+                          ],
+                          [
+                            384,
+                            312
+                          ]
+                        ],
+                        "color": "#284d77",
+                        "width": 2
+                      },
+                      {
+                        "type": "line",
+                        "x1": 96,
+                        "y1": 120,
+                        "x2": 240,
+                        "y2": 263,
+                        "color": "#284d77",
+                        "width": 2
+                      },
+                      {
+                        "type": "line",
+                        "x1": 96,
+                        "y1": 216,
+                        "x2": 240,
+                        "y2": 72,
+                        "color": "#284d77",
+                        "width": 2
+                      },
+                      {
+                        "type": "line",
+                        "x1": 192,
+                        "y1": 120,
+                        "x2": 288,
+                        "y2": 215,
+                        "color": "#284d77",
+                        "width": 2
+                      }
+                    ]
+                  }
                 },
-                "crop_asset_id": "math-2023-grade4-part3:lesson-099:m08:sub-Ә:square-diagram:crop"
+                "crop_asset_id": "math-2023-grade4-part3:lesson-099:m08:sub-Ә:square-diagram:crop",
+                "review_flags": [
+                  {
+                    "code": "redraw_source_uncertainty",
+                    "description_kk": "Қиылысу нүктелерінің дәл орналасуын түпнұсқа бойынша тексеріңіз."
+                  }
+                ]
               }
             ],
             "content_order": [
@@ -3010,6 +3679,12 @@
             ],
             "ocr_suggestion_ids": [
               "math-2023-grade4-part3:lesson-099:m09:kangaroo-cutouts:suggestion-1"
+            ],
+            "review_flags": [
+              {
+                "code": "redraw_source_uncertainty",
+                "description_kk": "Қиынды бөліктерінің барлық шекарасы деректе жоқ."
+              }
             ]
           }
         ],
@@ -3142,7 +3817,7 @@
       "bbox": [
         646,
         178,
-        833,
+        860,
         315
       ],
       "scan_asset_id": "math-2023-grade4-part3:p067:scan"
@@ -5524,5 +6199,239 @@
         }
       ]
     }
-  ]
+  ],
+  "review_revision": {
+    "source_version": "2026-11-26-initial-1",
+    "source_object_ids": [
+      "math-2023-grade4-part3:lesson-099:closing",
+      "math-2023-grade4-part3:lesson-099:header",
+      "math-2023-grade4-part3:lesson-099:header:number",
+      "math-2023-grade4-part3:lesson-099:header:theme",
+      "math-2023-grade4-part3:lesson-099:header:title",
+      "math-2023-grade4-part3:lesson-099:m01",
+      "math-2023-grade4-part3:lesson-099:m01:lightning",
+      "math-2023-grade4-part3:lesson-099:m01:lightning:expression",
+      "math-2023-grade4-part3:lesson-099:m01:lightning:label",
+      "math-2023-grade4-part3:lesson-099:m01:number",
+      "math-2023-grade4-part3:lesson-099:m01:prompt",
+      "math-2023-grade4-part3:lesson-099:m01:thunder",
+      "math-2023-grade4-part3:lesson-099:m01:thunder:expression",
+      "math-2023-grade4-part3:lesson-099:m01:thunder:label",
+      "math-2023-grade4-part3:lesson-099:m02",
+      "math-2023-grade4-part3:lesson-099:m02:badge",
+      "math-2023-grade4-part3:lesson-099:m02:instructions",
+      "math-2023-grade4-part3:lesson-099:m02:number",
+      "math-2023-grade4-part3:lesson-099:m02:prompt",
+      "math-2023-grade4-part3:lesson-099:m02:strip-steps",
+      "math-2023-grade4-part3:lesson-099:m03",
+      "math-2023-grade4-part3:lesson-099:m03:badge",
+      "math-2023-grade4-part3:lesson-099:m03:number",
+      "math-2023-grade4-part3:lesson-099:m03:pentagon-star",
+      "math-2023-grade4-part3:lesson-099:m03:prompt",
+      "math-2023-grade4-part3:lesson-099:m03:sub-А",
+      "math-2023-grade4-part3:lesson-099:m03:sub-А:body",
+      "math-2023-grade4-part3:lesson-099:m03:sub-А:number",
+      "math-2023-grade4-part3:lesson-099:m03:sub-Ә",
+      "math-2023-grade4-part3:lesson-099:m03:sub-Ә:body",
+      "math-2023-grade4-part3:lesson-099:m03:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-099:m04",
+      "math-2023-grade4-part3:lesson-099:m04:badge",
+      "math-2023-grade4-part3:lesson-099:m04:number",
+      "math-2023-grade4-part3:lesson-099:m04:problem",
+      "math-2023-grade4-part3:lesson-099:m04:seven-square-cross",
+      "math-2023-grade4-part3:lesson-099:m05",
+      "math-2023-grade4-part3:lesson-099:m05:badge",
+      "math-2023-grade4-part3:lesson-099:m05:expression-10",
+      "math-2023-grade4-part3:lesson-099:m05:expression-11",
+      "math-2023-grade4-part3:lesson-099:m05:expression-12",
+      "math-2023-grade4-part3:lesson-099:m05:expression-13",
+      "math-2023-grade4-part3:lesson-099:m05:expression-8",
+      "math-2023-grade4-part3:lesson-099:m05:expression-9",
+      "math-2023-grade4-part3:lesson-099:m05:number",
+      "math-2023-grade4-part3:lesson-099:m05:prompt",
+      "math-2023-grade4-part3:lesson-099:m06",
+      "math-2023-grade4-part3:lesson-099:m06:badge",
+      "math-2023-grade4-part3:lesson-099:m06:number",
+      "math-2023-grade4-part3:lesson-099:m06:prompt",
+      "math-2023-grade4-part3:lesson-099:m06:sub-А",
+      "math-2023-grade4-part3:lesson-099:m06:sub-А:body",
+      "math-2023-grade4-part3:lesson-099:m06:sub-А:measurement-picture",
+      "math-2023-grade4-part3:lesson-099:m06:sub-А:number",
+      "math-2023-grade4-part3:lesson-099:m06:sub-Б",
+      "math-2023-grade4-part3:lesson-099:m06:sub-Б:body",
+      "math-2023-grade4-part3:lesson-099:m06:sub-Б:measurement-picture",
+      "math-2023-grade4-part3:lesson-099:m06:sub-Б:number",
+      "math-2023-grade4-part3:lesson-099:m06:sub-В",
+      "math-2023-grade4-part3:lesson-099:m06:sub-В:body",
+      "math-2023-grade4-part3:lesson-099:m06:sub-В:measurement-picture",
+      "math-2023-grade4-part3:lesson-099:m06:sub-В:number",
+      "math-2023-grade4-part3:lesson-099:m06:sub-Ә",
+      "math-2023-grade4-part3:lesson-099:m06:sub-Ә:body",
+      "math-2023-grade4-part3:lesson-099:m06:sub-Ә:measurement-picture",
+      "math-2023-grade4-part3:lesson-099:m06:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-099:m07",
+      "math-2023-grade4-part3:lesson-099:m07:badge",
+      "math-2023-grade4-part3:lesson-099:m07:number",
+      "math-2023-grade4-part3:lesson-099:m07:problem",
+      "math-2023-grade4-part3:lesson-099:m07:prompt",
+      "math-2023-grade4-part3:lesson-099:m07:starting-sticks",
+      "math-2023-grade4-part3:lesson-099:m08",
+      "math-2023-grade4-part3:lesson-099:m08:badge",
+      "math-2023-grade4-part3:lesson-099:m08:number",
+      "math-2023-grade4-part3:lesson-099:m08:prompt",
+      "math-2023-grade4-part3:lesson-099:m08:sub-А",
+      "math-2023-grade4-part3:lesson-099:m08:sub-А:number",
+      "math-2023-grade4-part3:lesson-099:m08:sub-А:square-diagram",
+      "math-2023-grade4-part3:lesson-099:m08:sub-Ә",
+      "math-2023-grade4-part3:lesson-099:m08:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-099:m08:sub-Ә:square-diagram",
+      "math-2023-grade4-part3:lesson-099:m09",
+      "math-2023-grade4-part3:lesson-099:m09:badge",
+      "math-2023-grade4-part3:lesson-099:m09:kangaroo-cutouts",
+      "math-2023-grade4-part3:lesson-099:m09:number",
+      "math-2023-grade4-part3:lesson-099:m09:prompt",
+      "math-2023-grade4-part3:lesson-099:orientation",
+      "math-2023-grade4-part3:lesson-099:orientation:badge",
+      "math-2023-grade4-part3:lesson-099:orientation:objective",
+      "math-2023-grade4-part3:p066",
+      "math-2023-grade4-part3:p067",
+      "math-2023-grade4-part3:p068"
+    ],
+    "equivalent_object_ids": [
+      "math-2023-grade4-part3:lesson-099:closing",
+      "math-2023-grade4-part3:lesson-099:header",
+      "math-2023-grade4-part3:lesson-099:header:number",
+      "math-2023-grade4-part3:lesson-099:header:theme",
+      "math-2023-grade4-part3:lesson-099:header:title",
+      "math-2023-grade4-part3:lesson-099:m01",
+      "math-2023-grade4-part3:lesson-099:m01:lightning",
+      "math-2023-grade4-part3:lesson-099:m01:lightning:expression",
+      "math-2023-grade4-part3:lesson-099:m01:lightning:label",
+      "math-2023-grade4-part3:lesson-099:m01:number",
+      "math-2023-grade4-part3:lesson-099:m01:prompt",
+      "math-2023-grade4-part3:lesson-099:m01:thunder",
+      "math-2023-grade4-part3:lesson-099:m01:thunder:expression",
+      "math-2023-grade4-part3:lesson-099:m01:thunder:label",
+      "math-2023-grade4-part3:lesson-099:m02",
+      "math-2023-grade4-part3:lesson-099:m02:badge",
+      "math-2023-grade4-part3:lesson-099:m02:instructions",
+      "math-2023-grade4-part3:lesson-099:m02:number",
+      "math-2023-grade4-part3:lesson-099:m02:prompt",
+      "math-2023-grade4-part3:lesson-099:m03",
+      "math-2023-grade4-part3:lesson-099:m03:badge",
+      "math-2023-grade4-part3:lesson-099:m03:number",
+      "math-2023-grade4-part3:lesson-099:m03:prompt",
+      "math-2023-grade4-part3:lesson-099:m03:sub-А",
+      "math-2023-grade4-part3:lesson-099:m03:sub-А:body",
+      "math-2023-grade4-part3:lesson-099:m03:sub-А:number",
+      "math-2023-grade4-part3:lesson-099:m03:sub-Ә",
+      "math-2023-grade4-part3:lesson-099:m03:sub-Ә:body",
+      "math-2023-grade4-part3:lesson-099:m03:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-099:m04",
+      "math-2023-grade4-part3:lesson-099:m04:badge",
+      "math-2023-grade4-part3:lesson-099:m04:number",
+      "math-2023-grade4-part3:lesson-099:m04:problem",
+      "math-2023-grade4-part3:lesson-099:m05",
+      "math-2023-grade4-part3:lesson-099:m05:badge",
+      "math-2023-grade4-part3:lesson-099:m05:expression-10",
+      "math-2023-grade4-part3:lesson-099:m05:expression-11",
+      "math-2023-grade4-part3:lesson-099:m05:expression-12",
+      "math-2023-grade4-part3:lesson-099:m05:expression-13",
+      "math-2023-grade4-part3:lesson-099:m05:expression-8",
+      "math-2023-grade4-part3:lesson-099:m05:expression-9",
+      "math-2023-grade4-part3:lesson-099:m05:number",
+      "math-2023-grade4-part3:lesson-099:m05:prompt",
+      "math-2023-grade4-part3:lesson-099:m06",
+      "math-2023-grade4-part3:lesson-099:m06:badge",
+      "math-2023-grade4-part3:lesson-099:m06:number",
+      "math-2023-grade4-part3:lesson-099:m06:prompt",
+      "math-2023-grade4-part3:lesson-099:m06:sub-А",
+      "math-2023-grade4-part3:lesson-099:m06:sub-А:body",
+      "math-2023-grade4-part3:lesson-099:m06:sub-А:number",
+      "math-2023-grade4-part3:lesson-099:m06:sub-Б",
+      "math-2023-grade4-part3:lesson-099:m06:sub-Б:body",
+      "math-2023-grade4-part3:lesson-099:m06:sub-Б:number",
+      "math-2023-grade4-part3:lesson-099:m06:sub-В",
+      "math-2023-grade4-part3:lesson-099:m06:sub-В:body",
+      "math-2023-grade4-part3:lesson-099:m06:sub-В:number",
+      "math-2023-grade4-part3:lesson-099:m06:sub-Ә",
+      "math-2023-grade4-part3:lesson-099:m06:sub-Ә:body",
+      "math-2023-grade4-part3:lesson-099:m06:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-099:m07",
+      "math-2023-grade4-part3:lesson-099:m07:badge",
+      "math-2023-grade4-part3:lesson-099:m07:number",
+      "math-2023-grade4-part3:lesson-099:m07:problem",
+      "math-2023-grade4-part3:lesson-099:m07:prompt",
+      "math-2023-grade4-part3:lesson-099:m08",
+      "math-2023-grade4-part3:lesson-099:m08:badge",
+      "math-2023-grade4-part3:lesson-099:m08:number",
+      "math-2023-grade4-part3:lesson-099:m08:prompt",
+      "math-2023-grade4-part3:lesson-099:m08:sub-А",
+      "math-2023-grade4-part3:lesson-099:m08:sub-А:number",
+      "math-2023-grade4-part3:lesson-099:m08:sub-Ә",
+      "math-2023-grade4-part3:lesson-099:m08:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-099:m09",
+      "math-2023-grade4-part3:lesson-099:m09:badge",
+      "math-2023-grade4-part3:lesson-099:m09:number",
+      "math-2023-grade4-part3:lesson-099:m09:prompt",
+      "math-2023-grade4-part3:lesson-099:orientation",
+      "math-2023-grade4-part3:lesson-099:orientation:badge",
+      "math-2023-grade4-part3:lesson-099:orientation:objective",
+      "math-2023-grade4-part3:p066",
+      "math-2023-grade4-part3:p067",
+      "math-2023-grade4-part3:p068"
+    ],
+    "addressed_record_ids": []
+  },
+  "redraw_validation": {
+    "baseline_content_sha256": "728b933416701b4f2bd169418fd1415fea311e35f01e8c02c69332a4e8a0b5c8",
+    "baseline_commit": "389c68b9a11759f9a4b1b74f2253b5be29fabf09",
+    "status": "verified_with_pending_sources",
+    "images": {
+      "math-2023-grade4-part3:lesson-099:m02:strip-steps": {
+        "finding_zh": "保留平纸条、松结和含虚线星形的紧结三步。精细折叠看原图。",
+        "status": "source_recheck"
+      },
+      "math-2023-grade4-part3:lesson-099:m03:pentagon-star": {
+        "finding_zh": "五个顶点和五条对角线完整，交点可直接核对。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-099:m04:seven-square-cross": {
+        "finding_zh": "保留横排五格、中央格上下各一格。原裁图最右格略截断，完整扫描可见横排边界。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-099:m06:sub-А:measurement-picture": {
+        "finding_zh": "六根闪电状待测线的端帽及长度须在原书比例下核实，保留裁图。",
+        "status": "source_recheck"
+      },
+      "math-2023-grade4-part3:lesson-099:m06:sub-Ә:measurement-picture": {
+        "finding_zh": "三幅不同填纹图形的外框尺寸须在原书比例下核实，保留裁图。",
+        "status": "source_recheck"
+      },
+      "math-2023-grade4-part3:lesson-099:m06:sub-Б:measurement-picture": {
+        "finding_zh": "两个中心圆的直径与外围圆须在原书比例下核实，保留裁图。",
+        "status": "source_recheck"
+      },
+      "math-2023-grade4-part3:lesson-099:m06:sub-В:measurement-picture": {
+        "finding_zh": "透视背景中人物的实际高度须在原书比例下核实，保留裁图。",
+        "status": "source_recheck"
+      },
+      "math-2023-grade4-part3:lesson-099:m07:starting-sticks": {
+        "finding_zh": "两侧各两格，中间一根横棒，共 15 根。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-099:m08:sub-А:square-diagram": {
+        "finding_zh": "2×2 方格中的每小格有两条对角线。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-099:m08:sub-Ә:square-diagram": {
+        "finding_zh": "依原图画两个旋转正方形、左图三条分割线和交叠。交点位置以原图为准。",
+        "status": "source_recheck"
+      },
+      "math-2023-grade4-part3:lesson-099:m09:kangaroo-cutouts": {
+        "finding_zh": "拼片需要逐格形状和色块边界，现有数据不足以恢复完整拼片。",
+        "status": "source_recheck"
+      }
+    }
+  }
 }

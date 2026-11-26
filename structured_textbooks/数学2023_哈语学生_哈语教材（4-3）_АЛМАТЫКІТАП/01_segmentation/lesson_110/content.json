@@ -1,5 +1,5 @@
 {
-  "data_version": "2026-11-26-initial-1",
+  "data_version": "2026-11-26-redraw-1",
   "review_status": "pending_review",
   "book": {
     "id": "math-2023-grade4-part3",
@@ -1319,7 +1319,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "4 қатар және 3 баған. Бірінші қатардың үш ұяшығында, қалған үш қатардың ортаңғы және оң ұяшықтарында көшет бар. Сол жақтағы төменгі үш ұяшық бос.",
+              "description_kk": "4 қатар және 3 баған. Бірінші қатардың үш ұяшығында, қалған үш қатардың ортаңғы және оң ұяшықтарында көшет бар. Сол жақтағы төменгі үш ұяшық бос. Отырғызылған және бос ұяшықтар бөлінді.",
               "relations": [
                 {
                   "kind": "planting_grid",
@@ -1330,7 +1330,121 @@
                     ".pp"
                   ]
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 280,
+                "height": 300,
+                "items": [
+                  {
+                    "type": "rect",
+                    "x": 48.0,
+                    "y": 30.0,
+                    "w": 58.75,
+                    "h": 58.75,
+                    "fill": "#8ebc69",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 106.75,
+                    "y": 30.0,
+                    "w": 58.75,
+                    "h": 58.75,
+                    "fill": "#8ebc69",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 165.5,
+                    "y": 30.0,
+                    "w": 58.75,
+                    "h": 58.75,
+                    "fill": "#8ebc69",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 48.0,
+                    "y": 88.75,
+                    "w": 58.75,
+                    "h": 58.75,
+                    "fill": "#f7db96",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 106.75,
+                    "y": 88.75,
+                    "w": 58.75,
+                    "h": 58.75,
+                    "fill": "#8ebc69",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 165.5,
+                    "y": 88.75,
+                    "w": 58.75,
+                    "h": 58.75,
+                    "fill": "#8ebc69",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 48.0,
+                    "y": 147.5,
+                    "w": 58.75,
+                    "h": 58.75,
+                    "fill": "#f7db96",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 106.75,
+                    "y": 147.5,
+                    "w": 58.75,
+                    "h": 58.75,
+                    "fill": "#8ebc69",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 165.5,
+                    "y": 147.5,
+                    "w": 58.75,
+                    "h": 58.75,
+                    "fill": "#8ebc69",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 48.0,
+                    "y": 206.25,
+                    "w": 58.75,
+                    "h": 58.75,
+                    "fill": "#f7db96",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 106.75,
+                    "y": 206.25,
+                    "w": 58.75,
+                    "h": 58.75,
+                    "fill": "#8ebc69",
+                    "color": "#284d77"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 165.5,
+                    "y": 206.25,
+                    "w": 58.75,
+                    "h": 58.75,
+                    "fill": "#8ebc69",
+                    "color": "#284d77"
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-110:m02:planting-grid:crop"
           }
@@ -6125,7 +6239,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Көлденең осьте апта күндері дүйсенбіден жексенбіге дейін. Тік ось — t°, 0–16, 2 қадам. Күлгін сызықтың күндерге сәйкес мәндері 16, 14, 8, 8, 4, 13, 15.",
+              "description_kk": "Көлденең осьте апта күндері дүйсенбіден жексенбіге дейін. Тік ось — t°, 0–16, 2 қадам. Күлгін сызықтың күндерге сәйкес мәндері 16, 14, 8, 8, 4, 13, 15. Апта күндері мен температуралар, 1° тор аралығы көрсетілген.",
               "relations": [
                 {
                   "kind": "coordinate_graph",
@@ -6158,6 +6272,69 @@
                     4,
                     13,
                     15
+                  ],
+                  "series": [
+                    {
+                      "color": "purple",
+                      "vertices": [
+                        [
+                          1,
+                          16
+                        ],
+                        [
+                          2,
+                          14
+                        ],
+                        [
+                          3,
+                          8
+                        ],
+                        [
+                          4,
+                          8
+                        ],
+                        [
+                          5,
+                          4
+                        ],
+                        [
+                          6,
+                          13
+                        ],
+                        [
+                          7,
+                          15
+                        ]
+                      ]
+                    }
+                  ],
+                  "x_tick_labels": {
+                    "1": "Дс",
+                    "2": "Сс",
+                    "3": "Ср",
+                    "4": "Бс",
+                    "5": "Жм",
+                    "6": "Сн",
+                    "7": "Жк"
+                  },
+                  "x_ticks": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "x_domain": [
+                    0,
+                    7
+                  ],
+                  "x_grid_step": 0.3333333333333333,
+                  "y_grid_step": 1,
+                  "y_domain": [
+                    0,
+                    16
                   ]
                 }
               ]
@@ -13363,6 +13540,69 @@
             4,
             13,
             15
+          ],
+          "series": [
+            {
+              "color": "purple",
+              "vertices": [
+                [
+                  1,
+                  16
+                ],
+                [
+                  2,
+                  14
+                ],
+                [
+                  3,
+                  8
+                ],
+                [
+                  4,
+                  8
+                ],
+                [
+                  5,
+                  4
+                ],
+                [
+                  6,
+                  13
+                ],
+                [
+                  7,
+                  15
+                ]
+              ]
+            }
+          ],
+          "x_tick_labels": {
+            "1": "Дс",
+            "2": "Сс",
+            "3": "Ср",
+            "4": "Бс",
+            "5": "Жм",
+            "6": "Сн",
+            "7": "Жк"
+          },
+          "x_ticks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "x_domain": [
+            0,
+            7
+          ],
+          "x_grid_step": 0.3333333333333333,
+          "y_grid_step": 1,
+          "y_domain": [
+            0,
+            16
           ]
         }
       ],
@@ -13527,6 +13767,69 @@
                 4,
                 13,
                 15
+              ],
+              "series": [
+                {
+                  "color": "purple",
+                  "vertices": [
+                    [
+                      1,
+                      16
+                    ],
+                    [
+                      2,
+                      14
+                    ],
+                    [
+                      3,
+                      8
+                    ],
+                    [
+                      4,
+                      8
+                    ],
+                    [
+                      5,
+                      4
+                    ],
+                    [
+                      6,
+                      13
+                    ],
+                    [
+                      7,
+                      15
+                    ]
+                  ]
+                }
+              ],
+              "x_tick_labels": {
+                "1": "Дс",
+                "2": "Сс",
+                "3": "Ср",
+                "4": "Бс",
+                "5": "Жм",
+                "6": "Сн",
+                "7": "Жк"
+              },
+              "x_ticks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "x_domain": [
+                0,
+                7
+              ],
+              "x_grid_step": 0.3333333333333333,
+              "y_grid_step": 1,
+              "y_domain": [
+                0,
+                16
               ]
             }
           ]
@@ -14227,5 +14530,450 @@
         }
       ]
     }
-  ]
+  ],
+  "review_revision": {
+    "source_version": "2026-11-26-initial-1",
+    "source_object_ids": [
+      "math-2023-grade4-part3:lesson-110:closing",
+      "math-2023-grade4-part3:lesson-110:header",
+      "math-2023-grade4-part3:lesson-110:header:number",
+      "math-2023-grade4-part3:lesson-110:header:theme",
+      "math-2023-grade4-part3:lesson-110:header:title",
+      "math-2023-grade4-part3:lesson-110:link:add-to-m02",
+      "math-2023-grade4-part3:lesson-110:link:add-to-m03",
+      "math-2023-grade4-part3:lesson-110:link:add-to-m04",
+      "math-2023-grade4-part3:lesson-110:link:add-to-m06",
+      "math-2023-grade4-part3:lesson-110:link:add-to-m07",
+      "math-2023-grade4-part3:lesson-110:link:add-to-m10",
+      "math-2023-grade4-part3:lesson-110:link:subtract-to-m02",
+      "math-2023-grade4-part3:lesson-110:link:subtract-to-m03",
+      "math-2023-grade4-part3:lesson-110:link:subtract-to-m04",
+      "math-2023-grade4-part3:lesson-110:link:subtract-to-m06",
+      "math-2023-grade4-part3:lesson-110:link:subtract-to-m07",
+      "math-2023-grade4-part3:lesson-110:link:subtract-to-m10",
+      "math-2023-grade4-part3:lesson-110:m01",
+      "math-2023-grade4-part3:lesson-110:m01:expression-14",
+      "math-2023-grade4-part3:lesson-110:m01:number",
+      "math-2023-grade4-part3:lesson-110:m01:problem",
+      "math-2023-grade4-part3:lesson-110:m01:prompt",
+      "math-2023-grade4-part3:lesson-110:m02",
+      "math-2023-grade4-part3:lesson-110:m02:number",
+      "math-2023-grade4-part3:lesson-110:m02:planting-grid",
+      "math-2023-grade4-part3:lesson-110:m02:prompt",
+      "math-2023-grade4-part3:lesson-110:m02:sub-А",
+      "math-2023-grade4-part3:lesson-110:m02:sub-А:number",
+      "math-2023-grade4-part3:lesson-110:m02:sub-А:planting-total",
+      "math-2023-grade4-part3:lesson-110:m02:sub-А:planting-total:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m02:sub-А:planting-total:fraction-4",
+      "math-2023-grade4-part3:lesson-110:m02:sub-А:planting-total:text-1",
+      "math-2023-grade4-part3:lesson-110:m02:sub-А:planting-total:text-3",
+      "math-2023-grade4-part3:lesson-110:m02:sub-А:planting-total:text-5",
+      "math-2023-grade4-part3:lesson-110:m02:sub-Ә",
+      "math-2023-grade4-part3:lesson-110:m02:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-110:m02:sub-Ә:planting-afternoon",
+      "math-2023-grade4-part3:lesson-110:m02:sub-Ә:planting-afternoon:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m02:sub-Ә:planting-afternoon:fraction-4",
+      "math-2023-grade4-part3:lesson-110:m02:sub-Ә:planting-afternoon:text-1",
+      "math-2023-grade4-part3:lesson-110:m02:sub-Ә:planting-afternoon:text-3",
+      "math-2023-grade4-part3:lesson-110:m02:sub-Ә:planting-afternoon:text-5",
+      "math-2023-grade4-part3:lesson-110:m03",
+      "math-2023-grade4-part3:lesson-110:m03:badge",
+      "math-2023-grade4-part3:lesson-110:m03:number",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-1",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-1:fraction-1",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-1:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-1:fraction-3",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-1:symbols-2",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-1:symbols-3",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-2",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-2:fraction-1",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-2:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-2:fraction-3",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-2:symbols-2",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-2:symbols-3",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-3",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-3:fraction-1",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-3:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-3:fraction-3",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-3:symbols-2",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-3:symbols-3",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-4",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-4:fraction-1",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-4:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-4:fraction-3",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-4:symbols-1",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-4:symbols-2",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-4:symbols-3",
+      "math-2023-grade4-part3:lesson-110:m03:prompt",
+      "math-2023-grade4-part3:lesson-110:m04",
+      "math-2023-grade4-part3:lesson-110:m04:number",
+      "math-2023-grade4-part3:lesson-110:m04:prompt",
+      "math-2023-grade4-part3:lesson-110:m04:sub-А",
+      "math-2023-grade4-part3:lesson-110:m04:sub-А:lawn",
+      "math-2023-grade4-part3:lesson-110:m04:sub-А:lawn:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m04:sub-А:lawn:fraction-4",
+      "math-2023-grade4-part3:lesson-110:m04:sub-А:lawn:text-1",
+      "math-2023-grade4-part3:lesson-110:m04:sub-А:lawn:text-3",
+      "math-2023-grade4-part3:lesson-110:m04:sub-А:lawn:text-5",
+      "math-2023-grade4-part3:lesson-110:m04:sub-А:number",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Б",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Б:irrigation",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Б:irrigation:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Б:irrigation:fraction-4",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Б:irrigation:text-1",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Б:irrigation:text-3",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Б:irrigation:text-5",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Б:number",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Ә",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Ә:repair",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Ә:repair:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Ә:repair:fraction-4",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Ә:repair:text-1",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Ә:repair:text-3",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Ә:repair:text-5",
+      "math-2023-grade4-part3:lesson-110:m05",
+      "math-2023-grade4-part3:lesson-110:m05:number",
+      "math-2023-grade4-part3:lesson-110:m05:problem",
+      "math-2023-grade4-part3:lesson-110:m05:prompt",
+      "math-2023-grade4-part3:lesson-110:m06",
+      "math-2023-grade4-part3:lesson-110:m06:badge",
+      "math-2023-grade4-part3:lesson-110:m06:number",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-1",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-1:fraction-1",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-1:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-1:fraction-3",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-1:symbols-2",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-1:symbols-3",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-2",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-2:fraction-1",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-2:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-2:fraction-3",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-2:symbols-2",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-2:symbols-3",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-3",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-3:fraction-1",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-3:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-3:fraction-3",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-3:fraction-4",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-3:symbols-2",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-3:symbols-3",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-3:symbols-4",
+      "math-2023-grade4-part3:lesson-110:m06:prompt",
+      "math-2023-grade4-part3:lesson-110:m07",
+      "math-2023-grade4-part3:lesson-110:m07:number",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-1",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-1:fraction-1",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-1:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-1:fraction-3",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-1:symbols-2",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-1:symbols-3",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-2",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-2:fraction-1",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-2:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-2:fraction-3",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-2:symbols-2",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-2:symbols-3",
+      "math-2023-grade4-part3:lesson-110:m07:prompt",
+      "math-2023-grade4-part3:lesson-110:m08",
+      "math-2023-grade4-part3:lesson-110:m08:badge",
+      "math-2023-grade4-part3:lesson-110:m08:number",
+      "math-2023-grade4-part3:lesson-110:m08:problem",
+      "math-2023-grade4-part3:lesson-110:m08:prompt",
+      "math-2023-grade4-part3:lesson-110:m08:table",
+      "math-2023-grade4-part3:lesson-110:m08:table:r1c1",
+      "math-2023-grade4-part3:lesson-110:m08:table:r1c2",
+      "math-2023-grade4-part3:lesson-110:m08:table:r1c3",
+      "math-2023-grade4-part3:lesson-110:m08:table:r1c4",
+      "math-2023-grade4-part3:lesson-110:m08:table:r1c5",
+      "math-2023-grade4-part3:lesson-110:m08:table:r1c6",
+      "math-2023-grade4-part3:lesson-110:m08:table:r1c7",
+      "math-2023-grade4-part3:lesson-110:m08:table:r1c8",
+      "math-2023-grade4-part3:lesson-110:m08:table:r2c1",
+      "math-2023-grade4-part3:lesson-110:m08:table:r2c2",
+      "math-2023-grade4-part3:lesson-110:m08:table:r2c3",
+      "math-2023-grade4-part3:lesson-110:m08:table:r2c4",
+      "math-2023-grade4-part3:lesson-110:m08:table:r2c5",
+      "math-2023-grade4-part3:lesson-110:m08:table:r2c6",
+      "math-2023-grade4-part3:lesson-110:m08:table:r2c7",
+      "math-2023-grade4-part3:lesson-110:m08:table:r2c8",
+      "math-2023-grade4-part3:lesson-110:m08:weekly-temperature",
+      "math-2023-grade4-part3:lesson-110:m09",
+      "math-2023-grade4-part3:lesson-110:m09:badge",
+      "math-2023-grade4-part3:lesson-110:m09:number",
+      "math-2023-grade4-part3:lesson-110:m09:problem",
+      "math-2023-grade4-part3:lesson-110:m09:prompt",
+      "math-2023-grade4-part3:lesson-110:m10",
+      "math-2023-grade4-part3:lesson-110:m10:badge",
+      "math-2023-grade4-part3:lesson-110:m10:number",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-1",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-1:fraction-1",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-1:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-1:fraction-3",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-1:symbols-2",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-1:symbols-3",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-2",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-2:fraction-1",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-2:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-2:fraction-3",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-2:symbols-2",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-2:symbols-3",
+      "math-2023-grade4-part3:lesson-110:m10:prompt",
+      "math-2023-grade4-part3:lesson-110:note-add",
+      "math-2023-grade4-part3:lesson-110:note-add:badge",
+      "math-2023-grade4-part3:lesson-110:note-add:general-addition",
+      "math-2023-grade4-part3:lesson-110:note-add:numeric-addition",
+      "math-2023-grade4-part3:lesson-110:note-add:numeric-addition:fraction-1",
+      "math-2023-grade4-part3:lesson-110:note-add:numeric-addition:fraction-2",
+      "math-2023-grade4-part3:lesson-110:note-add:numeric-addition:fraction-3",
+      "math-2023-grade4-part3:lesson-110:note-add:numeric-addition:symbols-2",
+      "math-2023-grade4-part3:lesson-110:note-add:numeric-addition:symbols-3",
+      "math-2023-grade4-part3:lesson-110:note-add:rule",
+      "math-2023-grade4-part3:lesson-110:note-subtract",
+      "math-2023-grade4-part3:lesson-110:note-subtract:badge",
+      "math-2023-grade4-part3:lesson-110:note-subtract:general-subtraction",
+      "math-2023-grade4-part3:lesson-110:note-subtract:numeric-subtraction",
+      "math-2023-grade4-part3:lesson-110:note-subtract:numeric-subtraction:closing-symbols",
+      "math-2023-grade4-part3:lesson-110:note-subtract:numeric-subtraction:fraction-1",
+      "math-2023-grade4-part3:lesson-110:note-subtract:numeric-subtraction:fraction-2",
+      "math-2023-grade4-part3:lesson-110:note-subtract:numeric-subtraction:fraction-3",
+      "math-2023-grade4-part3:lesson-110:note-subtract:numeric-subtraction:symbols-2",
+      "math-2023-grade4-part3:lesson-110:note-subtract:numeric-subtraction:symbols-3",
+      "math-2023-grade4-part3:lesson-110:note-subtract:rule",
+      "math-2023-grade4-part3:lesson-110:orientation",
+      "math-2023-grade4-part3:lesson-110:orientation:badge",
+      "math-2023-grade4-part3:lesson-110:orientation:objective",
+      "math-2023-grade4-part3:p100",
+      "math-2023-grade4-part3:p101",
+      "math-2023-grade4-part3:p102"
+    ],
+    "equivalent_object_ids": [
+      "math-2023-grade4-part3:lesson-110:closing",
+      "math-2023-grade4-part3:lesson-110:header",
+      "math-2023-grade4-part3:lesson-110:header:number",
+      "math-2023-grade4-part3:lesson-110:header:theme",
+      "math-2023-grade4-part3:lesson-110:header:title",
+      "math-2023-grade4-part3:lesson-110:link:add-to-m02",
+      "math-2023-grade4-part3:lesson-110:link:add-to-m03",
+      "math-2023-grade4-part3:lesson-110:link:add-to-m04",
+      "math-2023-grade4-part3:lesson-110:link:add-to-m06",
+      "math-2023-grade4-part3:lesson-110:link:add-to-m07",
+      "math-2023-grade4-part3:lesson-110:link:add-to-m10",
+      "math-2023-grade4-part3:lesson-110:link:subtract-to-m02",
+      "math-2023-grade4-part3:lesson-110:link:subtract-to-m03",
+      "math-2023-grade4-part3:lesson-110:link:subtract-to-m04",
+      "math-2023-grade4-part3:lesson-110:link:subtract-to-m06",
+      "math-2023-grade4-part3:lesson-110:link:subtract-to-m07",
+      "math-2023-grade4-part3:lesson-110:link:subtract-to-m10",
+      "math-2023-grade4-part3:lesson-110:m01",
+      "math-2023-grade4-part3:lesson-110:m01:expression-14",
+      "math-2023-grade4-part3:lesson-110:m01:number",
+      "math-2023-grade4-part3:lesson-110:m01:problem",
+      "math-2023-grade4-part3:lesson-110:m01:prompt",
+      "math-2023-grade4-part3:lesson-110:m02",
+      "math-2023-grade4-part3:lesson-110:m02:number",
+      "math-2023-grade4-part3:lesson-110:m02:prompt",
+      "math-2023-grade4-part3:lesson-110:m02:sub-А",
+      "math-2023-grade4-part3:lesson-110:m02:sub-А:number",
+      "math-2023-grade4-part3:lesson-110:m02:sub-А:planting-total",
+      "math-2023-grade4-part3:lesson-110:m02:sub-А:planting-total:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m02:sub-А:planting-total:fraction-4",
+      "math-2023-grade4-part3:lesson-110:m02:sub-А:planting-total:text-1",
+      "math-2023-grade4-part3:lesson-110:m02:sub-А:planting-total:text-3",
+      "math-2023-grade4-part3:lesson-110:m02:sub-А:planting-total:text-5",
+      "math-2023-grade4-part3:lesson-110:m02:sub-Ә",
+      "math-2023-grade4-part3:lesson-110:m02:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-110:m02:sub-Ә:planting-afternoon",
+      "math-2023-grade4-part3:lesson-110:m02:sub-Ә:planting-afternoon:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m02:sub-Ә:planting-afternoon:fraction-4",
+      "math-2023-grade4-part3:lesson-110:m02:sub-Ә:planting-afternoon:text-1",
+      "math-2023-grade4-part3:lesson-110:m02:sub-Ә:planting-afternoon:text-3",
+      "math-2023-grade4-part3:lesson-110:m02:sub-Ә:planting-afternoon:text-5",
+      "math-2023-grade4-part3:lesson-110:m03",
+      "math-2023-grade4-part3:lesson-110:m03:badge",
+      "math-2023-grade4-part3:lesson-110:m03:number",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-1",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-1:fraction-1",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-1:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-1:fraction-3",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-1:symbols-2",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-1:symbols-3",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-2",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-2:fraction-1",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-2:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-2:fraction-3",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-2:symbols-2",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-2:symbols-3",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-3",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-3:fraction-1",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-3:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-3:fraction-3",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-3:symbols-2",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-3:symbols-3",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-4",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-4:fraction-1",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-4:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-4:fraction-3",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-4:symbols-1",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-4:symbols-2",
+      "math-2023-grade4-part3:lesson-110:m03:printed-expression-4:symbols-3",
+      "math-2023-grade4-part3:lesson-110:m03:prompt",
+      "math-2023-grade4-part3:lesson-110:m04",
+      "math-2023-grade4-part3:lesson-110:m04:number",
+      "math-2023-grade4-part3:lesson-110:m04:prompt",
+      "math-2023-grade4-part3:lesson-110:m04:sub-А",
+      "math-2023-grade4-part3:lesson-110:m04:sub-А:lawn",
+      "math-2023-grade4-part3:lesson-110:m04:sub-А:lawn:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m04:sub-А:lawn:fraction-4",
+      "math-2023-grade4-part3:lesson-110:m04:sub-А:lawn:text-1",
+      "math-2023-grade4-part3:lesson-110:m04:sub-А:lawn:text-3",
+      "math-2023-grade4-part3:lesson-110:m04:sub-А:lawn:text-5",
+      "math-2023-grade4-part3:lesson-110:m04:sub-А:number",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Б",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Б:irrigation",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Б:irrigation:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Б:irrigation:fraction-4",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Б:irrigation:text-1",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Б:irrigation:text-3",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Б:irrigation:text-5",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Б:number",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Ә",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Ә:repair",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Ә:repair:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Ә:repair:fraction-4",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Ә:repair:text-1",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Ә:repair:text-3",
+      "math-2023-grade4-part3:lesson-110:m04:sub-Ә:repair:text-5",
+      "math-2023-grade4-part3:lesson-110:m05",
+      "math-2023-grade4-part3:lesson-110:m05:number",
+      "math-2023-grade4-part3:lesson-110:m05:problem",
+      "math-2023-grade4-part3:lesson-110:m05:prompt",
+      "math-2023-grade4-part3:lesson-110:m06",
+      "math-2023-grade4-part3:lesson-110:m06:badge",
+      "math-2023-grade4-part3:lesson-110:m06:number",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-1",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-1:fraction-1",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-1:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-1:fraction-3",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-1:symbols-2",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-1:symbols-3",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-2",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-2:fraction-1",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-2:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-2:fraction-3",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-2:symbols-2",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-2:symbols-3",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-3",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-3:fraction-1",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-3:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-3:fraction-3",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-3:fraction-4",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-3:symbols-2",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-3:symbols-3",
+      "math-2023-grade4-part3:lesson-110:m06:printed-expression-3:symbols-4",
+      "math-2023-grade4-part3:lesson-110:m06:prompt",
+      "math-2023-grade4-part3:lesson-110:m07",
+      "math-2023-grade4-part3:lesson-110:m07:number",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-1",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-1:fraction-1",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-1:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-1:fraction-3",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-1:symbols-2",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-1:symbols-3",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-2",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-2:fraction-1",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-2:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-2:fraction-3",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-2:symbols-2",
+      "math-2023-grade4-part3:lesson-110:m07:printed-expression-2:symbols-3",
+      "math-2023-grade4-part3:lesson-110:m07:prompt",
+      "math-2023-grade4-part3:lesson-110:m08",
+      "math-2023-grade4-part3:lesson-110:m08:badge",
+      "math-2023-grade4-part3:lesson-110:m08:number",
+      "math-2023-grade4-part3:lesson-110:m08:problem",
+      "math-2023-grade4-part3:lesson-110:m08:prompt",
+      "math-2023-grade4-part3:lesson-110:m08:table",
+      "math-2023-grade4-part3:lesson-110:m08:table:r1c1",
+      "math-2023-grade4-part3:lesson-110:m08:table:r1c2",
+      "math-2023-grade4-part3:lesson-110:m08:table:r1c3",
+      "math-2023-grade4-part3:lesson-110:m08:table:r1c4",
+      "math-2023-grade4-part3:lesson-110:m08:table:r1c5",
+      "math-2023-grade4-part3:lesson-110:m08:table:r1c6",
+      "math-2023-grade4-part3:lesson-110:m08:table:r1c7",
+      "math-2023-grade4-part3:lesson-110:m08:table:r1c8",
+      "math-2023-grade4-part3:lesson-110:m08:table:r2c1",
+      "math-2023-grade4-part3:lesson-110:m08:table:r2c2",
+      "math-2023-grade4-part3:lesson-110:m08:table:r2c3",
+      "math-2023-grade4-part3:lesson-110:m08:table:r2c4",
+      "math-2023-grade4-part3:lesson-110:m08:table:r2c5",
+      "math-2023-grade4-part3:lesson-110:m08:table:r2c6",
+      "math-2023-grade4-part3:lesson-110:m08:table:r2c7",
+      "math-2023-grade4-part3:lesson-110:m08:table:r2c8",
+      "math-2023-grade4-part3:lesson-110:m09",
+      "math-2023-grade4-part3:lesson-110:m09:badge",
+      "math-2023-grade4-part3:lesson-110:m09:number",
+      "math-2023-grade4-part3:lesson-110:m09:problem",
+      "math-2023-grade4-part3:lesson-110:m09:prompt",
+      "math-2023-grade4-part3:lesson-110:m10",
+      "math-2023-grade4-part3:lesson-110:m10:badge",
+      "math-2023-grade4-part3:lesson-110:m10:number",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-1",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-1:fraction-1",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-1:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-1:fraction-3",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-1:symbols-2",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-1:symbols-3",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-2",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-2:fraction-1",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-2:fraction-2",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-2:fraction-3",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-2:symbols-2",
+      "math-2023-grade4-part3:lesson-110:m10:printed-expression-2:symbols-3",
+      "math-2023-grade4-part3:lesson-110:m10:prompt",
+      "math-2023-grade4-part3:lesson-110:note-add",
+      "math-2023-grade4-part3:lesson-110:note-add:badge",
+      "math-2023-grade4-part3:lesson-110:note-add:general-addition",
+      "math-2023-grade4-part3:lesson-110:note-add:numeric-addition",
+      "math-2023-grade4-part3:lesson-110:note-add:numeric-addition:fraction-1",
+      "math-2023-grade4-part3:lesson-110:note-add:numeric-addition:fraction-2",
+      "math-2023-grade4-part3:lesson-110:note-add:numeric-addition:fraction-3",
+      "math-2023-grade4-part3:lesson-110:note-add:numeric-addition:symbols-2",
+      "math-2023-grade4-part3:lesson-110:note-add:numeric-addition:symbols-3",
+      "math-2023-grade4-part3:lesson-110:note-add:rule",
+      "math-2023-grade4-part3:lesson-110:note-subtract",
+      "math-2023-grade4-part3:lesson-110:note-subtract:badge",
+      "math-2023-grade4-part3:lesson-110:note-subtract:general-subtraction",
+      "math-2023-grade4-part3:lesson-110:note-subtract:numeric-subtraction",
+      "math-2023-grade4-part3:lesson-110:note-subtract:numeric-subtraction:closing-symbols",
+      "math-2023-grade4-part3:lesson-110:note-subtract:numeric-subtraction:fraction-1",
+      "math-2023-grade4-part3:lesson-110:note-subtract:numeric-subtraction:fraction-2",
+      "math-2023-grade4-part3:lesson-110:note-subtract:numeric-subtraction:fraction-3",
+      "math-2023-grade4-part3:lesson-110:note-subtract:numeric-subtraction:symbols-2",
+      "math-2023-grade4-part3:lesson-110:note-subtract:numeric-subtraction:symbols-3",
+      "math-2023-grade4-part3:lesson-110:note-subtract:rule",
+      "math-2023-grade4-part3:lesson-110:orientation",
+      "math-2023-grade4-part3:lesson-110:orientation:badge",
+      "math-2023-grade4-part3:lesson-110:orientation:objective",
+      "math-2023-grade4-part3:p100",
+      "math-2023-grade4-part3:p101",
+      "math-2023-grade4-part3:p102"
+    ],
+    "addressed_record_ids": []
+  },
+  "redraw_validation": {
+    "baseline_content_sha256": "bf2d223bee6f39c46bd2d5696fe1c2c621240e1b2c3e50a27a15e2f9e6357e55",
+    "baseline_commit": "389c68b9a11759f9a4b1b74f2253b5be29fabf09",
+    "status": "verified",
+    "images": {
+      "math-2023-grade4-part3:lesson-110:m02:planting-grid": {
+        "finding_zh": "4×3 格保留种植区和空缺格。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-110:m08:weekly-temperature": {
+        "finding_zh": "折线按星期顺序依次为 16、14、8、8、4、13、15。标数每 2 度，网格每 1 度。",
+        "status": "verified"
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "data_version": "2026-11-26-initial-1",
+  "data_version": "2026-11-26-redraw-1",
   "review_status": "pending_review",
   "book": {
     "id": "math-2023-grade4-part3",
@@ -433,7 +433,7 @@
               }
             ],
             "structured_description": {
-              "description_kk": "Жасыл бөлікте қайта өңдеу таңбасы және 40% белгісі, сары бөлікте 60% белгісі бар.",
+              "description_kk": "Жасыл бөлікте қайта өңдеу таңбасы және 40% белгісі, сары бөлікте 60% белгісі бар. Жасыл 40% қайта өңдеу белгісімен, сары 60%.",
               "relations": [
                 {
                   "kind": "ring_chart",
@@ -449,7 +449,55 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "verification_drawing": {
+                "width": 850,
+                "height": 310,
+                "items": [
+                  {
+                    "type": "path",
+                    "d": "M160,152L160,50A102,102 0 0 1 219.954,234.52Z",
+                    "fill": "#729a62",
+                    "color": "white"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 288,
+                    "y": 19,
+                    "w": 16,
+                    "h": 16,
+                    "fill": "#729a62"
+                  },
+                  {
+                    "type": "text",
+                    "x": 314,
+                    "y": 32,
+                    "s": "40%  қайта өңделетін",
+                    "anchor": "start",
+                    "size": 14
+                  },
+                  {
+                    "type": "path",
+                    "d": "M160,152L219.954,234.52A102,102 0 1 1 160,50Z",
+                    "fill": "#e1bc36",
+                    "color": "white"
+                  },
+                  {
+                    "type": "text",
+                    "x": 38.26476591422035,
+                    "y": 191.55417527999327,
+                    "s": "60%"
+                  },
+                  {
+                    "type": "circle",
+                    "x": 160,
+                    "y": 152,
+                    "r": 46,
+                    "fill": "white",
+                    "color": "white"
+                  }
+                ]
+              }
             },
             "crop_asset_id": "math-2023-grade4-part3:lesson-107:m01:waste-recycling-chart:crop",
             "ocr_evidence": [
@@ -3916,7 +3964,7 @@
                   }
                 ],
                 "structured_description": {
-                  "description_kk": "Екі жылдамдық (км/сағ), уақыт (сағ) және арақашықтық (км) бос шаршылармен белгіленген. Жебелер екі шеттен ортадағы жалаушаға қарайды.",
+                  "description_kk": "Екі жылдамдық (км/сағ), уақыт (сағ) және арақашықтық (км) бос шаршылармен белгіленген. Жебелер екі шеттен ортадағы жалаушаға қарайды. Жебелер, бастапқы орындар және аралықтар өзара байланыстырылды.",
                   "relations": [
                     {
                       "kind": "motion_diagram",
@@ -3932,7 +3980,134 @@
                         "distance_km"
                       ]
                     }
-                  ]
+                  ],
+                  "verification_drawing": {
+                    "width": 740,
+                    "height": 244,
+                    "items": [
+                      {
+                        "type": "line",
+                        "x1": 90,
+                        "y1": 116,
+                        "x2": 642,
+                        "y2": 116,
+                        "color": "#284d77",
+                        "width": 3
+                      },
+                      {
+                        "type": "circle",
+                        "x": 90,
+                        "y": 116,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 642,
+                        "y": 116,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 362,
+                        "y1": 116,
+                        "x2": 362,
+                        "y2": 79,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "polygon",
+                        "xy": [
+                          [
+                            362,
+                            79
+                          ],
+                          [
+                            387,
+                            79
+                          ],
+                          [
+                            382,
+                            86
+                          ],
+                          [
+                            387,
+                            93
+                          ],
+                          [
+                            362,
+                            93
+                          ]
+                        ],
+                        "fill": "#b73730",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 90,
+                        "y1": 116,
+                        "x2": 90,
+                        "y2": 80,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 90,
+                        "y1": 80,
+                        "x2": 164,
+                        "y2": 80,
+                        "color": "#284d77",
+                        "arrow": true
+                      },
+                      {
+                        "type": "text",
+                        "x": 127.0,
+                        "y": 69,
+                        "s": "v₁ = □ км/сағ",
+                        "size": 14
+                      },
+                      {
+                        "type": "line",
+                        "x1": 642,
+                        "y1": 116,
+                        "x2": 642,
+                        "y2": 80,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 642,
+                        "y1": 80,
+                        "x2": 568,
+                        "y2": 80,
+                        "color": "#284d77",
+                        "arrow": true
+                      },
+                      {
+                        "type": "text",
+                        "x": 605.0,
+                        "y": 69,
+                        "s": "v₂ = □ км/сағ",
+                        "size": 14
+                      },
+                      {
+                        "type": "text",
+                        "x": 366,
+                        "y": 46,
+                        "s": "□ сағ"
+                      },
+                      {
+                        "type": "bracket",
+                        "x1": 90,
+                        "x2": 642,
+                        "y": 174,
+                        "label": "□ км"
+                      }
+                    ]
+                  }
                 },
                 "crop_asset_id": "math-2023-grade4-part3:lesson-107:m08:sub-А:motion-template:crop",
                 "ocr_evidence": [
@@ -4040,7 +4215,7 @@
                   }
                 ],
                 "structured_description": {
-                  "description_kk": "Екі жылдамдық (км/сағ), уақыт (сағ) және арақашықтық (км) бос шаршылармен белгіленген. Жебелер ортақ нүктеден қарама-қарсы бағытталған.",
+                  "description_kk": "Екі жылдамдық (км/сағ), уақыт (сағ) және арақашықтық (км) бос шаршылармен белгіленген. Жебелер ортақ нүктеден қарама-қарсы бағытталған. Жебелер, бастапқы орындар және аралықтар өзара байланыстырылды.",
                   "relations": [
                     {
                       "kind": "motion_diagram",
@@ -4056,7 +4231,107 @@
                         "distance_km"
                       ]
                     }
-                  ]
+                  ],
+                  "verification_drawing": {
+                    "width": 740,
+                    "height": 244,
+                    "items": [
+                      {
+                        "type": "line",
+                        "x1": 90,
+                        "y1": 116,
+                        "x2": 642,
+                        "y2": 116,
+                        "color": "#284d77",
+                        "width": 3
+                      },
+                      {
+                        "type": "circle",
+                        "x": 90,
+                        "y": 116,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 362,
+                        "y": 116,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "circle",
+                        "x": 642,
+                        "y": 116,
+                        "r": 4.5,
+                        "fill": "#284d77",
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 362,
+                        "y1": 116,
+                        "x2": 362,
+                        "y2": 80,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 362,
+                        "y1": 80,
+                        "x2": 288,
+                        "y2": 80,
+                        "color": "#284d77",
+                        "arrow": true
+                      },
+                      {
+                        "type": "text",
+                        "x": 325.0,
+                        "y": 69,
+                        "s": "v₁ = □ км/сағ",
+                        "size": 14
+                      },
+                      {
+                        "type": "line",
+                        "x1": 362,
+                        "y1": 116,
+                        "x2": 362,
+                        "y2": 80,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 362,
+                        "y1": 80,
+                        "x2": 436,
+                        "y2": 80,
+                        "color": "#284d77",
+                        "arrow": true
+                      },
+                      {
+                        "type": "text",
+                        "x": 399.0,
+                        "y": 69,
+                        "s": "v₂ = □ км/сағ",
+                        "size": 14
+                      },
+                      {
+                        "type": "text",
+                        "x": 366,
+                        "y": 46,
+                        "s": "□ сағ"
+                      },
+                      {
+                        "type": "bracket",
+                        "x1": 90,
+                        "x2": 642,
+                        "y": 174,
+                        "label": "□ км"
+                      }
+                    ]
+                  }
                 },
                 "crop_asset_id": "math-2023-grade4-part3:lesson-107:m08:sub-Ә:motion-template:crop",
                 "ocr_evidence": [
@@ -8505,5 +8780,349 @@
         }
       ]
     }
-  ]
+  ],
+  "review_revision": {
+    "source_version": "2026-11-26-initial-1",
+    "source_object_ids": [
+      "math-2023-grade4-part3:lesson-107:closing",
+      "math-2023-grade4-part3:lesson-107:header",
+      "math-2023-grade4-part3:lesson-107:header:number",
+      "math-2023-grade4-part3:lesson-107:header:theme",
+      "math-2023-grade4-part3:lesson-107:header:title",
+      "math-2023-grade4-part3:lesson-107:link:note-computing-percent-m03",
+      "math-2023-grade4-part3:lesson-107:link:note-computing-percent-m07",
+      "math-2023-grade4-part3:lesson-107:link:note-computing-percent-m11",
+      "math-2023-grade4-part3:lesson-107:m01",
+      "math-2023-grade4-part3:lesson-107:m01:number",
+      "math-2023-grade4-part3:lesson-107:m01:prompt",
+      "math-2023-grade4-part3:lesson-107:m01:questions",
+      "math-2023-grade4-part3:lesson-107:m01:waste-recycling-chart",
+      "math-2023-grade4-part3:lesson-107:m02",
+      "math-2023-grade4-part3:lesson-107:m02:hundredth-question",
+      "math-2023-grade4-part3:lesson-107:m02:hundredth-question:fraction-2",
+      "math-2023-grade4-part3:lesson-107:m02:hundredth-question:text-1",
+      "math-2023-grade4-part3:lesson-107:m02:hundredth-question:text-3",
+      "math-2023-grade4-part3:lesson-107:m02:number",
+      "math-2023-grade4-part3:lesson-107:m02:prompt",
+      "math-2023-grade4-part3:lesson-107:m03",
+      "math-2023-grade4-part3:lesson-107:m03:number",
+      "math-2023-grade4-part3:lesson-107:m03:prompt",
+      "math-2023-grade4-part3:lesson-107:m03:table",
+      "math-2023-grade4-part3:lesson-107:m03:table:r1c1",
+      "math-2023-grade4-part3:lesson-107:m03:table:r1c2",
+      "math-2023-grade4-part3:lesson-107:m03:table:r1c3",
+      "math-2023-grade4-part3:lesson-107:m03:table:r1c4",
+      "math-2023-grade4-part3:lesson-107:m03:table:r2c1",
+      "math-2023-grade4-part3:lesson-107:m03:table:r2c2",
+      "math-2023-grade4-part3:lesson-107:m03:table:r2c3",
+      "math-2023-grade4-part3:lesson-107:m03:table:r2c4",
+      "math-2023-grade4-part3:lesson-107:m03:table:r3c1",
+      "math-2023-grade4-part3:lesson-107:m03:table:r3c2",
+      "math-2023-grade4-part3:lesson-107:m03:table:r3c3",
+      "math-2023-grade4-part3:lesson-107:m03:table:r3c4",
+      "math-2023-grade4-part3:lesson-107:m03:table:r4c1",
+      "math-2023-grade4-part3:lesson-107:m03:table:r4c2",
+      "math-2023-grade4-part3:lesson-107:m03:table:r4c3",
+      "math-2023-grade4-part3:lesson-107:m03:table:r4c4",
+      "math-2023-grade4-part3:lesson-107:m04",
+      "math-2023-grade4-part3:lesson-107:m04:badge",
+      "math-2023-grade4-part3:lesson-107:m04:continuous-problem",
+      "math-2023-grade4-part3:lesson-107:m04:continuous-problem:fraction-2",
+      "math-2023-grade4-part3:lesson-107:m04:continuous-problem:fraction-4",
+      "math-2023-grade4-part3:lesson-107:m04:continuous-problem:text-1",
+      "math-2023-grade4-part3:lesson-107:m04:continuous-problem:text-3",
+      "math-2023-grade4-part3:lesson-107:m04:continuous-problem:text-5",
+      "math-2023-grade4-part3:lesson-107:m04:number",
+      "math-2023-grade4-part3:lesson-107:m04:prompt",
+      "math-2023-grade4-part3:lesson-107:m05",
+      "math-2023-grade4-part3:lesson-107:m05:number",
+      "math-2023-grade4-part3:lesson-107:m05:prompt",
+      "math-2023-grade4-part3:lesson-107:m05:sub-А",
+      "math-2023-grade4-part3:lesson-107:m05:sub-А:body",
+      "math-2023-grade4-part3:lesson-107:m05:sub-А:number",
+      "math-2023-grade4-part3:lesson-107:m05:sub-Ә",
+      "math-2023-grade4-part3:lesson-107:m05:sub-Ә:body",
+      "math-2023-grade4-part3:lesson-107:m05:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-107:m06",
+      "math-2023-grade4-part3:lesson-107:m06:badge",
+      "math-2023-grade4-part3:lesson-107:m06:expression-19",
+      "math-2023-grade4-part3:lesson-107:m06:expression-20",
+      "math-2023-grade4-part3:lesson-107:m06:expression-21",
+      "math-2023-grade4-part3:lesson-107:m06:expression-22",
+      "math-2023-grade4-part3:lesson-107:m06:number",
+      "math-2023-grade4-part3:lesson-107:m06:prompt",
+      "math-2023-grade4-part3:lesson-107:m07",
+      "math-2023-grade4-part3:lesson-107:m07:badge",
+      "math-2023-grade4-part3:lesson-107:m07:number",
+      "math-2023-grade4-part3:lesson-107:m07:prompt",
+      "math-2023-grade4-part3:lesson-107:m07:table",
+      "math-2023-grade4-part3:lesson-107:m07:table:r1c1",
+      "math-2023-grade4-part3:lesson-107:m07:table:r1c2",
+      "math-2023-grade4-part3:lesson-107:m07:table:r1c3",
+      "math-2023-grade4-part3:lesson-107:m07:table:r1c4",
+      "math-2023-grade4-part3:lesson-107:m07:table:r2c1",
+      "math-2023-grade4-part3:lesson-107:m07:table:r2c2",
+      "math-2023-grade4-part3:lesson-107:m07:table:r2c3",
+      "math-2023-grade4-part3:lesson-107:m07:table:r2c4",
+      "math-2023-grade4-part3:lesson-107:m07:table:r3c1",
+      "math-2023-grade4-part3:lesson-107:m07:table:r3c2",
+      "math-2023-grade4-part3:lesson-107:m07:table:r3c3",
+      "math-2023-grade4-part3:lesson-107:m07:table:r3c4",
+      "math-2023-grade4-part3:lesson-107:m07:table:r4c1",
+      "math-2023-grade4-part3:lesson-107:m07:table:r4c2",
+      "math-2023-grade4-part3:lesson-107:m07:table:r4c3",
+      "math-2023-grade4-part3:lesson-107:m07:table:r4c4",
+      "math-2023-grade4-part3:lesson-107:m07:table:r5c1",
+      "math-2023-grade4-part3:lesson-107:m07:table:r5c2",
+      "math-2023-grade4-part3:lesson-107:m07:table:r5c3",
+      "math-2023-grade4-part3:lesson-107:m07:table:r5c4",
+      "math-2023-grade4-part3:lesson-107:m08",
+      "math-2023-grade4-part3:lesson-107:m08:badge",
+      "math-2023-grade4-part3:lesson-107:m08:number",
+      "math-2023-grade4-part3:lesson-107:m08:prompt",
+      "math-2023-grade4-part3:lesson-107:m08:sub-А",
+      "math-2023-grade4-part3:lesson-107:m08:sub-А:motion-template",
+      "math-2023-grade4-part3:lesson-107:m08:sub-А:number",
+      "math-2023-grade4-part3:lesson-107:m08:sub-Ә",
+      "math-2023-grade4-part3:lesson-107:m08:sub-Ә:motion-template",
+      "math-2023-grade4-part3:lesson-107:m08:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-107:m08:table",
+      "math-2023-grade4-part3:lesson-107:m08:table:r1c1",
+      "math-2023-grade4-part3:lesson-107:m08:table:r1c2",
+      "math-2023-grade4-part3:lesson-107:m08:table:r2c1",
+      "math-2023-grade4-part3:lesson-107:m08:table:r2c2",
+      "math-2023-grade4-part3:lesson-107:m08:table:r3c1",
+      "math-2023-grade4-part3:lesson-107:m08:table:r3c2",
+      "math-2023-grade4-part3:lesson-107:m08:table:r4c1",
+      "math-2023-grade4-part3:lesson-107:m08:table:r4c2",
+      "math-2023-grade4-part3:lesson-107:m08:table:r5c1",
+      "math-2023-grade4-part3:lesson-107:m08:table:r5c2",
+      "math-2023-grade4-part3:lesson-107:m08:table:r6c1",
+      "math-2023-grade4-part3:lesson-107:m08:table:r6c2",
+      "math-2023-grade4-part3:lesson-107:m08:table:r7c1",
+      "math-2023-grade4-part3:lesson-107:m08:table:r7c2",
+      "math-2023-grade4-part3:lesson-107:m09",
+      "math-2023-grade4-part3:lesson-107:m09:badge",
+      "math-2023-grade4-part3:lesson-107:m09:number",
+      "math-2023-grade4-part3:lesson-107:m09:problem",
+      "math-2023-grade4-part3:lesson-107:m09:prompt",
+      "math-2023-grade4-part3:lesson-107:m10",
+      "math-2023-grade4-part3:lesson-107:m10:badge",
+      "math-2023-grade4-part3:lesson-107:m10:number",
+      "math-2023-grade4-part3:lesson-107:m10:problem",
+      "math-2023-grade4-part3:lesson-107:m10:prompt",
+      "math-2023-grade4-part3:lesson-107:m11",
+      "math-2023-grade4-part3:lesson-107:m11:badge",
+      "math-2023-grade4-part3:lesson-107:m11:number",
+      "math-2023-grade4-part3:lesson-107:m11:prompt",
+      "math-2023-grade4-part3:lesson-107:m11:table",
+      "math-2023-grade4-part3:lesson-107:m11:table:r1c1",
+      "math-2023-grade4-part3:lesson-107:m11:table:r1c2",
+      "math-2023-grade4-part3:lesson-107:m11:table:r1c3",
+      "math-2023-grade4-part3:lesson-107:m11:table:r1c4",
+      "math-2023-grade4-part3:lesson-107:m11:table:r2c1",
+      "math-2023-grade4-part3:lesson-107:m11:table:r2c2",
+      "math-2023-grade4-part3:lesson-107:m11:table:r2c3",
+      "math-2023-grade4-part3:lesson-107:m11:table:r2c4",
+      "math-2023-grade4-part3:lesson-107:m11:table:r3c1",
+      "math-2023-grade4-part3:lesson-107:m11:table:r3c2",
+      "math-2023-grade4-part3:lesson-107:m11:table:r3c3",
+      "math-2023-grade4-part3:lesson-107:m11:table:r3c4",
+      "math-2023-grade4-part3:lesson-107:note-percent-of-amount",
+      "math-2023-grade4-part3:lesson-107:note-percent-of-amount:badge",
+      "math-2023-grade4-part3:lesson-107:note-percent-of-amount:first-example",
+      "math-2023-grade4-part3:lesson-107:note-percent-of-amount:first-example:calculation",
+      "math-2023-grade4-part3:lesson-107:note-percent-of-amount:first-example:prompt",
+      "math-2023-grade4-part3:lesson-107:note-percent-of-amount:multiple-percent",
+      "math-2023-grade4-part3:lesson-107:note-percent-of-amount:one-percent",
+      "math-2023-grade4-part3:lesson-107:note-percent-of-amount:second-example",
+      "math-2023-grade4-part3:lesson-107:note-percent-of-amount:second-example:calculation",
+      "math-2023-grade4-part3:lesson-107:note-percent-of-amount:second-example:prompt",
+      "math-2023-grade4-part3:lesson-107:orientation",
+      "math-2023-grade4-part3:lesson-107:orientation:badge",
+      "math-2023-grade4-part3:lesson-107:orientation:objective",
+      "math-2023-grade4-part3:p090",
+      "math-2023-grade4-part3:p091",
+      "math-2023-grade4-part3:p092"
+    ],
+    "equivalent_object_ids": [
+      "math-2023-grade4-part3:lesson-107:closing",
+      "math-2023-grade4-part3:lesson-107:header",
+      "math-2023-grade4-part3:lesson-107:header:number",
+      "math-2023-grade4-part3:lesson-107:header:theme",
+      "math-2023-grade4-part3:lesson-107:header:title",
+      "math-2023-grade4-part3:lesson-107:link:note-computing-percent-m03",
+      "math-2023-grade4-part3:lesson-107:link:note-computing-percent-m07",
+      "math-2023-grade4-part3:lesson-107:link:note-computing-percent-m11",
+      "math-2023-grade4-part3:lesson-107:m01",
+      "math-2023-grade4-part3:lesson-107:m01:number",
+      "math-2023-grade4-part3:lesson-107:m01:prompt",
+      "math-2023-grade4-part3:lesson-107:m01:questions",
+      "math-2023-grade4-part3:lesson-107:m02",
+      "math-2023-grade4-part3:lesson-107:m02:hundredth-question",
+      "math-2023-grade4-part3:lesson-107:m02:hundredth-question:fraction-2",
+      "math-2023-grade4-part3:lesson-107:m02:hundredth-question:text-1",
+      "math-2023-grade4-part3:lesson-107:m02:hundredth-question:text-3",
+      "math-2023-grade4-part3:lesson-107:m02:number",
+      "math-2023-grade4-part3:lesson-107:m02:prompt",
+      "math-2023-grade4-part3:lesson-107:m03",
+      "math-2023-grade4-part3:lesson-107:m03:number",
+      "math-2023-grade4-part3:lesson-107:m03:prompt",
+      "math-2023-grade4-part3:lesson-107:m03:table",
+      "math-2023-grade4-part3:lesson-107:m03:table:r1c1",
+      "math-2023-grade4-part3:lesson-107:m03:table:r1c2",
+      "math-2023-grade4-part3:lesson-107:m03:table:r1c3",
+      "math-2023-grade4-part3:lesson-107:m03:table:r1c4",
+      "math-2023-grade4-part3:lesson-107:m03:table:r2c1",
+      "math-2023-grade4-part3:lesson-107:m03:table:r2c2",
+      "math-2023-grade4-part3:lesson-107:m03:table:r2c3",
+      "math-2023-grade4-part3:lesson-107:m03:table:r2c4",
+      "math-2023-grade4-part3:lesson-107:m03:table:r3c1",
+      "math-2023-grade4-part3:lesson-107:m03:table:r3c2",
+      "math-2023-grade4-part3:lesson-107:m03:table:r3c3",
+      "math-2023-grade4-part3:lesson-107:m03:table:r3c4",
+      "math-2023-grade4-part3:lesson-107:m03:table:r4c1",
+      "math-2023-grade4-part3:lesson-107:m03:table:r4c2",
+      "math-2023-grade4-part3:lesson-107:m03:table:r4c3",
+      "math-2023-grade4-part3:lesson-107:m03:table:r4c4",
+      "math-2023-grade4-part3:lesson-107:m04",
+      "math-2023-grade4-part3:lesson-107:m04:badge",
+      "math-2023-grade4-part3:lesson-107:m04:continuous-problem",
+      "math-2023-grade4-part3:lesson-107:m04:continuous-problem:fraction-2",
+      "math-2023-grade4-part3:lesson-107:m04:continuous-problem:fraction-4",
+      "math-2023-grade4-part3:lesson-107:m04:continuous-problem:text-1",
+      "math-2023-grade4-part3:lesson-107:m04:continuous-problem:text-3",
+      "math-2023-grade4-part3:lesson-107:m04:continuous-problem:text-5",
+      "math-2023-grade4-part3:lesson-107:m04:number",
+      "math-2023-grade4-part3:lesson-107:m04:prompt",
+      "math-2023-grade4-part3:lesson-107:m05",
+      "math-2023-grade4-part3:lesson-107:m05:number",
+      "math-2023-grade4-part3:lesson-107:m05:prompt",
+      "math-2023-grade4-part3:lesson-107:m05:sub-А",
+      "math-2023-grade4-part3:lesson-107:m05:sub-А:body",
+      "math-2023-grade4-part3:lesson-107:m05:sub-А:number",
+      "math-2023-grade4-part3:lesson-107:m05:sub-Ә",
+      "math-2023-grade4-part3:lesson-107:m05:sub-Ә:body",
+      "math-2023-grade4-part3:lesson-107:m05:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-107:m06",
+      "math-2023-grade4-part3:lesson-107:m06:badge",
+      "math-2023-grade4-part3:lesson-107:m06:expression-19",
+      "math-2023-grade4-part3:lesson-107:m06:expression-20",
+      "math-2023-grade4-part3:lesson-107:m06:expression-21",
+      "math-2023-grade4-part3:lesson-107:m06:expression-22",
+      "math-2023-grade4-part3:lesson-107:m06:number",
+      "math-2023-grade4-part3:lesson-107:m06:prompt",
+      "math-2023-grade4-part3:lesson-107:m07",
+      "math-2023-grade4-part3:lesson-107:m07:badge",
+      "math-2023-grade4-part3:lesson-107:m07:number",
+      "math-2023-grade4-part3:lesson-107:m07:prompt",
+      "math-2023-grade4-part3:lesson-107:m07:table",
+      "math-2023-grade4-part3:lesson-107:m07:table:r1c1",
+      "math-2023-grade4-part3:lesson-107:m07:table:r1c2",
+      "math-2023-grade4-part3:lesson-107:m07:table:r1c3",
+      "math-2023-grade4-part3:lesson-107:m07:table:r1c4",
+      "math-2023-grade4-part3:lesson-107:m07:table:r2c1",
+      "math-2023-grade4-part3:lesson-107:m07:table:r2c2",
+      "math-2023-grade4-part3:lesson-107:m07:table:r2c3",
+      "math-2023-grade4-part3:lesson-107:m07:table:r2c4",
+      "math-2023-grade4-part3:lesson-107:m07:table:r3c1",
+      "math-2023-grade4-part3:lesson-107:m07:table:r3c2",
+      "math-2023-grade4-part3:lesson-107:m07:table:r3c3",
+      "math-2023-grade4-part3:lesson-107:m07:table:r3c4",
+      "math-2023-grade4-part3:lesson-107:m07:table:r4c1",
+      "math-2023-grade4-part3:lesson-107:m07:table:r4c2",
+      "math-2023-grade4-part3:lesson-107:m07:table:r4c3",
+      "math-2023-grade4-part3:lesson-107:m07:table:r4c4",
+      "math-2023-grade4-part3:lesson-107:m07:table:r5c1",
+      "math-2023-grade4-part3:lesson-107:m07:table:r5c2",
+      "math-2023-grade4-part3:lesson-107:m07:table:r5c3",
+      "math-2023-grade4-part3:lesson-107:m07:table:r5c4",
+      "math-2023-grade4-part3:lesson-107:m08",
+      "math-2023-grade4-part3:lesson-107:m08:badge",
+      "math-2023-grade4-part3:lesson-107:m08:number",
+      "math-2023-grade4-part3:lesson-107:m08:prompt",
+      "math-2023-grade4-part3:lesson-107:m08:sub-А",
+      "math-2023-grade4-part3:lesson-107:m08:sub-А:number",
+      "math-2023-grade4-part3:lesson-107:m08:sub-Ә",
+      "math-2023-grade4-part3:lesson-107:m08:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-107:m08:table",
+      "math-2023-grade4-part3:lesson-107:m08:table:r1c1",
+      "math-2023-grade4-part3:lesson-107:m08:table:r1c2",
+      "math-2023-grade4-part3:lesson-107:m08:table:r2c1",
+      "math-2023-grade4-part3:lesson-107:m08:table:r2c2",
+      "math-2023-grade4-part3:lesson-107:m08:table:r3c1",
+      "math-2023-grade4-part3:lesson-107:m08:table:r3c2",
+      "math-2023-grade4-part3:lesson-107:m08:table:r4c1",
+      "math-2023-grade4-part3:lesson-107:m08:table:r4c2",
+      "math-2023-grade4-part3:lesson-107:m08:table:r5c1",
+      "math-2023-grade4-part3:lesson-107:m08:table:r5c2",
+      "math-2023-grade4-part3:lesson-107:m08:table:r6c1",
+      "math-2023-grade4-part3:lesson-107:m08:table:r6c2",
+      "math-2023-grade4-part3:lesson-107:m08:table:r7c1",
+      "math-2023-grade4-part3:lesson-107:m08:table:r7c2",
+      "math-2023-grade4-part3:lesson-107:m09",
+      "math-2023-grade4-part3:lesson-107:m09:badge",
+      "math-2023-grade4-part3:lesson-107:m09:number",
+      "math-2023-grade4-part3:lesson-107:m09:problem",
+      "math-2023-grade4-part3:lesson-107:m09:prompt",
+      "math-2023-grade4-part3:lesson-107:m10",
+      "math-2023-grade4-part3:lesson-107:m10:badge",
+      "math-2023-grade4-part3:lesson-107:m10:number",
+      "math-2023-grade4-part3:lesson-107:m10:problem",
+      "math-2023-grade4-part3:lesson-107:m10:prompt",
+      "math-2023-grade4-part3:lesson-107:m11",
+      "math-2023-grade4-part3:lesson-107:m11:badge",
+      "math-2023-grade4-part3:lesson-107:m11:number",
+      "math-2023-grade4-part3:lesson-107:m11:prompt",
+      "math-2023-grade4-part3:lesson-107:m11:table",
+      "math-2023-grade4-part3:lesson-107:m11:table:r1c1",
+      "math-2023-grade4-part3:lesson-107:m11:table:r1c2",
+      "math-2023-grade4-part3:lesson-107:m11:table:r1c3",
+      "math-2023-grade4-part3:lesson-107:m11:table:r1c4",
+      "math-2023-grade4-part3:lesson-107:m11:table:r2c1",
+      "math-2023-grade4-part3:lesson-107:m11:table:r2c2",
+      "math-2023-grade4-part3:lesson-107:m11:table:r2c3",
+      "math-2023-grade4-part3:lesson-107:m11:table:r2c4",
+      "math-2023-grade4-part3:lesson-107:m11:table:r3c1",
+      "math-2023-grade4-part3:lesson-107:m11:table:r3c2",
+      "math-2023-grade4-part3:lesson-107:m11:table:r3c3",
+      "math-2023-grade4-part3:lesson-107:m11:table:r3c4",
+      "math-2023-grade4-part3:lesson-107:note-percent-of-amount",
+      "math-2023-grade4-part3:lesson-107:note-percent-of-amount:badge",
+      "math-2023-grade4-part3:lesson-107:note-percent-of-amount:first-example",
+      "math-2023-grade4-part3:lesson-107:note-percent-of-amount:first-example:calculation",
+      "math-2023-grade4-part3:lesson-107:note-percent-of-amount:first-example:prompt",
+      "math-2023-grade4-part3:lesson-107:note-percent-of-amount:multiple-percent",
+      "math-2023-grade4-part3:lesson-107:note-percent-of-amount:one-percent",
+      "math-2023-grade4-part3:lesson-107:note-percent-of-amount:second-example",
+      "math-2023-grade4-part3:lesson-107:note-percent-of-amount:second-example:calculation",
+      "math-2023-grade4-part3:lesson-107:note-percent-of-amount:second-example:prompt",
+      "math-2023-grade4-part3:lesson-107:orientation",
+      "math-2023-grade4-part3:lesson-107:orientation:badge",
+      "math-2023-grade4-part3:lesson-107:orientation:objective",
+      "math-2023-grade4-part3:p090",
+      "math-2023-grade4-part3:p091",
+      "math-2023-grade4-part3:p092"
+    ],
+    "addressed_record_ids": []
+  },
+  "redraw_validation": {
+    "baseline_content_sha256": "b9bd282219d0ac63fcbde054cc8592631413b3ed868701b0c5ec6feb47eb34d7",
+    "baseline_commit": "389c68b9a11759f9a4b1b74f2253b5be29fabf09",
+    "status": "verified",
+    "images": {
+      "math-2023-grade4-part3:lesson-107:m01:waste-recycling-chart": {
+        "finding_zh": "环图 40% 为绿色回收扇区，60% 为黄色扇区。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-107:m08:sub-А:motion-template": {
+        "finding_zh": "重建箭头、出发点、旗标与标注的独立位置。所有原印空值留空。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-107:m08:sub-Ә:motion-template": {
+        "finding_zh": "重建箭头、出发点、旗标与标注的独立位置。所有原印空值留空。",
+        "status": "verified"
+      }
+    }
+  }
 }

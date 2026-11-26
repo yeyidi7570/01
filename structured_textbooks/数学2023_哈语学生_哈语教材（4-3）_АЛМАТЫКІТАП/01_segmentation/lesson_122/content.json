@@ -1,5 +1,5 @@
 {
-  "data_version": "2026-11-26-initial-1",
+  "data_version": "2026-11-26-redraw-1",
   "review_status": "pending_review",
   "book": {
     "id": "math-2023-grade4-part3",
@@ -1209,7 +1209,7 @@
                   }
                 ],
                 "structured_description": {
-                  "description_kk": "AB — 7, CD — 4 тең бірлік кесінді. A мен C, D мен AB-дің төртінші белгісі штрихпен қосылған.",
+                  "description_kk": "AB — 7, CD — 4 тең бірлік кесінді. A мен C, D мен AB-дің төртінші белгісі штрихпен қосылған. Екі кесінді сол жақтан тураланған, тең бөліктері көрсетілген.",
                   "relations": [
                     {
                       "kind": "aligned_segment_comparison",
@@ -1219,7 +1219,175 @@
                       },
                       "left_aligned": true
                     }
-                  ]
+                  ],
+                  "verification_drawing": {
+                    "width": 710,
+                    "height": 211,
+                    "items": [
+                      {
+                        "type": "line",
+                        "x1": 80,
+                        "y1": 61,
+                        "x2": 465,
+                        "y2": 61,
+                        "color": "#284d77",
+                        "width": 2
+                      },
+                      {
+                        "type": "line",
+                        "x1": 80,
+                        "y1": 53,
+                        "x2": 80,
+                        "y2": 69,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 135,
+                        "y1": 53,
+                        "x2": 135,
+                        "y2": 69,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 190,
+                        "y1": 53,
+                        "x2": 190,
+                        "y2": 69,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 245,
+                        "y1": 53,
+                        "x2": 245,
+                        "y2": 69,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 300,
+                        "y1": 53,
+                        "x2": 300,
+                        "y2": 69,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 355,
+                        "y1": 53,
+                        "x2": 355,
+                        "y2": 69,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 410,
+                        "y1": 53,
+                        "x2": 410,
+                        "y2": 69,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 465,
+                        "y1": 53,
+                        "x2": 465,
+                        "y2": 69,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "text",
+                        "x": 61,
+                        "y": 68,
+                        "s": "A"
+                      },
+                      {
+                        "type": "text",
+                        "x": 484,
+                        "y": 68,
+                        "s": "B"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 80,
+                        "y1": 145,
+                        "x2": 300,
+                        "y2": 145,
+                        "color": "#284d77",
+                        "width": 2
+                      },
+                      {
+                        "type": "line",
+                        "x1": 80,
+                        "y1": 137,
+                        "x2": 80,
+                        "y2": 153,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 135,
+                        "y1": 137,
+                        "x2": 135,
+                        "y2": 153,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 190,
+                        "y1": 137,
+                        "x2": 190,
+                        "y2": 153,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 245,
+                        "y1": 137,
+                        "x2": 245,
+                        "y2": 153,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 300,
+                        "y1": 137,
+                        "x2": 300,
+                        "y2": 153,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "text",
+                        "x": 61,
+                        "y": 152,
+                        "s": "C"
+                      },
+                      {
+                        "type": "text",
+                        "x": 319,
+                        "y": 152,
+                        "s": "D"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 80,
+                        "y1": 70,
+                        "x2": 80,
+                        "y2": 136,
+                        "dash": "4 3"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 300,
+                        "y1": 70,
+                        "x2": 300,
+                        "y2": 136,
+                        "dash": "4 3"
+                      }
+                    ]
+                  }
                 },
                 "crop_asset_id": "math-2023-grade4-part3:lesson-122:m02:sub-А:segments:crop",
                 "ocr_evidence": [
@@ -1362,7 +1530,7 @@
                   }
                 ],
                 "structured_description": {
-                  "description_kk": "AB — 7, CD — 10 тең бірлік кесінді. A мен C, B мен CD-нің жетінші белгісі штрихпен қосылған.",
+                  "description_kk": "AB — 7, CD — 10 тең бірлік кесінді. A мен C, B мен CD-нің жетінші белгісі штрихпен қосылған. Екі кесінді сол жақтан тураланған, тең бөліктері көрсетілген.",
                   "relations": [
                     {
                       "kind": "aligned_segment_comparison",
@@ -1372,7 +1540,223 @@
                       },
                       "left_aligned": true
                     }
-                  ]
+                  ],
+                  "verification_drawing": {
+                    "width": 710,
+                    "height": 211,
+                    "items": [
+                      {
+                        "type": "line",
+                        "x1": 80,
+                        "y1": 61,
+                        "x2": 465,
+                        "y2": 61,
+                        "color": "#284d77",
+                        "width": 2
+                      },
+                      {
+                        "type": "line",
+                        "x1": 80,
+                        "y1": 53,
+                        "x2": 80,
+                        "y2": 69,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 135,
+                        "y1": 53,
+                        "x2": 135,
+                        "y2": 69,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 190,
+                        "y1": 53,
+                        "x2": 190,
+                        "y2": 69,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 245,
+                        "y1": 53,
+                        "x2": 245,
+                        "y2": 69,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 300,
+                        "y1": 53,
+                        "x2": 300,
+                        "y2": 69,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 355,
+                        "y1": 53,
+                        "x2": 355,
+                        "y2": 69,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 410,
+                        "y1": 53,
+                        "x2": 410,
+                        "y2": 69,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 465,
+                        "y1": 53,
+                        "x2": 465,
+                        "y2": 69,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "text",
+                        "x": 61,
+                        "y": 68,
+                        "s": "A"
+                      },
+                      {
+                        "type": "text",
+                        "x": 484,
+                        "y": 68,
+                        "s": "B"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 80,
+                        "y1": 145,
+                        "x2": 630,
+                        "y2": 145,
+                        "color": "#284d77",
+                        "width": 2
+                      },
+                      {
+                        "type": "line",
+                        "x1": 80,
+                        "y1": 137,
+                        "x2": 80,
+                        "y2": 153,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 135,
+                        "y1": 137,
+                        "x2": 135,
+                        "y2": 153,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 190,
+                        "y1": 137,
+                        "x2": 190,
+                        "y2": 153,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 245,
+                        "y1": 137,
+                        "x2": 245,
+                        "y2": 153,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 300,
+                        "y1": 137,
+                        "x2": 300,
+                        "y2": 153,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 355,
+                        "y1": 137,
+                        "x2": 355,
+                        "y2": 153,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 410,
+                        "y1": 137,
+                        "x2": 410,
+                        "y2": 153,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 465,
+                        "y1": 137,
+                        "x2": 465,
+                        "y2": 153,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 520,
+                        "y1": 137,
+                        "x2": 520,
+                        "y2": 153,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 575,
+                        "y1": 137,
+                        "x2": 575,
+                        "y2": 153,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 630,
+                        "y1": 137,
+                        "x2": 630,
+                        "y2": 153,
+                        "color": "#284d77"
+                      },
+                      {
+                        "type": "text",
+                        "x": 61,
+                        "y": 152,
+                        "s": "C"
+                      },
+                      {
+                        "type": "text",
+                        "x": 649,
+                        "y": 152,
+                        "s": "D"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 80,
+                        "y1": 70,
+                        "x2": 80,
+                        "y2": 136,
+                        "dash": "4 3"
+                      },
+                      {
+                        "type": "line",
+                        "x1": 465,
+                        "y1": 70,
+                        "x2": 465,
+                        "y2": 136,
+                        "dash": "4 3"
+                      }
+                    ]
+                  }
                 },
                 "crop_asset_id": "math-2023-grade4-part3:lesson-122:m02:sub-Ә:segments:crop",
                 "ocr_evidence": [
@@ -6733,5 +7117,240 @@
         }
       ]
     }
-  ]
+  ],
+  "review_revision": {
+    "source_version": "2026-11-26-initial-1",
+    "source_object_ids": [
+      "math-2023-grade4-part3:lesson-122:closing",
+      "math-2023-grade4-part3:lesson-122:header",
+      "math-2023-grade4-part3:lesson-122:header:number",
+      "math-2023-grade4-part3:lesson-122:header:theme",
+      "math-2023-grade4-part3:lesson-122:header:title",
+      "math-2023-grade4-part3:lesson-122:m01",
+      "math-2023-grade4-part3:lesson-122:m01:body-9",
+      "math-2023-grade4-part3:lesson-122:m01:number",
+      "math-2023-grade4-part3:lesson-122:m01:prompt",
+      "math-2023-grade4-part3:lesson-122:m01:table",
+      "math-2023-grade4-part3:lesson-122:m01:table:r1c1",
+      "math-2023-grade4-part3:lesson-122:m01:table:r1c2",
+      "math-2023-grade4-part3:lesson-122:m01:table:r1c3",
+      "math-2023-grade4-part3:lesson-122:m01:table:r1c4",
+      "math-2023-grade4-part3:lesson-122:m01:table:r2c1",
+      "math-2023-grade4-part3:lesson-122:m01:table:r2c2",
+      "math-2023-grade4-part3:lesson-122:m01:table:r2c3",
+      "math-2023-grade4-part3:lesson-122:m01:table:r2c4",
+      "math-2023-grade4-part3:lesson-122:m01:table:r3c1",
+      "math-2023-grade4-part3:lesson-122:m01:table:r3c2",
+      "math-2023-grade4-part3:lesson-122:m01:table:r3c3",
+      "math-2023-grade4-part3:lesson-122:m01:table:r3c4",
+      "math-2023-grade4-part3:lesson-122:m01:table:r4c1",
+      "math-2023-grade4-part3:lesson-122:m01:table:r4c2",
+      "math-2023-grade4-part3:lesson-122:m01:table:r4c3",
+      "math-2023-grade4-part3:lesson-122:m01:table:r4c4",
+      "math-2023-grade4-part3:lesson-122:m02",
+      "math-2023-grade4-part3:lesson-122:m02:badge",
+      "math-2023-grade4-part3:lesson-122:m02:number",
+      "math-2023-grade4-part3:lesson-122:m02:prompt",
+      "math-2023-grade4-part3:lesson-122:m02:sub-А",
+      "math-2023-grade4-part3:lesson-122:m02:sub-А:body",
+      "math-2023-grade4-part3:lesson-122:m02:sub-А:number",
+      "math-2023-grade4-part3:lesson-122:m02:sub-А:segments",
+      "math-2023-grade4-part3:lesson-122:m02:sub-Ә",
+      "math-2023-grade4-part3:lesson-122:m02:sub-Ә:body",
+      "math-2023-grade4-part3:lesson-122:m02:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-122:m02:sub-Ә:segments",
+      "math-2023-grade4-part3:lesson-122:m03",
+      "math-2023-grade4-part3:lesson-122:m03:badge",
+      "math-2023-grade4-part3:lesson-122:m03:number",
+      "math-2023-grade4-part3:lesson-122:m03:prompt",
+      "math-2023-grade4-part3:lesson-122:m03:sub-А",
+      "math-2023-grade4-part3:lesson-122:m03:sub-А:number",
+      "math-2023-grade4-part3:lesson-122:m03:sub-А:trains",
+      "math-2023-grade4-part3:lesson-122:m03:sub-А:trains:fraction-2",
+      "math-2023-grade4-part3:lesson-122:m03:sub-А:trains:text-1",
+      "math-2023-grade4-part3:lesson-122:m03:sub-А:trains:text-3",
+      "math-2023-grade4-part3:lesson-122:m03:sub-Ә",
+      "math-2023-grade4-part3:lesson-122:m03:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-122:m03:sub-Ә:unknown",
+      "math-2023-grade4-part3:lesson-122:m03:sub-Ә:unknown:fraction-2",
+      "math-2023-grade4-part3:lesson-122:m03:sub-Ә:unknown:text-1",
+      "math-2023-grade4-part3:lesson-122:m03:sub-Ә:unknown:text-3",
+      "math-2023-grade4-part3:lesson-122:m04",
+      "math-2023-grade4-part3:lesson-122:m04:badge",
+      "math-2023-grade4-part3:lesson-122:m04:number",
+      "math-2023-grade4-part3:lesson-122:m04:prompt",
+      "math-2023-grade4-part3:lesson-122:m04:reserve-groups",
+      "math-2023-grade4-part3:lesson-122:m04:reserve-groups:fraction-2",
+      "math-2023-grade4-part3:lesson-122:m04:reserve-groups:text-1",
+      "math-2023-grade4-part3:lesson-122:m04:reserve-groups:text-3",
+      "math-2023-grade4-part3:lesson-122:m05",
+      "math-2023-grade4-part3:lesson-122:m05:expr-12",
+      "math-2023-grade4-part3:lesson-122:m05:expr-12:fraction-1",
+      "math-2023-grade4-part3:lesson-122:m05:expr-12:fraction-2",
+      "math-2023-grade4-part3:lesson-122:m05:expr-12:fraction-3",
+      "math-2023-grade4-part3:lesson-122:m05:expr-12:fraction-4",
+      "math-2023-grade4-part3:lesson-122:m05:expr-12:symbols-2",
+      "math-2023-grade4-part3:lesson-122:m05:expr-12:symbols-3",
+      "math-2023-grade4-part3:lesson-122:m05:expr-12:symbols-4",
+      "math-2023-grade4-part3:lesson-122:m05:expr-16",
+      "math-2023-grade4-part3:lesson-122:m05:expr-16:closing-symbols",
+      "math-2023-grade4-part3:lesson-122:m05:expr-16:fraction-1",
+      "math-2023-grade4-part3:lesson-122:m05:expr-16:fraction-2",
+      "math-2023-grade4-part3:lesson-122:m05:expr-16:fraction-3",
+      "math-2023-grade4-part3:lesson-122:m05:expr-16:fraction-4",
+      "math-2023-grade4-part3:lesson-122:m05:expr-16:symbols-2",
+      "math-2023-grade4-part3:lesson-122:m05:expr-16:symbols-3",
+      "math-2023-grade4-part3:lesson-122:m05:expr-16:symbols-4",
+      "math-2023-grade4-part3:lesson-122:m05:number",
+      "math-2023-grade4-part3:lesson-122:m05:prompt",
+      "math-2023-grade4-part3:lesson-122:m06",
+      "math-2023-grade4-part3:lesson-122:m06:badge",
+      "math-2023-grade4-part3:lesson-122:m06:body-31",
+      "math-2023-grade4-part3:lesson-122:m06:number",
+      "math-2023-grade4-part3:lesson-122:m06:prompt",
+      "math-2023-grade4-part3:lesson-122:m07",
+      "math-2023-grade4-part3:lesson-122:m07:badge",
+      "math-2023-grade4-part3:lesson-122:m07:body-35",
+      "math-2023-grade4-part3:lesson-122:m07:number",
+      "math-2023-grade4-part3:lesson-122:m07:prompt",
+      "math-2023-grade4-part3:lesson-122:m08",
+      "math-2023-grade4-part3:lesson-122:m08:badge",
+      "math-2023-grade4-part3:lesson-122:m08:number",
+      "math-2023-grade4-part3:lesson-122:m08:prompt",
+      "math-2023-grade4-part3:lesson-122:m08:vegetables",
+      "math-2023-grade4-part3:lesson-122:m08:vegetables:fraction-2",
+      "math-2023-grade4-part3:lesson-122:m08:vegetables:fraction-4",
+      "math-2023-grade4-part3:lesson-122:m08:vegetables:text-1",
+      "math-2023-grade4-part3:lesson-122:m08:vegetables:text-3",
+      "math-2023-grade4-part3:lesson-122:m08:vegetables:text-5",
+      "math-2023-grade4-part3:lesson-122:orientation",
+      "math-2023-grade4-part3:lesson-122:orientation:badge",
+      "math-2023-grade4-part3:lesson-122:orientation:objective",
+      "math-2023-grade4-part3:p136",
+      "math-2023-grade4-part3:p137"
+    ],
+    "equivalent_object_ids": [
+      "math-2023-grade4-part3:lesson-122:closing",
+      "math-2023-grade4-part3:lesson-122:header",
+      "math-2023-grade4-part3:lesson-122:header:number",
+      "math-2023-grade4-part3:lesson-122:header:theme",
+      "math-2023-grade4-part3:lesson-122:header:title",
+      "math-2023-grade4-part3:lesson-122:m01",
+      "math-2023-grade4-part3:lesson-122:m01:body-9",
+      "math-2023-grade4-part3:lesson-122:m01:number",
+      "math-2023-grade4-part3:lesson-122:m01:prompt",
+      "math-2023-grade4-part3:lesson-122:m01:table",
+      "math-2023-grade4-part3:lesson-122:m01:table:r1c1",
+      "math-2023-grade4-part3:lesson-122:m01:table:r1c2",
+      "math-2023-grade4-part3:lesson-122:m01:table:r1c3",
+      "math-2023-grade4-part3:lesson-122:m01:table:r1c4",
+      "math-2023-grade4-part3:lesson-122:m01:table:r2c1",
+      "math-2023-grade4-part3:lesson-122:m01:table:r2c2",
+      "math-2023-grade4-part3:lesson-122:m01:table:r2c3",
+      "math-2023-grade4-part3:lesson-122:m01:table:r2c4",
+      "math-2023-grade4-part3:lesson-122:m01:table:r3c1",
+      "math-2023-grade4-part3:lesson-122:m01:table:r3c2",
+      "math-2023-grade4-part3:lesson-122:m01:table:r3c3",
+      "math-2023-grade4-part3:lesson-122:m01:table:r3c4",
+      "math-2023-grade4-part3:lesson-122:m01:table:r4c1",
+      "math-2023-grade4-part3:lesson-122:m01:table:r4c2",
+      "math-2023-grade4-part3:lesson-122:m01:table:r4c3",
+      "math-2023-grade4-part3:lesson-122:m01:table:r4c4",
+      "math-2023-grade4-part3:lesson-122:m02",
+      "math-2023-grade4-part3:lesson-122:m02:badge",
+      "math-2023-grade4-part3:lesson-122:m02:number",
+      "math-2023-grade4-part3:lesson-122:m02:prompt",
+      "math-2023-grade4-part3:lesson-122:m02:sub-А",
+      "math-2023-grade4-part3:lesson-122:m02:sub-А:body",
+      "math-2023-grade4-part3:lesson-122:m02:sub-А:number",
+      "math-2023-grade4-part3:lesson-122:m02:sub-Ә",
+      "math-2023-grade4-part3:lesson-122:m02:sub-Ә:body",
+      "math-2023-grade4-part3:lesson-122:m02:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-122:m03",
+      "math-2023-grade4-part3:lesson-122:m03:badge",
+      "math-2023-grade4-part3:lesson-122:m03:number",
+      "math-2023-grade4-part3:lesson-122:m03:prompt",
+      "math-2023-grade4-part3:lesson-122:m03:sub-А",
+      "math-2023-grade4-part3:lesson-122:m03:sub-А:number",
+      "math-2023-grade4-part3:lesson-122:m03:sub-А:trains",
+      "math-2023-grade4-part3:lesson-122:m03:sub-А:trains:fraction-2",
+      "math-2023-grade4-part3:lesson-122:m03:sub-А:trains:text-1",
+      "math-2023-grade4-part3:lesson-122:m03:sub-А:trains:text-3",
+      "math-2023-grade4-part3:lesson-122:m03:sub-Ә",
+      "math-2023-grade4-part3:lesson-122:m03:sub-Ә:number",
+      "math-2023-grade4-part3:lesson-122:m03:sub-Ә:unknown",
+      "math-2023-grade4-part3:lesson-122:m03:sub-Ә:unknown:fraction-2",
+      "math-2023-grade4-part3:lesson-122:m03:sub-Ә:unknown:text-1",
+      "math-2023-grade4-part3:lesson-122:m03:sub-Ә:unknown:text-3",
+      "math-2023-grade4-part3:lesson-122:m04",
+      "math-2023-grade4-part3:lesson-122:m04:badge",
+      "math-2023-grade4-part3:lesson-122:m04:number",
+      "math-2023-grade4-part3:lesson-122:m04:prompt",
+      "math-2023-grade4-part3:lesson-122:m04:reserve-groups",
+      "math-2023-grade4-part3:lesson-122:m04:reserve-groups:fraction-2",
+      "math-2023-grade4-part3:lesson-122:m04:reserve-groups:text-1",
+      "math-2023-grade4-part3:lesson-122:m04:reserve-groups:text-3",
+      "math-2023-grade4-part3:lesson-122:m05",
+      "math-2023-grade4-part3:lesson-122:m05:expr-12",
+      "math-2023-grade4-part3:lesson-122:m05:expr-12:fraction-1",
+      "math-2023-grade4-part3:lesson-122:m05:expr-12:fraction-2",
+      "math-2023-grade4-part3:lesson-122:m05:expr-12:fraction-3",
+      "math-2023-grade4-part3:lesson-122:m05:expr-12:fraction-4",
+      "math-2023-grade4-part3:lesson-122:m05:expr-12:symbols-2",
+      "math-2023-grade4-part3:lesson-122:m05:expr-12:symbols-3",
+      "math-2023-grade4-part3:lesson-122:m05:expr-12:symbols-4",
+      "math-2023-grade4-part3:lesson-122:m05:expr-16",
+      "math-2023-grade4-part3:lesson-122:m05:expr-16:closing-symbols",
+      "math-2023-grade4-part3:lesson-122:m05:expr-16:fraction-1",
+      "math-2023-grade4-part3:lesson-122:m05:expr-16:fraction-2",
+      "math-2023-grade4-part3:lesson-122:m05:expr-16:fraction-3",
+      "math-2023-grade4-part3:lesson-122:m05:expr-16:fraction-4",
+      "math-2023-grade4-part3:lesson-122:m05:expr-16:symbols-2",
+      "math-2023-grade4-part3:lesson-122:m05:expr-16:symbols-3",
+      "math-2023-grade4-part3:lesson-122:m05:expr-16:symbols-4",
+      "math-2023-grade4-part3:lesson-122:m05:number",
+      "math-2023-grade4-part3:lesson-122:m05:prompt",
+      "math-2023-grade4-part3:lesson-122:m06",
+      "math-2023-grade4-part3:lesson-122:m06:badge",
+      "math-2023-grade4-part3:lesson-122:m06:body-31",
+      "math-2023-grade4-part3:lesson-122:m06:number",
+      "math-2023-grade4-part3:lesson-122:m06:prompt",
+      "math-2023-grade4-part3:lesson-122:m07",
+      "math-2023-grade4-part3:lesson-122:m07:badge",
+      "math-2023-grade4-part3:lesson-122:m07:body-35",
+      "math-2023-grade4-part3:lesson-122:m07:number",
+      "math-2023-grade4-part3:lesson-122:m07:prompt",
+      "math-2023-grade4-part3:lesson-122:m08",
+      "math-2023-grade4-part3:lesson-122:m08:badge",
+      "math-2023-grade4-part3:lesson-122:m08:number",
+      "math-2023-grade4-part3:lesson-122:m08:prompt",
+      "math-2023-grade4-part3:lesson-122:m08:vegetables",
+      "math-2023-grade4-part3:lesson-122:m08:vegetables:fraction-2",
+      "math-2023-grade4-part3:lesson-122:m08:vegetables:fraction-4",
+      "math-2023-grade4-part3:lesson-122:m08:vegetables:text-1",
+      "math-2023-grade4-part3:lesson-122:m08:vegetables:text-3",
+      "math-2023-grade4-part3:lesson-122:m08:vegetables:text-5",
+      "math-2023-grade4-part3:lesson-122:orientation",
+      "math-2023-grade4-part3:lesson-122:orientation:badge",
+      "math-2023-grade4-part3:lesson-122:orientation:objective",
+      "math-2023-grade4-part3:p136",
+      "math-2023-grade4-part3:p137"
+    ],
+    "addressed_record_ids": []
+  },
+  "redraw_validation": {
+    "baseline_content_sha256": "a527bfd4130f18a7784f2c4e6241476d714002cc33fbf61b632a6614ea4e76b2",
+    "baseline_commit": "389c68b9a11759f9a4b1b74f2253b5be29fabf09",
+    "status": "verified",
+    "images": {
+      "math-2023-grade4-part3:lesson-122:m02:sub-А:segments": {
+        "finding_zh": "明确一端对齐和较短线段端点的垂直虚线，保留 7 与 4 或 10 个等距小段。",
+        "status": "verified"
+      },
+      "math-2023-grade4-part3:lesson-122:m02:sub-Ә:segments": {
+        "finding_zh": "明确一端对齐和较短线段端点的垂直虚线，保留 7 与 4 或 10 个等距小段。",
+        "status": "verified"
+      }
+    }
+  }
 }
