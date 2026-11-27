@@ -5,7 +5,7 @@ from restore_thin_graphics import restore
 P=Path('/workspace/math2026p2_work');name='数学2026_哈语学生_哈语教材（4-2）_АЛМАТЫКІТАП';out=Path('/workspace/output')/(name+'_OCR.pdf');doc=fitz.open();audit=[]
 for j in range(6):
  d=fitz.open(P/f'batch{j}.pdf');assert len(d)==30;
- 
+
  for k in range(len(d)):
   n=j*30+k+1
   if n in [82,97,168,173]:
