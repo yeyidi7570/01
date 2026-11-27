@@ -1,0 +1,21 @@
+{
+  "page": 179,
+  "pdf_page_number": 179,
+  "width": 1190,
+  "height": 1684,
+  "lines": [],
+  "provenance": {
+    "engine": "PP-OCRv5",
+    "detection": "PP-OCRv5_mobile_det",
+    "recognition": "cyrillic_PP-OCRv5_mobile_rec",
+    "language": "kk-Cyrl"
+  },
+  "math_regions": [],
+  "uncertainties": [],
+  "review": {
+    "rounds": 2,
+    "independent_image_proofreading": true,
+    "main_adjudication": "source_crop_comparison",
+    "source_preserved": true
+  }
+}

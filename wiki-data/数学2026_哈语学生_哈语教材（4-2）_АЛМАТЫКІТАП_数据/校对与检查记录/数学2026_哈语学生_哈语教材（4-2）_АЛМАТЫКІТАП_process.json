@@ -1,0 +1,23 @@
+{
+  "book": "数学2026_哈语学生_哈语教材（4-2）_АЛМАТЫКІТАП",
+  "language": "kk-Cyrl",
+  "pdf_pages": 180,
+  "source_sha256": "cbf4523add551ffe045c456f2042e813c4ac84bff49105cb9a0fe091bb2b49d4",
+  "ocr_models": [
+    "PP-OCRv5_mobile_det",
+    "cyrillic_PP-OCRv5_mobile_rec"
+  ],
+  "layout_model": "PP-DocLayout-S",
+  "proofreading": {
+    "round1_agents": 6,
+    "round2_new_agents": 6,
+    "round2_received_first_round_results": false,
+    "all_180_source_page_images_directly_viewed_in_each_round": true,
+    "main_review": "75 source-crop comparison sheets covering text, additions, math regions and spacing; spatial OCR fragments reconciled within reviewed math regions"
+  },
+  "original_pdf_has_text_layer": false,
+  "spread_splitting": "not needed; 180 portrait single-page source pages retained",
+  "repository_base_commit": "eee44874",
+  "created_at_utc": "2026-11-27T04:46:33.695286+00:00",
+  "semantics": "No new formal modules, KLP, difficulty or solutions generated."
+}

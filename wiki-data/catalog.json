@@ -265,6 +265,23 @@
       "table_candidates": 22,
       "directory": "数学2023_俄语学生_俄语教材（4-4）_АЛМАТЫКІТАП_数据",
       "original_basename": "数学2023_俄语学生_俄语教材（4-4）_АЛМАТЫКІТАП"
+    },
+    {
+      "book_id": "math-2026-grade4-part2",
+      "source_filename": "数学2026_哈语学生_哈语教材（4-2）_АЛМАТЫКІТАП.pdf",
+      "pages": 180,
+      "wiki_json": "数学2026_哈语学生_哈语教材（4-2）_АЛМАТЫКІТАП_数据/数学2026_哈语学生_哈语教材（4-2）_АЛМАТЫКІТАП_Wiki.json",
+      "raw_json": "数学2026_哈语学生_哈语教材（4-2）_АЛМАТЫКІТАП_数据/数学2026_哈语学生_哈语教材（4-2）_АЛМАТЫКІТАП_原始OCR.json",
+      "final_json": "数学2026_哈语学生_哈语教材（4-2）_АЛМАТЫКІТАП_数据/数学2026_哈语学生_哈语教材（4-2）_АЛМАТЫКІТАП_最终校对.json",
+      "source_pdf_sha256": "cbf4523add551ffe045c456f2042e813c4ac84bff49105cb9a0fe091bb2b49d4",
+      "page_count": 180,
+      "total_final_lines": 13277,
+      "active_final_lines": 11989,
+      "question_candidates": 0,
+      "assets": 4697,
+      "all_final_lines_exported": true,
+      "directory": "数学2026_哈语学生_哈语教材（4-2）_АЛМАТЫКІТАП_数据",
+      "original_basename": "数学2026_哈语学生_哈语教材（4-2）_АЛМАТЫКІТАП"
     }
   ]
 }
